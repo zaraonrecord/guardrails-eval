@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "82de12192083c84806a842a70ea78fb35c70a76aba39d02e95f89608e77cf725",
+ "result": "## Claims check\n\n| Claim in draft | Status |\n|---|---|\n| \"Good tea, guaranteed.\" | **Unsupported.** Policy §3 bans \"guaranteed\". |\n| \"Risk-free.\" | **Unsupported.** Policy §3 bans \"risk-free\". We have no such offer. |\n| \"Certified organic by the Soil Association\" | Allowlisted (certificate on file, renewed 2026). |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n\n## Problems\n\n1. **\"guaranteed\"** is a banned guarantee. Nothing in the brand's offer backs it, and it could mislead readers into thinking there is a money-back promise.\n2. **\"Risk-free\"** is also banned, for the same reason. Together, these two lead the hero and imply an offer that doesn't exist.\n\nThe rest of the draft is fine: the three proven claims are worded in line with the allowlist, there are no health or green claims, no fake urgency, and no banned voice words. \"Good tea\" is vague but not a superlative.\n\n## Compliant version\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want to keep a reassurance angle, the allowlist supports \"Subscribers can pause or cancel any time\" instead. Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107843,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

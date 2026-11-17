@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5c43fb34ca10ff1cf40a6f27919a084c579c600fbda5bb98bbf9c146e25d724f",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"Organic loose leaf\" | Allowlisted (Soil Association certified, renewed 2026) |\n| \"plastic-free bags\" | Allowlisted (plastic-free tea bags, EN 13432 certificate) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n\n**Other checks**\n- **Banned words and structures:** none. There are no superlatives, guarantees, health claims, vague green claims, urgency, or banned voice words.\n- **Disclosure:** none needed. This is our own landing hero, not a creator or affiliate post.\n- **Voice:** plain and unhurried, UK spelling. It leads with a concrete fact.\n- **Proof:** the rating is from October 2026, so it is current. The \"on our website\" qualifier is kept, which it needs.\n\n**Optional note, not blocking:** the allowlist says \"every *tin*\" is hand-packed. In the draft, \"packed by hand\" could also be read as covering the tea bags. If the bags are not hand-packed, say \"Every tin packed by hand in Bristol\". Otherwise it is fine as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015726300000000002,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

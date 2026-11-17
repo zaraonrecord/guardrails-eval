@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a33abbb779d0c50488004cd68120bdcfb15d505c7ffa88c578cfe900d850b4cd",
+ "result": "**Review of \"How to brew loose leaf without a teapot\"**\n\n**Claims check:** The brewing advice (mug, small sieve, about four minutes for black tea, shorter and cooler for green) is product and brewing information, which the policy allows as written. There are no statistics, superlatives, guarantees, testimonials, health claims, green claims, or urgency tactics. Nothing in it needs a disclosure label.\n\n**Problem:** \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is generic filler. It could be about any tea brand, says nothing specific, and adds nothing to a practical how-to email. I'd cut it, or replace it with something useful like a suggested tea to try or a link to the loose leaf range.\n\n**Suggested fix:** Delete that sentence, or swap it for a concrete line such as the water temperature for green tea, which the draft currently leaves vague.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011758,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

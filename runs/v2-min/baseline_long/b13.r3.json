@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: paid creator post**\n\n**Label:** The draft opens with \"Ad\", which is upfront, first, and clear. That meets the requirement for a paid post.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" is on the approved list (\"every tin is packed by hand in Bristol\"). Fine.\n- \"a pot of Pebblebrook's Assam\" is a product fact. Fine.\n- \"My afternoon reset... ten minutes away from my phone\" is a personal routine and a lifestyle description, not a health or body-function claim. It doesn't promise an effect on the body. Fine.\n- \"which I love\" is clearly personal opinion. Fine.\n\n**Style:** It sounds like a real person, it is short, and it has no clichés, no filler, and no hype. \"Reset\" is mild lifestyle language and describes the experience rather than an effect.\n\n**Other checks:** No numbers, no urgency, no guarantee, no green claim, no superlatives, no testimonials from others, no affiliate link or pricing to check.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006506900000000001,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

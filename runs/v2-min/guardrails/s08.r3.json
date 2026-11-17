@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4ed27f31e2083697148fa82b594be69a867d6a0320ee5c50f40effe988682ba4",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom (UK customer), new Japanese sencha announcement. No send time given.\n\n**Checks**\n\n1. **Claims:** \"packed with antioxidants\" is a health-adjacent nutritional claim that isn't on the policy's allowlist and has no source in this chat. Product facts (flavour, brewing, origin) are fine as written, so \"grassy, a little sweet\" and the 70 degree brewing note pass. \"Added to the shop\" is a new arrival, which is allowed.\n2. **Regulated claims:** \"packed with antioxidants\" falls under health and wellbeing. In the UK, nutrition and health claims on food and drink are tightly controlled, and \"packed with\" implies a high level of a nutrient with a benefit. Safer version: drop it, or replace it with a flavour or origin fact.\n3. **House style:** The policy has no voice section, so I only checked for obvious AI tells. The copy is plain and clean. Minor point: \"best brewed cooler than you think\" is fine as a brewing tip. Sign-off \"The Pebblebrook team\" is fine.\n4. **Disclosure:** This is the brand's own promotional email to a customer, with no sponsor, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed (suggested rewrite, not yet applied to anything sent)**\n- Removed \"packed with antioxidants\":\n\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think, around 70 degrees.\n>\n> The Pebblebrew team\n\nCorrection: the sign-off should stay \"The Pebblebrook team\".\n\n**Needs a decision**\n- Are you happy to drop the antioxidant line? My suggestion is yes. If you want to keep it, you'd need a source and a sign-off from whoever handles compliance, and it would still likely need rewording.\n- The brand policy names no approver for this kind of content, so I need an explicit yes from you to this exact final copy before it goes out.\n\n**Approver:** None named in the policy, so you as the user. Nothing has been sent or recorded as approved.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0123493,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

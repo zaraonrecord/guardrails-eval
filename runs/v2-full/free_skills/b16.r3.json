@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "5c43fb34ca10ff1cf40a6f27919a084c579c600fbda5bb98bbf9c146e25d724f",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026). It names the source (\"on our website\"), so it isn't presented as a general rating. |\n| \"Organic loose leaf\" | Allowlisted (Soil Association certificate, renewed 2026). |\n| \"plastic-free bags\" | Allowlisted (plastic-free, EN 13432 certificate). |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Invented numbers or testimonials:** none. Both figures come straight from the allowlist.\n- **Voice and slop:** no banned words, no em-dash asides, no exclamation points, no rhetorical opener. The first sentence leads with a concrete fact. UK spelling is fine.\n- **Required disclosure:** none applies. This is our own landing page, not a partnership or affiliate post.\n\n**Notes (not blocking)**\n- The allowlist says tins are packed by hand. If the tea bags ship in boxes rather than tins, \"packed by hand\" is a slight stretch for the bags. Confirm with operations, or reword to \"Every tin packed by hand in Bristol\".\n- The review figure is dated October 2026. Refresh it if the count or rating has moved before it goes out.\n- Per the policy, Sam needs to approve it, since it's public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014444299999999998,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

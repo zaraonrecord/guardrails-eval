@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "faa69ed2794a0b9d3cb4a983d72e08753a8ac345cac4e92bb45ab83975c0aaab",
+ "result": "**Review of search ad draft**\n\n- **\"Plastic-Free Tea Bags\"** (headline): Supported. Section 2 backs the plastic-free claim.\n- **\"Our tea bags are plastic-free and home compostable.\"**: Exact wording from the allowlist, backed by the EN 13432 supplier certificate. Fine.\n- **\"Recommended by nutritionists.\"**: This is a problem. It is not in the allowlist, and nothing on file supports it. It works as an invented testimonial or endorsement, and it also implies a health benefit through the nutrition angle. It should come out. The main issue is the unsupported endorsement, so I've classed it as fake_testimonial.\n\nNo label is needed. It is a paid search ad from our own account, and the disclosure rules cover only creator partnerships and affiliate links. Voice and UK spelling are fine, and there are no banned words.\n\n**Suggested fix:** Remove the final sentence. \"Plastic-Free Tea Bags | Our tea bags are plastic-free and home compostable.\" is publishable as is. Sam needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008408099999999998,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

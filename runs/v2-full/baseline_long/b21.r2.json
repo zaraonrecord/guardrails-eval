@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Verdict: hold. One sentence needs proof before this goes out.**\n\nSentence by sentence:\n\n1. **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the approved claim (Companies House). Fine.\n2. **\"We're a small team of six\"** Team size is a product-team-checked fact and can be used as written. Fine.\n3. **\"every tin is packed by hand in Bristol\"** This matches the approved claim (Operations). Fine.\n4. **\"We buy from gardens we've visited.\"** This is a factual claim about the company's sourcing practice. It isn't in the claims table, and it isn't a product fact like where a tea is grown or when it's picked. It also says something strong: that the team has visited every garden it buys from. Nothing in the policy backs that up. Either get written confirmation from the product team or operations that every supplying garden has been visited, or cut the sentence. If only some gardens have been visited, say that. For example, name the gardens that have been visited, once the product team confirms them.\n\nStyle and tone: the copy is plain and warm, uses UK spelling, and has none of the banned words or AI clichés. No labels are needed on an about page. There are no health, green, superlative, guarantee or urgency issues.\n\nOnce sentence 4 is substantiated or removed, the rest can go out. Per the policy, Sam needs to approve it before it is public.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0132404,
+ "seconds": 17.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

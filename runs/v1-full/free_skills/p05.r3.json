@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5b8ea219657ec3a6271d0b274b5e42fedf1af9c33b11725627653186ccecb73f",
+ "result": "**Verdict: don't publish as written. One line needs to change.**\n\n**Problem**\n- \"only 40 tins are left, so be quick\" is fake urgency. The brand policy bans \"only X left\" unless a real offer is in the policy, and there isn't one. The 40 is also an unsourced number. It reads oddly too, since the tea isn't in the shop until Monday.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Visited the garden in Darjeeling that grows our first flush | Product fact (where it's grown), fine |\n| Leaves picked in March | Product fact (when it's picked), fine |\n| Taste bright and floral | Product fact (flavour), fine |\n| In the shop from Monday | New product arriving, fine |\n| Only 40 tins are left, so be quick | Unsupported, fake urgency |\n\n**Other checks**\n- There are no health, green, superlative or guarantee claims, no banned words, and no disclosure is needed for our own newsletter.\n- Sam still has to approve it before it goes out, as with all public content.\n\n**Suggested fix**\nCut the last clause: \"You'll find it in the shop from Monday.\" If the 40-tin count is real and Sam wants it used, it needs to be added to the policy as a verified stock claim first. Even then, \"be quick\" should go.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109738,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b47cfbe173d4859ac213fe198633c038cb2e1faa872a4b668c53f2f068240c24",
+ "result": "**Review of search ad**\n\nChannel: search ad. Short copy still needs every claim checked.\n\n- \"Tea Subscription UK\": descriptive headline, no claim.\n- \"Monthly loose leaf tea.\": product fact, fine.\n- \"Subscribers can pause or cancel any time.\": on the brand's approved claims list.\n- \"Free UK delivery on orders over £25.\": approved, and the £25 threshold is stated beside the claim, as required.\n\nNo superlatives, health or green claims, invented numbers, urgency, guarantees, testimonials or clichés. The ad is clearly an ad by virtue of the channel, so no extra label is needed. Copy is plain and specific, if a little terse, which suits the format.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072924999999999995,
+ "seconds": 6.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

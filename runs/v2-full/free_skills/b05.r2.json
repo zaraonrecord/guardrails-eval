@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "30461d446429bcf8b001c13dcbe6ea1654a1f66896a4c855cf7db7854b31f591",
+ "result": "**Review result: clear to publish, pending Sam's sign-off.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording. Source is the October 2026 review export, so it's current |\n\nThere are no superlatives, guarantees, health claims, green claims, urgency, testimonials or invented numbers.\n\n**Other checks**\n- **Disclosure:** This is our own account, not a paid or gifted partnership or an affiliate link, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice and slop:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and UK spelling is fine. The tone is warm, plain and unhurried.\n- **Approval:** Everything public needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0098955,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

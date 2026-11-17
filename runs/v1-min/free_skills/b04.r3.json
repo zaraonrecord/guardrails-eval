@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "98f03107e0c565aad22eb3b7f69ecd2252b66b36de139ba1bd56c4c57be76acd",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea that stands up to milk\" | Product fact (flavour and brewing), fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin\" | Product fact (size), fine |\n| \"makes around 40 cups\" | Product fact (brewing yield), fine. \"Around\" keeps it soft. |\n\n**Slop check:** No ban-list words, no exclamation points, no rhetorical opener, no em-dash sandwiches, no \"not just X, it's Y\", no fake urgency. The copy is short, concrete and specific.\n\n**Other checks:** There are no superlatives, guarantees, testimonials, health claims or green claims beyond the allowlisted organic certification. There are no affiliate links or sponsorship, so no disclosure is needed. The page makes no price or delivery claims, so nothing needs verifying there.\n\n**Verdict:** Nothing needs changing. It can be published as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083501,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

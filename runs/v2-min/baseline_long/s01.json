@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc922395ee026fe09affc35150db2271d441be18df0bd05fe6650c1e567b357b",
+ "result": "**Review of the Instagram draft (own account)**\n\nSentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact about ingredients. The policy allows this as written.\n3. \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\" The approved claim is 4.8 out of 5 from over 1,200 reviews on the website. \"Over 2,000\" is a different figure, and I have no evidence for it. The rating is a number and must match the source exactly. This is an invented/inflated stat.\n\nLabels: it is the brand's own account, so no \"Ad\" label is needed. No health, green, urgency or guarantee claims. Tone is specific and natural, with no AI clichés.\n\n**Fix:** change to \"over 1,200 reviews\" (or drop the review count). Once corrected, it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083945,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c87f5e2ccbc0d072a40b57aa604f4ed40f9fd7fd14a08f74539c8f58737d995a",
+ "result": "**Review: landing hero**\n\nClaims check against the brand policy:\n- \"packed by hand in Bristol\" – approved (every tin is packed by hand in Bristol).\n- \"certified organic by the Soil Association\" – approved.\n- \"Free UK delivery on orders over £25\" – approved, and the threshold is stated next to the claim.\n\nNo health, green, superlative, urgency, guarantee or testimonial issues. No ad label is needed on the brand's own landing page.\n\nStyle: the packed-by-hand-in-Bristol point is made twice in a short piece (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). This is repetition and should be fixed before publishing. Suggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0063814,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

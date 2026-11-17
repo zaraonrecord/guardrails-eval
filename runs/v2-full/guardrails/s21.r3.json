@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8ecab01fbf2931ccc047783822ea84539967d63ef1f7b4ba2f3ce7e671376c25",
+ "result": "# Publish gate report\n\n**Going out:** Search ad, headline \"Plastic-Free Tea Bags\", description with plastic-free/compostable claim plus \"Recommended by nutritionists.\"\n**Approver:** Sam (marketing lead)\n\n## Checks\n\n**Claims**\n- \"Plastic-free\" and \"home compostable\": on the policy list (supplier certificate, EN 13432). Pass. Note the policy wording is \"plastic-free and home compostable\" and the draft matches it.\n- \"Recommended by nutritionists\": not on the policy list and no source given. It implies an endorsement by professionals, which we can't evidence. It also edges into health territory, since nutritionists speak to health and diet, and the policy bans health claims of any kind. Unproven, so it comes out.\n\n**Regulated claims:** The nutritionist line implies a health endorsement. Remove it. Nothing else touches health, money, children, prices or the environment beyond the approved compostable claim.\n\n**House style:** Plain and unhurried, no banned words, no AI tells. Passes once the nutritionist line is gone.\n\n**Disclosure:** Paid search ad from our own account, platform-marked. No extra label needed. Pass.\n\n## Fixed\n- Removed \"Recommended by nutritionists.\" (unproven endorsement and implied health claim).\n\n## Suggested replacement copy\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n(The delivery line is on the policy list. Optional, and it needs a fresh check if you use different wording.)\n\n## Needs a decision\n- Does Sam want the delivery line added, or keep the description to the single compostable claim? My suggestion: add it.\n- If the team does have nutritionist endorsements, send the names, permission and source and we can revisit it. Until then it stays out.\n\n## Approval\nNot approved yet. Sam needs to give an explicit yes to the final wording above. The draft as submitted should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098947,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

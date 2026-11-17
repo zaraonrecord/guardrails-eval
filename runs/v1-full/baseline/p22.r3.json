@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1a36c956d747abd72f36377c937af3ad957bcd1aeac4d9db20730312eedca8a5",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problems**\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim (cures bloating), which the policy bans in any form. It's also a testimonial that isn't in our approved claims, so we can't show it's real or that the buyer agreed to its use. It has to come out entirely. Rewording it wouldn't fix it.\n\n**What's fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": ingredient and flavour facts, covered by product-team-checked facts.\n- \"Lovely with milk\": plain serving suggestion, in voice.\n- \"100g tin\": tin size, a product fact.\n- No banned words, no superlatives, no urgency, and no green claims.\n\n**Suggested fix**\n\nDelete the testimonial. The rest can stand as it is:\n\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\nOptionally, a line on how to brew it could be added once the product team confirms the guidance. Once the testimonial is removed, it needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074876,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "232da0aa801cdd281a228b5c75f4090641f5c7c95bcaf9e85f6f88276435f0fb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim. It's vague, but it breaks no rule |\n\nNo invented stats, superlatives, guarantees, health claims, green claims or fake urgency. No disclosure label is needed, because this is our own account and the platform marks paid ads.\n\n**Problem: banned phrase**\n- \"In today's fast-paced world\" is on both the brand's banned list and the slop ban list. It is also throat-clearing, since the opening sentence should carry the most useful fact. Cut it.\n\n**Suggested rewrite**\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Before it goes out**\n- Keep the rating wording exactly as it is, and make sure the landing page the post points to shows the same rating.\n- Sam needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0103526,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

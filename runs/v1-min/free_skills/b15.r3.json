@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8dd6f442dfe736b5ba4617d29ddad9c92a8d62f230291779bb52d3adcf4b5edd",
+ "result": "**Not ready to publish.** Three things need to change.\n\n**1. No product label (Owned / Tried / Wishlist).**\nThe draft doesn't say whether the writer owns Pebblebrook, tried it briefly, or only researched it. I can't assume ownership. \"I've tried four tea subscriptions this year\" and the comments on the tins are hands-on claims, which are only allowed if the writer actually used the product. Please confirm:\n- Which label applies to Pebblebrook, and for how long it was used.\n- Whether the other three subscriptions were really tried, because the comparison depends on it.\n\nIf Pebblebrook is Wishlist, the hands-on lines have to be cut.\n\n**2. Affiliate disclosure is in the wrong place.**\n\"(Affiliate link)\" appears after the link, in brackets. The rule is a plain-words declaration at the top of the post, before the first link. Suggested opening line: \"This post contains an affiliate link. If you buy through it, I may earn a commission at no extra cost to you.\"\n\n**3. \"Easiest to pause\" is a comparative claim.**\nOur backed claim is only that \"subscribers can pause or cancel any time\". \"Easiest\" ranks Pebblebrook against the other three, and nothing on the allowlist supports that. It can stay only if the writer actually paused all four and says so, with specifics (e.g. \"paused in two clicks from the account page\"). Otherwise use the allowlisted wording: \"You can pause or cancel any time.\"\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"tried four tea subscriptions this year\" | Unverified, needs the writer's confirmation |\n| \"easiest to pause\" | Unsupported comparison, needs a rewrite or evidence |\n| \"the tins are lovely\" | Opinion, fine only if Owned or Tried |\n| Affiliate link | Disclosed, but too late and not in plain words |\n\nNo invented stats, testimonials, guarantees, or green or health claims are present.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"other\"}, {\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016764400000000002,
+ "seconds": 27.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

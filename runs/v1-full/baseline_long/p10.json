@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba0a0a7ffbdd15d9cdf37b8bf0e95cc26e59b913fdec61b919eced4adf36da9c",
+ "result": "**Review of the sencha email**\n\nClaims check: \"We've added a Japanese sencha to the shop\" is a product fact (new product arriving), fine. \"Grassy and a little sweet\" is flavour, fine. \"Best brewed cooler than you think, around 70 degrees\" is brewing guidance, fine. \"Best\" here describes brewing temperature, not a superiority claim. No health, green, guarantee, urgency or stat issues. No ad or affiliate label is needed: it's the brand's own email.\n\nVoice: \"It's not just tea, it's a ritual.\" is the banned \"it's not just X, it's Y\" construction in the brand policy. It's also a formula line that adds nothing. It needs rewriting, e.g. \"It's a tea worth slowing down for.\" or simply dropping it.\n\nOptional polish: the subject \"A new green tea\" is accurate (sencha is a green tea). \"70 degrees\" could read \"70°C\" for clarity. Neither blocks publication.\n\nDecision: hold until the banned phrase is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0086307,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

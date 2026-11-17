@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "261a8b062283636d1afab2361fa40c5c76fdc933fe8b05eec4520683d55e31df",
+ "result": "I read the whole draft as Tom would see it: a short, plain brand email announcing a new product.\n\n**Claims:** The only statements are product facts: a Japanese sencha has been added, it's grassy and a little sweet, and it brews best at around 70 degrees. The policy treats flavour, origin, brewing and new arrivals as fine as written. There are no numbers, ratings, superlatives, health claims, green claims, guarantees, urgency or pricing claims.\n\n**Labels:** This is the brand's own email to a named recipient, so it needs no \"Ad\" label. No affiliate links or paid placements appear.\n\n**Subject line:** \"A new green tea\" accurately reflects the content. The email does say it's a sencha, which is a green tea, so it doesn't mislead.\n\n**Style:** The copy is short, specific and in a human voice. \"Best brewed cooler than you think\" is a brewing tip rather than a superiority claim. There are no AI clichés, filler or repetition. Spelling is UK-consistent. \"70 degrees\" is fine for a UK audience, though adding \"°C\" would be an optional polish.\n\n**Decision:** Nothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00676,
+ "seconds": 6.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

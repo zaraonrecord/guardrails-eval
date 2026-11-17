@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "426f51e364850d6fa140a4d9dd59d4d339ec615f8aee0b3ca652336af581e4cc",
+ "result": "**Going out:** Instagram post on the brand's own account, with no timing given.\n\n**Checks**\n- **Claims:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy's allowlist row exactly. The claim stays tied to the website, which is correct. The Earl Grey details (real bergamot oil, a little cornflower) are product facts and are fine as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children, prices or offers.\n- **House style:** It reads as human and specific, with no stock openers, no banned-style phrasing and no tidy-triplet or slogan closer. Nothing needs rewriting.\n- **Disclosure:** This is the brand's own post about its own product. There is no paid partnership, affiliate link, gifted product or AI-generated imagery mentioned, so no label is needed. If the image is AI-generated and realistic, add a \"Made with AI\" label.\n\n**Fixed:** Nothing, as no changes were needed.\n\n**Needs a decision:** Nothing on the content. The policy names no approver, so I need an explicit yes to this exact text from you, or whoever owns the Pebblebrook account, before it is published. I haven't recorded any approval.\n\n**Approver:** Not named in the policy, so you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010146299999999999,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

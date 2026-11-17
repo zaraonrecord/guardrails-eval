@@ -1,10 +1,14 @@
 {
  "case": "b06",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "The draft is clean, so I'd publish it as written.\n\n**Claims check**\n- \"visited the garden in Darjeeling that grows our first flush\": origin fact, allowed as written.\n- \"The leaves are picked in March\": product and origin fact, allowed.\n- \"taste bright and floral\": flavour description, allowed.\n- \"in the shop from Monday\": a new arrival, allowed. It's a real launch date, not fake urgency or scarcity.\n\nThere are no numbers, comparisons, superlatives, guarantees, testimonials, review counts, awards, health claims or green claims. Nothing in the draft is unsupported.\n\n**Slop check**\n- It has no banned vocabulary, em-dash sandwiches, exclamation points, rhetorical-question opener, \"not just X, it's Y\" construction or abstract-noun triad.\n- The first sentence gives a concrete fact, and the copy is specific and plain.\n\n**Disclosure**\nNothing here needs one. It's not a review, affiliate post or sponsored piece.\n\nOne small thing to confirm, though it doesn't block publishing: that \"Monday\" resolves to the right date for when subscribers read it, since newsletters can be opened days later.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011528299999999998,
- "seconds": 10.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d90adb1eafc55a2f75179719a8186371a5e518f898d4152e5bd740d46cc16eaa",
+ "result": "I checked the draft against the claims allowlist, the slop rules and the disclosure rules. It's clean, so it can go out.\n\n**Claims list**\n- \"visited the garden in Darjeeling that grows our first flush\": origin and sourcing fact, covered by the product-facts allowance.\n- \"picked in March\": product fact (origin and harvest).\n- \"taste bright and floral\": flavour description, covered by the product-facts allowance.\n- \"in the shop from Monday\": new-arrival fact. It's a real launch date, not fake urgency, as long as Monday is the actual date.\n\n**Other checks**\n- Numbers, superlatives, guarantees, testimonials, reviews: none.\n- Health, green or regulated claims: none.\n- Ban-list words and structural problems (em-dash asides, exclamation marks, rhetorical openers, abstract-noun triads): none. The opening sentence leads with a concrete fact.\n- Disclosure: this isn't a review, and there are no affiliate links or sponsorships.\n\n**Before sending:** confirm the visit happened this month and that the tea really goes on sale on Monday. Both are the sender's own facts, so I can't check them here.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119683,
+ "seconds": 10.3,
  "models": [
   "claude-sonnet-5-5"
  ]

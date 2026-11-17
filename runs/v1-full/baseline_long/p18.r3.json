@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6df44a6d45a6a5970cd1fae5b1b104f8e13bee164ca7a29a300a7195b6a5f044",
+ "result": "**Review: brew-without-a-teapot email**\n\nChannel: email, brand-owned, so no \"Ad\" label is needed. No affiliate links or creator content.\n\n**Claims check**\n- \"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\" This is brewing guidance, which the product team checks and which is fine to use as written. No problem.\n- No numbers, ratings, guarantees, health claims, green claims, urgency or testimonials. The subject line matches the content and isn't misleading.\n\n**Voice check**\n- \"Unlock your tea journey.\" Both \"unlock\" and \"journey\" are on the brand's banned list. It is also a generic, machine-sounding opener that doesn't fit \"warm, plain, unhurried\". Fix: cut it, or say something plain like \"You don't need a teapot to enjoy loose leaf.\"\n- Minor, optional: the email is very short and ends without a sign-off line or call to action. Not a blocker. Spelling is fine for UK English.\n\n**Decision:** Hold. One line breaks the brand's voice rules and needs rewording, then it can go out (it still needs Sam's approval, as all public content does).\n\nSuggested rewrite of the line: \"Good news: you don't need a teapot. You don't need any kit.\"\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007517899999999999,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

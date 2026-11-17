@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c8e7a7f1efc9b7982d0f584ce0d1f5c3ce4b40c20e21fa949c75fe988b32e8c4",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Best tea I've ever had\" - Emma, Leeds | Unsupported. A testimonial with a name and location that isn't in the allowlist or supplied with a source in this chat. It's also a superlative. |\n\n**Problems**\n\n1. **Testimonial:** \"Best tea I've ever had\" - Emma, Leeds. No source is provided, and the allowlist has no customer quotes. Treat it as invented until someone supplies a real, permissioned review. Remove it, or add `[PROOF NEEDED: real customer review with permission to quote]`.\n2. **Superlative:** \"Best tea I've ever had\" is also a superlative. Even if Emma is real, the ad presents it as a claim about the product, and it needs support.\n3. **Ad/landing page consistency:** Any claim in the ad should also appear on the landing page. I can't see the landing page, so please check that the plastic-free and home compostable claims are stated there.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nThe extra delivery line is allowlisted and optional. If you'd rather keep the original, just drop the testimonial. I haven't been given character limits, so I haven't counted against any. Headline is 22 characters, if a 30-character limit applies.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088005,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

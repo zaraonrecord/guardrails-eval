@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "24542a86c3c6f681efbea02e8ccf6ff6a8f8e487faca2b0252c706edf781576b",
+ "result": "**Review of the product page draft**\n\nChecked against the brand policy:\n\n1. **\"to help you wind down and sleep better\"** is a health claim. Policy section 3 bans health claims of any kind, and improving sleep falls under that. It needs to go or be reworded to something descriptive, such as a flavour or when people like to drink it, without promising an effect on sleep.\n\n2. **\"Certified organic by the Soil Association\"** matches the allowlist wording exactly. Fine.\n\n3. **\"20 plastic-free tea bags\"** is a product fact (cup count) and \"plastic-free\" is on the allowlist. Fine.\n\n4. **\"caffeine-free\"** and **\"gentle, honeyed\"** are ingredient and flavour facts, which the product team checks. Fine.\n\n5. Voice and spelling: no banned words, UK spelling, tone is plain and warm. Fine.\n\n6. No superlatives, guarantees, invented numbers, urgency or missing labels (this is our own product page, so no partnership or affiliate wording is needed).\n\nSuggested fix: replace the sleep line with something like \"A gentle, honeyed caffeine-free blend, lovely in the evening.\" That keeps the warm tone without implying an effect. It also needs Sam's approval before going live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009002099999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

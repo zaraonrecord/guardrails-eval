@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "36ac348254a6c3cffa94dbc5653b7e9720710516636b2b40d5be933aedb1f9a8",
+ "result": "**Review of the Chamomile and Lemon Balm product page copy**\n\nChecks against the brand policy:\n\n- **\"Certified organic by the Soil Association\"**: on the allowlist. Fine.\n- **\"20 plastic-free tea bags\"**: plastic-free is on the allowlist, and the count is a product fact. Fine.\n- **\"caffeine-free blend\"**: a product fact about ingredients. Fine.\n- **\"gentle, honeyed\"**: flavour description. Fine.\n- **\"to help you wind down and sleep better\"**: this is a health claim. Saying a tea improves sleep is a functional or health benefit that isn't on the allowlist and can't be backed up by the brand's approved claims. In the UK, health claims on food and drink must be authorised under the GB Nutrition and Health Claims register, and \"sleep better\" isn't something we've substantiated. It should be removed or reworded to something like a flavour or ritual description (e.g. \"a soothing blend to enjoy in the evening\").\n\nNo invented stats, superlatives, guarantees, testimonials, fake urgency or green claims beyond the allowed ones. The copy is short and reads naturally.\n\n**Recommendation:** don't publish as is. Fix the sleep claim first.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010252,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

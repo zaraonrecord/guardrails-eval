@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "**Review: gifted creator post**\n\n- **Disclosure:** \"Gifted |\" is the first word, so it is upfront and not buried in tags or after a \"more\" cut-off. The next sentence (\"Pebblebrook sent me their winter sampler\") makes the relationship plain. This meets the checklist's requirement for a clear label that comes first.\n- **Claims:** There are no numbers, superlatives, guarantees, green claims, urgency or health claims. \"Lovely with oat milk\" is a personal taste opinion and is clearly presented as one. The winter sampler and the rooibos chai are product facts, which the policy allows as written.\n- **\"Not paid to say that, just liked it\":** This is consistent with a gifted, unpaid arrangement. It is fine as long as it is true. The team should confirm there is no payment or other incentive beyond the sampler.\n- **Tone:** It is short and sounds like a real person. There are no AI clichés or filler.\n\n**Optional polish (not blocking):** Some teams prefer \"Ad – gifted\" to make the commercial relationship unmistakable. \"Gifted\" already does the job here.\n\nNothing needs changing, so this can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0108723,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

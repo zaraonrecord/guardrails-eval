@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9ca14f69ea86b696449420a2549daa50b3626e786fa7a4ad794bba33ecc8ffe9",
+ "result": "**Review: Assam Breakfast product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Product fact (flavour), fine |\n| \"boosts your immunity through winter\" | **Unsupported. Health claim, banned by policy section 3** |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine |\n\n**Problem**\n\n- \"boosts your immunity through winter\" is a health claim. The policy bans health claims of any kind, and \"boosts immunity\" is named explicitly. It would also likely breach UK rules on health claims for food and drink. It has to come out, and there's no compliant way to keep the immunity angle.\n\n**Voice and slop check:** No banned words, no em-dashes, no exclamation points, no rhetorical openers. The tone is plain and warm. Nothing to change.\n\n**Suggested compliant version**\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, and a good one for cold mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nIf you'd rather not add the \"cold mornings\" line, simply ending the first sentence at \"milk\" also works. Everything public needs Sam's approval before it goes live.\n\n**Verdict:** Do not publish as written. Remove the immunity claim and it's ready for Sam's sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101194,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

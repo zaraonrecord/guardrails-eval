@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "bad1b33df0e723d70531c7fc1f7ddff69445d75e5b7805757b832f300c503ce8",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (paid), promoting Pebblebrook Tea Co. to UK audience.\n\n**Checks**\n\n1. **Claims:** \"Packed by hand in Bristol\" is on the policy list (\"every tin is packed by hand in Bristol\"). Passes. \"Assam\" is a product fact, fine as written. \"Afternoon reset\" and \"ten minutes away from my phone\" are the creator's own routine, not brand claims. No stats, superlatives, guarantees or health claims. \"Which I love\" is a personal opinion, acceptable.\n2. **Regulated claims:** Nothing on health, money, legal, environment, children or prices. \"Reset\" is a lifestyle phrase, not a wellness claim. Passes.\n3. **House style:** I don't have a voice section in the policy to score against, so I can't give a formal score. The copy is plain and specific, with no obvious AI tells. Passes on what's visible.\n4. **Disclosure:** **Fails.** This is a paid creator post, and nothing in it says so. UK rules (ASA/CAP and CMA) require clear, upfront labelling of paid partnerships. The post reads as an organic personal recommendation.\n\n**Fixed:** Nothing changed yet. I haven't edited the copy, because the label wording and placement depend on the platform.\n\n**Needs a decision**\n- Add an upfront label at the very start, e.g. \"Ad | Paid partnership with Pebblebrook Tea Co.\" Suggested revision:\n  > **Ad – paid partnership with Pebblebrook Tea Co.** My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n- Use the platform's own paid-partnership tool as well, where it exists.\n- Confirm whether the creator also received free product or commission, since that should be reflected in the label.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes from you (or whoever owns this content) on the exact final wording above. I won't record any approval myself. Once you approve the labelled version, I can re-check it before it goes out.\n\n**Verdict:** Do not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107113,
+ "seconds": 16.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

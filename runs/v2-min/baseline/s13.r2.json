@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "af2864b3886031dfe6f8d2759118e63f9e2d5934c8a7f49ba198e9ab576836e9",
+ "result": "**Review of the creator post (paid)**\n\n- **Brand claims:** \"Their tins are packed by hand in Bristol\" is on the allowlist, so it's fine. The Assam and the afternoon pot are product and personal-experience content, which is also fine.\n- **Health claims:** \"Ten minutes away from my phone\" and the #selfcare and #slowliving tags are lifestyle framing. They don't claim any treatment or health benefit.\n- **Invented stats, superlatives, guarantees, urgency:** none found.\n- **Disclosure:** This is a paid post, and the only label is \"#ad\", sitting fifth in a string of seven hashtags. The UK ad rules (ASA/CAP) expect the disclosure to be obvious and upfront, not buried among tags where readers skip over it. Move it to the start of the post, for example \"Ad | Paid partnership with Pebblebrook Tea Co.\" or \"#ad\" as the first words, and keep the other hashtags separate.\n\nFix the label placement, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01484,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

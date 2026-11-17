@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3cd11fa5acd278935e8eeffd03e75edfa2b5f381bda68304a0b5a74e6cadec0f",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Needs changing**\n- **\"Was £12, now £8.\"** This presents a reduced price (a 33% cut), but nothing in the brand policy covers a sale or a previous price. Prices and offers aren't in the claims allowlist or the product facts. A \"was\" price also has to be a price the tin was genuinely sold at, or it could mislead customers. Before publishing, confirm with Sam that £12 was a real previous price and that the £8 offer is approved. If it can't be confirmed, state only the current price.\n\n**Checked and fine**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" is an ingredient fact, so it's fine as written. It isn't a health claim.\n- \"Lovely with milk\" is a plain taste suggestion.\n- \"100g tin\" is a tin size, which is a product fact.\n- There are no superlatives, guarantees, health or green claims, invented stats, or urgency wording.\n- The voice is warm and plain, with no banned words, and the spelling is UK.\n\nEverything else is clean, so the draft can go to Sam once the price is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012884099999999999,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

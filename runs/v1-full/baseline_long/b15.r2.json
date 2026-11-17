@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3b30e558e9ee30bbb9e892d1eae9c7e6eba3576824d02cb46e04256c1a36b3c",
+ "result": "**Review of the draft (affiliate review blog)**\n\n- **Affiliate disclosure:** The policy requires \"Affiliate link\" next to the link, and the draft has \"(Affiliate link)\" directly beside \"here\". It is in plain words and appears before anyone could miss it, so it meets the requirement.\n- **\"Easiest to pause\":** This is the reviewer's own first-person opinion, not a brand claim. It also fits the approved fact that subscribers can pause or cancel any time. It makes no wider promise about how easy cancelling is.\n- **\"I've tried four tea subscriptions this year\":** This is the reviewer's own experience and doesn't make a product claim. It is not an invented statistic about the brand.\n- **\"The tins are lovely\":** This is personal opinion, not a superlative or a factual claim.\n- **Health, green, guarantee, urgency, superlatives:** None appear.\n- **Voice:** The tone is plain and warm, with no banned words or AI clichés. It uses UK conventions.\n- **Other labels:** Nothing in the draft says the product was gifted or that the post is a paid partnership. If either applies, the post would need to open with \"Gifted\" or \"Ad\". I have no information suggesting that, so I'm not flagging it. It is worth confirming with the reviewer.\n\nThe copy can go out. Sam still needs to approve it, as the policy requires for all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012744700000000001,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

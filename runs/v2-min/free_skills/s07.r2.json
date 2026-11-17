@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6c7d6654c66ac82079005299de89604f562d016143681dbf84bb667049646b42",
+ "result": "**Claims list**\n\n- \"Chamomile and Lemon Balm\": product fact, fine.\n- \"gentle, honeyed caffeine-free blend\": flavour/product description, fine. Caffeine-free is a product fact (chamomile and lemon balm contain none).\n- \"to help you wind down and sleep better\": health claim. Not on the allowlist, no source supplied. Sleep benefit is regulated territory, and \"sleep better\" is a hard outcome claim. Unsupported.\n- \"Certified organic by the Soil Association\": allowlisted.\n- \"20 plastic-free tea bags\": allowlisted (plastic-free), and count is a product fact (sizes).\n\n**Problems**\n\n1. \"to help you wind down and sleep better\" makes a health benefit claim with no backing. In the UK, herbal products can't make sleep or relaxation claims without authorised or substantiated evidence (GB nutrition and health claims rules), and it would also risk platform and ASA scrutiny. Remove it or replace it with a non-health description, such as when people like to drink it (\"an evening cup\") or flavour notes.\n\n2. No other issues. No slop-vocabulary, no fake urgency, no invented stats. The draft is a bit terse, but that's not a publication blocker.\n\n**Suggested compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, made for evening cups. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nVerdict: do not publish as written. Fix the sleep claim first.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101603,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "60feb75867f8835451c3f98658ee5a085e5e463c7064c55b8bab373759bdbf8b",
+ "result": "**Verdict: hold it, one line needs to change.**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- No numbers, superlatives, guarantees, testimonials, reviews, health, money or green claims. No fake urgency, no affiliate or sponsorship content.\n\n**Problem**\n- \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" This is the \"whether you're X or Y\" filler construction, and \"a cup for everyone\" is an abstract claim that says nothing concrete. It also fails the \"compared to what?\" test. Cut it, or replace it with something specific, such as a named Pebblebrook tea that suits the mug-and-sieve method (a product fact, so allowed).\n\n**Minor note, not blocking:** the most useful fact (mug, sieve, four minutes) sits in the second sentence. Opening with it would be sharper, but it's not a policy failure.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013342300000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b83d910a4eb2edbd60a852fcf90411d35a229157bd843e8ca3dbb06cf6b33109",
+ "result": "**Review: Pebblebrook peppermint product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal.\" | Flavour and sensory description, fine. It says nothing about digestion, settling the stomach or any other health effect. Don't extend it that way. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording (certificate renewed 2026) |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health claims:** none. \"Cool and clean after a big meal\" stays on the safe side of the line.\n- **Green claims:** only the allowlisted organic certification.\n- **Banned words and slop:** no hits. The voice is plain and unhurried, and there are no exclamation points, rhetorical openers or \"not just X, it's Y\" constructions.\n- **Disclosures:** this is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Approval:** Sam (marketing lead) needs to sign off on everything public, so get that before it goes live.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097212,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

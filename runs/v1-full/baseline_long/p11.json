@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "01bf9d54f2bf9dc99514c843c743a49d9a1b0ad470e3cce300763d0149a30d3d",
+ "result": "**Review of the social ad (own account)**\n\n**Sentence by sentence**\n\n1. \"Three teas for your desk drawer.\" Description. Fine.\n2. \"9 out of 10 customers reorder within a month.\" This is a statistic. It isn't in the approved claims list, and the policy bans invented numbers and statistics. No evidence is on file. Flag it as an invented stat. Fix: remove it, or replace it with the approved \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (using that exact wording).\n3. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description. \"For after lunch\" is a usage suggestion, not a health claim (it says nothing about digestion). Fine.\n4. \"Free UK delivery on orders over £25.\" Matches the approved claim exactly. Fine.\n\n**Labels:** It's a paid social ad from the brand's own account, which the platform marks. No extra label is needed.\n\n**Voice and style:** Warm, plain, short, UK spelling. No banned words or AI clichés. Fine.\n\n**Decision:** Hold. The \"9 out of 10 customers reorder within a month\" line is an unsupported, invented statistic. Once it is removed or replaced with an approved claim, the rest can go out. Per the policy, Sam needs to approve it before it is public.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096347,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

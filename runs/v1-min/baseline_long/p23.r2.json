@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cab0ea9eb62e564eb51a8e3502bf3fd2a60d1d434836d880d8801b6558920f4f",
+ "result": "**Review: landing hero**\n\nClaim by claim:\n\n- **\"Good tea, guaranteed.\"** This is a guarantee with no terms behind it. The brand policy does not list any guarantee or money-back promise. It is also vague about what is guaranteed (taste? satisfaction? refund?), and a customer could reasonably rely on it. Flag.\n- **\"Risk-free.\"** This is an implied guarantee, also with no stated terms (returns, refunds, conditions). The policy only backs \"subscribers can pause or cancel any time\", which is not the same as risk-free. Flag.\n- **\"Certified organic by the Soil Association\"**: approved in the policy. Fine.\n- **\"packed by hand in Bristol\"**: policy says every tin is packed by hand in Bristol. Fine.\n- **\"free UK delivery on orders over £25\"**: matches the policy, and the threshold is stated. Fine.\n\nStyle: the copy is short and specific, with no AI clichés. No issues there.\n\n**Decision:** hold. The two guarantee phrases need either real, agreed terms from the business (with the main conditions shown nearby) or removal. A fix that works with the approved claims: \"Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25. Pause or cancel your subscription any time.\"\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007806299999999999,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

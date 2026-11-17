@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cbe92c85c5f1ec24d02914ab8f1f7cb66bdc9687cf415d5640fa47a84b6b31aa",
+ "result": "**Not ready to publish.** Two claims need to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted |\n| \"organic\" | Allowlisted (certified organic by the Soil Association). Naming the certifier would be stronger. |\n| \"The finest\" | **Unsupported superlative.** \"Finest\" has no \"compared to what?\" answer and no proof behind it. |\n| \"eco-friendly bags\" | **Unsupported green claim.** It is vague and not on the allowlist. The backed claims are \"plastic-free\" and \"home compostable\". |\n| \"packed by hand in Bristol\" | Allowlisted |\n\n**Suggested rewrite**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea and plastic-free, home compostable tea bags, packed by hand in Bristol.\n\nThis keeps the strongest proof point first. It replaces the vague \"eco-friendly\" with the two specific facts we can back, and drops \"finest\". Every claim in the rewrite is on the allowlist. If the Soil Association certification covers the whole range, you could write \"Soil Association certified organic\" instead.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012248400000000001,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

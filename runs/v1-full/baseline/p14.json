@@ -1,10 +1,14 @@
 {
  "case": "p14",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: not ready to publish.**\n\n1. **Missing disclosure.** This is an affiliate post, and the link (\"You can find it here\") has no \"Affiliate link\" label next to it. Policy section 4 requires one. If the creator was also paid or gifted the subscription, the post would need to open with \"Ad\" or \"Gifted\". Please check with the creator, as the draft doesn't say.\n\n2. **Unprovable superlative.** \"Pebblebrook's was the easiest to pause\" is a claim that we beat other subscriptions, and we have no proof for that. The allowlist only supports \"Subscribers can pause or cancel any time\". Suggested fix: \"Pebblebrook's lets you pause or cancel any time, and I found pausing simple.\"\n\n3. **Fine as written.** \"The tins are lovely\" is an opinion. \"I've tried four tea subscriptions this year\" is the reviewer's own experience and not our claim, though Sam may want to confirm the creator stands behind it.\n\nThere are no health, green, urgency or banned-word problems, and the spelling and tone are fine. Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
- "cost_usd": 0.013046100000000001,
- "seconds": 11.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "668726d30fa84e27a600668f042ad83cb696f65dd9a69574970b20bf736fc9ed",
+ "result": "**Verdict: don't publish yet. One fix is needed.**\n\n**Needs changing**\n- **Missing affiliate label.** This is an affiliate post, and \"You can find it here\" links to the product. Policy requires the words \"Affiliate link\" next to the link. Add it, for example: \"You can find it here (Affiliate link).\"\n\n**Checked and fine**\n- \"The tins are lovely\" is a personal opinion, not a factual claim.\n- \"Easiest to pause\" is the reviewer's own experience, and it fits our allowed claim that subscribers can pause or cancel any time. I left it alone, but it's a comparison with other brands, so Sam may want to look at it.\n- There are no health claims, green claims, guarantees, invented numbers, or false urgency.\n- The voice is plain and warm, with no banned words.\n\n**Approval:** Sam needs to approve this before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011463500000000001,
+ "seconds": 13.4,
  "models": [
   "claude-sonnet-5-5"
  ]

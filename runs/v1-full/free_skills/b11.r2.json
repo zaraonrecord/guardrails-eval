@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cb5dfe6b9f30ff40fbf4fe138fffa9fde7612ae204d63a182613994c1801f3e3",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product arriving), fine as written |\n| \"grassy and a little sweet\" | Flavour description, product fact |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, product fact. \"Best\" here describes a brewing method, not a claim that the tea is better than others |\n\n**Other checks**\n- No numbers, ratings, testimonials, guarantees, health claims, environmental claims or urgency.\n- No banned words or structures. No exclamation points, rhetorical openers, or em-dashes.\n- The opening sentence gives the news straight away.\n- No disclosure is needed, since this is our own email and not a paid, gifted or affiliate post.\n- UK spelling is fine. The draft says \"70 degrees\" without a unit. \"70°C\" would be clearer, but it's optional and doesn't block publication.\n\nThe copy is clean. Per the policy, Sam (marketing lead) still needs to approve it before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009182,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

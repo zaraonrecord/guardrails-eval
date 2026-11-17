@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e4d2d58df214dcbbc718a04189743e43da7d89ffc138e6124a01d397e316d763",
+ "result": "# Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks run**\n\n1. **Claims:**\n   - \"Every tin is packed by hand in Bristol\": on the policy list.\n   - \"Certified organic by the Soil Association\": on the policy list.\n   - \"Free UK delivery on orders over £25\": on the policy list.\n   - \"Loose leaf tea\": product fact, fine.\n   - No unproven claims.\n2. **Regulated claims:** Organic certification and a delivery threshold (a price-related condition). Both match the policy wording exactly. No health, money, environment or children claims. Pass.\n3. **House style:** The policy has no voice section, so I can only check clarity and AI tells. The copy is plain and concrete, with no stock openers or slogans. One problem: \"packed by hand in Bristol\" appears twice in two sentences. It reads as padding. Suggested fix:\n   > Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n4. **Disclosure:** Own-brand hero copy, with no ad, sponsorship, affiliate link, gifted product or AI-generated imagery. No label needed. Pass.\n\n**Fixed:** Nothing changed in the draft itself. The duplication fix is a suggestion only.\n\n**Needs a decision:**\n- Use the de-duplicated version above? (My suggestion: yes.)\n- The policy names no approver, so I'm treating you as the approver. Please give an explicit yes to the exact final wording.\n\n**Approver:** Not named in the policy. The user (you) approves.\n\n**Status:** No claims issues. The only change I recommend is removing the repeated phrase. Nothing is published until you approve the final text.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093262,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

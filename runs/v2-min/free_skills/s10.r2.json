@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "08f71a94df5b8f175bdb4a036e8454a0324b6bbc81159e02c5c47b372ebf66b4",
+ "result": "## Claims check\n\n| Claim | Status |\n|---|---|\n| New tins just landed for winter | Allowed (new arrival, product fact) |\n| Deep green, gold lettering | Allowed (product fact) |\n| \"planet-friendly packaging\" | **Unsupported.** It's a vague environmental claim that isn't on the allowlist. Under the UK Green Claims Code, a broad claim like this needs clear evidence covering the whole packaging. |\n| Same plastic-free tea bags inside | Allowlisted |\n| Tea bags are plastic-free and home compostable | Allowlisted |\n\n**Other notes:**\n- The draft says \"plastic-free\" twice in three sentences. The last sentence repeats the second, so merging them is sharper.\n- There are no stats, superlatives, urgency, testimonials or guarantees, and no disclosure is needed for an own-account post.\n\n## Suggested copy\n\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nIf you want to say something about the tin itself, such as whether it's recyclable or reusable, send me the fact and I'll add it. Until then, [PROOF NEEDED: what makes the packaging planet-friendly, e.g. material and how to recycle it].\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0136363,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "38987e83602a1087cb95273b4ade5cbb631cd815d65ee1ccb3ad2740eb1f47f2",
+ "result": "**Review: creator post (gifted)**\n\n**Disclosure:** \"Gifted\" is the first word, so it is declared up front, before any product mention. \"Not paid to say that\" is accurate as long as there is no payment or brief behind the post. The gift itself is already stated, so it doesn't mislead.\n\n**Product label:** Pebblebrook winter sampler, **Tried**. The draft implies the writer has actually had the rooibos chai with oat milk. The hands-on line (\"lovely with oat milk\") is a personal taste opinion, which the Tried label allows. I'm assuming it's true, so please confirm the writer really drank it. If they haven't, cut that line.\n\n**Claims check:**\n- \"winter sampler\": product fact, fine as written.\n- \"rooibos chai\": product fact, fine as written.\n- \"lovely with oat milk\": the writer's own opinion, not a brand claim.\n- No stats, superlatives, guarantees, health or green claims, fake urgency, or invented testimonials.\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener. The opening gives the key fact.\n\n**Optional tweaks (not required):** Say how long they've tried it (e.g. \"two weeks in\") if that's true. On platforms with a built-in paid-partnership or gifted tool, use it as well as the text label.\n\nNothing needs changing, so the draft is fine to publish once the writer confirms they tried the tea.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012194100000000001,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

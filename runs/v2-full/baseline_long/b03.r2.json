@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"** (headline): Pebblebrook sells loose leaf tea, and the policy lists \"Certified organic by the Soil Association\" as provable. \"Organic\" is consistent with that certification. Fine.\n- **\"Certified organic by the Soil Association.\"**: Exact wording from the approved claims table. Certificate on file, renewed 2026. Fine.\n- **\"Free UK delivery on orders over £25.\"**: Exact wording from the approved claims table, with the threshold stated. Fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, urgency, or invented numbers.\n- No testimonials or paid-creator content, so no disclosure label is needed. Paid social ads from the brand's own account need no extra label, and this is the brand's own search ad.\n- Voice: plain and factual, no banned words or AI clichés. UK spelling is not at issue.\n- Search ad: the short length doesn't change the evidence needed, and both claims are covered.\n\nNothing needs changing. Approval from Sam (marketing lead) is required for all public content per the policy, so it should go to Sam for sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007051699999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

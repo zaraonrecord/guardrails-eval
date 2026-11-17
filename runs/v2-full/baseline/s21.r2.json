@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "faa69ed2794a0b9d3cb4a983d72e08753a8ac345cac4e92bb45ab83975c0aaab",
+ "result": "Review of the search ad:\n\n**Headline: \"Plastic-Free Tea Bags\"** – Fine. Matches the allowlisted claim that our tea bags are plastic-free.\n\n**\"Our tea bags are plastic-free and home compostable.\"** – Exact allowlisted wording (supplier certificate, EN 13432). Fine.\n\n**\"Recommended by nutritionists.\"** – This is a problem. It isn't in the claims allowlist, and there's no proof on file. It's effectively an unsupported endorsement or testimonial, and it implies a health or wellness authority behind the product. Either way it can't run. It should be removed. If there is real nutritionist endorsement, it would need to be documented and approved by Sam first, and any health framing would still be off limits.\n\nNothing else is wrong: no superlatives, guarantees, urgency, or banned words, and the spelling is fine.\n\n**Recommendation:** Do not publish as written. Remove \"Recommended by nutritionists.\" The first two parts can stay. Sam needs to approve the final version, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0082501,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

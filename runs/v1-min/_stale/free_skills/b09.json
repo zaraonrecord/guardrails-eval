@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Founded in Bristol in 2019\" | Allowlisted |\n\n**Slop check:** No ban-list words, no exclamation points, no rhetorical-question opener, no em-dash sandwiches, no fake urgency. The description opens with a concrete fact.\n\n**Ad checks:**\n- Landing page consistency: the ad claims plastic-free, home compostable and Bristol 2019. The landing page should make the same claims. I can't see it, so confirm before publishing.\n- Platform policy: \"home compostable\" is an environmental claim, but it is on the brand's backed-up list. Keep any compostability certification or evidence on file in case the platform asks. No health, financial or personal-attribute triggers.\n- Character limits: none given. For reference, the headline is 21 characters and the description is 77 characters, both within standard RSA limits (30 and 90).\n- Affiliate/sponsorship disclosure: not applicable, as this is the brand's own ad.\n\n**Verdict:** Every claim is on the allowlist and the copy is clean. No changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0089903,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

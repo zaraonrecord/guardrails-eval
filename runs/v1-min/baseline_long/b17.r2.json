@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "698a5e822813ccc253ff34155d3e0846172708dac7799237425a43826bb70c0b",
+ "result": "**Review: newsletter, Christmas blend is back**\n\nRead as a subscriber would see it:\n\n- **Claims:** \"the Christmas blend is back\" and \"back in the shop from today\" are product facts (new arrivals/availability), which the policy allows as written. No numbers, ratings or superlatives.\n- **Ingredients:** \"Black tea, orange peel, cinnamon and a little clove\" is a product fact, fine as written.\n- **Health, green, guarantee, urgency:** none present. \"From today\" describes when it's available, not a deadline or scarcity pressure.\n- **Ad labels:** this is the brand's own newsletter, so no \"Ad\" label is needed.\n- **Style:** short, specific, in a human voice. No clichés or filler. Nothing to change.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074485,
+ "seconds": 6.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the claims allowlist and the brand rules.\n\n- **Rating:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly. The proof is the October 2026 review export, which is current.\n- **Organic:** \"Organic loose leaf\" is backed by the Soil Association certificate, which was renewed in 2026. It doesn't name the certifier, but it makes no claim beyond what the certificate supports.\n- **Plastic-free bags:** This is covered by the EN 13432 supplier certificate. The draft doesn't add \"compostable\" or any wider environmental claim.\n- **Packed by hand in Bristol:** This matches the operations claim.\n- **Other checks:** The draft has no superlatives, guarantees, health claims, urgency, invented numbers or banned words. The spelling is fine and the tone is plain and warm. A hero line needs no disclosure label.\n\nNothing needs changing. As with all public content, Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009267899999999999,
+ "seconds": 18.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

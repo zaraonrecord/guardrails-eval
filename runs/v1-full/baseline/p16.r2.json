@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "af2200f38df4339fda80357ee53f33104a7ef3ac553df818b7ddfe1fcf11e6c4",
+ "result": "Review of the newsletter draft:\n\n**Problems**\n\n1. **\"Today only: 30% off, ends at midnight.\"** This is fake urgency. The policy says urgency is only allowed for a real offer with an end date written into the policy, and there is none. The 30% discount itself is also not in the policy, so it can't be confirmed as a real offer. Remove the line, or get Sam to confirm a real offer with real dates and add it to the policy first.\n\n**Checked and fine**\n- \"The Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop.\" Ingredients and new or returning products are product facts the product team checks, so they are fine as written. The only small thing is that \"back\" appears twice in quick succession, which is a style point and not a blocker.\n- No banned words, no superlatives, no health or green claims, no invented stats.\n- The tone is plain and warm, and the spelling is fine.\n- No disclosure is needed for our own newsletter.\n\n**Approval:** Sam needs to sign off before it goes out, as with all public content.\n\nNot ready to publish until the \"Today only\" line is removed or backed by a real, documented offer.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067666,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

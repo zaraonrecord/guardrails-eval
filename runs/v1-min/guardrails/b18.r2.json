@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "18e0eca5da6e2214719a242470ffda8402feceb9795527f2c9b2bdb0bab62970",
+ "result": "**Publish gate report**\n\n**Going out:** Peppermint product page copy, Pebblebrook Tea Co., UK.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written. |\n| \"Cool and clean after a big meal.\" | Sensory and occasion description. It makes no digestive or health promise, so it passes. Don't extend it to \"aids digestion\" or \"settles your stomach\" without proof. |\n| \"Certified organic by the Soil Association.\" | On the policy claims list. |\n\n**Regulated claims:** Nothing touches health outcomes, money, the environment, children or prices. The \"cool and clean\" line is the closest to the health area and stays on the right side of it.\n\n**House style:** Plain, specific and short. There are no AI tells, banned phrases or padding. The score is high, and no rewrite is needed.\n\n**Disclosure:** This is the brand's own product page. It has no ad, sponsorship, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. The copy is clean as written.\n\n**Needs a decision:** Nothing is unresolved. The policy names no approver, so I'm asking you.\n\n**Approver:** Please confirm with an explicit yes that this exact copy can go live on the product page. I haven't recorded an approval and won't until you give one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012191299999999999,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

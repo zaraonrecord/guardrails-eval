@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9ddac3ad741d6d21fb206b4c6d073a79f09a75365b4d53f05619290426da2834",
+ "result": "**Review: Chamomile and Lemon Balm product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted. The count is a product fact, which the product team checks. |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm are both naturally caffeine-free. |\n| \"gentle, honeyed\" | Flavour description, a product fact. |\n| \"for the evening\" | A suggested occasion, not a sleep or relaxation claim. It's fine as written. |\n\n**Other checks**\n- **Health claims:** None. The copy doesn't say the tea helps with sleep, calm or relaxation. Keep it that way if the copy is extended.\n- **Superlatives, guarantees, urgency, invented numbers or testimonials:** None.\n- **Environmental claims:** Only \"plastic-free\", which is backed by the supplier certificate. There's no general \"eco-friendly\" or \"sustainable\" wording.\n- **Voice:** There are no banned words, no em-dashes and no exclamation marks. The copy is plain and warm, and the spelling is UK.\n- **Disclosures:** A product page on our own site needs no Ad, Gifted or Affiliate label.\n\nNothing needs changing. It still needs Sam's sign-off, since everything public goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0117788,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

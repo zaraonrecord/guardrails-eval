@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "**Verdict: fine to publish.**\n\nSentence by sentence (product page):\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name, so it needs no check.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This describes flavour and ingredients, which the product team checks and which are fine as written. \"For the evening\" describes when to drink it. It doesn't promise sleep, calm or any other effect on the body, so it isn't a health claim. The tone is warm and plain.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate is on file.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is an approved claim, and the bag count is a product fact. The copy doesn't stretch it into a wider environmental claim such as \"eco-friendly\" or \"sustainable\".\n\nI found no superlatives, guarantees, invented numbers, urgency, testimonials or health claims. None of the banned words appear, and the spelling is consistent with UK English. No ad or affiliate label is needed on the brand's own product page.\n\nOne optional note: if \"honeyed\" describes the flavour only, it's fine. If the blend actually contains honey, the product team should confirm the ingredient list says so, since that would matter for vegans. This isn't a reason to hold the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010183000000000001,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d5aeeb754c3183c5d84f44ba91a14a85686aa6bd48da9c19dda74e43b5cfec5f",
+ "result": "**Review: search ad**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | Unsupported. This is a superlative the policy bans (\"number one\", \"the UK's favourite\"), and no proof is on file. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"Tea Subscription UK\" (headline) | A plain descriptor, not a claim. Fine. |\n\n**Problems**\n- The \"number one\" claim has to go. It is the only blocker, and the ad can't run with it.\n- No character limit was given, so I haven't checked length. The description is roughly 115 characters, which is over the usual 90 for a search ad description. Check it against the platform's limit.\n- Per the ad rules, the landing page must make the pause/cancel and free delivery claims too. Confirm that before it goes live.\n- Sam needs to approve it, as with all public content.\n\n**Compliant version**\n\nHeadline: Tea Subscription UK\nDescription: Loose leaf tea, certified organic by the Soil Association. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\n\nThis swaps in an allowlisted claim for the superlative. If you'd rather keep the description short, drop the organic line. The Soil Association claim is on the allowlist, but the landing page must also make it.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0163205,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

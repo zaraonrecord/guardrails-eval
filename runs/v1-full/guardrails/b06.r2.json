@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a085621896e691b72a6b4d869b635ad63b85891d9435a2945af442b61164858f",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter, a short note about the Darjeeling first flush arriving in the shop on Monday. Audience is subscribers, in the UK.\n\n**Checks**\n- **Claims:** No numbers, rankings, guarantees, testimonials or awards. The garden location, March picking, flavour description and shop arrival are product facts the product team covers, so they're fine as written. Nothing needs an evidence log row.\n- **Regulated claims:** Nothing on health, money, legal outcomes, the environment, children or prices. \"You'll find it in the shop from Monday\" is a launch date, not a countdown or a stock-level claim, so it isn't fake urgency.\n- **House style:** Warm, plain and unhurried, with no banned words and no AI tells. Score about 92/100. I'd leave it as is.\n- **Disclosure:** The brand is writing about its own product, with no sponsor, affiliate link, gifted item or AI-generated content. No label is needed.\n\n**Fixed:** Nothing, no changes made.\n\n**Needs a decision:** Nothing unresolved. Please confirm Monday is the right launch date before sending, since that's the one detail I can't verify from here.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to this exact text before it's scheduled or sent, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103473,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

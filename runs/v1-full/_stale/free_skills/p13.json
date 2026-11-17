@@ -1,0 +1,11 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One thing needs to change.\n\n**Missing \"Gifted\" label (blocks publication).** Section 4 says a gifted creator post must start with \"Gifted\", before anything else. The draft opens with \"Pebblebrook sent me their winter sampler.\" That mentions the product was sent, but it isn't the required label and it isn't first. Fix: start the post with \"Gifted\" (e.g. \"Gifted: Pebblebrook sent me their winter sampler.\").\n\n**Claims check**\n- \"Pebblebrook sent me their winter sampler\": a fact about the gift, fine once the label is in place.\n- \"The rooibos chai is lovely with oat milk\": an opinion from hands-on use. The product is gifted, so it counts as Tried, and the writer needs to have actually tried it with oat milk. It makes no health, green, superlative or numeric claim.\n- \"Not paid to say that, just liked it\": fine if true, since the product was gifted and not paid for. It doesn't replace the \"Gifted\" label, though. If there is any payment or other arrangement beyond the free sampler, it must be removed and the post labelled \"Ad\".\n- There are no affiliate links in the draft. If one is added, put \"Affiliate link\" next to it.\n- It has no banned words, no urgency, no invented numbers and no testimonials.\n\n**Approval:** Sam (marketing lead) signs off on all public content, so send the corrected version to Sam before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0134725,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

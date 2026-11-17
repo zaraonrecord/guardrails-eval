@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "08f71a94df5b8f175bdb4a036e8454a0324b6bbc81159e02c5c47b372ebf66b4",
+ "result": "**Review: Instagram draft, Pebblebrook Tea Co.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | OK. New arrivals are fine as written. |\n| \"Deep green, gold lettering\" | OK. Product fact. |\n| \"planet-friendly packaging\" | **Unsupported.** Vague environmental claim. The allowlist only covers plastic-free, home compostable tea bags. Nothing backs the tins or other packaging as \"planet-friendly\". In the UK, vague green claims like this are a regulatory risk (CMA Green Claims Code, ASA). |\n| \"the same plastic-free tea bags inside\" | Allowlisted. |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted. |\n\n**Other notes**\n- The last sentence repeats \"plastic-free\" from the sentence before it. Merging them gives a tighter post.\n- No ban-list words, no fake urgency, no invented stats or testimonials.\n\n**Suggested compliant version**\n\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nIf you want to say something about the tin itself being eco-friendly (recyclable, reusable, and so on), send me the specific fact and its source. I can then add it in place of \"planet-friendly\". For now: `[PROOF NEEDED: what makes the tin packaging better for the environment]`.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125091,
+ "seconds": 18.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

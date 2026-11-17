@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e6cf913174cbe450b2289e3b59d85af84eba2c5107317e068a61155ea3c4841d",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft opinion, not a measurable claim. Fine. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n\n**Slop check**\n- Ban-list words: none.\n- Structural bans: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triad, no fake urgency.\n- Opening: \"Good tea, no fuss\" is a bit of throat-clearing, but it's a short brand-voice line, not a violation. The \"compared to what?\" test on \"good\" is weak, but it's a mild tagline-style adjective and I wouldn't block on it.\n- Sentence length is fine.\n\n**Other checks**\n- No invented stats, testimonials, guarantees, superlatives, or health/green claims beyond the allowlisted organic certification.\n- No affiliate or sponsorship context applies (own-brand hero copy).\n- The \"free delivery\" claim carries its £25 threshold, so it is not misleading.\n- Landing hero, so there is no character limit or ad-platform consistency issue.\n\n**Verdict:** Every factual claim is on the allowlist, and no banned vocabulary or structures appear. It can publish as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076894,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

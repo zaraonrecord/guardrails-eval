@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "07de8af5cd50b0680597b18ce3aea97b98ed0c6dd19f2fe9ad9ee53a0fe38809",
+ "result": "I read the draft as a product page description and checked each sentence.\n\n- **\"Rooibos Chai.\"** This is the product name, so it needs no review.\n- **\"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\"** This describes the ingredients, and the policy treats ingredients as product facts checked by the product team. \"Caffeine-free\" describes what the tea contains. It does not claim an effect on the body, so it is not a health claim. It is worth a quick confirmation with the product team that the blend matches the listed ingredients, but I'm not raising it as an issue.\n- **\"Lovely with milk.\"** This is a mild serving suggestion in a warm, plain voice. It makes no superlative, comparison or promised result.\n- **\"100g tin.\"** This is a tin size, which the policy lists as a product fact.\n\nI found no unsupported numbers, superlatives, guarantees, health or environmental claims, urgency, testimonials or missing labels. None of the banned words or AI clichés appear. The copy is short, plain and unhurried, and nothing is repeated. There are no spelling issues. It is a product page on the brand's own site, so no \"Ad\" label is needed. Under the policy, Sam (marketing lead) still approves all public content, so the draft needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0110847,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

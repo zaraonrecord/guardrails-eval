@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\n**Sentence 1: \"Tea that's easy to stop and start.\"** This is plain description and fits the voice. No problem.\n\n**Sentence 2, first clause: \"Subscribers can pause or cancel any time\"** This matches the approved claim in the policy (subscription terms). It's fine.\n\n**Sentence 2, second clause: \"free UK delivery on orders over £25\"** This matches the approved wording and the shipping policy. It's fine.\n\n**Sentence 2, conclusion: \"means most boxes ship free\"** This is the problem. The policy approves free delivery over £25, but says nothing about how many orders reach that threshold. \"Most boxes\" is an unsourced statistic about customer orders, and there is no evidence on file that the majority of orders or subscriptions exceed £25. It also overstates the offer, since orders under £25 still pay for delivery, and it implies subscription boxes qualify when no policy says so. \"Boxes\" also doesn't match what we sell (tins and tea bags).\n\n**Suggested fix:** drop the conclusion and state the approved terms. For example: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n**Tone and style:** No banned words or clichés. UK spelling is fine.\n\nHold the draft until the \"most boxes ship free\" claim is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101801,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

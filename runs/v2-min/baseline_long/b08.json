@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e46524ffb9a98d0d3562f5d63542039618345c5164a5e94916214ccf6781c2c0",
+ "result": "**Review of the landing hero draft**\n\n**Approved claims (fine as written)**\n- \"Subscribers can pause or cancel any time\" is on the brand's list of provable claims.\n- \"free UK delivery on orders over £25\" is also approved, and the threshold is stated correctly.\n\n**Problem**\n- **\"means most boxes ship free\"** is an unsupported claim. The brand can back up the £25 threshold, but nothing shows that most boxes or orders reach £25. It also implies subscription boxes qualify for free delivery, which the policy doesn't say. This is effectively a vague statistic with no data behind it.\n  - **Fix:** Drop the \"most boxes\" conclusion and state only the approved terms, e.g. \"Free UK delivery on orders over £25.\"\n\n**Tone and style**\n- The copy is short and plain, with no clichés or hype. \"Easy to stop and start\" is a light paraphrase of the approved pause/cancel claim and is acceptable.\n\n**Decision:** Hold until the \"most boxes ship free\" claim is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095919,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

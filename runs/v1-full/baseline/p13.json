@@ -1,10 +1,14 @@
 {
  "case": "p13",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** One problem needs fixing.\n\n**Missing \"Gifted\" label (section 4).** This is a gifted creator post, so it has to open with \"Gifted\" before anything else. The draft opens with \"Pebblebrook sent me their winter sampler.\" Saying \"Not paid to say that\" doesn't count as the required label. Starting with \"Gifted\" fixes it, for example: \"Gifted. Pebblebrook sent me their winter sampler…\"\n\n**Everything else checks out:**\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or fake urgency.\n- **Product facts:** The winter sampler and rooibos chai are product facts, so they're fine as written. \"Lovely with oat milk\" is the creator's own opinion and makes no brand claim.\n- **Voice:** There are no banned words, and the tone is warm, plain and unhurried.\n- **Spelling:** There are no US spellings.\n\nSam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
- "cost_usd": 0.009708099999999999,
- "seconds": 10.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4e98a224a2d8e4ef4091dc97eb5286dbbe58fd36c237aa888721258a9196ad4f",
+ "result": "Checking the draft against the policy:\n\n- **Disclosure:** This is a gifted creator post, so it must start with \"Gifted\" before anything else. It opens with \"Pebblebrook sent me their winter sampler,\" which doesn't carry the label. \"Not paid to say that\" is not a substitute. This must be fixed.\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers, or urgency. The rooibos chai with oat milk is a product and flavour observation, and the personal opinion \"lovely\" is the creator's own.\n- **Voice:** It is warm, plain and unhurried. No banned words, and the spelling is fine.\n- **Approval:** Sam needs to approve it before it goes public.\n\nFix: begin the post with \"Gifted\" (for example, \"Gifted: Pebblebrook sent me their winter sampler...\").\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0058554,
+ "seconds": 7.8,
  "models": [
   "claude-sonnet-5-5"
  ]

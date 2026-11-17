@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bd86c5e8bb9cbfa76ffe6b774d09a7e083866befff1eccd7e7cdc901a3ad3a",
+ "result": "**Review notes**\n\n- **\"Unlock your tea journey.\"** This is a generic, empty marketing cliché that says nothing about the content. It doesn't fit an otherwise practical, plain email. I'd cut it or replace it with something concrete, such as \"You don't need a teapot to brew great loose leaf.\"\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency. The brewing advice (mug, sieve, four minutes for black tea, shorter and cooler for green) counts as product and brewing fact, so it's fine as written.\n- **Disclosure:** This is a plain brand email with no sponsorship or endorsement, so no label is needed.\n- **Sign-off:** \"The Pebblebrook team\" is fine.\n\nOnce the opening line is fixed, it's ready to send.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01121,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

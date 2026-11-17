@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, own account, UK audience. Timing not stated.\n\n**Checks**\n\n1. **Claims**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": on the policy list, and it states the source (our website). Pass.\n   - \"Earl Grey uses real bergamot oil and a little cornflower\": product facts and ingredients are fine as written. Pass. I can't verify the recipe, so whoever owns the product should confirm it is still current.\n   - No unproven stats, testimonials, guarantees or urgency.\n\n2. **Regulated claims:** Nothing on health, money, legal, environment, children or prices. Pass.\n\n3. **House style:** \"In today's fast-paced world\" is a stock AI opener, and it's listed as a tell. \"Is everything\" is also a slightly empty intensifier. Score is roughly 70 before the fix, which is under 80, so it gets rewritten.\n\n4. **Disclosure:** Own-account organic post about our own product, with no paid partner, affiliate link, gifted item or AI-generated imagery mentioned. Pass. If the image is realistic and AI-made, add the \"Made with AI\" label per the policy.\n\n**Fixed (suggested rewrite):**\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n- Removed the stock opener and the empty \"is everything\".\n- Facts and the rating are unchanged.\n\n**Needs a decision:**\n- Confirm the image isn't AI-generated (or label it if so). Suggested answer: it's a real photo, so no label is needed.\n- Approve the rewritten copy, not the original draft.\n\n**Approver:** The policy names no approver, so the user (you) needs to give an explicit yes to the exact rewritten text above. I haven't recorded any approval, so nothing is cleared to publish yet.\n\nThe JSON lists the opener from the submitted draft, which should stop publication until it is changed.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world, a rainy Sunday pot is everything.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122413,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

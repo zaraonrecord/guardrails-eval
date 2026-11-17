@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f8bce84fb0c3d94b0b0284e45bad37930fca13838a849c0d4c98efccee7cc721",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm (Pebblebrook Tea Co., UK). No date or audience was given.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy list. \"Plastic-free tea bags\" is on the policy list. \"20\" bags, \"caffeine-free\" and \"gentle, honeyed\" are product facts or flavour, which the policy allows as written. **\"Help you wind down and sleep better\" is not on the list and has no source in this chat, so it's unproven.**\n- **Regulated claims:** Saying a tea helps you sleep better is a health benefit claim. In the UK, health claims on foods and drinks are tightly controlled, and only authorised wording can be used. Chamomile and lemon balm have no approved sleep claim that I can see, so I'd treat this as high risk.\n- **House style:** No banned words or AI tells. It reads clean and plain.\n- **Disclosure:** This is the brand's own product page, with no ad, affiliate, gifted or AI-labelling issue.\n\n**Fixed (suggested edit, not yet applied to the live page)**\n- Removed the sleep benefit, keeping the selling point to flavour and the evening ritual.\n\nSuggested copy:\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, made for winding down in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Made for winding down in the evening\" describes when to drink it, not a health effect. If you want it more cautious, \"a calming evening cup\" also works, but the safest version leaves out any sleep or relaxation outcome.\n\n**Needs a decision**\n- Do you accept the rewrite above? I suggest yes. If you want to keep \"sleep better\", someone with compliance knowledge needs to confirm authorised wording or supporting evidence first.\n\n**Approver:** The policy doesn't name one, so please confirm who signs off. Nothing is approved yet, and I haven't recorded an approval. Once you or the named person says yes to the final text, it can go out. Any further edit means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0165133,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

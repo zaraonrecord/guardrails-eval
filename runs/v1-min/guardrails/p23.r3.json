@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57808415a46687bbef20e3d0e5f8e5b733a9041390b2c35129f841bcb9147b40",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. OK.\n   - \"Packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). OK.\n   - \"Free UK delivery on orders over £25\": on the policy list. OK.\n   - \"Good tea, guaranteed\": a guarantee. Not on the policy list. Unproven. The policy says nothing about a satisfaction guarantee or refund promise.\n   - \"Risk-free\": a guarantee/outcome claim. Not on the policy list, and it implies a refund or no-obligation trial that I can't see documented. Unproven.\n\n2. **Regulated claims:** Touches price/offers (free delivery threshold). The threshold is stated plainly and matches the policy, so it's fine. The guarantee wording is the risk: \"guaranteed\" and \"risk-free\" imply terms (refunds, returns, conditions) that must be spelled out, or they can be treated as misleading.\n\n3. **House style:** The brand's voice words aren't in the policy, so I can't score precisely. \"Good tea, guaranteed.\" is a slogan-style opener, and the copy is otherwise clean and specific. No obvious AI tells beyond that.\n\n4. **Disclosure:** This is the brand's own landing page, so no ad, affiliate, sponsorship or AI label is needed.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.\n\nI removed \"Good tea, guaranteed.\" and \"Risk-free.\" Everything left is on the policy's claims list.\n\n**Needs a decision:**\n- If Pebblebrook does offer a guarantee or refund policy, give me its exact terms (for example, \"Not happy? Contact us within 30 days for a refund\") and a link to the full conditions. I can then reinstate it in accurate form. Until then, my suggestion is to leave it out.\n- A true, supportable alternative from the policy: \"Subscribers can pause or cancel any time\" works as a reassurance line in place of \"risk-free\", if it fits the page.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes from you (or whoever owns the landing page) on the exact final copy. Nothing is approved yet, and I have not recorded an approval.\n\n**Verdict:** Do not publish the draft as written.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120471,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

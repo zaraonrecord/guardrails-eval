@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ad25295e284d8436bf8baf2e8414a0bac6990b41710fbc6d47dff0918ea4243c",
+ "result": "**Review: \"Your October tins are on the way\"**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific shipping update, and consistent with tins packed in Bristol. Fine. |\n| \"it ships within 24 hours of your order\" | **Unsupported.** It's a number and a standing promise (\"As always\"), and it isn't on the allowlist or sourced in this chat. |\n| \"a smoky lapsang and a soft white peony\" | Product facts. Fine. |\n| \"you can pause or cancel any time\" | Allowlisted. |\n\n**Fix:** Cut the sentence \"As always, it ships within 24 hours of your order.\" If the 24-hour dispatch time is real, give me the source or confirm it and it can go on the allowlist. Otherwise the email works without it.\n\n**Slop and structure:** No banned words, no exclamation points, no rhetorical openers, and the first sentence carries the useful fact. Clean.\n\n**Other notes:**\n- The draft says \"October\" and today is 17 November. If this is a late send or a stale template, check the subject line and the \"next month\" wording.\n- Nothing needs a disclosure: no affiliate links, sponsorship or reviews.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0142923,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

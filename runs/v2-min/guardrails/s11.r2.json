@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1557742a406d3689621063d878647d647cfde329fd0a9b21c5240c0ef589912c",
+ "result": "# Publish gate report\n\n**Going out:** Social ad on our own account, UK. No schedule or approver given.\n\n## Checks\n\n**Claims:** \"Free UK delivery on orders over £25\" is on the policy list. The teas (Builder's, Earl Grey, peppermint) are product facts, fine as written. Nothing else is claimed.\n\n**Regulated claims:** Touches prices and offers. \"While stocks last\" is a scarcity claim. The policy doesn't back it up, and nothing here shows stock is actually limited. Free delivery is a standing offer, so implying it may run out is fake urgency. Remove it.\n\n**House style:** Voice is plain and specific, with no banned words or AI tells that I can see. The policy has no voice section, so I can't score it against the brand's reference writing. \"Three teas for your desk drawer\" is fine as it is.\n\n**Disclosure:** This is a paid ad, and nothing in the draft labels it as one. The policy requires upfront, plain labelling for ads in the UK. Add \"Ad\" at the start, and use the platform's paid-partnership or ad tools as well if they apply.\n\n## Fixed (suggested rewrite)\n\n> Ad: Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n- Removed \"while stocks last\".\n- Added an \"Ad\" label at the start.\n\n## Needs a decision\n- Is stock really limited? If so, someone would need to supply the proof, and the line could return with specifics. My suggestion is to leave it out.\n- If the post is boosted or run through the platform's ad tools, confirm it carries the platform's own ad label.\n\n## Approver\nThe policy names no approver, so the user needs to give an explicit yes to this exact final text. I haven't recorded any approval. Nothing should go out until that happens.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}, {\"quote\": \"Three teas for your desk drawer.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114533,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

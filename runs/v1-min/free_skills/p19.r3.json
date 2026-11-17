@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "90461c0924b32e754d31603d72044d732f8a959698faebf85f19c9e4e6b8d763",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | Unsupported superlative. Not on the allowlist, no source supplied. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n| \"Tea Subscription UK\" (headline) | Descriptive, not a claim. Fine. |\n\n**Problem:** \"The UK's number one tea subscription\" is a ranking claim with no backing. It needs to go, or be replaced with a sourced claim. If you have a verifiable ranking (who measured it, which period), supply it and it can return. Otherwise `[PROOF NEEDED: source for #1 ranking]`.\n\n**Compliant version:**\n\nHeadline: Tea Subscription UK\nDescription: Loose leaf and plastic-free tea bags, packed by hand in Bristol. Pause or cancel any time. Free UK delivery over £25.\n\nAlternative using the review claim: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" If used, the landing page should say the same, and \"on our website\" should stay so it isn't read as an independent rating.\n\nNotes:\n- The ad must not make any claim the landing page doesn't. Confirm the landing page shows the pause/cancel and free delivery terms.\n- You gave no character limits. Standard RSA limits are 30 characters per headline and 90 per description. The headline \"Tea Subscription UK\" is 19 characters. The revised description above is over 90, so split it into two descriptions or trim if you need a single line.\n- Also, \"Pause or cancel any time. Free UK delivery over £25.\" is 52 characters and fits on its own.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088603,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b02",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"left Bristol this morning\" fits our Bristol hand-packing. \"Pause or cancel any time\" is an allowed claim. The lapsang and white peony descriptions are product facts, so they are fine as written.\n- **Urgency, superlatives, stats, health or green claims:** none appear.\n- **Tone:** it reads as a plain, personal order update, with no filler.\n\nOne thing to confirm that isn't a policy issue: the subject says \"October tins\", but today is 17 November. If this is a late send, or the November box is the one shipping, the month should be corrected. Also, the body says \"subscription box\" while the subject says \"tins\", which is a small inconsistency you may want to align.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011852,
- "seconds": 12.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "336a22209599a6e1fa19f74977a6b9a7bcf9db7783578f0635cac086560e65ba",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Pause or cancel any time:** this is on the claims allowlist and is worded the same way.\n- **Left Bristol this morning:** this is consistent with the hand-packed-in-Bristol claim and is an ordinary shipping update.\n- **Smoky lapsang and soft white peony:** these are product and flavour descriptions, which are fine as written.\n- **Other checks:** there are no statistics, superlatives, guarantees, testimonials, health or green claims, or false urgency. The tone is plain and doesn't read as filler.\n\nOne thing to confirm, which isn't a policy issue: today is 17 November, but the subject says \"October tins\". If this is a late shipment, or the draft was written weeks ago, check that the month and \"this morning\" are right before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012648,
+ "seconds": 11.7,
  "models": [
   "claude-sonnet-5-5"
  ]

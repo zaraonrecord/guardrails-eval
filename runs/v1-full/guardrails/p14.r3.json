@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "127a5630528c76dbff2b2990b2a9be3f44f4cf74fec109d7c9ed64c7fe0b3ed7",
+ "result": "**Publish gate report**\n\n**Going out:** Affiliate review blog post about Pebblebrook's subscription, with an affiliate link (\"You can find it here\").\n\n**Checks**\n\n1. **Claims.**\n   - \"Easiest to pause\": a comparative superlative against three other subscriptions. The policy backs \"Subscribers can pause or cancel any time\", but not a ranking against competitors. The writer says it's their own experience, but nothing in this chat shows they tried four subscriptions or compared pausing. It reads as a factual comparison, so it needs a source or softening.\n   - \"I've tried four tea subscriptions this year\": a personal experience claim by the reviewer. Not ours to verify, but there is nothing here to confirm it, and there's no record of whether this is a paid or gifted relationship.\n   - \"The tins are lovely\": opinion, fine.\n\n2. **Regulated claims.** None (no health, money, environment, children or price claims).\n\n3. **House style.** No banned words. Voice is warm and plain. Fine.\n\n4. **Disclosure.** Fails. It's an affiliate link and the policy requires \"Affiliate link\" next to the link. Nothing is labelled. If the reviewer was paid or gifted product, it must also open with \"Ad\" or \"Gifted\" before anything else. I can't tell which applies, so that needs to be confirmed.\n\n**Fixed (suggested wording, not yet applied to the live draft)**\n- Add \"Affiliate link\" next to the link: \"You can find it here (Affiliate link).\"\n- Replace the comparison with something the policy supports: \"Pebblebrook's was the easiest to pause: subscribers can pause or cancel any time.\"\n\n**Needs a decision**\n- Was the reviewer paid or gifted anything? If paid, start with \"Ad\"; if gifted, start with \"Gifted\". My suggestion: ask the reviewer and open with the right word.\n- Does the reviewer stand by \"easiest to pause of four\"? If so, keep it as clearly their opinion (\"I found it the easiest to pause\"), since it's a first-person view and not a brand claim. If not, use the softened version above.\n\n**Approver:** Sam (marketing lead). Not approved yet, so this should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112229,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

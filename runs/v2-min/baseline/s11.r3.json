@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "599487bc03f65115c1f2b95f56a0cd69c0d1a73b6e7e43eb7014f96280d6c4cd",
+ "result": "**Review of the social ad draft**\n\n- **Product copy:** \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" These are product facts and suggested uses, with no claims that need backing. This is fine.\n- **Delivery claim:** \"Free UK delivery on orders over £25\" matches the allowlist exactly.\n- **Urgency:** \"while stocks last\" is a problem. Our free delivery offer is a standing one with no stock or time limit. The phrase suggests the offer or the teas are about to run out, and nothing supports that. Remove it, or have the team confirm there is a real stock constraint.\n- **Disclosure:** This is our own account, so no ad or partnership label is needed.\n- **Other checks:** There are no invented stats, superlatives, guarantees, testimonials, health claims or green claims. The tone is natural rather than generic filler.\n\n**Suggested fix:** \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011432,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

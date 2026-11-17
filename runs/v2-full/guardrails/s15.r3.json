@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c4af9ea73834ffd1504aa83863f50c9bf9617b90df8ab4432081ca00abff53a6",
+ "result": "# Publish gate report\n\n**Going out:** an affiliate review on the review blog. I don't have the publish date.\n\n**Checks**\n- **Claims:** There are no invented stats, ratings, guarantees or health or green claims. \"Easiest to pause\" is the reviewer's own comparison. It is consistent with our \"pause or cancel any time\" terms, so I've left it, but the reviewer should confirm they really did try four subscriptions. \"Tins are lovely\" is opinion.\n- **Regulated claims:** Nothing on health, money, the environment, children or prices.\n- **House style:** No banned words or AI tells. The tone is plain and warm, which fits.\n- **Disclosure:** This fails. Our policy (and UK rules) require the affiliate label to be upfront and to say \"Affiliate link\" next to the link. Here it is a footnote at the very end, behind an asterisk, and it says only \"I may earn a small commission\". A reader sees the recommendation and the link before any hint of a commercial relationship.\n\n**Fixed (suggested rewrite, not yet approved)**\n> *Affiliate link: this post contains an affiliate link, so I earn a commission if you buy through it.*\n>\n> I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it [here (affiliate link)].\n\n- I moved the disclosure to the top, in plain words.\n- I added \"Affiliate link\" next to the link.\n- I removed the asterisk footnote.\n\n**Needs a decision**\n- Confirm the reviewer actually earns commission on every sale through this link. If so, use \"I earn a commission\" rather than \"may\". That is my suggested answer.\n- Confirm the reviewer did try four subscriptions, since \"easiest to pause\" depends on it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and the revised text needs Sam's explicit yes before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0192521,
+ "seconds": 17.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

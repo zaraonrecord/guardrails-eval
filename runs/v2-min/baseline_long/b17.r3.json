@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "698a5e822813ccc253ff34155d3e0846172708dac7799237425a43826bb70c0b",
+ "result": "**Review: Christmas blend newsletter**\n\nRead as a subscriber: a short product announcement.\n\n- **Claims:** \"the Christmas blend is back\" and \"back in the shop from today\" are product facts (new arrival/availability), which the policy allows as written. Ingredients (black tea, orange peel, cinnamon, clove) are product facts too.\n- **Health, green, comparisons, guarantees, stats:** none present.\n- **Urgency:** nothing pressuring. \"From today\" describes availability, not a deadline or scarcity.\n- **Disclosure:** this is the brand's own newsletter, so no ad label is needed.\n- **Style:** plain, specific, in a human voice. No clichés or filler.\n- **Optional polish:** \"back\" appears twice in quick succession (\"is back\" / \"It's back in the shop\"). Could be tightened, e.g. \"Quick one this week: the Christmas blend is back in the shop from today. Black tea, orange peel, cinnamon and a little clove.\" Not a blocker.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006417600000000001,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

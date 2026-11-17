@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Review of the about page draft**\n\nChecked sentence by sentence against the brand policy:\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the approved claim (Companies House). Fine.\n- **\"We're a small team of six\"** Team size is a product-team-checked fact and can be used as written. Fine.\n- **\"every tin is packed by hand in Bristol.\"** This matches the approved claim (Operations). Fine.\n- **\"We buy from gardens we've visited.\"** This is a factual claim about the company's sourcing practice. It isn't in the approved claims table, and it isn't one of the product facts the policy covers (where a tea is grown, when it's picked). I can't see evidence that the team has visited every garden it buys from. \"Gardens\" is also unqualified. It reads as covering all of the tea, with no word like \"some\" to limit it. Treat it as unsupported until someone confirms it.\n\n  Fix: either get written confirmation from the product team that every supplying garden has been visited, and add it to the claims list, or soften it to something provable, e.g. \"We've visited some of the gardens we buy from\" (naming which ones if possible).\n\n**Tone and style:** The copy is plain and warm, with no banned words or AI filler. UK spelling is fine. No labels are needed on a brand-owned about page.\n\nEverything else is clear. Hold it only for the sourcing line. Once that is confirmed or reworded, it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012424399999999999,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

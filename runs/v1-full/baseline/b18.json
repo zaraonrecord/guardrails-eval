@@ -1,10 +1,14 @@
 {
  "case": "b18",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Certified organic by the Soil Association\" matches the allowlist wording exactly, and the certificate on file was renewed in 2026.\n- **Product facts:** \"Just peppermint leaves, nothing else\" is an ingredient statement, which the product team checks and which is fine as written.\n- **Health claims:** \"Cool and clean after a big meal\" reads as taste and an occasion for drinking it. It doesn't say the tea aids digestion or does anything for the body. If anyone later rewords it to mention digestion or settling the stomach, that would become a health claim and should be stopped.\n- **Superlatives, guarantees, stats, urgency and green claims:** none are present.\n- **Required labels:** this is our own product page, so no \"Ad\", \"Gifted\" or \"Affiliate link\" wording is needed.\n- **Voice:** the copy is plain, warm and short, with no banned words, and there is nothing in it to show non-UK spelling.\n\nSam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0096941,
- "seconds": 9.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "776ec53a8802ce84765fd310641094c29c6ff3456c59c7e247468e3c06a1ce89",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the product team checks, so it's fine as written.\n- **\"Cool and clean after a big meal.\"** This describes flavour and when you might drink it. It doesn't say the tea helps digestion or does anything for the body, so I don't count it as a health claim. If anyone later rewrites it to say the tea \"settles\" or \"aids\" digestion, that would be a health claim and would need to come out.\n- **\"Certified organic by the Soil Association.\"** This matches the allowlist wording exactly, and the certificate is on file and renewed for 2026.\n- **Voice and spelling.** The copy is plain and unhurried, uses no banned words, and has no superlatives, guarantees, invented numbers or false urgency.\n- **Disclosures.** This is our own product page, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label applies.\n\nUnder the brand policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007870799999999999,
+ "seconds": 13.2,
  "models": [
   "claude-sonnet-5-5"
  ]

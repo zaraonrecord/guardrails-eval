@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "18e0eca5da6e2214719a242470ffda8402feceb9795527f2c9b2bdb0bab62970",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Going out:** product page copy for Peppermint tea, UK, Pebblebrook Tea Co.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy's allowlist. \"Just peppermint leaves, nothing else\" is an ingredient fact, which the policy allows as written. Nothing is invented or unsourced.\n- **Regulated claims:** \"Cool and clean after a big meal\" reads as a taste and sensation description. It doesn't claim to aid digestion, treat anything or deliver a health benefit, so it's fine. If someone later changes it to \"settles your stomach\" or \"aids digestion\", that would become a health claim and need proof.\n- **House style:** The copy is short, plain and specific. It has no stock AI openers, intensifiers, banned phrases or slogan closers. No rewrite needed.\n- **Disclosure:** This is the brand's own product page with no ad, sponsorship, affiliate link, gifted product or AI-labelling trigger. No label is needed.\n\n**Fixed:** Nothing. No changes were made.\n\n**Needs a decision:** Nothing unresolved.\n\n**Evidence log rows** (paste into `.guardrails/evidence.md`):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Peppermint product page | Certified organic by the Soil Association | On policy list | Brand policy, claims list |\n| 2026-11-17 | Peppermint product page | Just peppermint leaves, nothing else | Product fact | Brand policy, product facts (ingredients) |\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on this exact text. Nothing is recorded as approved yet. Once you confirm, run `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"Peppermint product page\"` in your terminal. Approval lasts 15 minutes and covers one publish. Any edit to the copy after approval means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013372000000000002,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

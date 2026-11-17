@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f5e9fd8ca27cb25bb50fcc4dd7f18f3c7d2fe130edac7e899abfb104f17255bb",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post for Pebblebrook Tea Co., UK audience. The channel and timing weren't given.\n\n**Claims:** no changes needed.\n- \"Packed by hand in Bristol\" matches the policy's allowed claim (\"every tin is packed by hand in Bristol\").\n- Pebblebrook's Assam is a product fact, so it's fine as written.\n- \"A pot of tea and ten minutes away from my phone\" is a lifestyle line. It makes no health, stress or wellbeing claim, so the regulated-claims check doesn't apply.\n- There are no stats, rankings, guarantees, urgency or green claims.\n\n**Disclosure:** passes.\n- \"Ad |\" is the first thing in the post and uses plain wording from the policy, which is what UK ASA/CMA rules expect.\n- If this goes out as a multi-part post, carousel or story, repeat the label on each part.\n- Also switch on the platform's paid-partnership or branded-content tool, if it has one.\n\n**House style:** the copy is plain and specific, with no banned phrases or stock AI openers. It reads like a person wrote it. I'd score it above 80 and made no rewrites.\n\n**Fixed:** nothing needed fixing.\n\n**Needs a decision:**\n- The policy names no approver for creator posts. I suggest the brand/marketing owner gives an explicit yes to this exact text.\n- Confirm the creator has actually used the tea, since \"which I love\" is their own opinion.\n\nI haven't recorded any approval. I can't approve this myself, and nothing should go out until a named person says yes to this exact wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120597,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

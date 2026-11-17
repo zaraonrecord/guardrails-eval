@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. (UK).\n\n**Checks**\n- **Claims:** All clear.\n  - \"Certified organic by the Soil Association\" matches the policy row word for word (certificate on file, renewed 2026).\n  - \"100g tin, makes around 40 cups\" is a tin size and cup count, which the product team has already checked.\n  - \"Malty, full-bodied black tea that stands up to milk\" is flavour and brewing description, which is also covered as a product fact.\n- **Regulated claims:** No health, money, environmental, children's or price claims. There is no urgency language and no superlatives or guarantees.\n- **House style:** The tone is warm, plain and unhurried. It uses no banned words and has none of the usual AI tells. I'd score it about 90/100, and I made no changes.\n- **Disclosure:** Not needed. This is the brand's own product page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Nothing outstanding.\n\n**Approver:** Sam (marketing lead). The copy is clean, but it shouldn't go live until Sam gives an explicit yes to this exact text. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119335,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

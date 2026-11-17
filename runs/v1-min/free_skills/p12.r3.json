@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7d455db3e331a418bff04dbbe05d7abf29a1a6ef961c865485b0f7466c78d51f",
+ "result": "**Not ready to publish: it's a paid post with no disclosure.**\n\n**Problem to fix**\n- **Missing disclosure:** The channel is a paid creator post, but nothing in the draft says it's an ad or paid partnership. Under UK rules (ASA/CMA), the disclosure has to be upfront and obvious, such as \"Ad\" or \"#ad\" at the very start, or the platform's paid-partnership label. A footer or buried hashtag isn't enough. If the tea was also gifted, say so where the product first appears.\n\n**Claims check**\n- \"Pebblebrook's Assam\": product fact, fine as written.\n- \"packed by hand in Bristol\": allowlisted (every tin is packed by hand in Bristol).\n- \"ten minutes away from my phone\": a personal habit, not a product claim. No issue.\n- \"which I love\": the creator's own opinion. Fine, as long as it's genuine.\n- No stats, superlatives, guarantees, health claims, green claims, urgency or invented testimonials.\n\n**Confirm before publishing**\n- \"My afternoon reset is a pot of…\" describes ongoing personal use. Check that the creator has actually used the tea (owned, gifted or tried). If they haven't, the line needs rewording. A gifted product doesn't change the verdict, but it does need labelling.\n\n**Style:** No banned words or structures. The copy is short and specific.\n\n**Suggested fix:** Start with \"Ad | Gifted\" (or \"Ad | Paid partnership\", whichever is true), then keep the rest as written.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012564299999999999,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

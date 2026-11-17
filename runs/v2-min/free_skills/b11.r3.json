@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "dc2cf7f42fa36d2b958e139ee25b5dc964aee059b536642a25cb4866c87067fb",
+ "result": "I checked the draft against the claims allowlist, the slop rules and the review rules.\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": a new arrival, which the brand policy allows as written.\n- \"grassy and a little sweet\": flavour description, a product fact, so it's fine.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, also a product fact. \"Best\" here is practical advice, not a superlative claim about the product.\n\n**Slop and structure**\n- There are no banned words, em-dashes, exclamation points, rhetorical openers or fake urgency.\n- The first sentence carries the main news.\n- There are no statistics, testimonials, customer names, guarantees, or health or environmental claims.\n\n**Review rules**\n- This is a product announcement, not a review. It makes no hands-on claims, so no ownership label is needed.\n- It has no affiliate links or sponsorship.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086658,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

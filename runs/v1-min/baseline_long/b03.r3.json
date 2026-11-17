@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"**: The brand sells loose leaf tea and is certified organic by the Soil Association, so the headline is supported.\n- **\"Certified organic by the Soil Association.\"**: This is on the approved claims list, word for word.\n- **\"Free UK delivery on orders over £25.\"**: This is also approved. The £25 threshold is stated next to the offer, so the condition is clear.\n\nOther checks:\n- There are no superlatives, comparisons, health claims, green claims, guarantees, testimonials, urgency or scarcity claims.\n- It is a brand-owned search ad, and the format makes it recognisable as an ad, so no extra label is needed.\n- The copy is plain and specific, with no AI clichés or filler. It uses UK English and fits the channel.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058755000000000005,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

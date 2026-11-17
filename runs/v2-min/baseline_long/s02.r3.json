@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d83795b001427fc08388b4d6f008b32d3cf01d7031c501c2df41a1f08a76362b",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n1. \"Tea that's easy to stop and start.\" Description of the subscription flexibility, backed by the pause/cancel claim. Fine.\n\n2. \"Most subscribers stay with us for over a year.\" This is a factual claim about customer retention. It is not in the approved claims list and no evidence is shown. Treat it as an unsupported (invented) statistic. Fix: remove it, or supply retention data and have it approved.\n\n3. \"Subscribers can pause or cancel any time\" is approved.\n\n4. \"free UK delivery on orders over £25\" is approved. But \"means most boxes ship free\" is a new claim about order values. The brand can't show that most boxes exceed £25, so it is unsupported. Fix: drop \"means most boxes ship free\" and state the threshold plainly, e.g. \"Free UK delivery on orders over £25.\"\n\nStyle: the copy is plain and has no AI clichés. Nothing else to flag. No disclosure needed on a brand-owned landing page.\n\n**Decision:** hold. Two unsupported claims need removing or evidencing.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071454,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

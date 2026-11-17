@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "5034fc290de596f50c95ffabd3d4ae21ac26767fb2852cc0c8aa6ca686ca8803",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Good tea, no fuss.\" This is plain and warm, and it makes no superlative. \"Good\" is not \"best\" or \"finest\". No problem.\n- \"Certified organic by the Soil Association\". This matches the allowlist wording exactly. The certificate was renewed in 2026.\n- \"packed by hand in Bristol\". The allowlist wording is \"Every tin is packed by hand in Bristol\". The draft shortens it but keeps the meaning, and Operations backs it. No overclaim, so I'm treating it as fine.\n- \"free UK delivery on orders over £25\". This matches the shipping policy wording.\n- Voice and spelling: no banned words, UK spelling, and the tone is unhurried.\n- Disclosures: this is our own landing page, so no partnership or affiliate label applies.\n- Urgency, health, environmental, and invented-number claims: none present.\n\nNothing needs changing. Sam (marketing lead) still needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060312000000000004,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

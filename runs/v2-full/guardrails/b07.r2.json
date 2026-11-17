@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c5dc38a0642379db11b4d19f7c81045218387772e50d2266c47ad4f04ac424b6",
+ "result": "**Publish gate report**\n\n**Going out:** Blog intro, two sentences, for Pebblebrook Tea Co. (UK).\n\n**Checks**\n- **Claims:**\n  - \"Started Pebblebrook in Bristol in 2019\" matches the policy row \"Founded in Bristol in 2019\" (Companies House).\n  - \"Our tea bags are plastic-free and home compostable\" matches the policy wording exactly (supplier certificate, EN 13432).\n  - \"Because we couldn't find tea bags without plastic in them\" is the founders' own origin story, not a measurable claim. Sam may want to confirm it's accurate.\n- **Regulated claims:** The environmental claim is the specific one the policy allows. There is no general \"eco-friendly\", \"sustainable\" or \"zero waste\" wording, and no health, price, urgency or guarantee language.\n- **House style:** The draft is warm, plain and unhurried. It uses no banned words and has no AI tells. UK spelling is fine. I estimate a score of about 92 and made no rewrites.\n- **Disclosure:** This is the brand's own blog. It has no paid partnership, gifted product, affiliate link or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** \"Here's how we checked\" promises an explanation in the rest of the post. The body should only cite the supplier's EN 13432 certificate, and it shouldn't add new claims such as test results or \"fully biodegradable\" that aren't in the policy. I haven't seen the body, so it needs its own check before it goes out.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Sam needs to give an explicit yes to this exact text before it's published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0136681,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

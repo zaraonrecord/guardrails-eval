@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be9f45fd156f6347092bb71daf6716d2809f2eb3775ff3d033d298760796e8c3",
+ "result": "I checked each sentence against the brand policy's claims allowlist.\n\n- **Headline: \"Plastic-Free Tea Bags\"**: This matches the approved claim that the tea bags are plastic-free (supplier certificate, EN 13432). Fine.\n- **\"Our tea bags are plastic-free and home compostable.\"**: This is word for word an approved claim. The EN 13432 certificate is on file, and the claim is scoped to the tea bags, not the whole product or packaging. Fine.\n- **\"Founded in Bristol in 2019.\"**: This is an approved claim, backed by Companies House. Fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, invented numbers, testimonials or false urgency.\n- No vague green terms like \"eco-friendly\" or \"sustainable\".\n- Search ads from the brand's own account need no extra label.\n- No banned words or AI clichés. The tone is plain and the spelling is UK-neutral.\n- Short copy, but every claim is covered by the allowlist.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064901,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

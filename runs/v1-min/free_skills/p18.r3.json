@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2646cfdcc9827029da6a021fc3de7907e98859b9e0db9047976422e9357931e4",
+ "result": "**Verdict: don't publish as written. One fix needed.**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine. It is vague, so exact times and temperatures would be more useful if you have them from the product pages.\n- \"You don't need any kit\": fine, it's advice rather than a claim.\n- No numbers, superlatives, guarantees, testimonials, health or green claims, or urgency. Nothing is unsupported.\n\n**Problem**\n- \"Unlock your tea journey\" breaks the ban list (\"unlock\") and is empty filler. It fails the \"concrete thing\" rule, and it pushes the most useful fact (mug, sieve, four minutes) out of the first sentence.\n\n**Suggested rewrite**\n\nSubject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nA mug, a small sieve and four minutes is all you need to brew black loose leaf tea. No teapot required. Green tea likes it shorter and cooler.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0129423,
+ "seconds": 21.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

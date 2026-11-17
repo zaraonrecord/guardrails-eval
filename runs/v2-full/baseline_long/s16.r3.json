@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "45d246e0ba22f5f001218ef514162cd3c5c5a4f0199ec30542e314d5c489dc82",
+ "result": "**Review of the landing hero draft**\n\n**Claims check.** All three factual claims match the brand's approved list:\n- \"Certified organic by the Soil Association\" is approved (certificate on file, renewed 2026).\n- \"packed by hand in Bristol\" is approved (\"Every tin is packed by hand in Bristol\").\n- \"free UK delivery on orders over £25\" is approved, and the £25 threshold is stated.\n\nThere are no health, green, superlative, guarantee, urgency or invented-number problems. No creator or affiliate content is involved, so no label is needed.\n\n**Style problem.** \"Brewed with care. Packed with love. Delivered with a smile.\" is a formulaic rule of three, used for rhythm rather than information. It is the kind of generic, machine-sounding line the checklist says to cut, and it doesn't read as a specific person writing for a specific reader. It also says little: \"Brewed\" describes what the customer does, not the brand, and \"Delivered with a smile\" can't be backed up. The line also repeats what the second sentence says more concretely (\"packed by hand in Bristol\").\n\n**Suggested fix.** Drop the triplet and lead with the concrete facts, for example: \"Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\" Sam should approve the final wording, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010540999999999998,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

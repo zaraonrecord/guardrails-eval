@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "bc0c26b8e4ec9827c0039034b233868690594dbaca35c422b3d2858e34981c5d",
+ "result": "# Publish gate report\n\n**Going out:** Search ad (headline and description), Pebblebrook Tea Co., UK. No send date or audience was given.\n\n**Checks run**\n- **Claims:** One failure.\n  - \"The UK's number one tea subscription\": this is an unprovable superlative. Policy section 3 bans \"number one\" and \"the UK's favourite\", and nothing in the claims table supports it.\n  - \"Subscribers can pause or cancel any time\" matches the policy row exactly (subscription terms).\n  - \"Free UK delivery on orders over £25\" matches the policy row exactly (shipping policy).\n- **Regulated claims:** The free-delivery line touches pricing, but it is on the allowlist with its condition (over £25) intact. No health, green, urgency or guarantee wording.\n- **House style:** The headline and description are plain and have no banned words. Once the superlative is removed, the copy is on-voice.\n- **Disclosure:** No extra label is needed. Policy section 4 says paid ads from our own account are marked by the platform.\n\n**Fixed (suggested rewrite, not yet approved)**\n- Removed \"The UK's number one tea subscription\" and replaced it with a product fact from the policy.\n\nRevised copy:\n- **Headline:** Tea Subscription UK\n- **Description:** Loose leaf tea, monthly. Pause or cancel any time. Free UK delivery on orders over £25.\n\nThe description is about 87 characters, so it should fit a typical 90-character limit. Check the limit for your ad platform.\n\n**Needs a decision**\n- Do you want the revised description above? If you'd rather keep a stronger hook, \"Founded in Bristol in 2019\" and \"Every tin is packed by hand in Bristol\" are both approved claims.\n- Check that the landing page backs up the free delivery threshold and the pause or cancel terms.\n\n**Approver:** Sam (marketing lead), per policy section 6. Sam needs to give an explicit yes to the exact revised copy. Nothing should go live on the original draft, and any further edits mean a new check.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0157995,
+ "seconds": 18.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

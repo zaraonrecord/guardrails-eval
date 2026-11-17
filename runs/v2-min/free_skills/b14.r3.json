@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "38987e83602a1087cb95273b4ade5cbb631cd815d65ee1ccb3ad2740eb1f47f2",
+ "result": "**Verdict: fine to publish.**\n\n**Disclosure:** \"Gifted\" is the first word, so the reader sees it before anything else. It says plainly that the product was a free gift. \"Not paid to say that\" is acceptable as long as it's true, meaning no fee and no brand approval of the wording. If Pebblebrook paid, or had any say over the content, the post would need to be labelled \"Ad\" instead.\n\n**Product label and hands-on claims:**\n- Winter sampler: gifted, so it counts as Tried.\n- \"Lovely with oat milk\" is a taste claim. It's allowed because the writer has tasted it, and the draft makes no claim about how long or how often they've used it.\n\n**Brand claims:** The draft has no numbers, superlatives, guarantees, reviews, health, green or price claims. The sampler and rooibos chai are product facts, which the brand policy allows as written. Nothing needs checking against the allowlist.\n\n**Style:** No banned words, no exclamation marks, no rhetorical openers and no fake urgency. It's short and specific.\n\n**Optional:** Confirm that \"winter sampler\" and \"rooibos chai\" match the product names on Pebblebrook's site.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113741,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

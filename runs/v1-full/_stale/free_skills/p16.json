@@ -1,0 +1,11 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish yet. One sentence needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new products arriving), fine |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, product team fact, fine |\n| \"It's back in the shop\" | Fine, but it repeats the first sentence |\n| \"Today only: 30% off, ends at midnight.\" | **Unsupported.** The policy has no 30% offer and no real offer with an end date. The \"today only\" and \"ends at midnight\" wording is exactly the fake urgency section 3 bans. |\n\n**Other checks**\n- No banned words, no health or green claims, no superlatives, no guarantees, no invented stats or testimonials.\n- No disclosure needed. This is our own newsletter, not a paid partnership or affiliate post.\n- UK spelling is fine, and the tone is plain and unhurried.\n- The newsletter is public content, so it needs Sam's approval.\n\n**Suggested rewrite**\n\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n\nThis drops the repeated \"back\" and the countdown offer. If the 30% discount is real, send Sam the actual start and end dates and get it added to the policy. Then it can go in with its real end date and no \"today only\" pressure. Until then, use `[PROOF NEEDED: confirmed offer terms and end date]` as a placeholder.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013846500000000001,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

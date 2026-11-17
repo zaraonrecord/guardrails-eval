@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ecf4d3d45d326f3f756469c5caa366684a9a775b625f84243ce5c58b3499d5e0",
+ "result": "**Review of the landing hero draft**\n\nSentence by sentence:\n\n- \"Good tea, no fuss.\" This is description and tone. It is plain, warm and unhurried, with no banned words, and it isn't a superlative (\"good\", not \"best\").\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate on file, renewed 2026).\n- \"packed by hand in Bristol\" is covered by \"Every tin is packed by hand in Bristol\" (Operations). The shortened wording doesn't change the meaning.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly, and the threshold is stated beside the claim.\n\nOther checks:\n- No health, green, guarantee, urgency, testimonial or statistic claims.\n- No banned words or AI clichés. UK spelling is fine.\n- No creator or affiliate content, so no label is needed. This is the brand's own landing page.\n- Short and not repetitive.\n\nNothing needs changing. Final approval still sits with Sam, per the policy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063818,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "I found nothing that needs changing before this goes out.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: this matches the approved founding claim (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\"**: this is on the approved claims list and is worded the same way. It refers to the tea bags only, so it isn't stretched to cover the whole product or all the packaging.\n- **\"because we couldn't find tea bags without plastic in them\"**: this is a founder-story motive, not a product claim. It's low risk, but the team should confirm it's an accurate account of why the company started.\n- **\"here's how we checked\"**: this promises a follow-up explanation. Whatever comes after it must hold up. If the blog post cites a test, a standard or a certification for compostability, that evidence has to be real and current. A \"how we checked\" section that overstates things, such as \"compostable anywhere\" or \"breaks down in 12 weeks\", would need its own review.\n- **Style**: the voice is plain and specific, with no clichés, filler or hype. There are no labels, offers, urgency or health claims to check. Blog intros on the brand's own site don't need an ad label.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010614499999999999,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

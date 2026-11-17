@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "da5078bd6f8c4da68452750da8e4204a83aae3ca7d7bcde0045eb5a51d4d49c7",
+ "result": "I found two problems in this draft.\n\n1. **\"you'll love it or it's free\"** is a money-back or free-product guarantee. The brand policy doesn't list it among the claims we can back up, so it can't run unless the business confirms and defines the offer (terms, time limit, how to claim).\n\n2. **\"means most boxes ship free\"** implies that most orders are over £25. The policy doesn't support that, and we have no data in the allowlist to back it up. The supportable version is the plain threshold: \"free UK delivery on orders over £25\".\n\nThe claims \"Subscribers can pause or cancel any time\" and \"free UK delivery on orders over £25\" are both on the allowlist and fine as written.\n\nA safe rewrite would be: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007388399999999999,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

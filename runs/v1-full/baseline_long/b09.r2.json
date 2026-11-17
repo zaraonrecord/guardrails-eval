@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be9f45fd156f6347092bb71daf6716d2809f2eb3775ff3d033d298760796e8c3",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\" (headline):** Matches the approved claim that the bags are plastic-free, backed by the supplier certificate.\n- **\"Our tea bags are plastic-free and home compostable.\":** This is the exact approved wording (EN 13432 supplier certificate).\n- **\"Founded in Bristol in 2019.\":** This is the exact approved wording (Companies House).\n\nNothing in the copy makes a health claim, superlative, guarantee, urgency claim or invented number. It uses none of the banned words, and the spelling is neutral UK-compatible. A search ad from the brand's own account needs no \"Ad\" label from us. The copy is plain and in the brand's voice, though it is a little repetitive: \"plastic-free\" appears in both the headline and the description. That is optional polish and doesn't need to hold the ad back.\n\nPer the policy, everything public goes through Sam for approval, so it should get his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008180699999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

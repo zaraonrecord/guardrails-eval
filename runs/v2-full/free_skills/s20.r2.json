@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f7f977a17a23f02370a5320c07cc580f1a3b35e7eee26e24e80844cda7a59d02",
+ "result": "**Review of \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing guidance, covered as a product fact. OK.\n- \"Green tea likes it shorter and cooler\": brewing guidance. OK.\n- \"there's a cup for everyone\": a vague universal claim. It can't be checked and says nothing concrete. Unsupported.\n\n**Other checks**\n- Superlatives, guarantees, health claims, green claims, fake urgency, stats and testimonials: none.\n- Disclosure: this is our own email, so no \"Ad\" or \"Gifted\" label is needed.\n- Banned words: none from the brand list.\n- Voice: the first three sentences are warm, plain and unhurried.\n\n**Problem**\n\"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is generic filler. The \"whether you're X or Y\" construction is a common AI tell, and it fails the \"compared to what?\" test. It also adds nothing after the useful brewing tip. Cut it, or replace it with something concrete from the product team, such as a specific tea and its brewing time and temperature (for example, which green tea and how long to steep it). Don't invent those details.\n\nThe rest can go out once that sentence is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0152445,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

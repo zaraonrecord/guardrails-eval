@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f363fce822cd8b59b88c91e7d066d1954ed3feeb0eaa4801500e87d5fdf94ae3",
+ "result": "Review of the about page draft:\n\n**Problems**\n\n1. **\"has become Bristol's favourite tea\"** is a superlative we can't prove. Policy bans \"the UK's favourite\" and similar claims, and a local \"favourite\" has no proof on file either. Remove it, or replace it with a backed claim such as \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n2. **\"We buy from gardens we've visited.\"** is not on the claims allowlist. It is a sourcing claim, not a listed product fact (ingredients, where a tea is grown, and so on). It is a statement about our practices that nobody has verified, so it needs confirmation from the product team or Sam before it goes out. I'm flagging it for checking rather than treating it as definitely wrong.\n\n**Checked and fine**\n- \"founded in Bristol in 2019\": matches the allowlist.\n- \"every tin is packed by hand in Bristol\": matches the allowlist.\n- \"a small team of six\": team size is a product-team-checked fact, fine to use as written.\n\n**Voice:** plain and warm enough, no banned words, UK spelling is fine.\n\n**Approval:** Sam needs to sign off, as with all public content.\n\nVerdict: do not publish until the \"favourite\" line is removed and the gardens claim is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007455199999999999,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

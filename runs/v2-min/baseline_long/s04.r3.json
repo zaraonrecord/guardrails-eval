@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9c65187bfcde7ebd1d99008ae6659bba90adb31fc91f7927955282adab729ef9",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019\"**: This is on the approved claims list, so it's fine.\n- **\"has become Bristol's favourite tea\"**: This is a superlative claim of popularity, and nothing in the brand policy or evidence supports it. Our approved claims cover the 4.8 rating from over 1,200 reviews, but not any ranking against other teas in Bristol. It needs to go. A fix would be to cut the phrase, or to say something provable such as \"rated 4.8 out of 5 from over 1,200 reviews on our website\".\n- **\"We're a small team of six\"**: Team size is a product fact the policy allows as written.\n- **\"every tin is packed by hand in Bristol\"**: This is on the approved claims list, so it's fine.\n- **\"We buy from gardens we've visited.\"**: I read this as a sourcing and origins statement, which the policy allows as written. The team should be sure it's true, but I'm not flagging it.\n- **Style**: The copy sounds like a real team wrote it, with no clichés or filler.\n- **Labels**: This is the brand's own about page, so no ad label is needed.\n\nThe draft should be held until the \"Bristol's favourite tea\" claim is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107936,
+ "seconds": 15.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

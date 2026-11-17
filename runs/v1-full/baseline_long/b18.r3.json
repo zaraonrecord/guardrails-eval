@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ceba29ddd13f0f87cc6a734776d345b29bc6edab15d590ffc41d931afac9d015",
+ "result": "The draft is clear to publish. I went through it sentence by sentence.\n\n- **\"Peppermint.\"** This is a plain product name.\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient statement. Ingredients are product facts checked by the product team, so it is fine as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels. It does not say the tea aids digestion or has any effect on the body. It stays on the right side of the line between description and a health claim, so I'm not flagging it. If the copy were changed to say it \"settles\" or \"soothes\" the stomach, it would become a health claim.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate on file was renewed in 2026.\n\nThe draft contains no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims beyond the approved ones. No label is needed on a brand-owned product page. The voice is plain and warm, there are no banned words or AI clichés, and the spelling is consistent. Sam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086194,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

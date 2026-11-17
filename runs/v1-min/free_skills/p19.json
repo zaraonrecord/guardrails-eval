@@ -1,10 +1,14 @@
 {
  "case": "p19",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | Unsupported. Superlative/ranking not on the allowlist, no source supplied. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n| \"Tea Subscription UK\" (headline) | Descriptive keyword, not a claim. Fine. |\n\n**Other checks**\n- Slop-guard: no banned words or structures. Fine.\n- Character limits: none given, so not counted. Note that a \"Headline\" of \"Tea Subscription UK\" is only 19 characters, so there's room for a second headline if the RSA format allows.\n- Landing page consistency: the pause/cancel and free delivery claims must also appear on the landing page. Please confirm.\n- Platform policy: nothing health, finance or personal-attribute related.\n\n**Problem**\n\"The UK's number one tea subscription\" can't be backed up. There is no ranking, award or source behind it, and ad platforms and the ASA expect substantiation for superlatives like this.\n\n**Compliant version**\nHeadline: Tea Subscription UK | Description: Loose leaf and plastic-free tea bags, packed by hand in Bristol. Pause or cancel any time. Free UK delivery on orders over £25.\n\n(If you want a proof-based line instead, the allowlist supports \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", provided the ad makes clear that the rating comes from the brand's own website.)\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
- "cost_usd": 0.010216300000000001,
- "seconds": 11.6,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "90461c0924b32e754d31603d72044d732f8a959698faebf85f19c9e4e6b8d763",
+ "result": "**Not ready to publish.** One claim is unsupported.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription.\" | **Unsupported.** This is a superlative and a market-rank claim. It isn't on the allowlist and no source was supplied. It also invites an ad-platform or ASA challenge, since \"number one\" needs evidence of the ranking. |\n| \"Subscribers can pause or cancel any time.\" | Allowlisted. |\n| \"Free UK delivery on orders over £25.\" | Allowlisted. |\n| \"Tea Subscription UK\" (headline) | Plain descriptor, no claim. |\n\n**Other notes**\n- The landing page must also make the pause/cancel and free-delivery claims, since an ad can't claim more than its page does.\n- You gave no character limit. If this is a Google RSA, descriptions cap at 90 characters, and this one is about 116, so it would be rejected. Check against the real limit.\n- No slop-list words, exclamation marks or fake urgency.\n\n**Suggested replacement for the description**\n> Loose leaf tea and plastic-free tea bags, monthly. Pause or cancel any time. Free UK delivery over £25.\n\nEvery claim in it is allowlisted. If you want a ranking claim, send the source (a named survey or report, with date) and I'll add it. Otherwise use `[PROOF NEEDED: source for \"number one\" ranking]`. If the 90-character limit applies, drop the first sentence or shorten the delivery line.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0180663,
+ "seconds": 15.7,
  "models": [
   "claude-sonnet-5-5"
  ]

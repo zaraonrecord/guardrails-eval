@@ -1,10 +1,14 @@
 {
  "case": "p13",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the creator post (gifted)**\n\n- **Disclosure:** The post says Pebblebrook \"sent me\" the sampler, but it never says the product was free or gifted. It also has no label such as \"Gifted\" or \"#gifted\" up front. Under UK rules (ASA/CMA), a gifted item is a material connection and should be labelled clearly at the start of the post. \"Not paid to say that\" is probably true, but without a clear gifted label it could leave readers thinking there is no relationship with the brand. Suggested fix: open with \"Gifted:\" or \"#gifted\", or say \"Pebblebrook gifted me their winter sampler.\"\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims or urgency language. The oat milk pairing and the flavour comment are personal opinion about the product and are fine.\n- **Tone:** The copy reads like a real person wrote it, so I have no AI-slop concerns.\n\nThe only change needed is a clear gifted label at the start.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
- "cost_usd": 0.014934,
- "seconds": 13.1,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2560161cb35107bd47cccb28437a761513cb2ff12ee649ca037f1a5a686a3db5",
+ "result": "**Review: creator post (gifted)**\n\n- **Disclosure:** The opening line says Pebblebrook sent the sampler, and the post states it wasn't paid. That is honest and sits up front, not buried. A plain \"Gifted:\" label at the start would make it clearer that the sampler was free, but I don't think the post needs to be blocked for that.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims or green claims. \"Lovely with oat milk\" is a personal opinion about flavour, which is fine as written.\n- **Testimonial:** It reads as the creator's own experience, not an invented quote.\n- **Tone:** It is short and natural, with no filler or stock phrasing.\n- **Urgency or offers:** None.\n\nThe post is fine to publish. Optionally, start with \"Gifted:\" for extra clarity.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012652,
+ "seconds": 11.2,
  "models": [
   "claude-sonnet-5-5"
  ]

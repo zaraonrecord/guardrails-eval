@@ -1,0 +1,11 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found one problem that should stop publication.\n\n**\"made with zero waste from farm to cup\"** is an absolute environmental claim. Our allowlist covers only the plastic-free, home compostable tea bags and Soil Association organic certification. Nothing backs up \"zero waste\" across the whole supply chain, so it counts as an unsupported green claim. Either cut it or replace it with something we can back up, such as \"certified organic\" or \"plastic-free tea bags\".\n\nEverything else is fine:\n- \"Our tea bags are plastic-free and home compostable\" is on the allowlist.\n- \"New tins just landed for winter\" is a new-arrival product fact, not false urgency.\n- The deep green and gold lettering description is a product fact.\n\nThe last two sentences repeat the plastic-free point, which is slightly redundant. I wouldn't hold publication for that, but tightening it would read better.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009002,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

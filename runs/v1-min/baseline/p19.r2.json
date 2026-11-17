@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9b929f8926abd7a9f2f68c7f6cd37c335ea77b3de4a22564be7703dc1acefdaf",
+ "result": "**Review of the search ad draft**\n\n- **\"The UK's number one tea subscription.\"** This is a superlative ranking claim. It isn't on the claims allowlist, and there's no evidence of a ranking, survey or source behind it. It needs to be removed or replaced with a claim we can back up (for example, the 4.8 out of 5 rating from over 1,200 reviews on our website, or the Soil Association organic certification).\n- **\"Subscribers can pause or cancel any time.\"** On the allowlist. Fine.\n- **\"Free UK delivery on orders over £25.\"** On the allowlist. Fine.\n- **Headline \"Tea Subscription UK\"** is a plain keyword headline with no claim. Fine.\n\nNo brand name appears in the ad. That's not necessarily a problem for a search ad, but it's worth checking whether the display URL or the account makes the advertiser clear.\n\nThe draft shouldn't be published until the \"number one\" claim is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0059819,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

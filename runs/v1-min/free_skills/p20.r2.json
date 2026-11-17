@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e54ee86116d3a7a036c93253ab3999ffff9e1a2c1393d607a2a7667beb3b5c73",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Fine as written (team size is covered by the brand policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"Over 98% of our customers rate us five stars\" | **Unsupported** |\n| \"we buy from gardens we've visited\" | Sourcing/origin fact, so permitted under the policy. Check that it's literally true of every garden you buy from. |\n\n**Problem: the 98% figure.** The only rating we can back up is \"rated 4.8 out of 5 from over 1,200 reviews on our website\". A 98% five-star share isn't on the allowlist, and nothing in this conversation sources it. A 4.8 average also makes it unlikely that 98% of customers gave five stars. It also says \"customers\" rather than reviewers, which widens the claim further.\n\n**Compliant replacement:**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Our website reviews average 4.8 out of 5 from over 1,200 reviews, and we buy from gardens we've visited.\n\nIf you want to keep the 98% figure, send the source (review export, date range, how it was counted) and I'll check it against that.\n\nThe remaining wording has no banned vocabulary, no fake urgency, no health or green claims, and no structural slop. Hold publication until the rating line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013963699999999999,
+ "seconds": 19.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

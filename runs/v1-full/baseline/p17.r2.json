@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "71fbf6a3ec55ba9478df9a5ab79d2db790abcb299b6b4d96d4e80fe9337f787f",
+ "result": "**Review of the peppermint product page draft**\n\n**Problems that need to change**\n\n1. **\"a natural detox that aids weight loss\"** is a health claim. Policy section 3 bans health claims of any kind, and both \"detox\" and \"aids weight loss\" are named examples. This must be removed. It's also the only thing in the draft that would stop publication on its own.\n\n**What checks out**\n\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- \"Just peppermint leaves, nothing else\" is a product fact (ingredients), so it's fine as written.\n- \"Cool and clean after a big meal\" is flavour and serving description, not a health claim. It's borderline only if read as implying digestion benefits, but as written it describes taste and feel, so I'd leave it.\n- Voice is plain and warm, with no banned words, and there's no UK spelling issue.\n\n**Suggested fix**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nOnce that is changed, it needs Sam's sign-off, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0066082,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

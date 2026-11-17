@@ -1,0 +1,11 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Assam Breakfast product page copy, on the website. No date or audience given beyond UK shoppers.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy list. \"Malty, full-bodied\", \"stands up to milk\", \"100g tin\" and \"around 40 cups\" are product facts, which are fine as written. \"Boosts your immunity through winter\" is unproven and not on the list.\n- **Regulated claims (health):** \"Boosts your immunity\" is a health claim. Tea can't carry it without an authorised claim and evidence, and I don't see either here. It's the sort of line that draws advertising-regulator complaints in the UK.\n- **House style:** The policy has no voice section, so I couldn't score it. The copy is plain and has no obvious AI tells.\n- **Disclosure:** Nothing to label. This is the brand's own product page, with no sponsorship, affiliate link or AI-generated content.\n\n**Fixed (suggested rewrite, not yet approved)**\n- Removed \"and boosts your immunity through winter\".\n\nSuggested copy:\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nIf you want a winter angle, \"a warming cup for cold mornings\" says nothing about health.\n\n**Needs a decision**\n- Do you accept the rewrite without the immunity line? I recommend yes. If you have an authorised health claim and evidence, send it and I'll recheck.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final text above. Nothing is cleared to publish yet.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013411300000000001,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

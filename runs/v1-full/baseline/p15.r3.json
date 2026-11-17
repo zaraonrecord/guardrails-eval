@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fe67a1a2d26772df21686b0488c2d95f3c02b73690a693601fb74c262d514f67",
+ "result": "I found two problems in the draft.\n\n1. **\"The finest\"** is a superlative we can't prove. Policy section 3 bans \"finest\". Cut it, or say something factual, such as \"organic loose leaf tea\".\n\n2. **\"eco-friendly bags\"** is a general environmental claim, which section 3 doesn't allow. The approved wording is \"Our tea bags are plastic-free and home compostable\", so use that instead.\n\nWhat checks out:\n- The rating line matches the allowlist wording exactly: \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". The October 2026 review export backs it.\n- \"Packed by hand in Bristol\" is covered by \"Every tin is packed by hand in Bristol\". The draft says nothing about tins, but the claim is close enough that I'd call it fine. If you want to be exact, say \"Every tin is packed by hand in Bristol\".\n- \"Organic\" has the Soil Association certificate behind it. The draft doesn't name the certifier, which is fine, but \"Certified organic by the Soil Association\" is the approved wording if you want to be explicit.\n- There are no banned voice words, no health claims, no fake urgency, no guarantees, and the spelling is UK.\n\nA suggested rewrite:\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\nThe rewrite reads a bit awkwardly in the middle. You might prefer: \"Certified organic by the Soil Association. Loose leaf tea, plus plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nSam still needs to approve it before it goes live, since everything public goes through them.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091082,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

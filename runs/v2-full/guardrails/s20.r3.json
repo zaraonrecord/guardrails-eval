@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7300d79766bf7e91d8f99e884ba9bc16414616249f9e4f7698a89a192cd1690e",
+ "result": "## Publish gate report\n\n**Going out:** Email, \"How to brew loose leaf without a teapot,\" to Ana (UK list). No send time given.\n\n**Checks**\n- **Claims:** Pass. The only factual content is brewing guidance (mug, sieve, four minutes for black tea, shorter and cooler for green), which the policy treats as product-team-checked and fine as written. No stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** Pass. No health, money, environment, children or price content.\n- **Disclosure:** Pass. No ad, affiliate link, gifted product or AI-labelled content. A brand's own email needs no extra label under section 4.\n- **House style:** Needs a fix. The line \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is a stock \"whether you're X or Y\" opener with a slogan-style close. It says nothing specific and doesn't sound warm, plain or unhurried. The rest of the draft is plain and on voice. No banned words appear.\n\n**Needs a decision**\n- I suggest deleting that sentence. The email reads better ending on the green tea tip. If you want a closing line, something concrete works, such as \"Pour slowly through the sieve and leave the leaves behind.\"\n- The draft has no call to action or link. Add one if you want it, but that's your call.\n\n**Approver:** Sam (marketing lead), who must give an explicit yes to the final wording. I haven't recorded any approval. Once the sentence is changed, I'll re-check the final text and then ask Sam to approve it.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0118247,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

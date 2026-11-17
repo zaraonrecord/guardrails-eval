@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7bee168436f0c531442694ac58c7734424f4afddb7e69d11862c277f613859fb",
+ "result": "**Review: search ad (Pebblebrook Tea Co.)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine as written |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted, and the £25 condition is stated |\n\n**Slop check:** No banned words, no rhetorical opener, no exclamation marks, no em-dashes, no fake urgency. The copy is plain and specific.\n\n**Other notes (not blockers)**\n- **Landing page match:** Both the pause/cancel and free-delivery claims need to appear on the landing page too. I can't see the page, so please confirm that.\n- **Length:** You gave no character limit, but the description is 102 characters. The headline is 19. If this is going into Google Ads, descriptions are capped at 90 characters, so it would be rejected or truncated. A trimmed version that keeps both claims: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" (76 characters). \"Subscribers can\" is dropped here, so confirm the shorter wording still reads as accurate.\n- **Policy:** Nothing in the copy touches health, finance or personal attributes.\n\nNo claims need removing, so the copy can go out as is if the length fits your platform.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015406300000000001,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

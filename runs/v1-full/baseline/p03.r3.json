@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1db1a02369be6d922fb392945aef033acb50f1ad1eacb4a1eff457315d3a602d",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n**Problem: health claim.** \"boosts your immunity through winter\" is a health claim, and the policy bans those of any kind. Remove it. The sentence works without it: \"A malty, full-bodied black tea that stands up to milk.\"\n\n**Checked and fine:**\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate renewed 2026).\n- \"100g tin, makes around 40 cups\" is a product fact (tin size and cup count), so the product team's checks cover it.\n- \"Malty, full-bodied\" is flavour description, also a product fact.\n- No banned words, no superlatives, no urgency, no guarantees. Spelling is fine.\n- No disclosure is needed on a product page from our own site.\n\n**Suggested rewrite (for Sam's approval, as with all public content):**\n\"Assam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\"\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006389,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "I read the email as Ana would see it, then went through it sentence by sentence.\n\n- **Subject line:** \"How to brew loose leaf without a teapot\" matches the content. It's a brewing how-to, so it isn't misleading.\n- **\"You don't need any kit.\"** This is description and brewing advice, not a product claim. Fine.\n- **\"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\"** These are brewing facts, which the policy allows as written. No health claim, no numbers that need evidence, no superlatives.\n- **Sign-off:** \"The Pebblebrook team\" is a brand-owned email, so no \"Ad\" label is needed. There are no offers, prices, urgency, guarantees, testimonials or green claims.\n- **Style:** The copy is plain and specific, with no clichés, filler or formulaic phrasing. It's short but reads like a person wrote it. \"Hi Ana\" is a personalisation field, so it's worth confirming it merges correctly, but that's a send-setup check rather than a copy problem.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006610700000000001,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

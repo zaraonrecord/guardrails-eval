@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "44a6cd1405fac7d75f382670262563e5bb50c4c33f98a5ae1c504a982d8ec617",
+ "result": "**Not ready to publish.** The post is missing the required disclosure.\n\n**Problem**\n- The brand policy says a gifted post must start with \"Gifted\", before anything else. This draft opens with \"Pebblebrook sent me their winter sampler.\" Saying the product was sent to you is not the same as the label, and a reader skimming the first line won't see it as an ad-style disclosure.\n- \"Not paid to say that, just liked it\" is fine if it's true. But it sits in a post with no label, so it reads as though there's no commercial relationship at all. Once \"Gifted\" opens the post, the line is fine.\n\n**Claims check**\n- \"Winter sampler\" and \"rooibos chai\": product facts. The product team should confirm the sampler includes this tea, but it isn't a claim problem.\n- \"Lovely with oat milk\": the creator's own opinion after trying it, so it's allowed.\n- There are no numbers, superlatives, guarantees, health or environmental claims, urgency, or banned words. Spelling is fine.\n\n**Suggested fix**\n\n> Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.\n\nPer the policy, Sam needs to approve it before it goes public.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125878,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e076eee2df027f48f9d855134620f3cd470fd08bf4c550b1f68c9b48ae872294",
+ "result": "**Review: \"A new green tea\" email**\n\n**Problem found**\n\n- \"packed with antioxidants\": this is a health-adjacent claim. The policy bans health claims of any kind, and \"antioxidants\" implies a body benefit. It is also not in the approved product facts (ingredients, flavour, brewing guidance), so it's unsupported. Fix: cut it, or describe flavour only, e.g. \"grassy, a little sweet\".\n\n**Checked and fine**\n\n- Subject line \"A new green tea\": accurate and not misleading. \"Green\" refers to the tea type, not an environmental claim.\n- \"We've added a Japanese sencha to the shop\": new product arriving and origin are product facts, fine as written.\n- \"grassy, a little sweet\" and \"best brewed cooler than you think, around 70 degrees\": flavour and brewing guidance, covered by product facts. \"Best\" here is brewing advice, not a superiority claim. (UK spelling would also suggest \"70°C\" or \"70 degrees\" with the unit, optional polish.)\n- No urgency, guarantees, ratings, or superlatives about the brand.\n- Brand-owned email, so no \"Ad\" label needed.\n- Voice: warm, plain, short. No banned words.\n\n**Decision:** Hold until \"packed with antioxidants\" is removed. Suggested line: \"It's grassy and a little sweet, and best brewed cooler than you think, around 70°C.\"\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098467,
+ "seconds": 20.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

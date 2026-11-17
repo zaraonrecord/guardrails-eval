@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6d63a8a7fbfbb0b6cf0338b8f02c0c2b3f637a4961d156eb6cb533d00b61ed28",
+ "result": "The draft needs one change before it goes out.\n\n**What's fine**\n- \"Subscribers can pause or cancel any time\" matches the allowlist wording (subscription terms).\n- \"free UK delivery on orders over £25\" matches the allowlist wording (shipping policy).\n- The voice is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- There are no superlatives, guarantees, health claims, green claims, or urgency.\n\n**What needs changing**\n- \"means most boxes ship free\" is a claim about how many orders qualify for free delivery. Nothing in the policy backs it. We don't have data on typical order or box values, so it works like an invented statistic. It also implies subscription boxes get free delivery, and the policy only says free delivery applies to orders over £25. Cut the clause, or reword it to the approved line: \"Free UK delivery on orders over £25.\"\n\nA safe version: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nLike all public content, it also needs Sam's approval before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088515,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

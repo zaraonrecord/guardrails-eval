@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9eafb116d10fed1ca2291cf2bdfbd4d502e3ad231fa0aea3467f62479d9c7c35",
+ "result": "## Publish gate report\n\n**Going out:** social ad, own account, UK audience. No schedule was given.\n\n**Checks**\n- **Claims:** one problem.\n  - \"9 out of 10 customers reorder within a month\" is not on the policy list, and you haven't given a source in this chat. It is an unproven statistic, so I've removed it.\n  - \"Free UK delivery on orders over £25\" matches the policy row.\n  - Builder's, Earl Grey and peppermint are product facts, which the policy allows as written.\n- **Regulated claims:** nothing found. There are no health, money, environment, children or price-comparison claims, and the delivery offer is the standing one.\n- **House style:** no banned words or AI tells. The copy is short and concrete, and the list of three is a real product list, so I left it.\n- **Disclosure:** this is the brand's own account promoting its own products, so no partnership or affiliate label applies. If it runs as a paid placement, switch on the platform's own ad label.\n\n**Fixed (suggested version)**\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n- Removed the \"9 out of 10 customers reorder within a month\" sentence.\n\n**Needs a decision**\n- If you have real reorder data, share the source: the exact figure, the time window and the customer base. We can then add it to the policy and put the claim back with the right wording. Until then, publish without it.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact revised copy above. Nothing has been approved or published, and the original draft should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013506400000000002,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

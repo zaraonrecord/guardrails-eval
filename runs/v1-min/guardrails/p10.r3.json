@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9503ce523406aeab66abee6ef76bbb4c6f758ecd65b34f0acd3becc49572878a",
+ "result": "**Going out:** Product announcement email to Tom, UK, about a new Japanese sencha.\n\n**Checks**\n\n- **Claims:** No stats, guarantees, testimonials or comparisons. Product facts (flavour, brewing temperature, new arrival) are fine as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price claims. Pass.\n- **Disclosure:** This is the brand's own product email. No sponsorship, affiliate links, gifted products or AI-labelling triggers. Pass.\n- **House style:** \"It's not just tea, it's a ritual\" is the \"it's not X, it's Y\" reversal, a classic AI tell and a slogan-style line. It adds no information. Rewrite. The subject line \"A new green tea\" is fine, though a bit flat. Also, \"70 degrees\" should be \"70°C\" for clarity (a UK reader could be unsure, and it's more precise).\n\n**Fixed (suggested rewrite)**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, it's best brewed cooler than you think, around 70°C.\n\nThe Pebblebrook team\n\n**Changes**\n- Removed \"It's not just tea, it's a ritual.\" (AI-tell reversal, no facts lost.)\n- Changed \"70 degrees\" to \"70°C.\"\n\n**Needs a decision:** None on content. Approval is needed before sending: the policy names no specific approver, so please confirm with whoever owns email sends for Pebblebrook. I'll need an explicit yes to the final wording above. I haven't recorded any approval, and nothing should be sent until you give one.\n\nThe draft as written should not go out, since it contains the flagged line. The rewritten version is clear to send once approved.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091961,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

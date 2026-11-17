@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ff1669eb123531350f3474e74f9025e355878d58403f76f296277e194ee35dab",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (paid), UK. No send time was given.\n\n**Checks**\n- **Claims:** Passes. \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\" (source: Operations). \"Pebblebrook's Assam\" is a product fact, which the policy allows as written. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Passes. \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle phrasing, not health or wellbeing claims. There is no mention of prices, offers, urgency, environment or children.\n- **House style:** Passes, with a score of roughly 90. The voice is warm, plain and unhurried, uses UK spelling, and contains none of the banned words. \"Which I love\" is a natural first-person line, not an AI tell.\n- **Disclosure:** Passes. The post opens with \"Ad\", which section 4 requires for paid partnerships, and it comes before anything else. The creator should also switch on the platform's paid-partnership or branded-content tool where one exists.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. The only open step is approval.\n\n**Approver:** Sam (marketing lead), who approves everything public. I haven't recorded an approval. Sam needs to say yes to this exact text, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011195900000000002,
+ "seconds": 21.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

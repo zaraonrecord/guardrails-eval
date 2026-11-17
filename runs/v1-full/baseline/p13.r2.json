@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4e98a224a2d8e4ef4091dc97eb5286dbbe58fd36c237aa888721258a9196ad4f",
+ "result": "**Review: creator post (gifted)**\n\n**Problem: missing disclosure.** The brand policy says a gifted post must start with \"Gifted\" before anything else. This draft opens with \"Pebblebrook sent me their winter sampler.\" That implies the product was free, but it isn't the required label. \"Not paid to say that\" doesn't replace it either, and it could mislead readers into thinking the post is fully independent.\n\n**Fix:** Start the post with \"Gifted\", for example: \"Gifted. Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Just liked it.\"\n\n**Checked and fine:**\n- \"The rooibos chai is lovely with oat milk\" is a personal opinion and a product-team fact. It makes no health, superlative or green claim.\n- There are no invented numbers, guarantees, urgency or banned words, and the spelling is UK.\n- Under section 6, Sam still needs to approve it, since everything public goes through Sam.\n\nDo not publish until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075814,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

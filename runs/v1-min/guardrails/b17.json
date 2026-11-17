@@ -1,10 +1,14 @@
 {
  "case": "b17",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** Newsletter to Pebblebrook subscribers (UK), announcing the Christmas blend is back in the shop.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The ingredients (black tea, orange peel, cinnamon, clove) and the return to the shop are product facts and new-arrival news, which the policy allows as written. \"From today\" is a plain availability statement, not a scarcity or countdown claim.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** The copy is short, plain and specific. It has no stock AI openers, intensifiers, slogan closers or reversals. No changes needed.\n- **Disclosure:** This is the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-generated imagery mentioned, so no label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Nothing unresolved. If \"from today\" is sent on a different day, change it to the actual date so it stays true.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you for this exact text before it's sent or scheduled. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0108913,
- "seconds": 10.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "05cdf8a8a8c89f6fae4fbb7ab56a6718fb6adc5f57aa9e6fc986ec87bcf1e288",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter to UK subscribers, Pebblebrook Tea Co. Christmas blend announcement.\n\n**Checks**\n\n1. **Claims:** The draft contains only product facts (ingredients: black tea, orange peel, cinnamon, clove) and a new-arrival note. The policy treats ingredients and new arrivals as fine as written. No stats, rankings, testimonials, guarantees or prices. Nothing to log as unproven.\n2. **Regulated claims:** No health, money, legal, environmental, children or price/offer content. \"Back in the shop from today\" is a factual availability statement, not a countdown or scarcity claim. I can't verify the blend is actually on sale today, so whoever sends it should confirm that.\n3. **House style:** The copy is short, plain and specific. No stock AI openers, intensifiers, triplet slogans or \"not X, it's Y\" reversals. The list of ingredients is a factual list, not a rhetorical group of three. No changes needed.\n4. **Disclosure:** The newsletter is the brand's own content. It has no sponsor, affiliate link, gifted product, endorsement or AI-generated imagery. No label required.\n\n**Fixed:** Nothing, no changes needed.\n\n**Needs a decision:** Only a quick confirmation that the blend is live in the shop today, so the \"from today\" line is true when it lands.\n\n**Approver:** The policy names no approver for this content type, so the approval comes from you. Please give an explicit yes to this exact text. I haven't recorded any approval and won't until you give one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0099933,
+ "seconds": 8.8,
  "models": [
   "claude-sonnet-5-5"
  ]

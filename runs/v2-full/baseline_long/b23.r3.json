@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "07de8af5cd50b0680597b18ce3aea97b98ed0c6dd19f2fe9ad9ee53a0fe38809",
+ "result": "I read the draft as a product page description and checked each sentence.\n\n- \"Rooibos Chai.\" is the product name.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" covers ingredients and a product fact. Rooibos is naturally caffeine-free, and the policy lets the product team's ingredient facts be used as written. This is description, not a health claim.\n- \"Lovely with milk.\" is a serving suggestion and a personal-style opinion, not a claim about the body or a superlative.\n- \"100g tin.\" is a tin size, which is a product fact.\n\nThere are no numbers, ratings, guarantees, urgency, environmental claims, testimonials or comparisons. The draft doesn't use any banned words, and it is plain and unhurried, in keeping with the brand voice. It's a product page on the brand's own site, so no ad label is needed. No spelling issues.\n\nThe only thing I can't verify is that it's caffeine-free, but that is an ingredient fact in the product team's remit, so I'm not flagging it.\n\nThe draft is fine to publish. As with all public content, Sam approves it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006700299999999999,
+ "seconds": 16.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

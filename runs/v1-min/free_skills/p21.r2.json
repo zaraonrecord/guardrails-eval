@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eeb9ed1fb9ba3ca27f62b3143721e5c07836578c33d9988c22ed7a79fe0a6c22",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new arrivals), fine |\n| \"made with zero waste from farm to cup\" | Unsupported. Not on the allowlist. It's an environmental claim, and \"zero waste\" across the whole supply chain is absolute and unprovable from what we have. |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n\n**Problems**\n\n1. **\"made with zero waste from farm to cup\"** is an unsupported green claim. The allowlist covers only plastic-free and home compostable tea bags, plus Soil Association organic certification. Nothing backs zero waste, and in the UK the CMA Green Claims Code and ASA rules treat absolute environmental claims as needing strong substantiation. Remove it, or replace it with `[PROOF NEEDED: evidence for zero-waste claim across sourcing, production and packaging]`.\n\n2. **Repetition.** \"plastic-free tea bags\" appears in the second sentence and again in the third. Keep the sharper one and cut the other.\n\n**Compliant version**\n\nNew tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nPlatform note: no ad-policy issues beyond the green claim. The post is on your own account, so no affiliate or sponsorship disclosure applies.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083095,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

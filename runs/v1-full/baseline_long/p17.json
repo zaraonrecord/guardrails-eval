@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6ee5dabc2c1ee957e210f035a4a2f1193b8dedb3fb47088ac96b021ab62e1ced",
+ "result": "**Review of the peppermint product page draft**\n\n**Problems that stop publication**\n\n1. **\"a natural detox that aids weight loss\"** is a health claim. The brand policy bans health claims of any kind, and names both \"detox\" and \"aids weight loss\" specifically. It is also two claims in one phrase. Fix: remove the whole phrase.\n\n2. **\"Cool and clean after a big meal\"** is borderline. It reads as a description of how the tea tastes and feels, which is allowed. But \"after a big meal\" sits close to an implied digestive benefit. I'd treat it as acceptable experience language, not a stopper, but if you want to be careful, \"Cool and clean on the palate\" removes any doubt. I haven't listed it in the JSON.\n\n**What checks out**\n\n- \"Certified organic by the Soil Association\" matches the approved wording exactly (certificate on file, renewed 2026).\n- \"Just peppermint leaves, nothing else\" is a product fact (ingredients), which the product team checks and is fine to use as written.\n- No banned words, no superlatives, no guarantees, no invented numbers, no false urgency. UK spelling is fine.\n\n**Voice note (optional)**\n\nThe fragments (\"Peppermint. Just peppermint leaves, nothing else.\") are plain and warm enough for the brand. Once the health claim is gone, the copy is short but fine.\n\n**Decision:** Hold. Remove \"a natural detox that aids weight loss\" and it can go to Sam for approval, as policy requires for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101187,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

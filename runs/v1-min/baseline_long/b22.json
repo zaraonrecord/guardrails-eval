@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** Short product-arrival post on the brand's own account, so no \"Ad\" label is needed.\n\n**Sentence by sentence:**\n\n1. \"New tins just landed for winter.\" New arrivals are fine as written under the policy. Not fake urgency, just an announcement.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Product description. \"Plastic-free tea bags\" is an approved claim. The list of three is mild, but it's concrete description, not filler.\n3. \"Our tea bags are plastic-free and home compostable.\" Both parts are on the approved claims list (\"tea bags are plastic-free and home compostable\"). It's scoped to the tea bags only and not stretched to the tins or the whole business, so it isn't a vague green claim.\n\n**Style:** One small note, optional: the plastic-free point is made twice in consecutive sentences (\"plastic-free tea bags inside\" then \"Our tea bags are plastic-free\"). That's repetition, but it's minor polish, not a reason to hold the post. Merging them would read better, e.g. \"...and the same tea bags inside, plastic-free and home compostable.\"\n\n**Missing items:** Nothing needed. No health, price, guarantee, review, or urgency claims.\n\n**Decision:** Every claim is approved, and the only note is optional polish. Good to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009372499999999999,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

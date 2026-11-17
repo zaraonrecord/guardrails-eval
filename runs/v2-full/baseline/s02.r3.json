@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "67aa34ce1408a0b7e421d2b1b18bef5b6007c3a77d770ecc5a0f1ecac98b01a9",
+ "result": "I found two problems that need changing before this goes out.\n\n1. **\"Most subscribers stay with us for over a year.\"** This is a retention statistic that isn't in the claims allowlist, so it counts as an invented number. Cut it, or replace it with a proven claim such as \"Subscribers can pause or cancel any time.\"\n\n2. **\"means most boxes ship free\"** This is also unsupported. We have no data on what share of orders go over £25, so it is an invented statistic. The allowlist wording is \"Free UK delivery on orders over £25\", and the line should stop there.\n\nThe rest is fine. \"Subscribers can pause or cancel any time\" and \"free UK delivery on orders over £25\" both match the allowlist. The tone is plain and unhurried, there are no banned words, and the spelling is UK.\n\nA possible rewrite, which still needs Sam's approval as it's public content: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107181,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

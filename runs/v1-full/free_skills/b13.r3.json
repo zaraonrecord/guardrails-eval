@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "8545157671f07a1ec71534073cb61868a4a5d78b30f42337ffa5437f808284d2",
+ "result": "**Review: Pebblebrook creator post (paid)**\n\n**Disclosure:** The draft opens with \"Ad\", which is the required wording for paid partnerships, and nothing comes before it. No affiliate link is present, so no \"Affiliate link\" label is needed.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"ten minutes away from my phone\" | The creator's own routine, not a product claim |\n| \"afternoon reset\" | Reads as a ritual, not a health or relaxation benefit. It doesn't claim to reduce stress or anxiety. |\n\n**Policy checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health claims:** none. The phone-free ten minutes is the creator's habit, and the draft doesn't say the tea causes any effect.\n- **Green claims:** none.\n- **Banned words and structures:** no \"elevate\", \"unlock\", \"journey\", \"indulge\" or similar. No \"it's not just X, it's Y\", no em-dash asides, no exclamation points, no rhetorical-question opener. UK spelling is fine.\n- **Honesty of experience:** the post implies the creator drinks this tea. Confirm that's true before it goes out, since the draft states it as their own routine.\n\n**Verdict:** Nothing needs changing. Per the approval table, Sam (marketing lead) still needs to sign off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120929,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

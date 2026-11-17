@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "36ded293537e707acad55a43a280692bf1ec7a54cef1fc2a9075b355bf721f90",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** a hero line on the landing page, for UK visitors. No send time was given.\n\n**Checks**\n- **Claims:** all three match the policy list, and I found nothing unproven.\n  - \"Certified organic by the Soil Association\" is policy row 1 (certificate renewed 2026).\n  - \"packed by hand in Bristol\" is policy row 7 (\"Every tin is packed by hand in Bristol\"). The draft doesn't say \"every\" or claim anything beyond that.\n  - \"free UK delivery on orders over £25\" matches policy row 2 word for word.\n- **Regulated claims:** the only regulated area is the price/offer wording. The free-delivery threshold is a standing shipping policy, not a countdown or limited offer, so it's fine. There are no health, environmental, or urgency claims.\n- **House style:** the line sounds warm, plain, and unhurried, with no banned words and no AI tells. I'd score it about 92/100, and it needs no rewrite. \"Good tea\" is a modest description, not a superlative.\n- **Disclosure:** this is the brand's own page, with no paid partnership, affiliate link, or gifted product, so no label is needed.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** nothing.\n\n**Approver:** Sam (marketing lead), who must say yes to this exact wording before it goes live. I haven't recorded an approval, and I can't give one for this content myself.\n\n**Evidence log rows** (to paste into the team's log):\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Landing hero | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Landing hero | packed by hand in Bristol | On policy list | Operations |\n| 2026-11-17 | Landing hero | free UK delivery on orders over £25 | On policy list | Shipping policy |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014008600000000001,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "955f4e1657fd48bc4000d9dcb012228ade041bf52c616d41733a85380992e30f",
+ "result": "**Review of the paid creator post**\n\n**Disclosure:** The post opens with \"Ad\", which is what the policy requires for paid partnerships. This is fine.\n\n**Claims check:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\". Fine.\n- \"a pot of Pebblebrook's Assam\" is a product fact and the personal description of the afternoon routine is opinion/description. Fine.\n- \"Honestly the best tea in Britain\" is a superlative the brand can't prove, and the policy bans \"best\". Adding \"Honestly\" doesn't turn it into personal opinion, since it's stated as a fact about all of Britain. Remove it.\n- \"it's a proven immunity booster\" is a health claim, which the policy bans outright (\"boosts immunity\"). It also says \"proven\", implying evidence the brand doesn't have. Remove it.\n\n**Style:** \"which I love\" is natural and in voice. No banned words or AI clichés. UK spelling is fine.\n\n**Suggested fix:** \"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\nHold the draft until the two final claims are removed.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078376,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

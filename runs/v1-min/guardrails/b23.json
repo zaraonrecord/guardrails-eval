@@ -1,10 +1,14 @@
 {
  "case": "b23",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report**\n\n**Going out:** Product page copy for Rooibos Chai (100g tin), UK.\n\n**Checks**\n- **Claims:** No statistics, rankings, guarantees, testimonials or comparisons. \"Caffeine-free\" is a product fact about the ingredients, and the policy allows those as written. \"Lovely with milk\" is a serving suggestion, not a claim.\n- **Regulated claims:** Nothing on health benefits, money, the environment, children or prices. \"Caffeine-free\" describes the content and makes no wellness promise. It's worth confirming the blend really contains no caffeine-bearing ingredient (no black tea or green tea), since the copy lists only rooibos and spices.\n- **House style:** Short, plain and concrete. It has no stock openers, intensifiers, groups-of-three padding or slogan closer. No changes needed.\n- **Disclosure:** It isn't an ad, sponsorship, affiliate or gifted content, and nothing in it is AI-generated imagery or a customer-service reply. No label is needed.\n\n**Fixed:** Nothing. I made no edits.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no approver, so it's you. Please give an explicit yes to this exact copy, and then it can go live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0112553,
- "seconds": 11.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eb38210988f6e2fa4328f80e33c552a9b8d9fad1c73fdbe699fec96b65b34c31",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** Product page copy for the Rooibos Chai 100g tin, on the website, to UK shoppers.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are product facts (ingredients, size), which the policy allows as written. \"Lovely with milk\" is a mild opinion, not a claim. Nothing to log as unproven.\n- **Regulated claims:** There are no health, money, legal, environment, children or price claims. \"Caffeine-free\" describes the ingredients rather than promising a health benefit. One thing to confirm: the blend must contain no black tea, only black pepper, or \"caffeine-free\" would be wrong.\n- **House style:** The copy is short and plain, with no banned phrases or AI tells (no stock openers, no \"not X, it's Y\", no slogan closer). No rewrite needed.\n- **Disclosure:** This is the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-generated content. No label needed.\n\n**Fixed:** Nothing. No changes made.\n\n**Needs a decision:** Only the confirmation above, that the recipe has no black tea. My suggestion is to publish as written if that holds.\n\n**Approver:** The policy has no approval table, so I need an explicit yes from you on this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012759300000000001,
+ "seconds": 16.6,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47128f311df04bea46852ad3a086c5375156a31523e6ef3e27b8c33613695a73",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"**: The brand sells loose leaf tea, and it is certified organic by the Soil Association. This is fine.\n- **\"Certified organic by the Soil Association\"**: This is on the allowlist, so it's fine.\n- **\"Free UK delivery on orders over £25\"**: This is on the allowlist and matches the stated threshold, so it's fine.\n\nThe copy has no invented stats, superlatives, guarantees, testimonials, health claims, urgency or vague green claims. It targets UK customers, which fits the market. The ad is short and plain, and I found nothing that needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0047989,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

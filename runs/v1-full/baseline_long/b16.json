@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6ac702f9a6187e48707ecc3fec4b68437b633a53fdc92849d36fa90e04b6e071",
+ "result": "I checked the draft sentence by sentence against the brand policy and found nothing that needs changing.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved claim word for word. The proof is the review platform export from October 2026, which is current.\n- **\"Organic loose leaf\"**: This is covered by the Soil Association certification on file, renewed 2026. It doesn't name the certifier, but that is optional.\n- **\"plastic-free bags\"**: The approved claim is that the tea bags are plastic-free and home compostable (EN 13432), so this is supported. Nothing here goes beyond that into a wider environmental claim.\n- **\"packed by hand in Bristol\"**: This matches the approved \"Every tin is packed by hand in Bristol\".\n- **Labels:** This is the brand's own landing page, so no ad or affiliate label is needed.\n- **Urgency, guarantees, health claims, superlatives:** There are none.\n- **Voice:** The copy is plain and short, with no banned words or AI clichés, and it follows UK spelling conventions.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122827,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

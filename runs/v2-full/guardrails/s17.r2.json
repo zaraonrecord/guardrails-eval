@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2bc9542c1b64c2b1fd710559c844a8aca42d18b6f7cc7620b20720a584151b7a",
+ "result": "## Publish gate report\n\n**Going out:** a subscriber email, \"Your October tins are on the way\", to Priya, via email. The send time wasn't given.\n\n**Checks**\n- **Claims:** one problem. \"As always, it ships within 24 hours of your order.\" A dispatch-time promise isn't in the policy's claims list, and no source was given in this chat. Only free UK delivery over £25 is covered. I've removed it. If it's true and the shipping policy backs it, add it to the policy and it can go back in.\n- **Passed:** \"you can pause or cancel any time\" matches the policy row (subscription terms). \"Left Bristol\" is fine as a plain statement of fact. The lapsang and white peony are product facts the product team owns.\n- **Regulated claims:** nothing on health, money, environment, children, or price.\n- **House style:** warm, plain and unhurried, with no banned words or AI tells. Score is about 95 and no rewrite is needed beyond the cut.\n- **Disclosure:** none needed. It's a transactional email with no ad, affiliate link, gifted product or AI-generated content.\n\n**Fixed:** removed the 24-hour shipping sentence.\n\n**Needs a decision**\n1. The subject says \"October tins\", but today is 17 November. If this is the November box, the subject and \"this month\" are wrong. If it really is a late October box, say so. My suggestion is to confirm the box month and correct the subject.\n2. Confirm \"left Bristol this morning\" is true for every recipient. If this goes to a whole list, it's a claim about each person's order.\n\n**Suggested copy**\n\n> Subject: Your tins are on the way\n>\n> Hi Priya,\n>\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n>\n> The Pebblebrook team\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Sam needs to say yes to this exact final version, once the month is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0188995,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

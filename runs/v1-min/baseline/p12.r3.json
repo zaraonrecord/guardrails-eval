@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ae8ac85b412c15be29bbf883e545581f052760ca43b6b2b710ebde1c228830b1",
+ "result": "**Review of the creator post (paid)**\n\n- **Disclosure:** This is a paid post, but nothing in it says so. UK rules (ASA/CAP and CMA) require paid or incentivised content to be clearly labelled as an ad, for example with \"#ad\" or \"Ad:\" at the start. This must be fixed before publishing.\n- **Claims:** \"Packed by hand in Bristol\" matches the approved claims. The Assam and the \"pot of tea\" mentions are product facts and are fine. \"Which I love\" is a personal opinion and doesn't make any factual claim.\n- **Other checks:** I found no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or fake testimonial. The tone is natural rather than generic AI copy.\n\n**Suggested fix:** Add a clear label at the start, e.g. \"Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007463899999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

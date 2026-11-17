@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732438fec6171281d71140c3517dc3c4022a0b2657542062cbcd2dd904f2e28d",
+ "result": "## Publish gate report\n\n**Going out:** blog intro, 2 sentences, on the Pebblebrook blog. No date or audience given.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | On the policy list (\"founded in Bristol in 2019\") |\n| Tea bags are plastic-free and home compostable | On the policy list |\n| \"Couldn't find tea bags without plastic in them\" | Founding story, not a provable claim. Fine as written, but the founders should confirm it's how it happened. |\n| \"Here's how we checked\" | Promises evidence the intro doesn't contain. See below. |\n\n**Regulated claims (environment):** \"Plastic-free and home compostable\" is specific, not a vague \"eco\" or \"green\" claim, and the policy backs it. It passes. Keep the wording this exact in the rest of the post, and don't add broader claims like \"sustainable\" or \"planet-friendly\" without a source.\n\n**House style:** The policy has no voice section, so I can't score it. It reads plainly, with no banned-word or AI-tell patterns. \"Here's how we checked\" is a mild teaser hook, but it's acceptable.\n\n**Disclosure:** Not needed. It's the brand's own editorial content, with no ad, sponsor, affiliate link, gifted product or AI-generated element.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:**\n- This is only the intro. The body has to deliver on \"here's how we checked\" with real methods and results, for example the Soil Association certification or the actual compostability testing. Don't invent test details. Send me the full post and I'll run the claims check on it before it goes live.\n- Suggested answer: approve the intro as is, but hold the post until the body has been checked.\n\n**Approver:** The policy names no approver, so please give an explicit yes to this exact text. Once you do, I can record the approval under your name.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015095900000000002,
+ "seconds": 17.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e574e0597ea826caf3e203ca0c5bd751b3e6bb65ea7af68da66cc3462af218bb",
+ "result": "This draft is fine to publish as written. Two things to confirm first.\n\n**What I checked**\n- **Affiliate label:** \"Affiliate link\" sits right next to the link, as section 4 requires.\n- **Claims:** The draft makes no health, environmental, guarantee, urgency or invented-number claims. \"The easiest to pause\" is the reviewer's own opinion of their own experience, and it matches what we can back up (subscribers can pause or cancel any time). It isn't a \"best\" or \"number one\" claim from us. \"Four tea subscriptions this year\" is also the reviewer's own experience, not a figure we're asserting.\n- **Voice:** It's warm and plain, with no banned words and UK spelling.\n\n**To confirm before it goes out**\n1. If Pebblebrook paid for the post or gifted the tea, the post must open with \"Ad\" or \"Gifted\". The draft doesn't say either way, so please check with the creator. If it's affiliate-only, no extra label is needed.\n2. Sam needs to approve anything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010424200000000002,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

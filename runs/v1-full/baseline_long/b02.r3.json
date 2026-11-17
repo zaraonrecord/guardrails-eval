@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f2d661fcf31b969a72a6de60479f3d1d0366202d6098b7b1cd6983ed87b226cb",
+ "result": "I read the draft as Priya would, in her inbox, then checked each sentence.\n\n- **Subject line:** \"Your October tins are on the way\" matches the body (a subscription box that has shipped). It doesn't mislead. Today is 17 November, so \"October\" is a little odd, but I can't tell whether this is a late send or a scheduling slip. Worth a quick check by Sam, though not something I can call an error from the draft alone.\n- **\"left Bristol this morning\":** the brand is Bristol-based and packs tins there. Fine as an operational statement, assuming it is true for this shipment.\n- **\"a smoky lapsang and a soft white peony\":** product description, covered by product facts checked by the product team.\n- **\"you can pause or cancel any time from your account\":** matches the approved claim \"Subscribers can pause or cancel any time\". \"From your account\" is a minor detail on the mechanism, which is presumably accurate for the subscription terms.\n- **Claims, numbers, health, green, urgency, guarantees, testimonials:** none present.\n- **Labels:** this is the brand's own email to a subscriber, so no ad label is needed.\n- **Voice:** warm, plain, short. No banned words or AI clichés. UK spelling is fine.\n\nNo issues that should stop publication. The only note is the optional check that \"October\" is the intended month given the current date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073715,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

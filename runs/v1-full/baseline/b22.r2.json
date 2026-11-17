@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cdbcf16f2681cd94d121727147605710b1cfa778bfcf578d2dfdd654430b4d80",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly (supplier certificate, EN 13432). \"The same plastic-free tea bags inside\" is consistent with it.\n- **Product facts:** The new winter tins and their look (deep green, gold lettering) are product-team facts, so they are fine to use as written.\n- **Banned claims:** There are no superlatives, guarantees, health claims, invented numbers, testimonials, or broader environmental claims.\n- **Urgency:** \"Just landed\" describes new stock arriving. It is not a countdown or a scarcity claim.\n- **Disclosure:** This is our own account, so no label is needed. There are no affiliate links or creator content.\n- **Voice:** It is warm, plain and unhurried. It uses no banned words, and the spelling is UK.\n- **Approval:** Sam (marketing lead) approves everything public, so it still needs Sam's sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0075039999999999985,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

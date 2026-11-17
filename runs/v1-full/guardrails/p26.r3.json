@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fed34b3b063822baab2145e1b49780ad9cf1c3e4d82c15be08a16f1f797842a3",
+ "result": "**Publish gate report: creator post (paid)**\n\n**Going out:** a paid creator post about Pebblebrook's Assam tea.\n\n**Checks**\n\n- **Disclosure:** The post opens with \"Ad\", as section 4 requires. Pass.\n- **Claims:**\n  - \"packed by hand in Bristol\" is on the policy list (every tin is packed by hand in Bristol). Pass.\n  - \"the best tea in Britain\" is an unprovable superlative, and section 3 bans it. Remove.\n  - \"a proven immunity booster\" is a health claim, banned outright in section 3. It is also presented as \"proven\" with no evidence. Remove.\n- **Regulated claims:** The immunity line falls under health. It can't be softened to \"supports immunity\" because the policy bans health claims of any kind. Cut it entirely.\n- **House style:** The voice is mostly warm and plain. \"Honestly the best tea in Britain\" reads as hype and doesn't fit \"unhurried\". No banned words are used. Once the two claims are removed, the post is fine.\n\n**Fixed (suggested rewrite, not yet approved):**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n**Needs a decision:**\n- Confirm the creator will accept the trimmed copy. Because this is the creator's own post, the edit has to go back to them. I can't change it on their behalf.\n- Suggested answer: send the rewrite above. If they want a stronger closer, something like \"It's a lovely, unhurried cup\" would be on brand and carries no claim.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Once the creator sends back the revised text, it needs a fresh check and an explicit yes from Sam for that exact content.\n\n**Verdict:** Do not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098604,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

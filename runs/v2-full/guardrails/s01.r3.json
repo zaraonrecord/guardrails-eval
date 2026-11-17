@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cd930da8b08ecedc8b967350c1b9c1cbdc5a48721849a49bd989e567afddbd67",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, own account, Pebblebrook Tea Co.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5 from over 2,000 reviews on our website\" | **Does not match policy.** The policy row says \"over 1,200 reviews\" (export October 2026). \"Over 2,000\" is an invented, inflated number. |\n\n**Regulated claims:** None (no health, money, environment, children or price content).\n\n**House style:** Warm, plain, unhurried. Fits the voice. No banned words, no AI tells. The \"Rainy Sunday, second pot.\" opener is good. Score about 92.\n\n**Disclosure:** Own-account organic post, no partnership, affiliate link or gifted product. No label needed.\n\n**Fixed (suggested rewrite):**\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision:** If the review count really has passed 2,000, someone needs to refresh the review export and update the policy row before that number is used. My suggestion is to publish with \"over 1,200\" now.\n\n**Approver:** Sam (marketing lead). I have not recorded an approval. Sam needs to say yes to the corrected text above, and the draft as submitted should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085785,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

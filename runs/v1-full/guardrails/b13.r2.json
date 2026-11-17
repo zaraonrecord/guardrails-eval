@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ff1669eb123531350f3474e74f9025e355878d58403f76f296277e194ee35dab",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (paid), UK. The timing and the creator's handle weren't given.\n\n**Checks**\n- **Claims:** Pass.\n  - \"Their tins are packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\" (Operations).\n  - Assam, and the pot of tea as a product, are product facts and fine as written.\n  - There are no stats, ratings, testimonials, guarantees, superlatives or urgency.\n- **Regulated claims:** Pass. \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle phrasing, not health claims. Nothing touches money, the environment, children or prices. If the creator expands \"reset\" into wellbeing claims such as \"calms me\" or \"helps me relax\", that would need a new check.\n- **House style:** About 92/100.\n  - Voice is warm, plain and unhurried.\n  - None of the banned words appear.\n  - There are no AI tells, and the spelling is neutral UK.\n- **Disclosure:** Pass. The post opens with \"Ad\", which is the wording section 4 requires for paid partnerships, and it comes before anything else. It's a single post, so there's nothing to repeat across a carousel or thread. Make sure the creator also switches on the platform's paid-partnership tool, where one exists.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead), for everything public. I haven't recorded an approval. Sam needs to say yes to this exact text, and then it can go.\n\n**Evidence log rows** (paste into the team's log):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Creator post (paid), Assam | Tins are packed by hand in Bristol | On policy list | Policy §2, Operations |\n| 2026-11-17 | Creator post (paid), Assam | Pebblebrook sells an Assam tea | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0134019,
+ "seconds": 16.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

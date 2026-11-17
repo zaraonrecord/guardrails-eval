@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "776ec53a8802ce84765fd310641094c29c6ff3456c59c7e247468e3c06a1ce89",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Certified organic by the Soil Association\" matches the allowlist wording exactly, and the certificate is on file and renewed for 2026.\n- **Product facts:** \"Just peppermint leaves, nothing else\" is an ingredient statement, which the product team checks and which is fine as written.\n- **Health claims:** \"Cool and clean after a big meal\" describes how the tea tastes and feels. It doesn't say the tea aids digestion or treats anything. If it were reworded to mention settling the stomach or helping digestion, it would become a health claim.\n- **Other rules:** There are no superlatives, guarantees, invented numbers, green claims, or false urgency. No banned words appear, the tone is plain and unhurried, and no disclosure label is needed on our own product page.\n- **Approval:** Under section 6, Sam needs to approve everything public, so get his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007316799999999999,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

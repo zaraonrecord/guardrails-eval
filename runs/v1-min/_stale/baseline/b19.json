@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. The brewing advice (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product and brewing information, which the policy allows as written.\n- **Disclosure:** This is a plain brewing-tips email with no offer, sponsorship or incentive, so no disclosure is needed.\n- **Tone:** It's short and natural, with no filler or generic AI-style phrasing.\n- **Audience and market:** It suits UK tea drinkers, and nothing in it is specific to another market.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00823,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9a624e6582815c1c53b40859b5edd155fe0161b644c9392c3b6268e62d216916",
+ "result": "**Review: blog intro**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (founded in Bristol in 2019) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"because we couldn't find tea bags without plastic in them\" | Not on the allowlist. It's a founding motive, so it's fine only if the team confirms it's true. |\n| \"here's how we checked\" | Unsupported. See below. |\n\n**Problem: \"here's how we checked\"**\n- The plastic-free and home-compostable claims are allowed. The promise of a verification process is not.\n- \"How we checked\" implies testing or verification, such as lab tests, a home-composting trial or third-party certification. None of that is on the allowlist or supplied in this chat.\n- The only certification we can cite is Soil Association organic, and that covers organic status, not compostability.\n- Green claims draw close scrutiny from UK regulators (the CMA and ASA), so implied evidence needs to be real and shown.\n\n**Fix options**\n1. Supply the actual method, with a source, and describe exactly that. For example: \"[PROOF NEEDED: what test or certification supports home compostability, and who carried it out]\".\n2. Cut the promise. Rewrite as: \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable.\"\n\nPlease also confirm the \"couldn't find tea bags without plastic\" origin story is accurate. Slop and style checks are clean, with no ban-list words and no structural issues.\n\n```json\n{\"issues\": [{\"quote\": \"here's how we checked\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013538900000000003,
+ "seconds": 14.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

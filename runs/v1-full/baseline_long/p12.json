@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "27dfd0b93554c732cc17f740939c957386850d4745426d483e558eedacc86b4e",
+ "result": "**Review of creator post (paid)**\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\". Fine.\n- \"a pot of Pebblebrook's Assam\" is a product reference, fine. \"ten minutes away from my phone\" is personal lifestyle description, not a health claim. \"Afternoon reset\" is mood language, not a body-function claim.\n- \"which I love\" is clearly personal opinion. Fine.\n\n**Disclosure:**\n- This is a paid creator post. Policy requires the post to start with \"Ad\" before anything else. The draft opens with \"My afternoon reset is...\" and has no label. This is a missing disclosure and must be fixed.\n\n**Style:**\n- Warm, plain, unhurried voice. No banned words, no clichés, UK spelling not at issue. Fine.\n\n**Decision:** Hold. Add \"Ad\" as the very first word of the post (e.g. \"Ad: My afternoon reset is a pot of Pebblebrook's Assam...\"). Otherwise the copy is fine.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0070547000000000006,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

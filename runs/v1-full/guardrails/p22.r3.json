@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b059bf6a1aab21e8b895db1080ec5470b784980f13cea442bebcfc7b089bb2b3",
+ "result": "## Publish gate report\n\n**Going out:** Rooibos Chai product page copy, Pebblebrook Tea Co. product page (UK).\n\n**Checks run**\n\n1. **Claims**\n   - \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\": product facts, fine as written.\n   - \"Lovely with milk\": a mild serving suggestion, not a claim. Fine.\n   - *\"It cured my bloating in a week\" - verified buyer*: **fails.** No testimonial or permission is on record, and \"verified buyer\" implies a proof source I can't see. It's also a health claim (see below).\n\n2. **Regulated claims (health)**\n   - \"Cured my bloating\" claims the tea cures a medical symptom. The policy bans health claims of any kind, including \"cures\". Quoting a customer doesn't make it acceptable, since the brand is still publishing it. **Remove.**\n\n3. **House style:** No banned words, no AI tells. Voice is plain. The fragments are a bit clipped, but they fit a product page. Score about 88. No changes needed beyond removing the quote.\n\n4. **Disclosure:** Own product page, nothing paid or affiliate. No label needed.\n\n**Fixed (suggested edit)**\n- Removed the bloating testimonial.\n\n**Suggested copy**\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\n**Needs a decision**\n- If you want a testimonial, use one that is about taste or flavour, with the customer's written permission on file, and send it back for a check. My suggestion is to publish without one.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Publication is blocked until Sam says yes to the final copy above. Any change after that needs a new check.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Rooibos Chai product page | Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Approved | Product facts (policy section 2) |\n| 2026-11-17 | Rooibos Chai product page | 100g tin | Approved | Product facts (policy section 2) |\n| 2026-11-17 | Rooibos Chai product page | \"It cured my bloating in a week\" - verified buyer | Removed | No permission or proof on record; banned health claim |\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012161000000000002,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

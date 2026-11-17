@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc041685bda32ad27b9b49ea6041be92542b4668dd0e680d5cbaf16906cfeedb",
+ "result": "**Verdict: don't publish as written. One unsupported claim needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported.** We have no data on what share of orders pass £25. It is an implied statistic, and it also calls the product \"boxes\" when we sell tins and tea bags. |\n| \"Tea that's easy to stop and start\" | Soft framing, backed by the pause/cancel term. Fine. |\n\n**Other checks**\n- Banned words and structures: none found. No em-dash sandwiches, exclamation points, rhetorical openers or \"not just X, it's Y\".\n- Health, green, urgency and guarantee claims: none.\n- Disclosure: not needed for our own landing page.\n- Voice: warm and plain, and UK spelling holds.\n\n**Suggested rewrite**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time. Delivery is free in the UK on orders over £25.\n\nIf Sam wants a \"most orders ship free\" line, we need the order data first: `[PROOF NEEDED: share of orders over £25]`. Sam also needs to approve the final version, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121019,
+ "seconds": 21.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cc8d6d619dc0d5ab5d3e2edca886bb02de434f038acab5424dddd1a6b0818c1f",
+ "result": "**Review findings**\n\n1. **\"Elevate your mornings\"**: \"elevate\" is on the banned word list (section 5). It also reads as generic filler, and the line doesn't match the warm, plain, unhurried voice. Suggested fix: \"This month it's a smoky lapsang and a soft white peony.\" or \"Something for your mornings: this month it's...\"\n\n2. **Claims check**:\n   - \"you can pause or cancel any time\" matches the allowlist (\"Subscribers can pause or cancel any time\"). Fine.\n   - \"left Bristol this morning\" is an operational fact about the shipment, not a marketing claim. It's fine, assuming it's true for this send.\n   - Tea descriptions (smoky lapsang, soft white peony) are product facts. Fine.\n\n3. **Other checks**: No superlatives, guarantees, health claims, green claims, invented numbers, or false urgency. No disclosure required (own-brand email, no partnership or affiliate link). UK spelling is fine.\n\n4. **Minor note**: The subject says \"October tins\" but today is 17 November. If this is a late send or a mistake, check the month with the team before it goes out. The body also says \"subscription box\" while the subject says \"tins\"; worth making consistent. Neither is a policy breach.\n\nNeeds sign-off from Sam before sending, as all public content does.\n\n**Verdict:** Don't publish as is. Remove \"elevate\" and it's good to go (pending Sam's approval).\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007657799999999999,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

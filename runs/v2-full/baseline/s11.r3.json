@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d108aa3d1005500ed9f114826a16820c53146a6b2fb2b319905b55d0174fcb87",
+ "result": "**Review**\n\n- \"Free UK delivery on orders over £25\" matches the allowlisted claim exactly. Fine.\n- \"while stocks last\" is an urgency/scarcity phrase. The policy says urgency that isn't true is not allowed, and there is no real offer with an end date or limited stock in the policy. Free delivery is a standing shipping policy, so implying it may run out is untrue. It should go.\n- Product facts (Builder's, Earl Grey, peppermint) are fine as written.\n- Voice: warm, plain, unhurried. No banned words. UK spelling is fine. \"Three teas for your desk drawer\" is okay.\n- No health claims, superlatives, guarantees, or green claims. Paid social from our own account needs no label.\n- Approval: everything public needs Sam's sign-off.\n\n**Suggested fix:** Remove \"while stocks last\" so it ends: \"Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0059340999999999994,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

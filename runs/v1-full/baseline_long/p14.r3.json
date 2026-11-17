@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "499dce71413ded83d0646a70f20ef56866270ad4c46741c26e1d3c11712a1c79",
+ "result": "**Review of the affiliate blog draft**\n\n**Disclosure (blocking).** The draft ends with \"You can find it here.\" This is an affiliate link, and the brand policy requires \"Affiliate link\" next to the link. There is no disclosure anywhere, so a reader would click without knowing the post earns commission. Add \"Affiliate link\" beside the link, and put a plain disclosure at the top of the post as well so it is seen before the reader clicks.\n\nIf the creator was also paid or sent the product, the post must open with \"Ad\" or \"Gifted\" before anything else. I can't tell that from the draft, so please confirm the relationship with Sam.\n\n**Claims.**\n- \"I've tried four tea subscriptions this year\" is the author's own experience, stated as personal fact. It's fine as long as it's true for the author.\n- \"Pebblebrook's was the easiest to pause\" is a personal opinion, not a brand claim. It also fits the approved line that subscribers can pause or cancel any time. It doesn't say it's the best or make a guarantee, so it's fine.\n- \"the tins are lovely\" is opinion and description, so it's fine.\n\n**Style.** The copy is plain and warm and uses no banned words. UK spelling is fine. No notes.\n\n**Decision.** Hold until the affiliate disclosure is added. Nothing else needs to change.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010216099999999999,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

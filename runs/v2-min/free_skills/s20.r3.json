@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "60feb75867f8835451c3f98658ee5a085e5e463c7064c55b8bab373759bdbf8b",
+ "result": "**Review: \"How to brew loose leaf without a teapot\"**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- No stats, testimonials, superlatives, guarantees, health or green claims, urgency, or affiliate/sponsorship content.\n\n**Problem**\n- \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" This is generic filler. The \"whether you're X or Y\" construction is a common AI tell, and \"a cup for everyone\" says nothing concrete. Cut it, or replace it with something specific, such as the actual green tea temperature and time, or a pointer to a particular loose leaf tea.\n\n**Minor note, not blocking:** \"You don't need any kit\" is followed straight away by a list of kit (mug, sieve). \"You don't need a teapot\" would be more accurate and match the subject line.\n\n**Suggested rewrite of the body**\n\"You don't need a teapot. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler. [Add the exact temperature and time you recommend.]\"\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114935,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

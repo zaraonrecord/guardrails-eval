@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "dba2dd366aa7ef9a3b74e42ce76901fb97a831a9a911af541a4d28db1d92a753",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm tea, on the website, not yet scheduled.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"caffeine-free\" | Product fact, fine |\n| \"gentle, honeyed\" | Flavour description, fine |\n| \"Certified organic by the Soil Association\" | On the policy list, exact wording |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is on the policy list and the cup count is a product fact, so fine |\n| \"reduces anxiety\" | **Blocked.** Health claims of any kind are banned in section 3. |\n| \"helps you sleep\" | **Blocked.** It is also a health claim, and there is no evidence on file. |\n\n**Regulated claims:** Anxiety and sleep are health and wellbeing claims. Herbal tea marketed as reducing anxiety or aiding sleep is the kind of wording UK advertising rules treat as a medicinal or unauthorised health claim. The safer version keeps the calm, evening mood without promising an effect.\n\n**House style:** No banned words and no AI tells. The tone is warm and plain, so the score is about 90 once the claims are fixed.\n\n**Disclosure:** Not needed. This is the brand's own product page, with no partnership, affiliate link or AI-label trigger.\n\n**Fixed (suggested, not yet applied to the live page)**\n- Removed \"reduces anxiety and helps you sleep\".\n- Replaced it with a mood description that makes no health promise.\n\n**Suggested copy:**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for a quiet cup in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n**Needs a decision:** Nothing else is unresolved. If you want to say anything about sleep or relaxation, it needs evidence in the policy and a compliance review first. I'd leave it out.\n\n**Approver:** Sam (marketing lead). Nothing has been approved or recorded. Once Sam says yes to the exact revised copy above, it can go out. The original draft should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0173315,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

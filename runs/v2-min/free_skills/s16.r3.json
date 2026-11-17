@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "03455b3622bbff46ed5de762f85cbfc76c170b82e3c3b5884076ff418f273ff5",
+ "result": "**Verdict: don't publish as written. The claims are fine, but the opening line is filler.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | Allowlisted |\n| Packed by hand in Bristol | Allowlisted (policy says \"every tin is packed by hand in Bristol\") |\n| Free UK delivery on orders over £25 | Allowlisted |\n\nNo invented stats, testimonials, superlatives, guarantees, urgency or regulated claims.\n\n**Problem: \"Brewed with care. Packed with love. Delivered with a smile.\"**\n- It's generic filler that could sit on any brand's page. \"Care\", \"love\" and \"a smile\" are abstract claims with nothing concrete behind them.\n- The three-beat rhythm reads as AI-written.\n- The hero's first line should carry the most useful fact, and here it carries none. The real facts are in the second sentence.\n- \"Brewed with care\" is also inaccurate, because you sell tea and customers brew it.\n\n**Suggested rewrite**\n> Certified organic by the Soil Association. Packed by hand in Bristol. Free UK delivery on orders over £25.\n\nThis keeps the same allowlisted facts and leads with the strongest one.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015412299999999999,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

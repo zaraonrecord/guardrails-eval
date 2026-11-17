@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3f088e73fc123894c5e0e726f2cec4ec1d28b7c9663bbde12b7b9ff1fed7d92b",
+ "result": "**Review**\n\n- \"made with zero waste from farm to cup\": This is an absolute environmental claim. The allowlist supports only that the tea bags are plastic-free and home compostable. Nothing backs up zero waste across the whole supply chain, so it has to be removed or replaced with a supported claim.\n- \"Our tea bags are plastic-free and home compostable.\" This is on the allowlist, so it's fine. \"New tins just landed for winter\" is a new-arrival product fact, and the colour and lettering details are product facts too. Neither is a problem.\n- \"the same plastic-free tea bags inside\" is also supported.\n\nA suggested fix is to drop the zero waste line, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008804,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

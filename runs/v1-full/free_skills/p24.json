@@ -1,10 +1,14 @@
 {
  "case": "p24",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: don't publish yet. One banned word needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact. Fine if it's true for this send. |\n| \"a smoky lapsang and a soft white peony\" | Product facts. Fine. |\n| \"pause or cancel any time\" | Allowlisted (subscription terms). |\n\nThere are no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or testimonials. No disclosure is needed, since this is our own transactional email.\n\n**Problem**\n- \"Elevate your mornings\" uses \"elevate\", which is banned in our voice rules and is also AI-tell marketing language. The line adds nothing, so cut it rather than swap in another phrase.\n\n**To confirm (not in the JSON)**\n- The subject says \"October tins\" and the body says \"this month\", but today is 17 November. If this is a delayed send, the month is wrong. Please check, and use \"tins\" or \"box\" consistently.\n\n**Suggested version**\n\nSubject: Your tins are on the way\n\nHi Priya,\n\nYour subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\nThe Pebblebrook team\n\nSam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0149885,
- "seconds": 22.2,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f1e604798fd0b820c85473382f291c5e0c22cc5ba56c55ae790d6d0236247637",
+ "result": "**Verdict: hold it. One fix needed.**\n\n**Problem**\n- \"Elevate your mornings\" uses \"elevate\", which is on our banned word list. It's also generic filler that doesn't fit the warm, plain, unhurried voice.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Transactional fact about this order, consistent with hand-packing in Bristol. Fine, provided the dispatch is true for this send. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, cleared by the product team. |\n| \"pause or cancel any time\" | Allowlisted (subscription terms). |\n| No stats, superlatives, guarantees, health or green claims, fake urgency, or testimonials | None found. |\n\nNo disclosure label is needed, since this is our own email and not a creator or affiliate post. UK spelling is fine.\n\n**Suggested fix**\n\n> Subject: Your October tins are on the way\n>\n> Hi Priya,\n>\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n>\n> The Pebblebrook team\n\nSam still needs to approve it before it goes out. Also confirm the subject line: it says \"October tins\" but today is 17 November, so check the month is right.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0118985,
+ "seconds": 16.5,
  "models": [
   "claude-sonnet-5-5"
  ]

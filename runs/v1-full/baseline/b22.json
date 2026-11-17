@@ -1,10 +1,14 @@
 {
  "case": "b22",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly, and the supplier certificate (EN 13432) backs it. \"Plastic-free tea bags\" in the first sentence is consistent with it.\n- **Product facts:** The new winter tins, deep green with gold lettering, count as product-team facts and are fine as written.\n- **Banned claims:** There are no superlatives, guarantees, health claims, invented numbers, testimonials, or false urgency. \"Just landed\" describes new stock arriving, not a countdown or scarcity.\n- **Disclosure:** None is needed, because this is our own Instagram account and not a creator or affiliate post.\n- **Voice and spelling:** The tone is plain and warm, there are no banned words, and the spelling is UK.\n\nThe second sentence repeats the plastic-free point from the first. You could trim it, but that is optional. Under policy, Sam needs to approve everything public before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0095941,
- "seconds": 11.1,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cdbcf16f2681cd94d121727147605710b1cfa778bfcf578d2dfdd654430b4d80",
+ "result": "I found nothing that needs changing.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly (supplier certificate, EN 13432). \"The same plastic-free tea bags inside\" relies on the same claim. The new tins, the deep green colour, the gold lettering and the winter timing are product facts, which the product team checks and which are fine as written.\n- **Prohibited claims:** The draft has no superlatives, guarantees, health claims, invented numbers, testimonials or fake urgency. \"Just landed\" describes a real arrival and is not a countdown or scarcity line.\n- **Disclosure:** This is our own Instagram account, so no label is needed.\n- **Voice:** It is warm, plain and unhurried, uses UK spelling and has none of the banned words.\n- **Style note (optional):** The compostable sentence repeats \"plastic-free\" from the sentence before it. You could trim it, but it is not a policy problem.\n\nUnder section 6, Sam still needs to approve it before it goes live, since everything public goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078,
+ "seconds": 8.3,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9eeb93d26e925e8c66dd590d61c5e0cd66f2b71922767297c55d16e4da32bf49",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n**Claims**\n- \"Certified organic by the Soil Association\" matches the allowlist (certificate on file, renewed 2026).\n- \"packed by hand in Bristol\" is supported by the allowlisted claim that every tin is packed by hand in Bristol.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly (shipping policy).\n\n**Things I checked that aren't present**\n- No superlatives, guarantees, health claims, invented numbers, testimonials or false urgency.\n- No environmental claims beyond what's allowed.\n- No disclosure is needed, since this is our own landing page and not a paid partnership, gifted product or affiliate link.\n\n**Voice**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is warm, plain and unhurried. It uses none of the banned words or phrases, and the spelling is UK.\n- The three-beat opener is a bit generic, but it isn't a policy problem. You could swap it for something more specific to Pebblebrook if you like.\n\nAs with all public content, Sam (marketing lead) needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087664,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

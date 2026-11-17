@@ -1,10 +1,14 @@
 {
  "case": "b01",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (sentence 1) | Allowlisted |\n| Every tin is packed by hand in Bristol (sentence 2) | Allowlisted, but a repeat of sentence 1 |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted |\n\n**Slop check:** There are no banned words, no em-dashes, no exclamation points, no rhetorical openers and no fake urgency. The opening sentence leads with a concrete fact.\n\n**Problem:** The first two sentences say the same thing. \"Loose leaf tea, packed by hand in Bristol\" and \"Every tin is packed by hand in Bristol\" are redundant, and the rewrite rules say to keep the sharper one. The repeat adds no information in a hero where space is tight.\n\n**Suggested fix:**\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nIf you prefer \"every tin\", you could use: \"Every tin of our loose leaf tea is packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.024792,
- "seconds": 12.1,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b0c4a3180c9088c86ddcc64b6529bf56ac8ced11570214adfa33eff25392df53",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Allowlisted (product fact) |\n| Packed by hand in Bristol (sentence 1) | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| Every tin is packed by hand in Bristol (sentence 2) | Allowlisted, but repeats sentence 1 |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted |\n\n**Result:** All the claims are backed. There are no invented stats, superlatives, guarantees, testimonials, health or green claims, urgency tactics, or banned words.\n\n**One problem:** the first sentence (\"packed by hand in Bristol\") and the second (\"Every tin is packed by hand in Bristol\") say the same thing back to back. On a hero, that wastes the most visible line and reads like a copy-paste slip. Under the rewrite rules, keep the sharper version and cut the other.\n\n**Suggested fix:**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nThis keeps every claim, drops the repetition, and leads with the most useful facts.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.02765,
+ "seconds": 12.9,
  "models": [
   "claude-sonnet-5-5"
  ]

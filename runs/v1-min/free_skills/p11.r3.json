@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "286b07d1ef3a9282960e80e7bd6a9e385510fef53b0bdf3d8966695f1ea84e92",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"9 out of 10 customers reorder within a month\" | Unsupported. Not on the allowlist, no source given. Invented-looking stat. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n| \"Three teas for your desk drawer\" / Builder's, Earl Grey, peppermint | Product facts, fine as written. |\n\n**Other checks**\n- Slop-guard: no banned words, no exclamation points, no rhetorical opener, no fake urgency. Passes.\n- Landing page rule: the ad makes the reorder claim, so the landing page would also need to make it. Nothing supports it.\n- Disclosure and review labels: not applicable. This is the brand's own ad, no affiliate or sponsored product.\n\n**Fix**\nRemove the stat or replace it with an allowlisted claim. Suggested version:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nOr, if you have real reorder data, send me the figure and its source and I'll put it back. Otherwise: `[PROOF NEEDED: source for reorder rate]`.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0072254,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

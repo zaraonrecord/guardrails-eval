@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ac37ababa59dddd3b2749ca8e23d539532f03f28a4e049f5ad4c210436c3f8af",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Caffeine-free rooibos\" | Product fact (ingredient). Allowed under the policy's product-facts rule. It describes the tea and makes no health claim. |\n| \"cinnamon, cardamom, ginger and black pepper\" | Product fact (ingredients). Allowed. |\n| \"Lovely with milk\" | Flavour and serving suggestion. Not a superlative or a comparison. Allowed. |\n| \"100g tin\" | Product fact (tin size). Allowed. |\n\n**Other checks**\n- **Superlatives, guarantees, urgency:** none.\n- **Health claims:** none. \"Caffeine-free\" is stated as a plain attribute, with no wellness, sleep or calming benefit attached.\n- **Environmental claims:** none.\n- **Invented stats, reviews or testimonials:** none.\n- **Disclosure:** not needed. This is our own product page, not a paid partnership, gifted post or affiliate link.\n- **Voice:** plain and unhurried, with UK spelling. No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and the opening gives the product name and what it is.\n\nThe copy is short, but it is accurate and sticks to what the product team can verify. I'd suggest nothing on policy grounds. The only step left is Sam's sign-off, since all public content goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010510100000000001,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\"\n- \"Founded in Bristol in 2019\" is an approved claim (Companies House). \"Started Pebblebrook in Bristol in 2019\" says the same thing in different words, so it's fine.\n- The motivation (\"because we couldn't find tea bags without plastic in them\") is a statement about the company's origin story. It isn't a product, health, or environmental claim, and nothing in the policy contradicts it. I'd suggest the team confirm it's the true story, but it isn't something to hold the post for.\n\n**Sentence 2:** \"Our tea bags are plastic-free and home compostable, and here's how we checked.\"\n- \"Our tea bags are plastic-free and home compostable\" is on the allowlist, backed by the supplier certificate (EN 13432). Fine.\n- \"here's how we checked\" is a lead-in to the rest of the blog post. It promises an explanation of the checking, which presumably is the supplier certificate. It's only an intro, so I can't review the body. The body needs to stay with the certificate and not stretch to claims like \"eco-friendly\" or \"zero waste\".\n\n**Other checks:**\n- No superlatives, guarantees, health claims, invented numbers, testimonials, or urgency.\n- No paid partnership or affiliate link, so no label is needed.\n- Voice: plain, warm, and unhurried. None of the banned words or AI clichés appear. UK spelling is fine.\n\nNothing needs changing in this intro. The only note is for the full post: keep the explanation to the certificate and the approved wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104707,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

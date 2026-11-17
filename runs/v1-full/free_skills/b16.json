@@ -1,10 +1,14 @@
 {
  "case": "b16",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: clear to publish, with Sam's sign-off.**\n\nClaims check:\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"Organic loose leaf\" | Allowlisted: certified organic by the Soil Association, certificate renewed 2026 |\n| \"plastic-free bags\" | Allowlisted: plastic-free tea bags, supplier certificate (EN 13432) |\n| \"packed by hand in Bristol\" | Allowlisted: every tin is packed by hand in Bristol |\n\nOther checks:\n- **Superlatives, guarantees, health, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. The rating and review count match the allowlist exactly.\n- **Voice:** no banned words or structures, UK spelling, plain and unhurried.\n- **Disclosure:** not needed. This is our own hero copy, with no partnership or affiliate link.\n\nTwo small notes, neither blocking:\n- \"Packed by hand\" is allowlisted for tins. If the plastic-free bags ship in boxes or pouches rather than tins, the product team should confirm they are also hand-packed in Bristol. If they are, the line is fine as written.\n- The rating is dated October 2026. Refresh it if the review export is updated before the page goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.014222500000000003,
- "seconds": 10.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5c43fb34ca10ff1cf40a6f27919a084c579c600fbda5bb98bbf9c146e25d724f",
+ "result": "**Verdict: clear to publish.** Sam still needs to approve it, since all public content goes through them.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted. The wording matches the policy exactly (review export, October 2026). |\n| \"Organic\" | Allowlisted as \"Certified organic by the Soil Association\" (certificate renewed 2026). The draft's shorter \"organic\" is consistent with it. |\n| \"loose leaf\" | Product fact, fine as written. |\n| \"plastic-free bags\" | Allowlisted: tea bags are plastic-free and home compostable (EN 13432). |\n| \"packed by hand in Bristol\" | Allowlisted as \"Every tin is packed by hand in Bristol.\" |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. Both figures come from the allowlist.\n- **Banned words and structures:** none. There are no exclamation marks, rhetorical questions, em-dashes or \"not just X, it's Y\" constructions. The tone is plain and fits the brand voice.\n- **Disclosure:** not needed. This is the brand's own landing page, with no partnership or affiliate link.\n\n**Optional notes (not blockers)**\n- \"Packed by hand\" is allowlisted for tins. The sentence could be read as covering the bags as well. If the bags are also hand-packed, nothing changes. If they aren't, \"Every tin packed by hand in Bristol\" is the safer wording.\n- The rating is based on an October 2026 export. Refresh it if the count or score moves before launch.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012922300000000001,
+ "seconds": 13.9,
  "models": [
   "claude-sonnet-5-5"
  ]

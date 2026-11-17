@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b0c4a3180c9088c86ddcc64b6529bf56ac8ced11570214adfa33eff25392df53",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (stated twice) | Allowlisted: \"every tin is packed by hand in Bristol\" |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted |\n\nThere are no invented stats, superlatives, guarantees, testimonials, fake urgency, or health or green claims. The draft has no banned vocabulary and no structural violations. It doesn't need a disclosure, since it isn't a review or affiliate content.\n\n**Problem: the same claim is made twice.** The first sentence (\"Loose leaf tea, packed by hand in Bristol.\") and the second (\"Every tin is packed by hand in Bristol...\") say the same thing. The slop rules say to keep the sharper one. The repetition also wastes hero space and reads like filler. The draft should be edited before it goes out.\n\n**Suggested rewrite:**\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nEvery claim in the rewrite is on the allowlist.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011359200000000002,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

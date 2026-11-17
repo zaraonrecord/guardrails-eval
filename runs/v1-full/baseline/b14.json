@@ -1,10 +1,14 @@
 {
  "case": "b14",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", before anything else, as section 4 requires for free product.\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or fake urgency. \"Lovely with oat milk\" is the creator's own opinion of the taste, not a claim about the product. The winter sampler and the rooibos chai are product facts, which the product team has already checked.\n- **Voice:** It is warm and plain, uses none of the banned phrases, and the spelling is fine for UK English.\n- **Consistency:** \"Not paid to say that\" matches the gifted label. If the creator was in fact paid, the opening would need to be \"Ad\" instead.\n\nUnder section 6, Sam still needs to approve this before it goes live, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008688099999999999,
- "seconds": 12.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b2091a61214512ae5706c66eeb1b0c3991990cae6bd029a958708b6e14e8cd1e",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** It opens with \"Gifted\", which is the required wording for a free product and comes before anything else.\n- **Claims:** \"Lovely with oat milk\" is the creator's own opinion of the taste. It is not a superlative, a guarantee, a health claim or an invented figure.\n- **Product facts:** The winter sampler and the rooibos chai are product details, which the product team checks and which are fine to use as written.\n- **Consistency:** \"Not paid to say that, just liked it\" matches the gifted status, so it doesn't conflict with the label.\n- **Voice:** The tone is warm and plain, with no banned words and nothing in US spelling.\n\nSam (marketing lead) still approves everything public, so this needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072318999999999994,
+ "seconds": 9.4,
  "models": [
   "claude-sonnet-5-5"
  ]

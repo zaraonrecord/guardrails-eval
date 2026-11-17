@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4b723042da86f7d60fecf3f4453427d891bcb3bfffdc41f99147f13a8d0b49c3",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported: certified organic by the Soil Association (section 2); loose leaf is a product fact |\n| \"Loved by 50,000 tea drinkers\" | **Unsupported.** No customer count is on the allowlist. The only audience figure is \"over 1,200 reviews\", which is a different number. \"Loved by\" is also an unprovable sentiment claim. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording |\n\n**Problem:** \"Loved by 50,000 tea drinkers\" is an invented statistic and must be removed. The brand policy forbids invented numbers and customer counts.\n\n**Other checks:**\n- Banned words: none. No slop, no exclamation marks, no fake urgency.\n- Landing page consistency: the other claims need to appear on the landing page too, so confirm that before it goes live.\n- Character limits: none were given, so I haven't counted. The description is roughly 100 characters, and if your platform's limit is 90 (as with Google RSA descriptions), it would need trimming.\n- Approval: Sam (marketing lead) needs to sign off on public content.\n\n**Compliant version:**\n\nHeadline: Organic Loose Leaf Tea\nDescription: Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n(The rating line is allowlisted with its exact wording. It is a longer description, so check it against your character limit. If space is tight, drop it and use: \"Certified organic by the Soil Association. Free UK delivery on orders over £25. Packed by hand in Bristol.\")\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092371,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

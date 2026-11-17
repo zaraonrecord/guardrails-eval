@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b0c4a3180c9088c86ddcc64b6529bf56ac8ced11570214adfa33eff25392df53",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Packed by hand in Bristol (every tin) | Allowlisted |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted |\n\nThere are no invented numbers, superlatives, guarantees, testimonials, health or green claims, or fake urgency. Nothing is a soft claim hardened into a hard one.\n\n**Slop check**\n\n- The ban list has zero hits.\n- There are no em-dashes, exclamation points, rhetorical openers or abstract-noun triads.\n- The opening sentence leads with a concrete fact.\n\n**Optional polish, not a blocker**\n\n\"Packed by hand in Bristol\" appears twice in three sentences. Rule 4 says to keep the sharper version. A tighter option, using the same allowlisted claims:\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThe original is accurate and safe to publish as it stands.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014829200000000002,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

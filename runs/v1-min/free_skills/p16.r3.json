@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c64529c9c939e7ee703927e513bb847f27a36cb8edb8436351de4920266a86be",
+ "result": "**Not ready to publish.** One line needs confirming or changing.\n\n**Claims list**\n- \"Black tea, orange peel, cinnamon and a little clove\": product facts, fine as written.\n- \"The Christmas blend is back\" / \"back in the shop\": new-arrival fact, fine.\n- \"Today only: 30% off, ends at midnight\": **unsupported.** The 30% discount isn't on the allowlist or supplied with a source in this chat. The \"today only / ends at midnight\" deadline is urgency language, and I can't verify that the deadline is real.\n\n**What to do**\n- If the 30% offer is real and really ends at midnight tonight, tell me the code or promo details and the end time, and the line can stay. Include the end date and timezone so it's verifiable, and make sure it ends when you say it does.\n- If the offer isn't confirmed, cut the sentence. A compliant version: \"Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n- `[PROOF NEEDED: confirmation that the 30% discount exists and its true end time]`\n\n**Minor edit:** \"is back\" and \"It's back in the shop\" repeat each other. The rewrite above merges them.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012000799999999999,
+ "seconds": 16.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

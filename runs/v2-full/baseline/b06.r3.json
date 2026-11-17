@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a65a79294d7e120c76f8803465599f3e734686b5001e4f8893d4bb18b8d91a59",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Product facts:** The Darjeeling garden, the March picking, the \"bright and floral\" flavour and the arrival in the shop on Monday are all product facts the product team checks, so they're fine as written.\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or testimonials.\n- **Urgency:** \"From Monday\" announces a new product arriving. It isn't a countdown, a \"today only\" or an \"only X left\".\n- **Disclosure:** This is our own newsletter, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** The tone is warm, plain and unhurried, and none of the banned phrases appear.\n\nPer the brand policy, Sam needs to approve everything public, so get their sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006889900000000001,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

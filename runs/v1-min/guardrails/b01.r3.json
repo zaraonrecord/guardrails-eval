@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e4d2d58df214dcbbc718a04189743e43da7d89ffc138e6124a01d397e316d763",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n- **Claims:** All three are on the policy allowlist, so nothing needs changing.\n  - \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\".\n  - \"certified organic by the Soil Association\" matches the policy.\n  - \"Free UK delivery on orders over £25\" matches the policy.\n- **Regulated claims:** The copy has no health, money, environmental, children's or price-comparison claims. The delivery threshold is a plain, accurate condition, not a \"was/now\" price or urgency claim.\n- **House style:** The policy has no voice section, so I couldn't score against it. The only weakness is that \"packed by hand in Bristol\" appears twice in three short sentences. It's harmless, but tighter copy would be:\n  > Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n  I'd make this edit, but it doesn't block publishing.\n- **Disclosure:** This is the brand's own page, with no sponsorship, affiliate links, gifted products or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing changed in the draft. The tightened version above is optional.\n\n**Needs a decision:**\n- Whether to use the tightened version or keep the original wording.\n- Approval: the policy names no approver, so I need an explicit yes from you to this exact final copy. If you approve, record it yourself with `!python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"landing hero copy\"`. I haven't recorded any approval.\n\n**Approver:** Not named in the policy, so you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0132982,
+ "seconds": 18.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

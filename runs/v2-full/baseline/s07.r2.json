@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "24542a86c3c6f681efbea02e8ccf6ff6a8f8e487faca2b0252c706edf781576b",
+ "result": "**Review of the Chamomile and Lemon Balm product page copy**\n\nLine by line:\n\n- \"Chamomile and Lemon Balm.\" Product name, fine.\n- \"A gentle, honeyed caffeine-free blend\" Product fact (flavour, ingredients). Fine, assuming the product team has confirmed it is caffeine-free and honeyed.\n- \"to help you wind down and sleep better.\" This is a health claim. Sleep improvement is a benefit claim of the kind section 3 rules out, and nothing in the claims allowlist supports it. It needs to go. A flavour or occasion description would work instead, for example \"a calming-tasting cup for the evening,\" though \"calming\" is also close to the line, so something like \"a soft, gentle cup for the end of the day\" is safer.\n- \"Certified organic by the Soil Association.\" Matches the allowlist wording exactly. Fine.\n- \"20 plastic-free tea bags.\" Pack count is a product fact, and \"plastic-free\" is on the allowlist. Fine. The full allowlist wording is \"plastic-free and home compostable,\" but plastic-free alone is accurate.\n\nVoice and spelling: plain and warm, no banned words, UK spelling is fine.\n\nVerdict: do not publish until the sleep claim is replaced. Everything else is fine. Sam needs to approve the revised version as it is public content.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009268099999999998,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

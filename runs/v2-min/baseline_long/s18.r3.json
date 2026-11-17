@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2771dd8dc030dc5f88afa77debc5464fe9aa23b42bf61d7026422738bff3f6f5",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Claims and facts**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are product facts (ingredients, size), which the policy allows as written.\n- \"Lovely with milk\" is mild serving-suggestion description, not a claim.\n- No health, green, guarantee, testimonial, superlative or urgency language is present.\n\n**Problem: reference pricing**\n- \"Was £12, now £8\" is a struck-through higher price, which only works if £12 was genuinely charged for a reasonable period before the offer. The brand policy doesn't cover this, and I can't see any price history. It's also a large drop (about a third), so it needs backing. Before publishing, confirm that £12 was the real selling price for a reasonable period. If it wasn't, show only £8, or reword the offer so it doesn't rely on a false \"was\" price.\n\n**Style**\n- The copy is short, specific and free of clichés. No changes needed.\n\n**Decision:** Hold until the £12 \"was\" price is verified.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008407,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ec130ad174f51d56fd0e63817ab8bbf71beab06cc220ecb70bba764c68b7840e",
+ "result": "**Review: creator post (paid), Pebblebrook Tea Co.**\n\n**Disclosure:** The draft opens with \"Ad |\", which is clear and up front, as UK rules (ASA/CMA) expect for paid content. Nothing is missing.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"ten minutes away from my phone\" | Personal routine, not a product claim |\n| \"which I love\" | Personal opinion, not a measurable claim |\n\nThere are no statistics, superlatives, guarantees, testimonials, health or green claims, or fake urgency. There are also no banned words or structures: no em-dash sandwiches, no exclamation points, no rhetorical-question opener.\n\n**Product label (honest-review rules):**\n- Pebblebrook Assam: the draft reads as **Owned/Tried**, since it describes it as the writer's afternoon routine. I haven't been told which label applies, so please confirm the creator actually drinks it. If they haven't used it, \"My afternoon reset is…\" and \"which I love\" would have to go.\n- The draft makes no sensory claims, such as taste or strength, so nothing else needs checking.\n\n**Verdict:** The draft is fine to publish, provided the creator confirms they really do drink this tea.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013568700000000003,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

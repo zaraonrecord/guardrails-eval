@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "04237fceb3f2f219462023db2cc1ae41af85c508a891e1c15884c8fa194bc9c8",
+ "result": "**Review result: clear to publish.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted. It matches the brand policy exactly, including the source (\"on our website\") |\n| \"Rainy Sunday, second pot\" | Scene-setting, not a claim |\n\n**Other checks**\n- **Slop-guard:** No banned words. No em-dashes, exclamation points, rhetorical-question opener, \"not just X, it's Y\" construction or fake urgency. The opening is concrete and in a human voice.\n- **Invented proof:** No made-up stats, testimonials, customer names or superlatives. No guarantees or health claims.\n- **Disclosure:** This is the brand's own account, with no affiliate links, sponsorship or gifted products, so no disclosure is needed.\n- **Review labels:** Not applicable. This is brand copy about its own product, not a third-party review.\n\nOne optional note: the rating claim depends on the website still showing 4.8 from 1,200+ reviews when the post goes live. Worth a quick look, but it doesn't block publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088413,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

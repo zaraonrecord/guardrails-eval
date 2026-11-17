@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "04aa84995373e641409a02d67f4ff39f731e2cd866494e8658fc1b4a61d197b1",
+ "result": "**Review: blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" The founding claim matches the allowlist (Founded in Bristol in 2019). The \"because we couldn't find tea bags without plastic\" origin story is a motivation statement, not a product claim. It's a brand story detail I can't verify, but it isn't a claim the policy forbids, so I won't block on it.\n\n2. \"Our tea bags are plastic-free and home compostable\" is on the allowlist, with the EN 13432 supplier certificate behind it. Fine.\n\n3. \"and our whole business is carbon neutral.\" This is a problem. \"Carbon neutral\" is explicitly listed under claims we never make, and it is not in the approved claims. It also stretches to the whole business, which would need full, current evidence and an explanation. Remove it.\n\n4. \"Here's how we checked.\" This promises the post will show evidence for the carbon neutral claim. With that claim removed, the line has nothing to refer to and should be rewritten or dropped. It's not a separate violation, so I haven't listed it on its own.\n\nStyle: the tone is plain and warm, UK spelling, no banned words. No label needed since this is the brand's own blog.\n\n**Decision:** Hold. The carbon neutral claim must come out. A possible fix: \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable (certified to EN 13432).\" Then adjust the follow-on so it doesn't promise a carbon neutral explanation. Sam needs to approve before publication.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010818699999999999,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b06",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** Newsletter, a short note about the Darjeeling garden visit and a new tea arriving Monday. Audience is subscribers (UK).\n\n**Claims (claims-evidence-log)**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where a tea is grown), fine as written |\n| \"picked in March\" | Product fact (when picked), fine |\n| \"taste bright and floral\" | Product fact (flavour), fine |\n| \"in the shop from Monday\" | Product fact (new product arriving), fine. It's a launch date, not a countdown or scarcity claim |\n\nNo stats, superlatives, guarantees, testimonials or urgency language.\n\n**Regulated claims:** No health, money, legal, environmental, children or price content. Nothing to flag.\n\n**House style:** Voice is warm, plain and unhurried, and there are no banned words or AI tells. Score about 92/100. No rewrite needed.\n\n**Disclosure:** This is the brand's own newsletter with no sponsor, affiliate link, gifted product or AI-generated imagery. No label needed.\n\n**Fixed:** Nothing, no changes made.\n\n**Needs a decision:** Nothing unresolved. One small suggestion, not a blocker: confirm that \"Monday\" is unambiguous for readers by checking the send date, since the newsletter may be read days later.\n\n**Approver:** Sam (marketing lead), per the policy for everything public. The content passes the checks, but it should not be sent until Sam gives an explicit yes to this exact text. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0124135,
- "seconds": 12.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a085621896e691b72a6b4d869b635ad63b85891d9435a2945af442b61164858f",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter. A short note about the Darjeeling garden and the first flush arriving in the shop. Send time and audience weren't given.\n\n**Checks**\n- **Claims:** Nothing needs proof. \"Picked in March\", \"bright and floral\" and \"in the shop from Monday\" are product facts about where a tea is grown, when it's picked, its flavour and a new product arriving. The policy says the product team checks these and they're fine as written. There are no stats, rankings, guarantees, testimonials or superlatives.\n- **Regulated claims:** No health, money, environmental, children's or price claims. There is no urgency language or countdown, and \"from Monday\" is a plain launch date, not a pressure tactic.\n- **House style:** Warm, plain and unhurried, with UK spelling. No banned words and no AI tells. Score about 92/100, so no rewrite is needed.\n- **Disclosure:** Nothing to label. This is the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-generated content.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved. Before it's scheduled, confirm that \"Monday\" is the right date, since the sentence only works if the product really lands then.\n\n**Approver:** Sam (marketing lead). The draft is clean, but it hasn't been approved yet. Please ask Sam for an explicit yes to this exact text. Any edit after approval needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010643300000000001,
+ "seconds": 15.2,
  "models": [
   "claude-sonnet-5-5"
  ]

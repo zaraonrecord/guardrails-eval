@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cb5864d4fdb2c56f73054c029827a59794ef63b2d455b61e96f33d497aea2231",
+ "result": "I checked each claim against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: on the allowlist, so it's fine.\n- **\"malty, full-bodied black tea\"**: product flavour description, fine as written.\n- **\"100g tin, makes around 40 cups\"**: size and brewing facts, fine as written.\n- **\"noticeably smoother than supermarket tea bags\"**: this is a comparative claim against competitors. It isn't on the allowlist, and nothing in the policy backs it up. It is a subjective superlative-style comparison with no evidence (no taste test or data), so it should be removed or reworded to describe the tea itself (e.g. its smooth, malty character) without comparing it to other products.\n\nThe rest of the copy is clean, so only that one phrase needs to change before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0055207,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

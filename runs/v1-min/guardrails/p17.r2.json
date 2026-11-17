@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a1843593b4689cc75f7562dde5c727c5fdba695bf2d5c0aebedc42006d15acb9",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Claims check**\n- \"Just peppermint leaves, nothing else\": product fact (ingredients), fine as written.\n- \"Cool and clean after a big meal\": flavour/sensory description, fine.\n- \"Certified organic by the Soil Association\": on the policy list, OK.\n- \"a natural detox that aids weight loss\": not on the policy list and no source given. Unproven.\n\n**Regulated claims check (health)**\n- \"a natural detox\" is a vague, unprovable health claim. \"Detox\" claims are commonly challenged by UK advertising regulators.\n- \"aids weight loss\" is a weight-loss claim. For a food or drink in the UK, health claims must be on the authorised register and backed by evidence. Nothing here supports it. Remove it.\n- Safer version: \"Cool and clean-tasting after a big meal.\" Keep the selling point (refreshing, a good after-dinner cup) without implying a health effect.\n\n**House style**\n- Short, plain and specific, which is good. \"Cool and clean\" is fine. No banned words or AI tells that I can see from the policy. I can't score against voice words as the policy doesn't list any, so this is a light pass only.\n\n**Disclosure**\n- No ads, affiliate links, gifted products or AI-generated imagery in the copy. Nothing to label.\n\n**Fixed (suggested rewrite)**\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\n**Needs a decision**\n- The weight-loss and detox line should come out. If the team believes there is evidence, it needs to be added to the policy with a source and signed off by whoever the team uses for compliance, before it can return.\n- The policy names no approver, so I need an explicit yes from you (or a named person) on the exact rewritten copy above. I have not recorded any approval, and the original draft should not be published.\n\n**Approver:** none named in the policy; please confirm who signs off.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097834,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

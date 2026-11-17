@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4b723042da86f7d60fecf3f4453427d891bcb3bfffdc41f99147f13a8d0b49c3",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported: certified organic by the Soil Association, and we sell loose leaf tea |\n| \"Loved by 50,000 tea drinkers\" | Unsupported. No customer count of 50,000 is in the policy. The only audience figure is \"over 1,200 reviews\". \"Loved by\" also implies a satisfaction claim for that number. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording |\n\n**Problem:** \"Loved by 50,000 tea drinkers\" is an invented statistic and has to go. Policy bars invented customer counts.\n\n**Other checks**\n- Slop and banned words: none.\n- Exclamation points, urgency, health or green claims: none.\n- Disclosure: not needed for a paid ad from our own account.\n- Character limits: none given, so not counted. Note that the headline as written is 24 characters, which is under the usual 30-character headline limit.\n- Landing page: any claim used in the ad must also appear on the landing page. Please confirm the organic certification and delivery threshold are shown there.\n\n**Compliant version**\n\nHeadline: Organic Loose Leaf Tea\nDescription: Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThe rating line is allowlisted (review platform export, October 2026). Keep the \"on our website\" wording. If you'd rather not use the rating, drop that sentence and the ad still works.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087391,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

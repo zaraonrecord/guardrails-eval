@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9f4016193d764a96cd41dc6f61e55c2eec042cb7458eb9785bb5901c519a745b",
+ "result": "**Review of the affiliate blog draft**\n\n**Problem: affiliate disclosure uses the wrong wording (must fix)**\n- Policy section 4 requires the words \"Affiliate link\" next to the link. The draft only has a footnote saying \"I may earn a small commission.\" That is a disclosure of sorts, but it isn't the required wording, and it sits at the bottom rather than beside the link.\n- Fix: put \"Affiliate link\" right beside \"You can find it here.\" You can keep the commission footnote as well.\n\n**Checked and fine**\n- \"I've tried four tea subscriptions this year\" is the reviewer's own experience, not a brand claim or an invented statistic.\n- \"Pebblebrook's was the easiest to pause\" is a personal opinion, and it fits the backed claim that subscribers can pause or cancel any time. It isn't a \"best\" or \"number one\" claim. If Sam wants to be strict, it could be softened to \"easy to pause\".\n- \"The tins are lovely\" is an opinion about the product, with no health, environmental or guarantee claim.\n- There is no urgency, no guarantee, no banned words, and the spelling is UK-compatible.\n\n**Verdict:** Don't publish until the \"Affiliate link\" label is added. It also needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0128021,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "11dec64e931bec9489e7822f4ccbdd0553a924ee43279555290f9ce973560077",
+ "result": "**Verdict: no changes needed to the copy.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (plastic-free tea bags, supplier certificate EN 13432) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019.\" | Allowlisted (Companies House) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, urgency, stats, testimonials:** none present.\n- **Environmental claims:** only the specific, certified one from section 2. No \"eco-friendly\", \"sustainable\" or \"zero waste\".\n- **Voice and banned words:** none of the banned words appear. There are no exclamation marks, rhetorical questions or em-dashes. The copy is plain and factual, with UK spelling.\n- **Disclosure:** this is paid social/search from the brand's own account, so no \"Ad\" or \"Gifted\" label is needed.\n- **Length:** no limits were given. For reference, the headline is 21 characters and the description is 79, which fits standard search ad limits of 30 and 90.\n\n**Before it goes live**\n- Check that the landing page also states the plastic-free, home compostable and Bristol 2019 claims, since an ad shouldn't make a claim the page doesn't.\n- Sam (marketing lead) approves everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0133659,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

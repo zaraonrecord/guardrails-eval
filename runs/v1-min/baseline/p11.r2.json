@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "115ebb298ea79051f08dd2fd2ffbf7faeadc35320a5eaa971a1f78792f385a67",
+ "result": "**Review of the draft**\n\n- **\"9 out of 10 customers reorder within a month.\"** This is an invented statistic. It isn't on the claims allowlist (the only backed numbers are the 4.8/5 rating from 1,200+ reviews, and the free-delivery threshold). It needs either substantiating data or removal.\n- **\"Free UK delivery on orders over £25.\"** Matches the allowlist. Fine.\n- **\"Three teas for your desk drawer... Builder's, Earl Grey and a peppermint for after lunch.\"** Product facts and flavour/usage description. Fine. \"A peppermint for after lunch\" is a usage suggestion, not a health claim.\n- **Disclosures / labelling:** This is a social ad on the brand's own account, so no extra disclosure is needed beyond the usual ad labelling the platform applies.\n- **Other:** No superlatives, guarantees, urgency, testimonials, green claims or health claims. The copy reads naturally.\n\n**Recommendation:** Don't publish as is. Remove the reorder stat (or replace it with the backed claim, e.g. \"Rated 4.8 out of 5 from over 1,200 reviews on our website\"), then it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006887,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "456a6eef62df7129de860bad454b5db2b5635cbc4060a5bfc5e51c80c46fb8c5",
+ "result": "**Verdict: don't publish yet. The paid-partnership label is missing.**\n\n**Required fix**\n- The policy says a paid creator post must start with \"Ad\" before anything else. This draft opens straight into \"My afternoon reset...\". Add \"Ad\" as the first word.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine as written |\n| \"ten minutes away from my phone\", \"which I love\" | Personal habit and opinion, not a brand claim |\n\n- There are no stats, superlatives, guarantees, health claims, green claims or fake urgency.\n- The draft has no banned words or AI-tell structures, and the voice is warm, plain and unhurried.\n\n**Notes**\n- The creator describes using the tea (\"my afternoon reset\"). Confirm they have actually been drinking it, since the post implies hands-on use.\n- Sam needs to approve it before it goes live, as with all public content.\n\n**Suggested version**\n> Ad. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011570500000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

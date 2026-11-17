@@ -1,0 +1,11 @@
+{
+ "case": "p13",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (gifted), Pebblebrook winter sampler, rooibos chai with oat milk.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees or testimonials, and nothing health-related or environmental. \"Lovely with oat milk\" is the creator's own opinion of the flavour, so it's fine.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. No changes needed.\n- **Disclosure: fails.** The policy says a gifted post must start with \"Gifted\" before anything else. This one opens with \"Pebblebrook sent me their winter sampler,\" so a reader meets the endorsement before learning the product was free. \"Not paid to say that\" is true, but it doesn't replace the label. Without \"Gifted\" up front, it can read as if there's no connection to the brand.\n\n**Fixed:** Nothing has been changed in the draft itself. This is the suggested fix:\n\n> **Gifted:** Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.\n\n**Needs a decision**\n- Confirm the creator will add \"Gifted\" as the very first word, and use the platform's paid-partnership or branded-content tool too, if it has one.\n- Repeat the label on every post, story frame or slide that could be seen alone.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Once the label is in, the final version needs Sam's explicit yes.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015585500000000002,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

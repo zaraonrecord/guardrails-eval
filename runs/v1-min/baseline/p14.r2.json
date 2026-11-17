@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "01d268593b10d4f68a00966af5beefaf7dd8409bd05c636aadfd039b9a12ad92",
+ "result": "**Review of the draft (review blog, affiliate)**\n\n**Problem to fix**\n- **Missing affiliate disclosure.** This is an affiliate review, and \"You can find it here\" is presumably a tracked link. Nothing tells readers that the blogger earns a commission. In the UK, the ASA/CAP code and CMA rules require this to be clear before the reader clicks. Add a visible label near the top, such as \"Ad: affiliate link, I earn a commission if you buy.\"\n\n**Checked and fine**\n- \"Easiest to pause\" is the reviewer's personal opinion, and it is consistent with the policy claim that subscribers can pause or cancel any time. It should stay framed as the author's experience (\"the easiest I found\") and not become a general claim.\n- \"The tins are lovely\" is a subjective opinion, and it makes no factual claim.\n- \"I've tried four tea subscriptions this year\" is a first-person statement. I can't verify it, so the author should be sure it's true. I'm not flagging it as a fake testimonial.\n- The draft has no invented stats, guarantees, health claims, green claims, or urgency.\n\n**Verdict:** Don't publish until the disclosure is added.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096993,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

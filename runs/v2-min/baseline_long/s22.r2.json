@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a1d33429963e043c1c8152cf2daf9e03d1c7fec1af4319401e3a2c9445c6b2db",
+ "result": "**Review of landing hero copy**\n\nClaim by claim:\n\n- \"Loose leaf tea, packed by hand in Bristol.\" Approved (every tin is packed by hand in Bristol).\n- \"Every tin is packed by hand in Bristol\" Approved, but it repeats the opening sentence almost word for word. That's a redundancy problem, so it's a style issue.\n- \"certified organic by the Soil Association\" Approved. Minor note: the policy says certified organic, and \"our tea\" is fine as shorthand, though it's worth confirming that every product is covered.\n- \"Free UK delivery on all orders.\" Not supported. The approved claim is free UK delivery on orders over £25. As written it drops the threshold, which would mislead customers about delivery costs. Fix: \"Free UK delivery on orders over £25.\"\n\nStyle: the first two sentences say the same thing twice. Suggested rewrite: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nDecision: hold until the delivery claim is corrected and the repetition is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071392,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

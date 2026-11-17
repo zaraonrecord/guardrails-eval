@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6fb41861bf695f6e0649c11e760f98a9931113ebf99409bc92e0f694e6f6428c",
+ "result": "**Review: Assam Breakfast product page**\n\nGoing sentence by sentence:\n\n1. \"Assam Breakfast.\" Product name, fine.\n2. \"A malty, full-bodied black tea that stands up to milk.\" Flavour and brewing description, which the policy allows as written. Not a health or superiority claim.\n3. \"Certified organic by the Soil Association.\" On the approved claims list, so fine.\n4. \"100g tin, makes around 40 cups.\" Size and brewing facts, covered as product facts. \"Around\" is appropriately hedged.\n\nNo labels are needed for a brand-owned product page. There are no prices, offers, urgency, testimonials, health, green or comparison claims. The copy is short and plain, with none of the listed AI clichés or filler.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073805,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

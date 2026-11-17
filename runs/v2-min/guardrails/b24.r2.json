@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "aa6db6048ab7d6e812ce99025254172728775ce9a1ced7cddc11b4e3563adaff",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Hero line on the landing page, UK audience, live on publish.\n\n**Checks**\n\n1. **Claims:**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). Pass.\n   - \"free UK delivery on orders over £25\": on the policy list. Pass.\n   - \"Good tea, no fuss\": a mild tagline, not a provable claim and not a superlative. Pass.\n\n2. **Regulated claims:** \"Certified organic\" is a certification claim, and it is backed by the policy. No health, money, environmental, children or price-comparison claims. No fake urgency. Pass. (Make sure the Soil Association certificate is current, since the policy has no review date on it.)\n\n3. **House style:** The policy has no voice section, so I can't score it against a reference. The copy is short and plain, with no stock AI openers, reversals or slogan closers. The only mild flag is a triple list (organic, hand-packed, free delivery), but it is a list of real facts, not a rhetorical tidy-three. Pass.\n\n4. **Disclosure:** Own-brand copy with no ad placement, sponsor, affiliate link, gifted product or AI-generated image or label requirement. Nothing to label. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** None.\n\n**Approver:** The policy names no approver, so please give an explicit yes to this exact text. Once you have, I can record the approval under your name (or you can run the approve command yourself) and retry the publish. I haven't recorded any approval, and nothing has been published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086204,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

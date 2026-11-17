@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "adfc838942bd78415b67bb2d373ee496541202c57d2ec4b8e5aaee3896d4a231",
+ "result": "# Publish gate report\n\n**Going out:** a paid creator post for Pebblebrook Tea Co., UK audience. The publish date wasn't given.\n\n**Checks**\n- **Claims:** Pass. \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". The rest is the creator's personal experience (afternoon pot, ten minutes off the phone) and makes no product claim.\n- **Regulated claims:** Pass. \"Reset\" and \"#selfcare\" read as lifestyle, not health claims. It doesn't say the tea reduces stress or anxiety, so keep it that way in any edits.\n- **House style:** Pass. There are no banned words and no AI tells, and the tone is warm, plain and unhurried.\n- **Disclosure:** **Fail.** Section 4 requires a paid creator post to start with \"Ad\", before anything else. The only label is `#ad`, sixth in a block of seven hashtags at the very end. That is buried, and a reader sees the whole post before the label.\n\n**Fixed (suggested, since I can't edit the live post)**\n- Put \"Ad:\" at the very start of the post.\n- Keep `#ad` in the hashtags if you like, but it no longer carries the disclosure.\n\nSuggested final text:\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #ad #assam #selfcare\n\n**Needs a decision**\n- Please also have the creator switch on the platform's paid-partnership label if the platform offers one. I recommend yes.\n\n**Approver:** Sam (marketing lead). Sam needs to approve the corrected text above, not this earlier draft. I haven't recorded an approval and nothing should be published until Sam says yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0160342,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

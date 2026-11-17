@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. Send date and audience weren't given.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" is on the policy list (subscription terms).\n  - \"Free UK delivery on orders over £25\" is on the policy list (shipping policy).\n  - \"means most boxes ship free\" is **unproven**. Nothing in the policy or this chat says most orders are over £25, so it implies an order-value statistic we can't back up.\n- **Regulated claims:** This touches prices and delivery. The £25 threshold is stated accurately, but \"most boxes ship free\" overstates it for anyone under the threshold.\n- **House style:** No banned words or AI tells. The tone is warm, plain and unhurried. Score is about 90, no rewrite needed beyond the claim fix.\n- **Disclosure:** None needed. This is our own landing page, with no partnership, affiliate link or AI-labelled content.\n\n**Fixed (suggested rewrite):**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n- I removed \"means most boxes ship free\" and kept the exact policy wording for the delivery offer.\n\n**Needs a decision:**\n- If the team has data showing most orders exceed £25, add it to the policy claims list with a source and review date. Then the original line could return. My suggestion is to use the rewrite above.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to the final wording before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0146235,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

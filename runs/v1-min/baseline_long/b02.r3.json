@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8ea28ec1e80c89df7c126fcece22c32d68457b6217496c27a6a89ccdea63c9a0",
+ "result": "**Verdict: fine to publish.**\n\n- **Claims:** \"left Bristol this morning\" fits the brand's Bristol packing and dispatch. \"pause or cancel any time from your account\" is on the approved list. The lapsang and white peony descriptions are product facts, which are fine as written.\n- **Labels and disclosure:** This is a transactional email on the brand's own channel, so it needs no ad label. Nothing is paid, gifted or affiliate.\n- **Urgency, pricing and offers:** None are present.\n- **Style:** It's short and specific, with no clichés or filler.\n- **Subject line:** \"Your October tins are on the way\" is accurate for an October dispatch. Today's date is 17 November, so confirm it sends in the right month. If it goes out now, \"October\" and \"This month\" would be wrong. That depends on the send schedule, not the copy, so I'm not blocking on it.\n- **Optional polish:** The subject says \"tins\" while the body says \"subscription box\". Either is fine, but you could use the same word in both.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010457300000000001,
+ "seconds": 19.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

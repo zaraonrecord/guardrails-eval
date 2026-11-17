@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "I checked the draft sentence by sentence.\n\n- **\"the Christmas blend is back\"**: A product fact (new or returning products are covered by the product team). Fine.\n- **\"Black tea, orange peel, cinnamon and a little clove.\"**: Ingredients, which are product facts and fine as written.\n- **\"It's back in the shop from today.\"**: This is availability, not scarcity or a countdown. It doesn't claim limited stock or a deadline, so it isn't false urgency. A product returning is a product fact.\n- **Claims, health, green, superlatives, guarantees:** None present.\n- **Labels:** This is a brand-owned newsletter, so no \"Ad\" label is needed.\n- **Voice:** Warm, plain and short. No banned words or AI clichés. No spelling issues.\n\nThe one thing I can't verify from the draft is that the blend is actually in the shop today, but that's an ordinary product-availability statement and the product team covers it. Sam still needs to approve it, as with all public content.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063398,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "120ae24015ecbefa511e239999bd6aaa09e3fc7ac37401120e6aed653801ec2f",
+ "result": "**Review of the search ad**\n\n- \"Plastic-Free Tea Bags\" (headline): supported by the allowlist (tea bags are plastic-free). Fine.\n- \"Our tea bags are plastic-free and home compostable.\": both claims are on the allowlist. Fine.\n- \"Recommended by nutritionists.\": not on the allowlist. It is an unsubstantiated endorsement, and it implies a health or professional-authority claim. We have no evidence that any nutritionist recommends the product, so it should be removed unless the team can provide named, verifiable support. I'm classing it as a health claim, since it borrows health credibility for a food product.\n\nSuggested fix: replace the second sentence with something backed by the allowlist, e.g. \"Certified organic by the Soil Association. Free UK delivery over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0054871,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

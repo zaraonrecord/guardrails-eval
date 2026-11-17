@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2646cfdcc9827029da6a021fc3de7907e98859b9e0db9047976422e9357931e4",
+ "result": "**Not ready to publish: one fix needed.**\n\n**Slop check**\n- \"Unlock your tea journey\" fails twice. \"Unlock\" is on the ban list, and \"tea journey\" is vague filler. It is also throat-clearing: the first sentence should carry the most useful fact, and here it carries none.\n- \"You don't need any kit\" is slightly off, because the next sentence lists a mug and a sieve. \"You don't need a teapot\" matches the subject line and is accurate.\n- No exclamation points, em-dash sandwiches, rhetorical openers, fake urgency or ban-list words appear elsewhere.\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written under the brand policy.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- No statistics, superlatives, guarantees, testimonials, health, environmental or urgency claims.\n- No affiliate or sponsorship content, so no disclosure is needed.\n\n**Suggested rewrite**\n\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> You don't need a teapot. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013234300000000001,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "afbc31182eba9d842317620654547f96b62199aba0cbce8b9651dc92e1eaa9ae",
+ "result": "**Review of the landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is fine. It is a plain lead-in to the pause/cancel point.\n- **\"Subscribers can pause or cancel any time\"** is on the claims allowlist.\n- **\"free UK delivery on orders over £25\"** is on the claims allowlist, with the threshold stated correctly.\n- **\"means most boxes ship free\"** is a problem. The policy backs only the free delivery threshold. It says nothing about what share of orders clears £25, so \"most boxes\" is an unsupported claim about how many orders qualify. It also implies that the typical order is over £25, which we can't show. \"Boxes\" is also loose wording, since we sell tins and tea bags, but the main issue is the unbacked \"most\".\n\n**Suggested fix:** drop the \"most boxes\" clause and state the threshold plainly. For example: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080913,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

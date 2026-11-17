@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "237096f10a0c9662ff3b0e35fbf039e19a8ba9aeba88b83cc9df6a82227c56b3",
+ "result": "**Verdict: don't publish yet. Two changes are needed.**\n\n## Claims check\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is a superlative, the same kind as \"the UK's favourite\", which the policy bans. We have no survey or sales ranking behind it. |\n| \"a small team of six\" | OK. Team size is a product-team-checked fact. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited\" | **Unsupported.** Where a tea is grown is covered, but a claim that the team has visited the gardens isn't on the allowlist or in this conversation. If it's true, the product team should confirm it, ideally with which gardens and when. |\n\nVoice, UK spelling and banned words are fine. There are no health, green or urgency claims. Sam still needs to approve it, since everything public goes through Sam.\n\n## Suggested version\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. [PROOF NEEDED: confirmation from the product team that we've visited the gardens we buy from, and which ones]\n\nIf the garden visits are confirmed, replace the placeholder with the original sentence, \"We buy from gardens we've visited.\"\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0153065,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2a879a1341c2c5e4f75bc4141e31fbc0c123acb276b882a3b89df6a4ff9f3f67",
+ "result": "**Review of landing hero draft**\n\nSentence by sentence:\n\n1. \"Tea that's easy to stop and start\" – supported by the pause/cancel policy. Fine.\n\n2. \"you'll love it or it's free\" – this is a guarantee. The brand policy lists no money-back or satisfaction guarantee, so there are no terms behind it. It's a binding-sounding promise with no conditions (what's free? the first box? any order? for how long?). It also promises an outcome (\"you'll love it\"). Remove it or replace it with a real, documented returns policy.\n\n3. \"Subscribers can pause or cancel any time\" – approved claim. Fine.\n\n4. \"free UK delivery on orders over £25 means most boxes ship free\" – the free delivery over £25 is approved, but \"most boxes ship free\" is an unsupported claim. We have no data on typical order values, so it implies something about the majority of orders that the brand cannot show. The threshold is also stated, which is good. Fix: \"free UK delivery on orders over £25.\"\n\nStyle: the copy is short and not especially clichéd. The first sentence is a little loose, but that's optional polish.\n\nDecision: hold. The guarantee has no backing, and \"most boxes ship free\" is unsupported.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007450999999999999,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

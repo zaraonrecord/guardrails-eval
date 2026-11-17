@@ -1,10 +1,14 @@
 {
  "case": "p02",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** One claim is unsupported.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association; loose leaf is a product fact) |\n| \"Loved by 50,000 tea drinkers\" | **Unsupported.** Nothing on the allowlist or in this chat gives a customer count of 50,000. The closest backed figure is 4.8 out of 5 from over 1,200 reviews on the website. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Fix:** replace the invented stat with the backed review rating, and say where it comes from. Suggested description:\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Other checks**\n- **Landing page:** every claim in the ad must also appear on the landing page. I can't see the page, so please confirm that it shows the organic certification, the free delivery threshold and the review rating.\n- **Length:** you gave no character limit. The original description is 109 characters, which is over the 90 that Google RSA descriptions allow. My suggested version is longer still, so if this is an RSA, tell me the limit and I'll trim it to fit.\n- **Policy and slop:** no platform-policy triggers, ban-list words or fake urgency.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.0190063,
- "seconds": 15.5,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "647bacb408c7d39b392c66198c61c8db47739ba97d7ae57877366eaea02bbcec",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association; loose leaf is a product fact) |\n| \"Loved by 50,000 tea drinkers\" | Unsupported. The allowlist only backs 4.8/5 from over 1,200 reviews. 50,000 is an invented figure, and \"loved by\" implies a customer count we can't verify. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- Character limits: none given, so no count performed.\n- Landing page consistency: the ad should only run if the landing page also shows the certification, delivery threshold and the review rating.\n- Platform policy: nothing health, finance or personal-attribute related.\n- Slop/structure: no ban-list words, no exclamation marks, no rhetorical opener. Clean.\n\n**Problem:** \"Loved by 50,000 tea drinkers\" must go. Compliant replacement using a backed claim:\n\n> Headline: Organic Loose Leaf Tea\n> Description: Rated 4.8/5 from over 1,200 reviews. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nNote: the 4.8 rating is from reviews on our website, so the landing page should show it. If space allows, \"rated 4.8/5 from 1,200+ website reviews\" is more precise.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0100323,
+ "seconds": 13.3,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8f7698b74e9819f23de89b880fbd456f8d3f338cf855ef586659e01f1c5bc4d3",
+ "result": "**Publish gate report: Chamomile and Lemon Balm, product page**\n\n**Claims check**\n- \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). OK.\n- \"20 plastic-free tea bags\": plastic-free is on the policy list; the count is a product fact. OK.\n- \"caffeine-free\", \"honeyed\", \"blend\": product facts, fine as written.\n- \"to help you wind down and sleep better\": a health claim. The policy bans health claims of any kind, and sleep benefits are a regulated area. Not provable here, so it must go.\n\n**Regulated claims**\n- \"help you wind down and sleep better\" is a sleep/wellbeing benefit claim. Safer version keeps the selling point through taste and ritual, not outcome: \"A gentle, honeyed, caffeine-free blend for your evening cup.\"\n\n**House style**\n- Voice is warm and plain. No banned words. Score about 85 after the fix. The opening is a bare ingredient list followed by fragments; it reads fine for a product page.\n\n**Disclosure**\n- Own product page, no paid partnership, affiliate link, or gifted item. Nothing needed.\n\n**Suggested rewrite**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for your evening cup. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n**Needs a decision**\n- Confirm the rewrite with Sam (marketing lead), who is the named approver for everything public.\n\n**Approver:** Sam. Not approved yet. Nothing should publish until Sam gives an explicit yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106915,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

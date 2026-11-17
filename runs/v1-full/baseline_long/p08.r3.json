@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3496cf2a3c4ac6197f847830d4010a80bf20ca14a2ca26a6cf97ad4ba57e53fe",
+ "result": "**Review of the search ad**\n\n**Sentence by sentence**\n\n1. Headline \"Plastic-Free Tea Bags\": matches the approved claim (plastic-free tea bags, supplier certificate EN 13432). Fine.\n2. \"Our tea bags are plastic-free and home compostable.\": exact approved wording. Fine.\n3. \"Best tea I've ever had\" - Emma, Leeds.: this is a problem.\n   - It is a testimonial with no source we can see. The policy lists no approved testimonials and says never to invent them. Unless the team can show a real review from Emma in Leeds, with her permission, it has to be treated as unverified.\n   - It also carries a superlative (\"Best\") in a brand-run ad. The brand can't prove \"best\", and putting it in a customer's mouth means the brand is still publishing the claim as a headline-level selling point.\n\n**Tone and style:** The rest is plain and fits the brand voice. No banned words.\n\n**Labels:** A brand's own search ad needs no extra label.\n\n**Decision:** Hold. Remove the quote, or replace it with a verified review that Emma has agreed to let you use (and that avoids superlative framing). Alternatively use the approved \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". The first two sentences can go out as they are.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007752899999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

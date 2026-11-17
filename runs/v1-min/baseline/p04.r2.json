@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa98e2559972592fa33da0fe7bc2e6897090863766cecf0bbd8ddbd7c85fe12a",
+ "result": "**Review of the Instagram draft**\n\n- **\"In today's fast-paced world\"**: This is a stock filler opening that could start any brand's post. It says nothing about the tea and reads as generic AI copy. Cut it and open with the rainy Sunday pot.\n- **\"a rainy Sunday pot is everything\"**: This is casual, harmless hyperbole, not a product claim.\n- **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"**: This is an ingredient fact, which the policy allows as written.\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"**: This matches the allowlisted claim exactly, including the source (our website).\n- **Disclosure**: This is the brand's own account with no sponsorship or gifting, so no label is needed.\n- **Other checks**: I found no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or testimonials.\n\n**Suggested fix:** Drop the opener, so the post reads: \"A rainy Sunday pot is everything. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00842,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

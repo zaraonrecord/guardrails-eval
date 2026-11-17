@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "4fcba70e4e57e64b88cd6877fe30d38a51a37cd57093af18fb351cf9e507ee95",
+ "result": "**Verdict: hold. One fix is needed before this goes out.**\n\n**Reading as the audience:** This is a short affiliate review on a blog. It's warm and plain, with no banned words or clichés, and the UK spelling is fine.\n\n**Claims, sentence by sentence:**\n- \"I've tried four tea subscriptions this year.\" This is the reviewer's own experience, not a brand claim. Fine, as long as it's true for the reviewer.\n- \"Pebblebrook's was the easiest to pause.\" This is a personal opinion, framed as the reviewer's own experience. It also fits the approved claim that subscribers can pause or cancel any time. Fine.\n- \"the tins are lovely.\" This is opinion and description. Fine.\n- There are no stats, health claims, green claims, guarantees, superlatives or urgency.\n\n**Problem: the affiliate disclosure**\n- Brand policy requires the words \"Affiliate link\" next to the link.\n- The draft puts \"You can find it here.*\" in the body. The only disclosure is a footnote at the very end, \"*I may earn a small commission.\"\n- The reader doesn't see it before clicking, and it doesn't use the required wording. \"May earn a small commission\" is also softer than the plain label the policy asks for.\n- Fix: put \"Affiliate link\" right beside the link, for example \"You can find it here (Affiliate link).\" The commission footnote can stay as an extra.\n\nOnce the label is next to the link, the copy is fine to publish. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012189300000000002,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

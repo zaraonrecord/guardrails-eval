@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e574e0597ea826caf3e203ca0c5bd751b3e6bb65ea7af68da66cc3462af218bb",
+ "result": "I'd publish this as written.\n\n- **Affiliate disclosure:** \"Affiliate link\" sits right next to the link, as section 4 requires. Nothing in the draft says the product was gifted or paid for, so no \"Ad\" or \"Gifted\" opener is needed. If Pebblebrook did send the tins, the post would have to start with \"Gifted\".\n- **Claims:** \"Easiest to pause\" is the reviewer's own opinion from trying four services, not a Pebblebrook claim. It also fits the backed claim that subscribers can pause or cancel any time. \"The tins are lovely\" is plain opinion. There are no health, environmental, guarantee or urgency claims, and no invented numbers.\n- **Voice:** There are no banned words, and the tone is plain and warm. The draft uses no US spellings.\n\nSam still needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0092062,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

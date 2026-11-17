@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c0c35243250463278c3a1c440561ac480969b6c2f060df1c0bce22ca335c8c08",
+ "result": "**Review of the search ad**\n\nGoing sentence by sentence:\n\n1. **\"The UK's number one tea subscription.\"** This is a superlative and market-position claim. It isn't on the brand's approved claims list, and there's no independent, current data shown to support it. It also doesn't say what it's measured by (sales, subscribers, ratings). This must be removed or replaced with something provable.\n   - Possible fix: \"Organic loose leaf tea and plastic-free tea bags, delivered monthly\" or \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n2. **\"Subscribers can pause or cancel any time.\"** Approved claim. Fine.\n\n3. **\"Free UK delivery on orders over £25.\"** Approved claim, and the threshold is stated. Fine.\n\n4. **Headline \"Tea Subscription UK\"** is plain descriptive keyword text. No issue.\n\nNo health, green, urgency or disclosure issues. Style is plain, no clichés.\n\n**Decision:** Hold. The \"number one\" claim is unsupported and needs to be changed before publication.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067504999999999996,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

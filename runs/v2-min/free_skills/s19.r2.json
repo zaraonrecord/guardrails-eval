@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8fe267813248a4992ed5f3cd7068dd7f634275741f8a4122712c917c56d5e261",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted |\n| Organic loose leaf | Allowlisted (certified organic by the Soil Association). Fine as written, though naming the certifier would make it stronger. |\n| Fully sustainable bags | **Unsupported** |\n| Packed by hand in Bristol | Allowlisted |\n\n**Problems**\n\n1. **\"fully sustainable bags\"** is a vague, absolute green claim. The allowlist supports \"plastic-free\" and \"home compostable\" for the tea bags, not \"fully sustainable\". Under UK CMA Green Claims Code and ASA rules, broad environmental claims like this need strong substantiation, and \"fully\" makes it worse. Replace with the backed claims.\n\n2. **Slop check:** No ban-list words, no em-dashes, no exclamation marks. The opening is a fact, which is fine. The second sentence is fragmentary but acceptable.\n\n3. **Minor:** \"Organic\" applies to the loose leaf only in the copy, which is fine. Make sure the landing page's organic claim is not implied to cover every product unless the certification does.\n\n**Suggested compliant version**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\n\nNote: \"Certified organic\" is allowlisted as certified by the Soil Association. I wrote it without extending it to the tea bags, but if the organic certification doesn't cover every loose leaf blend, please check before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104423,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

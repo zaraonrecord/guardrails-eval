@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "df167c22a10138a1b5e260cf8343c6f531c92050bebbc38785ca12e7e4555030",
+ "result": "**Review summary (newsletter)**\n\nSentence by sentence:\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a product fact about where the tea is grown, so it is fine.\n2. \"The leaves are picked in March and taste bright and floral.\" This covers when the tea is picked and its flavour. Both are product facts the policy allows as written.\n3. \"Our customers tell us it's the only tea they drink now.\" This is a problem. It is a customer testimonial with no traceable source, and the policy bans invented testimonials. It also summarises customer feedback into a sweeping claim (\"the only tea they drink\") that isn't documented as representative. It is also unlikely to be literally true for a typical customer.\n4. \"You'll find it in the shop from Monday.\" A new product arriving is an allowed product fact. It is a real launch date, not false urgency.\n\nTone and spelling: the voice is warm, plain and unhurried, with no banned words or AI clichés, and the spelling is UK.\n\n**Fix:** Cut the third sentence. If there is a real customer quote, get it sourced and permissioned, and use it as a quote with attribution. Otherwise something like \"We think it's a lovely tea for a slow morning\" works as clearly personal opinion.\n\nThe rest can stay as it is. Hold the draft until that sentence is changed.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011846699999999998,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

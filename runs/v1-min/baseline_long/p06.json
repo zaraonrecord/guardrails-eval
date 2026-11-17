@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5a1119bd2af9e956c64e5379d6b3a3f1394b9eaf354629efe03e7f98a6f1a301",
+ "result": "**Review: blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" Founding in Bristol in 2019 is approved. The origin motive is a story about the company, not in the allowlist as such, but it's consistent with the plastic-free product and isn't a checkable claim that misleads. Fine.\n\n2. \"Our tea bags are plastic-free and home compostable\" is approved.\n\n3. \"and our whole business is carbon neutral.\" This is not on the allowlist. It is a broad environmental claim covering the whole business, and it needs full, current evidence and an explanation of how it was reached (offsetting, scope, etc.). Nothing here supports it. The approved plastic-free/compostable claim applies only to the tea bags and can't be stretched to the whole business. Flag as green_claim. Fix: remove it, or only restate it once documented evidence exists and the method is explained.\n\n4. \"Here's how we checked.\" This promises an explanation or verification that the draft doesn't deliver. It leads into the carbon neutral claim, so it implies there is a check behind it that the reader will see. It's also a bit of a formula teaser. Since the claim it points to is unsupported, it should go or be rewritten. I'd treat it as dependent on the carbon neutral issue rather than a separate problem.\n\nTone: otherwise plain and specific, no clichés.\n\nDecision: hold. Remove or substantiate the carbon neutral claim, then adjust the closing line to match.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0102445,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cab0ea9eb62e564eb51a8e3502bf3fd2a60d1d434836d880d8801b6558920f4f",
+ "result": "**Review of landing hero draft**\n\n**Approved and fine:**\n- \"Certified organic by the Soil Association\": on the allowlist.\n- \"packed by hand in Bristol\": on the allowlist (every tin is packed by hand in Bristol).\n- \"free UK delivery on orders over £25\": on the allowlist, and the threshold is stated next to the claim.\n\n**Problems:**\n\n1. **\"Good tea, guaranteed.\"** This is a guarantee, and the brand policy has no guarantee, money-back promise or satisfaction terms. The only approved promise is that subscribers can pause or cancel any time, which is not the same thing. A guarantee is a binding promise and needs real terms the business has agreed to honour, with the main conditions visible. As written, \"guaranteed\" is also vague: guaranteed to do what? Taste good? Refunded if not? Fix: remove it, or only use it if the brand confirms a returns/satisfaction policy and states its terms nearby.\n\n2. **\"Risk-free.\"** This is an implied guarantee that a customer could rely on, again with no backing in the policy. It also sits uneasily with subscriptions: if a reader assumes they can try and get their money back, nothing approved supports that. Fix: remove it. If the intent is to reassure subscribers, use the approved claim \"pause or cancel any time\" instead.\n\n3. **Style (minor):** \"Good tea\" is bland, and the fragmented \"Good tea, guaranteed. Risk-free.\" has a slogan-formula feel. This is optional polish on its own, but it would be worth giving the line more of Pebblebrook's own voice once the guarantee wording is fixed.\n\n**Decision:** Hold. The two guarantee phrases are unsupported by the brand policy and could mislead readers into expecting refunds or terms that don't exist. The remaining claims are all approved, so once those two phrases are removed or backed with real terms, the hero is fine to go.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011620499999999999,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

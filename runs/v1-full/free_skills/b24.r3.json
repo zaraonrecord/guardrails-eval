@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3a6c59f863097028937b0fa43f7bed241080398878e0861a90313c800dee2e3c",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Good tea, no fuss\" | Opinion/tone, not a factual claim. \"Good\" is a soft, non-superlative word. Fine. |\n| \"Certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (the policy says every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n\n**Slop and voice check**\n- No banned words, no em-dash sandwiches, no exclamation marks, no rhetorical opener, no fake urgency.\n- Voice is warm, plain, unhurried. UK spelling is fine.\n- The opening sentence is short and sets the tone. The most useful facts follow immediately. Acceptable for a hero line.\n\n**Disclosure check**\n- This is our own landing page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\n**Other notes**\n- \"Good tea\" fails a strict \"compared to what?\" test, but it's a modest, plain descriptor and not a comparative or superlative, so I wouldn't block on it.\n- Approval: policy says Sam (marketing lead) approves everything public, so it still needs Sam's sign-off before going live. This is a process step, not a problem with the copy.\n\n**Verdict:** Every factual claim matches the allowlist wording. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077976,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

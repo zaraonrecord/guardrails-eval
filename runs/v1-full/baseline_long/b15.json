@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3b30e558e9ee30bbb9e892d1eae9c7e6eba3576824d02cb46e04256c1a36b3c",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" sits directly beside the link, which is the wording and placement the brand policy requires.\n- **Claims:** \"I've tried four tea subscriptions this year\" is the reviewer's own experience. \"Easiest to pause\" is a personal opinion, not a brand superlative, and it is consistent with the approved claim that subscribers can pause or cancel any time. \"The tins are lovely\" is plain opinion.\n- **Prohibited content:** There are no invented numbers, guarantees, health or environmental claims, or urgency.\n- **Voice:** The tone is warm and plain, with no banned words or AI clichés, and the spelling is UK-compatible.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009956699999999999,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

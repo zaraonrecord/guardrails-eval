@@ -1,0 +1,11 @@
+{
+ "case": "p08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", with a description line and a customer quote.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On policy list (plastic-free, EN 13432 certificate) |\n| \"Our tea bags are plastic-free and home compostable\" | On policy list, exact wording |\n| \"Best tea I've ever had\" - Emma, Leeds | Unproven. No testimonial or permission on file, and it's a superlative the policy bans. |\n\n**Regulated claims:** \"plastic-free and home compostable\" is an environmental claim, but it's the specific, certified wording in section 2, so it's fine as written. Nothing on health, money, prices or children.\n\n**House style:** No banned words. Tone is plain. The copy is short and fine. Score about 90 once the quote is gone.\n\n**Disclosure:** Own-account paid ad, so the platform labels it. No extra label needed. No affiliate or gifted content.\n\n**Fixed (suggested edit):**\n- Remove the testimonial \"Best tea I've ever had\" - Emma, Leeds. It's not in the policy, there's no permission on record, and \"best\" is a superlative we never use.\n\n**Suggested final copy:**\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable.\n\n**Needs a decision:**\n- If Emma's quote is a real review with her written permission, send me the source and permission and add it to the policy. Even then, the superlative \"Best\" would need a policy exception from Sam, so I'd recommend leaving it out of the ad.\n\n**Approver:** Sam (marketing lead). Approval has to be for the exact final copy above. Nothing has been approved, so this should not go out as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0117255,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

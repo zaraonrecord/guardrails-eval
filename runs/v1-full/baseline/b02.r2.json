@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "13846367b074077b33b68d29ec224720f21da884bf543c9a3ef61328016d5089",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"pause or cancel any time\" matches the allowlist wording (subscription terms). \"Left Bristol this morning\" is an operational statement, not a marketing claim. The lapsang and white peony descriptions are product facts, which are fine as written.\n- **Banned content:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or false urgency.\n- **Voice:** It's warm, plain and unhurried, with UK spelling and none of the banned phrases.\n- **Disclosures:** This is our own subscriber email, with no partnership or affiliate link, so no label is needed.\n\nTwo things for you to confirm before sending, neither of which is a policy breach:\n- The subject says \"October tins\", but today is 17 November. If this is going out now, check that the subject matches the actual shipment month, and that \"this month\" and \"next month\" in the body still read correctly.\n- Per policy, Sam needs to approve everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091249,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

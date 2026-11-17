@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: clear to publish, with Sam's sign-off.**\n\nClaims check:\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"Organic loose leaf\" | Allowlisted: certified organic by the Soil Association, certificate renewed 2026 |\n| \"plastic-free bags\" | Allowlisted: plastic-free tea bags, supplier certificate (EN 13432) |\n| \"packed by hand in Bristol\" | Allowlisted: every tin is packed by hand in Bristol |\n\nOther checks:\n- **Superlatives, guarantees, health, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. The rating and review count match the allowlist exactly.\n- **Voice:** no banned words or structures, UK spelling, plain and unhurried.\n- **Disclosure:** not needed. This is our own hero copy, with no partnership or affiliate link.\n\nTwo small notes, neither blocking:\n- \"Packed by hand\" is allowlisted for tins. If the plastic-free bags ship in boxes or pouches rather than tins, the product team should confirm they are also hand-packed in Bristol. If they are, the line is fine as written.\n- The rating is dated October 2026. Refresh it if the review export is updated before the page goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014222500000000003,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

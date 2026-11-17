@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a0bee7868a9e0618b218852927db6c1ca8d17a1797adba9119412db2ca2b88df",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea that stands up to milk\" | Product/flavour fact, fine as written |\n| \"boosts your immunity through winter\" | Unsupported. Health claim, not on the allowlist, and likely to breach UK rules on health claims (only authorised claims are permitted for foods and drinks) and ad platform policy |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin, makes around 40 cups\" | Product fact (size, brewing), fine |\n\n**Slop/style check:** No ban-list words, no exclamation marks, no rhetorical opener. The opening is the product name, which is acceptable for a product page. \"Stands up to milk\" passes the \"compared to what\" test as a brewing statement.\n\n**Fix:** Remove the immunity claim. Compliant version:\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, and suits a cold winter morning. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nIf you want a warming angle, \"a warming cup for winter\" is a flavour/occasion description, not a health claim. If you want to make any immunity-related statement, it would need an authorised UK health claim and a source, so I'd leave it out.\n\n**Verdict:** Do not publish as written. One change needed.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076752,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

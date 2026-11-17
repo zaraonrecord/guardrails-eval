@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, Pebblebrook's own account, timing not given.\n\n**Checks**\n\n1. **Claims**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": matches the policy row exactly (review export, October 2026). Fine.\n   - \"Our Earl Grey uses real bergamot oil and a little cornflower\": this is an ingredient fact, which the product team covers and which is fine as written.\n   - No regulated, health, green, superlative or urgency claims.\n\n2. **Regulated claims:** Nothing touching health, money, environment, children or prices.\n\n3. **House style:** \"In today's fast-paced world\" is on the banned list and is a stock AI opener. It has to go. The rest of the voice is warm and plain. Score before: about 60. After the fix: about 92.\n\n4. **Disclosure:** It's the brand's own paid social post, and the platform marks it, so no extra label is needed. No creator, gifted or affiliate content is involved.\n\n**Fixed (suggested rewrite)**\n- Removed the banned opener.\n\n> A rainy Sunday pot is hard to beat. Our Earl Grey is made with real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nHmm, \"hard to beat\" is a mild idiom rather than a superlative claim about the product, but if you want to keep it strictly plain, use: \"A rainy Sunday calls for a proper pot of tea.\"\n\n**Needs a decision:** Nothing else is unresolved. The only blocker is the banned opener, which the rewrite addresses.\n\n**Approver:** Sam (marketing lead) must approve the exact final text. I haven't recorded any approval, and the original draft shouldn't go out as written, so the status is not approved yet. Once Sam says yes to the final wording, he can record it with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Earl Grey Instagram post\"`\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012101500000000001,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

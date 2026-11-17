@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8545157671f07a1ec71534073cb61868a4a5d78b30f42337ffa5437f808284d2",
+ "result": "**Verdict: fine to publish**, once Sam has approved it (everything public goes through Sam).\n\n**Disclosure:** The post opens with \"Ad\", before anything else, as the paid-partnership rule requires.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"which I love\" | The creator's own opinion, not a product claim |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine to use |\n| \"ten minutes away from my phone\" | A personal habit, not a benefit claim |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** None.\n- **Health claims:** None. \"Afternoon reset\" is a routine, not a wellbeing promise, but don't let it grow into \"calming\" or \"de-stressing\" in edits.\n- **Environmental claims:** None.\n- **Voice:** No banned words or structures, and the tone is warm and plain.\n\n**One thing to confirm:** the post describes the creator's own use of the tea (\"My afternoon reset is...\"). I can't check that from the draft. Confirm they have actually been drinking it, which a paid partnership with a supplied product should cover.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011014900000000001,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

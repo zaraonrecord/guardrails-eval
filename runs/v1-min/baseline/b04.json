@@ -1,10 +1,14 @@
 {
  "case": "b04",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: this is on the allowlist, so it is fine.\n- **\"A malty, full-bodied black tea that stands up to milk\"**: this is flavour and product description, which the policy allows as written.\n- **\"100g tin, makes around 40 cups\"**: size and brewing facts are allowed. \"Around\" keeps it appropriately hedged.\n- No superlatives, guarantees, testimonials, health claims, green claims, urgency, or invented stats appear.\n- The copy reads naturally and has no filler phrasing.\n- No disclosure is needed, since nothing is sponsored or an affiliate link.\n\nThe draft is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008230000000000001,
- "seconds": 6.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7200f72f116e3549090caf9215df5be619ca8c14fe4acc4449c0c3b6017f12ed",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: this is on the claims allowlist, so it's fine.\n- **\"malty, full-bodied black tea that stands up to milk\"**: a flavour and brewing description, which counts as a product fact. No problem.\n- **\"100g tin, makes around 40 cups\"**: size and brewing information, also a product fact. \"Around\" keeps it appropriately hedged rather than a hard guarantee.\n- **Tone and format**: short, specific, no filler, no superlatives, no urgency, no health claims, no testimonials.\n\nI found nothing that needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008024,
+ "seconds": 7.8,
  "models": [
   "claude-sonnet-5-5"
  ]

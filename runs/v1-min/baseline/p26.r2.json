@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c51c9c13edb0e35a97c736160bdbaef31a23b8c9de5beab250be331e40a80a19",
+ "result": "I checked the draft against the brand policy and found three problems.\n\n1. **\"Honestly the best tea in Britain\"** is an unsubstantiated superlative. The allowlist has nothing to support a \"best in Britain\" claim. Remove it, or swap in a backed claim such as the 4.8 out of 5 rating from over 1,200 reviews on the website.\n\n2. **\"it's a proven immunity booster\"** is a health claim. Tea can't be described as a proven immunity booster, and the policy gives no support for it. Remove it. This is also a regulatory risk in the UK, where health claims on food and drink need authorisation.\n\n3. **\"Ad |\"** is fine as a label. The post is marked as an ad at the very start, so the disclosure is present and clear. No change is needed there.\n\nWhat is fine:\n- \"Their tins are packed by hand in Bristol\" matches the allowlist.\n- The Assam, the afternoon reset and the ten minutes away from the phone are ordinary product and lifestyle description.\n\nBecause of the two issues above, this should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009948,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

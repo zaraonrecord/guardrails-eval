@@ -1,0 +1,11 @@
+{
+ "case": "p01",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One claim has to go, and one line is redundant.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | **Unsupported.** Superlative, and policy section 3 bans \"best\" and \"the UK's favourite\". |\n| \"packed by hand in Bristol\" (first mention) | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"Every tin is packed by hand in Bristol\" | Allowlisted, but it repeats the first sentence word for word. |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026). |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n\n**Changes needed**\n1. Cut \"The UK's best loose leaf tea\". We can't prove it, and the brand never makes this kind of claim.\n2. Remove the duplicated \"packed by hand in Bristol\" line. Once is enough, and the repeat weakens the opening.\n\nNo health, green, urgency, guarantee or testimonial problems. No banned brand words are used. No disclosure label is needed for our own landing page.\n\n**Compliant version**\n\n> Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nSam still needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0162825,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

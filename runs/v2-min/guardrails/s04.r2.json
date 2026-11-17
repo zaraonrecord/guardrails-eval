@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6d58054b0a3990be4ead26beb62685908d986dff4575470549ada16faa9ff22e",
+ "result": "## Publish gate report: About page\n\n**Going out:** About page copy, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n- **Claims:**\n  - \"founded in Bristol in 2019\" is on the policy list.\n  - \"every tin is packed by hand in Bristol\" is on the policy list.\n  - \"small team of six\" is a product fact, fine as written.\n  - \"has become Bristol's favourite tea\" is an unproven superlative. Nothing in the policy or this chat backs it up (no survey, poll or award), so it has to go.\n  - \"We buy from gardens we've visited\" falls under origins, which the policy allows as written. It's still a factual claim about your sourcing, so please confirm it's true for all your gardens, not just some.\n- **Regulated claims:** Nothing on health, money, legal outcomes, the environment, children or prices.\n- **House style:** The policy has no voice section, so I couldn't score it. The copy is plain and has no obvious AI tells.\n- **Disclosure:** No ads, sponsorship, affiliate links or AI-generated content, so no label is needed.\n\n**Fixed**\n- Removed \"and has become Bristol's favourite tea\".\n\n**Suggested copy**\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\n**Needs a decision**\n1. Is \"gardens we've visited\" true for every garden you buy from? If not, soften it to something like \"We buy from gardens our team has visited.\"\n2. If you have evidence for \"Bristol's favourite\" (a local poll or award), send it and I can restore a sourced version, for example \"voted Bristol's best tea shop by …\".\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you, with your name, for the exact copy above. I haven't recorded any approval, so this stays unpublished until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156413,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

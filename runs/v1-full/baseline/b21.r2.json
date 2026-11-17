@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fddb9596efed8b7088d5ced57fafc17e77f7b1beaeb5d759cd98dba6f05160fe",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"founded in Bristol in 2019\"** matches the allowlisted claim (Companies House).\n- **\"a small team of six\"** is a team size, which the product team checks and which is fine to use as written.\n- **\"every tin is packed by hand in Bristol\"** matches the allowlisted claim word for word.\n- **\"We buy from gardens we've visited.\"** isn't a superlative, guarantee, health claim, green claim or invented number, so it breaks none of the \"never\" rules. It describes sourcing, which sits close to the product team's facts about where tea is grown. It's worth a quick confirmation with the product team that it's accurate, but it doesn't block publication.\n- **Voice and spelling:** the tone is warm, plain and unhurried, with no banned words and nothing that needs a disclosure label.\n\nSam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011189800000000001,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

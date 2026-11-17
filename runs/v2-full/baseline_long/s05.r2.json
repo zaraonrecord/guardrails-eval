@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d8c70c57b603526e87ecad7fac8c6906c545b78870a06f205d6ad7fdb72d232f",
+ "result": "**Review: search ad**\n\nGoing sentence by sentence:\n\n1. **\"Tea Subscription UK\"**: Plain description. Fine.\n2. **\"Monthly loose leaf tea.\"** Product fact, fine.\n3. **\"If your box isn't right, we'll make it right.\"** This is a soft, implied guarantee. A reader would reasonably take it as a promise of a remedy (replacement, refund) if they're unhappy. The policy says there is no \"you'll love it or it's free\" offer, and the allowlist has no returns or satisfaction promise. Only pause/cancel any time is approved. Guarantee without terms, so it should be held. Fix: remove it, or replace with the approved \"Pause or cancel any time.\"\n4. **\"Free UK delivery on orders over £25.\"** Matches the allowlist wording exactly. Fine.\n\nStyle: UK spelling, no banned words, plain and warm enough. No health, green, superlative, urgency or disclosure issues. A search ad from the brand's own account needs no label.\n\nDecision: hold until the implied guarantee is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068567,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

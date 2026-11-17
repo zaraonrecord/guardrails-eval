@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c0c35243250463278c3a1c440561ac480969b6c2f060df1c0bce22ca335c8c08",
+ "result": "**Review of the search ad**\n\nSentence by sentence:\n\n1. **\"Tea Subscription UK\"** is a plain descriptive headline. Fine.\n2. **\"The UK's number one tea subscription.\"** This is a superiority claim. It names no metric (sales, reviews, subscribers) and no source. The brand policy has no approved claim of being number one, and there is no evidence I can see. It needs to go. Short search copy is no excuse for an unsupported superlative.\n3. **\"Subscribers can pause or cancel any time.\"** Approved in the brand policy. Fine.\n4. **\"Free UK delivery on orders over £25.\"** Approved, and the threshold is stated and matches the policy. Fine.\n\nNo health, green, urgency, guarantee or disclosure issues. The copy is plain and has no AI clichés. As the brand's own search ad, it doesn't need an \"Ad\" label beyond the platform's own.\n\n**Fix:** Remove the superlative. Replace it with something approved, for example \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" or \"Certified organic by the Soil Association.\"\n\n**Decision:** Hold until the \"number one\" claim is removed or evidenced.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071424999999999995,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c0f3dd28e82bae618508239469835a8eafda2b66e650c71437bae168ef2478d3",
+ "result": "**Review of the paid creator post**\n\n**Ad label (problem):** The post is paid, so it must be identifiable as an ad before the reader engages with it. The only label is \"#ad\", the fifth of seven hashtags at the very end of the caption. Mixed in with tags like #tea, #selfcare and #slowliving, it is easy to miss. It needs to be prominent and come first, for example \"Ad:\" or \"#Ad\" as the opening words, or the platform's paid-partnership label.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" is on the brand's approved list, so it is fine.\n- \"My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone\" is personal, descriptive lifestyle language. It makes no health or results claim.\n- The hashtag #selfcare is mood and lifestyle tagging, not a claim about an effect on the body, so I'm leaving it.\n\n**Style:** The copy sounds personal and specific, with no filler phrases. No changes are needed.\n\n**Decision:** Hold until the ad label is moved to the front. Once that is fixed, the post can go out.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110245,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

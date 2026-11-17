@@ -1,10 +1,14 @@
 {
  "case": "p04",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** One thing needs changing.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export October 2026) |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\n**Problem**\n- \"In today's fast-paced world\" is on the brand's banned phrase list. It's also a stock AI-sounding opener, and it pushes the one useful fact (the Earl Grey ingredients) down the post. It also clashes with the \"unhurried\" voice.\n\n**Suggested fix**\n> A rainy Sunday needs a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Other checks**\n- Our own Instagram account needs no \"Ad\" or \"Gifted\" label.\n- No health, green, urgency, superlative or guarantee language.\n- Spelling is fine for UK English.\n- Sam needs to approve it before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.012450500000000001,
- "seconds": 9.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "232da0aa801cdd281a228b5c75f4090641f5c7c95bcaf9e85f6f88276435f0fb",
+ "result": "**Verdict: don't publish as written. One fix needed.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\nNo invented stats, superlatives, guarantees, health claims, green claims or fake urgency. The post is from our own Instagram account, so no \"Ad\" or \"Gifted\" label is needed.\n\n**Problem**\n- \"In today's fast-paced world\" is on the banned phrase list in both the brand policy and the slop rules. It is also throat-clearing: the opening sentence should carry something useful, and this one doesn't.\n\n**Suggested fix**\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nThis keeps the warm, plain, unhurried voice, uses UK spelling, and leaves the allowlisted rating wording untouched. It still needs Sam's approval before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013204500000000001,
+ "seconds": 13.2,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "444cb9aee6d9a7484148741d5a63b559b37bcfaf0bbd7208a2ada1174cc31aca",
+ "result": "**Review**\n\n- **\"New tins just landed for winter. Deep green, gold lettering\"**: New arrivals and product looks are fine as written.\n- **\"planet-friendly packaging\"**: This is a vague environmental claim. The policy only backs plastic-free, home-compostable tea bags and Soil Association organic certification. Nothing says the tins or their packaging are planet-friendly. Either remove it or replace it with a specific, backed claim.\n- **\"the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.\"**: Both statements are on the allowlist. They are repetitive, since \"plastic-free\" appears twice in three sentences, so you could tighten the wording. That's a style point, not a blocker.\n- No invented stats, superlatives, guarantees, testimonials, health claims, fake urgency or disclosure problems. This is the brand's own account, so no paid-partnership label is needed.\n\n**Suggested fix:** \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011087999999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

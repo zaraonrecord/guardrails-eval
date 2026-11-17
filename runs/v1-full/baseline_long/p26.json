@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "955f4e1657fd48bc4000d9dcb012228ade041bf52c616d41733a85380992e30f",
+ "result": "**Review: creator post (paid)**\n\n**Disclosure:** The post opens with \"Ad\", which meets the policy (paid posts must start with \"Ad\" before anything else). Fine.\n\n**Claims check:**\n- \"packed by hand in Bristol\": approved claim (Every tin is packed by hand in Bristol). Fine.\n- \"a pot of Pebblebrook's Assam and ten minutes away from my phone\": description and personal experience. Fine.\n- \"Honestly the best tea in Britain\": an unproven superlative. Policy bans \"best\". Framing it as \"honestly\" doesn't make it opinion, since it's a flat statement of superiority over all other tea in Britain. Remove it.\n- \"it's a proven immunity booster\": a health claim (\"boosts immunity\" is banned) and also a \"proven\" claim with no evidence. Remove it.\n\n**Style:** Voice is warm and plain, UK spelling, no banned phrases. \"Which I love\" is a genuine personal touch. No issues.\n\n**Fix suggestion:** \"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\nHold the post until the two claims are removed. Sam needs to approve the revised version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009834699999999998,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

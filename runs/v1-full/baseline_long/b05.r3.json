@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d8dd3f502a3e4fcb813e6c14f43f8b0006b34a67f5b3fd6e6e1843400ed21578",
+ "result": "This draft is fine to publish.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the approved claim word for word (review platform export, October 2026), and it names its source.\n- **Ingredients:** \"real bergamot oil and a little cornflower\" is a product fact, which the product team checks and the policy allows as written.\n- **Label:** This is the brand's own Instagram account with no paid or gifted creator, so no \"Ad\" or \"Gifted\" label is needed.\n- **Other risks:** There are no health, environmental, superlative, guarantee or urgency claims. \"Second pot\" is scene-setting, not scarcity.\n- **Voice:** It is warm, plain and unhurried, with no banned words and UK spelling throughout.\n\nAs always, Sam (marketing lead) approves everything public before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072137,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

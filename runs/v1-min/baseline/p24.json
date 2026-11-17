@@ -1,9 +1,13 @@
 {
  "case": "p24",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review notes**\n\n- **\"Elevate your mornings\"** is a generic marketing cliché. It is also bolted on awkwardly before the product details, and it adds nothing. Cut it or replace it with something specific, such as a line about how the lapsang tastes.\n- **\"you can pause or cancel any time\"** is on the claims allowlist, so it's fine.\n- **\"left Bristol this morning\"** fits the Bristol hand-packing facts and makes no claim beyond them.\n- **Product details** (smoky lapsang, soft white peony) are fine as written.\n- There are no invented stats, superlatives, guarantees, testimonials, health claims, green claims or fake urgency.\n- **Date check (not flagged):** the subject says \"October tins\", but today is 17 November. If this is going out now, confirm the month is right and that \"this morning\" is true, or the email will read as stale or wrong.\n\nThe only change needed is the filler phrase, so the draft should not go out as is.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.013132,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8cc1ed9aacfeebe3ee164e3c763077820d1baa199872ac1d76e4c6e60dfdb37c",
+ "result": "I checked the draft against the brand policy and found one problem.\n\n- **\"Elevate your mornings\"** is a generic, stock marketing phrase. It adds nothing, and the colon after it makes the sentence read awkwardly. I'd cut it so the sentence starts \"This month it's a smoky lapsang and a soft white peony.\"\n- **\"left Bristol this morning\"** is fine, since the tins are packed by hand in Bristol.\n- **\"pause or cancel any time\"** is on the allowlist.\n- **The tea descriptions** (smoky lapsang, soft white peony) are product facts and fine as written.\n- **Dates:** the subject says \"October tins\" and the body says \"this month\", but today is 17 November. If this goes out now, check that the month is right. I haven't flagged it as an issue because I can't tell whether this is a late send or an intended one.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings:\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013172,
  "seconds": 11.7,
  "models": [
   "claude-sonnet-5-5"

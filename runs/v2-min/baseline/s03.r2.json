@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cb5864d4fdb2c56f73054c029827a59794ef63b2d455b61e96f33d497aea2231",
+ "result": "**Review of the Assam Breakfast product page draft**\n\n**Problem: \"noticeably smoother than supermarket tea bags\"**\nThis is a comparative claim against competitors, and nothing on the claims allowlist supports it. It also says the difference is \"noticeable\", which suggests testing or evidence we don't have. Either remove it or rewrite it as a plain flavour description, such as \"a smooth, malty black tea\". The word \"smooth\" alone is a flavour description, but the comparison to supermarket tea bags is not.\n\n**Checked and fine:**\n- \"A malty, full-bodied black tea\" is a flavour fact.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"100g tin, makes around 40 cups\" is a size and brewing fact, and \"around\" keeps it appropriately hedged.\n\nOnce the comparison is removed or reworded, the rest of the copy can go out.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011165999999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

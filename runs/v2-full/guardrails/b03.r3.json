@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "934bcfe4f91bb06bba177987b430152d5a949f38efd96fda141d473eb596ad39",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline and description) for Pebblebrook Tea Co., UK. No date or audience was given.\n\n**Checks**\n\n| Check | Result |\n|---|---|\n| Claims | Pass. Both claims match the policy allowlist. |\n| Regulated claims | Pass. \"Organic\" is backed by the Soil Association certificate (renewed 2026), so it is not a broad green claim. The delivery offer states its condition (over £25) and has no false urgency. |\n| House style | Pass. It is plain and unhurried, with no banned words and no AI tells. Score about 95/100. |\n| Disclosure | Pass. This is a paid ad from the brand's own account, so the platform marks it and no extra label is needed. |\n\n**Claims table**\n\n| Claim | Status | Source |\n|---|---|---|\n| Organic Loose Leaf Tea | On policy list (organic) and product fact (loose leaf) | Soil Association certificate, 2026 |\n| Certified organic by the Soil Association | On policy list, exact wording | Certificate on file, renewed 2026 |\n| Free UK delivery on orders over £25 | On policy list, exact wording | Shipping policy |\n\n**Evidence log rows**\n- 2026-11-17 | Search ad (organic and delivery) | Organic Loose Leaf Tea | Supported | Soil Association certificate, 2026\n- 2026-11-17 | Search ad (organic and delivery) | Certified organic by the Soil Association | Supported | Policy section 2\n- 2026-11-17 | Search ad (organic and delivery) | Free UK delivery on orders over £25 | Supported | Shipping policy\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One small suggestion: confirm the ad's landing page also mentions the organic certification and the £25 delivery threshold, because an ad can't claim more than the page it links to.\n\n**Approver:** Sam (marketing lead). Nothing is approved yet. Sam needs to give an explicit yes to this exact copy before it is published or scheduled.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0135685,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

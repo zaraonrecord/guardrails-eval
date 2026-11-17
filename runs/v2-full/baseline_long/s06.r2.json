@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "df167c22a10138a1b5e260cf8343c6f531c92050bebbc38785ca12e7e4555030",
+ "result": "**Review of the newsletter draft**\n\n**Sentence by sentence**\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a product fact about where the tea is grown, which the policy allows as written.\n2. \"The leaves are picked in March and taste bright and floral.\" This is the picking time and flavour, both product facts, so it's fine.\n3. \"Our customers tell us it's the only tea they drink now.\" **Problem.** It presents customer feedback as fact, but there is no source, quote or permission on file. It also implies a pattern across customers (\"our customers\"), which is a summary stronger than anything documented. The policy bans invented testimonials. Cut it, or replace it with a real, sourced review quote or a plain description of the tea.\n4. \"You'll find it in the shop from Monday.\" A new product arriving is a checked product fact, and this is a real launch, not false urgency. It's fine.\n\n**Other checks**\n- No health, green, superlative, guarantee or pricing claims.\n- No label is needed, since this is the brand's own newsletter and not a paid or affiliate placement.\n- The voice is warm, plain and unhurried, uses UK spelling, and contains none of the banned words.\n\n**Decision:** Hold until the customer line is removed or replaced with something documented. With that fixed, the rest can go out. As always, Sam approves public content.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098883,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

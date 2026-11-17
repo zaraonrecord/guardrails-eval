@@ -1,10 +1,14 @@
 {
  "case": "b19",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list). Send time not stated.\n\n**Checks**\n- **Claims:** No statistics, ratings, guarantees, testimonials or superlatives. The brewing guidance (\"a mug, a small sieve and four minutes... black tea. Green tea likes it shorter and cooler\") is product/brewing guidance, which the policy treats as fine to use as written.\n- **Regulated claims:** No health, money, legal, environmental, children or price content.\n- **House style:** Warm, plain, unhurried. No banned words (\"elevate\", \"unlock\", \"journey\", etc.), no AI tells. Short and clear. Score is roughly 90+.\n- **Disclosure:** Own-brand email, no sponsor, affiliate link, gifted product or AI-labelling trigger. Nothing needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One small note: \"Hi Ana\" assumes personalisation is merge-tagged correctly for each recipient; worth a quick check in the send tool.\n\n**Approver:** Sam (marketing lead), since the policy says everything public needs Sam's approval. I haven't recorded any approval. Please ask Sam for an explicit yes to this exact text before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0094775,
- "seconds": 11.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "58b9180ed205b12c88e5a551bc5300acbe5035cd5bfb1c50a4374242bbbe3d8a",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list), sender Pebblebrook team. Send time not stated.\n\n**Checks**\n- **Claims:** No numbers, comparisons, guarantees, testimonials or ratings. \"Four minutes\" and the green tea brewing advice are brewing guidance, which the policy treats as a product fact. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Warm, plain, unhurried. No banned words. UK spelling is fine. No AI tells (no stock openers, no reversals, no slogan closer). Pass. It is short, but that suits the tone.\n- **Disclosure:** Our own brand email with no sponsor, affiliate link, gifted product or AI-realistic imagery. No label needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional point: \"Hi Ana\" assumes the email is personalised by merge field, so confirm the send tool fills in the name correctly for each recipient.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text. If Sam approves, record it in your own terminal with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Brewing email to list\"`\nThe approval lasts 15 minutes and covers one send. Any edit to the copy means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083057,
+ "seconds": 11.3,
  "models": [
   "claude-sonnet-5-5"
  ]

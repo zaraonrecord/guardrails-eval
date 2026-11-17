@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (sentence 1) | Allowlisted |\n| Every tin is packed by hand in Bristol (sentence 2) | Allowlisted, but a repeat of sentence 1 |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted |\n\n**Slop check:** There are no banned words, no em-dashes, no exclamation points, no rhetorical openers and no fake urgency. The opening sentence leads with a concrete fact.\n\n**Problem:** The first two sentences say the same thing. \"Loose leaf tea, packed by hand in Bristol\" and \"Every tin is packed by hand in Bristol\" are redundant, and the rewrite rules say to keep the sharper one. The repeat adds no information in a hero where space is tight.\n\n**Suggested fix:**\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nIf you prefer \"every tin\", you could use: \"Every tin of our loose leaf tea is packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.024792,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

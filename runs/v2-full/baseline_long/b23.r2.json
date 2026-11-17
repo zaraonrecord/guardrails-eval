@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "07de8af5cd50b0680597b18ce3aea97b98ed0c6dd19f2fe9ad9ee53a0fe38809",
+ "result": "I read the draft sentence by sentence against the brand policy and the checklist.\n\n- \"Rooibos Chai.\" is the product name.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" covers ingredients and a product fact. The policy treats ingredients as checked by the product team and fine to use as written. \"Caffeine-free\" describes what the tea contains and makes no claim about an effect on the body, so it is not a health claim.\n- \"Lovely with milk.\" is a mild serving suggestion and an opinion, and it is plain in tone.\n- \"100g tin.\" is a tin size, which is a product fact.\n\nNothing in the draft is an unsupported claim, superlative, guarantee, health claim, green claim, invented number, urgency or testimonial. It is a brand-owned product page, so no ad label is needed. None of the banned words appear, and the voice is warm, plain and unhurried. UK spelling is consistent, and there is nothing to change. It is also very short, which is fine for a product page, though the product team should confirm the 100g tin matches the listing. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067043,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

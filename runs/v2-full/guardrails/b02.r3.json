@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "44292ba7541704ccd09fdb6aff78cb556d03e943d279e10d4226825f3b3684b6",
+ "result": "**Publish gate report**\n\n**Going out:** Subscription shipping email to Priya (email, one recipient, transactional).\n\n**Claims check**\n- \"left Bristol this morning\": a shipping fact, consistent with the Bristol packing operation. Fine.\n- \"smoky lapsang and a soft white peony\": product facts, covered as written by the product team.\n- \"you can pause or cancel any time\": on the policy list (subscription terms). Fine.\n- No stats, superlatives, guarantees, health, green or urgency claims.\n\n**Regulated claims:** Nothing touching health, money, legal, environment, children or pricing.\n\n**House style:** Warm, plain and unhurried. No banned words, no AI tells, UK spelling. Score about 92.\n\n**Disclosure:** Our own transactional email, no ad, partnership, affiliate link or AI-labelling trigger.\n\n**Fixed:** Nothing needed.\n\n**Needs a decision:** Nothing unresolved. One note: \"Your October tins\" appears in the subject while today is 17 November. If this really is the October shipment going out late, fine, but if it's the November box, the subject should say November. Worth a quick check by the sender, but it isn't a policy issue.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and I won't until Sam says yes to this exact content. So `publish` stays false for now, pending that sign-off, even though no content changes are needed.\n\n```json\n{\"issues\": [], \"publish\": false}\n```",
+ "cost_usd": 0.0076963,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

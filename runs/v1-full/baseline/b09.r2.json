@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a6ba59913d2f449f84df15b92f142d6283e3fffca47391d44f8c76f70cdafb17",
+ "result": "Checked the draft against the brand policy.\n\n- **Headline \"Plastic-Free Tea Bags\":** matches the allowlisted claim that the bags are plastic-free. Fine.\n- **\"Our tea bags are plastic-free and home compostable\":** exact wording from the claims table (supplier certificate, EN 13432). Fine.\n- **\"Founded in Bristol in 2019\":** exact wording from the claims table (Companies House). Fine.\n- **Superlatives, guarantees, health claims, invented numbers, urgency:** none present.\n- **Voice and spelling:** plain, no banned words, no US spellings.\n- **Disclosure:** a paid search ad from our own account needs no extra label.\n- **Approval:** the policy says Sam (marketing lead) approves everything public, so it still needs Sam's sign-off before going live. That is a process step, not a change to the copy.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056735,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

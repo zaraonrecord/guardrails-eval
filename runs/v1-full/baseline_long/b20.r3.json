@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Tea Subscription UK\": plain description, no claim.\n- \"Monthly loose leaf tea.\": product fact, fine.\n- \"Subscribers can pause or cancel any time.\": matches the approved claim word for word (Subscription terms).\n- \"Free UK delivery on orders over £25.\": matches the approved claim exactly (Shipping policy), and the threshold sits right beside the claim.\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, invented numbers or urgency.\n- Search ad from the brand's own account, so no \"Ad\" label is needed from us.\n- Banned words: none present. UK spelling is fine. The copy is plain and short, with no AI clichés.\n- Approver: Sam signs off on everything public, which is a process step rather than a copy problem.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058647000000000005,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

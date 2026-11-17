@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "acc4dba1a3c4330330b4e0dae16844b649c437784c31f027cf6830e479184eaa",
+ "result": "**Review of the newsletter draft**\n\n**Needs changing**\n- **\"selling fast\"** is a claim about demand that nothing in the brand policy supports. It creates pressure to buy, which section 3 rules out as urgency that isn't true. There is no real offer or stock figure behind it. Cut it, or replace it with something factual, such as \"Order yours now\" or \"Available while the season lasts\" (only if the product team confirms that's true).\n\n**Checked and fine**\n- \"the Christmas blend is back\" and \"back in the shop from today\" are product-team facts about new products arriving. \"From today\" is a launch date, not a \"today only\" offer.\n- \"Black tea, orange peel, cinnamon and a little clove\" is an ingredient list, which the product team checks.\n- There are no superlatives, guarantees, health claims, environmental claims, invented numbers or testimonials.\n- The voice is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- No disclosure is needed. This is our own newsletter, with no partnership, gifting or affiliate link.\n\nAs with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105401,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

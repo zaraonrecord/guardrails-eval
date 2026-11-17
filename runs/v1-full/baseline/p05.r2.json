@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3336c73c4f3c17ce294175e71f98f3c1b0e54a64b6d60248e31b05ab3f918970",
+ "result": "**Not ready to publish.** One problem needs fixing.\n\n**Fake urgency:** \"only 40 tins are left, so be quick\" breaks the policy on false urgency. Our rules ban \"only X left\" scarcity messaging unless there is a real offer with an end date, and there isn't one. The policy gives no stock figure we can use for this. \"Be quick\" also pushes against our unhurried voice. Cut the sentence, or replace it with something calm like \"You'll find it in the shop from Monday.\"\n\n**What's fine:**\n- The Darjeeling visit, the March picking and the \"bright and floral\" flavour are product facts the product team covers.\n- The Monday arrival is a new product arriving, which is also covered.\n- No banned words, health or environmental claims, invented stats or superlatives appear.\n- The spelling is UK.\n- A newsletter from our own account needs no disclosure label.\n\nOnce the draft is fixed, Sam (marketing lead) still needs to approve it, since all public content goes through him.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0082514,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "707b022aa8161366527c9abf9ff476deb63ebb297e411491d48e09ba07abd43e",
+ "result": "I checked the draft against the brand policy, line by line.\n\n- **\"Tea Subscription UK\"**: A plain descriptor with no claim in it. Fine.\n- **\"Monthly loose leaf tea.\"**: Matches what we sell (loose leaf tea, monthly subscription). Fine.\n- **\"Subscribers can pause or cancel any time.\"**: Matches the allowlist wording exactly (Subscription terms).\n- **\"Free UK delivery on orders over £25.\"**: Matches the allowlist wording exactly (Shipping policy).\n\nThere are no superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency. No banned words, and the spelling is UK. A search ad from our own account needs no disclosure label. The only step left is Sam's approval, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0053341,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

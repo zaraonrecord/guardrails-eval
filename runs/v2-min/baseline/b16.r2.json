@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ce871dff08a52ea2fcd60c16bdbbb467fbafb5578cf180ccecabfd0580197858",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website\"** matches the allowlist exactly, including the source (our website).\n- **\"Organic loose leaf\"** is covered by the Soil Association organic certification. The draft doesn't overstate it.\n- **\"Plastic-free bags\"** matches the policy's \"plastic-free\" tea bag claim. It makes no broader environmental claim, such as compostability or being eco-friendly, that would need extra backing.\n- **\"Packed by hand in Bristol\"** matches the policy (every tin is packed by hand in Bristol).\n\nThe draft has no superlatives, guarantees, invented statistics, health claims, urgency tactics, or testimonials. The tone is plain and specific, with no filler. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007137699999999999,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

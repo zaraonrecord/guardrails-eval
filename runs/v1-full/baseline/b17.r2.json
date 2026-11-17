@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d074deff53e6bbd21e5c374fda7a3c64c07647064763f76e21685033cb7af9fb",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** The draft makes no claims from the \"never make\" list. There are no superlatives, guarantees, health claims, green claims, invented numbers or testimonials.\n- **Product facts:** The ingredients (black tea, orange peel, cinnamon, clove) and the blend's return are product facts, which the product team checks and which are fine as written.\n- **Urgency:** \"It's back in the shop from today\" announces availability. It isn't a countdown, a \"today only\" offer or a \"only X left\" line, so it isn't fake urgency.\n- **Disclosure:** This is our own newsletter, so no \"Ad\", \"Gifted\" or affiliate label applies.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words and no UK spelling is at issue.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0069992000000000006,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

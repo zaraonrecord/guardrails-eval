@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: passes, nothing to change.**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival, a product fact the brand policy allows as written.\n- \"grassy and a little sweet\": flavour description, allowed.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, not a superlative claim about the product. Allowed.\n- No numbers, comparisons, guarantees, social proof, or health, money or environmental claims.\n\n**Slop check**\n- Zero ban-list words.\n- No em-dash sandwiches, exclamation points, rhetorical-question openers or \"not just X, it's Y\" constructions.\n- No fake urgency.\n- The first sentence gives the useful fact, and the copy is concrete and short.\n\n**Disclosure:** This is the brand's own product with no affiliate links or sponsorship, so no disclosure is needed. The review-label rules don't apply, since this is a brand email and not a product review.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101923,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

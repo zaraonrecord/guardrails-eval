@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "608a1c3f947562ba5f553ade7c6d9d9fcaa62631c2efe1e23d0c939cf7e695d6",
+ "result": "# Publish gate report\n\n**Going out:** landing hero copy, Pebblebrook Tea Co., UK audience. No publish date was given.\n\n**Checks**\n- **Claims:** Pass. \"Certified organic by the Soil Association\", \"packed by hand in Bristol\" and \"free UK delivery on orders over £25\" are all on the policy's provable list, word for word. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Pass. There are no health, green, price-promotion or urgency claims. The delivery threshold is stated plainly, with no \"limited time\" framing.\n- **Disclosure:** Pass. This is the brand's own page, with no ads, sponsors, affiliates, gifted products or AI-generated imagery in the copy.\n- **House style:** Needs a fix. \"Brewed with care. Packed with love. Delivered with a smile.\" is a tidy three-beat slogan opener, a classic AI tell. It says nothing a reader can check, and \"packed with love\" sits awkwardly next to the real, specific \"packed by hand in Bristol\". The policy has no voice section, so I judged against general AI-tell rules only.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\n- I cut the three-part slogan.\n- I kept every factual claim exactly as the policy words it.\n\n**Needs a decision**\n1. Do you want the plain rewrite above, or a different line of your own to replace the slogan? If you write your own, it will need a fresh check.\n2. The policy names no approver for this kind of content. I suggest you approve it yourself, with an explicit yes to the exact final copy. Nothing has been approved or recorded yet, so it should not go live until you do.\n3. The policy has no voice section. Sharing two or three pieces of writing you're proud of would let me check future copy against your real voice.\n\n**Approver:** none named in the policy, so you (the account holder) as the user.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016841300000000003,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

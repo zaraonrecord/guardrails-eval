@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d71ca07a7c1496f2c0e65871a5437a00e08413e71208ed96e9c138af698f7bf1",
+ "result": "**Review: gifted creator post**\n\nRead as a follower would see it: a short, personal post that opens with \"Gifted\", which is the required wording from the brand policy (section 4), and it comes before anything else.\n\nSentence by sentence:\n\n- \"Gifted | Pebblebrook sent me their winter sampler.\" The label is first and clear, and it states the relationship. The sampler is a product fact. Fine.\n- \"The rooibos chai is lovely with oat milk.\" Personal opinion about taste and serving, not a health or superiority claim. Fine.\n- \"Not paid to say that, just liked it.\" This matches a gifted (not paid) arrangement and reads as honest. It is not a guarantee or a claim about results. Fine.\n\nOther checks: no stats, no superlatives, no health or environmental claims, no urgency, no guarantees. Voice is warm and plain with none of the banned words. Spelling has no US/UK issues.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060865,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

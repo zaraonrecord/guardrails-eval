@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3a6ae59c94af779e57fd96a13ca9f8be4bea89871bebe040020b0ad45d713d77",
+ "result": "## Publish gate report\n\n**Going out:** Search ad, headline \"Plastic-Free Tea Bags\", description about plastic-free, home compostable tea bags and the 2019 Bristol founding. UK audience.\n\n**Checks**\n\n1. **Claims:**\n   - \"plastic-free\" is on the policy list (tea bags are plastic-free and home compostable). Pass.\n   - \"home compostable\" is on the policy list. Pass.\n   - \"Founded in Bristol in 2019\" is on the policy list. Pass.\n   - Evidence log rows (to paste into the team's log, since I have no file access here):\n     - 2026-11-17 | Search ad: plastic-free tea bags | \"Plastic-Free Tea Bags\" | On policy list | Brand policy\n     - 2026-11-17 | Search ad: plastic-free tea bags | \"Our tea bags are plastic-free and home compostable\" | On policy list | Brand policy\n     - 2026-11-17 | Search ad: plastic-free tea bags | \"Founded in Bristol in 2019\" | On policy list | Brand policy\n\n2. **Regulated claims (environment):** \"plastic-free\" and \"home compostable\" are specific, not broad \"eco\" or \"green\" claims, and both are backed by the policy. That is the safe way to make an environmental claim. One thing to confirm: the landing page should back these up, since an ad can't claim more than its page does. I suggest the approver checks that the page says the same.\n\n3. **House style:** Plain, concrete, no banned words or AI tells. The description is short and factual. Pass.\n\n4. **Disclosure:** This is a paid search ad, and search platforms label it \"Ad\" automatically. The brand is advertising its own product, with no creator, affiliate, or gifted-product relationship, and no AI-generated imagery. Nothing further is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing blocking. Optional: confirm the landing page repeats the plastic-free and home compostable claims.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you to this exact copy before it goes live. I haven't recorded any approval. Once you confirm, publish the ad as written.\n\nSince no issues need changing, the draft is clear, with approval from you still outstanding.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0105087,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

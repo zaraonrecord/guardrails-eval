@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9a624e6582815c1c53b40859b5edd155fe0161b644c9392c3b6268e62d216916",
+ "result": "**Verdict: OK to publish, with one thing to check.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (founded in Bristol in 2019) |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"We couldn't find tea bags without plastic in them\" | Founder origin story, not a product or performance claim. Fine as long as it's true to the founders' experience. |\n| \"Here's how we checked\" | Not a claim in itself, but it promises a method or evidence in the body of the post |\n\n**Slop check:** There are no banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and no invented stats or testimonials. The first sentence gives a concrete fact.\n\n**Check before publishing:** \"Here's how we checked\" sets up a verification story. The body must only describe checks that actually happened. It must not add new figures, such as compost times, lab results or certifications beyond the Soil Association organic certification, unless you supply them with a source. If the body can't back up \"how we checked\", change the line to something like \"here's what's in them\".\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111149,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

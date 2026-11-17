@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9a624e6582815c1c53b40859b5edd155fe0161b644c9392c3b6268e62d216916",
+ "result": "**Verdict: fine to publish as written.** One note for the rest of the post.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (founded in Bristol in 2019) |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"We couldn't find tea bags without plastic in them\" | Founding story, not a statistic or a claim about the product. Fine as the brand's own account. |\n| \"Here's how we checked\" | Promises a method. See the note below. |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and no \"not just X, it's Y\" construction. The first sentence leads with a concrete fact.\n\n**Green claims:** \"Plastic-free\" and \"home compostable\" are both on the allowlist and stated plainly, with no vague terms like \"eco-friendly\" or \"planet-safe.\"\n\n**Note for the body:** \"Here's how we checked\" sets up an explanation of how you verified the claims. The post must describe the checking that actually happened, such as the certification or testing you really used. Don't add test results, timeframes or lab names unless you supply them with a source. If the body can't back up the checking, change that phrase.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012000900000000002,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

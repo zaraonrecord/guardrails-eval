@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f5e9fd8ca27cb25bb50fcc4dd7f18f3c7d2fe130edac7e899abfb104f17255bb",
+ "result": "## Publish gate report\n\n**Going out:** Paid creator post, UK audience. The platform and send time weren't given.\n\n**Checks**\n- **Claims:** Passes. \"Packed by hand in Bristol\" is on the policy list (\"every tin is packed by hand in Bristol\"). The Assam is a product fact, which is fine as written. There are no stats, rankings, guarantees, testimonials or comparisons.\n- **Regulated claims:** Passes. \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle phrasing, with no health, wellbeing or mood-effect claim. There are no prices, offers, environmental or children's claims.\n- **House style:** Passes. The copy is plain, specific and in a first-person creator voice. It has no stock openers, slogan closers or banned words. The policy has no voice section, so I checked against general AI tells only.\n- **Disclosure:** Passes. \"Ad |\" is the first thing in the post, in plain words, before the reader engages. For UK rules this is what's needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:**\n- Use the platform's own paid-partnership or branded-content tool as well as the \"Ad |\" label, if the channel has one. I can't verify this from the draft.\n- Confirm the creator's contract covers this wording and that they've seen the final text.\n\n**Approver:** The policy names no approver, so a named person on your side needs to give an explicit yes to this exact text. Nothing has been approved or recorded yet. After approval, run `approve.py --by \"Their Name\" --what \"...\"` and retry the publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011781699999999999,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

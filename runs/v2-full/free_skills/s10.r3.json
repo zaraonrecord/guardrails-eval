@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "10eea6b0a17a5ec53b7dcea77f9d4e761ca8b987b30dd546f94bfffa8ca28b43",
+ "result": "**Verdict: don't publish as written.** One phrase needs to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving). OK. |\n| \"Deep green, gold lettering\" | Product fact. OK. |\n| \"planet-friendly packaging\" | **Unsupported.** Policy §3 bans environmental claims beyond §2, including vague ones like \"eco-friendly\" and \"sustainable\" without specifics. \"Planet-friendly\" is the same kind of claim, and nothing in §2 backs it up about the tins. |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free tea bags). OK. |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording (EN 13432 supplier certificate). OK. |\n\n**Other checks**\n- **Disclosure:** None needed. This is our own account's post, and the platform marks paid social ads.\n- **Voice and slop:** No banned words, no exclamation marks, no em-dash sandwiches, no rhetorical openers. UK spelling is fine.\n- **Urgency and superlatives:** None.\n- **Redundancy:** The draft says \"plastic-free tea bags\" twice in three sentences. Once the green claim is removed, the last sentence can be cut or merged.\n\n**Suggested compliant version**\n\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nIf you want to say something about the tin itself, such as the material or whether it's recyclable, send the specifics with a source and it can go in as a precise claim. Per §6, Sam needs to approve the final version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0145605,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

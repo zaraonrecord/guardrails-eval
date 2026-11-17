@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b2091a61214512ae5706c66eeb1b0c3991990cae6bd029a958708b6e14e8cd1e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", which is the required label for a free product (section 4), and nothing comes before it.\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or fake urgency. \"Lovely with oat milk\" is the creator's own opinion of a product, and the winter sampler and rooibos chai are product facts the product team has cleared.\n- **\"Not paid to say that, just liked it\":** This is consistent with a gifted (not paid) arrangement, so it doesn't conflict with the \"Gifted\" label. It's worth confirming that no payment was involved. If there was any, the label would need to be \"Ad\".\n- **Voice:** The tone is warm, plain and unhurried, with no banned words and UK spelling.\n- **Approval:** Sam (marketing lead) approves everything public, so the post needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070859,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

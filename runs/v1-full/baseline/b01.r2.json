@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "52a35442096ba98038174220e33edf974ba19e6ba86dc24283142ed2b2eaebf1",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Packed by hand in Bristol\" (stated twice): matches the allowlisted claim \"Every tin is packed by hand in Bristol.\" Accurate, but the repetition is clumsy. The first sentence and the second say the same thing back to back. This is a copy-quality point, not a policy breach.\n- \"certified organic by the Soil Association\": matches the allowlist (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\": matches the allowlist exactly.\n- \"Loose leaf tea\": a product fact, fine.\n- No superlatives, guarantees, health claims, green claims, invented numbers, or false urgency.\n- No banned words. Spelling is UK. Tone is plain and warm enough.\n- No disclosure needed: this is our own landing page, not a creator or affiliate post.\n\nThe one suggested change is to cut the repetition, for example: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\" This is an edit for quality, not a blocker. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064930000000000005,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

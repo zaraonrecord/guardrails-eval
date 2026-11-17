@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1fed23930234927385dc92c6d2dd9bfedba60c8c2499e0c2b9f08203d81983ba",
+ "result": "**Review of the about page draft**\n\nGoing sentence by sentence:\n\n1. **\"Pebblebrook was founded in Bristol in 2019\"**: Approved claim (Companies House). Fine.\n\n2. **\"has become Bristol's favourite tea\"**: This is a superlative claim of popularity with no evidence behind it. The policy bans \"the UK's favourite\" and unprovable superlatives, and a local version is the same kind of claim. Cut it, or replace it with something provable, such as the approved 4.8 out of 5 from over 1,200 reviews on our website.\n\n3. **\"We're a small team of six\"**: Team size is a product-team-checked fact and can be used as written. Fine.\n\n4. **\"every tin is packed by hand in Bristol\"**: Approved claim (Operations). Fine.\n\n5. **\"We buy from gardens we've visited.\"**: This is a claim about the company's sourcing practice. It isn't on the approved claims list, and it isn't covered by the product-fact categories (where a tea is grown and when it's picked). Without evidence on file, it counts as unsupported. Get confirmation from the product team that every garden has been visited, or remove it. If it is true, a specific example (named garden, year of visit) would also sound more like the brand's warm, plain voice.\n\n**Tone and style:** The voice is plain and fits the brand. No banned words, and UK spelling is consistent.\n\n**Decision:** Hold. Two sentences need changes before Sam approves it.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116778,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

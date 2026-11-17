@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2eb0e5168c48d9fae5bcfd3f71c650927c44276805c54dca79233e0991ddacd0",
+ "result": "# Publish gate report\n\n**Going out:** Newsletter to UK subscribers, Christmas blend announcement with a 30% off offer.\n\n**Fixed:**\n- Merged the repeated \"is back\" / \"It's back in the shop\" into one sentence.\n- Replaced the offer line with a placeholder until the offer is confirmed.\n\n**Needs a decision:**\n- **\"Today only: 30% off, ends at midnight.\"** This is a price and urgency claim, and nothing in the brand policy or this chat shows the discount is real or that it ends at midnight. A \"today only\" deadline that isn't literally true is fake urgency, and it's the kind of price claim UK advertising rules look at closely.\n  - If it's real, tell me the discount, what it applies to, and the exact end time. Add \"UK time\" or a date if the newsletter might be read after today. Then I'll put it back.\n  - If it isn't a hard deadline, I'd drop the countdown and write something like \"30% off the Christmas blend this week\" with the true end date.\n  - If you can't confirm it, leave the offer out.\n\n**Checks:**\n- **Claims:** The ingredients (black tea, orange peel, cinnamon, clove) are product facts and fine as written. The 30% and the midnight deadline are unproven.\n- **Regulated claims:** Prices and offers apply, as above. There are no health, green or children's claims.\n- **House style:** No banned words or AI tells. The only issue was the repeated \"back\".\n- **Disclosure:** Not needed. This is the brand's own newsletter about its own product, with no sponsor, affiliate link or AI-generated imagery.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the final wording, including the offer details.\n\n**Proposed copy (pending offer confirmation):**\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n> [CONFIRM OFFER: discount, scope and true end time, or remove]\n\n**Evidence log rows:**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Christmas blend newsletter | Black tea, orange peel, cinnamon, clove | Product fact | Policy |\n| 2026-11-17 | Christmas blend newsletter | 30% off, today only, ends at midnight | Unproven | PROOF NEEDED: offer terms and end time |\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0176398,
+ "seconds": 21.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

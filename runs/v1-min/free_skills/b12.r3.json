@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4db080b8506e453b27ad21ff378f13e2ca0593d5036801c551afb9593abdfe12",
+ "result": "**Verdict: clear to publish. No changes needed.**\n\n**Claims check (claims-guard)**\n- \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint\": product facts, fine as written.\n- \"a peppermint for after lunch\": a serving suggestion, not a digestive or health claim. Fine.\n- \"Free UK delivery on orders over £25\": on the allowlist. Make sure the landing page states the same threshold, since an ad can't make a claim the page doesn't.\n- No numbers beyond the delivery threshold, no superlatives, guarantees, testimonials, review counts or urgency.\n\n**Slop check (slop-guard)**\n- Ban list: zero hits.\n- Structure: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triad.\n- The opening sentence is concrete and the copy is short. Nothing to cut.\n\n**Review rules (honest-review-rules)**\n- This is a brand's own ad for its own products, not a review, so the Owned/Tried/Wishlist labels don't apply. There are no affiliate links or sponsorships to disclose.\n\n**Platform policy:** nothing that targets personal attributes or makes health, financial or environmental claims.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0100617,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

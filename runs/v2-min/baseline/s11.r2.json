@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "599487bc03f65115c1f2b95f56a0cd69c0d1a73b6e7e43eb7014f96280d6c4cd",
+ "result": "**Review: social ad (own account)**\n\n- **\"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\"** These are product descriptions and are fine as written. There are no health claims, superlatives or stats.\n- **\"Free UK delivery on orders over £25\"** This matches the claims allowlist.\n- **\"while stocks last\"** This is a problem. Free delivery over £25 is a standing offer, not a stock-limited one, and nothing in the brand policy supports a scarcity limit. The phrase implies the offer could vanish, which is invented urgency. Remove it so the line reads \"Free UK delivery on orders over £25.\"\n- **Disclosure:** This is the brand's own account, so no ad or partnership label is needed.\n\nOnce \"while stocks last\" is removed, the draft is fine to publish. For now it should be held.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011304,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

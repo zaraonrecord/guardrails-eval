@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "51db22841802a013a99f4a2726d06e7fa2d2a9a1efe6e61fdf6b3948c931fb62",
+ "result": "**Review: newsletter, Christmas blend**\n\n**Claims and numbers.** The ingredients (black tea, orange peel, cinnamon, clove) and the return of the blend are product facts, which the policy allows as written. The copy makes no stats, superlatives, health claims, green claims, guarantees, testimonials or endorsements.\n\n**Offer and urgency.** \"Today only: 30% off, ends at midnight\" is a concrete, checkable deadline, not vague pressure like \"final hours\" or \"selling fast\". It's fine as long as the offer really does end at midnight and isn't extended or rerun. The copy has no struck-through reference price and no claim about a former price, so there's nothing to check on price history. The offer is also short enough that the conditions (e.g. whether the discount applies to everything or just the Christmas blend) aren't hidden anywhere, because none are implied.\n\n**Labels.** This is the brand's own newsletter, so it needs no \"Ad\" label. There are no affiliate links or creator content.\n\n**Tone.** It's short and plain, with none of the listed AI clichés. One optional polish: \"is back\" and \"It's back in the shop\" repeat the same point back to back. You could merge them, e.g. \"The Christmas blend is back in the shop: black tea, orange peel, cinnamon and a little clove.\"\n\n**Decision.** Nothing here would mislead a reasonable reader or break the policy. Before sending, confirm that the 30% code or discount genuinely expires at midnight on the send day.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012801,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

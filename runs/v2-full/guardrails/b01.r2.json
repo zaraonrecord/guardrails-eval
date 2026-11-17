@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f758509460859b8032506853222154b4a9d27cdba2e097de2498e0830118675a",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Claims (checked against the policy):**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine as written |\n| Packed by hand in Bristol / Every tin is packed by hand in Bristol | On the policy list (Operations) |\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026, so not past review) |\n| Free UK delivery on orders over £25 | On the policy list (shipping policy) |\n\nNo stats, superlatives, guarantees, testimonials, urgency or green claims appear.\n\n**Regulated claims:** Nothing on health, environment beyond the certified organic claim, children or discounts. The price threshold matches the shipping policy.\n\n**House style:** No banned words and no AI tells. The tone is plain and warm. One small edit: \"packed by hand in Bristol\" appears twice in a row. I'd cut the first sentence, which gives:\n\n> Every tin of our loose leaf tea is packed by hand in Bristol, and it's certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThis is optional and doesn't block publication. If you use the tightened version, it needs a fresh check and approval for that exact text.\n\n**Disclosure:** This is the brand's own page, not an ad, partnership, affiliate link or AI-labelled content, so no label is needed.\n\n**Fixed:** Nothing changed in the draft. The only suggestion is the optional tightening above.\n\n**Needs a decision:** Which version to use, the original or the tightened one.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to the exact final text. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0157584,
+ "seconds": 20.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

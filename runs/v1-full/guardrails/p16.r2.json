@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b7ae4e03f7d55d64e498e60bf7fc229f0906d8fc5570e08d6648960586cc6dd2",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter, Christmas blend announcement. Recipients and send time not specified.\n\n**Checks**\n\n- **Claims:** Product facts (ingredients, \"back in the shop\") are fine to use as written. \"30% off\" is not in the policy.\n- **Regulated (prices/offers):** \"Today only: 30% off, ends at midnight\" is a countdown-style urgency claim. The policy says there is no real offer with an end date, and \"today only\" is explicitly banned. The 30% discount itself is also not on the policy list, so I can't confirm it exists.\n- **House style:** No banned words. Voice is warm, plain and unhurried until the last line, where the hard-sell urgency clashes with \"unhurried\". \"It's back in the shop\" repeats \"the Christmas blend is back\" and can be cut. Score is around 80 before, higher after the fix.\n- **Disclosure:** Own newsletter, no sponsor, affiliate or gifted content. Nothing needed.\n\n**Fixed (suggested rewrite)**\n\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n\n- Removed \"Today only: 30% off, ends at midnight.\"\n- Merged the two \"back\" sentences.\n\n**Needs a decision**\n\n- If a real 30% offer exists, Sam needs to add it to the policy with the real end date and terms, and then it can go in with accurate wording. Until then, my suggestion is to send without it.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. The original draft should not go out as written. Sam should approve the rewritten version.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008827999999999999,
+ "seconds": 16.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

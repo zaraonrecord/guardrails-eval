@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "I checked each sentence against the brand policy.\n\n- **Headline: \"Organic Loose Leaf Tea\"** is a product description. The organic claim is backed by the Soil Association certificate on file, so it's fine. The brand sells loose leaf tea.\n- **\"Certified organic by the Soil Association\"** matches the allowlist wording exactly (certificate renewed 2026).\n- **\"Free UK delivery on orders over £25\"** matches the allowlist wording exactly and includes the threshold next to the claim.\n\nThere are no superlatives, health claims, green claims, guarantees, urgency, invented numbers or testimonials. The copy is plain and doesn't use any banned words. The channel is a brand-run search ad, so no extra label is needed. The short length doesn't hide any unsupported claim.\n\nNothing needs changing. It can go to Sam for the usual approval, since the policy lists him as the approver for everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005993700000000001,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

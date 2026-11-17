@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e076eee2df027f48f9d855134620f3cd470fd08bf4c550b1f68c9b48ae872294",
+ "result": "**Review: \"A new green tea\" email**\n\nGoing sentence by sentence:\n\n- **Subject: \"A new green tea\"**: Plain description, accurate to the content. Fine.\n- **\"We've added a Japanese sencha to the shop.\"** Product fact (new product arriving). Fine.\n- **\"It's grassy, a little sweet\"**: Flavour description, covered as product fact. Fine.\n- **\"packed with antioxidants\"**: This is a health-adjacent claim. Antioxidant content implies a body benefit, and the policy bans health claims of any kind. It is not on the claims allowlist and there is no evidence on file. Fix: remove it, or replace it with flavour or origin detail (e.g. where it's grown and when it was picked, if the product team has that).\n- **\"best brewed cooler than you think, around 70 degrees\"**: Brewing guidance, which the product team checks and is fine to use. \"Best brewed\" here is advice on method, not a superiority claim about the brand. Fine. Optionally add \"°C\" for clarity.\n- **Sign-off and tone**: Warm, plain, short, UK spelling, no banned words. No label needed for a brand-owned email. No urgency, guarantees, stats or green claims.\n\n**Decision:** Hold. One fix is needed: remove \"packed with antioxidants\". Once that's gone, it can go out (with Sam's approval, as for all public content).\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078431,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

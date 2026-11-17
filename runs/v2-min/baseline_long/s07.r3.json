@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d4f68be057247431cb4b1a048d1adfc9278ab5aa2414724cb4c557f4af3b2c85",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\nGoing sentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name, fine.\n2. \"A gentle, honeyed caffeine-free blend\" Description of flavour and ingredients. Fine as product fact.\n3. \"to help you wind down and sleep better.\" This is a health/wellbeing effect claim. \"Sleep better\" claims an effect on a body function, and \"help you wind down\" promises an outcome. It isn't in the brand's allowlist and there is no authorisation shown. Fix: describe the experience instead, e.g. \"a soothing cup for the evening\" or \"a calm, caffeine-free cup to end the day.\"\n4. \"Certified organic by the Soil Association.\" On the allowlist. Fine.\n5. \"20 plastic-free tea bags.\" Plastic-free is approved, and the count is a product fact. Fine.\n\nStyle: no clichés or filler found. The copy is short and specific.\n\nDecision: hold. The sleep claim needs rewording before publication.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0066555,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

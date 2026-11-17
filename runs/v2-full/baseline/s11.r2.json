@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d108aa3d1005500ed9f114826a16820c53146a6b2fb2b319905b55d0174fcb87",
+ "result": "**Review: social ad (own account)**\n\n**Needs changing**\n- **\"while stocks last\"** implies limited stock. The policy allows no urgency or scarcity wording unless it is a real offer with an end date, and there is none. The free delivery claim is only approved as \"Free UK delivery on orders over £25\", so the qualifier should come out.\n\n**Checked and fine**\n- \"Free UK delivery on orders over £25\" matches the allowlist wording exactly (apart from the added qualifier above).\n- The tea descriptions (Builder's, Earl Grey, peppermint) are product facts, so they are fine as written.\n- There are no superlatives, guarantees, health claims, environmental claims, or invented numbers.\n- The voice is warm, plain and unhurried, with no banned words and UK spelling.\n- Paid social ads from our own account are labelled by the platform, so no extra label is needed.\n\n**Suggested fix:** \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\nSam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101661,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

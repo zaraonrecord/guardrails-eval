@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c28221dd54c536ec5afbb343978f8cab39c8f4e4f26d1e44c164d8cf137c3c8a",
+ "result": "**Review of the draft**\n\nChecks:\n\n- **Claims:** \"plastic-free tea bags\" and \"home compostable\" are both on the allowlist. Fine.\n- **Product facts:** New tins, deep green with gold lettering, are a product/new-arrival fact. Fine as written.\n- **Urgency/superlatives/guarantees/stats/testimonials/health claims:** None present. \"Just landed for winter\" is a new-arrival statement, not fake urgency, since there is no scarcity or deadline.\n- **Green claim:** The compostable claim is specific (home compostable) and backed by the brand policy, so it is acceptable.\n- **Disclosure:** Own account, no paid partnership or gift, so no disclosure needed.\n- **Style:** The copy is a little repetitive, as \"plastic-free tea bags\" appears twice in three sentences. That's a minor editing note, not a blocker. It doesn't read as generic AI filler.\n\nOptional tweak: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\nNothing needs to change for publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063138,
+ "seconds": 6.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

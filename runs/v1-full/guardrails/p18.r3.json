@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "35697f70681ebd7dd7f4508b741d5177da4fd85ab1ba4c9a6896dd98945d7b49",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Ana, subject \"How to brew loose leaf without a teapot\". Approver per policy: Sam (marketing lead).\n\n**Checks**\n- **Claims:** No numbers, comparisons, guarantees, testimonials or superlatives. The brewing guidance (mug, sieve, four minutes for black tea, green shorter and cooler) is product/brewing guidance, which the policy treats as fine as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** \"Unlock your tea journey\" uses two banned words (\"unlock\", \"journey\") and is a stock AI-style opener. It also doesn't match the warm, plain, unhurried voice. Fails, so it needs a rewrite.\n- **Disclosure:** Our own brand email, no sponsor, affiliate link or gifted product. Pass.\n\n**Fixed (suggested rewrite)**\n- Removed \"Unlock your tea journey.\" Replaced with a plain opener.\n\nSuggested copy:\n\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> You don't need any special kit to enjoy loose leaf. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n**Needs a decision**\n- Is the rewritten version fine? Suggested answer: yes.\n- Approval: Sam needs to give an explicit yes to the exact final copy. I haven't recorded any approval, and nothing should be sent until Sam has approved.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008730700000000001,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

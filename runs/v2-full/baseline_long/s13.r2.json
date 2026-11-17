@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a2b2c97058c618b622304370129ae1f83fe1279c079bc77df6457c71b985e7ca",
+ "result": "**Review of the paid creator post**\n\n**Problem: the ad label is missing from the start.** The brand policy says a paid partnership post must begin with \"Ad\" before anything else. This draft opens with \"My afternoon reset is a pot of Pebblebrook's Assam\", and the only label is \"#ad\", which sits in the middle of a run of hashtags at the end. Readers would see the post as a personal recommendation before they saw it was paid for. Fix it by starting the caption with \"Ad\" (for example \"Ad: My afternoon reset…\"), and the \"#ad\" hashtag can then stay or go.\n\n**What checks out:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\".\n- \"afternoon reset\" and \"ten minutes away from my phone\" describe the creator's own routine and make no health or results claim.\n- \"#selfcare\" and \"#slowliving\" are lifestyle tags, not claims about the body.\n- There are no superlatives, guarantees, invented numbers, green claims or urgency.\n- The voice is warm and plain, and none of the banned words appear. Nothing reads as machine-made.\n\nOnce the opening label is added, the post is fine to go out.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0113227,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

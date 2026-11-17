@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fca1ece961b618e30d14cfafdf5b34bd3e8621993ad0cca1b6e36c4f9206b438",
+ "result": "**Review of the search ad**\n\n1. **\"Plastic-Free Tea Bags\" (headline):** Fine. Matches the allowlisted claim.\n\n2. **\"Our tea bags are plastic-free and home compostable.\"** Exact wording from the allowlist (supplier certificate, EN 13432). Fine.\n\n3. **\"Best tea I've ever had\" - Emma, Leeds.** This is a problem on two counts:\n   - It is a testimonial with no source in the policy. We have no record of Emma or her quote, so it has to be treated as invented. Invented testimonials are never allowed.\n   - It carries a \"best\" superlative that we can't prove. Even a real customer quote would need to be checked and approved before being used in an ad, since it puts an unprovable superlative in our mouth.\n\n**Suggested fix:** Remove the quote. If you want a second line, use an allowlisted claim instead, for example \"Free UK delivery on orders over £25\" or \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nSuggested rewrite:\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nSam needs to approve the final version before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075902999999999995,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

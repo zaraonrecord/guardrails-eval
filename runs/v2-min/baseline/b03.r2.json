@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "47128f311df04bea46852ad3a086c5375156a31523e6ef3e27b8c33613695a73",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"**: The brand sells loose leaf tea and is certified organic by the Soil Association, so the headline is supported.\n- **\"Certified organic by the Soil Association\"**: This is on the allowlist and matches it word for word.\n- **\"Free UK delivery on orders over £25\"**: This is on the allowlist, and the threshold and region match.\n- **Other checks**: The draft has no superlatives, invented stats, guarantees, testimonials, health claims, false urgency, or vague green claims. It reads as plain copy, not filler. Search ads for a UK tea retailer don't need a disclosure label here.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.004950899999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

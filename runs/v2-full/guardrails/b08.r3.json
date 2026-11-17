@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3ee33a80903ebc92f44367006c701664ed63a6b7c520d4ad5cf88d82580ca88c",
+ "result": "# Publish gate report\n\n**Going out:** Landing hero copy for Pebblebrook Tea Co. (UK). Timing and audience weren't given.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" is on the policy list (subscription terms).\n  - \"free UK delivery on orders over £25\" is on the policy list (shipping policy).\n  - \"means most boxes ship free\" is not on the list. Nothing shows that most orders pass £25, so it's an invented stat. \"Boxes\" also doesn't match the product range (tins and tea bags).\n- **Regulated claims:** This touches prices and offers. The delivery threshold is real and conditional, and the draft states the condition. The \"most ship free\" line is the only problem.\n- **House style:** No banned words and no AI tells. It reads warm, plain and unhurried. Score is about 90 once the unsupported line is gone.\n- **Disclosure:** Not needed. This is the brand's own page, with no partnership, affiliate link or AI-labelled content.\n\n**Fixed:** Nothing applied yet. I'd make this one change:\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and UK delivery is free on orders over £25.\n\n**Needs a decision:**\n- Use the rewrite above, which drops \"most boxes ship free\". If the team wants a \"most orders\" claim, someone needs to supply the data and add it to the policy.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam says yes to the final wording. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120229,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

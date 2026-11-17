@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b081d924c786535a6a0e0a4face0134c412d8b5ff027c08fa2a987023697bb1b",
+ "result": "**Verdict: hold. One fix needed.**\n\n**Claims check**\n- \"Your subscription box left Bristol this morning\": consistent with the brand's hand-packed-in-Bristol fact. It's an operational statement for the sender to confirm, not a marketing claim.\n- \"a smoky lapsang and a soft white peony\": product description, fine as written.\n- \"you can pause or cancel any time from your account\": on the approved list.\n- No stats, health claims, green claims, urgency, guarantees, testimonials or superlatives. No ad label is needed, since this is a brand-owned transactional email.\n\n**Problem**\n- \"Elevate your mornings:\" is generic filler of the \"take it to the next level\" kind. It adds nothing to a short, specific shipping notice and doesn't sound like a small Bristol team. Cut it. The sentence reads fine as \"This month it's a smoky lapsang and a soft white peony.\"\n\n**Worth confirming (not flagged)**\n- The subject says \"October tins\", but today is 17 November. If this is going out now, the month reference is stale. If it's a scheduled or October send, ignore this.\n- The subject says \"tins\" while the body says \"subscription box\". Pick one if they're meant to be the same thing.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011180200000000001,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

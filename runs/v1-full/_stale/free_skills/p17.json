@@ -1,0 +1,11 @@
+{
+ "case": "p17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Peppermint product page copy. Not ready to publish.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact, fine |\n| \"Cool and clean after a big meal\" | Flavour and occasion description, fine. It must not imply a digestive benefit, so keep it as taste only. |\n| \"a natural detox\" | **Unsupported.** Health claim, banned in section 3. |\n| \"aids weight loss\" | **Unsupported.** Health claim, banned in section 3. It would also likely breach UK advertising rules on health claims. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording |\n\nNo slop-list words, no superlatives, no urgency, and no disclosure is needed because this is our own product page.\n\n**Suggested version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nThis needs Sam's approval before it goes live, since all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox\", \"type\": \"health_claim\"}, {\"quote\": \"aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013462500000000002,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

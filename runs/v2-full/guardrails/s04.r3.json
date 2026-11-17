@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f1a3d556fae59d44ef8e38f9a6879beabd0cd0ecaeb2fe4ef78f9e72dea08c34",
+ "result": "## Publish gate report\n\n**Going out:** About page copy for Pebblebrook Tea Co., live on the website.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list (Companies House) |\n| \"has become Bristol's favourite tea\" | **Unproven.** It's a superlative, which section 3 bans (\"the UK's favourite\" is the same kind of claim). No survey or sales data backs it. |\n| \"small team of six\" | Fine. Team size is a product-team fact. |\n| \"every tin is packed by hand in Bristol\" | On the policy list (Operations) |\n| \"We buy from gardens we've visited\" | Not on the list. It's a sourcing practice, not an origin fact. Likely true, but please have the product team confirm it. |\n\n**Regulated claims:** Nothing on health, money, environment, children or pricing.\n**House style:** No banned words and no AI tells. The tone is warm, plain and unhurried. Score is about 92/100.\n**Disclosure:** Nothing needed. It's our own about page, with no partnership, affiliate link or AI-labelled content.\n\n**Fixed:** I removed \"and has become Bristol's favourite tea\".\n\nSuggested final copy:\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\n**Needs a decision:**\n1. Can the product team confirm \"We buy from gardens we've visited\" is true for the teas we sell? If it only applies to some gardens, say so, for example \"We buy from gardens we've visited, and we're adding more each year\", but only if that's accurate. If it can't be confirmed, cut it.\n2. If you want a \"favourite\" line, we need real evidence, such as a dated survey or sales ranking, added to the policy first.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the final text above before it publishes. Nothing is approved yet, and I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.020701500000000005,
+ "seconds": 16.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

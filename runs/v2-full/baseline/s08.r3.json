@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a2f0240bb723b9962f2725e6f76f505484afa443d91cbe13e9054cc667918abb",
+ "result": "**Review of the draft**\n\n**Problem: \"packed with antioxidants\"**\nThis is a health-adjacent claim. Policy section 3 bans health claims of any kind, and \"antioxidants\" implies a health benefit. It isn't in the product facts or the claims allowlist. Remove it. The flavour description (\"grassy, a little sweet\") is fine on its own.\n\n**Checked and fine**\n- \"We've added a Japanese sencha to the shop\": a new product arriving, which the product team covers.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, a product fact. \"Best brewed\" is advice about brewing, not a superlative claim about the tea. Spelling is UK style. Consider writing \"70°C\" so the unit is clear.\n- Voice: warm, plain, and short. No banned words.\n- No invented stats, guarantees, urgency, or environmental claims.\n- No disclosure needed: this is our own email, not a creator post or affiliate link.\n\n**Other notes**\n- The email is very short and has no link or call to action. Not a policy issue, but you may want to link to the product.\n- Sam (marketing lead) must approve before anything public goes out.\n\n**Suggested fix:** \"It's grassy and a little sweet, best brewed cooler than you think, around 70°C.\"\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071405,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

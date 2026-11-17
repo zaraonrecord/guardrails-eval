@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "040978123bf44aeec6cb801da0f121c0cd019771da9387e363939b41206cec10",
+ "result": "**Review of landing hero draft**\n\nClaims check against the policy:\n- \"packed by hand in Bristol\": allowed (every tin is packed by hand in Bristol).\n- \"certified organic by the Soil Association\": allowed.\n- \"Free UK delivery on orders over £25\": allowed.\n- No superlatives, stats, guarantees, health claims, urgency, or testimonials.\n\nThe only problem is style: \"packed by hand in Bristol\" appears twice in three short sentences (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). It's redundant filler and reads as sloppy copy in a hero. It should be tightened, for example: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nBecause the repetition should be fixed before publishing, I'm not clearing it as is.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00948,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

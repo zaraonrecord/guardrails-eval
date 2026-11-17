@@ -1,10 +1,14 @@
 {
  "case": "b04",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, UK, Pebblebrook Tea Co.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"malty, full-bodied black tea that stands up to milk\": product/flavour description, fine as written.\n   - \"100g tin, makes around 40 cups\": product fact (size, brewing yield), fine as written, and \"around\" keeps it appropriately hedged.\n   - No invented stats, testimonials, rankings or guarantees.\n\n2. **Regulated claims:** No health, money, legal, environment, children or price claims. Pass. \"Certified organic\" is backed by the policy's certification entry.\n\n3. **House style:** No banned words or AI tells. Short, concrete, plain. Pass.\n\n4. **Disclosure:** Own product page, not an ad, sponsorship, affiliate or gifted content, and no AI-generated imagery or text requiring a label. Pass.\n\n**Fixed:** Nothing to change.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no specific approver, so the user (you) needs to give an explicit yes to this exact copy. I haven't recorded any approval. Once you confirm, the copy can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0092873,
- "seconds": 9.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1b338357bfa2096f269bfec82a6609b74de5a288f9e13ef6e8cfaf7de31610ad",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for Assam Breakfast, UK.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy's allowlist. \"Malty, full-bodied black tea that stands up to milk\", \"100g tin\" and \"makes around 40 cups\" are product facts (flavour, size, brewing), which the policy allows as written. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** No health, money, environment, children or price wording. \"Organic\" is backed by the certification named in the policy.\n- **House style:** No banned words or AI tells. It's short, concrete and plain. The policy has no voice section, so I couldn't score it against a brand voice.\n- **Disclosure:** This is the brand's own product page, with no ads, affiliate links, gifted products or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One note: \"around 40 cups\" depends on how much tea goes into each cup, so check it against your standard brewing measure.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you to this exact copy before it's published. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010803299999999998,
+ "seconds": 10.4,
  "models": [
   "claude-sonnet-5-5"
  ]

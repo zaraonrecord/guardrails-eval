@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "294f6b5ed11d17d00d321f91dad1bb77e3435b61e55e5c571672f27cf5517613",
+ "result": "**Review of newsletter draft**\n\nGoing sentence by sentence:\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" Product/origin fact (where a tea is grown). Policy says these are checked by the product team and fine as written. OK.\n\n2. \"The leaves are picked in March and taste bright and floral.\" Picking time and flavour are product facts. OK.\n\n3. \"You'll find it in the shop from Monday\" is a new product arriving, which is a product fact. OK.\n\n4. \"but only 40 tins are left, so be quick.\" This is a scarcity claim with a pressure prompt. The policy says \"only X left\" is never allowed unless a real offer is in the policy, and there is none. Nothing shows that 40 is a real stock figure, and the tea isn't even on sale yet, so \"left\" is hard to substantiate. \"so be quick\" adds pressure. This is fake urgency and must come out.\n\nVoice: warm, plain, no banned words. UK spelling fine. No health, green, guarantee, or superlative claims. No disclosure needed (own newsletter).\n\n**Decision:** Hold. Fix: remove \"but only 40 tins are left, so be quick.\" Suggested ending: \"You'll find it in the shop from Monday.\" Once that's cut, it can go out, subject to Sam's approval as the policy requires for public content.\n\n```json\n{\"issues\": [{\"quote\": \"but only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009632700000000001,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

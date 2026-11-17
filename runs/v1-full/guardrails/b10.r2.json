@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "76ce4b201c4add52740b65c1fdfd64ee2f537b889f8da1bc68663ee7da9924cd",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm tea, on the website, UK.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list (certificate on file, renewed 2026) |\n| 20 plastic-free tea bags | \"Plastic-free\" is on the policy list. The bag count is a product fact. |\n| Caffeine-free blend | Ingredient fact, covered as a product fact |\n| Gentle, honeyed | Flavour description, not a claim |\n| For the evening | Describes when to drink it. It doesn't promise sleep, calm or relaxation. |\n\n**Regulated claims:** Nothing here touches health, money, legal outcomes, the environment beyond the approved plastic-free line, children or prices. \"Caffeine-free\" and \"for the evening\" stay on the right side of the health-claim rule. Don't add words like \"calming\", \"soothing\" or \"helps you sleep\", because chamomile and lemon balm invite them and the policy bans them.\n\n**House style:** Warm, plain and unhurried, with no banned words and no AI tells. Score is about 90, so no rewrite is needed.\n\n**Disclosure:** This is the brand's own product page, with no ad, partnership, affiliate link or AI-labelling trigger. No label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Nothing.\n\n**Approver:** Sam (marketing lead). Please ask Sam for an explicit yes to this exact text before it's published. The copy passes the checks, but approval hasn't been given yet, so I haven't recorded one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120998,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

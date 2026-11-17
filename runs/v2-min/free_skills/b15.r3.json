@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8dd6f442dfe736b5ba4617d29ddad9c92a8d62f230291779bb52d3adcf4b5edd",
+ "result": "**Not ready to publish.** Two things need fixing.\n\n**1. No product label (Owned / Tried / Wishlist).**\nThe draft makes hands-on claims (\"I've tried four tea subscriptions this year\", \"easiest to pause\", \"the tins are lovely\") but never says whether the writer owns Pebblebrook, tried it for a set time, or only researched it. I can't assume ownership, so the writer needs to confirm which it is.\n- If it's Owned or Tried, say how long and how it was used.\n- If it's Wishlist, the hands-on claims have to go.\n- \"Easiest to pause\" is also a comparison against the other three services. It's only fair as the writer's own opinion if they really used all four. The brand's backed claim is only that subscribers can pause or cancel any time.\n\n**2. Affiliate disclosure is in the wrong place and too thin.**\n\"(Affiliate link)\" comes after the link, in brackets. The rules require a plain-words disclosure at the top of the post, before the first link. Something like: \"This post contains affiliate links. If you buy through them, I may earn a commission at no extra cost to you.\"\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"I've tried four tea subscriptions this year\" | Needs the writer's confirmation (hands-on) |\n| \"easiest to pause\" | Comparison. The pause feature is allowlisted, \"easiest\" isn't |\n| \"the tins are lovely\" | Subjective opinion, fine if hands-on is confirmed |\n| Affiliate link | Disclosure needs moving to the top |\n\nNo invented stats, testimonials, urgency or slop vocabulary.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here (Affiliate link).\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.020962400000000003,
+ "seconds": 19.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

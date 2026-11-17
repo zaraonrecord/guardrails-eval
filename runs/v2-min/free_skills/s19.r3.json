@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8fe267813248a4992ed5f3cd7068dd7f634275741f8a4122712c917c56d5e261",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted |\n| \"Organic loose leaf\" | Allowlisted (certified organic by the Soil Association) |\n| \"fully sustainable bags\" | **Unsupported** |\n| \"packed by hand in Bristol\" | Allowlisted, but the policy says \"every tin\". Check that it holds for the bags too. |\n\n**Problem: \"fully sustainable bags\"**\n- This is a broad, absolute environmental claim, and the policy doesn't back it. It covers only plastic-free and home compostable bags.\n- \"Fully sustainable\" would need evidence for the whole product life cycle. In the UK, the CMA's Green Claims Code treats vague claims like this as a misleading-advertising risk.\n- Replace it with the specific facts you can prove: \"plastic-free, home compostable tea bags\".\n\n**Hand-packing scope**\n- The policy covers tins only. As written, the sentence applies hand-packing to the bags as well.\n- If the bags aren't packed by hand in Bristol, tie the claim to the tins.\n\n**Suggested rewrite**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea, every tin packed by hand in Bristol. Plastic-free, home compostable tea bags.\n\nThe rewrite also leads with the rating, and it has no ban-list words, exclamation points or invented proof.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018728300000000003,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

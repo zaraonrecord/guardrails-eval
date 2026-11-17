@@ -1,10 +1,14 @@
 {
  "case": "b03",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"** (headline): We sell loose leaf tea, and the certified organic claim is on the allowlist, so this is fine.\n- **\"Certified organic by the Soil Association.\"**: This matches the allowlist wording exactly. The certificate is on file and was renewed in 2026.\n- **\"Free UK delivery on orders over £25.\"**: This also matches the allowlist wording exactly, and it is backed by the shipping policy.\n\nI found no superlatives, guarantees, health claims, green claims beyond section 2, invented numbers, false urgency, or banned words. The spelling is UK. The channel is a search ad from our own account, so no disclosure label is needed. The tone is plain and fits the brand voice.\n\nSam (marketing lead) approves everything public, so the ad still needs Sam's sign-off before it goes live. That is a workflow step, not a problem with the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.007642100000000001,
- "seconds": 7.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "09bbcec582058e261ddf1d5ffa244c46156d18b8eb5638fc2ea6d1b81717e394",
+ "result": "I checked the draft against the brand policy.\n\n**Headline: \"Organic Loose Leaf Tea\"**\n- We sell loose leaf tea, and the Soil Association certification is on file (renewed 2026), so \"Organic\" is backed up. No problem.\n\n**Description: \"Certified organic by the Soil Association.\"**\n- Matches the allowlist wording exactly.\n\n**Description: \"Free UK delivery on orders over £25.\"**\n- Matches the allowlist wording exactly.\n\n**Other checks**\n- Superlatives, guarantees, health claims, environmental claims, invented numbers and false urgency: none present.\n- Banned words: none. Tone is plain, and spelling is UK.\n- Disclosure: this is a paid ad from our own account, so the platform marks it and no extra label is needed.\n- Approval: the policy says everything public needs sign-off from Sam (marketing lead). That is a process step rather than a problem with the copy, so please make sure Sam approves it before it goes live.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060131,
+ "seconds": 6.9,
  "models": [
   "claude-sonnet-5-5"
  ]

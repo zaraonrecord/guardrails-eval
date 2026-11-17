@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b9adc6547f3e5cb1ad61329872a44953278a046b1ecea45dced3a8f30a0fb57b",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post from Pebblebrook's own account, with the copy exactly as drafted.\n\n**Checks**\n- **Claims:** There are two claims, and both pass.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. Its proof is the review export from October 2026, which is current.\n  - \"Earl Grey uses real bergamot oil and a little cornflower\" is an ingredient fact. The policy lets the product team's ingredient facts through as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. No urgency or superlatives.\n- **House style:** The tone is warm, plain and unhurried. It uses none of the banned words and none of the AI tells, and the spelling is fine. Score is about 95, so there's no rewrite.\n- **Disclosure:** This is an organic post from the brand's own account, with no creator, gifted product or affiliate link. No extra label is needed.\n\n**Fixed:** Nothing, because no changes were needed.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to this exact text before it's posted. I haven't recorded an approval.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Instagram rainy Sunday post | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review platform export, October 2026 |\n| 2026-11-17 | Instagram rainy Sunday post | Earl Grey uses real bergamot oil and a little cornflower | Product fact | Product team (policy section 2) |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0114625,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

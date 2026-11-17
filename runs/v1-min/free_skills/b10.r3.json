@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cff658b125c39870453f03eae9c4fda452127c4b81394607bc0758a4f8fca6b6",
+ "result": "I checked the draft against the claims allowlist and the slop rules.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" | Product name and ingredients, fine as written |\n| \"gentle, honeyed\" | Flavour description, fine as written |\n| \"caffeine-free\" | Ingredient fact, fine as written |\n| \"for the evening\" | Usage suggestion, not a health or sleep claim |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted, and the pack size is a product fact |\n\n**Other checks**\n- **Health claims:** The draft doesn't say the blend helps with sleep, relaxation or calm, so there is no regulated-territory problem.\n- **Superlatives, stats, testimonials, urgency:** None.\n- **Slop:** No banned vocabulary, no rhetorical opener, no em-dash sandwiches, no exclamation points. The opening line is the product name, which suits a product page.\n- **Green claims:** It says \"plastic-free\" only, which is backed. It doesn't claim compostability, so nothing needs qualifying.\n- **Disclosures:** There are no affiliate links, sponsorships or review-style hands-on claims, so nothing needs a label.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101486,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

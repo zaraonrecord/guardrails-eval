@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "de36e56e2a73961191bbb8fbb67e41a9608b7637456ba24e25a8e39e0ce9d019",
+ "result": "## Publish gate report\n\n**Going out:** About page copy, three sentences, no time or audience restrictions beyond the public site.\n\n**Checks**\n- **Claims:**\n  - \"Founded in Bristol in 2019\" is on the policy list.\n  - \"Every tin is packed by hand in Bristol\" is on the policy list.\n  - \"A small team of six\" is a team-size fact, which the policy allows as written.\n  - \"We buy from gardens we've visited\" is a sourcing and origins statement, which the policy treats as fine as written. It's the only line I can't verify from here.\n- **Regulated claims:** The draft makes no health, money, legal, environmental, children or price claims.\n- **House style:** The copy is plain and specific, with no stock openers, no intensifiers and no slogan closers. The policy has no voice section, so I could only check for AI tells, and found none.\n- **Disclosure:** The page has no ads, sponsorships, affiliate links, gifted products or AI-generated content, so no labels are needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** One optional confirmation. Before it goes live, check that \"gardens we've visited\" is literally true for the gardens you buy from. If only some have been visited, say \"many of the gardens\" or name them. If it's true, no change is needed.\n\n**Approver:** The policy names no approver, so please give an explicit yes to this exact text. Once you do, I can help record the approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0142973,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

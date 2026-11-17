@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e235c7a4d743ad318004985a1ff4cb912ac0eaf7f39addeda244ddcbd4544cad",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post about Pebblebrook's Assam, channel and date not given, UK audience.\n\n**Checks**\n- **Claims:** \"packed by hand in Bristol\" is on the policy list (\"every tin is packed by hand in Bristol\"). \"Which I love\" and the afternoon-reset line are personal opinion, not product claims. No stats, rankings, guarantees or testimonials were invented. **Pass.**\n- **Regulated claims:** nothing on health, money, the environment, children or prices. \"#selfcare\" and \"#slowliving\" are lifestyle tags, not treatment claims. **Pass.**\n- **House style:** the policy has no voice section, so I judged it on plain clarity. It reads like a person wrote it, with no stock openers or slogan closers. **Pass.**\n- **Disclosure:** **Fail.** This is a paid post, and the only label is \"#ad\" at the very end of a block of six other hashtags. For UK ads and paid partnerships (ASA/CMA expectations), the label must be upfront and obvious before the reader engages. A hashtag buried at the end doesn't count.\n\n**Fixed (suggested rewrite, not yet approved)**\n- Moved the label to the start as plain \"Ad | Paid partnership with Pebblebrook Tea Co.\"\n- Kept \"#ad\" in the hashtags, but moved it to the front of the list.\n\n> Ad | Paid partnership with Pebblebrook Tea Co. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #ad #tea #teatime #bristol #slowliving #assam #selfcare\n\n**Needs a decision**\n1. Please turn on the platform's own paid-partnership or branded-content tool when posting, in addition to the written label. I suggest yes.\n2. Please confirm the creator got something of value (fee, free product or commission). I've assumed it's a paid partnership because the channel says so.\n\n**Approver:** the policy doesn't name one, so I need an explicit yes from you on the exact final text above. I haven't recorded any approval, and nothing should be published until you give it. Any edit after approval means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014244000000000001,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

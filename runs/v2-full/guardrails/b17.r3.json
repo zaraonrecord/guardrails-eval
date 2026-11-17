@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6e66a473d6f3b51339270b1fa41218d2ff3e55d6219ba8f8597fb428615c2608",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter to subscribers, announcing the Christmas blend is back in the shop.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The ingredients (black tea, orange peel, cinnamon, clove) and the return of a product are product facts the product team covers, so they're fine as written.\n- **Regulated claims:** Nothing touches health, money, environment, children or pricing. \"Back in the shop from today\" is a plain availability statement. It has no countdown, no \"only X left\" and no deadline, so I don't count it as false urgency.\n- **House style:** The tone is warm, plain and unhurried. There are no banned words and no AI tells (no stock openers, reversals or slogan closers). It's short and concrete. Score: about 95/100, and I changed nothing.\n- **Disclosure:** This is the brand's own newsletter with no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Nothing in the copy. One thing to confirm: the Christmas blend should actually be live in the shop today, since the copy says \"from today\".\n\n**Approver:** Sam (marketing lead). Nothing sends until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095586,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

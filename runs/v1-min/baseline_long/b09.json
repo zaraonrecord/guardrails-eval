@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2b8c4a748651b66e566c2eb9c72143f5ce3dc2a8dda2f463d2ad3484d19f9cf5",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n- \"Plastic-Free Tea Bags\" (headline): matches the approved claim that tea bags are plastic-free. Fine.\n- \"Our tea bags are plastic-free and home compostable.\": both parts are on the claims allowlist. The claim is about the tea bags specifically and doesn't stretch to the packaging or the whole business. Fine.\n- \"Founded in Bristol in 2019.\": matches the allowlist exactly. Fine.\n\nOther checks:\n- No health claims, superlatives, statistics, guarantees, urgency, testimonials or price/offer claims.\n- No paid-creator or affiliate content, so no disclosure label is needed. It's a search ad, which is recognisable as advertising by the channel.\n- Style: plain, specific, no clichés or filler. Spelling and conventions are fine for UK.\n- Optional polish only: the description is a little repetitive with the headline (\"plastic-free\" appears twice), but that's normal for search ads and not a reason to hold it.\n\nDecision: every claim is approved, nothing is missing, and there's nothing to change. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086825,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

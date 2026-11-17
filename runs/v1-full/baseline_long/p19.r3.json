@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5defc2fa7c1b7c7db69523364a29df9448fc1f2b7776f0cb523ec5a43112b605",
+ "result": "**Review of the search ad**\n\nGoing sentence by sentence:\n\n1. **\"The UK's number one tea subscription.\"** This is a superlative claim. The brand policy lists \"number one\" under claims we never make, and there is no evidence of market ranking. It must come out. A plain alternative would be something like \"Loose leaf and plastic-free tea bags, delivered monthly.\"\n\n2. **\"Subscribers can pause or cancel any time.\"** This matches the approved claim (subscription terms) word for word. Fine.\n\n3. **\"Free UK delivery on orders over £25.\"** Matches the approved claim (shipping policy). Fine.\n\n4. **Headline \"Tea Subscription UK\"**: descriptive and a reasonable keyword headline. No issue.\n\nNo health, green, urgency, or disclosure problems. Voice is plain, with no banned words. UK spelling is fine.\n\n**Decision:** Hold. One unsupported superlative needs to be replaced before it goes to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006460700000000001,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

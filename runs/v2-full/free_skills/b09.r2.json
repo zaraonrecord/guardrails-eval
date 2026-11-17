@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "11dec64e931bec9489e7822f4ccbdd0553a924ee43279555290f9ce973560077",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (plastic-free and home compostable, supplier certificate EN 13432) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019\" | Allowlisted (Companies House) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, urgency, invented numbers:** none.\n- **Green claims:** only the specific plastic-free and home compostable wording from section 2. There is no general \"eco-friendly\" or \"sustainable\" claim.\n- **Voice and slop:** no banned words, no exclamation points, no rhetorical opener, no em-dashes. The copy is plain and factual, and UK spelling isn't an issue.\n- **Disclosure:** this is our own paid search ad, so no \"Ad\" or \"Gifted\" label is needed.\n- **Length:** the headline is 21 characters and the description is 79. That fits standard Google RSA limits (30 and 90), but you gave no limit, so check it against the platform you're using.\n\n**Before it goes live**\n- The landing page should also state the plastic-free and home compostable claim, and the Bristol 2019 founding if you want consistency. I can't see the page, so please confirm.\n- Per the policy, Sam needs to approve it, since all public content goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0135359,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

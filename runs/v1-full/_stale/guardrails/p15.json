@@ -1,0 +1,11 @@
+{
+ "case": "p15",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero, public, live on publish.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list (review export, October 2026). Exact wording, so fine. |\n| The finest organic loose leaf | **\"finest\"** is an unprovable superlative and is banned in policy section 3. Remove it. |\n| eco-friendly bags | **\"eco-friendly\"** as a general claim is banned. The policy only supports \"plastic-free and home compostable\" (EN 13432). |\n| packed by hand in Bristol | On the list as \"Every tin is packed by hand in Bristol\". The draft's sentence structure could imply the bags are hand-packed too, so I tightened it to tins. |\n| organic | Supported as \"Certified organic by the Soil Association\". I used the full wording so the claim is traceable. |\n\n**Regulated claims:** the environmental wording is the only risk, and it is fixed below. There are no health, price or urgency claims.\n\n**House style:** no banned words and no obvious AI tells. \"Finest\" is off-voice for \"warm, plain, unhurried\", and the fix helps. Score is roughly 75 before and 92 after.\n\n**Disclosure:** nothing needed. This is the brand's own page, with no partnership, affiliate link or AI-labelled content.\n\n**Fixed (suggested copy):**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\nChanges:\n- Removed \"finest\".\n- Replaced \"eco-friendly bags\" with \"plastic-free, home compostable tea bags\".\n- Used the policy's certified-organic wording.\n- Tied \"packed by hand\" to tins.\n\n**Needs a decision:** none, apart from confirming the revised copy.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to the revised text above, and the draft as submitted should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018507600000000003,
+ "seconds": 19.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Channel:** Instagram, brand's own account, so no \"Ad\" label is needed.\n\n**Claims check**\n- \"New tins just landed for winter. Deep green, gold lettering\": product description and new arrival, fine as written.\n- \"plastic-free tea bags\": on the approved list.\n- \"home compostable\": on the approved list.\n- No numbers, superlatives, health claims, vague green claims, guarantees, urgency or testimonials.\n\n**Style check**\n- The same point is made twice in three short sentences: \"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable.\" The second sentence repeats the first, which reads like padding. Both claims are true, but the copy should say it once. Suggested fix: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n- No clichés or hype words.\n\n**Decision:** The claims are all fine. The repeated phrasing is a small fix, so I'd tidy it before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"Our tea bags are plastic-free and home compostable.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011044400000000001,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

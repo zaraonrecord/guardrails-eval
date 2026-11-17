@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2fdb71fa9da8c56a2c5ea14c708e887473183b134652ee57a177d8308a9babe5",
+ "result": "**Publish gate report: search ad, Tea Subscription UK**\n\n**Going out:** Google-style search ad, UK, to UK tea drinkers searching for tea subscriptions. No send date given.\n\n**Checks**\n\n1. **Claims**\n   - \"The UK's number one tea subscription\": not on the policy list and no source given. It is an unproven superlative/ranking. Remove it.\n   - \"Subscribers can pause or cancel any time\": on the policy list. Pass.\n   - \"Free UK delivery on orders over £25\": on the policy list. Pass.\n\n2. **Regulated claims:** The ad has a price/offer element (free delivery over £25). It matches the policy, with the threshold stated, so no conditions are hidden. Pass. Make sure the landing page states the same £25 threshold and the pause/cancel terms, since an ad can't claim more than its page backs up.\n\n3. **House style:** No banned words or AI tells. The headline is plain keyword text, which suits a search ad. Fine once the superlative is gone.\n\n4. **Disclosure:** The ad is placed by the brand on a search platform, which labels it as an ad itself. No creator, affiliate or AI content involved. Pass.\n\n**Fixed (suggested rewrite)**\n- Removed the \"number one\" claim and replaced it with a provable fact from the policy.\n\nHeadline: Tea Subscription UK\nDescription: Loose leaf and plastic-free tea bags, delivered monthly. Pause or cancel any time. Free UK delivery over £25.\n\n(Product facts such as loose leaf and plastic-free tea bags are fine as written per the policy. Check the character limit: the description is about 105 characters, which is over the 90-character limit for a standard Google responsive search ad description, so trim if needed, e.g. \"Loose leaf & plastic-free tea bags monthly. Pause or cancel any time. Free UK delivery over £25.\")\n\n**Needs a decision**\n- If the team has a real, current, like-for-like source for the \"number one\" ranking, add it to the policy and it can go back in with the source and date. Otherwise leave it out. My suggestion: leave it out.\n\n**Approver:** The policy names no approver, so approval comes from you as the user. I can't mark this approved. Reply with an explicit yes to the rewritten version above and, in Claude Code, run the approve script yourself. The original draft should not be published as it stands.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110713,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

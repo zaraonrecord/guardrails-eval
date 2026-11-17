@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "97617901e00753f2fea512d844e686357663e638308c15867f31bb0f2b0be317",
+ "result": "**Review: Peppermint product page copy**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and occasion description, not a health claim. It doesn't say the tea aids digestion or relieves anything. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener, no invented stats or urgency. The opening sentence states the product plainly.\n\n**Notes (no change needed)**\n- Keep \"cool and clean\" as a taste description. Rewording it to something like \"settles your stomach\" or \"aids digestion\" would become a health claim and need to be removed.\n- \"Nothing else\" is fine as long as the ingredient list on the pack is only peppermint leaves. Check that before publishing.\n\nThe draft can go out as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008499,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

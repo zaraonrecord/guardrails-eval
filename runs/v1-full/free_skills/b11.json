@@ -1,10 +1,14 @@
 {
  "case": "b11",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: \"A new green tea\" (email)**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product arriving), fine as written |\n| \"grassy and a little sweet\" | Flavour description, product fact, fine |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best\" here is instruction, not a superlative claim about the tea. |\n\n**Other checks**\n- No statistics, testimonials, guarantees, health claims, environmental claims or false urgency.\n- No disclosure needed: it's our own email, not a paid or gifted partnership or an affiliate link.\n- Voice: warm, plain, unhurried. No banned words, no em-dash sandwiches, no exclamation marks, no rhetorical opener. UK spelling is fine.\n- The opening line states the useful fact straight away.\n\n**Process note:** Per the policy, Sam needs to approve all public content before it goes out. Nothing in the draft itself needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0105385,
- "seconds": 9.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cb5dfe6b9f30ff40fbf4fe138fffa9fde7612ae204d63a182613994c1801f3e3",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product, origin), allowed under the policy |\n| \"grassy and a little sweet\" | Flavour description, product fact |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, product fact. \"Best\" here is a brewing instruction, not a superlative about the product. |\n\n**Other checks**\n- **Claims guard:** No numbers beyond the brewing temperature, no comparisons to competitors, no guarantees, testimonials, health or environmental claims, and no urgency.\n- **Slop guard:** No banned words, no em-dashes, no exclamation marks, no rhetorical opener, no \"not just X, it's Y\". The first sentence states the news plainly.\n- **Brand voice:** Warm, plain and unhurried, with UK spelling.\n- **Disclosure:** This is our own email, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Review labels:** This isn't a third-party review, so the label rules don't apply.\n\n**Optional tweak (not blocking):** Write \"70°C\" rather than \"70 degrees\" so the unit is unambiguous.\n\n**Process note:** The policy says Sam (marketing lead) approves everything public, so get his sign-off before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011324,
+ "seconds": 13.5,
  "models": [
   "claude-sonnet-5-5"
  ]

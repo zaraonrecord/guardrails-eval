@@ -1,0 +1,11 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the sencha email**\n\n**Needs changing**\n- **\"It's not just tea, it's a ritual.\"** This is the banned \"it's not just X, it's Y\" construction, and it reads as filler. Cut it, or say something plain about the tea. For example: \"We've added a Japanese sencha to the shop. Grassy and a little sweet.\" The draft works without the line.\n\n**Checked and fine**\n- The new product, the flavour description and the brewing guidance (around 70 degrees) are product facts, which are fine to use as written.\n- \"Best brewed cooler than you think\" is brewing advice, not a superlative claim about the tea.\n- There are no health, environmental, guarantee, urgency or statistic claims.\n- The spelling is UK, and the tone is warm and plain.\n- No disclosure label is needed for our own email.\n\nOnce the line is fixed, Sam (marketing lead) still needs to approve it, since he signs off on everything public.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009810099999999999,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

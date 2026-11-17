@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "518b0ee5f82d030f2e8e72872440ad8cc213c48664711786f32d477ecf7f08d2",
+ "result": "**Review of the draft**\n\n- **\"Our tea bags are plastic-free and home compostable.\"** Both claims are on the allowlist (plastic-free and home compostable), so the green claim is backed.\n- **\"Plastic-Free Tea Bags\"** (headline): Also backed.\n- **\"Best tea I've ever had\" - Emma, Leeds.** This is a customer testimonial with no evidence it's real. The brand policy lists no testimonials as approved claims, and nothing here shows Emma exists, gave permission, or said it. It's also a superlative. Unless the team can show a genuine, consented review from Emma in Leeds, it should be removed or replaced with the backed claim (4.8 out of 5 from over 1,200 reviews on our website).\n\nThe rest of the copy is fine. The quote needs to be verified or cut before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009046,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

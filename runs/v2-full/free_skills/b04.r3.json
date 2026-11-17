@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "683ac6f8c166c520864b9e13af2d4de1f6dbadb59695a3cd5a8c946ae5444400",
+ "result": "**Review: Assam Breakfast product page**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Product fact (flavour, brewing guidance), fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine as written |\n\nOther checks:\n- **Superlatives, guarantees, urgency:** none.\n- **Health and green claims:** none. The organic claim is the certified wording and nothing beyond it.\n- **Invented stats or testimonials:** none.\n- **Voice:** no banned words or structures, UK spelling, plain and unhurried.\n- **Disclosure:** not needed for our own product page.\n\nNothing needs changing. Per the brand policy, Sam still needs to sign off before it goes live, since all public content goes through them.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008742299999999998,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

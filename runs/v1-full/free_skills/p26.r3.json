@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a0c5b145a9eda748ba6db373c681f703c366b837327929ca91ecfc70cf834149",
+ "result": "**Not ready to publish. Two claims have to go.**\n\n**Disclosure:** The draft opens with \"Ad\", which is the required wording for a paid partnership. No change needed.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"Pebblebrook's Assam\" | Product fact, fine. |\n| \"which I love\", \"My afternoon reset is a pot of... and ten minutes away from my phone\" | The creator's own experience, fine as long as they have actually used the tea. Please confirm they have (owned or tried). |\n| \"Honestly the best tea in Britain\" | **Unsupported superlative.** We never make \"best\" claims, and \"Honestly\" doesn't make it a softer opinion. |\n| \"it's a proven immunity booster\" | **Health claim.** Health claims of any kind are banned, and \"proven\" implies evidence we don't have. It may also breach UK advertising rules on tea. |\n\n**Suggested compliant version**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nSam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012547400000000002,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

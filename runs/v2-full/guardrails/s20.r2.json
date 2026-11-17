@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7300d79766bf7e91d8f99e884ba9bc16414616249f9e4f7698a89a192cd1690e",
+ "result": "## Publish gate report\n\n**Going out:** Marketing email, \"How to brew loose leaf without a teapot\", to Ana (UK list). No send time was given.\n\n**Checks**\n- **Claims:** Pass. The brewing guidance (mug, sieve, four minutes for black tea, green tea shorter and cooler) is product-team territory and fine as written. There are no stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** Pass. There are no health, money, environmental, price or children's claims.\n- **Disclosure:** Pass. It's the brand's own email, with no sponsorship, affiliate links or AI-labelling trigger.\n- **House style:** Needs a fix. No banned words appear, and the first three sentences are warm, plain and unhurried. The line \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is a stock \"whether you're X or Y\" opener with a slogan closer. It says nothing specific and breaks the plain, unhurried voice. Estimated score is about 75, under the 80 threshold.\n\n**Fixed (suggested rewrite, not yet applied to the send):**\n- Cut the filler sentence. The email reads better without it, or it could be replaced with something concrete such as: \"If you've got a favourite mug, that's your teapot.\"\n\nRevised body:\n> You don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n\n**Needs a decision:**\n- Confirm cutting or replacing the filler line. I suggest cutting it.\n- The sign-off is \"The Pebblebrook team\". That's fine, but a named sender would suit the warm voice better if you want one.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to the final text. No approval has been given or recorded, so this is not cleared to send.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0165075,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

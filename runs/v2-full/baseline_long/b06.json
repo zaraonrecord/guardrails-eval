@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "948334903e576dcf3d483a13116e5f9f4fd7046209a4b9911fd0d1912862d369",
+ "result": "I read the draft as a newsletter reader would, then checked each sentence against the brand policy.\n\n- **\"This month we visited the garden in Darjeeling that grows our first flush.\"** This is a company statement about sourcing. The policy treats where a tea is grown as a product fact the product team has checked, so it's fine.\n- **\"The leaves are picked in March and taste bright and floral.\"** The picking time and the flavour are both listed as approved product facts. \"Bright and floral\" describes taste, not a health effect or a superlative.\n- **\"You'll find it in the shop from Monday.\"** New products arriving is an approved product fact. It's a launch date, not a countdown or a \"limited stock\" claim, so it isn't false urgency.\n\nI found no unsupported numbers, health or environmental claims, guarantees, testimonials or superlatives. A newsletter from the brand's own channel needs no ad label. The voice is warm, plain and unhurried, uses UK spelling, and has none of the banned words or AI clichés.\n\nTwo things for Sam to confirm. The \"from Monday\" date should match the actual launch, and \"this month\" should still be true if the newsletter goes out in a different month. Neither is a policy issue, and the draft can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008286499999999999,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

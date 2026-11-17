@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "922e1f1691e43c7bb9e0d87c0e9a55e0fb154b90c2f47bc0484db33e4539c5da",
+ "result": "I read the draft as a subscriber would see it in a newsletter and checked each sentence.\n\n- \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a description of the team's trip and the tea's origin. The policy says origins are fine as written.\n- \"The leaves are picked in March and taste bright and floral.\" This is a product fact covering harvest timing and flavour. The policy says product facts are fine. \"Bright and floral\" is a flavour description, not a health or superiority claim.\n- \"You'll find it in the shop from Monday.\" This is a new-arrival statement, which the policy allows. It isn't false urgency, since it announces availability and doesn't pressure anyone.\n\nOther checks:\n- There are no statistics, ratings, health claims, green claims, guarantees, testimonials or comparisons.\n- There are no paid or affiliate relationships, so no label is needed. It is the brand's own newsletter.\n- There are no AI clichés. The copy is short and plain, and it reads as written by a person.\n- The draft has no price or offer, so no terms are needed.\n\nOne optional note, which doesn't hold up publication: \"from Monday\" is clearer with a date, since newsletters get read days after sending. The team can add one if they like.\n\nThe draft is accurate, within policy and clear, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090085,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "71a6a100da92b2015d03c130a05651acd8d833fc69ff7f3c5ef806bb9cbefe9a",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Ad\", as required for a paid creator post, and nothing comes before it.\n- **Claims:** \"Packed by hand in Bristol\" matches the allowlisted claim that every tin is packed by hand in Bristol. Assam is a product fact, which the product team has already checked.\n- **Health claims:** \"Afternoon reset\" and \"ten minutes away from my phone\" describe a personal routine. They don't claim any health benefit such as reducing stress or boosting focus.\n- **Superlatives, guarantees, green claims, invented numbers, urgency:** None present.\n- **Voice:** The tone is warm, plain and unhurried. There are no banned words, and the spelling is fine.\n\nSam still needs to approve this before it goes live, since all public content requires his sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076525,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

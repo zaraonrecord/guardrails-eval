@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "07ef55758c184509eb9773ff188f24e2d699186578c08b8cc52c1452069e467e",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name, so it needs no evidence.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This is flavour and ingredient description, which the policy allows as written. \"For the evening\" describes when to drink it and makes no claim about its effect on the body. There is no sleep, calming or relaxation claim, which would have been a health claim.\n- **\"Certified organic by the Soil Association.\"** This is on the approved claims list.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is approved, and the pack size is a product fact. The claim is limited to the tea bags and doesn't stretch to the whole product or the business.\n\nThere are no unsupported numbers, superlatives, guarantees, testimonials, urgency or pricing claims. No ad or affiliate label is needed on the brand's own product page. The copy is short and specific, with none of the listed clichés or filler.\n\nIt can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083688,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2158d4032890048bd8a0a1b79c3a00e10757663c7c20cc0284b81ffe323b9e69",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, and the wording matches the policy |\n| \"Organic loose leaf\" | Allowlisted (certified organic by the Soil Association) |\n| \"plastic-free bags\" | Allowlisted (plastic-free tea bags) |\n| \"packed by hand in Bristol\" | Allowlisted for tins (\"every tin is packed by hand in Bristol\") |\n\n**Slop check:** No banned words, em-dash sandwiches, exclamation points, rhetorical openers or fake urgency. The opening sentence leads with a concrete fact. The copy is fine.\n\n**One thing to confirm, not a blocker:** The allowlist backs hand-packing for tins. The sentence reads as if it covers the tea bags too. If the bags aren't hand-packed, change it to \"loose leaf tins packed by hand in Bristol\". If they are, add that to the allowlist.\n\n**Ad and landing page consistency:** The hero makes no claim that needs a matching claim elsewhere. Make sure the review figures are shown or linked on the page, since the rating is \"on our website\".\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0124721,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

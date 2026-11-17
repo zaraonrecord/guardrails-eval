@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "I checked each sentence against the brand policy.\n\n- \"We started Pebblebrook in Bristol in 2019\": matches the approved claim (founded in Bristol in 2019).\n- \"because we couldn't find tea bags without plastic in them\": this is a founding-story motive, not a product or result claim. It's the brand's own account, so I'm not flagging it.\n- \"Our tea bags are plastic-free and home compostable\": matches the approved claim exactly. Both parts are allowed, and the policy gives no extra conditions to state.\n- \"and here's how we checked\": this promises the blog will explain how the claim was verified. It's a lead-in, not a claim in itself. The intro is only two sentences, so the post body must deliver on it. If the post describes testing or certification, that content needs its own review. Nothing in the policy mentions a certification for compostability, so the body shouldn't name one unless the brand can show it.\n\nStyle: the copy is plain and specific, with no clichés or filler. \"here's how we checked\" is a little casual but fits a blog voice. No disclosure is needed on a brand-owned blog.\n\nNothing needs changing in this intro. Review the full post body separately before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067511,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

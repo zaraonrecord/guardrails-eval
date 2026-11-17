@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0e92a735978960450f810452d331b541d24b16df2e9838e6929791fc472789a1",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (EN 13432 supplier certificate) |\n| \"Best tea I've ever had\" - Emma, Leeds | Unsupported: invented testimonial, customer name and location, and a superlative. Nothing in the policy or this chat supplies it. |\n\n**Issues**\n\n1. The testimonial \"Best tea I've ever had\" - Emma, Leeds has no source. Policy bans invented testimonials and customer names. It also carries a \"best\" superlative, which the brand never makes. Remove it. If a real, permissioned review exists, supply it with its source, and even then the \"best\" wording would need to be cleared by Sam.\n2. Landing page consistency: the ad should only make claims the landing page also makes. Confirm the landing page carries the plastic-free and home compostable claim.\n3. Wording note: the headline and description repeat each other. Not a blocker, but the description could use a real allowlisted fact instead, such as \"Free UK delivery on orders over £25\" or \"Certified organic by the Soil Association\".\n4. Approval: all public content needs Sam's sign-off.\n5. Character counts were not given, so I haven't checked limits. Note that the description as drafted is about 100 characters, and the headline is 22, which is within the usual 30 limit for search headlines.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109525,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

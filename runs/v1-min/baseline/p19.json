@@ -1,10 +1,14 @@
 {
  "case": "p19",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the search ad**\n\n- **\"The UK's number one tea subscription.\"** This is a superlative/ranking claim. The brand policy has no ranking, award or market-share evidence to support it. It needs to be removed or replaced with something we can back up (e.g. \"Certified organic by the Soil Association\" or \"Rated 4.8 out of 5 from over 1,200 reviews on our website\").\n- **\"Subscribers can pause or cancel any time.\"** Backed by policy. OK.\n- **\"Free UK delivery on orders over £25.\"** Backed by policy. OK.\n- **Headline \"Tea Subscription UK\"**: a plain descriptive keyword headline. OK.\n\nRecommendation: do not publish until the \"number one\" claim is replaced.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
- "cost_usd": 0.008584,
- "seconds": 8.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9b929f8926abd7a9f2f68c7f6cd37c335ea77b3de4a22564be7703dc1acefdaf",
+ "result": "Review of the search ad:\n\n**Headline: \"Tea Subscription UK\"** – Fine. Descriptive, no claims.\n\n**\"The UK's number one tea subscription.\"** – Problem. This is a superlative/ranking claim, and it isn't on the claims allowlist. We have no evidence of a market ranking (sales, reviews, or an independent survey). It needs to be removed or replaced with something we can back up, such as the 4.8 out of 5 rating from over 1,200 reviews on our website, or \"certified organic by the Soil Association\".\n\n**\"Subscribers can pause or cancel any time.\"** – Supported by the allowlist.\n\n**\"Free UK delivery on orders over £25.\"** – Supported by the allowlist. The threshold matches.\n\n**Other checks:** No health claims, green claims, guarantees, fake urgency, testimonials or invented statistics. No disclosure is needed for this format.\n\n**Verdict:** Do not publish as is. Remove or replace the \"number one\" claim, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009414,
+ "seconds": 8.5,
  "models": [
   "claude-sonnet-5-5"
  ]

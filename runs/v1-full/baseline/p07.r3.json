@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17b863f2b4a83b4b6d6a1ae752585557a67cf6a64b35afa6cc175b83f3833b7e",
+ "result": "Review of the landing hero draft:\n\n1. **\"you'll love it or it's free\"** is a guarantee. Policy section 3 bans this wording by name, and we have no such offer. It must be removed.\n\n2. **\"Subscribers can pause or cancel any time\"** matches the allowlist wording exactly. Fine.\n\n3. **\"free UK delivery on orders over £25\"** matches the allowlist. Fine on its own.\n\n4. **\"means most boxes ship free\"** is a problem. It implies a proportion of orders that we have no data for, so it works as an invented statistic or unsupported claim. It should be cut or reworded to the approved line only.\n\n5. **Voice:** the copy is plain and warm enough, with no banned words. UK spelling is fine. The opening line is a little loose (\"easy to stop and start\") but not a policy issue.\n\nSuggested rewrite: \"Tea that's easy to pause or cancel. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nNot ready to publish. Sam needs to approve the corrected version, since he signs off on everything public.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067666,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "68001ff6d7ae03f288baf6e4ac66966b967f481db740dad43df92ba48fbd2004",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Product facts:** \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\", \"100g tin\" and \"Lovely with milk\" are ingredient, size and serving details. The policy says the product team checks these and they are fine as written. \"Caffeine-free\" describes the ingredients, not an effect on the body, so it is not a health claim.\n\n**Pricing:** \"Was £12, now £8\" is a reference-price claim, a 33% reduction. The brand policy lists no sale, offer or price history, and says there is no current real offer. Nothing shows £12 was genuinely charged for a reasonable period before the £8 price. Without that evidence it could mislead readers about the saving. Either confirm the price history and keep the wording, or show just the real current price. If it is a real time-limited promotion, it needs policy approval and conditions near the price.\n\n**Tone and style:** The copy is plain and warm, with no banned words or AI clichés, and the UK spelling is fine. No superlatives, guarantees, health claims, environmental claims, urgency or testimonials appear.\n\n**Decision:** Hold until the pricing is verified or corrected. Sam needs to approve it either way.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0108152,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

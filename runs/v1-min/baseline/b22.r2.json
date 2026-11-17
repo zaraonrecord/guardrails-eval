@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c28221dd54c536ec5afbb343978f8cab39c8f4e4f26d1e44c164d8cf137c3c8a",
+ "result": "**Review of the Instagram draft**\n\nChecks:\n\n- **Claims:** \"plastic-free\" and \"home compostable\" tea bags are both on the allowlist. Fine as written.\n- **New arrivals / product facts:** New winter tins, deep green with gold lettering, are product facts and fine.\n- **Green claim:** The only environmental claim is the plastic-free and home compostable one, which the brand can back up. Nothing broader like \"eco-friendly\" or \"planet-saving\".\n- **Stats, superlatives, guarantees, testimonials, health claims, urgency:** None present.\n- **Disclosure:** Own account, no paid partnership or gifting, so no label needed.\n- **Quality:** The copy repeats itself. \"Plastic-free tea bags\" appears in the second sentence and again in the third. This is a style point, not a policy problem, and I wouldn't block publication for it. A tighter version: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\nNothing needs to change for compliance, so it is fine to publish. The redundancy edit is optional.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009552,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

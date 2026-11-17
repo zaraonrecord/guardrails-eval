@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cb5dfe6b9f30ff40fbf4fe138fffa9fde7612ae204d63a182613994c1801f3e3",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product arriving), fine as written |\n| \"grassy and a little sweet\" | Product fact (flavour), fine |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best\" here is a brewing instruction, not a superlative about the product. |\n\n**Other checks**\n- **Stats, testimonials, guarantees, urgency:** none present.\n- **Health and environmental claims:** none.\n- **Voice:** warm, plain and unhurried. There are no banned words, no exclamation points, no rhetorical opener and no em-dashes. Spelling is UK-compatible.\n- **Disclosure:** this is our own email, so no \"Ad\" or \"Gifted\" label is needed. There are no affiliate links.\n- **Approval:** the policy says Sam (marketing lead) approves everything public, so get Sam's sign-off before sending. That is a process step and doesn't require changing the copy.\n\nNothing needs changing in the draft.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009354,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

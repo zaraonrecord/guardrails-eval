@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** Where the tea is grown (Darjeeling), when it's picked (March) and how it tastes (bright and floral) are product facts the product team has already checked. There are no superlatives, guarantees, health claims, green claims, invented numbers or testimonials.\n- **Urgency:** \"From Monday\" is a new product arriving, which the policy treats as a product fact. It isn't a countdown or a \"only X left\" style push.\n- **Disclosure:** This is our own newsletter, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** It's warm, plain and unhurried, with no banned words, and the spelling is UK.\n\nThe policy says Sam (marketing lead) approves everything public, so it should go to Sam for sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088821,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

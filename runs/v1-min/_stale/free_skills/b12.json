@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: clear to publish.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, fine as written |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| \"a peppermint for after lunch\" | Serving suggestion, not a health or digestion claim |\n\n**Slop check:** No ban-list words, no em-dashes, no exclamation points, no rhetorical-question opener, no fake urgency. The first sentence is concrete, and no adjectives need a \"compared to what?\" test.\n\n**Other checks**\n- No invented stats, testimonials, superlatives or guarantees.\n- No health, money or green claims.\n- It's your own account, so no affiliate or sponsorship disclosure is needed.\n- Before it goes live, confirm the landing page also states the free delivery over £25 offer, since an ad shouldn't make a claim the page doesn't.\n- No character limit was given, so I haven't counted characters. Check the platform's limit for your placement.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107163,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "This draft can go out as written.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the approved wording exactly (supplier certificate, EN 13432). \"Plastic-free tea bags\" is covered by the same claim. The new tins, their colours (\"Deep green, gold lettering\") and the winter arrival count as product facts the product team checks, so they are fine to use.\n- **Labels:** This is the brand's own Instagram account, so no \"Ad\" or \"Gifted\" label is needed. There are no affiliate links.\n- **Urgency, superlatives, health, environmental and guarantee language:** None. \"Just landed\" describes a new arrival and isn't a countdown or a scarcity claim.\n- **Voice:** It is warm, plain and unhurried, uses UK spelling, and has none of the banned words.\n\n**Optional polish:** \"plastic-free\" appears twice in three short sentences. You could cut the first mention (\"the same tea bags inside\") and keep the full approved claim in the last sentence. This doesn't need to hold the post.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009574599999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

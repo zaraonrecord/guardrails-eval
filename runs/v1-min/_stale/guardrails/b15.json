@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** review blog post (affiliate), UK audience. No send time was given.\n\n**Checks**\n- **Claims:** \"Pebblebrook's was the easiest to pause\" is a comparative superlative against three other subscriptions, and nothing in the policy or this chat backs it up. The policy only supports \"subscribers can pause or cancel any time\". \"The tins are lovely\" is opinion, so it's fine. \"I've tried four tea subscriptions this year\" is the author's own experience. It's fine if true, so please confirm.\n- **Regulated claims:** nothing on health, money, environment, children or prices.\n- **House style:** no banned words or AI tells. It's short and plain.\n- **Disclosure:** \"(Affiliate link)\" sits at the very end, after the reader has read the whole recommendation. It needs to come before the reader engages, in plain words, at the top of the post. A bracketed tag at the end doesn't meet UK ad-labelling expectations.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Disclosure: this post contains an affiliate link, so I earn a commission if you buy through it.\n>\n> I've tried four tea subscriptions this year. Pebblebrook lets you pause or cancel any time, and I found pausing simple. The tins are lovely. You can find it here: [affiliate link].\n\n**Needs a decision**\n1. Did Pebblebrook give you free product, payment or anything else of value beyond the commission? If so, that must be disclosed too. My suggested answer is to say so in the opening line.\n2. Can you confirm you really have tried four subscriptions this year? If not, cut that line.\n3. Do you want to keep \"easiest to pause\" if you can show a comparison? Without one, use the policy-backed wording above.\n\n**Approver:** the policy names no approver, so you (the user) need to give an explicit yes to the exact final text. I have not recorded any approval, and the draft as written should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0168873,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

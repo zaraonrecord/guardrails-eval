@@ -1,10 +1,14 @@
 {
  "case": "b02",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "The draft is clean against the brand policy, the claims allowlist, the slop rules and the review rules.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific fulfilment fact, not a marketing claim. It fits the allowlisted Bristol packing. |\n| \"a smoky lapsang and a soft white peony\" | Product facts (flavour), fine to use as written. |\n| \"you can pause or cancel any time\" | Allowlisted: \"Subscribers can pause or cancel any time\". |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, health, green and urgency claims:** none.\n- **Banned words and structures:** none. There are no exclamation points, rhetorical openers, em-dash asides or \"not just X, it's Y\" lines. The opening sentence carries the useful fact.\n- **Disclosure:** this is the brand's own transactional email, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Spelling and voice:** UK spelling, warm, plain and unhurried.\n- **Products:** this is not a review, so the owned/tried/wishlist labels don't apply.\n\n**Two non-blocking notes**\n1. The subject says \"October tins\" and the body says \"This month\", but today is 17 November. If this box is the November one, change the subject. If it is a delayed October box, the body should not say \"this month\".\n2. Per the policy, Sam needs to approve everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0186825,
- "seconds": 18.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1da3c059eef512c8c07801e5abc9b8c8fef23920789089c361fe7c435ad3b848",
+ "result": "**Review: subscription dispatch email**\n\nThe draft is clean. No changes are needed.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order status for this subscriber. It is consistent with the hand-packed-in-Bristol operations fact. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, cleared by the product team. |\n| \"you can pause or cancel any time from your account\" | Allowlisted: \"Subscribers can pause or cancel any time\". |\n\n- **Superlatives, guarantees, health and green claims:** none.\n- **Invented numbers, testimonials or urgency:** none.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation marks, no rhetorical opener. Spelling is UK.\n- **Disclosure:** none needed. This is our own transactional email, not a partnership or affiliate post.\n\n**Two notes, not blockers**\n1. **Date check:** Today is 17 November, but the subject says \"October tins\" and the body says the box left \"this morning\". If this is a late dispatch, that's fine. If it's a leftover October template, update the month before sending. I can't verify this from the draft.\n2. **Approval:** Sam needs to sign off, as with everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0134133,
+ "seconds": 15.0,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9d0feff22bd27bb0bda36e0c722f5bd54cb82f2696d41c5a6f9d1b7750f827b3",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"If your box isn't right, we'll make it right.\" | **Unsupported** |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Problem:** \"If your box isn't right, we'll make it right\" is an open-ended guarantee. Nothing in the brand policy backs it. The policy only covers pausing or cancelling any time, with no replacement, refund or satisfaction promise. The ad also implies a remedy the landing page may not offer. Either cut it, or have someone confirm the actual returns/remedy policy so it can be stated precisely.\n\n**Compliant version:**\nHeadline: Tea Subscription UK\nDescription: Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\n\nThat description is about 85 characters. The original was about 106, which would exceed Google's usual 90-character description limit if this is a responsive search ad. You gave no limit, so check against the platform you're using. The \"pause or cancel any time\" line is allowlisted, but the landing page should say it too.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0155303,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

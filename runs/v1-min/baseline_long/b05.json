@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "be11292fde25841cdcadf37d8e1ececcf6da90e4a5bb950cbe73f5af44baa89a",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** Short, personal, on-brand own-channel post. No ad label needed since it's the brand's own account.\n\n**Sentence by sentence:**\n1. \"Rainy Sunday, second pot.\" Mood/description. Fine, with a natural voice.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact (ingredients), which the policy says is fine as written.\n3. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Matches the approved claim exactly: same rating, same review count, and the source (our website) is named.\n\n**Missing items:** None. No health claims, green claims, guarantees, urgency, superlatives or testimonials. No AI clichés or filler; the copy reads like a person wrote it.\n\n**Decision:** Nothing needs changing. Good to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077805,
+ "seconds": 6.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

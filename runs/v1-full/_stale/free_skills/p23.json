@@ -1,0 +1,11 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** Two claims break the brand policy (section 3: no guarantees, no \"risk-free\"). The rest is fine.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft opinion, not a checkable claim. Fine, but vague. |\n| \"guaranteed\" | **Unsupported.** We have no guarantee or refund offer. |\n| \"Risk-free\" | **Unsupported.** Same reason. It also implies a trial or money-back offer that doesn't exist. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\n**Other checks**\n- Banned words, slop patterns and fake urgency: none found.\n- Disclosure: not needed for our own landing page.\n- Approval: Sam needs to sign off, as with all public content.\n\n**Compliant version**\n\n> Certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nThis leads with the strongest provable facts. If you want to keep a \"good tea\" line, I'd swap it for something concrete from the product team, such as where a tea is grown or when it's picked.\n\n```json\n{\"issues\": [{\"quote\": \"guaranteed\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013626500000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "732438fec6171281d71140c3517dc3c4022a0b2657542062cbcd2dd904f2e28d",
+ "result": "**Publish gate report: blog intro**\n\n**Going out:** Blog intro for Pebblebrook Tea Co., on the blog, to UK readers. No date given.\n\n**Checks**\n- **Claims:** Every claim is covered by the policy.\n  - \"Started Pebblebrook in Bristol in 2019\" matches \"founded in Bristol in 2019\".\n  - \"Tea bags are plastic-free and home compostable\" matches the policy wording exactly.\n  - \"We couldn't find tea bags without plastic in them\" is the founders' origin story, not a provable claim. It is fine as written, but whoever signs off should confirm it is true.\n- **Regulated claims:** This is an environmental claim (plastic-free, compostable), which regulators scrutinise. Here it is specific and on the allowlist, not a vague \"eco-friendly\", so it passes.\n- **House style:** The policy has no voice section, so I scored against general standards. The copy is plain and specific, with no banned words or AI tells. The \"here's how we checked\" teaser is a little hooky but acceptable.\n- **Disclosure:** The post is the brand's own content about its own product, with no sponsorship, affiliate links, gifted products or AI-generated imagery visible. No label is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision**\n- \"Here's how we checked\" promises evidence that the intro doesn't show. Before this goes live, make sure the body only describes checks the team actually did, such as the compostability certification or testing. If the body adds figures, timelines or test results, those need a source and a new check. Suggested answer: publish the intro as is and check the body separately.\n\n**Approver:** The policy names no approver, so please confirm a named person's explicit yes to this exact text before it is published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015805299999999998,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

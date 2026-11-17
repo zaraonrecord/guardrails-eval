@@ -1,0 +1,11 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft**\n\n**Problem (must change before publishing)**\n- \"only 40 tins are left, so be quick\" is scarcity urgency. Policy section 3 bans \"only X left\" and similar pressure unless there is a real offer with an end date in the policy, and there isn't one. The stock count isn't a claim we have on the allowlist either. Cut the sentence, or replace it with something calm, such as \"You'll find it in the shop from Monday.\"\n\n**Checked and fine**\n- The Darjeeling garden visit, the first flush, the March picking, the \"bright and floral\" flavour and the Monday arrival all count as product facts, which the product team checks and which are fine as written.\n- There are no superlatives, guarantees, health claims, green claims, invented stats or testimonials.\n- No disclosure is needed. This is our own newsletter, with no paid partnership, gift or affiliate link.\n- The voice is warm, plain and unhurried, uses UK spelling and has no banned phrases. The urgency line is the only part that cuts against the tone.\n\n**Approval:** Sam (marketing lead) needs to sign off on the revised version, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101841,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

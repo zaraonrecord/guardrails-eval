@@ -1,0 +1,11 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea that stands up to milk\" | Product/flavour fact, fine as written |\n| \"boosts your immunity through winter\" | **Health claim, never allowed (policy §3).** Remove. |\n| \"Certified organic by the Soil Association\" | On policy list, exact wording, certificate renewed 2026. Fine. |\n| \"100g tin, makes around 40 cups\" | Tin size and cup count are product facts, fine. |\n\n**Regulated claims:** The immunity line is the only problem. \"Boosts immunity\" is a health claim that needs authorised wording and evidence, and the policy bans health claims of any kind. No safer health-flavoured rewrite exists, so the line goes. Winter appeal can stay as a warm, true idea (\"a cup for a cold afternoon\").\n\n**House style:** No banned words, UK spelling, tone is plain. Fine once the health claim is gone. Score about 90.\n\n**Disclosure:** Own-brand product page, no partnership, affiliate link, or AI-labelling trigger. Pass.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, and a good one for a cold winter morning. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Needs a decision:** Confirm you're happy with the rewritten winter line, or cut it for the shorter version without it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and nothing should be published until Sam says yes to the exact final text above. The original draft as written should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011411499999999998,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

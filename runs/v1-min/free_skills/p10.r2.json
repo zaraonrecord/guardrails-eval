@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3cf4d17412c7619cd2ee8b70fd06f91450b22948a1d8736c01861798173d2ae5",
+ "result": "**Claims check**\n- \"We've added a Japanese sencha to the shop\": new arrival, fine as written.\n- \"Grassy and a little sweet\": flavour fact, fine.\n- \"best brewed cooler than you think, around 70 degrees\": brewing fact, fine. \"Best\" here is a brewing instruction, not a superlative about the product.\n- Signature \"The Pebblebrook team\": fine.\n- No numbers, comparisons, guarantees, testimonials, health claims, green claims or urgency.\n\n**Slop check**\n- \"It's not just tea, it's a ritual.\" This is the banned \"It's not just X, it's Y\" construction. It also says nothing concrete, so cutting it loses nothing. Deleting it leaves the tasting and brewing details to carry the email.\n\n**Suggested rewrite**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, it's best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\nOne optional point: the email has no link to the new sencha. Adding one would make it more useful, but it isn't a compliance issue.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111103,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

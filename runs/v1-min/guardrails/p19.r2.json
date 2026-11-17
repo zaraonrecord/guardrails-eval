@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2fdb71fa9da8c56a2c5ea14c708e887473183b134652ee57a177d8308a9babe5",
+ "result": "# Publish gate report\n\n**Going out:** Search ad (headline + description), UK audience, timing not specified.\n\n## Checks\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | **Unproven.** Not on the policy list, no source given. It's a superlative/ranking claim. Remove. |\n| \"Subscribers can pause or cancel any time\" | On policy list. OK. |\n| \"Free UK delivery on orders over £25\" | On policy list. OK. |\n\n**Regulated claims:** Touches prices/offers. The free delivery threshold matches the policy exactly and has no countdown or urgency. Fine. The only risk is the ranking claim, covered above.\n\n**House style:** No policy voice section was provided beyond claims, so I checked for AI tells and banned patterns. Copy is plain. The \"number one\" line is the only weak spot, and it goes anyway.\n\n**Disclosure:** A search ad is the brand's own paid ad, and the platform labels it as an ad (e.g. \"Sponsored\"/\"Ad\"). No creators, affiliates or AI imagery involved. Nothing to add.\n\n## Fixed (suggested rewrite)\n- Removed the \"number one\" ranking claim.\n\n**Suggested copy:**\nHeadline: Tea Subscription UK\nDescription: Loose leaf and plastic-free tea, delivered monthly. Pause or cancel any time. Free UK delivery on orders over £25.\n\n(Loose leaf and plastic-free bags are product facts, so they are fine as written.)\n\n## Needs a decision\n- If you really want a ranking claim, I need a current, like-for-like source (e.g. a named survey or market report) and it should be added to the policy. Until then, my suggestion is to drop it.\n- Approver: the policy doesn't name one, so the approval must come from you. I haven't recorded any approval. Please confirm yes to the revised copy above (not the original), and it can go out.\n\n**Status: not approved to publish as drafted.**\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009839299999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

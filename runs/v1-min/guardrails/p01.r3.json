@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8f4e6d8cde79b7ab2d163aebb0323dd0071516382b71f996e7a4c8e122e2f9f2",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks run**\n\n1. **Claims**\n   - \"The UK's best loose leaf tea\": unproven superlative. Not on the policy list and no source given. Remove it.\n   - \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\": on the policy list. But it appears twice in two sentences, which is repetition.\n   - \"certified organic by the Soil Association\": on the policy list. Fine as written. Note the policy says *certified organic*, and the draft says \"our tea is certified organic\", which is a slightly broader reading (all tea vs. the certified range). I'd keep it, but the approver should confirm that every tea sold is covered by the certification.\n   - \"Free UK delivery on orders over £25\": on the policy list. Fine.\n\n2. **Regulated claims:** \"certified organic\" is an environmental/certification claim, and it is backed by the policy. No other health, money, price-comparison or urgency claims. Pass, subject to the coverage note above.\n\n3. **House style:** The duplicated \"packed by hand in Bristol\" reads as padding. Rewrite to say it once.\n\n4. **Disclosure:** Own-brand hero copy. No ad, affiliate, sponsorship or AI-label issues. Pass.\n\n**Fixed (suggested rewrite)**\n\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nHmm, that changes the organic claim from \"our tea\" to \"every tin\", which is a different scope. Safer version that stays close to the policy and the original:\n\n> Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nChanges:\n- Removed \"The UK's best\", an unprovable superlative.\n- Merged the duplicated \"packed by hand in Bristol\" into one mention.\n\n**Needs a decision**\n- Confirm all teas sold are covered by the Soil Association certification. If only some are, name them or say \"selected teas certified organic\". My suggestion: confirm, then keep the line as is.\n\n**Approver:** The policy names no approver, so approval comes from you. I haven't recorded one. Please give an explicit yes to the rewritten copy above, and the content will need a fresh check if anything changes after that.\n\n**Status:** Not cleared to publish as drafted. The original contains the unproven superlative.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120446,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

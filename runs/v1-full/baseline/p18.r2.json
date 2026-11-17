@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1824d7a0991951f2766a7d92643cca7b77c5afd92b6756c32421a679256b1d4e",
+ "result": "I checked the draft against the brand policy.\n\n**Problems**\n- \"Unlock your tea journey.\" uses two banned words, \"unlock\" and \"journey\". It is also a vague, filler opener that doesn't match the warm, plain, unhurried voice. Replace it with something plain, such as \"You don't need a teapot to enjoy loose leaf.\"\n\n**Checked and fine**\n- Brewing guidance (a mug, a small sieve, four minutes for black tea, shorter and cooler for green) is product fact, so it is fine as written.\n- No superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency.\n- The email is from our own brand, so no partnership or affiliate label is needed.\n- UK spelling is fine. There is nothing in the copy that needs it changed.\n\nThe draft should not go out until the opener is rewritten and Sam (marketing lead) has approved it.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0058613,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a416cc561788dda8daf144c1f0f972908db19a35f90eab571bf0310ce7738243",
+ "result": "## Publish gate report\n\n**Going out:** Subscriber shipping email (\"Your October tins are on the way\"), sent by email to Priya (UK subscriber). Send time wasn't given.\n\n**Checks**\n- **Claims:** One problem.\n  - \"it ships within 24 hours of your order\" is not on the policy's claims list, and no source was given in this chat. \"As always\" also implies a track record of meeting it. It's an unproven delivery promise.\n  - The other claims pass. \"You can pause or cancel any time\" is on the policy list. \"Left Bristol this morning\" is an order fact, and the lapsang and white peony are product facts.\n- **Regulated claims:** No health, money, legal, environmental, children's or price claims. Pass.\n- **Disclosure:** A transactional email with no ad, sponsor, affiliate or AI-label trigger. Pass.\n- **House style:** Short, plain and warm, with no banned phrases or AI tells that I can see. The policy has no voice section, so I couldn't score it against the brand voice. Pass.\n\n**Fixed:** Nothing changed yet. I haven't edited the copy, because the right fix depends on your answer below.\n\n**Needs a decision**\n1. **The 24-hour claim.** Either supply evidence, which can then be added to the policy, or cut it. My suggestion is to cut it:\n   > Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n2. **Timing.** The subject says \"October tins\", but today is 17 November. Please confirm this is the right month, or whether it's a late send, and that \"left Bristol this morning\" is still true.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final wording. Once you've confirmed the two points above, I'll re-check the revised copy. Nothing should be sent until then.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015813300000000002,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "071e7617ae68d07b2f2e34dea2c79a14226cb8735128716a7a56a2e97cd66d7f",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims list**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact, fine as written.\n- \"Lovely with milk\": soft product/flavour statement, fine.\n- \"100g tin\": product fact (size), fine.\n- \"It cured my bloating in a week\" - verified buyer: **unsupported**. It's a testimonial we can't source from the allowlist or this chat, and it makes a health claim (curing a medical symptom). Ad and consumer-protection rules in the UK (CAP Code, ASA, and the GB Nutrition and Health Claims register) don't allow claiming a food or drink cures or treats a condition. \"Verified buyer\" also implies verification we haven't been shown.\n\n**Other checks**\n- Slop-guard: no banned words, no structural violations. The copy is short and specific. The fragment style is fine.\n- Honest-review rules: not a review, so the product labelling doesn't apply.\n\n**Fix**\nRemove the testimonial. If a real customer review exists and is about taste or experience, supply it with its source and we can use it. Otherwise, either leave it out or use the allowlisted rating: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n**Compliant version**\nRooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084998,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

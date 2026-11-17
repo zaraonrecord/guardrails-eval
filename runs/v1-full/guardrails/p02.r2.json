@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2084b5f16a7ea73ddc4b6d10e61545366062eafbffbb420fbf839d2682feb9ae",
+ "result": "# Publish gate report\n\n**Going out:** Search ad, headline \"Organic Loose Leaf Tea\" with a three-sentence description. I don't have a date or audience, so please confirm those.\n\n**Checks**\n- **Claims:** one claim fails. \"Loved by 50,000 tea drinkers\" isn't on the policy list and has no source in this chat. The policy bans invented customer counts and numbers. The \"organic\" headline, \"Certified organic by the Soil Association\" and \"Free UK delivery on orders over £25\" match the policy wording exactly.\n- **Regulated claims:** nothing on health, money, the environment, children or urgency. The delivery offer is a real, ongoing one.\n- **House style:** no banned words or AI tells. The tone is plain.\n- **Disclosure:** none needed, because the platform marks paid ads from our own account.\n\n**Fixed (suggested, not yet applied to the live ad)**\n- Replace the unsupported line with a claim the policy backs:\n  > Headline: Organic Loose Leaf Tea\n  > Description: Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- **Description length:** the original is about 109 characters, and my replacement is longer. If this is a Google responsive search ad (90-character description limit), it will be rejected. A shorter option is to drop the review line: \"Certified organic by the Soil Association. Free UK delivery on orders over £25.\" That is 79 characters and fully on-policy. I suggest this one for a search ad. If you want the review proof, put it in a separate description, keeping the policy wording \"on our website\".\n- **Landing page:** the page the ad links to should show the same claims, including the review rating if you use it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Once the final wording is settled, Sam needs to say yes to that exact text. Any change after that means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0155601,
+ "seconds": 17.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

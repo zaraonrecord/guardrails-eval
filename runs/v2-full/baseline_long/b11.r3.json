@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "**Review of the email: \"A new green tea\"**\n\nRead as Tom would see it: a short, plain product announcement from the brand's own channel.\n\n**Claims check**\n- \"We've added a Japanese sencha to the shop.\" New product arriving is a product fact, checked by the product team and fine as written.\n- \"grassy and a little sweet\" is flavour description, which is allowed.\n- \"best brewed cooler than you think, around 70 degrees.\" Brewing guidance is a product fact and fine. \"Best brewed\" here is advice on technique, not a superiority claim about the brand.\n- No health, environmental, guarantee, urgency, price or review claims.\n\n**Labels:** Brand-owned email, so no \"Ad\" label needed. No creator or affiliate content.\n\n**Subject line:** \"A new green tea\" accurately reflects the content (sencha is a green tea). Not misleading.\n\n**Voice:** Warm, plain, unhurried. No banned words or AI clichés. UK spelling is fine (no spelling-variant words appear). The sign-off is simple.\n\n**Optional polish (not blocking):** The email has no link to the product, which makes it less useful for the reader. Adding one would help, but it isn't a compliance matter.\n\nNothing here needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070522,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

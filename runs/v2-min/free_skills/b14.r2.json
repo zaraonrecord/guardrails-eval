@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "38987e83602a1087cb95273b4ade5cbb631cd815d65ee1ccb3ad2740eb1f47f2",
+ "result": "**Verdict: fine to publish as written.**\n\n**Product label**\n- Winter sampler (rooibos chai): Tried. It was gifted and they drank it, so the hands-on comment (\"lovely with oat milk\") is a personal taste claim they can honestly make.\n\n**Claims list**\n- No numbers, comparisons, superlatives, guarantees, testimonials, reviews or awards.\n- No health, money or environmental claims.\n- \"Winter sampler\" and \"rooibos chai\" are product facts, which the brand policy allows as written.\n\n**Money in the open**\n- \"Gifted\" is the first word, so the disclosure comes before anything else in the post.\n- \"Not paid to say that, just liked it\" is consistent with a gifted-only arrangement, and the gift is already declared right before it.\n\n**Style**\n- No banned words, no exclamation marks, no rhetorical opener, no em-dash asides. The first sentence states the key fact.\n\n**One check on your side, not a change to the copy:** if Pebblebrook asked for the post, approved it, or you agreed to post in exchange for the sampler, UK advertising rules treat it as an ad. In that case use \"Ad\" or \"#ad\" instead of or alongside \"Gifted\", and drop \"Not paid\" in favour of something like \"Ad: gifted by Pebblebrook\". If it was an unprompted gift with no obligation, the current wording works.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.016662100000000003,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

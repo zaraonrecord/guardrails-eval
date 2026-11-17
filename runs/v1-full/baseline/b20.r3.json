@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "707b022aa8161366527c9abf9ff476deb63ebb297e411491d48e09ba07abd43e",
+ "result": "I checked the draft against the brand policy.\n\n- **Headline \"Tea Subscription UK\":** a plain description of what we sell and where. No claim in it.\n- **\"Monthly loose leaf tea.\":** matches what we sell (loose leaf tea, monthly subscription).\n- **\"Subscribers can pause or cancel any time.\":** exact wording from the claims allowlist (subscription terms).\n- **\"Free UK delivery on orders over £25.\":** exact wording from the allowlist (shipping policy).\n- **Banned content:** no superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency.\n- **Voice:** plain and warm enough for an ad, with no banned words, and the spelling is UK.\n- **Disclosure:** this is our own paid search ad, with no creator or affiliate link, so no label is needed.\n\nApproval: as with everything public, Sam needs to sign off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056901,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

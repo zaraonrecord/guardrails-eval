@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c86d78c9a8dc780a1a7639ed1e5da18331e873e30ff98fcb888aaa5d72277815",
+ "result": "**Review of the about page draft**\n\n- **\"has become Bristol's favourite tea\"**: This is an unsupported superlative. The policy backs a 4.8/5 rating from over 1,200 reviews on our website, but nothing showing we are Bristol's favourite. Cut it, or replace it with the review claim, e.g. \"rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **\"founded in Bristol in 2019\"**: This is on the allowlist.\n- **\"a small team of six\"**: Team size is a product fact and is fine as written.\n- **\"every tin is packed by hand in Bristol\"**: This is on the allowlist.\n- **\"We buy from gardens we've visited.\"**: This is a sourcing and origins statement, which is fine as written.\n\nOnly the \"favourite tea\" phrase needs to change before this goes out.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010622,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

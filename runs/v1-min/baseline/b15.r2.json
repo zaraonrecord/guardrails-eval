@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f00ca10f93567a200ad7d768cfb4f3c5412f3be3dfb87772127dc6c72dcc40d5",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Pausing:** \"Easiest to pause\" is the reviewer's own comparison from trying four subscriptions. It is consistent with our backed claim that subscribers can pause or cancel any time. It is a personal opinion, not a stat or a guarantee.\n- **Tins:** \"Lovely\" is subjective and makes no factual claim.\n- **Affiliate disclosure:** The link is labelled \"(Affiliate link)\" right next to it, so the commercial relationship is disclosed. The label is terse and comes after the recommendation. The UK ASA and CMA prefer disclosure that is clear and prominent, so consider adding a line near the top, such as \"This post contains affiliate links, so I may earn a commission.\" That is a suggestion, not a blocker.\n- **Other claims:** There are no invented stats, health claims, green claims, fake urgency or guarantees. The text does not read as filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00975,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

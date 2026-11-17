@@ -1,10 +1,14 @@
 {
  "case": "b03",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported. Certified organic by the Soil Association (certificate on file, renewed 2026). Loose leaf is a product fact. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\n**Other checks**\n- Ban list (brand and slop): no hits.\n- Structure: no exclamation points, rhetorical questions, em-dashes, fake urgency or superlatives.\n- Health, environmental, guarantee claims: none.\n- Disclosure: this is our own paid search ad, so no \"Ad\" label is needed. The platform marks it.\n- Landing page consistency: the landing page needs to make both claims too (organic certification and the free delivery threshold). I can't verify this from here, so it's worth a quick check before launch.\n- Character limits: none were given, so I haven't counted. Note that the headline as written is 24 characters, and the description is 87 characters. If your platform limits differ (e.g. Google RSA: 30 for headlines, 90 for descriptions), both fit.\n- Approval: Sam (marketing lead) signs off on everything public.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0091105,
- "seconds": 10.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3faf8df8c2c19903787a96d09f05053377592469f864380352d4765aa7606e1",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted. It rests on \"Certified organic by the Soil Association\", and loose leaf tea is a product we sell. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording. Certificate renewed 2026. |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording. Backed by the shipping policy. |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers:** none.\n- **Banned words or slop structures:** none. The tone is plain, with no exclamation marks, rhetorical questions or em-dashes.\n- **Disclosure:** none needed. It's a paid social or search ad from our own account, and the platform marks it.\n- **Spelling and market:** UK, and it only mentions UK delivery.\n- **Character counts:** the headline is 22 characters and the description is 79. Both fit standard search limits (30 and 90).\n- **Platform policy:** no health, financial or personal-attribute triggers.\n\n**Before it goes live**\n- The landing page should show the Soil Association certification and the free delivery threshold, since the ad makes both claims.\n- Sam needs to approve it, as the policy requires for all public content.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0128595,
+ "seconds": 14.2,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a416cc561788dda8daf144c1f0f972908db19a35f90eab571bf0310ce7738243",
+ "result": "**Publish gate report**\n\n**Going out:** Order-shipped email to Priya (subscriber), by email, with no send time given.\n\n**Checks**\n- **Claims:** \"ships within 24 hours of your order\" is not on the policy's claims list, and nobody has sourced it in this chat. That makes it an unproven delivery-speed promise. The other claims pass. \"Pause or cancel any time\" and \"left Bristol\" are on the list, and the two teas (smoky lapsang, soft white peony) count as product facts.\n- **Regulated claims:** Nothing on health, money, the environment, children or prices.\n- **House style:** Plain and warm. The policy gives no voice or banned-word list, so I found nothing to strip, and I saw no AI tells.\n- **Disclosure:** This is a transactional email with no ad, sponsorship, affiliate link or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing yet. I haven't changed the draft, because the right fix depends on whether the 24-hour claim is true.\n\n**Needs a decision**\n- Is the 24-hour dispatch promise true for every order? If it is, please confirm it and add it to the policy's claims list. If not, I suggest deleting the sentence \"As always, it ships within 24 hours of your order.\" The email works without it.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the final wording before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010423700000000001,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

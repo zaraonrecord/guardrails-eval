@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Review: about page, Pebblebrook Tea Co.**\n\n**Sentence by sentence**\n\n1. \"Pebblebrook was founded in Bristol in 2019.\" This is an approved claim (Companies House). OK.\n2. \"We're a small team of six.\" Team size is a product-team-checked fact and can be used as written. OK.\n3. \"every tin is packed by hand in Bristol.\" This is an approved claim (Operations). OK.\n4. \"We buy from gardens we've visited.\" This is a claim about the company's sourcing practice. It isn't in the approved claims table, and it isn't one of the product facts (where a tea is grown, when it's picked). It also reads as covering all suppliers, and nothing in the policy shows the team has visited every garden it buys from. Treat it as unsupported until someone confirms it with evidence. If it holds for only some gardens, say which ones, or name specific gardens and when they were visited.\n\n**Other checks**\n\n- No superlatives, guarantees, health claims, environmental claims, invented numbers or urgency.\n- No banned words or AI clichés. The tone is warm, plain and unhurried, and the spelling is UK.\n- No ad, gifted or affiliate label is needed on the brand's own about page.\n\n**Decision:** Hold. Fix or substantiate the last sentence, then it can go to Sam for approval. The rest is fine.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0145667,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

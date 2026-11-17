@@ -1,10 +1,14 @@
 {
  "case": "b22",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: approved to publish**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new arrival), fine as written |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health, money or legal claims:** none.\n- **Green claims:** the environmental claims are specific and match the brand policy, so they are fine.\n- **Urgency:** \"just landed\" describes a new arrival and is not scarcity or a countdown.\n- **Slop:** no banned words, no em-dashes, no exclamation points, no rhetorical opener.\n- **Disclosure:** this is the brand's own account and nothing is sponsored or affiliated, so no label is needed.\n\n**Optional edit (not blocking):** \"plastic-free tea bags\" appears twice in three sentences. You could cut the first mention, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0122183,
- "seconds": 10.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa90289815c832398844e285e597f1f250d86af4ed7603e48973a19c6c567a2c",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| New tins landed for winter | Product fact (new arrivals), fine |\n| Deep green, gold lettering | Product fact, fine |\n| \"same plastic-free tea bags inside\" | Allowlisted: tea bags are plastic-free |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted: plastic-free and home compostable |\n\n**Claims-guard:** No invented stats, testimonials, superlatives, guarantees or urgency. The environmental claims (plastic-free, home compostable) are on the brand's backed-up list, so they pass.\n\n**Slop-guard:** No banned vocabulary, no em-dashes, no exclamation points, no rhetorical-question opener. The opening sentence leads with a fact (new tins). One weakness is not a rule violation: the draft says \"plastic-free tea bags\" and then repeats \"plastic-free\" in the next sentence. That is redundant, so the second sentence could be tightened (rewrite rule 4), but it doesn't block publication.\n\n**Honest-review-rules:** Not a product review, so no ownership labelling is needed. No affiliate or sponsorship content.\n\n**Optional tidy-up:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\nThis keeps both backed claims and removes the repetition.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009388299999999999,
+ "seconds": 10.4,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e46524ffb9a98d0d3562f5d63542039618345c5164a5e94916214ccf6781c2c0",
+ "result": "**Review of the landing hero draft**\n\n**Claims checked**\n- \"Subscribers can pause or cancel any time\": on the approved list. Fine.\n- \"free UK delivery on orders over £25\": on the approved list, and the £25 threshold is stated next to the offer. Fine.\n- \"Tea that's easy to stop and start\": this is a loose paraphrase of pause or cancel any time. I'd let it through, as the policy backs the pause and cancel terms.\n- \"means most boxes ship free\": this is a problem. It implies that most orders exceed £25, which is a statistic nobody has shown. The approved claim is only that orders over £25 ship free. Presenting this as \"most boxes\" also blurs the threshold, since an order under £25 pays for delivery. It reads as a general promise of free shipping.\n\n**Fix:** drop the \"most boxes\" line and state the approved terms plainly, for example: \"Subscribers can pause or cancel any time. Delivery is free across the UK on orders over £25.\"\n\n**Style:** no clichés or filler. The copy is short and reads naturally.\n\n**Decision:** hold until the \"most boxes ship free\" claim is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111005,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

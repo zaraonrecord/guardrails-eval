@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** Short product-arrival post on the brand's own channel, so no \"Ad\" label is needed.\n\n**Sentence by sentence:**\n\n1. \"New tins just landed for winter.\" New arrivals are fine as written under the policy.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Product description. \"Plastic-free tea bags\" is an approved claim.\n3. \"Our tea bags are plastic-free and home compostable.\" Both parts are approved claims (plastic-free and home compostable).\n\n**Claims check:** Everything here is on the allowlist. There are no numbers, health claims, superlatives, guarantees, urgency or testimonials. No vague green claims: the environmental statement is specific and limited to the tea bags, which is what the policy covers. It doesn't stretch to the tins or the whole business.\n\n**Style:** Plain and specific, with no AI clichés or hype. One optional polish note: the plastic-free point appears twice in three short sentences (\"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). It's mild repetition, not a reason to hold the post. The team could merge them, e.g. \"…and the same tea bags inside, plastic-free and home compostable.\"\n\n**Decision:** Publish. Nothing needs to change; the repetition is optional.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074904,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

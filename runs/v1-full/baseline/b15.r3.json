@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e574e0597ea826caf3e203ca0c5bd751b3e6bb65ea7af68da66cc3462af218bb",
+ "result": "This draft is fine to publish.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" sits right next to the link, as section 4 requires. Nothing in the brief says the post is paid or gifted, so no \"Ad\" or \"Gifted\" opener is needed. If the creator was paid or sent free product, the post would have to open with \"Ad\" or \"Gifted\".\n- **Claims:** The draft makes no health, environmental, guarantee, urgency or numeric claims. \"Easiest to pause\" is the reviewer's own opinion, and it fits our documented \"Subscribers can pause or cancel any time\". It isn't one of our banned superlatives like \"best\" or \"number one\". \"The tins are lovely\" is also just opinion.\n- **Testimonial:** \"I've tried four tea subscriptions this year\" is the reviewer's own account, not a testimonial or statistic we've invented. It's worth confirming it's the reviewer's genuine experience.\n- **Voice and spelling:** It's plain and warm, uses no banned words, and nothing conflicts with UK spelling.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012018200000000001,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

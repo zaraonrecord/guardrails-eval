@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: paid creator post**\n\n**Read-through:** A short first-person post, opening with \"Ad\", for a paid placement.\n\n**Disclosure:** The draft opens with \"Ad\" as the first word, which is clear, upfront and prominent. It meets the requirement for a paid creator post.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"every tin is packed by hand in Bristol\". Fine.\n- \"Pebblebrook's Assam\" is a product reference, which is fine as written.\n- \"My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone\" is a personal, lifestyle description of the creator's routine. It describes an experience and makes no claim about effects on the body, so it is not a health claim.\n- \"which I love\" is clearly personal opinion, not a superiority claim.\n\n**Other checks:** No stats, guarantees, green claims, urgency, pricing or testimonials appear. The copy sounds like a real person, with no AI clichés or filler. Spelling is consistent with UK usage.\n\n**Decision:** Nothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067109,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc922395ee026fe09affc35150db2271d441be18df0bd05fe6650c1e567b357b",
+ "result": "**Review: Instagram post (own account)**\n\n**Sentence by sentence**\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact (ingredients). Allowed as written.\n3. \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\" This is a number, and it doesn't match the approved claim. The brand can back up \"4.8 out of 5 from over 1,200 reviews on our website\". \"Over 2,000\" overstates the review count by a wide margin. The rating itself and the source (the website) are correct, but the count needs to be changed.\n\n**Other checks**\n- Disclosure: own brand account, no paid creator or affiliate element, so no \"Ad\" label is needed.\n- Health, green, guarantee, urgency claims: none present.\n- Style: the copy is short, specific and has a voice. No clichés or filler.\n\n**Decision:** Hold. Fix the review count to the approved figure: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Alternatively, if the real count has now passed 2,000, the team needs to show that evidence and update the policy first.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093305,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

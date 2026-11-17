@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f21eaa97cf3ef5736fb07b7ac17d61e8a0083da3d10c43fdae144bf39af36307",
+ "result": "**Review of the product page draft**\n\nProblems found:\n\n1. **\"reduces anxiety and helps you sleep\"** is a health claim. Policy section 3 bans health claims of any kind, and \"reduces anxiety\" is named explicitly. \"Helps you sleep\" is the same kind of claim. Remove both. Describe the flavour and the caffeine-free nature instead, for example \"a gentle, honeyed, caffeine-free blend that's lovely in the evening\" (check the product team is happy with that wording).\n\nWhat checks out:\n\n- \"Certified organic by the Soil Association\" matches the allowlist exactly.\n- \"20 plastic-free tea bags\" is a product fact (cup count and tea bag description), and \"plastic-free\" matches the allowlist. The draft doesn't claim \"home compostable\", so there's nothing to check there.\n- \"Caffeine-free\" and \"honeyed\" are product facts for the product team to confirm, and fine as written.\n- No banned words, no invented numbers, no urgency, no superlatives. UK spelling is fine.\n\nSam needs to approve the revised version before it goes live, since everything public goes through Sam.\n\nNot ready to publish until the health claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006833499999999999,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

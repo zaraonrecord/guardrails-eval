@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7200f72f116e3549090caf9215df5be619ca8c14fe4acc4449c0c3b6017f12ed",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: this is on the claims allowlist, so it's fine.\n- **\"A malty, full-bodied black tea that stands up to milk\"**: flavour and brewing description, which the policy allows as written.\n- **\"100g tin, makes around 40 cups\"**: size and brewing facts, which are allowed. \"Around\" keeps the cup count appropriately hedged.\n- No superlatives, health claims, guarantees, invented stats, testimonials, fake urgency, or green claims beyond the allowlisted organic certification.\n- The copy is short and specific, with no filler phrasing.\n- The page needs no disclosure.\n\nNothing needs changing, so it's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008362000000000001,
+ "seconds": 6.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

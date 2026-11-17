@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cff18a9700d534cbf1016fc7d49fb92f63bdb200e2a3f42db5c0a7faa515ff3e",
+ "result": "**Review findings**\n\n1. **\"Rated 4.8 out of 5 from over 2,000 reviews on our website\"**: The approved claim says \"over 1,200 reviews\". \"Over 2,000\" is an invented number and doesn't match the review platform export. Change it to \"over 1,200 reviews\" (or drop the claim).\n\n2. **Earl Grey with real bergamot oil and a little cornflower**: This is a product fact, so it's fine as written (the product team checks these).\n\n3. **Voice and banned words**: \"Rainy Sunday, second pot.\" is warm, plain and unhurried. No banned phrases, UK spelling is fine, no health, green, urgency or superlative claims. No disclosure needed, as this is our own account.\n\n4. **Approval**: Everything public needs Sam's sign-off before it goes out.\n\n**Verdict:** Don't publish as is. Fix the review count to \"over 1,200\", then send to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080861,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9786a6fa134b46c7539066de3cc0f2efa23c7f878ccd439bdf872c2b56eac6c1",
+ "result": "## Publish gate report\n\n**Going out:** review blog post (affiliate), UK readers, no date given.\n\n**Checks**\n- **Claims:** \"the easiest to pause\" is a comparison against three other subscriptions, and nothing in the policy or this chat backs it up. The policy only supports \"subscribers can pause or cancel any time\". \"I've tried four tea subscriptions this year\" is a first-person claim that only the author can confirm. \"The tins are lovely\" is opinion, so it's fine.\n- **Regulated claims:** nothing on health, money, environment, children or prices.\n- **House style:** short and plain, with no AI tells. The policy has no voice section, so I couldn't score it against reference writing.\n- **Disclosure:** this fails. \"(Affiliate link)\" comes at the very end, after the reader has read the recommendation. UK rules expect the label upfront, before the reader engages, in plain words. It should also appear next to the link itself.\n\n**Fixed (suggested rewrite, not yet approved)**\n> Affiliate disclosure: I earn a commission if you buy through links in this post.\n>\n> I've tried four tea subscriptions this year. Pebblebrook lets you pause any time, and I found it simple to do. The tins are lovely. You can find it here (affiliate link).\n\n- Moved the disclosure to the top in plain words, and kept a label at the link.\n- Replaced the unprovable \"easiest\" with the policy-backed \"pause any time\" plus the author's own experience.\n\n**Needs a decision**\n1. Can the author confirm they really tried four subscriptions this year? If not, cut that sentence.\n2. Was the product gifted or was the author paid beyond the commission? If so, the disclosure must say that too.\n3. If the author wants to keep \"easiest to pause\", they need a source, such as a side-by-side of how each service handles pausing.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact final text above. Nothing should be published until you've given it.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0164474,
+ "seconds": 15.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

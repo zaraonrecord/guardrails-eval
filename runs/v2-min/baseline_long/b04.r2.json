@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6fb41861bf695f6e0649c11e760f98a9931113ebf99409bc92e0f694e6f6428c",
+ "result": "**Review: Assam Breakfast product page**\n\nSentence by sentence:\n\n- \"Assam Breakfast.\" Product name, fine.\n- \"A malty, full-bodied black tea that stands up to milk.\" Flavour and brewing description. Product facts are fine as written, and this is description, not a health or superiority claim.\n- \"Certified organic by the Soil Association.\" On the brand's approved claims list, so fine.\n- \"100g tin, makes around 40 cups.\" Size and brewing facts are product facts, and \"around\" hedges the cup count appropriately.\n\nMissing items: no labels, offers, urgency, reviews, guarantees or health or environmental claims appear, so nothing needs a qualifier nearby. The copy is short, specific, and free of clichés or filler. Spelling is neutral and fits UK usage.\n\nNo problems found. This can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056803,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

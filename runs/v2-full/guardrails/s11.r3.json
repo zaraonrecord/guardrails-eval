@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6a815a42e40bae328f682f7f334bbdc160b0b35982698d3437b7769328fbdc1f",
+ "result": "## Publish gate report\n\n**Going out:** Social ad, own account, UK. No date or audience was given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy row (shipping policy). The three teas and the \"after lunch\" line are product facts, which are fine as written. There are no stats, ratings, testimonials or superlatives.\n- **Regulated claims:** The ad touches prices and offers, so I checked it. \"While stocks last\" is the only problem (see below). There are no health, green or guarantee claims.\n- **House style:** Warm, plain and unhurried, with no banned words and no AI tells. The \"three teas\" list is just the product line-up, not a rhetorical triple. Score is about 92/100, and no rewrite is needed.\n- **Disclosure:** Paid social ads from our own account are marked by the platform, so no extra label is needed.\n\n**Needs a decision**\n- **\"while stocks last\"** adds scarcity the policy doesn't support. Section 3 bans urgency that isn't true, and no real offer or stock limit is on file. It also changes the free-delivery claim, which the shipping policy states without that condition. Free delivery doesn't run out with stock. **Suggested fix:** delete the phrase, so the ad ends \"Free UK delivery on orders over £25.\"\n\n**Suggested final copy**\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Approver:** Sam (marketing lead). Please get an explicit yes from Sam on the final wording above. I haven't recorded an approval, and approval of the original draft wouldn't cover the edited version.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127555,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

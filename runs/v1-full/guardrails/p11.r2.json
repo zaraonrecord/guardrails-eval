@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5256bc66e9eeccd4feb90e249586c6b6951eae72a80d3edbb450eb08885501ee",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad from Pebblebrook's own account, UK audience. Timing not specified.\n\n**Checks**\n\n1. **Claims**\n   - \"9 out of 10 customers reorder within a month\": not on the policy claims list and no source given in this chat. It is an invented stat. Remove it, or supply the data and add it to the policy.\n   - \"Free UK delivery on orders over £25\": on the policy list (shipping policy). Fine.\n   - Product facts (Builder's, Earl Grey, peppermint): fine as written. The product team covers these.\n\n2. **Regulated claims:** Touches prices/offers only via the delivery line, which matches the policy. No health, green or urgency claims. \"A peppermint for after lunch\" is a serving suggestion, not a health claim.\n\n3. **House style:** No banned words. Voice is plain and warm, which suits the brand. \"Three teas for your desk drawer\" is fine. No AI tells I'd flag. The copy is a little list-like but not slop.\n\n4. **Disclosure:** Own-account paid social ad, which the platform marks. No extra label needed.\n\n**Fixed (proposed):** Remove the reorder stat. Suggested copy:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision:** If the team has real reorder data, send it with its source and date so it can be added to the policy before use. Otherwise the cut version above is ready.\n\n**Approver:** Sam (marketing lead). Approval is needed for this exact final copy. The original draft should not go out as written, so nothing is approved yet.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107975,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a085621896e691b72a6b4d869b635ad63b85891d9435a2945af442b61164858f",
+ "result": "**Publish gate report: newsletter**\n\n**Going out:** a short newsletter item about the Darjeeling first flush, announcing it in the shop from Monday. Audience is UK subscribers.\n\n**Checks**\n- **Claims:** There are no numbers, rankings, guarantees or testimonials. The garden location, the March picking and the \"bright and floral\" taste are product facts, and the policy says the product team has checked those. \"In the shop from Monday\" is a new-product arrival, which the policy also covers. It isn't a countdown or a stock-limited claim, so it isn't fake urgency.\n- **Regulated claims:** There is nothing on health, money, legal outcomes, the environment, children or prices.\n- **House style:** The voice is warm, plain and unhurried. None of the banned words appear, and there are no AI tells such as stock openers, reversals or slogan closers. Spelling is fine. I'd score it about 90 and made no changes.\n- **Disclosure:** The item isn't an ad, sponsorship, affiliate link, gifted product or endorsement, so no label is needed.\n\n**Fixed:** Nothing. I left the copy as written.\n\n**Needs a decision:** Nothing is unresolved. Please confirm that \"Monday\" is the correct launch date and that the tea is actually going on sale then, since the product team's sign-off covers the facts but not the date.\n\n**Approver:** Sam (marketing lead), for everything public. I haven't recorded an approval. Sam needs to say yes to this exact text, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104573,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n- **\"Unlock your tea journey.\"** This is a generic, filler marketing phrase. It says nothing about brewing and doesn't match the practical tone of the rest of the email. I'd cut it or replace it with something concrete, such as \"Here's how to brew loose leaf with what's already in your kitchen.\"\n- **Brewing advice** (mug, small sieve, four minutes for black tea, shorter and cooler for green): this counts as product and brewing information, so it's fine as written.\n- **Claims check:** there are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. Nothing conflicts with the claims allowlist.\n- **Sign-off and greeting:** both are fine.\n\nThe draft needs that one line changed before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011371999999999998,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

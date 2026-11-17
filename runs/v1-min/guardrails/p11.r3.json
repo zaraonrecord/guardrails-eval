@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9eafb116d10fed1ca2291cf2bdfbd4d502e3ad231fa0aea3467f62479d9c7c35",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad on the brand's own account, UK audience. Approver: none named in the policy, so the user.\n\n**Checks**\n\n1. **Claims**\n   - \"9 out of 10 customers reorder within a month\": not on the policy list and no source given in this chat. Unproven, so it comes out or becomes `[PROOF NEEDED: reorder-rate data, time window and customer base]`.\n   - \"Free UK delivery on orders over £25\": on the policy list. Fine.\n   - Tea names and the \"peppermint for after lunch\" line are product facts. Fine.\n\n2. **Regulated claims:** Nothing on health, money, environment, children or pricing beyond the delivery threshold, which is on the list. Pass.\n\n3. **House style:** The copy is short and plain. Nothing from AI-tell patterns. No voice or banned-word list was supplied beyond the claims, so I can't score voice precisely, but nothing stands out. \"Three teas for your desk drawer\" is fine.\n\n4. **Disclosure:** This is a paid social ad. The policy and UK rules (ASA/CAP) expect it to be clearly labelled as an ad, upfront. The draft has no label, and I'd rely on the platform's own ad or paid-partnership label being applied. If this is posted as an ad format, confirm the platform label is on. If it's an organic-looking post, it needs \"Ad\" at the start. Flagged.\n\n**Fixed (suggested rewrite):**\n> Ad: Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- If the reorder figure is real, send me the source (data, date range, definition of \"reorder\") and we can add it to the policy. My suggestion: drop it for now.\n- Confirm the ad label method (platform tool and/or \"Ad\" prefix).\n\n**Approval:** Not given. Nothing should be published until the user says yes to the exact revised text above. Original draft is not cleared.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}, {\"quote\": \"Three teas for your desk drawer.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0103584,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

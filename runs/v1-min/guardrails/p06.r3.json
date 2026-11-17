@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9cab8322e961c44cff491bc556712598ca2fa002839fcdfd1ba860cc24dc89a9",
+ "result": "# Publish gate report\n\n**Going out:** blog intro, Pebblebrook Tea Co., UK audience. Not scheduled; awaiting approval.\n\n## Checks\n\n**Claims**\n- \"started Pebblebrook in Bristol in 2019\": on the policy list (founded in Bristol in 2019). Pass.\n- \"tea bags are plastic-free and home compostable\": on the policy list. Pass.\n- \"we couldn't find tea bags without plastic in them\": an origin story claim, not on the list. It's the founders' own account, so low risk, but someone on the team should confirm it's accurate.\n- \"our whole business is carbon neutral\": not on the policy list and no source given. This is a broad environmental claim, and regulators (the UK ASA and CMA) challenge these most. Unproven.\n- \"Here's how we checked\": promises evidence the copy doesn't supply, and there's nothing in the policy backing a carbon neutral audit. It reads as a lead-in to proof that doesn't exist.\n\n**Regulated claims (environment)**\n- \"carbon neutral\" for the whole business is a company-wide absolute claim. It needs verified evidence covering scope, methodology and any offsetting. Without that, remove it. Sign-off should come from whoever the policy names for environmental claims; the policy names no one, so the user decides.\n\n**House style**\n- Voice is plain and fine. \"Here's how we checked\" is a slightly stock teaser, but it goes anyway once the carbon claim goes. Score around 85.\n\n**Disclosure**\n- No ad, sponsorship, affiliate or gifted content. No AI-generated imagery. Pass.\n\n## Fixed (suggested rewrite)\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, and every tin is packed by hand in Bristol.\n\n- Removed \"our whole business is carbon neutral\" (unproven, broad green claim).\n- Removed \"Here's how we checked\" (it pointed to proof that doesn't exist).\n- Added the hand-packed-in-Bristol line from the policy list as a replacement, optional.\n\n## Needs a decision\n1. Do you have evidence for \"carbon neutral\" (a third-party certification, a footprint report, and how offsets are handled)? If so, share it and name the scope, e.g. \"our tea bags' packaging\" rather than \"whole business\". Until then I suggest leaving it out.\n2. Confirm the origin story is accurate.\n\n## Approver\nThe policy names no approver, so I need an explicit yes from you on the exact final text above. I haven't recorded any approval, and the draft shouldn't be published as written.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012325200000000001,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

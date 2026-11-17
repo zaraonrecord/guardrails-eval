@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2fac34dcc1ebb02bb7d9b82594253a1472d9e97e0c1460a5f0c8ee251ff8e54e",
+ "result": "**Publish gate report**\n\n**Going out:** Creator post (gifted), Pebblebrook winter sampler, UK audience.\n\n**Checks**\n- **Claims:** No stats, rankings, guarantees, testimonials or health or green claims. \"Lovely with oat milk\" is the creator's own taste opinion, and the sampler and rooibos chai are product facts. Pass.\n- **Regulated claims:** Nothing touching health, money, environment, children or prices. Pass.\n- **House style:** No banned words, no AI tells, and the tone is warm and plain. Pass.\n- **Disclosure:** Policy section 4 requires gifted posts to start with \"Gifted\", and this one does. Pass. \"Not paid to say that\" is fine only if no money, commission or affiliate link is involved beyond the free sampler. The \"Gifted\" label already covers the free product, so this is just worth confirming with the creator.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Please confirm with the creator that there is no payment or affiliate arrangement, so \"Not paid\" stays accurate.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to this exact text before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0117333,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04237fceb3f2f219462023db2cc1ae41af85c508a891e1c15884c8fa194bc9c8",
+ "result": "**Claims list**\n- \"Our Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients), fine as written.\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": allowlisted, and the wording matches the brand policy, including the source (\"on our website\").\n- \"Rainy Sunday, second pot\": scene-setting, not a claim.\n\n**Slop check**\n- No banned words or structures: no exclamation points, no rhetorical opener, no em-dash sandwiches, no fake urgency.\n- The opening is concrete and in voice.\n\n**Other checks**\n- No health, green, price, delivery or comparison claims.\n- No invented testimonials or stats.\n- No affiliate or sponsorship issue. This is the brand's own post about its own product.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081553,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

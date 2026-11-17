@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6d58054b0a3990be4ead26beb62685908d986dff4575470549ada16faa9ff22e",
+ "result": "# Publish gate report\n\n**Going out:** About page copy, Pebblebrook Tea Co., UK audience. No date given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list. |\n| \"has become Bristol's favourite tea\" | **Unproven superlative.** Not on the policy list, and no survey or ranking was provided. |\n| \"a small team of six\" | Team size is a product fact the policy allows as written. |\n| \"every tin is packed by hand in Bristol\" | On the policy list. |\n| \"We buy from gardens we've visited\" | Origins are allowed as written, so I've left it. Please confirm it's literally true of all your teas, because \"gardens\" is plural and general. |\n\n**Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or pricing.\n\n**House style:** The copy is plain and specific, with no banned words or AI tells. I scored it about 90 and changed nothing for style.\n\n**Disclosure:** An about page has no ad, sponsorship, affiliate or AI labelling requirement.\n\n**Fixed:** I removed \"and has become Bristol's favourite tea\". Here is the revised copy:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\nIf you have a real source for the \"favourite\" claim, such as a named local poll or award with a date, send it and I'll restore it with that wording. Without one, it stays out.\n\n**Needs a decision**\n1. Confirm that you've visited the gardens you buy from. My suggested answer is to keep the line if that's true, or say \"many of the gardens we buy from\" if it isn't.\n2. The policy names no approver for this kind of content, so I need an explicit yes from you on the revised text above. The original draft is not approved, because the superlative is still in it.\n\n**Approver:** You, as the user, since the policy names no one else. I haven't recorded any approval and won't until you say yes to the exact revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015817300000000003,
+ "seconds": 23.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "I checked the draft sentence by sentence against the brand policy and found nothing that needs changing.\n\n- **\"the Christmas blend is back\"**: This is a product availability statement. It isn't a superlative, a promise or a number.\n- **\"Black tea, orange peel, cinnamon and a little clove.\"**: Ingredients are product facts, which the product team checks and which are fine to use as written. There is no health or flavour-benefit claim.\n- **\"It's back in the shop from today.\"**: This is a plain statement of availability. It has no countdown, no \"only X left\" and no \"today only\" deadline, so it isn't false urgency.\n- **Labels**: This is the brand's own newsletter, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed. There are no affiliate links or creator content.\n- **Voice**: The copy is warm, plain and unhurried. It has no banned words, no AI clichés and no repetition, and the spelling is consistent with UK English.\n\nIt can go out. Per the policy, Sam (marketing lead) still needs to approve everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009310699999999998,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

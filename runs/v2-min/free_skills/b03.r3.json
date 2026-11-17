@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "85d47a2a0023ca749e483395089bca722010053852985ce53fea9be32628b6a9",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" (headline) | Allowlisted: certified organic by the Soil Association; loose leaf is a product fact |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Slop check:** No ban-list words, no exclamation points, no rhetorical opener, no dash sandwiches. The opening is a plain fact.\n\n**Ad checks:**\n- Platform policy: nothing on health, finance or personal attributes.\n- Landing page consistency: the page must also state the organic certification and the £25 free delivery threshold. I can't verify that from here, so confirm before publishing.\n- Character limits: none were given, so I haven't counted against a limit. Headline is 24 characters, description is 85 characters, if you need them for a standard RSA (30 / 90).\n\n**Verdict:** Nothing in the copy needs changing. Every claim is on the brand's allowlist, and the wording matches it without strengthening it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064373,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

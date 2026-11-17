@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d383b60b8198766ebf934fc5a1cc22459b0e53eb8894878dad99137be5c7a7b3",
+ "result": "One line needs changing before this goes out.\n\n- **\"selling fast\"**: This implies scarcity and demand, but nothing in the brand policy or claims allowlist backs it up. Unless you have real sales or stock figures to point to, it reads as manufactured urgency. Cut it, or replace it with something factual, such as \"available while stocks last\" if that's true.\n\nThe rest is fine. The blend contents (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" count as product facts and new-arrival news, which the policy allows as written. There are no stats, superlatives, health claims, green claims, or guarantees, and nothing needs a disclosure.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011012000000000001,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

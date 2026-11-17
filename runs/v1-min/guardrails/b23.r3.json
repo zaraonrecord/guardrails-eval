@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eb38210988f6e2fa4328f80e33c552a9b8d9fad1c73fdbe699fec96b65b34c31",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** Product page copy for Rooibos Chai (100g tin), UK audience. No date given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. \"Caffeine-free\", the spice list, \"Lovely with milk\" and \"100g tin\" are product facts (ingredients, flavour, size), which the policy allows as written. Rooibos is naturally caffeine-free and none of the spices contain caffeine. Black pepper is not tea, so \"caffeine-free\" holds as long as the blend has no black tea or other caffeinated ingredient.\n- **Regulated claims:** Nothing touches health benefits, money, environment, children or pricing. \"Caffeine-free\" describes the product's composition and doesn't promise a health effect, so it's low risk.\n- **House style:** It's short, plain and specific. It has no banned-word or AI-tell patterns (no stock openers, intensifiers or slogan closers). No rewrite needed.\n- **Disclosure:** It isn't an ad, sponsorship, affiliate or gifted content, and it isn't AI-labelled content, so no label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved. As a quick check, confirm that the recipe really is rooibos plus the four spices only.\n\n**Approver:** The policy names no approver for product page copy, so I need an explicit yes from you to publish this exact text. Once you give it, record the approval yourself, or tell me to run it in this chat under your name.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0123029,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

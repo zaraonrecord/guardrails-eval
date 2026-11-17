@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b2ff1fa35413fd517b3b0bbe029dc0e748ed9528279b1935516672afc4ebe8b1",
+ "result": "**Review: Assam Breakfast product page**\n\n**Issue found**\n\n1. **\"boosts your immunity through winter\"** is a health claim. The brand policy bans health claims of any kind, and \"boosts immunity\" is named specifically. Fix: remove it. If you want a winter angle, use something descriptive such as \"a warming cup for cold mornings.\"\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\" matches the approved claim word for word.\n- \"100g tin, makes around 40 cups\" is a product fact (tin size and cup count), so it's fine as written.\n- \"A malty, full-bodied black tea that stands up to milk\" is flavour and brewing description, which is fine.\n- Tone is plain and warm, with no banned words or AI clichés. UK spelling is fine.\n- No urgency, guarantees, superlatives, or invented numbers.\n\n**Decision:** hold until the immunity claim is removed. Everything else can stay. It then needs Sam's sign-off, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065696,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

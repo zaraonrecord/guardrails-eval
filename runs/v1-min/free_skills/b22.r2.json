@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa90289815c832398844e285e597f1f250d86af4ed7603e48973a19c6c567a2c",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new arrivals), fine |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Banned vocabulary and structure:** No ban-list words, em-dash sandwiches, exclamation points, rhetorical openers or fake urgency.\n- **Opening line:** It leads with the news, which is what it should do.\n- **Environmental claims:** Both are on the allowlist exactly as worded, with no upgrade to \"eco-friendly\" or \"zero waste\".\n- **Statistics, testimonials, superlatives, guarantees, health claims:** None.\n- **Disclosure:** Nothing is needed. It's your own account and there's no affiliate link, sponsorship or gifted product.\n\n**Optional tidy-up (not a blocker):** \"plastic-free\" appears twice in three short sentences. If you want it tighter, cut the last sentence, or drop \"plastic-free\" from the second one and keep the compostable line as the payoff. For example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\nNothing needs changing, so it's fine to publish as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0112662,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

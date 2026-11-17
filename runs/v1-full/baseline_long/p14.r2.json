@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "499dce71413ded83d0646a70f20ef56866270ad4c46741c26e1d3c11712a1c79",
+ "result": "**Review of the affiliate blog draft**\n\n**Problem: missing affiliate disclosure**\n- \"You can find it here\" is the affiliate link, and nothing tells the reader it is one. Brand policy section 4 requires the words \"Affiliate link\" next to the link. The checklist also says the disclosure should be visible before the reader clicks. Without it, a reader could take this as an independent recommendation with no commercial tie.\n- **Fix:** put \"Affiliate link\" right beside the link, and consider a short line at the top of the post, such as \"This post contains an affiliate link.\"\n\n**Claims checked, no problem**\n- \"Pebblebrook's was the easiest to pause\": this is a personal opinion in a first-person review, and it fits the approved claim that subscribers can pause or cancel any time. It isn't a superlative claim by the brand. The writer should have actually tried the subscriptions, which the editor can't verify.\n- \"the tins are lovely\": a subjective opinion, with no factual claim.\n- \"I've tried four tea subscriptions this year\": a personal statement from the reviewer, not a brand statistic. It should be true, so the author should confirm it.\n- No health, green, guarantee, urgency or invented-number claims appear.\n\n**Style**\n- The copy is plain and warm and has no banned words. It is also very thin for a review, but that is a content note, not a blocker.\n\n**Decision:** hold until the affiliate label is added.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0126507,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

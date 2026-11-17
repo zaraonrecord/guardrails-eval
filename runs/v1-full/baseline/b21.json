@@ -1,10 +1,14 @@
 {
  "case": "b21",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"Founded in Bristol in 2019\"** is an allowlisted claim (Companies House), and the wording matches.\n- **\"a small team of six\"** is team size, which the product team checks and which is fine to use as written.\n- **\"every tin is packed by hand in Bristol\"** is an allowlisted claim (Operations), and the wording matches.\n- **\"We buy from gardens we've visited.\"** is a sourcing statement with no number, superlative, guarantee, health claim or environmental claim. It sits close to the product facts about where tea is grown, so I've treated it as fine. It's worth a quick confirmation with the product team that it's accurate, because it isn't in the claims table.\n- **Voice:** the tone is warm, plain and unhurried, and there are no banned words. The spelling is UK-compatible.\n- **Disclosure:** none is needed, as this is our own about page.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.012002099999999998,
- "seconds": 11.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fddb9596efed8b7088d5ced57fafc17e77f7b1beaeb5d759cd98dba6f05160fe",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the allowlist (Companies House). It's fine, though the full brand name is \"Pebblebrook Tea Co.\"\n- **\"We're a small team of six.\"** Team size is a product-team fact and fine to use as written.\n- **\"every tin is packed by hand in Bristol.\"** This matches the allowlist exactly (Operations). It's fine.\n- **\"We buy from gardens we've visited.\"** This is a sourcing claim, and it isn't in the claims allowlist or the product-fact categories. Nothing on file shows that every garden has been visited. It reads as a promise about how all the tea is sourced. It needs proof from the product team or operations, or it should be removed or reworded to something verified, such as naming a specific garden the team has visited.\n- **Voice and spelling:** The tone is warm, plain and unhurried. There are no banned words, and nothing needs changing for UK spelling.\n- **Other checks:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or urgency. No disclosure label is needed.\n\nHold it until the garden-visits line is confirmed or changed, and Sam needs to approve it as public content.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098858,
+ "seconds": 14.2,
  "models": [
   "claude-sonnet-5-5"
  ]

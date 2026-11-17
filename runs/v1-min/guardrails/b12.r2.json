@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8082e5b70357729b0dab53a4ed21aabd9afc4b77a90a5abceb973e24e0978246",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad on the brand's own account. Three teas (Builder's, Earl Grey, peppermint) with the free delivery offer. UK audience.\n\n**Checks**\n- **Claims:** Pass. \"Free UK delivery on orders over £25\" is on the policy's claims list, with the threshold stated as written. The tea names and the \"after lunch\" suggestion are product facts and fine as written. There are no stats, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** Pass. There are no health, money, environmental, children's or price-comparison claims. \"Peppermint for after lunch\" is a serving suggestion, not a digestive benefit, so keep it that way if the copy is edited.\n- **House style:** Pass. It's short, concrete and plain, with no stock openers, intensifiers or slogan closers. The list of three is literally three teas, so it isn't an AI tell. The policy gave no voice words, so I judged against the banned-pattern list only.\n- **Disclosure:** Pass. This is the brand's own ad on its own account, so it is clearly the brand speaking. There are no creators, affiliate links, gifted products or AI-generated imagery in the text. If it runs as paid promotion, apply the platform's own \"Sponsored\" or \"Ad\" label. I can't see the creative, so if the image is AI-generated and realistic, check whether it needs a label.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing in the copy. Confirm the visual and the link destination: the landing page must also show free delivery over £25.\n\n**Approver:** The policy names no approver, so the user (you) gives the explicit yes for this exact text. I haven't recorded any approval. Once you say yes in this chat, you can record it with `approve.py --by \"Your Name\"`. Any change to the copy after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0169373,
+ "seconds": 17.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

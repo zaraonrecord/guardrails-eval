@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3a578d4585c3df0e63dc42163f31e5301962e5f4269c5b20c95c92ebdc0d2644",
+ "result": "**Review of the \"A new green tea\" email**\n\n**Claims check:** The sencha being new, its flavour (\"Grassy and a little sweet\") and the brewing temperature (\"around 70 degrees\") are product facts, which the policy allows as written. There are no stats, health claims, green claims, guarantees, urgency or testimonials. An own-channel email needs no ad label. The subject line matches the content.\n\n**Style:**\n- \"It's not just tea, it's a ritual.\" This is the \"not just X, it's Y\" formula, a stock marketing line that says nothing about this tea. It's generic and sounds machine-written. Cut it, or replace it with something specific, such as where the sencha comes from or what the first cup tastes like.\n\nThe rest is plain and in a human voice. Once that sentence is fixed, the email is fine to send.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077713,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

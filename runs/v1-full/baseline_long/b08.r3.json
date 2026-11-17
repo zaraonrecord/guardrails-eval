@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\n**Claims check**\n- \"Subscribers can pause or cancel any time\": matches the approved claim in the brand policy (subscription terms). Fine.\n- \"free UK delivery on orders over £25\": matches the approved wording (shipping policy). Fine.\n- \"means most boxes ship free\": this is a problem. The policy doesn't support it, and nothing shows what share of orders or subscription boxes come to more than £25. It is an unsourced statistic dressed up as a benefit. It also muddies the threshold: if a box costs under £25, it doesn't ship free. \"Boxes\" also isn't how the policy describes the products (tins and tea bags), so the word may not match what customers receive.\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims or urgency.\n- Voice is warm, plain and unhurried, uses UK spelling and has none of the banned words. \"Easy to stop and start\" is a little loose, but acceptable as a headline-style line.\n- No labels are needed for a brand-owned landing page.\n\n**Fix:** Cut the \"most boxes\" claim and state the approved terms as written. For example: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free across the UK on orders over £25.\"\n\nHold the draft until that phrase is changed. It will need Sam's approval before going public.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010542099999999999,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

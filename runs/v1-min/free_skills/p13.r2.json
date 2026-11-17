@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6cabe193a5b54f3c8f77a45faef4aaf6d704608d8ef24aee0ad6ef6c41fbcdd1",
+ "result": "**Verdict: don't publish yet. The disclosure needs fixing.**\n\n**Product label**\n- Winter sampler (rooibos chai): Tried. The writer received it and has used it. \"Lovely with oat milk\" is a hands-on claim, which Tried allows. If they haven't actually drunk it, that line has to go.\n\n**Problems**\n1. **Gifted disclosure is unclear.** \"Pebblebrook sent me their winter sampler\" doesn't say the product was gifted, or that there's a brand relationship. A gifted product should be labelled plainly where it first appears. In the UK, ASA/CMA guidance expects a clear label such as \"Gifted\" or \"#ad / gifted by Pebblebrook\" at the very start, not just a mention that it was sent.\n2. **\"Not paid to say that\" is misleading.** A free product is a payment in kind, and the line implies there's no commercial relationship. Cut it, or reword it to \"Gifted, but my opinion is my own.\"\n\n**Fine as written**\n- There are no invented stats, superlatives, guarantees, health or green claims, urgency, or slop vocabulary.\n- The product detail (rooibos chai, winter sampler) falls under product facts, which are allowed.\n\n**Suggested compliant version:**\n> Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. I wasn't asked to say anything specific, and the opinion is mine.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012591600000000001,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

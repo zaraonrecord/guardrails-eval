@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "36deb4e6cea91ab33651a9da5cf1bc4354e77d85b41aab918b6afe5c1279aa63",
+ "result": "**Not ready to publish. Two problems.**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"easy to stop and start\" | Soft description of the pause/cancel terms. Fine. |\n| \"you'll love it or it's free\" | **Unsupported.** Section 3 names this as an offer we don't have. It is a guarantee. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n| \"most boxes ship free\" | **Unsupported.** We have no data on order sizes, so \"most\" is an invented figure. It also implies something the shipping policy doesn't say. |\n\nOther checks:\n- **Banned words and structures:** none found.\n- **Urgency and health claims:** none.\n- **Disclosure:** none needed. This is our own page copy.\n- **Spelling:** UK, fine.\n\n**Compliant version:**\n\n> Tea you can pause or cancel any time. Subscribers can stop and start whenever they like, and delivery is free in the UK on orders over £25.\n\nSam still needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010461,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

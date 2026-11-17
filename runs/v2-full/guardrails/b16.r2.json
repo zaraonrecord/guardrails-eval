@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "29bfb1dfc6a244f251cac004309c8eaea1aabd4d7707d6e9f46c1643a1503c29",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. website, UK audience. No send time was given.\n\n**Checks**\n- **Claims:** Pass.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. The proof is the October 2026 review export, so it is current.\n  - \"Organic\" is backed by the Soil Association certificate (renewed 2026).\n  - \"Plastic-free bags\" is backed by the supplier certificate (EN 13432).\n  - \"Packed by hand in Bristol\" is backed by the operations row.\n- **Regulated claims:** Pass. The copy has no health, money, legal, children or price claims. \"Plastic-free\" is a specific claim on the allowlist, not a broad green claim.\n- **House style:** Pass, roughly 90/100. It is plain and unhurried, with no banned words and no AI tells.\n- **Disclosure:** Pass. This is the brand's own page, with no sponsorship, affiliate link or AI-generated content to label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision (optional, not blocking):** The policy row says \"Every *tin* is packed by hand in Bristol.\" The draft's \"packed by hand\" follows both the loose leaf and the bags. If the bags are not hand-packed, change it to something like \"Organic loose leaf, hand-packed in Bristol, and plastic-free bags.\" If they are hand-packed, no change is needed. Please confirm with operations.\n\n**Approver:** Sam (marketing lead). This is cleared on the checks, but it is not approved until Sam says yes to this exact copy. Once Sam has said yes in this chat, I can give you the approval command to record it. I haven't recorded anything.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0153053,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

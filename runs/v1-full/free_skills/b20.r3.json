@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1c0c7acafd203952a77c7ed8b11e58332f1f260b9df1571ea0b43a56b5ae0742",
+ "result": "**Verdict: clean, OK to publish.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine as written |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy), exact wording |\n| \"Tea Subscription UK\" | Descriptive keyword headline, no claim. UK matches our only market. |\n\n**Other checks**\n- No superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency.\n- No banned voice words or AI-tell structures. It is plain and matches the brand voice.\n- No disclosure is needed, since this is our own account's ad and not a creator partnership or affiliate link.\n\n**Notes (not blockers)**\n- **Length:** you gave no character limits, but the description is about 102 characters. If this is a Google responsive search ad, descriptions are capped at 90, so it would need trimming or splitting into two descriptions. The platform would likely reject it as written. The headline is about 19 characters, which is fine.\n- **Landing page:** the pause/cancel and free delivery claims must also appear on the landing page. I can't see the page, so please confirm before launch.\n- **Approval:** Sam (marketing lead) needs to sign off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0139385,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

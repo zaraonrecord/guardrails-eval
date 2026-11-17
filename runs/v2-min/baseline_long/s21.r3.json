@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "013081c75201ef6547831ffcc7165a05301eec06feab98763451ddbd81c4e38e",
+ "result": "**Review: search ad**\n\nSentence by sentence:\n\n1. **\"Plastic-Free Tea Bags\"**: On the approved claims list (tea bags are plastic-free). Fine.\n2. **\"Our tea bags are plastic-free and home compostable.\"**: Both parts are on the approved list. Fine.\n3. **\"Recommended by nutritionists.\"**: This is a professional endorsement claim. It isn't on the allowlist, and there's no evidence of documented endorsements from verifiable nutritionists. It also edges toward a health or wellbeing implication for a food product. Unsupported, so it must come out. Short search copy is no excuse for skipping evidence.\n\nStyle: the copy is plain and specific, with no clichés. No ad-label issue, since a search ad is a recognised paid placement on the platform.\n\n**Fix:** Delete \"Recommended by nutritionists.\" If you need a second line, use an approved claim, e.g. \"Certified organic by the Soil Association. Free UK delivery over £25.\"\n\nDecision: hold until the nutritionist line is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008536499999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

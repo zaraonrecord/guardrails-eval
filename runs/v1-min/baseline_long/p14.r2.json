@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "09a48783e859564d9bc317399c01353e934d29ac7bf93103ea1e76cba897464c",
+ "result": "**Review of the affiliate blog draft**\n\n**Claims check**\n- \"I've tried four tea subscriptions this year.\" Personal experience, first-person opinion. Fine, assuming it's true for the author.\n- \"Pebblebrook's was the easiest to pause.\" Brand policy says subscribers can pause or cancel any time, so pausing is supported. \"Easiest\" is a comparison, but it is clearly the reviewer's own opinion based on their own experience of four subscriptions, not a brand claim of superiority. Acceptable as a personal view.\n- \"the tins are lovely.\" Opinion/description. Fine.\n\n**Disclosure**\n- \"You can find it here.\" This is an affiliate link, and nothing before it tells the reader. The draft has no affiliate disclosure at all, neither at the top nor next to the link. Readers must see a plain-words disclosure before clicking (e.g. \"This post contains affiliate links, so I may earn a commission if you buy through them.\"), placed at the top or beside the link. This is the one thing that must change.\n\n**Style**\n- Short, specific and in a personal voice. No clichés or filler.\n\n**Decision:** Hold. Add a clear affiliate disclosure at the top of the post (and ideally next to the link), then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073799,
+ "seconds": 16.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

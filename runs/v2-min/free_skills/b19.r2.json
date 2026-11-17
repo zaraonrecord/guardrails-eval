@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f01584fb745d2372387df5f80520c1ff8175c6719e83932aa3b785d80a8c617d",
+ "result": "The draft is clean and can go out as written.\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written under the brand policy.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- \"You don't need any kit\": a practical statement, not a performance or comparison claim.\n\n**Claims guard:** No invented stats, superlatives, guarantees, testimonials, health, environmental or urgency claims. Nothing sits in regulated territory.\n\n**Slop guard:** No banned words, no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\" construction, no abstract-noun triads. The first sentence states the useful point directly, and the sentences are short and concrete.\n\n**Honest review rules:** This is a how-to email, not a product review, and it has no affiliate links or sponsorship, so no disclosure is needed.\n\n**Optional, not blocking:** The email has no call to action or link. That is a copy choice, not a compliance issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086625,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

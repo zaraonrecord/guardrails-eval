@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "934bcfe4f91bb06bba177987b430152d5a949f38efd96fda141d473eb596ad39",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Search ad (headline + description), UK audience. Timing not stated.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" (headline) | Supported by \"Certified organic by the Soil Association\" (certificate on file, renewed 2026); loose leaf is a product fact. |\n| \"Certified organic by the Soil Association\" | On policy list, exact wording. |\n| \"Free UK delivery on orders over £25\" | On policy list, exact wording. |\n\n**Regulated claims:** Touches prices/offers (free delivery threshold). It is the policy's exact wording, backed by the shipping policy, with no false urgency or countdown. No health, environmental, or children's claims.\n\n**House style:** Warm, plain, and free of banned words and AI tells. It is short and concrete. Score is about 90, so no rewrite is needed.\n\n**Disclosure:** It is the brand's own paid search ad, which the platform labels. Section 4 requires no extra label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One note: the ad's landing page should back up both claims (organic certification and the £25 free delivery threshold), since an ad can't claim more than its page supports.\n\n**Approver:** Sam (marketing lead), per section 6 (\"Everything public\"). I haven't recorded any approval. Sam needs to give an explicit yes to this exact copy before it is published. If the wording changes, it needs a fresh check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081345,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

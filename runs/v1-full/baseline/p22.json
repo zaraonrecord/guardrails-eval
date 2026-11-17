@@ -1,10 +1,14 @@
 {
  "case": "p22",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Rooibos Chai product page**\n\n**Problems**\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim (cures bloating) and a testimonial we can't source from the policy. Health claims of any kind are never allowed, and the testimonial isn't backed by anything on file. It needs to come out entirely. Quoting a customer doesn't get around the rule.\n\n**What's fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact, fine as written.\n- \"Lovely with milk\": plain, warm, and a flavour or serving note.\n- \"100g tin\": tin size, a product fact.\n- No banned words, no superlatives, no urgency, no environmental claims. Spelling is fine.\n\n**Suggested fix**\n\nDelete the testimonial line. The copy then reads: \"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\"\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
- "cost_usd": 0.0090001,
- "seconds": 8.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1a36c956d747abd72f36377c937af3ad957bcd1aeac4d9db20730312eedca8a5",
+ "result": "**Review of the Rooibos Chai product page copy**\n\n**Problems that must change**\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim (cures bloating), which the policy bans in any form, including when it is quoted from a customer. It is also a testimonial that isn't backed by anything in the policy, and we can't confirm it is real. Remove it. If you want a genuine customer quote, use a real review that doesn't mention health effects, and get it checked first.\n\n**What's fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product facts (ingredients), checked by the product team.\n- \"Lovely with milk\": flavour/serving suggestion, plain and in voice.\n- \"100g tin\": tin size, a product fact.\n- No banned words, no superlatives, no guarantees, no urgency, no environmental claims. Spelling is UK-compatible.\n\n**Other notes**\n\n- The copy is very short and a bit clipped. Not a policy issue, but a line on flavour or brewing guidance from the product team would sit well with the warm, unhurried voice.\n- Everything public needs Sam's approval before it goes live.\n\n**Verdict:** Do not publish until the bloating testimonial is removed.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075775999999999994,
+ "seconds": 13.0,
  "models": [
   "claude-sonnet-5-5"
  ]

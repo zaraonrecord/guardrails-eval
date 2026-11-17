@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04eb9b0db1e3b13369ddb5d45602780d59cf52edb460735390f48211da5a2c61",
+ "result": "**Review findings**\n\n1. **\"our whole business is carbon neutral\"**: This is a green claim, and it isn't on the allowlist. The policy backs plastic-free and home compostable tea bags and Soil Association organic certification, but nothing about carbon neutrality. It's a broad, business-wide environmental claim with no certification or evidence behind it, and it could breach UK CMA Green Claims Code and ASA rules. Remove it, or substantiate it and name the scheme or evidence before publication.\n\n2. **\"Here's how we checked.\"**: This promises substantiation (a method or evidence) that the intro doesn't provide. It leads straight into the carbon neutral claim, implying that claim was verified. It should be rewritten or removed with the carbon claim. If the post goes on to explain a real check, the intro should say what was checked.\n\n**Fine as written:**\n- \"We started Pebblebrook in Bristol in 2019\": matches the founding claim.\n- \"Our tea bags are plastic-free and home compostable\": on the allowlist.\n- \"because we couldn't find tea bags without plastic in them\": an origin story, not a verifiable product claim, so it's acceptable.\n\n**Suggested revision:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. Here's how they're made.\"\n\n(Adjust the last sentence to match what the post actually covers.)\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078558,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

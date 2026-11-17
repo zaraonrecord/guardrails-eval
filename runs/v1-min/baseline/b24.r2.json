@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "05cfef02d96f8b49f554a8c6d02d543ace05f5ec202026743e13482e360e6e4e",
+ "result": "I checked each claim in the draft against the brand policy:\n\n- \"Good tea, no fuss.\" is a casual tagline, not a claim. It's fine.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol.\"\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n\nThe copy has no invented statistics, superlatives, guarantees, testimonials, health or green claims, or false urgency. It targets UK customers, which fits the brand's market. No disclosure appears to be needed for this copy. It reads as plain and specific, not generic filler.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008168,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6ffadfa30a820043a69cc3f50c1ec92015de6d22117dc8af7ea6046124bb03c5",
+ "result": "I found one problem in this draft.\n\n- **Scarcity claim:** \"only 40 tins are left, so be quick\" is a stock-level and urgency claim, and the brand policy doesn't cover it. It also doesn't fit the rest of the copy. The tea isn't in the shop until Monday, so \"left\" implies earlier sales that haven't happened. Unless someone confirms the 40-tin figure against real stock, cut it or replace it with something factual, such as \"available from Monday\". If the figure is confirmed, say it is a limited first batch of 40 tins and drop the pressure phrase.\n\n- **Fine as written:** The Darjeeling visit, the March picking, the \"bright and floral\" taste and the Monday arrival are product facts or new-arrival news, which the policy allows.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080032,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e26fafff2970460ff13c2d924ef7dc2ac58612615678cab66afb7b5965feea12",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"The finest organic loose leaf\" | Unsupported superlative (\"finest\" is banned). Also \"organic\" is allowlisted only as \"Certified organic by the Soil Association\", so the bare word is looser than the approved wording. |\n| \"eco-friendly bags\" | Unsupported. \"Eco-friendly\" as a general claim is banned. The approved claim is \"plastic-free and home compostable\" (EN 13432). |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). Note it applies to tins, not bags. |\n\n**Other checks**\n- Slop guard: no ban-list words. Opening sentence is a fact, which is fine. The draft has no verb, so the second sentence reads as a fragment. Not a blocker, but worth tidying.\n- Disclosure: not needed. This is our own landing page, not a paid partnership or affiliate post.\n- Review platform date: the rating is from October 2026, which is current enough.\n\n**Suggested rewrite**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf tea, and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\nCleaner version of the middle line: \"Loose leaf tea certified organic by the Soil Association, and plastic-free tea bags that are home compostable.\"\n\n**Issues that stop publication:** \"finest\" (banned superlative) and \"eco-friendly\" (banned general green claim).\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009182599999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

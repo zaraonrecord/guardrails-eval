@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "336a22209599a6e1fa19f74977a6b9a7bcf9db7783578f0635cac086560e65ba",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Pause or cancel claim:** \"you can pause or cancel any time\" matches the policy's subscriber claim.\n- **Bristol:** \"left Bristol this morning\" fits our Bristol packing. It's an operational statement, not a marketing claim.\n- **Product details:** \"smoky lapsang\" and \"soft white peony\" are product and flavour facts, which are fine as written.\n- **Other risks:** There are no invented stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency. It's a plain transactional email, so no disclosure is needed, and the tone is natural.\n\nOne thing to confirm before sending: today is 17 November, but the subject says \"October tins\" and the copy says \"this morning\". If this email is going out now rather than being scheduled for the October dispatch, the month and timing will be wrong. That's a send-timing check, not a copy problem, so I haven't flagged it as an issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095687,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

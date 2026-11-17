@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b47cfbe173d4859ac213fe198633c038cb2e1faa872a4b668c53f2f068240c24",
+ "result": "**Review of search ad**\n\nChannel: search ad. Short copy still needs every claim checked.\n\nSentence by sentence:\n\n- \"Tea Subscription UK\": descriptive headline, no claim.\n- \"Monthly loose leaf tea.\": product fact, fine.\n- \"Subscribers can pause or cancel any time.\": on the approved claims list.\n- \"Free UK delivery on orders over £25.\": on the approved claims list, and the threshold matches exactly.\n\nNo superlatives, health claims, green claims, urgency, stats, testimonials or guarantees. No clichés or filler. The brand's own search ad doesn't need an \"Ad\" label beyond the platform's own marking. UK conventions are consistent.\n\nOptional polish only: the headline is plain and could be more distinctive, but that doesn't block publication.\n\nDecision: publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056705,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

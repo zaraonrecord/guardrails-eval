@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "acc4dba1a3c4330330b4e0dae16844b649c437784c31f027cf6830e479184eaa",
+ "result": "**Review of the newsletter draft**\n\n- **Product facts:** \"Black tea, orange peel, cinnamon and a little clove\" and the blend returning are product-team facts, so they're fine as written. \"From today\" just states the arrival date. It isn't a \"today only\" offer.\n- **\"selling fast\":** This implies scarcity, and nothing in the policy backs it up. We have no sales data or stock position on file, and the policy bars urgency that isn't true. Cut it. A suggestion is \"It's back in the shop from today.\"\n- **Voice and spelling:** The tone is warm, plain and unhurried. There are no banned words and nothing needs changing for UK spelling.\n- **Claims and disclosures:** I found no superlatives, guarantees, health or green claims, invented numbers or testimonials. No disclosure label is needed for our own newsletter.\n\nThe draft needs that one edit, and then it goes to Sam for approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096601,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

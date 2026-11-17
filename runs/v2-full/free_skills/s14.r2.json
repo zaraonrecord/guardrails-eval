@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1f5ba0e87eddd13ee57818d574e038accd3c98d27c906f6b419d84927dc6dfc0",
+ "result": "**Review of the gifted creator post**\n\n**Problem: missing disclosure.** The brand policy (section 4) says a gifted-product post must start with \"Gifted\" before anything else. The draft opens with \"The rooibos chai from Pebblebrook's winter sampler...\" and only hints at the gift in the closing line (\"Thanks to the team for sending it over!\"). That doesn't meet the required wording or the \"up front\" rule. Fix: begin the post with \"Gifted\".\n\n**Claims check**\n- \"lovely with oat milk\": a personal taste opinion, not a factual, health, or superlative claim. Fine, provided the creator actually tried it. The label for this product (Owned / Tried / Wishlist) isn't stated. Receiving the sampler suggests Tried, so the hands-on comment is plausible, but the creator should confirm they drank it.\n- \"rooibos chai from Pebblebrook's winter sampler\": a product fact. The product team should confirm the sampler includes a rooibos chai, as it is not listed in the policy.\n- No statistics, guarantees, superlatives, health claims, green claims, or fake urgency.\n- Voice: no banned words, no slop patterns. The \"!\" is acceptable in a casual creator post, though slop-guard discourages exclamation points in body copy. Optional to trim.\n\n**Approval:** Sam (marketing lead) must approve before it goes public.\n\n**Suggested version**\n> Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0102665,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

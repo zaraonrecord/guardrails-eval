@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list (review platform export, October 2026). The wording matches exactly, including \"on our website\". |\n| Organic | On the policy list (certified organic by the Soil Association, certificate renewed 2026). |\n| Plastic-free bags | On the policy list (plastic-free tea bags, EN 13432 certificate). |\n| Packed by hand in Bristol | On the policy list (\"Every tin is packed by hand in Bristol\"). |\n\nI'd make one small tweak if you want to be strict. The policy says \"every tin\", and the line could be read as covering the bags too. If the bags are also packed by hand in Bristol, there's nothing to do. If you're not sure, ask Operations. This isn't blocking.\n\n**Regulated claims:** nothing on health, money, legal outcomes, children, prices or offers. The environmental wording is limited to the plastic-free claim, which is backed by the certificate. There are no broad \"eco\" or \"sustainable\" claims.\n\n**House style:** warm, plain and unhurried, with no banned words and no AI tells. Score about 92/100. No rewrite needed.\n\n**Disclosure:** this is the brand's own page, so no ad, affiliate, gifted or AI label is needed.\n\n**Fixed:** nothing, no changes made.\n\n**Needs a decision:** none. The review count is from the October 2026 export, so if the reviews page has moved on, consider refreshing the number.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Sam needs to say yes to this exact copy before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015537300000000002,
+ "seconds": 15.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

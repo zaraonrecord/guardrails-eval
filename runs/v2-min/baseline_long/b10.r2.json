@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "07ef55758c184509eb9773ff188f24e2d699186578c08b8cc52c1452069e467e",
+ "result": "I read the draft as a shopper on the product page and checked each sentence against the brand policy.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name and ingredients, which the policy allows as written.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This describes flavour, ingredients and when to drink it. \"Caffeine-free\" follows from the ingredients, and \"for the evening\" is lifestyle language. It doesn't say the tea helps you sleep or relax, so it isn't a health claim.\n- **\"Certified organic by the Soil Association.\"** This is on the approved claims list.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is approved, and the count is a product fact.\n\nThe draft makes no superlatives, statistics, testimonials, guarantees, urgency or green claims beyond the approved ones. No ad label or affiliate disclosure is needed on the brand's own product page. The copy is short and specific, with no AI clichés or filler.\n\nIt's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080388,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "18e0eca5da6e2214719a242470ffda8402feceb9795527f2c9b2bdb0bab62970",
+ "result": "## Publish gate report\n\n**Going out:** Peppermint product page copy, UK, Pebblebrook Tea Co. No scheduled time was given.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy's provable list. \"Just peppermint leaves, nothing else\" is an ingredient fact, which the policy allows as written. No stats, rankings, testimonials or guarantees.\n- **Regulated claims:** \"Cool and clean after a big meal\" describes sensation and an occasion. It doesn't say the tea aids digestion, relieves bloating or treats anything, so it isn't a health claim as written. If someone later adds \"aids digestion\" or \"settles your stomach\", it would need proof and a fresh check.\n- **House style:** Short, concrete and plain, with no stock openers, intensifiers or slogan closers. The policy gives no banned list or voice words to score against, so I judged it on the AI-tell and clarity basics only. It passes.\n- **Disclosure:** This is the brand's own product page. There is no paid partnership, affiliate link, gifted product or AI-generated imagery in the text, so no label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy doesn't name an approver. Please confirm who signs off on product page copy, and give an explicit yes to this exact text. I haven't recorded any approval, and I won't publish until it's given.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011576000000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

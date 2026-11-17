@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a0c5b145a9eda748ba6db373c681f703c366b837327929ca91ecfc70cf834149",
+ "result": "**Not ready to publish.** Two claims have to go. The rest is fine.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Ad\" opening | Meets the required wording for paid partnerships (it comes first) |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"ten minutes away from my phone\" | The creator's own routine, not a brand claim |\n| \"the best tea in Britain\" | **Unsupported.** Superlative, and brand policy bans \"best\". |\n| \"a proven immunity booster\" | **Unsupported.** Health claim, banned outright. \"Proven\" also turns a claim we can't make into a harder one. |\n\n**Other notes**\n- The ad label is correct, so there is no disclosure problem.\n- The hands-on voice (\"my afternoon reset\") is fine only if the creator actually drinks this tea. Sam should confirm that, since the draft doesn't say whether the tea was bought or sent.\n- Voice and slop checks are clean: no banned words, no em-dash sandwiches, no exclamation points.\n\n**Compliant version**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. Honestly, it's the cup I look forward to most all day.\n\nThis keeps the creator's enthusiasm as personal opinion rather than a claim about the product. As with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012845400000000002,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

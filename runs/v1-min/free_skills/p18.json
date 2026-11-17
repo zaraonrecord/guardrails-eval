@@ -1,10 +1,14 @@
 {
  "case": "p18",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Item | Status |\n|---|---|\n| \"four minutes is enough for black tea\" | Brewing fact, fine as written |\n| \"Green tea likes it shorter and cooler\" | Brewing fact, fine as written |\n| \"You don't need any kit\" | Not a marketing claim, but it contradicts the next sentence (mug and sieve are kit). Suggest \"You don't need a teapot.\" |\n| Stats, superlatives, guarantees, testimonials, health or green claims, urgency | None present |\n| Affiliate or sponsorship | None present, so no disclosure needed |\n\n**Slop check**\n- \"Unlock\" is on the ban list, and \"your tea journey\" is a vague filler opener. The first sentence should carry the most useful fact, and this one carries none.\n\n**Suggested rewrite**\n\nSubject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nA mug, a small sieve and four minutes is enough to brew black tea. Green tea likes it shorter and cooler. You don't need a teapot.\n\nThe Pebblebrook team\n\nEverything else in the draft can stay. Once the opener is replaced, it is clear to publish.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0129703,
- "seconds": 14.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2646cfdcc9827029da6a021fc3de7907e98859b9e0db9047976422e9357931e4",
+ "result": "**Not ready to publish.** One fix is needed.\n\n**Slop check**\n- \"Unlock your tea journey.\" breaks the ban list (\"unlock\") and is throat-clearing as an opener. The first sentence should carry the most useful fact.\n- \"You don't need any kit.\" is also slightly at odds with the next sentence, which lists a mug and a sieve. Cutting it fixes that too.\n\n**Claims check**\n- \"Four minutes is enough for black tea\": brewing fact, allowed as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, allowed.\n- No stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency. Nothing here needs a disclosure.\n\n**Suggested rewrite**\n\nSubject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nA mug, a small sieve and four minutes is enough to brew black loose leaf tea. Green tea likes it shorter and cooler.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey. You don't need any kit.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0131483,
+ "seconds": 14.2,
  "models": [
   "claude-sonnet-5-5"
  ]

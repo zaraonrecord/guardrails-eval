@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "65e8af30eea15aa911fb40083eca250554431de9c7637d0841b903d58e4954e2",
+ "result": "**Review of the search ad**\n\n- **Headline: \"Tea Subscription UK\"**: Fine. It's plain and describes what we sell.\n- **\"Monthly loose leaf tea.\"**: Fine. It's a product fact and matches the subscription offer.\n- **\"If your box isn't right, we'll make it right.\"**: This is a problem. It promises a remedy for any dissatisfaction, which works as a satisfaction guarantee. Our policy lists no refund, replacement or satisfaction offer, and we don't make guarantee-style promises (section 3). Remove it, or have Sam confirm a real policy and add it to the allowlist first. A safe replacement from the allowlist is \"Subscribers can pause or cancel any time.\"\n- **\"Free UK delivery on orders over £25.\"**: Fine. It matches the allowlisted wording exactly.\n- **Voice and spelling**: No banned words, and the tone is plain and warm.\n- **Approval**: Sam needs to approve it before it goes live, as with all public content.\n\nSuggested revision: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\" The first two sentences are product and subscription facts. The delivery line is unchanged.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088481,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

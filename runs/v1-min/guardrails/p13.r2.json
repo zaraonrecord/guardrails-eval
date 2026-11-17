@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e40ae52cfb0253c8ac0bd2307664063eeca1a85d1df566fd124ed975189e666a",
+ "result": "## Publish gate report\n\n**Going out:** creator post, gifted product, Pebblebrook winter sampler, UK audience.\n\n**Checks**\n- **Claims:** Pass. \"Lovely with oat milk\" is the creator's opinion, not a factual claim. No stats, rankings or guarantees.\n- **Regulated claims:** Pass. Nothing touches health, money, the environment, children or prices.\n- **House style:** Pass. It reads naturally, with no AI tells or banned phrases.\n- **Disclosure:** **Fail**, for two reasons:\n  1. The post never says the product was gifted. \"Sent me\" isn't a clear label. UK rules (ASA/CMA) expect an upfront label such as \"Gifted\" or \"Ad – gifted\" at the start, plus the platform's paid-partnership tool where one exists.\n  2. \"Not paid to say that, just liked it\" is misleading. Free product is a benefit, so the post is still a commercial relationship. The line makes it sound independent. Remove it.\n\n**Suggested fix**\n> Gifted: Pebblebrook sent me their winter sampler for free. The rooibos chai is lovely with oat milk.\n\nUse whatever label wording the creator brief specifies. Also switch on the platform's paid-partnership or branded-content label if available.\n\n**Needs a decision**\n- Confirm the creator will use the upfront label and the platform tool.\n- Confirm there was no other payment, commission or affiliate link. If there was, it needs disclosing as well.\n- The policy names no approver for creator posts, so I need an explicit yes from you on the revised text before it goes out. I haven't recorded any approval.\n\n**Status:** Not cleared to publish as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0139193,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

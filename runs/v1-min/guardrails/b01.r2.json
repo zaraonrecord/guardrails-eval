@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e4d2d58df214dcbbc718a04189743e43da7d89ffc138e6124a01d397e316d763",
+ "result": "# Publish gate report\n\n**Going out:** landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| Packed by hand in Bristol | On the policy list (\"every tin is packed by hand in Bristol\") |\n| Certified organic by the Soil Association | On the policy list |\n| Free UK delivery on orders over £25 | On the policy list |\n| Loose leaf tea | Product fact, fine as written |\n\nAll three claims match the policy wording and nothing is invented. No evidence-log rows are needed because every claim is already on the policy list.\n\n**Regulated claims:** \"Certified organic\" is an environmental-type claim, but it is specific, tied to a named certifier and on the policy list. The delivery offer is a real, unconditional threshold with no countdown or urgency. No health, money or children's claims. Pass.\n\n**House style:** There is no voice section in the policy, so I checked only for AI tells and clarity. There are no stock openers, intensifiers or slogan closers. The one weakness is repetition: \"packed by hand in Bristol\" appears twice in three short sentences.\n\n**Disclosure:** This is the brand's own page, with no sponsor, affiliate link, gifted product, endorsement or AI-generated imagery in the copy. No label needed.\n\n**Suggested edit (optional, claims unchanged):**\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\n**Needs a decision:**\n- Do you want the tightened version above or the original? Either passes the claims checks.\n- The policy names no approver for this kind of content. Please confirm who is approving, and give an explicit yes to the exact final wording. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0137742,
+ "seconds": 16.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

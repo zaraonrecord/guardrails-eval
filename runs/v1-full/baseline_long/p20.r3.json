@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "72d90589a24f8c5122bd00cf2aa37552624196b2604b39a1a67452ea50a98576",
+ "result": "Two sentences in this draft make claims the brand hasn't approved, so it shouldn't go out as written.\n\n**Checked and fine**\n- \"founded in Bristol in 2019\" is on the allowlist (Companies House).\n- \"every tin is packed by hand in Bristol\" is on the allowlist (Operations).\n- \"a small team of six\" is a product fact (team size), which the product team has checked and which can be used as written.\n- The tone is plain and warm, with no banned words and no AI clichés.\n\n**Problems**\n1. **\"Over 98% of our customers rate us five stars\"** is an invented stat. The only approved rating is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (October 2026 export). A 4.8 average doesn't support 98% five-star ratings, and the claim talks about \"customers\" rather than reviewers. Replace it with the approved wording, or remove it.\n2. **\"we buy from gardens we've visited\"** is an unsupported claim about the company's sourcing. It isn't on the allowlist, and the product-fact exemption covers where a tea is grown and when it's picked, not visits by the team. Get written confirmation from the product team and Sam, or cut it. If it is true, a specific, verifiable version would also read better, for example naming a garden and the region it's in.\n\nSam needs to approve the revised copy before it's published.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116321,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

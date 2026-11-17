@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "800ec63f7da06ac111a2a429b8e4e99deb90d475c277a8c609da3a45b75f7b06",
+ "result": "**Review of the search ad**\n\n- **\"Tea Subscription UK\"**: Fine. It describes what we sell and where.\n- **\"Monthly loose leaf tea.\"**: Fine. It is a product fact.\n- **\"If your box isn't right, we'll make it right.\"**: This is a problem. It promises a remedy (replacement, refund or similar) that isn't in our backed-up claims. The only subscriber promise we can support is that they can pause or cancel any time. Unless the company has a documented satisfaction or resolution policy, this reads as a guarantee. Either remove it or replace it with the supported claim, for example \"Pause or cancel any time.\"\n- **\"Free UK delivery on orders over £25.\"**: Fine. It matches the allowlist exactly.\n\n**Other note:** The description runs to about 106 characters. Google search ad descriptions are capped at 90, so it will probably need trimming anyway. Dropping the guarantee line fixes that, and you could swap in \"Pause or cancel any time.\"\n\n**Verdict:** Do not publish as written. Remove or replace the unsupported guarantee.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093219,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

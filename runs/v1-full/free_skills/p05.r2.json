@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5b8ea219657ec3a6271d0b274b5e42fedf1af9c33b11725627653186ccecb73f",
+ "result": "**Review of the newsletter draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown), fine |\n| \"picked in March\" | Product fact (when it's picked), fine |\n| \"taste bright and floral\" | Product fact (flavour), fine |\n| \"in the shop from Monday\" | Product fact (new product arriving), fine |\n| \"only 40 tins are left, so be quick\" | **Unsupported.** Policy section 3 bans \"only X left\" urgency. No stock figure appears in the policy, so the 40 is also an unverified number. |\n\n**Other checks**\n- **Health, green and superlative claims:** none.\n- **Banned words and structures:** none, and the voice is warm, plain and unhurried until the last clause.\n- **Disclosure:** none needed. This is our own newsletter, not a creator post or affiliate link.\n- **Spelling:** UK, fine.\n- **Approval:** Sam needs to sign off, as with all public content.\n\n**Fix:** Cut \"but only 40 tins are left, so be quick\". Suggested replacement:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nIf the first flush really is a limited run, that can be said as a plain fact, such as \"it's a small harvest\". The stock figure would need to come from the product team and be confirmed first. Even then, avoid \"be quick\" pressure wording.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0117958,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

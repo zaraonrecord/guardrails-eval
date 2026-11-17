@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "38c7c7680e717fe18a749fd25ac02da799dfd03b076af88a9e8d9f8d58e70111",
+ "result": "## Publish gate report: Assam Breakfast product page\n\n**Going out:** Product page copy for Assam Breakfast, on the Pebblebrook website, to UK shoppers.\n\n**Checks**\n- **Claims:**\n  - \"Certified organic by the Soil Association\" matches the policy row word for word. The certificate was renewed in 2026, so it's fine.\n  - \"Malty, full-bodied black tea\" and \"100g tin, makes around 40 cups\" are product facts the product team covers, so they're fine.\n  - \"Noticeably smoother than supermarket tea bags\" is **unproven**. It's a comparison with other products, it isn't on the claims list, and nothing in this chat supports it. Policy section 3 also rules out claims we can't prove.\n- **Regulated claims:** No health, money, environment, children or price claims. The comparison is the only risk. A comparative claim needs current, like-for-like evidence.\n- **House style:** The copy is warm, plain and unhurried, with no banned words or AI tells. Score is about 90, with no rewrite needed beyond the claim.\n- **Disclosure:** This is the brand's own product page, with no partnership, affiliate link or AI-labelled content, so no label is needed.\n\n**Fixed (suggested, not yet applied):**\n- Remove the comparison. Suggested copy:\n  > Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Needs a decision:**\n- If the team has a blind taste test or similar evidence for \"smoother than supermarket tea bags\", send it and Sam can add it to the policy. Until then I'd cut it. Even with evidence, I'd suggest a more specific wording.\n\n**Approver:** Sam (marketing lead) must approve the exact final copy. Nothing is approved yet, so the page shouldn't go live.\n\n**Evidence log rows** (paste into `.guardrails/evidence.md`):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Assam Breakfast product page | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Assam Breakfast product page | Noticeably smoother than supermarket tea bags | Unproven, removed | None |\n| 2026-11-17 | Assam Breakfast product page | 100g tin, makes around 40 cups | Product fact | Product team |\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016945500000000002,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

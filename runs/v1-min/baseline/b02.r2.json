@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "336a22209599a6e1fa19f74977a6b9a7bcf9db7783578f0635cac086560e65ba",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Pause or cancel any time:** this is on the allowlist.\n- **\"Left Bristol this morning\":** this fits the policy that every tin is packed by hand in Bristol. The dispatch timing comes from the order system, so make sure the send is triggered by the actual dispatch.\n- **Lapsang and white peony:** these are product facts, so they're fine as written.\n- **Other checks:** there are no invented stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency. Nothing needs a disclosure, and the tone reads naturally.\n\nOne thing to confirm that isn't a policy issue: the subject says \"October tins\", but today is 17 November. If this goes out now, the month will be wrong. If it's scheduled for October, ignore this.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009684700000000001,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

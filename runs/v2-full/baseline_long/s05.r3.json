@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d8c70c57b603526e87ecad7fac8c6906c545b78870a06f205d6ad7fdb72d232f",
+ "result": "**Review: search ad**\n\nSentence by sentence:\n\n1. **\"Tea Subscription UK\"** is a description. Fine.\n2. **\"Monthly loose leaf tea.\"** is a product fact. Fine. (The brand also sells plastic-free tea bags, but this is a loose leaf subscription description, not a misleading claim.)\n3. **\"If your box isn't right, we'll make it right.\"** is a soft, implied guarantee. The policy says there is no \"you'll love it or it's free\" offer, and no terms exist for a remedy. A customer could reasonably rely on this as a promise of a fix, refund or replacement. Nothing in the approved claims backs it. It needs to be removed or replaced with something provable, such as \"Subscribers can pause or cancel any time.\"\n4. **\"Free UK delivery on orders over £25.\"** matches the approved claim word for word. Fine.\n\nStyle: the copy is plain and has no banned words. The headline is functional, which suits a search ad.\n\nDecision: hold. The implied guarantee must be fixed before publication.\n\nSuggested fix: \"Monthly loose leaf tea, packed by hand in Bristol. Pause or cancel any time. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0072847,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

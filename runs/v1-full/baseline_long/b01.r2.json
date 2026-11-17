@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be1c53d7ad46505dd19cf390f50b8f48e23c292cb93389b21cb4c0238d321240",
+ "result": "**Review of landing hero draft**\n\nClaim-by-claim check against the brand policy:\n\n- \"Loose leaf tea, packed by hand in Bristol.\" Matches the approved claim \"Every tin is packed by hand in Bristol\" and is a product fact. Fine.\n- \"Every tin is packed by hand in Bristol\" Approved wording. Fine.\n- \"our tea is certified organic by the Soil Association\" Approved (certificate on file, renewed 2026). Fine.\n- \"Free UK delivery on orders over £25.\" Approved wording, matches the shipping policy. Fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, invented numbers, testimonials or false urgency.\n- No banned words or AI clichés. The tone is plain and warm enough.\n- UK spelling is fine. No labels are needed, since this is the brand's own landing page.\n\nOne note, optional polish only: \"packed by hand in Bristol\" appears twice in consecutive sentences. It is repetition, and the first sentence could be cut or the second reworded (e.g. \"Every tin is packed by hand, and our tea is certified organic by the Soil Association.\"). The repetition is a style flaw, but it is minor and doesn't mislead anyone. Since the checklist says to flag repetition, I'm listing it, but it is a small edit and not a blocker on accuracy. Given that the instruction is to list problems that should stop or change publication, I think this one is worth a quick fix before it goes live, as it reads as sloppy on a hero.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085356,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ff1669eb123531350f3474e74f9025e355878d58403f76f296277e194ee35dab",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post promoting Pebblebrook Tea Co., with the creator's own wording. Channel and timing weren't given.\n\n**Checks**\n- **Claims:** Passes. \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". \"Assam\" and \"pot\" are product facts the product team owns. \"Afternoon reset\" and \"ten minutes away from my phone\" describe the creator's routine, and no health benefit is claimed.\n- **Regulated claims:** Passes. Nothing here touches health, money, legal outcomes, the environment, children or prices. \"Reset\" is lifestyle language rather than a wellbeing claim, but it would need a second look if the creator added anything like \"calming\" or \"relieves stress\".\n- **House style:** Passes. The tone is warm, plain and unhurried. It contains no banned words and none of the usual AI tells.\n- **Disclosure:** Passes. The policy requires paid posts to start with \"Ad\" before anything else, and this one does. If the platform has a paid-partnership tool, use it as well.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. I can't confirm that the brand sells Assam or that the creator has permission to share this, so please make sure the brief covers both.\n\n**Approver:** Sam (marketing lead). Nothing is approved yet. Sam needs to give an explicit yes to this exact text before it goes out, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0124439,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

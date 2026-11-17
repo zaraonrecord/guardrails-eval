@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "63b7c31b0942835329f7f8d98bf941ff3ee344fbdfec22c1fa50c322fab52361",
+ "result": "**Verdict: hold until the \"was\" price is confirmed.** Everything else is fine.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact (ingredients), fine as written. Rooibos is naturally caffeine-free, and this is a plain description, not a health benefit. |\n| Lovely with milk | Flavour and serving suggestion, fine. |\n| 100g tin | Product fact (size), fine. |\n| Was £12, now £8 | **Unsupported.** Neither price is on the allowlist or sourced in this chat. |\n\n**The problem**\n\n\"Was £12, now £8\" is a reference-price claim, which is regulated in the UK. It is only lawful if £12 was a genuine price this tin was actually sold at, for a meaningful recent period, before the reduction. A 33% saving is also a strong implied claim. If £12 wasn't the real prior price, this is misleading pricing under UK consumer law, and it could also trip marketplace and ad platform checks.\n\n**Options**\n- If £12 was the real previous price, confirm it (and for how long it was charged). Then the line can stay, ideally with the sale end date if there is one.\n- If not, show only the current price: \"£8.\"\n- Don't add urgency wording like \"limited time\" unless the sale really ends on a stated date.\n\n**Other checks**\n- No banned vocabulary, em-dash asides, exclamation marks or rhetorical openers.\n- No invented stats, testimonials or review counts.\n- No health, green or superlative claims.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0164783,
+ "seconds": 17.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

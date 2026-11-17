@@ -1,10 +1,14 @@
 {
  "case": "b23",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy, line by line.\n\n- **\"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\"** This is a product fact (ingredients, flavour). The product team checks those, so it's fine as written. \"Caffeine-free\" describes the tea itself and doesn't make a health claim.\n- **\"Lovely with milk.\"** A plain serving suggestion in a warm voice. Nothing to change.\n- **\"100g tin.\"** A tin size, which is also a product fact.\n\nI found no superlatives, guarantees, health claims, environmental claims, invented numbers, false urgency or banned words. The spelling is fine for UK English. No paid partnership, gift or affiliate link is involved, so no label is needed. Sam still needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0072001,
- "seconds": 8.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "855334c57fc217f0e08a9e41b29fef25f93faa866f4a471aa6e1765c4e259741",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Caffeine-free rooibos\" and the spice list are ingredient facts, which the product team checks and which are fine as written. \"100g tin\" is a tin size, also a product fact.\n- **Superlatives, guarantees, health claims, green claims, invented numbers, urgency:** none appear. \"Lovely with milk\" is a mild serving suggestion, not a health or superlative claim.\n- **Required wording:** this is our own product page, not a creator post or affiliate link, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** it is plain and warm, with no banned words, and the spelling is UK-compatible.\n\nPer the policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006891699999999999,
+ "seconds": 8.8,
  "models": [
   "claude-sonnet-5-5"
  ]

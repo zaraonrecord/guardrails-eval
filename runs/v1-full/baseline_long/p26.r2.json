@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "955f4e1657fd48bc4000d9dcb012228ade041bf52c616d41733a85380992e30f",
+ "result": "**Review of the creator post (paid)**\n\n**Disclosure:** The draft opens with \"Ad |\", which is what the policy requires for a paid partnership, and it comes before anything else. This is fine.\n\n**Sentence by sentence:**\n\n1. \"My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone.\" This is personal description and opinion. It is warm and plain, and it makes no claim. Fine.\n2. \"Their tins are packed by hand in Bristol, which I love.\" \"Packed by hand in Bristol\" is on the approved claims list (Operations). The \"which I love\" is clearly personal opinion. Fine.\n3. \"Honestly the best tea in Britain\" is a superlative the brand can't prove, and the policy forbids \"best\". Although a creator wrote it in first person, \"the best tea in Britain\" is stated as a fact about the market, not a personal taste, and it is published as brand advertising. It must go. A fix is something like \"Honestly my favourite tea at the moment\".\n4. \"it's a proven immunity booster\" is a health claim, which the policy bans outright (\"boosts immunity\"). It is also a claim of proof that no evidence supports. Cut it entirely.\n\n**Style:** The voice is warm and plain, with no banned words. \"Reset\" is mild and acceptable. No issue.\n\n**Decision:** Hold. The post needs the superlative and the immunity claim removed. The rest can stay.\n\nSuggested revision: \"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. Honestly my favourite tea right now.\"\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110787,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

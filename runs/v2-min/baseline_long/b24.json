@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "043bfe9ba9ebee4e566fd54533c686fd611f868c7b0300b170c898784661403e",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n- \"Good tea, no fuss.\" Description and tone. It's plain and short, and \"good\" is a mild opinion rather than a superiority claim. Fine.\n- \"Certified organic by the Soil Association\" is on the brand's approved claims list.\n- \"packed by hand in Bristol\" matches the approved claim \"every tin is packed by hand in Bristol\".\n- \"free UK delivery on orders over £25\" matches the approved claim, and the threshold is stated beside the offer.\n\nMissing items: no ad label is needed on the brand's own landing page. No health, green, urgency, guarantee, testimonial or statistic claims appear. The copy has no clichés or filler phrases, and the voice is specific and direct.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055776,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4755d2173c1a02525e76eeaf84e19e71af6ba953fb43edcf12ef72701ebeac9b",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom announcing a new Japanese sencha, from the Pebblebrook team.\n\n**Checks**\n- **Claims:** No stats, ratings, guarantees, testimonials, superlatives or urgency. The product facts (grassy, a little sweet, brew around 70 degrees) are product-team facts, fine as written. Pass.\n- **Regulated claims:** No health, money, environment, children or price content. Pass.\n- **Disclosure:** Our own brand email, no sponsor, affiliate links or gifted product. Pass.\n- **House style:** Fails. \"It's not just tea, it's a ritual\" is the banned \"it's not just X, it's Y\" construction and also a classic AI tell. The rest is warm, plain and unhurried, which suits the voice. Score roughly 70 before the fix, and 95 or so after.\n\n**Fixed (suggested rewrite)**\n- Removed the banned \"not just X, it's Y\" line and replaced it with something plain.\n\n```\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, it's best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n```\n\n**Needs a decision**\n- The original draft shouldn't go out as written. Please confirm the rewritten version, which changes only that one line.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam to the final text above before it is sent. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084243,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

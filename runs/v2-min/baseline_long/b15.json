@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "**Verdict: OK to publish.** Nothing here needs to change.\n\n**Claims**\n- \"I've tried four tea subscriptions this year\" is the author's own experience, not a brand claim. It should be true, so the author should confirm that.\n- \"Pebblebrook's was the easiest to pause\" is a personal, first-person comparison. It is also consistent with the brand's approved claim that subscribers can pause or cancel any time. It isn't an objective superlative from the brand.\n- \"the tins are lovely\" is opinion.\n- There are no statistics, health claims, green claims, guarantees, urgency or invented testimonials.\n\n**Disclosure**\n- \"(Affiliate link)\" sits directly beside the link, in plain words. The post is only three sentences, so the reader sees it before or as they reach the link. This meets the affiliate rule.\n\n**Style**\n- The voice is plain and personal, with no AI clichés or filler.\n\n**Optional polish (not blocking)**\n- Move the disclosure to the start of the post, for example \"Affiliate link below: I earn a commission if you buy.\" That makes the commercial relationship clearer.\n- If Pebblebrook gifted the product or paid for the review, say so as well.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120646,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

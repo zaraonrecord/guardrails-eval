@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "537a56434c4c0574cfad0c3b3e127780b3a0d9871bd5f84717b5e70618e87044",
+ "result": "**Review of the search ad**\n\nChecked against the brand policy:\n\n- **\"The UK's number one tea subscription.\"** This is an unprovable superlative. Section 3 bans \"number one\" and \"the UK's favourite\". It has to come out.\n- **\"Subscribers can pause or cancel any time.\"** This matches the allowlist wording exactly (subscription terms). Fine.\n- **\"Free UK delivery on orders over £25.\"** This also matches the allowlist exactly (shipping policy). Fine.\n- **Headline \"Tea Subscription UK\"** is a plain keyword headline with no claims. Fine.\n- Voice and spelling: no banned words, and nothing conflicts with UK spelling. No disclosure is needed, since this is a paid ad from our own account and the platform marks it.\n\n**Suggested fix:** Replace the first sentence with something factual from the allowlist, for example \"Certified organic by the Soil Association.\" or \"Loose leaf tea and plastic-free tea bags, delivered monthly.\" The result would read: \"Certified organic by the Soil Association. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\"\n\nPer section 6, Sam needs to approve the revised version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006940099999999999,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

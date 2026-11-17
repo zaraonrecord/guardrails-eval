@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "091e60a87a0115af935fc54f17b67fb6c01f7057460b4ef2bf8e21caae62c5ac",
+ "result": "**Verdict: hold it. One change is needed.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" | Product description, fine. \"After lunch\" is a serving suggestion, not a digestive or health claim. |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy), wording matches. |\n| \"while stocks last\" | **Unsupported.** It implies scarcity. The policy bars urgency or scarcity language unless a real offer with an end date is in the policy, and there isn't one. |\n\n**Other checks**\n- Banned words and structures: none found. No superlatives, guarantees, health or green claims, invented numbers, or exclamation marks. The voice is warm and plain, with UK spelling.\n- Disclosure: not needed, since this is a paid ad from our own account and the platform marks it.\n- Landing page: I can't see it, so please confirm that the free delivery threshold is stated there too.\n- Approval: Sam needs to sign off, as with all public content.\n\n**Compliant version**\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012722500000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** Two problems, both fixable.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | **Unsupported.** This is a guarantee, and section 3 says we have no such offer. Remove it. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"means most boxes ship free\" | **Unsupported.** We have no data on what share of orders clear £25, so \"most\" is an invented statistic. It also says \"boxes\", but we sell tins and tea bags. Remove it. |\n| \"Tea that's easy to stop and start\" | Fine as a soft restatement of pause/cancel. It's vague, though, and the sentence is clearer if it names the actual thing. |\n\n**Other checks**\n- No banned voice words, no health or green claims, no fake urgency, no testimonials.\n- No disclosure is needed, since this is our own landing page.\n- Spelling is UK.\n- As with all public content, Sam needs to approve it.\n\n**Compliant version**\n\n> Tea you can pause or cancel any time. Free UK delivery on orders over £25.\n\nIf you want to say more about the subscription, I can build on product facts such as tin sizes, cup counts or where each tea is grown. A line like \"most boxes ship free\" would need an actual figure from the team, and I'd mark it `[PROOF NEEDED: share of orders over £25]` until then.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0141025,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

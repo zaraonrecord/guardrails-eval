@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "I went through the draft sentence by sentence, as an email to an existing customer.\n\n- **Subject, \"A new green tea\":** Plain and accurate. The email is about a sencha, which is a green tea. Nothing misleading, no urgency or hype.\n- **\"We've added a Japanese sencha to the shop.\":** A product fact (new product arriving, origin). The policy treats these as checked by the product team and fine to use as written.\n- **\"It's grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\":** Flavour description and brewing guidance, both covered as product facts. \"Best brewed\" here is practical brewing advice, not a superiority claim about the brand. Not a health claim.\n- **Sign-off, \"The Pebblebrook team\":** Fine. It's a brand-owned email, so no \"Ad\" label is needed.\n- **Voice:** Warm, plain, unhurried, UK spelling. No banned words, no clichés, no padding, no repetition.\n- **Missing:** Nothing that needs a qualifier. There are no prices, offers, delivery claims or guarantees. A link to the product would be a useful optional addition, since the email mentions the tea but gives no way to get to it, but that is polish and not a reason to hold it.\n\nNo unsupported claims, labels or tone problems. It is fine to publish. Final approval still sits with Sam as per the policy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007544199999999999,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

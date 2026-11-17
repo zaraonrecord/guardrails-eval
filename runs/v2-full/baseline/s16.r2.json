@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9eeb93d26e925e8c66dd590d61c5e0cd66f2b71922767297c55d16e4da32bf49",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** matches the allowlist, with the certificate on file and renewed 2026.\n- **Packed by hand in Bristol:** the allowlist says \"Every tin is packed by hand in Bristol\". This is a fair, shortened version and it stays within what operations can back up.\n- **Free UK delivery on orders over £25:** matches the allowlist wording exactly.\n- **\"Brewed with care. Packed with love. Delivered with a smile.\":** this is warm and plain, and it makes no checkable claim. It uses none of the banned words or phrases. It's a slightly familiar three-beat line, but it fits the voice and isn't filler.\n- **Other checks:** the draft has no superlatives, guarantees, health claims, vague green claims, invented numbers or false urgency. The spelling is UK, and no disclosure label is needed for our own landing page.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103461,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

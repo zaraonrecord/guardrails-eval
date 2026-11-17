@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "237096f10a0c9662ff3b0e35fbf039e19a8ba9aeba88b83cc9df6a82227c56b3",
+ "result": "**Review: about page draft (Pebblebrook Tea Co.)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is a superlative, the same kind as \"the UK's favourite\", which section 3 bans. No survey or sales data backs it. |\n| \"a small team of six\" | Fine. Team size is a product-team-checked fact. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported.** It isn't on the allowlist, and sourcing and visit claims aren't covered by the product facts (which only cover where a tea is grown and when it's picked). It needs proof, such as which gardens and who visited. |\n\n**Suggested fixes**\n- Cut \"has become Bristol's favourite tea\". Nothing replaces it without proof. If you want a proof point, the allowlisted option is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\".\n- For the gardens line, either supply the specifics for the product team to confirm, or mark it `[PROOF NEEDED: which gardens, who visited, when]`.\n\n**Suggested compliant version**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. [PROOF NEEDED: which gardens we buy from and who has visited them]\n\nVoice, spelling and banned words are fine. Sam still needs to approve before this goes public.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012341600000000001,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

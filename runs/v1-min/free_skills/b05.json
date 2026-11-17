@@ -1,10 +1,14 @@
 {
  "case": "b05",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: fine to publish as written.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower.\" | Product fact (ingredients), allowed as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" | Allowlisted. It matches the policy wording exactly, including \"on our website\" |\n\n**Other checks**\n- **Ban list and structure:** no banned words, em-dash sandwiches, exclamation points, rhetorical-question opener, fake urgency or invented proof.\n- **Regulated territory:** no health, money, legal or environmental claims.\n- **Disclosure:** it's the brand's own account and nothing is gifted, sponsored or affiliate, so nothing needs labelling. The honest-review rules don't apply because this isn't a review of someone else's product.\n- **Opening line:** \"Rainy Sunday, second pot.\" is scene-setting rather than a fact. That suits a short organic Instagram post, and it's short and specific, so I wouldn't change it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011424299999999998,
- "seconds": 8.5,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04237fceb3f2f219462023db2cc1ae41af85c508a891e1c15884c8fa194bc9c8",
+ "result": "**Claims list**\n\n- \"Rainy Sunday, second pot.\" Scene-setting, no claim.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact (ingredients), fine as written.\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Allowlisted, and it matches the policy wording exactly, including the source (our website).\n\n**Slop check**\n- Zero ban-list words, no em-dashes, no exclamation points, no rhetorical opener, no fake urgency.\n- The opening is scene-setting rather than the most useful fact, but that's a style choice for a casual Instagram post, not a violation.\n\n**Ad and regulatory check**\n- No health claims, no superlatives, no guarantees, no testimonials.\n- The label/affiliate rules don't apply: this is the brand's own product on its own account, with no third-party product or affiliate link.\n\nNothing needs changing. Publish as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0079123,
+ "seconds": 6.9,
  "models": [
   "claude-sonnet-5-5"
  ]

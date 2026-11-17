@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7bee168436f0c531442694ac58c7734424f4afddb7e69d11862c277f613859fb",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact (we sell monthly subscriptions in the UK) |\n| \"Monthly loose leaf tea\" | Product fact |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted, and the threshold and wording match the policy exactly |\n\n**Other checks**\n- **Invented stats, testimonials, superlatives, guarantees:** none.\n- **Health, money, legal or green claims:** none.\n- **Fake urgency:** none.\n- **Banned vocabulary and structures:** none. No exclamation points, rhetorical questions or em-dashes.\n- **Platform policy:** nothing likely to trip it.\n\n**Notes (not blockers)**\n- No character limits were given, so I didn't enforce any. The description is 102 characters, which is over the 90 that Google search ad descriptions allow. If this is going into a Google RSA, trim it. For example, \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" is 76 characters.\n- The ad shouldn't make a claim the landing page doesn't. Confirm the landing page also shows the pause/cancel and free-delivery terms.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0130503,
+ "seconds": 14.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

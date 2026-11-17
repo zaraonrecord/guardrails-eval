@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "84e94cf254c1e9f4c374204109136d8021d650c1fcd779cad2bac3621815d6e4",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims allowlist:** \"Certified organic by the Soil Association\" matches the approved wording exactly. The certificate is on file and renewed for 2026.\n- **Plastic-free:** \"20 plastic-free tea bags\" is backed by the supplier certificate. The bag count is a product fact for the product team to confirm.\n- **Product facts:** \"caffeine-free\", \"honeyed\" and \"gentle\" describe ingredients and flavour. \"For the evening\" suggests when to drink it and makes no claim about sleep or relaxation, so it isn't a health claim.\n- **Never-claims:** There are no superlatives, guarantees, health claims, extra environmental claims, invented numbers, testimonials or false urgency.\n- **Voice:** The tone is warm, plain and unhurried, with no banned words. The copy uses UK spelling.\n- **Disclosures:** This is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\nUnder section 6, Sam (marketing lead) still needs to approve the page before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008774399999999998,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

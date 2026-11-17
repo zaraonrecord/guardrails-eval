@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f01584fb745d2372387df5f80520c1ff8175c6719e83932aa3b785d80a8c617d",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing fact, fine as written per the brand policy |\n| \"Green tea likes it shorter and cooler\" | Brewing fact, fine as written |\n| \"The Pebblebrook team\" | Team sign-off, no number or claim |\n\n**Claims check:** No statistics, superlatives, guarantees, testimonials, reviews, awards, health, money, legal or environmental claims. Nothing is unsupported, so no `[PROOF NEEDED]` markers are required.\n\n**Slop check:** Zero ban-list words, no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", and no fake urgency. The first sentence (\"You don't need any kit.\") gets straight to the point, and the second gives the concrete method.\n\n**Disclosure:** There are no affiliate links, sponsorships or product reviews, so nothing needs labelling.\n\n**Optional, not blocking:** The email has no link or call to action. If you want one, any product link should be added without new claims, such as stating that delivery is free over £25, which is on the allowlist.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093285,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

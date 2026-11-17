@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "350629ae4dc06c9b2bdb221275e6d705f455c758f6a0f1b3360c27169975fabb",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post, own account, UK audience.\n\n**Checks**\n- **Claims:** One fails. \"Rated 4.9 out of 5 from over 5,000 reviews on our website\" doesn't match the policy. The only provable version is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). Both the rating and the review count are inflated, so this counts as an invented stat.\n- **Product fact:** \"real bergamot oil and a little cornflower\" is an ingredient detail, which the product team has already cleared. It's fine as written.\n- **Regulated claims:** Nothing touches health, money, environment, children or prices.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. Score is about 95.\n- **Disclosure:** None needed for an organic post from our own account.\n\n**Fixed (suggested rewrite)**\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision**\n- Where did 4.9 and 5,000 come from? If there is a newer review export, please share it and add it to the policy table. Until then, use the 4.8 / 1,200 wording.\n\n**Approver:** Sam (marketing lead). Please get an explicit yes on the corrected text above. Approval of the original draft doesn't carry over. I haven't recorded any approval.\n\n**Evidence log rows**\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | IG post, rainy Sunday | Rated 4.9 out of 5 from over 5,000 reviews | Unproven, removed | Contradicts policy row |\n| 2026-11-17 | IG post, rainy Sunday | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review export, Oct 2026 |\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012730500000000002,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

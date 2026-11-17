@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eb38210988f6e2fa4328f80e33c552a9b8d9fad1c73fdbe699fec96b65b34c31",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** Product page copy for Rooibos Chai, 100g tin, UK audience.\n\n**Checks**\n- **Claims:** The draft makes no statistics, rankings, guarantees, testimonials or comparisons. \"Caffeine-free\" is an ingredient fact, since rooibos is naturally caffeine-free and the other ingredients are spices. The policy lets product facts stand as written. \"Lovely with milk\" is a flavour and serving suggestion, not a claim.\n- **Regulated claims:** There are no health, money, legal, environmental, children or price claims. \"Caffeine-free\" isn't framed as a health benefit, such as better sleep or calming, so it stays a plain product description.\n- **House style:** The copy is short, plain and specific. It has no banned words or AI tells, and no rewrite is needed.\n- **Disclosure:** The draft has no ad, sponsorship, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing. One thing to confirm: the blend contains no black tea leaf, only black pepper, so \"caffeine-free\" stays true. If the recipe ever changes, the line needs rechecking.\n\n**Approver:** The policy names no approver, so the user (the account holder) needs to give an explicit yes to this exact copy before it goes live. I haven't recorded an approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0127993,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

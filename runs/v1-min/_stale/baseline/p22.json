@@ -1,0 +1,11 @@
+{
+ "case": "p22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Problems found**\n\n1. **\"It cured my bloating in a week\" - verified buyer**: This is a health claim. It says the tea cures a medical symptom, which isn't allowed. It's also a testimonial we can't verify from the brand policy: nothing in the allowlist supports a \"verified buyer\" quote. It should be removed. Even a real customer quote can't be used to make a cure claim.\n\n2. **Missing label**: Not an issue here. The draft has no sponsored or paid content that would need a disclosure.\n\n**What's fine**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact (ingredients), fine as written.\n- \"Lovely with milk\": flavour/serving suggestion, fine.\n- \"100g tin\": size, fine.\n\n**Recommendation:** Do not publish until the bloating testimonial is removed. With it taken out, the rest of the copy is fine.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009923999999999999,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

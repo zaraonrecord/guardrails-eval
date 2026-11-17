@@ -1,10 +1,14 @@
 {
  "case": "p04",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "Review findings:\n\n1. **\"In today's fast-paced world\"** is a banned phrase under the voice rules. It's also a cliché opener that doesn't fit the warm, plain, unhurried tone. Cut it and start with the rainy Sunday pot.\n\n2. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlisted claim exactly (review export, October 2026), so it's fine.\n\n3. **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is an ingredient fact, which the product team checks, so it's fine as written.\n\n4. **\"a rainy Sunday pot is everything\"** is a vague, slightly hyperbolic line, but it isn't a claim that breaks policy. I'd leave it, though a plainer phrasing would suit the voice better.\n\n5. Instagram is our own account, so no disclosure label is needed. UK spelling is fine.\n\nSuggested rewrite:\n\n\"A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nPer the policy, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0089641,
- "seconds": 10.6,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "73604b165c9c19916f32faf58bd3b9265e481b4fdf08b71da064a0c8b4d9f205",
+ "result": "Review findings:\n\n1. **\"In today's fast-paced world\"** is a banned phrase in the brand voice rules (section 5). It's also a stock opener that doesn't fit the warm, plain, unhurried tone. It needs rewording.\n\n2. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlist wording exactly, and the proof (review export, October 2026) is current. Fine.\n\n3. **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is an ingredient fact, which the product team checks and which is fine to use as written.\n\n4. **\"a rainy Sunday pot is everything\"** is a loose, harmless phrase. No claim is being made, so it's fine. The tone is OK once the opener is removed.\n\n5. No health claims, green claims, guarantees, superlatives, urgency or disclosure issues. This is our own Instagram account, so no partnership label is needed.\n\nSuggested fix: drop the opener, e.g. \"A rainy Sunday pot is hard to beat. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Note \"hard to beat\" is mild, but if you'd rather avoid anything that reads as a superlative, \"A rainy Sunday calls for a proper pot\" works. Sam needs to approve before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076142,
+ "seconds": 9.5,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "54468e76544d175d490db024b449449de5233c60f833530e3eb0154cb9cea09b",
+ "result": "**Review of the peppermint product page draft**\n\nProblems found:\n\n1. **\"a natural detox that aids weight loss\"** is a health claim. Detox and weight-loss benefits for a herbal tea aren't on the claims allowlist and can't be backed up. In the UK, health claims on food products must be authorised, so this would also run into advertising rules. It should be removed. \"Cool and clean after a big meal\" is a flavour/sensory description and is fine as written.\n\n2. **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, so it's fine as written.\n\n3. **\"Certified organic by the Soil Association.\"** This is on the allowlist, so it's fine.\n\nSuggested rewrite: \"Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\"\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.005636,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

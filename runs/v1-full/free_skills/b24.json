@@ -1,10 +1,14 @@
 {
  "case": "b24",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). The hero says it without \"every tin\", which is a softer, accurate paraphrase. |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording |\n| \"Good tea, no fuss\" | Opinion/tone, not a measurable claim. No superlative, no comparison. |\n\n**Other checks**\n- Banned words (brand voice and slop list): none. No em-dash sandwiches, exclamation points, rhetorical-question opener, \"not just X, it's Y\", or fake urgency.\n- Health, green, guarantee, testimonial and statistic claims: none.\n- Disclosure: this is the brand's own landing page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- Voice: warm, plain, unhurried. UK spelling is fine.\n- Opening sentence: \"Good tea, no fuss.\" is short and a bit generic rather than a concrete fact, but it is not slop and fits the brand's plain voice. Optional improvement only.\n- Approval: Sam (marketing lead) needs to sign off on anything public.\n\nNothing needs changing before publication, subject to Sam's approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0094365,
- "seconds": 8.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3a6c59f863097028937b0fa43f7bed241080398878e0861a90313c800dee2e3c",
+ "result": "**Review: landing hero for Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Good tea, no fuss.\" | Soft, subjective tone. Not a superlative or a comparison, so it's fine. |\n| \"Certified organic by the Soil Association\" | Allowlisted (certificate on file, renewed 2026). Exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). The shortened form doesn't overstate it. |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). Exact wording. |\n\n**Other checks**\n- **Never-claims:** No superlatives, guarantees, health claims, green claims beyond section 2, invented numbers, testimonials or false urgency.\n- **Voice:** Warm, plain and unhurried. No banned words, no em-dashes, no exclamation marks, no rhetorical-question opener, and UK spelling.\n- **Required wording:** No paid partnership, gifted product or affiliate link is involved, so no label is needed.\n- **Slop check:** The opening sentence is short and works as a hero line. The second sentence carries the concrete facts.\n\n**Before it goes live:** Sam (marketing lead) needs to approve all public content. That's a process step, not a change to the copy.\n\nNo changes are needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010219599999999999,
+ "seconds": 11.2,
  "models": [
   "claude-sonnet-5-5"
  ]

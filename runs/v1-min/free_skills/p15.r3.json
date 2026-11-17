@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cbe92c85c5f1ec24d02914ab8f1f7cb66bdc9687cf415d5640fa47a84b6b31aa",
+ "result": "**Not ready to publish.** Two problems.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted |\n| \"organic loose leaf\" | Allowlisted (certified organic by the Soil Association) |\n| \"The finest\" | **Unsupported superlative.** Nothing on the allowlist backs a \"finest\" claim, and it fails the \"compared to what?\" test. |\n| \"eco-friendly bags\" | **Unsupported vague green claim.** The allowlist backs \"plastic-free\" and \"home compostable\", not \"eco-friendly\". Under UK CMA Green Claims Code rules, a broad environmental claim needs to be specific and substantiated. |\n| \"packed by hand in Bristol\" | Allowlisted for tins. The sentence also attaches it to the bags, which the allowlist doesn't cover, so the wording is worth tightening. |\n\n**Suggested rewrite**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea from the Soil Association, plus plastic-free, home compostable tea bags. Every tin packed by hand in Bristol.\n\nThis swaps \"finest\" for the certified fact, replaces \"eco-friendly\" with the two specific claims we can back, and limits the hand-packing claim to tins. Check that the landing page itself carries the same claims, since an ad or hero line shouldn't say more than the page does.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013358400000000001,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

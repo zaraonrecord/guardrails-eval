@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47128f311df04bea46852ad3a086c5375156a31523e6ef3e27b8c33613695a73",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\" (headline):** The brand sells loose leaf tea and is certified organic by the Soil Association, so this is supported.\n- **\"Certified organic by the Soil Association\":** This is on the allowlist, so it is fine.\n- **\"Free UK delivery on orders over £25\":** This matches the allowlist exactly, and the ad targets UK customers, so it is fine.\n\nI found no invented stats, superlatives, guarantees, testimonials, health claims, vague green claims, fake urgency, or filler wording. No disclosure is needed for this kind of ad. The copy fits within a search ad's usual length limits, since the headline is short and the description is brief.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0050229,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

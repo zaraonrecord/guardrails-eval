@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e491f1e14b1d14855cfe6aa9041147f6c5e53e491ded8cd6d8ac5bbb6ce1e0a9",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- **Subject line:** \"How to brew loose leaf without a teapot\" is descriptive and matches the email content. Not misleading.\n- **\"You don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\"** This is brewing guidance, which the policy lists as a product fact the product team checks and that is fine to use as written. No claims, numbers about results, health statements, or superlatives.\n- **Sign-off:** \"The Pebblebrook Team\" is fine. No disclosure is needed, as this is the brand's own email and not a paid partnership or affiliate content.\n- **Voice:** Warm, plain and unhurried. No banned words or AI clichés. Spelling is UK-consistent (nothing that conflicts).\n- **Urgency, guarantees, green claims:** None present.\n\nNothing needs changing. Optional polish only: \"Hi Ana\" assumes the personalisation field populates correctly, so it's worth a quick test send to confirm the name merges properly.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0065909,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

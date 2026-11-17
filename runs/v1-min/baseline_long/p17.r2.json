@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "25ac36b2cb16f9d05b7ec616d0db934449d26cc94c1fecaca44c47152d27cc78",
+ "result": "**Review: Peppermint product page**\n\nSentence by sentence:\n\n1. \"Peppermint. Just peppermint leaves, nothing else.\" Product fact (ingredients). Fine.\n2. \"Cool and clean after a big meal\" Experiential description of taste/feel. Fine.\n3. \"a natural detox that aids weight loss\" Problem. \"Detox\" implies changing body functions, and \"aids weight loss\" is a direct health/body-effect claim. Neither is on the allowlist and neither is authorised for a food/drink product. \"Natural\" adds to the implication that it works.\n4. \"Certified organic by the Soil Association.\" On the allowlist. Fine.\n\nStyle: the copy is short and specific, no clichés. No missing labels needed on a brand-owned product page.\n\n**Decision:** Hold. Remove \"a natural detox that aids weight loss\". Suggested fix: \"Cool and clean after a big meal.\" (end the sentence there), then keep the organic line.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006390600000000001,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

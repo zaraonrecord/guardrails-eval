@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4db080b8506e453b27ad21ff378f13e2ca0593d5036801c551afb9593abdfe12",
+ "result": "The draft is clean and can go out as written.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, fine as written |\n| \"a peppermint for after lunch\" | Serving suggestion, not a health or digestion claim |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Slop check:** No banned words, em-dashes, exclamation points, rhetorical openers, fake urgency, or abstract-noun triads. The opening sentence is concrete.\n\n**Other checks**\n- **Hands-on or review claims:** none.\n- **Affiliate or sponsorship:** it's your own account, so no disclosure is needed.\n- **Platform policy:** nothing health-related, financial, or aimed at personal attributes.\n- **Landing page:** the ad makes the free delivery claim, so make sure the landing page states the same £25 threshold.\n- **Character limits:** none were given, so I didn't count.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088817,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

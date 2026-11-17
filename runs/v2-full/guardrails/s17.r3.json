@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2bc9542c1b64c2b1fd710559c844a8aca42d18b6f7cc7620b20720a584151b7a",
+ "result": "## Publish gate report\n\n**Going out:** Subscription dispatch email to Priya, \"Your October tins are on the way\", by email.\n\n**Checks**\n- **Claims:**\n  - \"Left Bristol this morning\" is an operational fact about this order, so I'm treating it as fine.\n  - \"Pause or cancel any time\" is on the policy list (subscription terms).\n  - The lapsang and white peony are product facts, which are fine as written.\n  - **\"it ships within 24 hours of your order\" is not on the policy list and isn't sourced in this chat.** It is a specific delivery-time promise with a number in it, and \"as always\" turns it into a standing commitment. It is unproven.\n- **Regulated claims:** Nothing on health, money, environment, children or pricing. The shipping-time promise is the only item close to this category.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. Voice passes (about 92/100).\n- **Disclosure:** This is a transactional email from the brand with no ad, affiliate link, gifted product or AI-label trigger, so no label is needed.\n\n**Fixed (proposed):** Remove the unproven sentence. The revised body would read:\n\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\n**Needs a decision**\n1. If the 24-hour dispatch promise is real, add it to the policy with a source (for example the shipping policy or operations) and it can go back in. Otherwise leave it out. My suggestion is to leave it out.\n2. The subject says \"October tins\" but today is 17 November. Please confirm this is the right month's box and that \"this morning\" is accurate. If it's a stale template, fix the subject.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to the final wording, and any change after that means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0187835,
+ "seconds": 15.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

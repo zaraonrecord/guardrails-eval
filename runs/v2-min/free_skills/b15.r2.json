@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8dd6f442dfe736b5ba4617d29ddad9c92a8d62f230291779bb52d3adcf4b5edd",
+ "result": "**Not ready to publish.** Three things need to change.\n\n**Product label check**\n\n| Product | Label | Hands-on claims |\n|---|---|---|\n| Pebblebrook subscription | **Not stated.** I need to know whether you own it, tried it, or only researched it. | \"easiest to pause\", \"the tins are lovely\", \"I've tried four tea subscriptions this year\" |\n\nUntil the label is confirmed, I can't clear those hands-on claims. If it's Wishlist, all three get cut. If it's Owned or Tried, the draft should say how long you used it.\n\n**Problems**\n\n1. **No usage label.** The opening claims experience with four subscriptions but doesn't say which ones, for how long, or whether Pebblebrook was owned or tried. Never assume ownership.\n2. **Affiliate disclosure is in the wrong place.** \"(Affiliate link)\" sits after the link, in a bracket. The rules require a plain-words disclosure at the top of the post, before the first link. The link itself is fine to keep.\n3. **\"Easiest to pause\" is an unsupported comparison.** It implies you tested pausing on all four services. The brand can back \"subscribers can pause or cancel any time\", but not \"easiest\". Either state what you did (\"I paused in two taps\") if it's true, or use the allowlisted wording.\n\n\"The tins are lovely\" is fine as an opinion if you've handled the tins. Make it more specific, for example what they look like or how they close.\n\n**Suggested compliant version (needs your input)**\n\n> *Disclosure: this post contains affiliate links. I earn a commission if you buy through them, at no extra cost to you.*\n>\n> I've tried [which subscriptions, for how long] this year. Pebblebrook lets subscribers pause or cancel any time, and I paused mine [how: e.g. \"from the account page in under a minute\", only if true]. The tins are [specific detail]. [Link]\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here (Affiliate link).\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.017740400000000003,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

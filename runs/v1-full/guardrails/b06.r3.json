@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a085621896e691b72a6b4d869b635ad63b85891d9435a2945af442b61164858f",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, a visit to the Darjeeling garden and the arrival of the first flush in the shop. Send date and audience weren't given.\n\n**Checks**\n- **Claims:** passes. \"Picked in March\", \"bright and floral\" and \"in the shop from Monday\" are product facts (origin, picking time, flavour, new products arriving), which the policy says the product team has checked and are fine as written. There are no stats, ratings, superlatives, guarantees or testimonials.\n- **Regulated claims:** passes. There are no health, money, environmental, children or price claims. \"From Monday\" is a launch date, not a countdown or scarcity claim.\n- **House style:** about 92/100. The tone is warm, plain and unhurried. It uses no banned words and none of the usual AI tells, and the spelling is UK.\n- **Disclosure:** passes. It is the brand's own editorial content, with no paid partnership, affiliate link, gifted product or AI-generated imagery.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:**\n- Confirm \"Monday\" is the right date for the send. If the newsletter goes out after that Monday, \"from Monday\" will read as wrong, so the wording would need to change (my suggestion: use the actual date).\n- Confirm the first flush is picked in March at this specific garden, if the product team hasn't already signed off on it.\n\n**Approver:** Sam (marketing lead), who must approve everything public. I haven't recorded any approval. Sam needs to give an explicit yes to this exact text before it is sent or scheduled.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010689300000000002,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

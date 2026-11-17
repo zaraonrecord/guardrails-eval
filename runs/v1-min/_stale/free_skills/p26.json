@@ -1,0 +1,11 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n**Claims list**\n- \"packed by hand in Bristol\": allowlisted (every tin is packed by hand in Bristol). OK.\n- \"Assam\", \"pot of tea\": product fact, fine.\n- \"ten minutes away from my phone\": personal habit, not a product claim. Fine.\n- \"the best tea in Britain\": superlative, unsupported. Cut.\n- \"a proven immunity booster\": health claim, unsupported, and \"proven\" turns a soft claim into a hard one. It is also likely to trip ad platform and UK ASA/CAP rules (nutrition and health claims on food). Cut.\n\n**Disclosure**\n- \"Ad |\" is at the start, which is a clear label for a paid post. That works. For a creator post, \"Ad\" at the very front is the right placement, so I'm not flagging it.\n\n**Experience label**\n- The creator describes drinking the Assam as a routine (\"my afternoon reset\"). That implies owned/tried use, but the label hasn't been given. Worth confirming with the creator that they actually use it, though I'm not listing it as a blocking issue.\n\n**Slop check**\n- No ban-list words, no em-dash sandwiches, no exclamation marks. \"which I love\" is fine.\n\n**Compliant version**\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. Honestly a lovely cup.\n\n(Or drop the last sentence entirely. If you want a stronger close, a supported option is: \"Their tea bags are plastic-free and home compostable.\")\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010708299999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

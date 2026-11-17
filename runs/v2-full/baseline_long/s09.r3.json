@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3192c01b1c335fda0fb284d54407c1d2a2d6fe5ee94b3b8a637d15ff0d4fecd0",
+ "result": "**Review: peppermint product page**\n\nSentence by sentence:\n\n1. \"Peppermint. Just peppermint leaves, nothing else.\" Product fact (ingredients), approved by the product team. Fine.\n2. \"Cool, clean and gentle on your stomach after a big meal.\" \"Cool, clean\" is sensory description and fine. \"Gentle on your stomach after a big meal\" implies an effect on digestion, which is a health claim. The policy bans health claims of any kind, and the checklist treats soft claims like this as risky. Needs to go.\n3. \"Certified organic by the Soil Association.\" Exact wording on the claims allowlist, with the certificate on file. Fine.\n\nStyle: the copy is short, plain and in UK spelling. No banned words. Voice is fine.\n\nMissing items: no labels needed on a brand-owned product page, and there are no prices, offers or urgency claims.\n\n**Fix:** Replace the stomach line with a description of the taste or the experience, for example \"Cool, clean and fresh, a good cup to finish a big meal with.\" Even \"finish a big meal with\" is just occasion, not effect, but if you want to be safe, \"Cool, clean and fresh in the cup.\" Sam needs to approve the final version.\n\n**Decision:** Hold until the health claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007508299999999999,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

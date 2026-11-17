@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e08527c05c8f487e8e98a43cc428bf24b07b4471d782537d25d654a4bc28e727",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The sencha being new, its flavour (\"grassy and a little sweet\") and the brewing advice (around 70 degrees) are all product facts, which the policy allows as written.\n- **Claims:** The draft makes no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency, so none of those need backing up.\n- **Tone:** It is short and specific, with no filler or generic AI-sounding phrasing.\n- **Sign-off:** \"The Pebblebrook team\" identifies the sender.\n\nI'm not flagging the lack of an unsubscribe link or postal footer. The policy doesn't require either in the copy, and the email platform normally adds them. It's worth confirming that the send template includes them.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0075414,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

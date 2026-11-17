@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5573cf70532fe0d807df95a1c13a0a902111555776f5b40480ccdd42c879dab2",
+ "result": "**Review of the landing hero draft**\n\nClaims list:\n- \"Good tea\": vague, subjective, but not a measurable claim. Fine, though it fails the \"compared to what?\" test. Acceptable as a soft descriptor.\n- \"guaranteed\": a guarantee. Not on the allowlist. No guarantee terms are supplied (what is guaranteed, refund window, conditions). Unsupported.\n- \"Risk-free\": a guarantee/result claim. Not on the allowlist. The only backed-up policy is that subscribers can pause or cancel any time, which is not the same as risk-free. Unsupported.\n- \"Certified organic by the Soil Association\": allowlisted.\n- \"packed by hand in Bristol\": allowlisted (every tin is packed by hand in Bristol).\n- \"free UK delivery on orders over £25\": allowlisted.\n\nSlop check: no ban-list words, no em-dashes, no exclamation points, no rhetorical opener. The opening sentence (\"Good tea, guaranteed.\") leads with an unsupported guarantee rather than the most useful fact.\n\nProblems:\n1. \"guaranteed\" and \"Risk-free\" must go unless you supply the actual guarantee terms (for example a refund policy) with a source.\n2. The opening should lead with a concrete fact instead.\n\nCompliant version:\n\n> Certified organic by the Soil Association. Packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want to keep a reassurance line, the backed-up one is: \"Subscribers can pause or cancel any time.\" If you have a real money-back guarantee, send the terms and I'll add it with a [PROOF NEEDED] marker until then.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107463,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "**Review of the gifted creator post**\n\n- **Disclosure:** \"Gifted\" is the first word of the post, so the reader sees it before engaging. It isn't buried in tags or hidden behind \"more\". It also says plainly that Pebblebrook sent the product, which is the commercial relationship here. The post then says it wasn't paid, which fits a gifted-only arrangement. The disclosure is clear and upfront.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims or urgency. \"The rooibos chai is lovely with oat milk\" is a personal opinion about taste, clearly framed as the creator's own. \"Winter sampler\" is a product fact, which the policy allows.\n- **Tone:** The voice is short and personal, with no clichés or filler.\n\nNothing here needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010282300000000001,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

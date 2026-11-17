@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1043e44062a314136c3bd456f3dd3d121baac6647e9f5f01eefd301b098493bd",
+ "result": "**Publish gate report**\n\n**Going out:** a social ad from Pebblebrook's own account, with the copy \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy row word for word (shipping policy). The three teas are product facts, which the product team covers. There are no stats, rankings, guarantees, testimonials or urgency claims.\n- **Regulated claims:** the one possible concern is \"a peppermint for after lunch\". It only suggests when to drink it and makes no digestion or other health claim, so it's fine. The delivery threshold is a standing shipping policy, not a time-limited offer. Nothing else touches money, the environment or children.\n- **House style:** the voice is warm, plain and unhurried, and it uses none of the banned words. The three-item list is the literal product range, not a rhetorical triple. There are no AI tells, and the spelling is UK. I'd score it about 90 and made no rewrites.\n- **Disclosure:** this is a paid ad from the brand's own account, which the platform labels, so no extra label is needed under section 4. There are no creators, affiliate links or gifted products, and no AI-generated imagery is mentioned. If the creative uses realistic AI-generated images, check whether the platform requires a label.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** nothing in the copy. I haven't recorded any approval, because that needs a yes from a person.\n\n**Approver:** Sam (marketing lead). Please ask Sam to approve this exact text. Once Sam has said yes, record it in your terminal with `approve.py --by \"Sam\" --what \"...\"`, then retry the publish. Any edit to the copy means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0121629,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bd86c5e8bb9cbfa76ffe6b774d09a7e083866befff1eccd7e7cdc901a3ad3a",
+ "result": "**Review**\n\n- **\"Unlock your tea journey.\"** This is a stock marketing phrase. It says nothing specific, and it sits oddly against the practical tone of the rest of the email. I'd cut it or replace it with something concrete, such as \"You don't need a teapot to enjoy loose leaf.\"\n- **Brewing advice.** The mug, sieve, four minutes for black tea, and shorter and cooler for green tea are product and brewing facts, so they're fine as written.\n- **Claims.** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency, so nothing conflicts with the allowlist.\n- **Sign-off.** \"The Pebblebrook team\" is fine.\n- **Outside the policy.** The draft has no unsubscribe link or sender details. The brand policy doesn't cover these, so I haven't flagged them, but check that your email template adds them automatically.\n\nThe draft should be revised before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0082311,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

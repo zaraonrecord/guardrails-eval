@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1b338357bfa2096f269bfec82a6609b74de5a288f9e13ef6e8cfaf7de31610ad",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website, UK.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"malty, full-bodied black tea that stands up to milk\": flavour/product description, fine as written under the policy's product facts.\n   - \"100g tin, makes around 40 cups\": size and brewing facts, fine as written. \"Around\" is a suitable qualifier.\n\n2. **Regulated claims:** No health, money, legal, environmental, children or price claims. Pass. The organic claim is certified and on the allowlist.\n\n3. **House style:** Short, concrete, no banned or AI-tell phrasing. No superlatives, no stock openers. Pass. (The policy has no voice section filled in, so I checked against general plain-language standards only.)\n\n4. **Disclosure:** Own-brand product page, no ads, affiliates, gifted products or AI-generated imagery mentioned. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional note: if the page displays the Soil Association logo or certificate number, make sure it's the current licence, since the claim relies on that certification staying valid.\n\n**Approver:** The policy names no approver, so the user (you) should give an explicit yes to this exact copy before it is published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007795099999999999,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

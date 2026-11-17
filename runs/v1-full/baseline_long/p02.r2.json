@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f41c560c3a8ec769a8133d1fa30d752c39d4ada2987c7a5526f5eb5565f96139",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n1. \"Organic Loose Leaf Tea\" is description. The organic claim is backed by the Soil Association certification, and loose leaf is a product fact. Fine.\n2. \"Loved by 50,000 tea drinkers.\" This is a customer count. The policy only supports \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Nothing on file supports 50,000 customers or readers who love the product, and the policy forbids invented customer counts. Flag as an invented stat. Fix: use the approved wording, \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n3. \"Certified organic by the Soil Association.\" Exact approved wording. Fine.\n4. \"Free UK delivery on orders over £25.\" Exact approved wording. Fine.\n\nTone: plain and short, no banned words or clichés. UK spelling is fine. No ad label is needed for the brand's own search ad. No health, green, guarantee, or urgency issues.\n\n**Decision:** Hold. One fix is needed: replace the 50,000 figure with the approved review rating, or remove the line.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071793,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

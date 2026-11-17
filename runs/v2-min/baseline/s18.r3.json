@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4b3b0aef962467d26b0da7c0011832a176ca59e8a2e1744bc8d8467459aa084e",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n- **Ingredients and size:** Rooibos, cinnamon, cardamom, ginger, black pepper and the 100g tin are product facts, which the policy allows as written.\n- **\"Caffeine-free\":** This is an ingredient fact. Rooibos is naturally caffeine-free, so it's fine, though someone should confirm the blend has no added tea.\n- **\"Lovely with milk\":** This is a mild flavour opinion, so it's fine.\n- **\"Was £12, now £8\":** This is a reference-price discount, about 33% off, and it isn't on the claims allowlist. Nothing shows the tin was actually sold at £12 for a meaningful recent period. Under UK pricing rules (CMA guidance and the Consumer Protection from Unfair Trading Regulations), a \"was\" price must be genuine, or it misleads. Publication should wait until someone confirms the £12 history, or the draft should show just the current price.\n- **Other checks:** I found no invented stats, superlatives, health claims, green claims, fake urgency or fake testimonials.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097324,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

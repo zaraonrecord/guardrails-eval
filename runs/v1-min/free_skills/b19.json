@@ -1,10 +1,14 @@
 {
  "case": "b19",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Pebblebrook email, \"How to brew loose leaf without a teapot\"**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact. Product facts, including brewing, are fine as written, so this is allowed.\n- \"Green tea likes it shorter and cooler\": brewing fact, also allowed.\n- No stats, superlatives, guarantees, testimonials, review counts, awards or regulated claims (health, money, legal, environmental).\n- No urgency or scarcity language.\n\n**Slop check**\n- Ban-list words: none.\n- Structural bans: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triads.\n- The opening sentence (\"You don't need any kit.\") is short and concrete, and the next sentence backs it up with specifics.\n\n**Disclosure**\n- No products are reviewed, no affiliate links and no sponsored items, so nothing needs a label.\n\nNothing needs changing. Optionally, you could add a link to your loose leaf range for a clear next step, but that's a content choice, not a compliance issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0111623,
- "seconds": 8.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f01584fb745d2372387df5f80520c1ff8175c6719e83932aa3b785d80a8c617d",
+ "result": "**Review result: clear to publish. No changes needed.**\n\n**Claims list (claims-guard)**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, covered by the policy's product facts (brewing). Allowed.\n- \"Green tea likes it shorter and cooler\": brewing fact. Allowed.\n- No statistics, comparisons, superlatives, guarantees, testimonials, review counts, awards or health/environmental claims.\n\n**Slop check**\n- Ban-list words: none.\n- Structure: no em-dashes, exclamation points, rhetorical-question opener, \"not just X, it's Y\" or abstract-noun triads. No fake urgency.\n- The opening line, \"You don't need any kit.\", is direct and concrete, and the body gives actual specifics (mug, sieve, four minutes).\n\n**Review rules**\nThis is not a product review, affiliate post or sponsored content, so no labels or disclosures are required.\n\n**Optional note (not blocking):** the \"Hi Ana\" personalisation relies on your mail tool filling in the name correctly. Check the merge field works before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113843,
+ "seconds": 16.2,
  "models": [
   "claude-sonnet-5-5"
  ]

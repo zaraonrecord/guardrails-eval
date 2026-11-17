@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "417b38b713d2243824c4568946467097e96562d9b45c9f9bc37c991190329f11",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea\" | Product fact (flavour), fine as written |\n| \"noticeably smoother than supermarket tea bags\" | **Unsupported.** It's a comparative claim with no source on the allowlist or in this chat. \"Noticeably\" also implies testing or customer evidence we don't have, and the claim sets us against a whole category of competitors. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin, makes around 40 cups\" | Product facts (size, brewing), fine as written |\n\n**Other checks**\n- Banned vocabulary and structural slop: none found.\n- No invented stats, testimonials, urgency or guarantees.\n- No health claims.\n\n**Suggested fix**\n\nCut the comparison and let the flavour description carry the sentence:\n\n> Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nIf you want the smoothness point, it needs a source, for example `[PROOF NEEDED: taste-test or review evidence for \"smoother than supermarket tea bags\"]`. A softer, non-comparative option such as \"a smooth, malty black tea\" is a flavour description and would be fine as a product fact, but I haven't applied it since the original wording was a comparison.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122063,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

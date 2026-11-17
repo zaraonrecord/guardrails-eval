@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a2352b9a0694c7e65babd6fd14a07ce6642d53a9a680d28cffb8dc0444535e3a",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea, packed by hand in Bristol | Allowlisted (every tin packed by hand in Bristol; loose leaf is a product fact) |\n| Every tin is packed by hand in Bristol | Allowlisted |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on all orders | **Unsupported.** Allowlist says free UK delivery on orders over £25 only |\n\n**Issues**\n\n1. **\"Free UK delivery on all orders\"** is wrong. The backed claim has a £25 threshold. Fix: \"Free UK delivery on orders over £25.\"\n2. **Repetition.** The opening sentence and the second sentence both say \"packed by hand in Bristol.\" Keep one. This is a copy-quality point, not a claims problem, so I haven't flagged it in the JSON, but I'd fix it before publishing.\n\n**Suggested rewrite**\n\n\"Certified organic by the Soil Association. Loose leaf tea, packed by hand in Bristol, in every tin. Free UK delivery on orders over £25.\"\n\nBecause the delivery claim is inaccurate and would mislead customers on a UK landing page, this should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091223,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

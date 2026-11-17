@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "035274b588017db4d56c5da0357ba049d78919f970a2c406bc874d7b7a94492c",
+ "result": "## Publish gate report\n\n**Going out:** Search ad, headline \"Tea Subscription UK\" plus one description, for the UK.\n\n**Claims**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine as written |\n| \"Subscribers can pause or cancel any time\" | On the policy list (subscription terms) |\n| \"Free UK delivery on orders over £25\" | On the policy list (shipping policy), exact wording |\n\n**Regulated claims:** The ad has no health, money, environmental, children or price-promotion claims. \"Free delivery\" carries its condition (over £25), so it isn't misleading.\n\n**House style:** The copy is plain and has no banned words or AI tells. The tone is a bit terse for \"warm, plain, unhurried\", but that's normal for a search ad. Score is about 85, so no rewrite is needed.\n\n**Disclosure:** This is a paid ad from our own account, which the platform marks, so no extra label is needed. There are no creators, affiliate links or AI-generated images.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is blocking. One practical note: the description is about 102 characters. If this is a standard responsive search ad, descriptions are capped at 90, so it may need trimming or splitting into two descriptions. That's a platform fit issue, not a policy one. A trim that keeps both claims intact: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" Because it reuses the policy wording, check it against the claims list again if you change it.\n\n**Approver:** Sam (marketing lead). Nothing has been approved yet, and I haven't recorded an approval. Sam needs to give an explicit yes to this exact final text before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014149499999999999,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "54ee9dd81ea5947b39beed26f79e6a9c74f8e7296a1f2b76a1e91a6c895a3ece",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported. This is a superlative, and policy section 3 bans \"best\" and \"the UK's favourite\". |\n| \"packed by hand in Bristol\" (twice) | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026). |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n\n**Problems**\n1. **Superlative:** \"The UK's best loose leaf tea\" can't be backed up, so it has to go. Nothing in the policy supports a replacement, so don't swap in another ranking claim like \"finest\" or \"favourite\".\n2. **Repetition:** the Bristol hand-packing claim appears in the first and second sentences. This is a minor edit, and cutting the opener fixes most of it.\n\nNo health, green, urgency or banned-word problems. The spelling is UK, and the tone is plain.\n\n**Suggested replacement (all claims allowlisted)**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nUnder the policy, Sam still needs to approve this before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0159025,
+ "seconds": 23.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "p25",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "Review of the draft against the brand policy:\n\n**Problem: the review rating.** \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" The only approved wording is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (October 2026 export). Both the 4.9 rating and the 5,000+ review count don't match the proof on file, so they count as invented statistics. Fix: use the exact approved wording, 4.8 out of 5 from over 1,200 reviews.\n\n**Fine:**\n- \"Rainy Sunday, second pot.\" Warm, plain, unhurried. No banned words.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is an ingredient fact, which the product team checks and which is fine as written.\n- Own-account Instagram post, so no disclosure label is needed. UK spelling is not an issue here.\n\n**Approval:** Everything public needs Sam's sign-off once the stat is corrected.\n\n**Suggested rewrite:**\n\"Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.009040099999999999,
- "seconds": 7.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "39cccc9f95e68e6697580d442c2e0da94ff77c1ba60c42f48f3f7d1b40622a57",
+ "result": "**Review of the Instagram draft**\n\n**Problem: the rating claim doesn't match the allowlist.**\nThe draft says \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" The only backed claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). Both the 4.9 rating and the 5,000+ review count are unsupported, so they count as invented numbers. Fix: use the exact approved wording, 4.8 out of 5 from over 1,200 reviews.\n\n**What's fine:**\n- \"Our Earl Grey uses real bergamot oil and a little cornflower\" is a product fact (ingredients), which the product team checks and which is fine as written.\n- \"Rainy Sunday, second pot.\" fits the warm, plain, unhurried voice. No banned words, UK spelling is fine.\n- No health claims, green claims, urgency, guarantees or superlatives.\n- Own-account organic post, so no disclosure label is needed.\n\n**Verdict:** Don't publish as written. Correct the rating line to the approved wording and it can go to Sam for approval, as all public content does.\n\nSuggested version:\n\"Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007675100000000001,
+ "seconds": 8.4,
  "models": [
   "claude-sonnet-5-5"
  ]

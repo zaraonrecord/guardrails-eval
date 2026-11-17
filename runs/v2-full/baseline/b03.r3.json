@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "09bbcec582058e261ddf1d5ffa244c46156d18b8eb5638fc2ea6d1b81717e394",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\" (headline):** Organic is backed by the Soil Association certificate on file, renewed 2026. Loose leaf is a core product. Fine.\n- **\"Certified organic by the Soil Association.\"** Matches the allowlist wording exactly.\n- **\"Free UK delivery on orders over £25.\"** Matches the allowlist wording exactly.\n- No superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency.\n- No banned words, UK spelling is fine, and tone is plain.\n- Paid search ad from our own account, so no disclosure label is needed.\n- Approval: everything public needs sign-off from Sam (marketing lead) before it goes live. That's a process step, not a change to the copy.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0054591,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

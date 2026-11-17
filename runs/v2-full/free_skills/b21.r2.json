@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f8f636519995c1f68ae5f9ae31bb112709257daf7fb4d69c4b9b0fe0125a46dc",
+ "result": "**Not ready to publish.** One claim isn't backed by the allowlist.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** \"We buy from gardens we've visited\" is a factual sourcing claim. It isn't on the claims list, and it doesn't fall under the product-fact categories (ingredients, origin and pick dates of a specific tea, team size and so on). It suggests the team has visited every garden it buys from, and nothing here confirms that. Either:\n- get proof from the product team and add it to the policy (for example, which gardens have been visited), or\n- replace it with a checked fact, such as the region where a particular tea is grown, or cut it. If it would genuinely help, mark it `[PROOF NEEDED: which gardens the team has visited, and whether that covers all suppliers]`.\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, or fake urgency.\n- No banned voice words or slop structures. The tone is plain and warm.\n- UK spelling is fine.\n- No disclosure is needed, since this is our own about page.\n- As public content, it needs Sam's approval before going out.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011208200000000001,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

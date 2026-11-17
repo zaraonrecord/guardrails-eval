@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "337d9f76e8a60e6388aadce74159aef2592a2368a39c5ac5ee8e8be58cd047d5",
+ "result": "**Review: not ready to publish**\n\n**Problem**\n- \"Unlock your tea journey.\" uses two words on the brand's banned list (\"unlock\" and \"journey\"). It is also vague filler that says nothing concrete, and the useful fact only starts in the next sentence.\n\n**Checked and fine**\n- **Brewing guidance:** \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" count as product facts the product team checks, so they're allowed as written.\n- **Claims:** No numbers, superlatives, guarantees, testimonials, health claims, green claims or urgency.\n- **Disclosure:** This is our own email, so no \"Ad\", \"Gifted\" or affiliate wording is needed.\n- **Voice:** Everything else is warm, plain and unhurried, and the spelling is UK.\n\n**Suggested fix**\nCut the opening line so the first sentence carries the fact:\n\n> Hi Ana,\n>\n> You don't need a teapot to brew loose leaf. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\nIf you want specific green tea timing and temperature, the product team needs to supply those figures, because I won't invent them.\n\nSam still needs to approve it, since all public content goes through him.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110197,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

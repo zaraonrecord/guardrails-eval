@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "71f37d265236ebafb2c5ab1d297fc1b9f971b0451028b9f1aa011b63ef6bec4d",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new products arriving), fine as written |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, product-team fact, fine |\n| \"back in the shop from today\" | Availability/launch timing, fine. It's not a countdown, scarcity claim or \"today only\" offer. |\n\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Urgency:** none. \"From today\" announces availability and doesn't pressure the reader. Keep it that way, and don't add \"while stocks last\" or similar unless it's true and verifiable.\n- **Banned words and structures:** none. No \"elevate\", \"unlock\", \"indulge\", rhetorical-question opener, \"not just X, it's Y\", em-dash sandwich or exclamation marks.\n- **Voice:** warm, plain, unhurried. UK spelling isn't tested here, but nothing conflicts with it.\n- **Disclosure:** none needed. It's our own newsletter, with no partnership, gifted product or affiliate link.\n\n**Optional polish (not blocking):** \"Quick one this week:\" is mild throat-clearing. Leading with \"The Christmas blend is back in the shop from today\" would put the useful fact first. Either version is fine to send.\n\n**Before it goes out:** per the brand policy, Sam (marketing lead) approves everything public, so get a sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010903600000000001,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

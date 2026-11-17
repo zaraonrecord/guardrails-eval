@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7200f72f116e3549090caf9215df5be619ca8c14fe4acc4449c0c3b6017f12ed",
+ "result": "I made a mistake in the JSON block above. My review found nothing to change, so `publish` should be `true`, not `false`. Here is the corrected block:\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006627699999999999,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

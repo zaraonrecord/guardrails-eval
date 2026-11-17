@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e491f1e14b1d14855cfe6aa9041147f6c5e53e491ded8cd6d8ac5bbb6ce1e0a9",
+ "result": "I read the draft as a customer would see it: a short, practical brewing email.\n\n**Claims:** The only content is brewing guidance (mug, small sieve, four minutes for black tea, shorter and cooler for green). Brewing guidance counts as a product fact the product team has approved, so it's fine as written. There are no numbers about the company, no superlatives, no health, environmental or guarantee language, no urgency, no testimonials.\n\n**Labels:** It's a brand-owned email, so no \"Ad\" label is needed. No creator, gifted or affiliate content.\n\n**Voice:** Warm, plain, unhurried. No banned words or AI clichés. UK spelling is not tested by any word here but nothing conflicts. No repetition.\n\n**Other:** The subject line matches the content. Personalisation (\"Hi Ana\") is a normal merge field; worth confirming it populates correctly, but that's a send-setup check, not a copy problem. Per the policy, Sam approves everything public, so it needs his sign-off before sending.\n\n**Decision:** Nothing needs changing. It can go out once Sam has approved it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006596900000000001,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

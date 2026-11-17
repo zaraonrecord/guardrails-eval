@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "245516eb30c8717f100ea11d2e52c0be6d99cc2a648e5abd6b2791b6c8c9015d",
+ "result": "**Review of the social ad draft**\n\nChecked against the brand policy:\n\n- **\"9 out of 10 customers reorder within a month.\"** This is a statistic that isn't on the claims allowlist and has no proof on file. Policy bans invented numbers and customer stats. Remove it, or get it verified and added to the policy first.\n- **\"Free UK delivery on orders over £25.\"** Matches the allowlist wording exactly. Fine.\n- **\"Three teas for your desk drawer\"**, **\"Builder's, Earl Grey and a peppermint for after lunch\"**: product facts and plain, warm voice. No banned words, no health claims (the \"after lunch\" mention is about timing, not a benefit). UK spelling is fine. Fine.\n- **Label:** a paid social ad from our own account is marked by the platform, so no extra label is needed.\n- **Approval:** everything public needs Sam's sign-off.\n\n**Verdict:** Don't publish as is. Cut the \"9 out of 10\" sentence and the rest is good to go once Sam approves.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0063972,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "58b9180ed205b12c88e5a551bc5300acbe5035cd5bfb1c50a4374242bbbe3d8a",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (a personal greeting, so presumably a list merge), sender \"The Pebblebrook team\".\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or superlatives. The brewing guidance (\"a mug, a small sieve and four minutes... green tea likes it shorter and cooler\") is covered by the policy as product team brewing guidance. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Warm, plain and unhurried. It has no banned words and no AI tells, and it uses UK spelling. Score is about 90. It's short, but nothing needs rewriting.\n- **Disclosure:** This is the brand's own email with no sponsorship, affiliate links, gifted products or ads. No label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. Two optional notes: there is no unsubscribe link or sender address in the draft (the email platform's footer will probably add them, so check that it does), and the \"Ana\" greeting needs to be a working merge field rather than hard-coded text.\n\n**Approver:** Sam (marketing lead), per the policy, since this is public content. I haven't recorded any approval. Sam needs to give an explicit yes to this exact text before it is sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007873699999999999,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

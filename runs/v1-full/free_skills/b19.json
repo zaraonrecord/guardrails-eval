@@ -1,10 +1,14 @@
 {
  "case": "b19",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review result: clear to publish.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, which the product team checks and policy allows as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same status |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, invented numbers, testimonials:** none.\n- **Urgency:** none.\n- **Disclosure:** this is our own email, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed. No product is reviewed and no links appear.\n- **Banned words and structures:** no banned words, em-dash asides, exclamation points, rhetorical-question openers or \"not just X, it's Y\" constructions. The first sentence gives the useful fact directly.\n- **Voice:** warm, plain and unhurried. Nothing in the spelling conflicts with UK usage.\n- **Approval:** per the policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes out.\n\n**Optional, not blocking:** the email has no link or next step. If you add one, the same checks apply to the new wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.012414499999999998,
- "seconds": 11.7,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "515783309eb1bbd6514439434907e660b47a96a69eb1d41ef36aa69104d8458c",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, a product fact the policy allows as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same status |\n\nThe draft has no statistics, superlatives, guarantees, testimonials, health or environmental claims, or urgency. It also has no review, affiliate or partnership content, so no disclosure applies. It is a brand email, not a creator post.\n\n**Voice and slop check**\n- The draft contains no banned words or phrases.\n- It has no em-dash sandwiches, exclamation points, rhetorical-question openers, \"not just X, it's Y\" constructions or abstract-noun triads.\n- The first sentence is useful and plain, and the tone is warm and unhurried.\n- It uses UK spelling, and nothing in it conflicts with it.\n\n**Optional tweak (not blocking):** \"shorter and cooler\" is relative to black tea. If the product team supplies a time and temperature for green tea, adding them would be more concrete. I haven't invented any figures.\n\n**Before sending:** under the policy, Sam (marketing lead) approves everything public, so get Sam's sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113247,
+ "seconds": 11.0,
  "models": [
   "claude-sonnet-5-5"
  ]

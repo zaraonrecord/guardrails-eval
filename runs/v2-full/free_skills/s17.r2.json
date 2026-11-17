@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "43a09f043920a83865c1d715839454180fffcef5762cc596f890b764872532f2",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Your subscription box left Bristol this morning.\" | Order-specific fact from fulfilment. Fine if true for this send. |\n| \"it ships within 24 hours of your order\" | **Unsupported.** It's a number and a service promise, and the policy has no dispatch-time claim. \"As always\" makes it a standing promise. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine. |\n| \"you can pause or cancel any time from your account\" | Allowlisted (subscription terms). |\n\n**Voice and slop check:** No banned words, em-dashes, exclamation points, fake urgency, health or green claims, or invented testimonials. The tone is warm, plain and unhurried. The email isn't a paid partnership or an affiliate post, so no disclosure is needed.\n\n**Fix:** Cut the sentence \"As always, it ships within 24 hours of your order.\" Or replace it with `[PROOF NEEDED: confirmed dispatch-time commitment from operations]` and keep it only once that's confirmed. Without it, the email still works.\n\n**Before it goes out:**\n- The subject and body say \"October tins\" and \"this month\", but today is 17 November. Confirm the month is right for this send.\n- Sam needs to approve it, since all public content goes through them.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0172705,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

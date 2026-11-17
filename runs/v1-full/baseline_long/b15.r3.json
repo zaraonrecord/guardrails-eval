@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3b30e558e9ee30bbb9e892d1eae9c7e6eba3576824d02cb46e04256c1a36b3c",
+ "result": "I checked this draft sentence by sentence against the brand policy and the checklist. It can go out as written.\n\n- **\"I've tried four tea subscriptions this year.\"** This is the reviewer's own first-person experience, not a brand claim, so it needs no brand evidence.\n- **\"Pebblebrook's was the easiest to pause\"** This is a personal opinion, clearly framed as the reviewer's experience, not a brand superlative. It also fits the approved claim that subscribers can pause or cancel any time.\n- **\"the tins are lovely\"** This is plain opinion, with no health, green or superiority claim.\n- **\"You can find it here (Affiliate link).\"** The policy requires the words \"Affiliate link\" next to the link, and they sit directly beside it. The policy covers this case, so it counts as compliant even though the checklist would prefer the label earlier in the piece. The draft is short, so the reader sees it before clicking.\n- **Brand rules:** I found no invented numbers, guarantees, health or environmental claims, or urgency. None of the banned words appear, and the voice is plain and warm. There are no AI clichés.\n\nThe one optional polish is to name the link text more clearly, but that is not needed for approval. Sam still approves everything public under the policy, so it should go to Sam as usual.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103128,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

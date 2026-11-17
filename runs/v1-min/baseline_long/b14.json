@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "**Review: creator post (gifted)**\n\n- **Label:** \"Gifted\" is the first word, so it can't be missed or hidden behind \"more\". The next sentence (\"Pebblebrook sent me their winter sampler\") repeats the relationship in plain words. This meets the upfront-label requirement.\n- **Claims:** \"The rooibos chai is lovely with oat milk\" is a personal opinion about taste, clearly presented as one. It makes no health, results or superiority claim.\n- **Product facts:** The winter sampler and rooibos chai are product facts, which the brand policy allows as written.\n- **\"Not paid to say that, just liked it\":** This is honest, and it doesn't contradict the gifted label. It is only accurate if there's no payment or other agreement behind the post. Worth a quick check with the creator, but nothing in the draft contradicts it.\n- **Stats, urgency, guarantees, green claims:** None present.\n- **Style:** Short, specific and in a personal voice, with no AI clichés or filler.\n\n**Optional polish, not blocking:** Some teams prefer \"Ad – gifted\" over \"Gifted\" alone, to match the UK convention more closely. The current label is clear enough to go out as is.\n\nThe draft can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013128500000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

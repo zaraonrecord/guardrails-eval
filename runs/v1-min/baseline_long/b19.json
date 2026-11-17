@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\nI read it as Ana would: a short, practical brewing tip from the brand.\n\n- **Claims:** None that need evidence. \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" are brewing facts, which the policy allows as written. No numbers, superlatives, health claims, green claims, guarantees, testimonials, urgency or pricing.\n- **Labels and disclosure:** This is a brand-owned email, so no \"Ad\" label is needed. The sender is identified as the Pebblebrook team. The subject line matches the content.\n- **Style:** Plain, specific and in a human voice. No clichés, filler or repetition. \"You don't need any kit\" is natural UK English.\n- **Optional polish (not blocking):** There's no call to action or link, and the sign-off is bare. That's a choice for the team, not a problem.\n\nNothing here needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081885,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

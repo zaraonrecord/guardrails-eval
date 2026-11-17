@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "I checked the draft against the checklist and found nothing that needs changing.\n\n- **Disclosure:** \"Gifted |\" is the first word, so the reader sees it before engaging. The next sentence, \"Pebblebrook sent me their winter sampler\", explains the relationship in plain words. The draft doesn't say it's an ad, but the gift is clear and prominent, not buried in tags or after a \"more\" break.\n- **Claims:** There are no numbers, superlatives, guarantees, health claims, green claims or urgency. \"The rooibos chai is lovely with oat milk\" is a personal opinion and a serving suggestion, which the checklist allows.\n- **\"Not paid to say that, just liked it\":** This is a clear statement of the creator's own view. It fits the gifted arrangement as described, though the team should confirm no payment was made. If there was, this line would need to go and the label would need to change to \"Ad\".\n- **Product facts:** The winter sampler and rooibos chai fall under product facts the brand policy treats as fine as written. It's worth a quick check that the sampler actually includes a rooibos chai.\n- **Style:** The voice is short and natural, with no clichés or filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0098903,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

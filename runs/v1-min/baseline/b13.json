@@ -1,10 +1,14 @@
 {
  "case": "b13",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the draft**\n\n- **Disclosure:** It opens with \"Ad |\", which is clear and upfront for a paid creator post. Fine.\n- **Claims:** \"Tins are packed by hand in Bristol\" is on the allowlist. \"Assam\" is a product fact, so fine as written.\n- **Other checks:** No invented stats, superlatives, guarantees, health claims (the \"ten minutes away from my phone\" line is a lifestyle remark, not a wellness claim), green claims, fake urgency, or fake testimonial. The personal voice (\"which I love\") is a creator's opinion about a verified fact, not a fabricated customer quote. Nothing reads as generic AI filler.\n\nNo changes needed. Safe to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.00828,
- "seconds": 6.5,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7af0f375abe3845a7f341ad12f2cf0d836febedaccb08b82a54bb820f64fd410",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** The post opens with \"Ad |\", so the paid relationship is labelled up front, as it should be for a paid creator post.\n- **Claims:** \"Packed by hand in Bristol\" is on the brand's allowlist. The Assam is a product fact, so it's fine as written.\n- **Health claims:** \"Ten minutes away from my phone\" is a personal routine, not a wellness or health promise.\n- **Other checks:** There are no invented stats, superlatives, guarantees, fake urgency, green claims or made-up testimonials. The tone reads as personal rather than generic AI copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009504,
+ "seconds": 7.1,
  "models": [
   "claude-sonnet-5-5"
  ]

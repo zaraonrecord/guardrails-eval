@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba34b0cfe5ccffc21a6928a7212cb6b94acb91b5ff4f644a99c79e09d3cbe33c",
+ "result": "**Verdict: fine to publish.** I found nothing that needs changing.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), covered by the product team |\n| \"Deep green, gold lettering\" | Product fact (design) |\n| \"the same plastic-free tea bags inside\" | Allowlisted: plastic-free tea bags (EN 13432 supplier certificate) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, invented numbers, testimonials:** none.\n- **Environmental claims:** only the allowlisted plastic-free and home compostable wording. No \"eco-friendly\" or \"sustainable\".\n- **Urgency:** \"just landed\" describes a launch, not a countdown or scarcity claim.\n- **Disclosure:** none needed. This is our own account, and the platform marks paid social ads.\n- **Voice:** none of the banned words, and the tone is plain and warm. UK spelling is fine, with no exclamation marks or em-dashes.\n\n**Optional edit, not a blocker:** \"plastic-free\" appears twice in three sentences. You could cut the middle mention and keep the full claim at the end: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119844,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

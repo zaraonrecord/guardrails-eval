@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5e3ba997116ee39b1f7be59f8d388730a7c272108aef26376b6b76a3a6d574bc",
+ "result": "I found nothing that needs changing in this draft.\n\n- **Rating line:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly. The proof is the October 2026 review export, which is current.\n- **Organic:** \"Organic loose leaf\" is backed by the Soil Association certificate, which was renewed in 2026.\n- **Plastic-free bags:** This matches what we sell and the EN 13432 supplier certificate. The draft makes no compostable claim beyond what we can support.\n- **Packed by hand in Bristol:** This matches the operations fact. The allowlist says \"every tin\", so if the bags aren't packed in tins, the product team could confirm they are also hand-packed. It's a minor point and not a blocker.\n- **Banned content:** There are no superlatives, guarantees, health claims, vague green claims, invented numbers, fake urgency or banned words. The tone is plain and the spelling is UK.\n- **Disclosures:** This is our own landing page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118039,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

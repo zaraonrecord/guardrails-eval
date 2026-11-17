@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a04ccaf33ce3ba0146b7d78d6d6e5101f776d6d268b2918397b195213a24328c",
+ "result": "**Review of landing hero draft**\n\nChecks against the brand policy:\n\n1. **\"packed by hand in Bristol\"**: supported (every tin is packed by hand in Bristol). However, it is stated twice in consecutive sentences, which is repetitive. Worth tightening, but it's an editing note rather than a blocker.\n2. **\"certified organic by the Soil Association\"**: supported.\n3. **\"Free UK delivery on all orders\"**: not supported. The allowlist only backs free UK delivery on orders over £25. Saying \"all orders\" overstates the offer and would mislead customers. This must change to \"Free UK delivery on orders over £25.\"\n\n**Suggested rewrite:**\n\"Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nHmm, one correction on my rewrite: the policy says the *tea* is certified organic, so keeping the original wording is safer: \"Our tea is certified organic by the Soil Association.\" Final version:\n\n\"Loose leaf tea, packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007314599999999999,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

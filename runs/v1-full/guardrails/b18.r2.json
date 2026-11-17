@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e7b10157fb3e7da6ca448baba9f010f3072a5b65b727af90f206c9804b038ac4",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for the peppermint tea, on the Pebblebrook Tea Co. website (UK).\n\n**Checks**\n- **Claims:** Passed.\n  - \"Certified organic by the Soil Association\" matches the policy row word for word. The certificate was renewed in 2026, so it is current.\n  - \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks and which is fine to use as written.\n- **Regulated claims:** Passed. \"Cool and clean after a big meal\" describes how the tea feels and when people drink it. It doesn't say the tea aids digestion, relieves bloating or does anything else for health. If anyone later changes it to \"settles your stomach\" or \"helps digestion\", it would break the no-health-claims rule.\n- **House style:** Passed, roughly 90 out of 100. The copy is warm, plain and unhurried, has no banned words or AI tells, and uses UK spelling.\n- **Disclosure:** Nothing needed. This is the brand's own product page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing outstanding.\n\n**Approver:** Sam (marketing lead). The copy has passed the checks, but it can't go live until Sam gives an explicit yes to this exact text. I haven't recorded an approval, and I won't record one on Sam's behalf.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0116082,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8ea2daf56500d836da9772acdd7d2d1d73a7138dbecbaa11f48cf80f67fe2e7e",
+ "result": "**Verdict: don't publish as written.** One claim is wrong, and one sentence repeats another.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Loose leaf tea\" | Product fact, fine |\n| \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026) |\n| \"Free UK delivery on all orders\" | **Unsupported.** The allowlist says free UK delivery on orders **over £25**. \"All orders\" promises something the shipping policy doesn't. |\n\n**Other points**\n- The first sentence and the second say the same thing about hand packing in Bristol. Keep one.\n- There are no banned words, no health, green or superlative claims, no fake urgency, and no disclosure is needed for our own landing page.\n- Sam still needs to approve it before it goes live.\n\n**Suggested rewrite**\n\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nOne caution: \"Every tin is certified organic\" is slightly broader than the allowlisted wording. To stay exact, use \"Our tea is certified organic by the Soil Association\", as in the original.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0132912,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "732438fec6171281d71140c3517dc3c4022a0b2657542062cbcd2dd904f2e28d",
+ "result": "**Publish gate report: blog intro**\n\n**Going out:** Pebblebrook blog intro, UK audience, timing not stated.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | On the policy list (\"founded in Bristol in 2019\") |\n| Tea bags are plastic-free and home compostable | On the policy list |\n| \"Couldn't find tea bags without plastic in them\" | Founding story, not a product or performance claim. Fine if true, so worth a quick confirmation from the founders |\n| \"Here's how we checked\" | Promises evidence in the rest of the post. Nothing in this chat supports a test or certification yet |\n\n**Regulated claims:** \"Plastic-free and home compostable\" is an environmental claim. It's on the policy's approved list and is specific rather than a broad \"eco\" or \"green\" claim, so it passes as written. The post body must not widen it, for example to \"fully biodegradable\", \"zero waste\" or \"better for the planet\", unless the policy covers that.\n\n**House style:** No banned words or AI tells. The copy is plain and specific. \"Here's how we checked\" is a slightly teaser-style hook, but it's acceptable.\n\n**Disclosure:** This is the brand's own editorial content, with no ads, sponsors, affiliate links, gifted products or AI-labelling issues, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision**\n- This check covers the intro only. When the rest of the post explains \"how we checked\", I'll need to see it. Any test results, lab names or certificates have to be sourced, and a home-compostability claim usually needs the certificate or test behind it on record.\n- The policy names no approver, so I need an explicit yes from you (or whoever owns the blog) for this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0133099,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

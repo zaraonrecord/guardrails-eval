@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c64529c9c939e7ee703927e513bb847f27a36cb8edb8436351de4920266a86be",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Allowed (new arrival) |\n| Black tea, orange peel, cinnamon, clove | Allowed (product facts) |\n| Back in the shop | Allowed, but it repeats the first sentence |\n| 30% off | **Unsupported.** The discount isn't in the brand policy and no source was given in this chat. |\n| Today only, ends at midnight | **Unsupported urgency.** Nothing confirms the deadline is real and enforced. |\n\n**Problems**\n\n1. **\"30% off\"**: The offer isn't on the allowlist. Confirm the discount, what it applies to, and any code or exclusions. Until then, use `[PROOF NEEDED: confirm discount amount and scope]`.\n2. **\"Today only\" / \"ends at midnight\"**: Countdown language is only allowed if the deadline is real and verifiable. If the sale really ends at midnight tonight (17 Nov) and the shop enforces it, keep it and say so. Otherwise cut it.\n3. **Minor:** \"the Christmas blend is back\" and \"It's back in the shop\" say the same thing, so keep one. \"Quick one this week\" is throat-clearing, and the opening sentence should carry the most useful fact.\n\n**Compliant version (pending confirmation of the offer)**\n\n> The Christmas blend is back in the shop: black tea with orange peel, cinnamon and a little clove. [PROOF NEEDED: confirm discount amount, scope and end time before adding any offer line]\n\nIf the offer is confirmed as real, the last line could become: \"30% off until midnight tonight, 17 November.\"\n\n```json\n{\"issues\": [{\"quote\": \"30% off\", \"type\": \"other\"}, {\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0136948,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

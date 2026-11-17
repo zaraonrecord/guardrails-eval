@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8ea28ec1e80c89df7c126fcece22c32d68457b6217496c27a6a89ccdea63c9a0",
+ "result": "I went through the draft sentence by sentence.\n\n- **Subject: \"Your October tins are on the way\"**: This is a transactional subject line and matches the body, which says the box has left. One small oddity is that the subject says \"tins\" while the body says \"subscription box\". Brand policy mentions tins, so it's not a claim problem. It's a minor consistency point only. Also, today is 17 November, so an \"October\" shipment notice is odd timing, but I can't tell from the draft whether it's a late send or a scheduling quirk. Worth the team confirming, but it isn't a copy or claims issue I can verify.\n- **\"Your subscription box left Bristol this morning\"**: Consistent with the brand's Bristol packing. It's an operational statement about this specific dispatch, which the team should know to be true when sending. No claim problem.\n- **\"a smoky lapsang and a soft white peony\"**: Product and flavour description, fine as written.\n- **\"you can pause or cancel any time from your account\"**: Matches the approved claim that subscribers can pause or cancel any time.\n- **Sign-off and tone**: Short, specific, and in a human voice. No clichés, no hype, no health, green, pricing or urgency claims. It's an email from the brand's own channel to a subscriber, so no ad label is needed.\n\nNothing in the draft needs changing. The only notes are optional: confirm the \"October\" wording is right given the send date, and decide whether \"tins\" or \"box\" is the preferred word.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007711299999999999,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

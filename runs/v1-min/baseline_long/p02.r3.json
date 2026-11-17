@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8625d5ef913a24b92b3420160406eff77e31c28e1ec421d22d8baa80ee53bbd1",
+ "result": "**Review of the search ad**\n\nGoing sentence by sentence:\n\n- **\"Organic Loose Leaf Tea\"**: product description. The brand is certified organic and sells loose leaf tea, so this is fine.\n- **\"Loved by 50,000 tea drinkers.\"**: this is a customer count and so a claim. The approved evidence is a 4.8 out of 5 rating from over 1,200 reviews. Nothing in the policy supports 50,000 customers or tea drinkers who \"love\" the tea. It is an unsupported number and should be removed or replaced with the approved rating claim.\n- **\"Certified organic by the Soil Association.\"**: approved claim.\n- **\"Free UK delivery on orders over £25.\"**: approved claim, and the threshold is stated correctly.\n\nStyle: the copy is short and plain, with no clichés.\n\n**Decision:** hold. The \"50,000\" figure has no backing. A fix would be: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006815099999999999,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

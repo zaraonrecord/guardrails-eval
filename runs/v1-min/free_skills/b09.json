@@ -1,10 +1,14 @@
 {
  "case": "b09",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Founded in Bristol in 2019\" | Allowlisted |\n\n**Slop check:** No ban-list words, no exclamation points, no rhetorical-question opener, no em-dash sandwiches, no fake urgency. The description opens with a concrete fact.\n\n**Ad checks:**\n- Landing page consistency: the ad claims plastic-free, home compostable and Bristol 2019. The landing page should make the same claims. I can't see it, so confirm before publishing.\n- Platform policy: \"home compostable\" is an environmental claim, but it is on the brand's backed-up list. Keep any compostability certification or evidence on file in case the platform asks. No health, financial or personal-attribute triggers.\n- Character limits: none given. For reference, the headline is 21 characters and the description is 77 characters, both within standard RSA limits (30 and 90).\n- Affiliate/sponsorship disclosure: not applicable, as this is the brand's own ad.\n\n**Verdict:** Every claim is on the allowlist and the copy is clean. No changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0089903,
- "seconds": 7.8,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b15fbecb9f6745174369d4def13ea295fefc6df526c6fee0115cc19c210f6de5",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free\" | Allowlisted |\n| \"home compostable\" | Allowlisted (tea bags are plastic-free and home compostable) |\n| \"Founded in Bristol in 2019\" | Allowlisted |\n\n**Other checks**\n- **Invented stats, testimonials, superlatives, guarantees:** none.\n- **Green claims:** both environmental claims (\"plastic-free\", \"home compostable\") are specific and on the brand's backed-claims list, so they are fine. They are not vague claims like \"eco-friendly\".\n- **Slop and structure:** no banned words, no exclamation points, no em-dashes, no rhetorical-question opener, and no fake urgency. The first sentence states a concrete fact.\n- **Character counts:** the headline is 21 characters and the description is 79. That is within the usual search ad limits of 30 for a headline and 90 for a description. You gave no specific limits, so check these against your platform's.\n- **Landing page match:** the ad says tea bags are plastic-free, home compostable and that the brand was founded in Bristol in 2019. Make sure the landing page states the same, since an ad shouldn't make a claim the page doesn't.\n- **Platform policy:** nothing here touches health, finance or personal attributes.\n\n**Verdict:** no changes are needed, and it is fine to publish once the landing page matches.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014240300000000001,
+ "seconds": 11.9,
  "models": [
   "claude-sonnet-5-5"
  ]

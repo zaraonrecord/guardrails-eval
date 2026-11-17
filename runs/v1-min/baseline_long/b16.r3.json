@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "I reviewed this hero line sentence by sentence against the brand policy.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved claim exactly: the rating, the review count and the source (our website).\n- **\"Organic loose leaf and plastic-free bags\"**: Certified organic by the Soil Association and plastic-free tea bags are both on the allowlist. \"Organic\" is a fair short form of the certified claim. The line doesn't say \"biodegradable\" or \"eco-friendly\", so there is no vague green claim.\n- **\"packed by hand in Bristol\"**: This is approved. Every tin is packed by hand in Bristol.\n- **Other checks:** There are no health claims, superlatives, guarantees, urgency or pricing, and no testimonials or paid content needing a label. The tone is plain and specific, with no AI clichés or filler.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007636299999999999,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

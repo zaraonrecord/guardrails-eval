@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "**Review of the sencha email**\n\nReading it as Tom would: a short, plain announcement of a new tea, with no hype.\n\n**Claims.** \"We've added a Japanese sencha to the shop\" is a new-product fact, which the policy lets the product team clear. \"Grassy and a little sweet\" is flavour description, and \"best brewed cooler than you think, around 70 degrees\" is brewing guidance. Both are product facts, fine as written. \"Best brewed\" here is advice on temperature, not a superiority claim.\n\n**Health, green, guarantees, urgency, stats, testimonials.** None present.\n\n**Disclosure.** It's the brand's own email, so no ad label is needed. No affiliate links or creators.\n\n**Subject line.** \"A new green tea\" matches the content. \"Green tea\" is the tea type, not an environmental claim.\n\n**Voice.** Warm, plain, unhurried. No banned words or AI clichés. UK spelling is fine, with no conflicts. The sign-off \"The Pebblebrook team\" is fine.\n\n**Approval.** Everything public goes through Sam, so it needs his sign-off before sending. That's a process step, not a copy problem.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006890199999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

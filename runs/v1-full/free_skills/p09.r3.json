@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4f28a0f3868cdeae722415b70dc566815b3e49f3b6e81ee518932b5966a1fa2d",
+ "result": "**Verdict: do not publish as written.** One sentence makes health claims, which the brand policy bans outright.\n\n### Claims check\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product name, fine |\n| gentle, honeyed, caffeine-free blend | Product facts (flavour, ingredients), fine |\n| **reduces anxiety** | **Unsupported.** Health claim, never allowed (policy §3 lists \"reduces anxiety\") |\n| **helps you sleep** | **Unsupported.** Health claim of the same kind. It is a sleep-benefit claim, and the policy bans health claims \"of any kind\" |\n| Certified organic by the Soil Association | Allowlisted, exact wording |\n| 20 plastic-free tea bags | Allowlisted (\"plastic-free\") and a product fact (count) |\n\n### Other checks\n- **Banned words and slop:** none found. The tone is warm and plain.\n- **Spelling:** UK, fine.\n- **Disclosure:** none needed. This is our own product page, not a creator post or affiliate link.\n- **Approval:** Sam (marketing lead) needs to sign off before anything public goes live.\n\n### Compliant version\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nThe tasting description can carry the appeal without a health benefit. If you want to say more, add product facts such as where the chamomile is grown, how to brew it, or the cup count.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013849900000000002,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

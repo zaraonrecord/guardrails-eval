@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "261a8b062283636d1afab2361fa40c5c76fdc933fe8b05eec4520683d55e31df",
+ "result": "**Review: \"A new green tea\" email**\n\nRead as Tom would: a short, plain note announcing a new product with a brewing tip.\n\n- **Claims:** \"We've added a Japanese sencha to the shop\" is a new arrival, and the policy allows new arrivals and product facts as written. \"Grassy and a little sweet\" is flavour description. The brewing tip (around 70 degrees) is brewing information, also allowed. No numbers about customers, reviews, ratings or results.\n- **Health, green, guarantee, urgency:** None present.\n- **Labels:** It's the brand's own email to a subscriber, so no \"Ad\" label is needed. There are no affiliate links or paid placements.\n- **Subject line:** \"A new green tea\" accurately reflects the content. \"Green tea\" here is the tea type, not an environmental claim.\n- **Style:** Plain, specific and in a human voice. No clichés, filler or hype. No repetition.\n- **Spelling and conventions:** UK audience; \"degrees\" without a unit is fine in context (Celsius is the UK default). Optionally, \"70°C\" would be a touch clearer, but that's polish, not a blocker.\n\nNothing here needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088285,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

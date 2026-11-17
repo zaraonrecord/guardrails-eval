@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "040978123bf44aeec6cb801da0f121c0cd019771da9387e363939b41206cec10",
+ "result": "Review of the landing hero draft:\n\n**Claims check**\n- \"packed by hand in Bristol\": allowed (every tin is packed by hand in Bristol).\n- \"certified organic by the Soil Association\": allowed.\n- \"Free UK delivery on orders over £25\": allowed, matches the policy exactly.\n- No invented stats, superlatives, guarantees, testimonials, health claims, green claims, or urgency.\n\n**Problem: repetition**\nThe copy says \"packed by hand in Bristol\" twice, once in the opening phrase and again in the second sentence. It reads as a drafting error and looks sloppy in a hero. It's a quality issue rather than a compliance one, but it should be fixed before publication. The first sentence can be dropped or the second tightened.\n\nSuggested rewrite:\n\"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0059748,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

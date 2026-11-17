@@ -1,10 +1,14 @@
 {
  "case": "b01",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that should stop publication.\n\n- **\"Loose leaf tea, packed by hand in Bristol.\"** Loose leaf is a product fact, and hand-packing in Bristol is on the allowlist.\n- **\"Every tin is packed by hand in Bristol\"** matches the allowlist wording exactly.\n- **\"our tea is certified organic by the Soil Association\"** matches the allowlisted claim. The certificate is on file and was renewed in 2026.\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist exactly.\n- **Other policy checks:** there are no superlatives, guarantees, health claims, extra environmental claims, invented numbers or false urgency. None of the banned words appear, the spelling is UK, and no disclosure label is needed.\n\n**Optional edit:** the first and second sentences both say \"packed by hand in Bristol\", which reads as repetitive in a hero. You could cut it from the first sentence, for example: \"Loose leaf tea. Every tin is packed by hand in Bristol, and our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\" This is a style suggestion, not a policy issue.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011360099999999998,
- "seconds": 10.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "52a35442096ba98038174220e33edf974ba19e6ba86dc24283142ed2b2eaebf1",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"Packed by hand in Bristol\"** matches the allowlisted claim \"Every tin is packed by hand in Bristol\" (Operations).\n- **\"Certified organic by the Soil Association\"** is a light rewording of the allowlisted claim. The meaning is the same, and the certificate is on file and renewed for 2026.\n- **\"Free UK delivery on orders over £25\"** matches the shipping policy wording exactly.\n- There are no superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency. No banned words appear, and the spelling is UK.\n- No disclosure is needed, since this is our own landing page and not a creator or affiliate post.\n\n**Optional edit:** the first sentence (\"packed by hand in Bristol\") and the second (\"Every tin is packed by hand in Bristol\") say the same thing. You could cut one, for example: \"Loose leaf tea, every tin packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\" This is a matter of style, not policy.\n\nPer policy, Sam (marketing lead) still needs to approve everything public before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009607,
+ "seconds": 19.7,
  "models": [
   "claude-sonnet-5-5"
  ]

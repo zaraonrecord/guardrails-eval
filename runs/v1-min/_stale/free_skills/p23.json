@@ -1,0 +1,11 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review of the landing hero draft**\n\n**Claims list**\n- \"Good tea\": subjective, vague. It passes the \"compared to what?\" test only loosely, but it isn't a checkable claim. Acceptable, though weak.\n- \"guaranteed\": unsupported. The allowlist has no guarantee (no money-back or satisfaction policy). Remove.\n- \"Risk-free\": unsupported. Same problem. The only backed promise is that subscribers can pause or cancel any time, which is narrower than \"risk-free\". Remove.\n- \"Certified organic by the Soil Association\": allowlisted.\n- \"packed by hand in Bristol\": allowlisted (\"every tin is packed by hand in Bristol\"). Fine, though it applies to tins specifically.\n- \"free UK delivery on orders over £25\": allowlisted.\n\n**Other checks**\n- Slop-guard: no banned words or structures. The opener \"Good tea, guaranteed.\" is thin and doesn't lead with the most useful fact. Better to open with the organic certification or the hand-packing.\n- Ad/landing consistency: if any ad repeats \"guaranteed\" or \"risk-free\", the landing page would need to back it too. It can't.\n- Regulated territory: \"risk-free\" edges toward a financial/consumer-rights promise. In the UK, an unbacked guarantee could draw ASA/CMA scrutiny.\n\n**Suggested compliant version**\n> Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want a risk-reducing line, the supportable one is: \"Subscribers can pause or cancel any time.\" If you want a real guarantee, supply the policy and I'll add it with a source.\n\n**Verdict:** do not publish as written. Remove \"guaranteed\" and \"Risk-free\".\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112083,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "36ded293537e707acad55a43a280692bf1ec7a54cef1fc2a9075b355bf721f90",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero copy, with no date or audience given.\n\n**Checks**\n- **Claims:** All three claims match the policy list.\n  - \"Certified organic by the Soil Association\" is an exact match. The certificate was renewed in 2026, so it is current.\n  - \"Free UK delivery on orders over £25\" is an exact match.\n  - \"packed by hand in Bristol\" is supported by \"Every tin is packed by hand in Bristol\". It is a fair shorthand, since it doesn't claim more than the policy does.\n  - No invented numbers, superlatives, guarantees or urgency.\n- **Regulated claims:** No health, environmental, price-comparison or children's claims. \"Free delivery\" carries its condition (over £25), so it isn't misleading.\n- **House style:** \"Good tea, no fuss\" fits warm, plain, unhurried. It has no banned words and no AI tells, and the spelling is UK. I'd score it around 92, so no rewrite is needed.\n- **Disclosure:** This is the brand's own page, with no ad, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam gives an explicit yes to this exact copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0099326,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "11dec64e931bec9489e7822f4ccbdd0553a924ee43279555290f9ce973560077",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted: \"Our tea bags are plastic-free and home compostable\" (supplier certificate, EN 13432) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019.\" | Allowlisted, exact wording (Companies House) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, invented numbers, testimonials, urgency:** none.\n- **Environmental claims:** only the two backed by the supplier certificate. There is no general \"eco-friendly\" or \"sustainable\" wording.\n- **Banned words and structure:** no banned words, no rhetorical question opener, no exclamation points, no em-dashes.\n- **Disclosure:** this is a paid ad from the brand's own account, which the platform marks, so no extra label is needed.\n- **Length:** you gave no limits. For reference, the headline is 21 characters and the description is 79, which fits standard search ad limits of 30 and 90.\n\n**Before it goes out**\n- The ad rules say the landing page must make the same claims. I can't see the landing page, so confirm that it states the plastic-free and home compostable claim.\n- Sam (marketing lead) approves all public content, so the draft still needs sign-off.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0128939,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

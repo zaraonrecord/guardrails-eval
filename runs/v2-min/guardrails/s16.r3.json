@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "608a1c3f947562ba5f553ade7c6d9d9fcaa62631c2efe1e23d0c939cf7e695d6",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy for Pebblebrook Tea Co., UK audience, no date given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list |\n| Packed by hand in Bristol | On the policy list (\"every tin is packed by hand in Bristol\") |\n| Free UK delivery on orders over £25 | On the policy list, and the condition is stated |\n\nAll three factual claims are backed. The draft has no invented stats, superlatives, guarantees, testimonials or urgency.\n\n**Regulated claims:** the only regulated area is the delivery offer. It's accurate and the £25 condition is stated, so it passes. No health, green or price-history claims.\n\n**Disclosure:** this is the brand's own hero copy. There are no ads, partnerships, affiliate links or AI-labelling triggers, so no label is needed.\n\n**House style:** the policy has no voice section, so I can't give a full score against your voice words. One problem stands out anyway. \"Brewed with care. Packed with love. Delivered with a smile.\" is a tidy three-part slogan opener. It is generic, could be about any brand, and says nothing the second sentence doesn't say better. \"Packed with love\" also sits awkwardly next to the real, specific claim that follows it.\n\n**Fixed (suggested, not yet applied):** drop the slogan triplet and lead with the concrete facts:\n\n> Certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want some warmth, use one specific line, such as \"Every tin is packed by hand in Bristol\", rather than three stock phrases.\n\n**Needs a decision**\n1. Approve the rewrite above, or give me your own opener to replace the triplet.\n2. The policy names no approver, so I need an explicit yes from you to the exact final copy before it goes live. Nothing is approved yet.\n3. Optional: add voice words and banned phrases to the policy so future checks can be scored properly.\n\n**Approver:** none named in the policy, so you.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156436,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

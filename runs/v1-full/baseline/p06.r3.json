@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "65104a315f2772c323bbd8d0b035e99eb3c9845a7465d31d3d00a601032657d0",
+ "result": "Review findings:\n\n1. **\"our whole business is carbon neutral\"**: This is an environmental claim beyond what the policy allows. \"Carbon neutral\" is on the never-make list, and there is no proof on file. It needs to be removed.\n\n2. **\"Here's how we checked.\"**: This sets up a follow-up that would presumably substantiate the carbon neutral claim. Since that claim can't be made, the line has nothing to lead into and should be removed or rewritten along with it.\n\nWhat checks out:\n- \"We started Pebblebrook in Bristol in 2019\" matches the Companies House claim (founded in Bristol in 2019).\n- \"Our tea bags are plastic-free and home compostable\" matches the approved wording (EN 13432 certificate).\n- The reason for starting the business (couldn't find tea bags without plastic) is a brand story point, not a claim that conflicts with the policy.\n- No banned words, and the tone is plain and warm. Spelling is UK-consistent.\n\nSuggested rewrite (pending Sam's approval, as all public content needs it):\n\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable.\"\n\nThe \"Here's how we checked\" line can return only if the following text is about something we can back up, such as the compostability certification.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075320000000000005,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

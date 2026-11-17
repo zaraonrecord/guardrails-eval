@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e066b4d1351f9cfa9fb01f6a29ec8d8d580291009fd4acffc2fc2d7e4ea4d9e3",
+ "result": "**Review of the Instagram draft (own account)**\n\n**Problem: \"made with zero waste from farm to cup\"**\nThis is an environmental claim, and the policy bans \"zero waste\" outright. Only the claims in section 2 are allowed, and nothing there supports a whole-supply-chain claim. Cut it. The product facts are fine as written, so the post can say the tins are new for winter.\n\n**Fine as written:**\n- \"Our tea bags are plastic-free and home compostable\" is an approved claim (EN 13432 supplier certificate). It's also stated twice, which is the next point.\n- \"New tins just landed for winter\" and \"Deep green, gold lettering\" are product facts and description.\n- No ad label is needed on the brand's own account.\n- No banned words, and the tone is plain.\n\n**Polish (optional):** \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" repeat each other in three sentences. Dropping the first mention would read more cleanly. Also, \"zero waste\" sitting next to a true compostable claim could make the compostable claim look like it's being stretched, so removing it helps both.\n\n**Suggested rewrite:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\n**Decision:** Hold until \"zero waste\" is removed. Sam needs to approve the final version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0079499,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

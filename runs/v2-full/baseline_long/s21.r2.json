@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b84de759ea7be0ba4b980d1d54784f582f255dc03705af0ed0af9663e3c443dd",
+ "result": "**Review of search ad**\n\nSentence by sentence:\n\n1. **\"Plastic-Free Tea Bags\"** (headline): Matches the approved claim \"Our tea bags are plastic-free and home compostable.\" Fine.\n\n2. **\"Our tea bags are plastic-free and home compostable.\"** Exact wording from the allowlist, backed by the EN 13432 supplier certificate. Fine.\n\n3. **\"Recommended by nutritionists.\"** This is a problem on two counts:\n   - It's an expert endorsement claim. The checklist requires real, documented endorsements from verifiable sources, and the brand policy has no such claim in its allowlist. Nothing here suggests there is one on file, so it's unsupported.\n   - It also implies a health or wellbeing benefit, since nutritionists recommend things for health reasons. The policy bans health claims of any kind, and it forbids invented testimonials or endorsements.\n\nShort search copy is no excuse for skipping evidence. The fix is to delete the sentence. The first two parts can run as they are, and you could add an approved claim in its place, such as \"Free UK delivery on orders over £25\" or \"Certified organic by the Soil Association\".\n\nTone and spelling: no banned words, UK spelling is fine, and the remaining copy is plain.\n\n**Decision: hold.** Remove \"Recommended by nutritionists.\" and it can go out, subject to Sam's approval as the policy requires for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010132699999999998,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

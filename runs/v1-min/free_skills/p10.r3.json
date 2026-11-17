@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3cf4d17412c7619cd2ee8b70fd06f91450b22948a1d8736c01861798173d2ae5",
+ "result": "**Verdict: don't publish as is. One line needs to go.**\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" is the banned \"It's not just X, it's Y\" construction. It is also vague filler, because it says nothing concrete about the tea. Cutting it loses nothing, since the next sentence does the real work.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Added a Japanese sencha to the shop | Product fact (new arrival), fine |\n| Grassy and a little sweet | Product fact (flavour), fine |\n| Best brewed cooler, around 70 degrees | Product fact (brewing), fine |\n\nThere are no stats, superlatives, guarantees, testimonials, health or green claims, fake urgency, or affiliate/sponsorship issues. There are no banned words, exclamation points, em-dashes or rhetorical-question openers. The opening sentence leads with the useful fact.\n\n**Compliant version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, it's best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105111,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

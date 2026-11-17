@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "31364bbf5294eebe1cee92894aa8b24112e21c910770ed655bdd831a446b9d7c",
+ "result": "**Review of the Assam Breakfast product page copy**\n\nSentence by sentence:\n\n1. \"Assam Breakfast.\" Product name. Fine.\n2. \"A malty, full-bodied black tea\" is flavour description, which the policy allows as written.\n3. \"noticeably smoother than supermarket tea bags\" is a comparison against a whole category (supermarket tea bags). It is an unnamed, unlike-for-like comparison with no evidence in the brand's approved claims. It also promises a result (\"noticeably\") the brand can't control. Flag it. Fix: drop the comparison, or describe the tea only (\"a smooth, malty black tea\"), if smoothness is taken as a taste description rather than a comparison.\n4. \"Certified organic by the Soil Association.\" Approved claim. Fine.\n5. \"100g tin, makes around 40 cups.\" Product fact (size, brewing). Fine as written under the policy.\n\nStyle: short and specific, no clichés or filler.\n\nDecision: hold until the supermarket comparison is removed or evidenced.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008550499999999999,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "13d11ad72f542435f259f37fc75e0dcf6783a2e09e046f6c3ecc1a3417ed4da7",
+ "result": "**Review: paid creator post**\n\nReading it as a follower: two sentences, personal and specific, with a natural voice. The claims check out.\n\n- \"Their tins are packed by hand in Bristol\" matches the approved claim (every tin is packed by hand in Bristol).\n- \"A pot of Pebblebrook's Assam\" is a product fact, fine as written.\n- \"ten minutes away from my phone\" is personal lifestyle description, not a health claim.\n- \"which I love\" is clearly personal opinion.\n- No clichés, stats, superlatives, guarantees, or urgency.\n\n**Problem: no ad label.** The channel is a paid creator post, and nothing in the draft identifies it as advertising. Per the checklist, paid posts need a clear, prominent label such as \"Ad\" at the very start, not buried in tags or after \"more\". As written, a reader would take this as an organic recommendation, which is misleading.\n\n**Fix:** Open the post with \"Ad:\" or \"#Ad\" (e.g. \"Ad: My afternoon reset is a pot of Pebblebrook's Assam…\"). Once that is added, the copy can go out.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008920500000000001,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "90461c0924b32e754d31603d72044d732f8a959698faebf85f19c9e4e6b8d763",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | Unsupported. Superlative/ranking, not on the allowlist, no source. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n| \"Tea Subscription UK\" (headline) | Descriptive, fine. |\n\n**Issues**\n\n1. \"The UK's number one tea subscription\" is an unbacked ranking claim. Nothing in the brand policy supports it, and it would also need a landing page match and likely substantiation under UK advertising rules (ASA/CAP). Remove it or replace it with something allowlisted.\n\n2. Slop-guard check: no banned words, no em-dashes, no exclamation points, no rhetorical openers. Passes. The description does not open with its most useful fact, though: the number-one claim is the opener, and it is the one we can't support.\n\n3. Format note: the headline and description are on one line. Fine for review, but make sure they are entered as separate assets. I did not count characters, as no limit was given.\n\n**Compliant version**\n\nHeadline: Tea Subscription UK\nDescription: Loose leaf and plastic-free tea bags, packed by hand in Bristol. Pause or cancel any time. Free UK delivery over £25.\n\nClaims in the rewrite: \"packed by hand in Bristol\" (allowlisted), \"plastic-free tea bags\" (allowlisted), \"pause or cancel any time\" (allowlisted), \"free UK delivery over £25\" (allowlisted). Make sure the landing page also states the delivery threshold and the pause/cancel terms.\n\nVerdict: do not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087943,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

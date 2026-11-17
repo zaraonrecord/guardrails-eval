@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2e2077b75a57b7b0900a4d6250d943d19ab4621fb9b7aa8132a88c3186fc80a9",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the approved claims list.\n- **\"We're a small team of six\"** Team size is a product fact the policy allows as written.\n- **\"every tin is packed by hand in Bristol\"** This is on the approved claims list.\n- **\"We buy from gardens we've visited.\"** This describes sourcing and origins, which the policy allows as written. It makes no superlative, health, green or numerical claim.\n\nThe page has no ad or affiliate label issue, since it is the brand's own about page. It has no urgency, pricing, guarantee or testimonial content. The tone is plain and specific, with no AI clichés or filler.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007458199999999998,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

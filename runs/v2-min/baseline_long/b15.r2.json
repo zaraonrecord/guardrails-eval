@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "This draft can go out as written.\n\n- **Claims:** \"I've tried four tea subscriptions this year\" and \"the tins are lovely\" are clearly the reviewer's own experience and opinion, not factual claims about the brand. \"Easiest to pause\" is a personal comparison. It is also consistent with the brand's approved claim that subscribers can pause or cancel any time.\n- **Numbers, superlatives, health, green, urgency:** None are present.\n- **Disclosure:** \"(Affiliate link)\" sits directly beside the link in plain words, so readers will see it before clicking. It would be slightly stronger as a line at the top of the post, but with only three sentences the link is already in view, so this is optional polish.\n- **Style:** The copy is short, specific and in a personal voice, with no AI clichés or filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010142600000000002,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

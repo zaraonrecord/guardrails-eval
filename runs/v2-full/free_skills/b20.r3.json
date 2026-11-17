@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1c0c7acafd203952a77c7ed8b11e58332f1f260b9df1571ea0b43a56b5ae0742",
+ "result": "**Review: search ad for Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine as written |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy) |\n\n**Other checks**\n- **Superlatives, guarantees, health or green claims, invented numbers, testimonials, urgency:** none.\n- **Banned words and slop:** none. The tone is plain, there are no exclamation points, rhetorical questions, or em-dashes.\n- **Disclosure:** this is a paid ad from our own account, so the platform marks it and no extra label is needed.\n- **Spelling:** UK.\n\n**Notes, not blockers**\n- **Length:** you didn't give a character limit. The headline is 19 characters. The description is 102 characters by my count, which is over the common 90-character limit for search ad descriptions. If this is going into Google Ads, trim it, for example by dropping \"Monthly loose leaf tea.\" or tightening the delivery line.\n- **Landing page:** the page must also state the pause/cancel terms and the free delivery threshold, since the ad can't make claims the page doesn't.\n- **Approval:** per the brand policy, Sam needs to sign off before anything public goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014998500000000001,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

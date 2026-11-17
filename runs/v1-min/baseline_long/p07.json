@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2a879a1341c2c5e4f75bc4141e31fbc0c123acb276b882a3b89df6a4ff9f3f67",
+ "result": "Review of the landing hero draft:\n\n**Sentence 1: \"Tea that's easy to stop and start, and you'll love it or it's free.\"**\n- \"you'll love it or it's free\" is a guarantee. The brand's approved claims include pausing or cancelling any time and free UK delivery over £25, but no money-back or satisfaction guarantee. It has no terms (what \"free\" means, how to claim, time limit), and a reasonable reader would rely on it. It must be removed, or replaced with a real guarantee with terms the business has agreed to honour.\n- \"easy to stop and start\" is a loose paraphrase of \"pause or cancel any time\". It is acceptable, but \"easy\" is a slight stretch; the approved wording is safer.\n\n**Sentence 2: \"Subscribers can pause or cancel any time\"** is an approved claim. Fine.\n\n**\"free UK delivery on orders over £25 means most boxes ship free\"**\n- The free delivery threshold is approved. \"most boxes ship free\" is an unsupported claim: nothing shows that most orders exceed £25. It implies a statistic about order values we can't verify. Suggested fix: drop \"most boxes ship free\" and state \"Free UK delivery on orders over £25.\"\n\n**Style:** the copy is short and reasonably plain. No clichés. The first sentence is slightly awkward, but that is optional polish.\n\n**Decision:** hold. Fix the guarantee and the \"most boxes\" claim.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010066499999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

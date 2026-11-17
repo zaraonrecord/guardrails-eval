@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "I read the draft sentence by sentence.\n\n- **\"the Christmas blend is back\"**: This is a product-availability statement, which falls under product facts the product team checks (new products arriving). It isn't a superlative, health claim or invented number.\n- **\"Black tea, orange peel, cinnamon and a little clove.\"**: This lists ingredients, which are product facts that are fine to use as written. It makes no health or flavour-effect claim.\n- **\"It's back in the shop from today.\"**: This states when the product is available. It isn't a countdown, a stock claim or \"today only\" pressure, so it isn't false urgency.\n- **Labels:** This is the brand's own newsletter, so it needs no ad label. There are no affiliate links or creator content.\n- **Voice:** It's warm, plain and unhurried, in UK spelling. It uses none of the banned words or AI clichés.\n\nNothing needs changing, so it can go out. Per the policy, Sam (marketing lead) still approves everything public, so it needs his sign-off before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074237999999999995,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

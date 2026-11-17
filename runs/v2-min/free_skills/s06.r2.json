@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "aaa039ffbd0cc294e1b97e1c78ffe3f52458a86fa0e6630cf5dde80d4ab82d42",
+ "result": "**Review: not ready to publish as written. One problem.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"we visited the garden in Darjeeling that grows our first flush\" | Origin and team detail, fine as written |\n| \"picked in March and taste bright and floral\" | Product facts (origin, flavour), fine |\n| \"Our customers tell us it's the only tea they drink now\" | **Unsupported.** It's an unattributed testimonial with no source, and it isn't on the allowlist. It also implies a pattern across customers that we can't show. |\n| \"in the shop from Monday\" | New arrival, fine. It's a real launch date, not fake urgency, as long as Monday is correct. |\n\n**Fix:** Cut the customer sentence. If you want social proof, you can use the 4.8 out of 5 rating from over 1,200 reviews on our website. A real, named customer quote with their permission would also work. Otherwise, add a sensory line, such as how to brew it, in its place.\n\nSuggested version:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nThere are no ban-list words, em-dashes, exclamation points or rhetorical openers. The opening is a bit scene-setting, but it carries a real fact, so I'd leave it.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0128043,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

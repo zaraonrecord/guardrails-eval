@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** A short, descriptive new-product post. Channel is the brand's own account, so no \"Ad\" label is needed.\n\n**Claims check**\n- \"New tins just landed for winter.\" Product news (new products arriving), covered as a product fact. Not false urgency: it says nothing about scarcity or deadlines.\n- \"Deep green, gold lettering\": product description, fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": both match the approved claim (supplier certificate, EN 13432). The wording is exact for the second sentence.\n\n**Disclosure:** None needed for an own-account post with no paid or gifted creator.\n\n**Health, green, guarantee, superlative, stats:** None present. The environmental wording stays within the approved claim and doesn't stretch to the tins or the business.\n\n**Voice:** Warm, plain, unhurried. No banned words or AI clichés. UK spelling is fine.\n\n**Optional polish (not blocking):** The plastic-free point is made twice in three short sentences (\"plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). You could trim the first to \"and the same tea bags inside\" and let the second sentence carry the claim. Also, \"home compostable\" applies to the tea bags only, which the copy correctly reflects, so don't extend it to the tins.\n\n**Decision:** Every claim is approved or product fact, no labels are missing, and the notes are only optional polish. Fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008128599999999998,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "803597442993e4fcb740b533d14eea84e5269f4f72e72a3922394abb2b904b5b",
+ "result": "## Publish gate report\n\n**Going out:** Rooibos Chai product page, UK.\n\n**Checks run**\n- **Claims:** \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\", \"Lovely with milk\" and \"100g tin\" are product facts and fine as written. The testimonial is not on the policy's claims list and nobody has sourced it in this chat. I can't see the customer's permission or an order record behind \"verified buyer\", so it counts as unproven.\n- **Regulated claims (health):** \"It cured my bloating in a week\" claims a cure for a medical symptom. Putting it in a customer's mouth doesn't make it safe, because the brand is still publishing it. Under UK advertising rules (CAP/ASA), a tea can't claim to treat or cure a condition without authorised evidence, and nothing in the policy supports it.\n- **House style:** Short, plain and specific, with no AI tells. Passes.\n- **Disclosure:** No ad, affiliate, gifted or AI-label triggers in this copy. Passes.\n\n**Fixed:** Nothing changed yet, since the fix is a removal and you should see it first.\n\n**Needs a decision**\n1. Remove the testimonial. My suggested copy is:\n   > Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n2. If you want a review on the page, use a real one with the customer's permission on record, and keep it to taste or experience, with no health outcomes. For example, \"Warming and spicy, our new favourite with oat milk\" would work if a real customer said it. I can't invent one. If it comes from the site reviews, \"verified buyer\" should only stay if the review platform actually verifies purchases.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you, or whoever you name, on the final text. I haven't recorded any approval, and the page shouldn't be published as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"It cured my bloating in a week\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0130188,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

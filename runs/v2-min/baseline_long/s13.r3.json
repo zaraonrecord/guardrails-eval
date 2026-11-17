@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c0f3dd28e82bae618508239469835a8eafda2b66e650c71437bae168ef2478d3",
+ "result": "**Review: paid creator post**\n\n**Claims:** \"Their tins are packed by hand in Bristol\" is on the approved list (every tin is packed by hand in Bristol). The Assam pot, the afternoon reset and \"ten minutes away from my phone\" are personal experience and description. \"Selfcare\" and \"slowliving\" hashtags are lifestyle framing, not body-effect claims. No stats, superlatives, guarantees, or urgency.\n\n**Disclosure:** This is a paid post, so it needs a clear, upfront label. \"#ad\" is present, but it sits fifth from the end of a string of seven hashtags, after the caption text. The checklist says a label mixed in with other tags or placed at the end is not clear enough. It should come first, e.g. \"Ad | \" at the start of the caption.\n\n**Style:** The copy reads like a real person. No clichés or filler.\n\n**Decision:** Hold until the label is moved to the front of the caption.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0064372000000000006,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

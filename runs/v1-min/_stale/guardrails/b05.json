@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Organic post on Pebblebrook's own Instagram account, UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word and is on the allowlist. One caveat: the policy row has no review date I can see, so someone should confirm the figure is still current.\n   - \"Earl Grey uses real bergamot oil and a little cornflower\" is a product fact (ingredients), fine as written.\n2. **Regulated claims:** No health, money, legal, environment, children or price claims. Nothing to flag.\n3. **House style:** No banned words or AI tells. The copy is short, concrete and natural. The policy gives no voice words to score against, so I'm judging on plainness and specificity. Passes.\n4. **Disclosure:** The brand's own product on its own account is not a paid partnership, affiliate link or gifted item, so no ad label is needed. No AI-generated content is mentioned. Passes.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Optional: confirm the 4.8 / 1,200 figure still matches the live reviews on the site before posting.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you (the user) to this exact text before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095913,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

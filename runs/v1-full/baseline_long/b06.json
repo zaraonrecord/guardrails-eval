@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "948334903e576dcf3d483a13116e5f9f4fd7046209a4b9911fd0d1912862d369",
+ "result": "The draft is clean and can go out.\n\n- **Origin and picking:** \"the garden in Darjeeling that grows our first flush\" and \"picked in March\" are product facts about where a tea is grown and when it's picked. The policy lets the product team's checked facts be used as written.\n- **Flavour:** \"taste bright and floral\" describes the taste, not an effect on the body, so it isn't a health claim.\n- **Availability:** \"You'll find it in the shop from Monday\" announces a new product arriving, which the policy also covers as a product fact. It isn't false urgency, because it has no countdown, scarcity or \"only X left\".\n- **Other claims:** There are no superlatives, guarantees, invented numbers, testimonials or environmental claims. There is no paid or affiliate content, so no label is needed.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words, has no AI clichés, and the spelling is consistent.\n\nOne thing to confirm on your side: that \"from Monday\" matches the actual launch date and that the Darjeeling visit happened this month. Both are product-team facts, so I'm not flagging them.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101947,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

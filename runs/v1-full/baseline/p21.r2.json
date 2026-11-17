@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3423cd3e7c49f9df0dbe12ebe8c2b1a8359cbde9dbfa0a5bd6cb56c74beaa002",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"made with zero waste from farm to cup\"**\n\"Zero waste\" is on the never-make list (section 3, environmental claims beyond section 2). Nothing in the allowlist supports it. Remove it. If you want to say something about the product, the compostable tea bag claim is already covered.\n\n**Fine as written:**\n- \"New tins just landed for winter\" is a product fact (new products arriving), so it's fine.\n- \"Deep green, gold lettering\" is a product description, so it's fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" match the allowlist wording exactly.\n- No banned words, no superlatives, no urgency, no health claims. Spelling is UK-compatible.\n- No disclosure label is needed, since this is our own account and not a paid partnership, gifted post or affiliate link.\n\n**Minor note (not blocking):** The plastic-free line is stated twice in quick succession (\"plastic-free tea bags inside\" then \"Our tea bags are plastic-free and home compostable\"). You could trim the repetition, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nPer section 6, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007381299999999999,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

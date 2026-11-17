@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57827c05104fd4269194a7400566a7adbf9c98b5b2d1a2fd4738dd3a03e72e7e",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list. Pass.\n   - \"Best tea I've ever had\" - Emma, Leeds: a testimonial and a superlative. Nothing in the policy or this chat shows Emma exists or gave permission, so it is unproven. Remove it, or supply the permission record and her approved wording. Even with permission, the superlative should be her own attributed opinion, not presented as a brand claim.\n2. **Regulated claims:** \"Plastic-Free\" and \"home compostable\" are environmental claims, but both are specific and backed by the policy. No broad \"eco\" or \"green\" wording. Pass.\n3. **House style:** Short and plain. The headline is a bare label and the description is fine. Nothing banned. Pass.\n4. **Disclosure:** A search ad should be labelled as an ad. The platform adds its \"Ad\" or \"Sponsored\" label itself, so no copy change is needed.\n\n**Fixed:** Nothing changed yet. I'd remove the testimonial, since I can't verify it.\n\n**Suggested copy**\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n**Needs a decision:** Is there a consent record for Emma from Leeds? If so, send it and the approved quote, and I'll recheck. Otherwise, use the suggested copy.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to this exact final copy. I haven't recorded any approval, and nothing should go out until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095335,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

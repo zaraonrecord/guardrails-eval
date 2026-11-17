@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "518b0ee5f82d030f2e8e72872440ad8cc213c48664711786f32d477ecf7f08d2",
+ "result": "**Review of the search ad**\n\n- **\"Plastic-Free Tea Bags\" (headline):** Fine. The brand policy supports this claim.\n- **\"Our tea bags are plastic-free and home compostable.\":** Fine. This is on the claims allowlist word for word.\n- **\"Best tea I've ever had\" - Emma, Leeds:** This is a problem. It is a named customer testimonial, and nothing in the brand policy or the draft shows it comes from a real, verified review or that Emma agreed to its use. The allowlist covers only the 4.8/5 rating from over 1,200 website reviews, not individual quotes. The quote is also an unqualified \"best\" claim. Remove it, or replace it with a real, sourced review that has permission to be used. The allowed rating line would be a safer substitute.\n\nThe plastic-free and compostable copy is fine as written. The ad should not go out until the testimonial is removed or verified.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011488,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

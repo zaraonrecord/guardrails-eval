@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "407c1bbc700cd93b93a4d522fccc4363cba7298756b42e8fe7b5c07a56f0fc3d",
+ "result": "**Review of the Chamomile and Lemon Balm product page copy**\n\n**Problem: health claim**\n- \"to help you wind down and sleep better\": this says the tea has an effect on the body (better sleep). The brand policy bars health claims of any kind. \"Wind down\" on its own would be borderline, but \"sleep better\" is a clear outcome promise. Fix: describe the experience instead, for example \"A gentle, honeyed, caffeine-free blend for the evening.\"\n\n**Checked and fine**\n- \"Certified organic by the Soil Association\": exact wording from the approved claims list.\n- \"20 plastic-free tea bags\": the plastic-free claim is approved, and the count is a product fact the product team checks. Note that \"home compostable\" is not used, so there is no stretch.\n- \"caffeine-free\", \"gentle, honeyed\": product facts/description, fine as written.\n- Voice: plain and warm, no banned words, UK spelling. No ad label needed on our own product page.\n\n**Decision:** hold until the sleep claim is reworded. Once changed, it can go out (it still needs Sam's approval as with all public content).\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068977,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b922ce5a64937fb192a2f8cf8326c657dd663c884216dcab1ef9991dcb3a3181",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Problem**\n- \"Over 98% of our customers rate us five stars\" is an invented statistic. The only rating we can back up is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). A 98% five-star figure isn't in the policy, and it also conflicts with a 4.8 average. Replace it with the approved wording.\n\n**Checked and fine**\n- \"Founded in Bristol in 2019\" matches Companies House.\n- \"every tin is packed by hand in Bristol\" is on the allowlist.\n- \"a small team of six\" is a product-team fact, fine as written.\n- Voice is warm and plain, with no banned words, and the spelling is UK.\n\n**For Sam to confirm (not blocking)**\n- \"we buy from gardens we've visited\" isn't on the allowlist. It reads as a sourcing practice rather than a product fact, so check with the product team that it's true before it stays.\n\n**Suggested fix:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nSam needs to approve it before it goes out, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011349499999999998,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

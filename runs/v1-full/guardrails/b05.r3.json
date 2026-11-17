@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b9adc6547f3e5cb1ad61329872a44953278a046b1ecea45dced3a8f30a0fb57b",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post from the brand's own account, a short caption about Earl Grey.\n\n**Checks**\n- **Claims:** passes.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. The proof is the October 2026 review export, which is current.\n  - \"Real bergamot oil and a little cornflower\" is an ingredient fact, which the product team checks and the policy allows as written.\n  - \"Rainy Sunday, second pot\" is scene-setting and makes no claim.\n- **Regulated claims:** nothing touches health, money, legal outcomes, the environment, children, prices or urgency.\n- **House style:** about 92/100. It is warm, plain and unhurried, with UK spelling. It has no banned words and no AI tells such as stock openers, reversals or slogan closers. I changed nothing.\n- **Disclosure:** no label is needed. It is the brand's own organic post, with no partnership, gifted product or affiliate link.\n\n**Fixed:** nothing.\n\n**Needs a decision:** nothing. The wording must stay as it is. Any change to the rating or review count means a new check.\n\n**Approver:** Sam (marketing lead). Nothing is published until Sam gives an explicit yes to this exact caption. I haven't recorded an approval.\n\n**Evidence log rows**\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Instagram Earl Grey caption | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review platform export, October 2026 |\n| 2026-11-17 | Instagram Earl Grey caption | Earl Grey uses real bergamot oil and a little cornflower | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0116545,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

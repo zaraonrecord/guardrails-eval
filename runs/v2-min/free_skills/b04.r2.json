@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "98f03107e0c565aad22eb3b7f69ecd2252b66b36de139ba1bd56c4c57be76acd",
+ "result": "**Review result: clear to publish.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Flavour and product description, fine as written under the brand policy |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin\" | Product size, fine as written |\n| \"makes around 40 cups\" | Brewing yield, covered by the product facts rule. \"Around\" keeps it soft. |\n\n**Other checks**\n- **Superlatives, guarantees, testimonials, health or green claims:** none.\n- **Slop:** no banned vocabulary, em-dashes, exclamation points, rhetorical openers or fake urgency.\n- **Disclosures:** no affiliate or sponsored content, and no hands-on review claims, so nothing to label.\n\n**Optional, not blocking:** if the \"around 40 cups\" figure rests on a specific serving size (for example 2.5g per cup), say so on the page so it holds up if someone checks it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087701,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "I checked the draft sentence by sentence against the brand policy and found nothing that needs changing.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name and ingredients, which the product team checks. It is fine.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This describes flavour and occasion. \"Caffeine-free\" is an ingredient fact, and chamomile and lemon balm contain no caffeine. \"For the evening\" suggests when to drink it, not an effect on the body. There is no sleep, calming or relaxation claim, so it doesn't count as a health claim.\n- **\"Certified organic by the Soil Association.\"** This is the exact approved wording, backed by a certificate on file and renewed for 2026.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is an approved claim, and the bag count is a product fact. It doesn't stretch the claim to the whole product or its packaging, and there is no general \"eco-friendly\" language.\n- **Banned words and voice.** None of the banned words or phrases appear. The copy is plain and warm, with UK spelling, and has no AI filler.\n- **Other checks.** There are no superlatives, guarantees, invented numbers, testimonials, urgency or price claims. Because this is the brand's own product page, no ad or affiliate label is needed.\n\nThe copy is short, accurate and in the brand's voice, so it can go out. Per the policy, Sam (marketing lead) still needs to approve it, since all public content goes through them.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010422999999999998,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

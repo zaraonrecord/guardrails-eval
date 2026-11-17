@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "68db0bdc0c33b9957b9eaba46ae9233d06e9b51e2bfc2fedc384b3a0777e5e7b",
+ "result": "**Not ready to publish.** Here is what I found.\n\n**Product label (Owned / Tried / Wishlist): missing.**\nThe draft doesn't say whether the writer owns Pebblebrook, tried it, or only researched it. I can't assume ownership. \"Was the easiest to pause\" and \"the tins are lovely\" are hands-on claims, so they're only allowed if the product is Owned or Tried. Please confirm which it is, and for Tried, say how and for how long.\n\n**Affiliate disclosure: missing.**\n\"You can find it here\" is an affiliate link, and nothing declares that. The disclosure has to sit at the top of the post, before the first link, in plain words, for example: \"This post contains affiliate links. If you buy through them, I may earn a commission.\"\n\n**\"I've tried four tea subscriptions this year.\"**\nThis is a hands-on experience claim, and I can't verify it. Keep it only if it's true, and ideally name the four services so the comparison is credible.\n\n**\"Pebblebrook's was the easiest to pause.\"**\nThis is a superlative comparison with no support. The brand can back up \"subscribers can pause or cancel any time\", but not \"easiest\" compared with other services. Either describe what the writer actually did (for example, the steps they took to pause), or use the supported version: \"You can pause or cancel any time.\"\n\n**\"the tins are lovely.\"**\nThis is vague, and it's a hands-on claim that needs the Owned or Tried label. Replace it with something concrete, such as what the tins look and feel like. The brand says every tin is packed by hand in Bristol, which is safe to mention.\n\n**Pebblebrook claims:**\n- \"Easiest to pause\": unsupported (see above).\n- Subscription pause/cancel: allowlisted, but the draft doesn't state it.\n- Everything else: no other Pebblebrook claims appear.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"the tins are lovely\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156017,
+ "seconds": 15.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

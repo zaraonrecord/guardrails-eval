@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b099ec8956defd9ddf668778f2d475a3a76305ea239fb6c3c78842dc5119459b",
+ "result": "**Publish gate report**\n\n**Going out:** newsletter to UK subscribers, announcing the Darjeeling first flush, in the shop from Monday.\n\n**Claims:** Everything here is a product fact (origin, harvest month, flavour, new arrival), which the policy allows as written. There are no stats, rankings, guarantees, testimonials or comparisons.\n\n**Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. \"Bright and floral\" is a taste description, not a health claim.\n\n**House style:** The copy is plain and specific, with no AI tells or stock openers. It is short and reads fine as written.\n\n**Disclosure:** Nothing needs a label. There are no ads, sponsors, affiliate links, gifted products or AI-generated imagery.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Confirm \"Monday\" is the right date. The newsletter should go out before it, and I'd suggest adding the date (e.g. \"Monday 24 November\") so it can't be misread.\n- Confirm the visit and the March picking are accurate. I can't verify them from here, and the policy covers them only as product facts.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact text before it's sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093431,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

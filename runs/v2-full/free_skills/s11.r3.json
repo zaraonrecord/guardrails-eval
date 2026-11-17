@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "091e60a87a0115af935fc54f17b67fb6c01f7057460b4ef2bf8e21caae62c5ac",
+ "result": "**Verdict: don't publish as written. One line needs to change.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint\" | Product facts. Fine, assuming all three are in the range. Please confirm with the product team. |\n| \"a peppermint for after lunch\" | Serving suggestion, not a health claim. It doesn't say the tea aids digestion, so it's fine. Keep it that way. |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"while stocks last\" | **Unsupported.** This is scarcity language, and the policy has no real offer or stock limit behind it. Section 3 bans urgency that isn't true. |\n\n**Other checks**\n- Banned words and structures: none found. There are no em-dashes, no rhetorical-question opener and no \"not just X, it's Y\".\n- Voice: warm, plain and unhurried, with UK spelling.\n- Disclosure: not needed for a paid ad from our own account, because the platform marks it.\n- Landing page: it should state the free delivery threshold too, so the ad doesn't claim more than the page does.\n- Approval: Sam needs to sign off, as with all public content.\n\n**Compliant version**\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011530500000000003,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "800ec63f7da06ac111a2a429b8e4e99deb90d475c277a8c609da3a45b75f7b06",
+ "result": "**Review**\n\n- **\"Tea Subscription UK\"**: Accurate. We sell by monthly subscription in the UK.\n- **\"Monthly loose leaf tea.\"**: Fine. This is a product fact.\n- **\"If your box isn't right, we'll make it right.\"**: This is a problem. It's an open-ended satisfaction guarantee, a promise of remedy with no terms. Our allowlist doesn't cover any guarantee, refund, or replacement policy. The only subscriber promise we can back is that they can pause or cancel any time. Remove the line, or swap in \"Pause or cancel any time.\"\n- **\"Free UK delivery on orders over £25.\"**: Fine. It matches the allowlist exactly.\n\nThe ad can't go out until the guarantee line is changed.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010032,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

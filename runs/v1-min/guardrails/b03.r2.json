@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4101ef3d7717381edf7468d64b3722ad34f47a2b4b7bda55f6eb6fd31e68e8e8",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Search ad (headline + description), UK, to UK tea drinkers. No schedule given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Backed by the policy: certified organic by the Soil Association. Loose leaf is a product fact. |\n| \"Certified organic by the Soil Association\" | On the policy list. |\n| \"Free UK delivery on orders over £25\" | On the policy list, and the threshold is stated, so the condition is visible. |\n\n**Regulated claims:** No health, money, legal, environmental, children or price-comparison claims. \"Free\" delivery carries its condition (over £25). Pass.\n\n**House style:** Plain, specific, no banned or AI-tell phrasing, no superlatives. Pass. (I only have the claims allowlist here, not a voice section, so I couldn't score against the brand's voice words.)\n\n**Disclosure:** A paid search ad from the brand itself. The platform labels it as an ad, and there's no creator, affiliate, gifted or AI-generated element. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** One practical point, not a blocker: the ad's landing page should show the organic certification and the £25 free-delivery threshold, since an ad can't claim more than its page backs up. I couldn't see the page.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes to this exact copy from you (or whoever owns paid search) before it goes live. I haven't recorded any approval. The `publish` value below is `true` because the copy needs no changes, but it's still waiting on that human yes.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085423,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

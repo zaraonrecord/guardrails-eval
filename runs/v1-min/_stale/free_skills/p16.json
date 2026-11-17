@@ -1,0 +1,11 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold until the offer is confirmed.**\n\n**Claims list**\n- \"Christmas blend is back\": product/new-arrival fact, fine as written.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients, fine.\n- \"30% off\": **unsupported**. It isn't on the allowlist and you haven't given a source in this chat.\n- \"Today only\" / \"ends at midnight\": **unsupported**. It counts as fake urgency unless the deadline is real and verifiable.\n\n**Problem**\nThe last sentence is the only thing blocking publication. If the 30% discount really ends at midnight tonight (17 Nov) and is set up to do so in your shop, the sentence is fine. If the code keeps working after midnight, or the offer is routinely re-run, it is fake urgency and the sentence has to change. I can't verify either from here. Please confirm the discount level, the end time (and timezone), and whether it is applied automatically or by code.\n\n**Smaller edit (not blocking)**\n\"The Christmas blend is back\" and \"It's back in the shop\" say the same thing. Cut the second, or replace it with something useful, such as where to find it or the tin sizes (if you supply them).\n\n**Suggested version, once the offer is confirmed**\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. 30% off until midnight tonight, 17 November.\n\nIf the offer isn't time-limited, use: \"30% off while the offer runs\", or drop the deadline altogether.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0153983,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

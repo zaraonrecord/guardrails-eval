@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b8f1c7b45745dc2d67011960497a98c975057ac2b13b399f08d167bea0043c0f",
+ "result": "**Review of the draft**\n\n**Claims list**\n- \"Japanese sencha added to the shop\": product fact (new arrival, origin). Fine.\n- \"grassy, a little sweet\": flavour. Fine.\n- \"packed with antioxidants\": health claim. Not on the allowlist, no source. Unsupported. Also a regulated-territory claim (UK nutrition/health claims rules are strict, and \"packed with\" implies a high level). Remove.\n- \"around 70 degrees\": brewing fact. Fine, though \"70°C\" would be clearer for readers.\n\n**Slop check**\n- No ban-list words, no em-dashes, no exclamation points, no rhetorical opener. The subject line is plain. The sentence \"best brewed cooler than you think\" is mildly chatty but acceptable. No problems.\n\n**Other notes**\n- The opening sentence is fine: it leads with the fact.\n- Sign-off is okay. No affiliate or sponsorship issue, since this is the brand's own product.\n\n**Suggested fix**\nReplace the antioxidant claim with something concrete about flavour:\n\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think: around 70°C.\n\nIf you want to mention antioxidants, I'd need a source and wording that fits UK rules, so I'd mark it `[PROOF NEEDED: source for antioxidant content and approved wording]`.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077266999999999995,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

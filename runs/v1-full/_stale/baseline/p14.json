@@ -1,0 +1,11 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review: not ready to publish.**\n\n1. **Missing disclosure.** This is an affiliate post, and the link (\"You can find it here\") has no \"Affiliate link\" label next to it. Policy section 4 requires one. If the creator was also paid or gifted the subscription, the post would need to open with \"Ad\" or \"Gifted\". Please check with the creator, as the draft doesn't say.\n\n2. **Unprovable superlative.** \"Pebblebrook's was the easiest to pause\" is a claim that we beat other subscriptions, and we have no proof for that. The allowlist only supports \"Subscribers can pause or cancel any time\". Suggested fix: \"Pebblebrook's lets you pause or cancel any time, and I found pausing simple.\"\n\n3. **Fine as written.** \"The tins are lovely\" is an opinion. \"I've tried four tea subscriptions this year\" is the reviewer's own experience and not our claim, though Sam may want to confirm the creator stands behind it.\n\nThere are no health, green, urgency or banned-word problems, and the spelling and tone are fine. Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013046100000000001,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

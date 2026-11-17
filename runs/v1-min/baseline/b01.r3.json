@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "040978123bf44aeec6cb801da0f121c0cd019771da9387e363939b41206cec10",
+ "result": "**Claims check**\n- \"Packed by hand in Bristol\" is on the allowlist (every tin is packed by hand in Bristol).\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"Free UK delivery on orders over £25\" is on the allowlist.\n- There are no invented stats, superlatives, guarantees, health claims, green claims, urgency or testimonials.\n\n**Copy problem**\n- The hero says the same thing twice: \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol…\". The repetition looks like a drafting error and wastes the most prominent line on the page. Cut one instance. For example: \"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nBecause of the repetition, I'd hold it for a quick fix before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011574000000000001,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

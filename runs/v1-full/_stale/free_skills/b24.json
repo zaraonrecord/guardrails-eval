@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). The hero says it without \"every tin\", which is a softer, accurate paraphrase. |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording |\n| \"Good tea, no fuss\" | Opinion/tone, not a measurable claim. No superlative, no comparison. |\n\n**Other checks**\n- Banned words (brand voice and slop list): none. No em-dash sandwiches, exclamation points, rhetorical-question opener, \"not just X, it's Y\", or fake urgency.\n- Health, green, guarantee, testimonial and statistic claims: none.\n- Disclosure: this is the brand's own landing page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- Voice: warm, plain, unhurried. UK spelling is fine.\n- Opening sentence: \"Good tea, no fuss.\" is short and a bit generic rather than a concrete fact, but it is not slop and fits the brand's plain voice. Optional improvement only.\n- Approval: Sam (marketing lead) needs to sign off on anything public.\n\nNothing needs changing before publication, subject to Sam's approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094365,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ef066b14d81286d505a7d534566d26985f566bed7ae407b896b1fbd36e344c3a",
+ "result": "**Review: Pebblebrook newsletter draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown), fine |\n| \"picked in March\" | Product fact (when it's picked), fine |\n| \"taste bright and floral\" | Product fact (flavour), fine |\n| \"Our customers tell us it's the only tea they drink now\" | **Unsupported.** It's a testimonial-style claim with no source, and the policy bars invented testimonials. |\n| \"in the shop from Monday\" | Product fact (new product arriving), fine. It's a launch date, not fake urgency. |\n\n**Problem to fix**\n- \"Our customers tell us it's the only tea they drink now\" implies customer feedback that isn't in the allowlist or supplied here. It also reads as a \"favourite\" claim. Cut it, or replace it with a real, sourced customer quote. If you want a proof point, use the allowlisted \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". Otherwise, add something about the visit itself, like what the team saw at the garden.\n\n**Passes**\n- No health, green, guarantee, superlative or urgency claims.\n- No banned words and UK spelling is fine. The tone is warm and plain.\n- Our own newsletter needs no \"Ad\", \"Gifted\" or affiliate label.\n\n**Before it goes out:** Sam needs to approve it, since all public content goes through them.\n\nThe draft isn't ready to publish until the customer line is removed or sourced.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0131485,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

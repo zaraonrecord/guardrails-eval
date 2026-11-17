@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "94aefc997f1c2ccfb2c44cbb99f4a386da52c93a942818e8b8940a71ff1c83d9",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted (exact wording, certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"Brewed with care\", \"Packed with love\", \"Delivered with a smile\" | Not factual claims, just tone. No numbers, comparisons, guarantees, health or environmental claims. |\n\n**Other checks**\n- **Banned words:** none from the brand list or the slop list. No exclamation points, em-dashes, rhetorical openers or fake urgency.\n- **Disclosure:** none needed. This is our own landing page, not a creator post or affiliate link.\n- **Spelling and market:** UK, and the delivery offer is UK only.\n- **Platform and regulatory risk:** nothing in health, money or legal territory.\n\n**Optional, not blocking**\n- The first three sentences are stock phrases, so the strongest facts come last. A plainer opener such as \"Certified organic by the Soil Association and packed by hand in Bristol\" would follow the \"lead with the useful fact\" rule better. \"Brewed\" is also slightly off, since customers do the brewing. That is a style choice for Sam, not a compliance problem.\n- As with everything public, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.019606500000000002,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

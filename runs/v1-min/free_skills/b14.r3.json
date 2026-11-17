@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "38987e83602a1087cb95273b4ade5cbb631cd815d65ee1ccb3ad2740eb1f47f2",
+ "result": "**Verdict: fine to publish as written.**\n\n**Product labels and hands-on claims**\n- Pebblebrook winter sampler: Gifted, and the writer has evidently tried it. \"Lovely with oat milk\" is a personal taste claim about a product they have used, so it's allowed. It makes no performance or test claims.\n\n**Disclosure**\n- \"Gifted\" is the first word, so it comes before any product mention. That meets the \"declared where it first appears\" rule.\n- No affiliate links appear, so there is nothing else to declare.\n- \"Not paid to say that, just liked it\" is acceptable because the gift is already disclosed up front. It would become a problem if the creator also received a fee or a commission, or was obliged to post. If either applies, change the label to \"Ad\" or \"Paid partnership\" and drop that sentence.\n\n**Claims check (against the allowlist)**\n- Numbers, comparisons and superlatives: none.\n- Guarantees, testimonials and social proof: none.\n- Health, money, legal and green claims: none.\n- \"Rooibos chai\" and \"winter sampler\" are product facts and are fine as written.\n\n**Style**\n- No banned vocabulary, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no fake urgency. The first sentence states the key fact.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012902100000000001,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

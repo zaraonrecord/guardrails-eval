@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cdf167ee04a42648d46920f7dd0094ab2f5059a3159a7a96e3f6eef600e90c61",
+ "result": "## Publish gate report\n\n**Going out:** a short affiliate review of Pebblebrook's subscription on a review blog, with an affiliate link. Policy markets only to the UK.\n\n**Checks**\n- **Claims:** \"the tins are lovely\" is opinion. \"Easiest to pause\" matches our \"pause or cancel any time\" claim and reads as the reviewer's first-hand view, so I left it. It does compare against three unnamed competitors, so the author should confirm they really tried them and found this to be true. No stats, guarantees, ratings or testimonials are invented.\n- **Regulated claims:** nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** reads plainly, with no AI tells or banned phrases. \"Lovely\" is fine.\n- **Disclosure: fails.**\n  - The only disclosure is an asterisked footnote at the very end. UK rules (ASA/CMA) and our policy expect a clear label upfront, before the reader meets the link.\n  - \"I may earn a small commission\" is hedged. If the link is an affiliate link, say so plainly: \"Affiliate link: I earn a commission if you buy.\"\n  - The footnote isn't a label the reader sees before engaging.\n\n**Fixed (suggested rewrite, not yet approved)**\n> *Affiliate disclosure: this post contains an affiliate link, and I earn a commission if you buy through it.*\n>\n> I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. [Find it here (affiliate link).](#)\n\n**Needs a decision**\n1. Confirm the reviewer really tried four subscriptions and that Pebblebrook was easiest to pause. If not, drop the comparison and say \"Pebblebrook lets you pause any time.\"\n2. Confirm whether the product was gifted or paid for. If gifted, that must be disclosed too.\n3. If you use the affiliate network's own disclosure tool or widget, add it as well.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact revised text above. Nothing should go out until you give it. The draft as written should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0172339,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

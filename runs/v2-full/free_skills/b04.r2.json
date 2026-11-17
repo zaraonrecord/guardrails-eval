@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "683ac6f8c166c520864b9e13af2d4de1f6dbadb59695a3cd5a8c946ae5444400",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate on file, renewed 2026) |\n| \"malty, full-bodied black tea\" | Product fact (flavour), fine as written |\n| \"stands up to milk\" | Product fact (brewing guidance), fine as written |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine as written |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. \"Around 40 cups\" is a product-team cup count, not a statistic.\n- **Banned words and structures:** none. No \"elevate\", \"unlock\", \"indulge\" or similar, no exclamation marks, no rhetorical opener, no em-dash asides.\n- **Spelling and voice:** UK spelling, plain and unhurried, which fits the brand voice.\n- **Disclosures:** this is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Approval:** the policy says everything public goes through Sam before it goes live. That is a process step, not a change to the copy.\n\nNothing needs changing. It is clear to publish once Sam signs off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0102343,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

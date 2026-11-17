@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e46837392e9eaff5d3348f30c43760f362bc1405e12ffc21ee69269f965b639b",
+ "result": "I checked each claim against the brand policy.\n\n- **\"The UK's best loose leaf tea\"**: This is an unsubstantiated superlative. The policy doesn't back up \"best\", so it needs to be removed or reworded.\n- **\"packed by hand in Bristol\"** (twice): This is supported by the policy (\"every tin is packed by hand in Bristol\"). However, the sentence is repeated in the first and second sentences, which reads as clumsy and redundant copy. It's an editing fix rather than a claim problem, but I'd cut one instance.\n- **\"certified organic by the Soil Association\"**: Supported.\n- **\"Free UK delivery on orders over £25\"**: Supported.\n\nSuggested rewrite: \"Certified organic loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association, with free UK delivery on orders over £25.\"\n\nTidier still: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nThe superlative needs to come out before this goes live, so I'm not clearing it for publication.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0070732,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "911819d13cb059eea3720f66cb179391e2575c914a143859a176bde8c8ad360b",
+ "result": "**Review of the draft**\n\nIssues found:\n\n1. **\"planet-friendly packaging\"** is a general environmental claim that isn't in the allowlist. The only backed environmental claim is that the tea bags are plastic-free and home compostable (EN 13432 certificate). Nothing on file supports a claim about the tin packaging being planet-friendly. Remove it, or replace it with a specific, provable fact if the product team can supply one.\n\nEverything else checks out:\n- \"New tins just landed for winter\", \"Deep green, gold lettering\": product facts, fine as written.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": matches the allowlist wording.\n- No banned words, no superlatives, no health claims, no fake urgency. UK spelling is fine. Own-account Instagram needs no extra label.\n- Minor style note: the draft says \"plastic-free tea bags\" and then repeats \"plastic-free\" in the next sentence. That's a bit repetitive, but not a policy problem.\n\nNeeds Sam's approval before publishing, since all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065129,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

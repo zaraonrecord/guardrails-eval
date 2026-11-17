@@ -1,10 +1,14 @@
 {
  "case": "p06",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review findings**\n\n1. **\"our whole business is carbon neutral\"** – This is a green claim that isn't on the allowlist. We have no certification or evidence to back it up, and \"carbon neutral\" for a whole business is a claim UK advertising rules (CMA Green Claims Code, ASA) expect to be substantiated. Remove it, or replace it with a backed claim (e.g. Soil Association certified organic, plastic-free and home compostable tea bags).\n\n2. **\"Here's how we checked.\"** – This promises substantiation that the draft doesn't deliver. It reads as though the carbon neutral claim is verified, and it leads into content we haven't seen. It should be cut or reworded once the carbon claim is removed. It's also a bit of a non sequitur after the plastic-free statement.\n\n**What's fine:**\n- \"started Pebblebrook in Bristol in 2019\" – matches the allowlist.\n- \"tea bags are plastic-free and home compostable\" – allowlisted.\n- The origin story about not finding plastic-free tea bags is a narrative fact, not a claim needing backing.\n\n**Suggested rewrite:**\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, and here's how we made them.\"\n\nPublish: no, not until the carbon neutral claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.011008,
- "seconds": 11.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04eb9b0db1e3b13369ddb5d45602780d59cf52edb460735390f48211da5a2c61",
+ "result": "**Review findings**\n\n1. **\"our whole business is carbon neutral\"** – This is a green claim that isn't on the allowlist. We have no certification or evidence in the brand policy to support it, and \"whole business\" is a broad scope. It needs to be removed or replaced with a verified, specific claim (e.g. the Soil Association organic certification or plastic-free, home compostable tea bags, which we can back).\n\n2. **\"Here's how we checked.\"** – This promises evidence or a method that the intro doesn't give, and it follows directly on from the unsupported carbon neutral claim. If the carbon claim is removed, this line has nothing to refer to and should be rewritten or cut.\n\n**Checked and fine:**\n- \"started Pebblebrook in Bristol in 2019\" – matches the policy.\n- \"tea bags are plastic-free and home compostable\" – on the allowlist.\n- The origin story about not finding plastic-free tea bags is a narrative framing and not a factual claim needing substantiation.\n\n**Suggested rewrite:**\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. Here's what that means in practice.\"\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010218,
+ "seconds": 8.4,
  "models": [
   "claude-sonnet-5-5"
  ]

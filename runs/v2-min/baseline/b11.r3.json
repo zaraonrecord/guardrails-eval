@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e08527c05c8f487e8e98a43cc428bf24b07b4471d782537d25d654a4bc28e727",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The new Japanese sencha, its grassy and slightly sweet flavour, and the brewing advice (around 70 degrees) are product facts, which the policy allows as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language, and nothing is invented.\n- **Tone:** The copy is short, specific and plain. It reads naturally and doesn't sound like generic AI filler.\n- **Disclosures:** This is a plain announcement with no offer, incentive or sponsored content, so no disclosure is needed. If your email platform doesn't add an unsubscribe link and sender details automatically, check that before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0075233999999999995,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c957ff580c5ce5c02b2cccb5301d984a48ef8dbbf607e54439921344781577a2",
+ "result": "**Not ready to publish.** Two things need changing and one needs confirming.\n\n## Product label check\n| Product | Label | Hands-on claims |\n|---|---|---|\n| Pebblebrook subscription | **Not stated.** \"I've tried\" suggests Tried, but I won't assume it. | \"easiest to pause\", \"the tins are lovely\" |\n\nPlease confirm how and for how long you used it, and whether it was bought, gifted or paid for. Gifted or paid would need \"Gifted\" or \"Ad\" as the very first word of the post. Hands-on claims are only allowed if the label is Owned or Tried.\n\n## Issues\n1. **Affiliate disclosure is in the wrong place.** The post opens with \"I've tried four tea subscriptions this year.\" The only disclosure is \"(Affiliate link)\" after the link at the very end. The brand policy requires \"Affiliate link\" next to the link, which you have. The review rules also require a plain-words declaration at the top, before the first link, and that is missing.\n2. **\"Pebblebrook's was the easiest to pause\" is a superlative.** It ranks Pebblebrook against three other subscriptions, and no ranking is on the claims list. The only backed claim is \"Subscribers can pause or cancel any time.\" Either state that, or describe what you actually did, e.g. how many steps it took, if you did it.\n\n## Smaller notes\n- \"I've tried four tea subscriptions this year\" is a factual claim about your own experience. Keep it only if it's true.\n- \"The tins are lovely\" is a fine opinion if you've handled them. Adding something concrete (size, material, how they stack) would make it stronger.\n- No health, green, urgency or guarantee claims. No banned brand words.\n\n## Suggested version (once the label is confirmed)\n> Affiliate disclosure: this post contains an affiliate link, so I may earn a commission if you buy through it.\n>\n> I've tried four tea subscriptions this year. With Pebblebrook, [describe what you did to pause, e.g. \"I paused from my account page in two clicks\"]. Their subscribers can pause or cancel any time, and the tins are lovely. [Add one concrete detail about the tins.] You can find it here (Affiliate link).\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0195086,
+ "seconds": 20.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

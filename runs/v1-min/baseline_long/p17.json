@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "25ac36b2cb16f9d05b7ec616d0db934449d26cc94c1fecaca44c47152d27cc78",
+ "result": "**Review: Peppermint product page**\n\nSentence by sentence:\n\n1. \"Peppermint. Just peppermint leaves, nothing else.\" Product fact (ingredients). Fine.\n2. \"Cool and clean after a big meal\" Describes the experience/flavour. Fine.\n3. \"a natural detox that aids weight loss\" This is a health claim. \"Detox\" implies changing body functions, and \"aids weight loss\" is a body-effect claim. Neither is on the brand's allowlist, and tea can't make such claims without authorisation. Must be removed.\n4. \"Certified organic by the Soil Association.\" On the allowlist. Fine.\n\nStyle: the copy is short and specific, with no clichés.\n\n**Fix:** Cut \"and a natural detox that aids weight loss\". Suggested: \"Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\"\n\n**Decision:** Hold until the health claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083485,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

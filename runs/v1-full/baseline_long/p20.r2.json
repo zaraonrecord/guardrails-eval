@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "72d90589a24f8c5122bd00cf2aa37552624196b2604b39a1a67452ea50a98576",
+ "result": "**Review of the about page draft**\n\n- \"Pebblebrook was founded in Bristol in 2019.\" This is an approved claim (Companies House).\n- \"We're a small team of six\" is a team-size product fact, which the policy lets us use as written.\n- \"every tin is packed by hand in Bristol\" is an approved claim (Operations).\n- \"Over 98% of our customers rate us five stars\" is a problem. It isn't in the claims list, and the only approved rating is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". A 98% five-star figure also doesn't fit a 4.8 average. It reads as an invented statistic. Replace it with the approved wording, or cut it.\n- \"we buy from gardens we've visited\" is a sourcing statement, not a figure. It isn't on the approved list, but it sits close to the product-team facts about where tea is grown. I haven't blocked on it. It's worth a quick confirmation from the product team that it's accurate.\n\nVoice and spelling are plain and warm, with no banned words. There are no health, green, guarantee or urgency issues, and no label is needed on an about page.\n\nHold the draft until the 98% line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0147107,
+ "seconds": 20.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

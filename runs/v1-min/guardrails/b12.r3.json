@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8082e5b70357729b0dab53a4ed21aabd9afc4b77a90a5abceb973e24e0978246",
+ "result": "**Publish gate report**\n\n**Going out:** a social ad on the brand's own account, to UK tea drinkers. No schedule was given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy's claims list word for word. The three teas (Builder's, Earl Grey, peppermint) are product facts, which the policy allows as written. There are no stats, rankings, testimonials or guarantees.\n- **Regulated claims:** nothing touches health, money, legal outcomes, the environment, children, or prices beyond the delivery threshold. \"A peppermint for after lunch\" is a serving suggestion, not a health claim. There are no countdowns or limited-stock claims.\n- **House style:** the copy is plain and specific, with no stock openers, intensifiers, \"not X, it's Y\" reversals or slogan closers. The policy gives no banned words or voice section, so I couldn't score it against a brand reference. By the standard checks it reads as human and passes.\n- **Disclosure:** this is the brand's own ad on its own account, so there is no creator, affiliate, gifted-product or AI-content relationship to label. The brand is obviously the advertiser. If the platform's paid or sponsored tag is applied when it runs as a paid placement, that covers it.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** none. The policy names no approver, so I need an explicit yes from you (or whoever owns this channel) for this exact text before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011836700000000002,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

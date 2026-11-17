@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6c1617c2f25973c7a4e99761fc1d31f141bec8a2543b25fcbdc980afa6aa09fb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Fine as written (team size is a product/company fact in the policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** \"We buy from gardens we've visited\" is a sourcing-practice claim. It says the team has personally visited every garden it buys from. That isn't on the allowlist, and it isn't a plain origin fact like naming a region. Nobody here has confirmed it, and it implies something stronger than where the tea comes from. \"Gardens\" also implies all of the range, not just some teas.\n\n**Options:**\n- Replace it with a verified fact, e.g. naming the specific gardens or regions you source from.\n- If it's true, supply the source (which gardens, who visited, when) and I'll keep it, scoped accurately, e.g. \"We buy [named tea] from [named garden], which we've visited.\"\n- Or use `[PROOF NEEDED: which gardens the team has visited, and whether this covers all suppliers]` until confirmed.\n\nNothing else needs changing. There are no ban-list words, superlatives, stats, or disclosure issues.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011056,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b09",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Our tea bags are plastic-free and home compostable.\"** The policy lists this as a claim we can back up (\"tea bags are plastic-free and home compostable\"). It is specific and not an overreach, so it's fine.\n- **\"Plastic-Free Tea Bags\"** (headline). This matches the same allowed claim. Fine.\n- **\"Founded in Bristol in 2019.\"** This is on the allowlist. Fine.\n\nOther checks:\n- No invented stats, superlatives, guarantees, testimonials, health claims, or fake urgency.\n- No vague green claims. The environmental claim is specific and allowed.\n- The copy is short and plain, with no filler.\n- A search ad needs no disclosure label here, and no promotional offer is made that would need terms.\n- Character length looks within typical search ad limits (the headline is under 30 characters, and the description is under 90).\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008958,
- "seconds": 9.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7fa4fc19812a2f10d506a565e5668ee8ca6d6ecd165144a5000c6a84532c817c",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Our tea bags are plastic-free and home compostable.\"** Both facts are on the allowlist, so this is fine.\n- **\"Founded in Bristol in 2019.\"** Also on the allowlist and accurate.\n- **Headline \"Plastic-Free Tea Bags\".** Backed by the same claim, so it's fine.\n- **Superlatives, guarantees, stats, testimonials, health claims, urgency:** none present.\n- **Disclosures:** a search ad doesn't need any here, since it makes no offer with conditions (such as delivery thresholds).\n- **Tone:** it's plain and specific, with no filler.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00818,
+ "seconds": 6.6,
  "models": [
   "claude-sonnet-5-5"
  ]

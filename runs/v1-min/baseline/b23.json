@@ -1,10 +1,14 @@
 {
  "case": "b23",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and the usual risk categories.\n\n- **Product facts:** Ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), the flavour note (\"lovely with milk\") and the size (100g tin) are product facts, which the policy allows as written.\n- **Caffeine-free:** This is an ingredient fact. Rooibos is naturally caffeine-free, so it describes the product and isn't a health claim.\n- **Statistics, superlatives, guarantees, testimonials:** None present.\n- **Health or green claims:** None. The draft doesn't mention organic, compostable or plastic-free packaging.\n- **Urgency, disclosures, filler:** No fake urgency. Nothing here needs a disclosure. The copy is short and specific, not generic AI filler.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.00872,
- "seconds": 9.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "879e37859ff556e4f2e7706aea1dd4d45d8fddaa4f904170a74278ede2712320",
+ "result": "**Review of the Rooibos Chai product page draft**\n\nChecks run:\n\n- **Claims:** The draft contains only product facts: caffeine-free rooibos, the spice ingredients (cinnamon, cardamom, ginger, black pepper), a serving suggestion (\"Lovely with milk\") and the size (100g tin). Product facts are fine as written under the brand policy.\n- **Statistics, superlatives, guarantees, testimonials:** None present.\n- **Health claims:** \"Caffeine-free\" is a factual product attribute, not a health benefit claim. No wellness or medical language is used.\n- **Green claims:** None. There is no mention of organic, compostable or plastic-free packaging, so nothing needs backing up.\n- **Urgency or pressure:** None.\n- **AI-slop tone:** The copy is short and plain, with no filler or inflated phrasing.\n- **Disclosures:** No endorsements, incentives or sponsored content, so no disclosure is needed.\n- **Market fit:** Nothing conflicts with UK marketing.\n\nOne note, not a blocker: \"Lovely with milk\" is a subjective taste remark, but it's mild and a normal serving suggestion. Publication is fine as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00986,
+ "seconds": 8.4,
  "models": [
   "claude-sonnet-5-5"
  ]

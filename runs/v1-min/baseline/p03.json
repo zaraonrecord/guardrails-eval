@@ -1,10 +1,14 @@
 {
  "case": "p03",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the Assam Breakfast product page draft**\n\n**Problem found**\n\n1. **\"boosts your immunity through winter\"**: This is a health claim. It isn't on the claims allowlist, and tea of this kind can't be marketed in the UK as boosting immunity without an authorised health claim. It should be removed. Describing the flavour, such as \"malty, full-bodied, stands up to milk\", already does the job.\n\n**Checked and fine**\n\n- \"A malty, full-bodied black tea that stands up to milk\": flavour description, allowed as a product fact.\n- \"Certified organic by the Soil Association\": on the allowlist.\n- \"100g tin, makes around 40 cups\": size and brewing fact, and hedged with \"around\".\n- No invented stats, superlatives, guarantees, fake testimonials, fake urgency or green claims.\n- Nothing that needs a disclosure.\n\n**Suggested rewrite**\n\n\"Assam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\"\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.009712,
- "seconds": 7.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e756cc3528eee5c319f37a34364b5e268795e49672982ab4074d62a4ba71d022",
+ "result": "**Review of the Assam Breakfast product page draft**\n\n**Problem found**\n\n- \"boosts your immunity through winter\": This is a health claim. Tea can't be claimed to boost immunity, and nothing in the brand policy supports it. Remove it. You could replace it with something about flavour or warmth, e.g. \"a comforting cup for winter mornings.\"\n\n**Checked and fine**\n\n- \"malty, full-bodied black tea that stands up to milk\": flavour and brewing description, fine as written.\n- \"Certified organic by the Soil Association\": on the allowlist.\n- \"100g tin, makes around 40 cups\": product fact (size and brewing), and hedged with \"around.\"\n- No invented stats, superlatives, guarantees, fake urgency, or testimonials. Tone reads naturally.\n\n**Verdict:** Don't publish as is. Cut the immunity claim and it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00903,
+ "seconds": 8.6,
  "models": [
   "claude-sonnet-5-5"
  ]

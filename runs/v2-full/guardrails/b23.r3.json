@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c647c4cfe9b064db7d63a6cdc65b109894f579807ec004c5acd1b35f2b5d546a",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Rooibos Chai (100g tin), on the Pebblebrook Tea Co. site.\n\n**Claims:** I found no problems.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" is an ingredient and product fact. The policy lets the product team's facts through as written, and I read \"caffeine-free\" as a description of the leaf, not a health benefit. It doesn't say the tea is good for anyone or treats anything.\n- \"Lovely with milk\" is a serving suggestion and a matter of taste. It makes no provable claim.\n- \"100g tin\" is a tin size, which is also a product fact.\n- The draft has no statistics, superlatives, guarantees, testimonials, urgency, or green claims.\n\n**Regulated claims:** The draft makes no health, money, legal, environmental, children's, or price claims.\n\n**House style:** I'd score it about 90 out of 100.\n- It's plain and unhurried, uses UK spelling, and has none of the banned words.\n- It has no AI tells.\n- It's a little terse, but I'd leave it alone. Warmth is the only thing it could gain, and it doesn't need more.\n\n**Disclosure:** The page is the brand's own product copy, with no paid partnership, affiliate link, gifted product, or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead) must approve everything public. The copy passes the checks, but it shouldn't go live until Sam says yes to this exact text. I haven't recorded an approval and won't on Sam's behalf.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0117731,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

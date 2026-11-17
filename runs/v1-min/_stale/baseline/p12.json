@@ -1,0 +1,11 @@
+{
+ "case": "p12",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the creator post (paid)**\n\n- **Disclosure:** This is a paid post, but nothing in it says so. UK rules (ASA/CAP and the CMA) require clear labelling of paid content, such as \"#ad\" or \"Paid partnership with Pebblebrook Tea Co.\", placed at the start of the post. This must be fixed before publication.\n- **\"Packed by hand in Bristol\":** This is on the claims allowlist, so it's fine.\n- **Assam and the afternoon pot:** These are product and personal usage facts, so they're fine as written.\n- **Other checks:** I found no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or fake testimonials. The tone reads as natural, not formulaic.\n\n**Recommended change:** Add a clear label at the start, for example \"#ad | My afternoon reset is a pot of Pebblebrook's Assam…\". Once that's added, the post is fine to publish.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010457999999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

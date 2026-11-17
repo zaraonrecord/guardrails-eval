@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c0f3dd28e82bae618508239469835a8eafda2b66e650c71437bae168ef2478d3",
+ "result": "**Review of the paid creator post**\n\n**Claims**\n- \"Their tins are packed by hand in Bristol\" is on the brand's approved list (\"every tin is packed by hand in Bristol\"), so it is fine.\n- \"My afternoon reset\" and \"ten minutes away from my phone\" are personal lifestyle description, not a health or results claim. \"A pot of Pebblebrook's Assam\" is a product fact.\n- I see no invented stats, superlatives, guarantees, green claims or urgency.\n- The hashtags #slowliving and #selfcare are mood tags and don't promise any effect on the body, so they are fine.\n\n**Problem: ad disclosure**\n- The post is paid, so it must be clearly labelled as an ad before the reader engages with it. The only label is \"#ad\", sixth of seven hashtags at the very end of the caption. Mixed in with other tags and placed last, it is not prominent enough.\n- Fix: open the post with a clear label, e.g. \"Ad: My afternoon reset is a pot of Pebblebrook's Assam…\". Keep or drop the trailing #ad as you like.\n\n**Style**\n- The copy sounds like a real person and has no AI clichés. No changes needed.\n\nThe post should be held until the label is moved to the start.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009379199999999999,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

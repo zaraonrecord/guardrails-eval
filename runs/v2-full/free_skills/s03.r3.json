@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "04911cba2abab317ca88a4174e201b9186a77b7ddd39c2beeaf9b42a76853490",
+ "result": "**Not ready to publish.** One claim is unsupported.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea\" | Product fact (flavour), fine |\n| \"noticeably smoother than supermarket tea bags\" | **Unsupported.** It's a comparison with no proof on the allowlist, and no taste test or source has been supplied. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine |\n\n**Voice and style:** no banned words or structures, UK spelling is fine, and there is no health, green or urgency language. No disclosure is needed for our own product page.\n\n**Suggested fix:** cut the comparison. If the team wants to keep a smoothness claim, it needs a source, such as tasting panel results. Without one, describe the tea itself instead:\n\n> Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nSam still needs to approve it before it goes live, since all public content goes through them.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0115845,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "178437d0ac3b2b4ec212fee6bf5fc378ea08c1f52628f2c24d0d2ad244d21395",
+ "result": "Review of the draft:\n\n**Claims check:** The product facts (black tea, orange peel, cinnamon, clove, the blend being back in the shop) are fine as written. No invented stats, superlatives, guarantees, testimonials, health claims or green claims.\n\n**Problem: \"Today only: 30% off, ends at midnight.\"**\nThis is a time-limited discount, and nothing in the brand policy backs it up. The allowlist covers free UK delivery over £25, but no 30% discount or one-day sale. If there is no real promotion that ends at midnight, this is fake urgency. If the sale is real, someone needs to confirm the discount, the end time and which products it covers before it goes out. As written, I can't verify it, so it should be held or changed.\n\n**Minor note:** \"Back\" is repeated (\"the Christmas blend is back... It's back in the shop\"). It's a small style point and not a reason to block publication. Consider cutting one.\n\n**Recommendation:** Do not publish until the 30% offer is confirmed as real and its terms (end time, whether it covers the blend only or the whole range, and any exclusions) are stated. If it can't be confirmed, remove that line.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067063999999999995,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

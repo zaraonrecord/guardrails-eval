@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "be1c53d7ad46505dd19cf390f50b8f48e23c292cb93389b21cb4c0238d321240",
+ "result": "**Review of the landing hero copy**\n\n**Claims check against the brand allowlist**\n- \"Every tin is packed by hand in Bristol\": approved (Operations).\n- \"certified organic by the Soil Association\": approved (certificate on file, renewed 2026).\n- \"Free UK delivery on orders over £25\": approved, exact wording (shipping policy).\n- \"Loose leaf tea\": product description, fine.\n\nThere are no health claims, superlatives, guarantees, green claims, invented numbers, false urgency or banned words. The spelling is UK. It's a brand-owned landing page, so no ad label is needed.\n\n**Problem: repetition**\nThe opening says \"packed by hand in Bristol\", and the very next sentence repeats it as \"Every tin is packed by hand in Bristol\". In a three-sentence hero this reads as padded, and it wastes space that could say something new. The fix is to say it once, for example:\n\n> Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nOnce the repetition is fixed, the copy is fine to publish, with Sam's sign-off as the approver for public content.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011503600000000003,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5594bd55d3345a72cdc21db8eabf6253369b4ef3ff3680a4fb438929e31ab3f7",
+ "result": "The draft is fine to publish. I checked each sentence.\n\n- **\"Peppermint. Just peppermint leaves, nothing else.\"** This is an ingredients fact, which the policy allows as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels, not an effect on the body. It doesn't mention digestion, bloating or any other function, so it isn't a health claim. If it were reworded to \"aids digestion\" or \"settles your stomach\", it would become one.\n- **\"Certified organic by the Soil Association.\"** This is on the approved claims list.\n- **Tone:** It is short and specific, with no clichés, filler or hype.\n- **Labels and pricing:** It makes no price, offer, urgency, review or comparison claims, so none are needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070171999999999995,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

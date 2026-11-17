@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d81d056cd9799750b4af67fc411227762ba73b2cd8eb8b9c55fed7bad101a780",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour/product description, fine |\n| \"a natural detox that aids weight loss\" | Unsupported. Health claim, not on the allowlist |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Problems**\n\n1. **\"a natural detox that aids weight loss\"** is a health claim with no proof behind it. Detox and weight-loss claims for a tea are also a regulatory risk in the UK (the UK nutrition and health claims rules only permit authorised claims, and the ASA actively polices detox and weight-loss wording). It must be removed, not softened. Softening it to \"can help\" would still be a claim we can't support.\n\n2. **Style:** the copy is otherwise clean. No banned vocabulary, no exclamation marks, no invented numbers. \"Cool and clean\" is flavour description, which is fine.\n\n**Suggested compliant version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nIf you want a benefit line, tell me what you can source, and I'll add it with the source noted. Otherwise, I'd leave it out.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075524,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

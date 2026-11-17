@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b0c4a3180c9088c86ddcc64b6529bf56ac8ced11570214adfa33eff25392df53",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Loose leaf tea\" (product fact) | Fine as written |\n| \"packed by hand in Bristol\" | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| \"certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\nThere are no invented stats, testimonials, superlatives, guarantees, health or green claims, or fake urgency. Nothing in the draft looks likely to trip ad platform policy.\n\n**Slop check**\n- Ban-list hits: none.\n- Structural violations: none. There are no em-dashes, exclamation points, rhetorical openers or abstract triads.\n- The opening sentence leads with a concrete fact.\n\n**Optional edit, not blocking:** \"packed by hand in Bristol\" appears twice, in the first and second sentences. Cutting one would tighten the copy, for example: \"Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\" Every claim is backed, so this is a style choice and doesn't need to hold up publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012007200000000003,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

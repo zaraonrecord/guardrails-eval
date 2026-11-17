@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b8630b675b388c425e2a7c1a05cbb9c131e29b5bfb1eccdcfb39205fbe9582b5",
+ "result": "I checked the draft against the brand policy.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly, so it is fine.\n- **Product facts:** The Earl Grey details (real bergamot oil, a little cornflower) are ingredient facts and are allowed as written.\n- **Superlatives, guarantees, health claims, green claims, fake urgency:** None appear.\n- **Testimonials:** None appear. The rating is an aggregate that the policy covers.\n- **Disclosure:** This is the brand's own account, so no partnership or ad label is needed.\n- **Tone:** The copy is specific and natural, with no generic filler.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008398,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

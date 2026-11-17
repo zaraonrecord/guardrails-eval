@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1b338357bfa2096f269bfec82a6609b74de5a288f9e13ef6e8cfaf7de31610ad",
+ "result": "## Publish gate report\n\n**Going out:** Assam Breakfast product page copy, on the product page, UK audience.\n\n**Checks**\n- **Claims:** Passed. \"Certified organic by the Soil Association\" is on the policy's allowlist. \"Malty, full-bodied black tea that stands up to milk\" is flavour description, and \"100g tin, makes around 40 cups\" is size and brewing information, both of which the policy allows as written. There are no invented stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Passed. There are no health, money, environmental, price or urgency claims. The organic claim matches the policy wording exactly.\n- **House style:** Passed. The copy is short, concrete and plain. It has no stock openers, empty intensifiers, slogan closers or reversals. The policy has no banned-word list that conflicts with it.\n- **Disclosure:** Passed. It's the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-generated content to label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One housekeeping point: the policy doesn't name an approver, so I'd treat you as the approver. Before it's published, please confirm a clear yes to this exact text. I haven't recorded an approval, and I can't from this session.\n\n**Approver:** None named in the policy, so you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101251,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5c43fb34ca10ff1cf40a6f27919a084c579c600fbda5bb98bbf9c146e25d724f",
+ "result": "**Review: landing hero, Pebblebrook Tea Co.**\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review platform export, October 2026) |\n| \"Organic loose leaf\" | Allowlisted (\"Certified organic by the Soil Association\"; certificate renewed 2026) |\n| \"plastic-free bags\" | Allowlisted (plastic-free and home compostable, EN 13432) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n\n**Other checks**\n- **Superlatives, guarantees, health, environmental claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. The rating and review count match the allowlist exactly.\n- **Disclosure:** none needed. This is our own landing page, not a creator post or affiliate link.\n- **Voice and slop:** no banned words or structures, UK spelling, and the opening sentence leads with a concrete fact. It reads warm and plain.\n\n**Notes, not blockers**\n- The allowlist says \"every *tin*\" is hand-packed. The draft's wording could be read as covering the tea bags too. If the bags aren't packed in tins or by hand, change it to \"tins packed by hand in Bristol\". The product team can confirm.\n- The 4.8 rating is from the October 2026 export. Refresh it if the figures change before the next review cycle.\n- Sam needs to approve it before it goes live, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0145743,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

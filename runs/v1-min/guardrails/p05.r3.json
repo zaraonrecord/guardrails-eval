@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fd29e8a8345be1a937a28742531ec6a6a3fa8f6ec63439143b99fcf9e1270e2f",
+ "result": "## Publish gate report\n\n**Going out:** newsletter to UK subscribers, announcing the Darjeeling first flush, in the shop from Monday.\n\n**Claims:**\n- \"Visited the garden in Darjeeling that grows our first flush\", \"picked in March\" and \"bright and floral\" are origin and flavour facts, which the policy allows as written.\n- \"In the shop from Monday\" is a new arrival, which is also fine.\n- \"Only 40 tins are left, so be quick\" is a scarcity claim. The policy doesn't cover it and nothing in this chat sources it. It also reads oddly, because the tea isn't on sale until Monday, so it's unclear what \"left\" means. If the number isn't literally true at send time, it's fake urgency.\n\n**Regulated claims:** the stock count counts as urgency. Nothing touches health, money, the environment or children.\n\n**House style:** the copy is plain and specific, with no obvious AI tells. \"So be quick\" is a mild pushy closer, but it goes with the urgency line.\n\n**Disclosure:** none needed. It's the brand's own product in its own newsletter, with no sponsor, affiliate link or gifted item.\n\n**Fixed:** nothing changed yet. I'd rather not invent a replacement for the number.\n\n**Needs a decision:**\n- Is the 40-tin figure true, and how will it be true when the email lands? If so, give me the source (stock count and date) and I'll keep it with a wording like \"We have 40 tins in the first batch.\"\n- If you can't confirm it, my suggested version is: \"You'll find it in the shop from Monday.\"\n\n**Approver:** the policy names no approver, so you're the one to approve. I haven't recorded any approval, and it should be given for the final wording once the stock line is settled.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125266,
+ "seconds": 20.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

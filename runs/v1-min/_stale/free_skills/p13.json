@@ -1,0 +1,11 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: fine to publish.**\n\n**Claims check**\n- No numbers, superlatives, guarantees, testimonials, health claims or green claims appear in the draft.\n- \"Winter sampler\" and \"rooibos chai\" are product facts, which the brand policy allows as written.\n\n**Review rules**\n- **Label:** this is Tried or Owned, since you received it and drank it. The hands-on line (\"lovely with oat milk\") is a taste opinion from actual use, so it's allowed. I'm assuming you really did try it with oat milk.\n- **Gift disclosure:** \"Pebblebrook sent me their winter sampler\" comes in the first sentence, before any opinion. That meets the \"label where it first appears\" rule. The word \"gifted\" would be clearer and is the safer wording for UK readers.\n- **Verdict independence:** \"just liked it\" makes clear the opinion is yours.\n\n**Slop check:** no banned words, no em-dashes, no exclamation marks, no rhetorical opener. The copy is short and specific.\n\n**Optional tweaks (not blocking)**\n1. Change \"sent me\" to \"gifted me\", or add \"(gifted)\", so the label is unmistakable.\n2. Consider \"Not paid to say that\" → \"No payment for this post, and they didn't see it first\", but only if that is true. A free product is still a benefit, so keep the gift mention right beside the \"not paid\" line, as it already is.\n3. Say roughly how long you've been drinking it, if you want it to read as a stronger hands-on claim.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0154123,
+ "seconds": 17.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

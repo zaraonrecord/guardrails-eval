@@ -1,10 +1,14 @@
 {
  "case": "p04",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Earl Grey uses real bergamot oil and a little cornflower | Allowed (product fact, ingredients) |\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, and the wording matches the policy, including \"on our website\" |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\nNo unsupported claims, invented stats, testimonials, guarantees, health claims or green claims.\n\n**Problem**\n\n- \"In today's fast-paced world\" is on the ban list. It is also throat-clearing: the opening sentence should carry the most useful or interesting fact, and this one carries nothing. Cutting it fixes both problems.\n\n**Suggested rewrite**\n\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nThe rewrite has no ban-list hits, em-dashes, exclamation points or rhetorical-question openers. The rating line is unchanged. Fix the opener and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0122463,
- "seconds": 10.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e2989ad34646767fb7e57f667bedaf434353c037bf7657e5ade369932f1e3002",
+ "result": "**Verdict: don't publish as written. One fix needed.**\n\n**Problem**\n- \"In today's fast-paced world\" is on the ban list. It's throat-clearing that delays the one useful fact, which is what's in the tea. Cut it.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Earl Grey uses real bergamot oil and a little cornflower | Product fact, fine as written |\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, and the \"on our website\" qualifier is kept |\n| \"a rainy Sunday pot is everything\" | Mood, not a checkable claim. Vague, so I tightened it in the rewrite |\n\nNot an issue here:\n- No disclosure is needed, since this is your own account and your own product.\n- There are no health, green, urgency or comparison claims.\n\n**Compliant version**\n> Our Earl Grey uses real bergamot oil and a little cornflower. Made for a rainy Sunday pot. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012610300000000001,
+ "seconds": 9.5,
  "models": [
   "claude-sonnet-5-5"
  ]

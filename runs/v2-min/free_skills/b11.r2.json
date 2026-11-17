@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "dc2cf7f42fa36d2b958e139ee25b5dc964aee059b536642a25cb4866c87067fb",
+ "result": "**Review: sencha announcement email**\n\nI checked the draft against the claims allowlist, the slop-guard rules and the review rules.\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival, a product fact, so it's fine as written.\n- \"grassy and a little sweet\": flavour description, fine as written.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, fine. \"Best\" here is advice on how to brew, not a superlative about the product.\n- No numbers on ratings, reviews or savings, no comparisons, no guarantees, no testimonials, no health, money or environmental claims.\n\n**Slop check**\n- No banned words or phrases.\n- No em-dash sandwiches, exclamation points, rhetorical-question openers, \"not just X, it's Y\" constructions or abstract-noun triads.\n- No fake urgency or scarcity.\n- The opening sentence states the actual news, which is what it should do.\n\n**Review rules**\n- This is not a review or roundup, and there are no affiliate links, sponsorships or hands-on experience claims, so no disclosure is needed.\n\n**Verdict:** Nothing needs changing. The email is short, specific and makes only product-fact claims. If you want it to do more, add a link to the product page so Tom can find the sencha.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094698,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

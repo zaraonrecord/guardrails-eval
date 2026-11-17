@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9786a6fa134b46c7539066de3cc0f2efa23c7f878ccd439bdf872c2b56eac6c1",
+ "result": "**Publish gate report: review blog (affiliate)**\n\n**Going out:** a short affiliate review of Pebblebrook's subscription on the review blog. No send time was given. Nothing has been approved yet.\n\n**Checks**\n- **Claims:** \"the easiest to pause\" is a comparison against three other services, and nothing in the policy or this chat backs it. The policy only supports \"subscribers can pause or cancel any time\". \"The tins are lovely\" is opinion and fine. \"I've tried four tea subscriptions this year\" is a first-hand claim I can't verify, so the author should confirm it's true.\n- **Regulated claims:** nothing on health, money, environment, children or prices.\n- **House style:** no banned words or AI tells. The copy is plain and short.\n- **Disclosure:** this fails. \"(Affiliate link)\" sits at the very end, after the reader has read the whole recommendation. UK rules expect the label upfront and clear, before the reader engages. A bracket after the link doesn't meet that.\n\n**Fixed (suggested rewrite, not yet approved)**\n> Affiliate disclosure: this post contains an affiliate link, so I may earn a commission if you buy through it.\n>\n> I've tried four tea subscriptions this year. Pausing my Pebblebrook one was simple, and the tins are lovely. You can find it here (affiliate link).\n\n- I moved the disclosure to the top in plain words.\n- I kept a short label next to the link as well.\n- I replaced \"the easiest to pause\" with a claim the policy supports.\n\n**Needs a decision**\n1. Did the author really try four subscriptions this year? If not, cut that line. My suggestion is to keep it only if it's true.\n2. Does the author have any other tie to Pebblebrook, such as free product or payment beyond commission? If so, that also needs disclosing.\n3. If the author wants to keep \"easiest to pause\", they need to confirm it's their honest first-hand experience. I'd still soften it to \"the one I found easiest\".\n\n**Approver:** the policy names no approver, so I need an explicit yes from you, or whoever you name, on the exact final wording above. I can't approve this myself.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0198833,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

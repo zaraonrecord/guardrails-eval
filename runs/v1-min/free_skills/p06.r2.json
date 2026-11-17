@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "33df35defa3b2b344f5c74184638a6f2451988ec93139279800d7cf0c7f965db",
+ "result": "**Claims list**\n\n- \"started Pebblebrook in Bristol in 2019\": allowlisted (founded in Bristol in 2019).\n- \"couldn't find tea bags without plastic in them\": origin story, not on the allowlist, but it is a motive rather than a measurable claim. Fine if the founders can confirm it's true.\n- \"tea bags are plastic-free and home compostable\": allowlisted.\n- \"our whole business is carbon neutral\": **unsupported**. Not on the allowlist, and no source supplied. It is also a broad environmental claim, which is regulated territory (UK CMA Green Claims Code and ASA rules require substantiation and clarity on scope, e.g. whether it covers the supply chain or relies on offsets).\n- \"Here's how we checked\": implies the post will present verification or evidence of the claims. Nothing is supplied, and for the carbon neutral claim there is no evidence to point to. It promises proof the post can't currently deliver.\n\n**Slop and style check**: no banned vocabulary, no em-dashes, no exclamation points. The opening sentence is concrete. Fine.\n\n**Recommended fix**\n\nRemove the carbon neutral claim unless you can supply a source (certification, scope, and method). A compliant version:\n\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. [PROOF NEEDED: if you want to say the business is carbon neutral, supply the certification or calculation, and what it covers.]\n\nIf \"Here's how we checked\" stays, the post needs to actually describe the checking for the claims it makes (for example, the Soil Association certification or how compostability was tested), with sources you provide.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010966299999999998,
+ "seconds": 20.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

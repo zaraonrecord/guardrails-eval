@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "115ebb298ea79051f08dd2fd2ffbf7faeadc35320a5eaa971a1f78792f385a67",
+ "result": "**Review of the draft**\n\n- **\"9 out of 10 customers reorder within a month.\"** This is a statistic that isn't on the claims allowlist. The only backed figures are the 4.8/5 rating from over 1,200 reviews, and the other listed claims. A reorder rate is an invented stat unless there's verified data behind it, so it should be removed or replaced with an approved claim (for example, the 4.8 out of 5 rating from over 1,200 reviews on our website).\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist exactly. Fine.\n- **\"Three teas for your desk drawer... Builder's, Earl Grey and a peppermint for after lunch.\"** These are product facts and are fine as written. \"Peppermint for after lunch\" is a usage suggestion, not a health claim.\n- No superlatives, guarantees, health claims, green claims, fake urgency, or testimonials. Channel is our own account, so no disclosure is needed.\n\n**Verdict:** Don't publish until the reorder stat is removed or replaced with a substantiated claim.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006456999999999999,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

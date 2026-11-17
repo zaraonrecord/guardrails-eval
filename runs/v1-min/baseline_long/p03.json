@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47f7fdf61645925f524ea0e05b9619cccb8e10ed5a8cde0c0335ec69590d088e",
+ "result": "**Review: Assam Breakfast product page**\n\nSentence by sentence:\n\n1. \"Assam Breakfast.\" Product name, fine.\n2. \"A malty, full-bodied black tea that stands up to milk\" is flavour and brewing description, fine per policy.\n3. \"boosts your immunity through winter\" is a health claim. Tea can't claim to affect body functions like immunity unless specifically authorised, and nothing in the brand's allowlist covers it. This must come out.\n4. \"Certified organic by the Soil Association.\" On the allowlist, fine.\n5. \"100g tin, makes around 40 cups.\" Product fact (size, brewing), fine as written.\n\nStyle: the copy is short and specific, with no clichés or filler.\n\nFix: delete \"and boosts your immunity through winter\". Suggested line: \"A malty, full-bodied black tea that stands up to milk. A good companion for winter mornings.\" (or just end after \"milk\").\n\nHold until the immunity claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0082885,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

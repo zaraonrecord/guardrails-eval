@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c5b54db1f33c777e85e671aa1e9e530236ea18e3cd25a6bc21a365e550b0845c",
+ "result": "**Verdict: fine to publish.** No changes needed.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, covered by the product team's sign-off |\n| \"a peppermint for after lunch\" | Usage suggestion, not a benefit claim. It says nothing about digestion or health, so it's fine as written. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy) |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health or green claims:** none.\n- **Banned words and structures:** none. There are no exclamation marks, rhetorical-question opener, em-dash asides or \"not just X, it's Y\" constructions. The opening is concrete.\n- **Voice:** warm, plain and unhurried, in UK spelling.\n- **Disclosure:** none required. This is a paid social ad from the brand's own account, and the platform marks those.\n- **Character limit:** none given, so I haven't counted.\n\n**Before it goes out**\n- Sam needs to approve it, since all public content goes through him.\n- Make sure the landing page also states the free delivery offer, so the ad doesn't promise something the page omits.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0105039,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

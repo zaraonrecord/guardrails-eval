@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "798ca12f3d20e800a77164135795b2fd4d58d665a9c1c1b4e097b02ba269b9de",
+ "result": "**Review: October subscription email**\n\nGoing sentence by sentence:\n\n- **Subject: \"Your October tins are on the way\"**: Accurate description of a shipment, no claim issues. Fine.\n- **\"Your subscription box left Bristol this morning.\"**: Consistent with the Bristol base and packing. Operational fact, fine.\n- **\"Elevate your mornings\"**: \"Elevate\" is on the brand's banned word list. It's also generic lifestyle filler that doesn't match the warm, plain, unhurried voice. Fix: \"Here's what's in this month's box:\" or simply drop the phrase.\n- **\"a smoky lapsang and a soft white peony\"**: Product description, fine as written (product facts are approved by the product team).\n- **\"you can pause or cancel any time from your account\"**: Matches the approved claim \"Subscribers can pause or cancel any time\". Fine.\n- No health, green, guarantee, urgency, or invented-number claims. No ad or affiliate label needed, since this is the brand's own email.\n\nOne small observation, not a blocker: the subject says \"October tins\" while it's now 17 November. The brand can't tell from the draft whether this is a late send or a typo, so it's worth Sam confirming the month is right before it goes out.\n\n**Decision:** Hold. The banned word \"elevate\" must be removed. Once it's changed, the email is fine to send (with Sam's sign-off, as for all public content).\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009890699999999999,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

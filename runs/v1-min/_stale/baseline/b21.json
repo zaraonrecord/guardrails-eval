@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"founded in Bristol in 2019\"** is on the claims allowlist.\n- **\"a small team of six\"**: team size is a product fact the policy says is fine as written.\n- **\"every tin is packed by hand in Bristol\"** is on the claims allowlist.\n- **\"We buy from gardens we've visited\"** falls under origins, which the policy also allows as written. It makes no certification, health, environmental or superlative claim. Someone on the team should still confirm it is true, since I can't verify it from here.\n\nThe copy has no invented statistics, superlatives, guarantees, testimonials, health or green claims, or false urgency, and it doesn't read as filler. No disclosure is needed for an about page like this.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009867999999999998,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

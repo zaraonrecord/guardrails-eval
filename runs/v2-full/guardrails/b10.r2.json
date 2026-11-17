@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "76ce4b201c4add52740b65c1fdfd64ee2f537b889f8da1bc68663ee7da9924cd",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm tea, on the website, to UK shoppers.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | On the policy list (certificate on file, renewed 2026) |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is on the policy list. The count is a product fact the product team checks. |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm contain no caffeine. |\n| \"gentle, honeyed\" | Flavour description, not a claim. |\n\n**Regulated claims:** \"for the evening\" only says when to drink it. It doesn't say the tea helps sleep, relaxes or calms you, so it isn't a health claim. If someone later adds \"helps you unwind\" or \"promotes sleep\", that would be a health claim and would need to come out. No price, urgency, environmental or children's content.\n\n**House style:** The copy is warm, plain and unhurried, with no banned words and no AI tells. Score is about 92/100. I changed nothing.\n\n**Disclosure:** This is the brand's own product page, so there is no ad, partnership, affiliate or gifted content to label.\n\n**Fixed:** Nothing needed fixing.\n\n**Needs a decision:** Nothing. One thing to confirm: \"honeyed\" should describe the flavour. If the blend has no honey in it, that's fine as written, but the product team should be sure it can't be read as an ingredient.\n\n**Approver:** Sam (marketing lead). The draft passes, but it can't go live until Sam gives an explicit yes to this exact text. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012713799999999999,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

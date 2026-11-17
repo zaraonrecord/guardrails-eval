@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cf8e5e8102fae27330b37dc2f16c1d98a169101c8b662cc563f26f43093dc365",
+ "result": "**Review of the landing hero draft**\n\nChecked against the brand policy:\n\n- **\"Good tea, guaranteed. Risk-free.\"** The policy has no money-back guarantee, satisfaction guarantee, or risk-free trial. The only related claim is that subscribers can pause or cancel any time, which is not the same thing. Both \"guaranteed\" and \"Risk-free\" are unsupported guarantee claims. Either remove them or get the actual guarantee terms approved first.\n- **\"Certified organic by the Soil Association\"** is on the allowlist. Fine.\n- **\"packed by hand in Bristol\"** is on the allowlist (every tin is packed by hand in Bristol). Fine.\n- **\"free UK delivery on orders over £25\"** is on the allowlist. Fine.\n\n\"Good tea\" is a mild, subjective descriptor and not a problem on its own.\n\n**Suggested fix:** drop the guarantee language, e.g. \"Good tea, certified organic by the Soil Association, packed by hand in Bristol, with free UK delivery on orders over £25.\" If you want to keep a risk-reducing message, \"Subscribers can pause or cancel any time\" is supported.\n\n**Verdict:** do not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007107699999999999,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

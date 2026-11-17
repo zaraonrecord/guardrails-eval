@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "I read the draft as Tom would see it in his inbox, then checked each sentence against the brand policy.\n\n**Subject: \"A new green tea\"**\nAccurate description of the product (a sencha is a green tea). It doesn't mislead about the contents. Fine.\n\n**\"We've added a Japanese sencha to the shop.\"**\nProduct fact: new product arriving, which the policy lets the product team vouch for. Not a claim needing separate proof.\n\n**\"It's grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\"**\nFlavour and brewing guidance are product facts, fine as written. \"best brewed\" here is brewing advice, not a superiority claim about the brand. \"Cooler than you think\" is a gentle, plain tone, in line with warm and unhurried.\n\n**Other checks**\n- No health, environmental, guarantee, urgency or statistics claims.\n- No testimonials or reviews.\n- Email, brand-owned, so no \"Ad\" label is needed.\n- No banned words or AI clichés. UK spelling is fine. Tone is warm, plain and short.\n- Sign-off \"The Pebblebrook team\" is consistent with the brand. Personalisation \"Hi Tom\" is fine as long as the merge field is populated correctly.\n\n**Optional polish (not blocking):** the email has no link or call to action to the new tea, so Tom has to go looking. Adding a link to the product page would help, but it's not a compliance matter.\n\nNothing needs changing. It needs Sam's sign-off as the approver for public content, per the policy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080962,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

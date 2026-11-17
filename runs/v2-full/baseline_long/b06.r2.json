@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "948334903e576dcf3d483a13116e5f9f4fd7046209a4b9911fd0d1912862d369",
+ "result": "**Review: newsletter draft**\n\nI read it as a subscriber would and checked each sentence against the brand policy.\n\n- \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a company statement about sourcing. Where a tea is grown is a product fact the product team checks, and the policy allows it as written. No issue.\n- \"The leaves are picked in March and taste bright and floral.\" When a tea is picked and its flavour are both product facts, so they're fine. \"Bright and floral\" is description, not a health or superiority claim.\n- \"You'll find it in the shop from Monday.\" New products arriving is a listed product fact. It's a plain launch date, not countdown or scarcity language, so it isn't fake urgency. One practical check: make sure \"Monday\" is unambiguous for the send date, since a newsletter may be read later in the week.\n\nOther checks:\n- No health claims, superlatives, guarantees, statistics, testimonials or environmental claims.\n- No paid partnership or affiliate content, so no label is needed.\n- Voice is warm, plain and unhurried, with no banned words. UK spelling is fine.\n\nNothing needs changing. Per the policy, Sam (marketing lead) still approves everything public, so it should go through him before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070685,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

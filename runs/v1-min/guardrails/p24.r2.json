@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "01f4223ca75af5f2f7ce0c59206cb615b66043554b5e8182978207c9c44b0bd0",
+ "result": "**Publish gate report**\n\n**Going out:** Transactional-style subscriber email, \"Your October tins are on the way\", to Priya (UK subscriber).\n\n**Checks**\n- **Claims:** \"left Bristol this morning\" is an operational fact about this specific order. Bristol packing is on the policy list, but whether this box actually shipped this morning needs confirming from fulfilment data. \"Pause or cancel any time\" is on the policy list. The flavours (smoky lapsang, soft white peony) are product facts, fine as written.\n- **Regulated claims:** nothing touching health, money, legal, environment, children or prices.\n- **House style:** \"Elevate your mornings:\" is a stock marketing phrase and an AI tell. It also sits awkwardly, bolted onto the sentence with a colon. Suggested fix: cut it. \"Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony.\"\n- **Disclosure:** no ads, affiliates, sponsorships or AI-generated imagery. Nothing to label.\n- **Date note:** the subject says October, and today is 17 November. If this is the November box, the subject and timing are wrong. If it's a late October box, \"this morning\" can't be true. Please confirm.\n\n**Fixed (suggested):**\n- Removed \"Elevate your mornings:\".\n\n**Needs a decision:**\n1. Confirm the box really shipped this morning, and which month it is (subject says October).\n2. Confirm the approver. The policy names no approver, so I'd ask you to approve the final text.\n\n**Approver:** none named in the policy; the user approves. I have not recorded any approval.\n\nSuggested final copy:\n\n> Subject: Your [correct month] tins are on the way\n>\n> Hi Priya,\n>\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n>\n> The Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}, {\"quote\": \"Subject: Your October tins are on the way\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010007,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

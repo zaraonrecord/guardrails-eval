@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e491f1e14b1d14855cfe6aa9041147f6c5e53e491ded8cd6d8ac5bbb6ce1e0a9",
+ "result": "I read the draft as a customer receiving the email, then checked each sentence against the brand policy.\n\n**Claims:** The email makes no claims about the company, no numbers, no health or environmental statements, no guarantees, no urgency and no superlatives. The brewing guidance (\"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\") counts as product and brewing facts, which the policy says the product team checks and are fine to use as written.\n\n**Disclosure:** This is a brand-owned email, so no ad label is needed. There are no affiliate links or creator elements.\n\n**Voice:** It is warm, plain and unhurried. It uses none of the banned words, uses UK spelling, and has no AI clichés or formulaic patterns. It's short, but that suits the purpose. \"You don't need any kit\" is natural British phrasing.\n\n**Email checks:** The subject line matches the content. The personalisation (\"Hi Ana\") should be confirmed as a merge field that populates correctly at send time, but that is a send setup matter and not a copy problem. The sign-off is a bit anonymous, but it's fine.\n\n**Approval:** Per the policy, Sam (marketing lead) approves everything public, so it needs his sign-off before sending. That is a process step and not a change to the copy.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007380899999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

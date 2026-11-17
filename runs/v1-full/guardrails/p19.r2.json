@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "bc0c26b8e4ec9827c0039034b233868690594dbaca35c422b3d2858e34981c5d",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline plus description, UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"The UK's number one tea subscription\": a superlative with no proof. Policy section 3 bans \"number one\" and \"the UK's favourite\". Remove.\n   - \"Subscribers can pause or cancel any time\": on the policy list (subscription terms). OK.\n   - \"Free UK delivery on orders over £25\": on the policy list (shipping policy). OK.\n   - Headline \"Tea Subscription UK\": a plain descriptor, no claim. OK.\n\n2. **Regulated claims:** The price/offer line is the only item in this area. It matches the policy wording and has no invented urgency or end date. OK.\n\n3. **House style:** Plain and unhurried enough for an ad. No banned words and no AI tells once the superlative goes. Score about 85 after the fix.\n\n4. **Disclosure:** Our own paid search ad is marked by the platform, so no extra label is needed (section 4). OK.\n\n**Fixed (suggested rewrite)**\n- Removed \"The UK's number one tea subscription\".\n\nSuggested description:\n> Loose leaf tea and plastic-free tea bags, delivered monthly. Pause or cancel any time. Free UK delivery on orders over £25.\n\nCheck on the rewrite: \"plastic-free tea bags\" is a product fact, and the policy also backs it with the EN 13432 certificate. The headline can stay as is. I'd keep the description to fit the character limit; please confirm it fits (about 90 characters is the usual cap, and this version is a little over, so trim to \"Loose leaf tea and plastic-free tea bags. Pause or cancel any time. Free UK delivery over £25.\" if needed. Note that this shortens the delivery wording, so use the exact policy wording \"Free UK delivery on orders over £25\" if space allows and drop the tea line instead).\n\n**Needs a decision**\n- Approve the rewritten description, or the original minus the superlative. Suggested answer: use \"Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\"\n\n**Approver:** Sam (marketing lead). Nothing is published until Sam gives an explicit yes to the final wording. The draft as written is not approved to go out.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010909499999999999,
+ "seconds": 17.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

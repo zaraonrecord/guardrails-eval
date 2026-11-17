@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e8cdb7fadad55264de973330d4b95bf217578dfbfaeeff898df3bf4f10d2e90d",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). Pass.\n   - \"100g tin, makes around 40 cups\": product fact (tin size and cup count), fine as written. Pass.\n   - \"malty, full-bodied black tea that stands up to milk\": flavour description, a product fact. Pass.\n   - \"boosts your immunity through winter\": not on the allowlist, and health claims of any kind are never made (policy section 3). **Remove.**\n\n2. **Regulated claims:** the immunity line is a health claim, which is high risk. A tea can't be said to boost immunity without an authorised basis, and the policy bans it outright. Safer version keeps the selling point of warmth and comfort without a health claim: \"a malty, full-bodied black tea that stands up to milk, made for cold mornings.\"\n\n3. **House style:** warm, plain, unhurried. No banned words and no AI tells. The copy is short and clear. Pass once the health claim is removed.\n\n4. **Disclosure:** it's our own product page, not an ad, partnership, affiliate link or gifted product. No label needed. Pass.\n\n**Fixed (suggested rewrite):**\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, made for cold mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Needs a decision:** Do you accept the rewrite above? \"Made for cold mornings\" is a mood line, not a claim. I haven't published anything.\n\n**Approver:** Sam (marketing lead) must approve the final wording before it goes live. The original draft is not approved to publish. Once Sam says yes to the exact revised text, they can record it with the approve script and the publish can be retried.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097944,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "65e8af30eea15aa911fb40083eca250554431de9c7637d0841b903d58e4954e2",
+ "result": "**Review of the search ad**\n\nChecking each part against the policy:\n\n- **\"Tea Subscription UK\"**: Fine. Plain, accurate, no claim.\n- **\"Monthly loose leaf tea.\"**: Fine. Matches what we sell (loose leaf, monthly subscription).\n- **\"If your box isn't right, we'll make it right.\"**: This is a guarantee-style promise. Policy bans guarantees and \"you'll love it or it's free\"-type offers, and says we have no such offer. A promise to remedy any unsatisfactory box implies a satisfaction guarantee or refund/replacement commitment that isn't in the claims allowlist or subscription terms. It should be removed or replaced with an approved claim, such as \"Subscribers can pause or cancel any time.\"\n- **\"Free UK delivery on orders over £25.\"**: Exact approved wording. Fine.\n\nVoice and spelling are fine, with no banned words. Search ad needs no extra label. Sam still needs to approve before it goes public.\n\n**Suggested fix:** \"Tea Subscription UK | Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087061,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

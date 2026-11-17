@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly: 4.8 out of 5, over 1,200 reviews, on our website, with the source named. Fine.\n\n2. \"Organic loose leaf and plastic-free bags, packed by hand in Bristol.\"\n   - \"Organic\": the brand is certified organic by the Soil Association, so this is covered. It would be stronger to name the certification, but that's optional.\n   - \"plastic-free bags\": approved (tea bags are plastic-free).\n   - \"packed by hand in Bristol\": approved (every tin is packed by hand in Bristol).\n\nOther checks: no health, green, superlative, guarantee, urgency, or testimonial content. No ad or affiliate label needed on a brand-owned landing page. No AI clichés or filler; the copy is plain and specific. No repetition, and UK spelling is not at issue.\n\nOptional polish only: consider \"Soil Association certified organic\" for added credibility, and note the hero has no call to action, though that's a design matter and not a compliance one.\n\nNothing needs changing, so this can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0068723,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

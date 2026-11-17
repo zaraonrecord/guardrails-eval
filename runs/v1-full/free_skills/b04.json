@@ -1,10 +1,14 @@
 {
  "case": "b04",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Assam Breakfast product page**\n\nNothing needs changing. Claims check:\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"malty, full-bodied black tea that stands up to milk\" | Product/flavour description, fine as written |\n| \"100g tin, makes around 40 cups\" | Tin size and cup count, product team facts |\n\n- **Banned words and structures:** none found. There are no superlatives, guarantees, health or environmental claims, urgency, or invented numbers.\n- **Voice:** plain and unhurried, with UK spelling.\n- **Disclosure:** none needed. This is our own product page, with no partnership or affiliate link.\n- **Approval:** per policy, Sam (marketing lead) signs off on everything public, so get that before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0111705,
- "seconds": 10.7,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "683ac6f8c166c520864b9e13af2d4de1f6dbadb59695a3cd5a8c946ae5444400",
+ "result": "**Review: Assam Breakfast product page**\n\nNo changes needed. Every claim in the draft checks out.\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Product/flavour description, fine to use as written (section 2) |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording, certificate renewed 2026 |\n| \"100g tin, makes around 40 cups\" | Tin size and cup count, a product fact checked by the product team |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency, invented numbers:** none present.\n- **Banned words and structures:** none. There are no exclamation points, em-dash asides, rhetorical openers or \"not just X, it's Y\" constructions. UK spelling is fine, and the tone is plain and unhurried.\n- **Disclosures:** none needed. This is our own product page, with no partnership, gift or affiliate link.\n- **Landing page consistency:** not applicable, as this is the page itself.\n\n**Before it goes out:** under section 6, Sam (marketing lead) approves all public content, so get sign-off from Sam before publishing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096643,
+ "seconds": 10.4,
  "models": [
   "claude-sonnet-5-5"
  ]

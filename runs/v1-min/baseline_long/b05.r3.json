@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "be11292fde25841cdcadf37d8e1ececcf6da90e4a5bb950cbe73f5af44baa89a",
+ "result": "**Review: Instagram post (own account)**\n\n**Channel:** Brand-owned Instagram account, so no \"Ad\" label is needed for an organic post.\n\n**Sentence by sentence:**\n\n1. \"Rainy Sunday, second pot.\" Mood and description, no claim. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact about ingredients, which the policy allows as written. Fine.\n3. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly (4.8 out of 5, over 1,200 reviews, on our website) and names its source. Fine.\n\n**Missing items:** No health claims, no green claims, no urgency, no guarantees, no superlatives, no testimonials. Nothing needs a label or small print.\n\n**Tone:** Short, specific and human. No AI clichés or filler phrases. The opening reads like a real person on a rainy day.\n\n**Decision:** Every claim is approved or is an allowed product fact. Nothing to change. Good to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064694999999999996,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

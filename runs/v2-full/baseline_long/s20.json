@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "847e136286e6738ca7f6f5afa1b5a2d8eb912ba58475a042d7f951b5eec0ad31",
+ "result": "**Review of the email (channel: email)**\n\n**Claims:** The brewing guidance (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product and brewing guidance, which the policy treats as fine as written. There are no numbers, ratings, guarantees, health claims, environmental claims, urgency or superlatives. The subject line matches the content, and no ad or affiliate label is needed for the brand's own email.\n\n**Style:** The sentence \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is generic filler. The \"whether you're X or Y, there's something for everyone\" formula could sit in any brand's email and says nothing specific. It also doesn't fit the brand's warm, plain voice, and the rest of the email is concrete and doesn't need it. Cut it, or replace it with something specific, such as a tea suited to this method.\n\n**Decision:** Hold until that sentence is fixed. Once it is changed, the email is fine to go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110707,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

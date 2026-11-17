@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "97617901e00753f2fea512d844e686357663e638308c15867f31bb0f2b0be317",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and sensation description, no numbers, comparisons or outcomes. Fine |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Slop check:** No banned words, no em-dashes, no exclamation points, no rhetorical opener, no \"not just X, it's Y\", no abstract-noun triads, no fake urgency. The opening fragment names the product, which is the most useful fact.\n\n**Health and regulated territory:** \"After a big meal\" is borderline, since it could be read as hinting at digestion. As written it describes how the tea tastes and feels, not what it does to the body. If it were changed to \"aids digestion\", \"settles the stomach\" or similar, it would become a health claim and need to come out.\n\n**Other points:** No superlatives, guarantees, testimonials, review counts or green claims beyond the allowlisted organic certification. Nothing here needs a landing page match, since this is the product page.\n\nNothing needs changing. It's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009955,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

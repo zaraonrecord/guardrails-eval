@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ceba29ddd13f0f87cc6a734776d345b29bc6edab15d590ffc41d931afac9d015",
+ "result": "I checked each sentence against the brand policy and the checklist. Nothing needs changing.\n\n- **\"Peppermint. Just peppermint leaves, nothing else.\"** This is an ingredient fact. The policy lets the product team's ingredient facts be used as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels, with no effect on the body. It doesn't say the tea aids digestion, settles the stomach or does anything similar. If it were reworded to \"helps digestion\" or \"soothes your stomach\", it would become a health claim.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim wording exactly. The certificate is on file and was renewed in 2026.\n\nThere are no superlatives, guarantees, invented numbers, urgency, environmental claims or testimonials. The copy is short, plain and warm, with no banned words or AI filler. A brand product page needs no ad or affiliate label. Nothing is in US spelling.\n\nPer the policy, Sam (marketing lead) still approves everything public, so the final sign-off is his.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104467,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

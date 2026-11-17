@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d5b30157082b792e7be82d4e63b7ed3e43a9ac8f15079e2ad2d6bdb1719a0a55",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" is on the policy list (subscription terms), so it's fine.\n  - \"Free UK delivery on orders over £25\" is on the policy list (shipping policy), so it's fine.\n  - \"Most subscribers stay with us for over a year\" is not on the list and has no source in this chat. It's an invented retention stat.\n  - \"Most boxes ship free\" is also unsupported. We have no data on how many orders pass £25, and the policy only backs the threshold itself.\n- **Regulated claims:** Nothing on health, environment, children or fake urgency. The \"free\" delivery has its condition stated (over £25), which is correct.\n- **House style:** Voice is warm, plain and unhurried, with no banned words and no obvious AI tells. Once the two claims are removed, it scores about 90.\n- **Disclosure:** This is the brand's own page, not a partnership, affiliate or sponsored post, so no label is needed.\n\n**Fixed:** Nothing has been changed yet. I haven't edited the draft, so the version below is a suggestion and needs a fresh check once you've chosen your wording.\n\n**Needs a decision**\n1. Cut \"Most subscribers stay with us for over a year.\" If the team has real retention data, send me the source and the date range and it can go back in with exact wording.\n2. Replace \"means most boxes ship free\" with the policy wording only.\n\n**Suggested copy:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n**Approver:** Sam (marketing lead). Sam needs to say yes to the final wording before it goes live. Nothing has been approved so far.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014831500000000001,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

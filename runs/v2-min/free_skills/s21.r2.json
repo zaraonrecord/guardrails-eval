@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9143c0989a596dcb7e35c2e0d3d867c17ffeb547cd415b29f57535b7ee0439ae",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Recommended by nutritionists\" | Unsupported. It's social proof and a health-adjacent endorsement, with no source in the allowlist or this chat. |\n\n**Problems**\n\n1. \"Recommended by nutritionists\" is an invented endorsement. Nothing in the brand policy backs it, and it implies a health benefit, which is regulated territory and likely to trip ad platform policies. Remove it. If there is a real, sourced endorsement, supply it and it can be reconsidered: `[PROOF NEEDED: named nutritionist or body who recommends the tea, with source]`.\n2. The landing page must also make any claim that appears in the ad. The nutritionist claim has no support anywhere, so it can't stay.\n\nThe two plastic-free and compostable claims are fine. Note the ad doesn't say what \"home compostable\" is certified to, but the policy lists it as a backable claim, so no change is needed.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery over £25.\n\n(The delivery line is optional, drawn from the allowlist. Check your character limits; I haven't been given any, so I haven't counted.)\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101163,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

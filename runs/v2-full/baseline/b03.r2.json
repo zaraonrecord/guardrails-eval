@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "09bbcec582058e261ddf1d5ffa244c46156d18b8eb5638fc2ea6d1b81717e394",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"** (headline): We sell loose leaf tea, and the certification claim in the description backs up \"organic\". Fine.\n- **\"Certified organic by the Soil Association.\"**: This matches the allowlist wording exactly. The certificate is on file and renewed for 2026. Fine.\n- **\"Free UK delivery on orders over £25.\"**: This matches the allowlist wording exactly and is backed by the shipping policy. Fine.\n- **Banned content**: There are no superlatives, guarantees, health claims, vague environmental claims, invented numbers, false urgency or banned words. The spelling is UK English, and the tone is plain.\n- **Disclosure**: This is a paid ad from our own account. The platform marks it, so no extra label is needed.\n- **Approval**: Sam, the marketing lead, approves all public content, so the draft still needs Sam's sign-off before it goes live. That is a process step, not a problem with the copy.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061311000000000004,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

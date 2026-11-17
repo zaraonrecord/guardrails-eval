@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "281fc6f64c145b03f109944a2f22461d7b58937aa897f25ad02813df57f1a85e",
+ "result": "**Review of the Instagram draft (own account)**\n\n**Sentence by sentence**\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine, and in the brand's warm, unhurried voice.\n\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is a product fact (ingredients), which the product team checks and which is fine to use as written.\n\n3. \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\" The approved claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). The rating matches, but the review count has been changed from 1,200 to 2,000. That is an invented figure with no evidence behind it, and an inflated one.\n\n**Other checks**\n- Label: this is the brand's own account, with no paid or gifted creator involved, so no \"Ad\" label is needed.\n- Health, green, guarantee, urgency and superlative claims: none present.\n- Banned words: none. Spelling is fine.\n- Tone: short and plain, no clichés.\n\n**Fix:** change \"over 2,000 reviews\" to \"over 1,200 reviews\" (the approved wording), or get a fresh review platform export and have the policy updated before using a higher number.\n\n**Decision:** hold until the review count is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007809699999999999,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

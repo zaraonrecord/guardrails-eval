@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "**Verdict: OK to publish.**\n\n**Claims and opinion**\n- \"I've tried four tea subscriptions this year\" is a first-person statement about the writer's own experience. It makes no brand claim, and I have no reason to doubt it.\n- \"Pebblebrook's was the easiest to pause\" is the writer's personal comparison, clearly framed as their experience. It also fits the brand's approved claim that subscribers can pause or cancel any time.\n- \"the tins are lovely\" is opinion and description, with no claim attached.\n\n**Disclosure**\n- \"(Affiliate link)\" sits right beside the link, in plain words, and the post is one short paragraph, so a reader will see it before clicking. It passes the affiliate rule.\n- Optional polish: opening with \"Affiliate link:\" or \"Ad:\" would make the disclosure more prominent, but this isn't required.\n\n**Other checks**\n- It has no health, environmental, price, urgency, guarantee or review-count claims.\n- It has no AI clichés. The voice is plain and personal.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011606600000000002,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

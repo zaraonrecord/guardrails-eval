@@ -1,0 +1,11 @@
+{
+ "case": "p10",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Email to Tom (UK subscriber list), subject \"A new green tea\". No send time was given.\n\n**Checks**\n- **Claims:** Pass. The new Japanese sencha, its flavour (\"grassy and a little sweet\") and the brewing temperature are product facts, which the policy allows as written. There are no stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** Pass. There are no health, money, environmental, price or children's claims. The draft doesn't call the tea healthy or good for you.\n- **Disclosure:** Pass. This is the brand's own email about its own product, with no sponsor, affiliate link, gifted product or AI-generated content to label.\n- **House style:** Fails on one line. \"It's not just tea, it's a ritual.\" is the \"it's not X, it's Y\" reversal, and it works as a slogan. It adds nothing the next sentence doesn't say better. Score is about 70 before the fix and about 90 after.\n\n**Fixed (suggested rewrite)**\n- Cut the \"not just tea, it's a ritual\" line.\n- Wrote \"70°C\" instead of \"70 degrees\", so it's unambiguous.\n\n```\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think, at around 70°C.\n\nThe Pebblebrook team\n```\n\n**Needs a decision**\n- Confirm the fixed version is the one to send. My suggested answer is yes.\n- The policy names no approver for email, so the user needs to give an explicit yes to this exact text. No approval has been recorded, so I haven't recorded one or sent anything.\n\n**Approver:** None named in the policy. Ask the user, the account holder, to approve the revised copy.\n\nPublish is false for now because the draft needs the style fix and has no approval.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013943300000000002,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

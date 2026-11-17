@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9f6415a7f4e1868e475ca82a1b3e31bc8310d815ae94eb022f3ffd5be8e8dd06",
+ "result": "**Do not publish as written.** One problem stops it.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (product team), fine |\n| Cinnamon, cardamom, ginger and black pepper | Ingredients, fine |\n| Lovely with milk | Soft serving suggestion, fine |\n| 100g tin | Tin size, fine |\n| \"It cured my bloating in a week\" - verified buyer | **Unsupported.** A health claim (\"cured\"), and a testimonial that isn't in the policy or supplied with a source. Policy section 3 bans health claims of any kind and invented or unsourced testimonials. \"Verified buyer\" also implies a checked review we can't confirm. |\n\n**Fix**\n\nRemove the testimonial entirely. Don't soften it to \"helped with bloating\", as that is still a health claim. If you want social proof, the only approved line is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", and that is a site-wide rating, so don't attach it to this tea specifically.\n\nSuggested copy:\n\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\n**Other notes**\n- No banned words, no slop patterns, no urgency or superlatives.\n- Section 6 says Sam approves everything public, so it needs Sam's sign-off after the edit.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008528,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

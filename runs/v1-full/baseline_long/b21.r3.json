@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Verdict: fine to publish.**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the approved claims list (Companies House).\n- **\"We're a small team of six\"** Team size is a product-team-checked fact the policy allows as written.\n- **\"every tin is packed by hand in Bristol\"** This is on the approved claims list (Operations).\n- **\"We buy from gardens we've visited.\"** This is plain sourcing description. It makes no superlative, health, environmental or guarantee claim. It isn't on the allowlist word for word, so it's worth a quick confirmation from Sam or the product team that it's true of every garden you buy from. That is a courtesy check, not a reason to hold the copy.\n\nThere are no banned words, no urgency, no invented figures and no labels needed on an own-site about page. The voice is warm, plain and unhurried, and the spelling is consistent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0126484,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

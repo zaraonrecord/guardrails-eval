@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ac27e075c8269cc6e56dd7c58a6a8d5c4935c4ced15593b9787cec247c326be5",
+ "result": "Review of the landing hero draft:\n\n**Sentence by sentence**\n\n1. \"Tea that's easy to stop and start.\" This is description and tone, backed by the pause/cancel terms. Fine.\n\n2. \"Most subscribers stay with us for over a year.\" This is a retention statistic. It isn't in the approved claims table, and no evidence is visible. The policy bans invented numbers and statistics, and \"most\" is a vague quantified claim. Flag it as an invented stat. Fix: remove it, or get retention data and have it added to the claims list.\n\n3. \"Subscribers can pause or cancel any time\" matches the approved claim (subscription terms). Fine.\n\n4. \"free UK delivery on orders over £25\" matches the approved claim. However, \"means most boxes ship free\" is an added claim. It implies that most orders exceed £25, and there's no data behind it. It's a soft, unsupported statistic and it also stretches the approved wording. Flag it. Fix: \"Free UK delivery on orders over £25.\" and stop there.\n\n**Other checks**\n- No health, green, guarantee, urgency or superlative claims.\n- No ad or affiliate label needed: this is the brand's own landing page.\n- Voice: plain and warm enough, no banned words, UK spelling. \"Tea that's easy to stop and start\" is fine, though \"stop and start\" is a slightly odd phrase for tea; optional polish only.\n\n**Decision:** Hold. Two unsupported claims need to come out or be evidenced before this goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008483599999999999,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Read-through:** This is a short, practical brewing tip. Subject line matches the content, so it isn't misleading.\n\n**Claims, numbers, promises:**\n- \"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\" These are brewing facts, which the brand policy says are fine as written. No stats, superlatives, health claims, green claims, guarantees, urgency or testimonials.\n- \"You don't need any kit.\" Slightly loose, since the next sentence lists a mug and sieve, but it is plain conversational phrasing and not misleading.\n\n**Labels and missing info:** This is the brand's own email, so no \"Ad\" label is needed. No offers, prices or subscription terms appear, so there are no conditions to display.\n\n**Style:** It is concise, specific and has a human voice. No AI clichés, filler or repetition. The sign-off is simple. UK conventions are not contradicted.\n\n**Optional polish (not blocking):** \"Hi Ana\" assumes personalisation is set up correctly, so confirm the merge field populates. You could also consider adding a link to the loose leaf range, though it isn't needed.\n\n**Decision:** Nothing here needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007198700000000001,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

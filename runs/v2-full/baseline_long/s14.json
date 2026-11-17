@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7269b8bc2042c4c3d086c780ec4fccf032a5ac1232f5700a4ead3fd99ecd6374",
+ "result": "**Review: gifted creator post, rooibos chai**\n\n**Claims:** The draft makes no factual claims beyond product description. \"Lovely with oat milk\" is clearly personal opinion, and the product (rooibos chai in the winter sampler) falls under product facts. No health, green, superlative, guarantee, urgency or numeric claims.\n\n**Disclosure (problem):** The brand policy requires gifted posts to start with \"Gifted\" before anything else. The draft only says \"Thanks to the team for sending it over!\" at the end, which is a polite mention and not the required upfront label. This must be fixed.\n\n**Voice:** Warm, plain, no banned words or AI clichés. UK spelling is fine.\n\n**Fix:** Open the post with \"Gifted\" before anything else, for example:\n\n\"Gifted. The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n**Decision:** Hold until the \"Gifted\" label is added at the start.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085787,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

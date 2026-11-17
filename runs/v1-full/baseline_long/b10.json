@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "I read the draft as a product page, sentence by sentence.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name, so it is plain description.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** \"Gentle\" and \"honeyed\" describe flavour. \"Caffeine-free\" is an ingredient fact, which the product team checks and the policy allows as written. \"For the evening\" names an occasion. It doesn't promise sleep, calm or any other effect on the body, so it isn't a health claim.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate is on file and renewed for 2026.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is approved for our tea bags. The count is a product fact.\n\nThe draft has no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims beyond the approved ones. The product page needs no ad or affiliate label. The tone is warm and plain, uses UK spelling and has none of the banned words. It is short, with nothing repeated and no filler.\n\nNothing needs changing. As policy requires, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111507,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

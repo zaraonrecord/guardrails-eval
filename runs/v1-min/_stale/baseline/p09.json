@@ -1,0 +1,11 @@
+{
+ "case": "p09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review findings**\n\n1. **\"reduces anxiety and helps you sleep\"** is a health claim. It says the product treats a condition (anxiety) and a medical issue (sleep), and the brand policy doesn't allow it. Herbal teas in the UK can't make medicinal claims like this unless they're authorised. Suggested rewrite: describe the flavour and the occasion, e.g. \"a calming blend to enjoy in the evening\" (soft, non-medical wording), or just \"caffeine-free\".\n\n2. **\"Certified organic by the Soil Association\"** is on the allowlist. Fine.\n\n3. **\"20 plastic-free tea bags\"** is on the allowlist (plastic-free tea bags). Fine. Pack count is a product fact.\n\n4. **\"gentle, honeyed caffeine-free blend\"** is a flavour/product description. Fine.\n\n5. No invented stats, superlatives, guarantees, testimonials, urgency or disclosure problems.\n\nNot ready to publish until the health claim is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009578,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

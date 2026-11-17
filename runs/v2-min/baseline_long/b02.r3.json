@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8ea28ec1e80c89df7c126fcece22c32d68457b6217496c27a6a89ccdea63c9a0",
+ "result": "**Review: October subscription dispatch email**\n\nGoing sentence by sentence:\n\n- **Subject: \"Your October tins are on the way\"**: Accurate to the content as a dispatch notice. Fine. (Minor: the body says \"subscription box\", the subject says \"tins\". Both are plausible given every tin is hand-packed, but consider keeping one term.)\n- **\"Your subscription box left Bristol this morning.\"**: Consistent with the brand's Bristol packing. Operational fact about this shipment. Fine.\n- **\"This month it's a smoky lapsang and a soft white peony.\"**: Product description and flavour facts, allowed as written.\n- **\"If you're away next month, you can pause or cancel any time from your account.\"**: Matches the approved claim that subscribers can pause or cancel any time. Fine.\n- **Sign-off**: Plain, no filler or AI clichés. Voice is short and specific.\n\nOther checks: no stats, superlatives, health claims, green claims, guarantees, urgency, testimonials or affiliate/ad content. It's a transactional email from the brand's own channel, so no ad label is needed. Personalisation (\"Priya\") is expected to be merged from the customer record; worth confirming the merge field is populated at send, but that's a routine check, not a copy problem.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072052999999999996,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

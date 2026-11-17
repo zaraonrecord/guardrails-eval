@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7538ddf9ab263a8439398771964129f282b6dbf2c63451098d1418aaf74bb602",
+ "result": "## Publish gate report\n\n**Going out:** a review blog post with an affiliate link to Pebblebrook Tea Co., aimed at UK readers. No schedule was given.\n\n**Checks**\n- **Claims:** There are no stats, guarantees, ratings or health claims. \"Easiest to pause\" is the author's own comparison, and it fits the policy fact that subscribers can pause or cancel any time. \"Tins are lovely\" is plain opinion. Both are fine as a first-hand review, provided the author really did try all four subscriptions.\n- **Regulated claims:** Nothing touches health, money, the environment, children or prices.\n- **House style:** The brand policy has no voice section, so I couldn't score it. The copy is short and plain, with no AI tells.\n- **Disclosure: fails.** \"You can find it here\" points to an affiliate link, and nothing tells the reader the author earns from it. The UK expects a clear label before the reader engages. A note at the end or in a footer isn't enough. If Pebblebrook sent the tea for free, that needs disclosing too.\n\n**Fixed (suggested wording, not yet applied to the live copy)**\n- Add this as the first line of the post: \"Affiliate disclosure: this post contains affiliate links. If you buy through them, I earn a commission at no extra cost to you.\"\n- Change the link line to \"You can find it here (affiliate link).\"\n\n**Needs a decision**\n- Was the tea bought by the author, or gifted or sponsored? If it was gifted, add \"Pebblebrook sent me this tea for free\" to the disclosure. My suggestion is to confirm either way and say so.\n- The author should confirm they did try four subscriptions this year, since that is a first-hand claim I can't verify.\n\n**Approver:** The policy names no approver, so the sign-off comes from you. Once you've said yes to the revised text, record it with `!python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"Pebblebrook review post\"`. I won't record an approval on anyone's behalf. Nothing is published until then.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015474700000000001,
+ "seconds": 18.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

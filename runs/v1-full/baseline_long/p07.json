@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0fd32a649c221425cbd3da848d64e38807eb020d007c508dce30e90bda9d571b",
+ "result": "**Review of landing hero draft**\n\n**Problems**\n\n1. **\"you'll love it or it's free\"** (guarantee). This is a money-back style guarantee, and the policy says explicitly that the brand has no such offer and never makes this claim. It's a binding promise with no terms behind it. Remove it.\n\n2. **\"most boxes ship free\"** (unsupported claim). The approved claim is \"Free UK delivery on orders over £25\". \"Most boxes ship free\" asserts something about how many orders clear the threshold, and there's no data on file for that. It's effectively an invented statistic. Cut it, or state only the approved wording.\n\n**Checked and fine**\n\n- \"Subscribers can pause or cancel any time\" matches the approved claim in the subscription terms.\n- \"free UK delivery on orders over £25\" matches the approved wording, with the threshold stated next to it.\n- No banned words, and the UK spelling is fine.\n\n**Style note**\n\nThe first sentence (\"Tea that's easy to stop and start\") is a bit clunky and reads as a setup for the guarantee. Once the guarantee goes, it could be tightened, for example: \"Tea on your terms. Subscribers can pause or cancel any time, and delivery is free across the UK on orders over £25.\"\n\n**Decision:** Hold. Fix the guarantee and the \"most boxes ship free\" claim, then it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009904699999999999,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

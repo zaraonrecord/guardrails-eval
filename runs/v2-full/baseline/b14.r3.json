@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b2091a61214512ae5706c66eeb1b0c3991990cae6bd029a958708b6e14e8cd1e",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", as section 4 requires for free product, and nothing comes before it.\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or false urgency. \"Lovely with oat milk\" is the creator's own opinion of a product detail, not a brand claim.\n- **\"Not paid to say that\":** This is consistent with a gifted post. Check that the creator really wasn't paid. If there is any fee, the label should be \"Ad\" instead.\n- **Voice:** It is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- **Approval:** Under section 6, Sam needs to sign off before anything public goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067379,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

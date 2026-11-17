@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc2f36e029d32892f9a6e90e519819f70f5a244d9d518bc59a96a68ba97fa602",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Disclosure:** This is an affiliate review, and it carries a disclosure (\"*I may earn a small commission.\"). The asterisk sits right after the link sentence, and the note is directly below, so it's clear and easy to find.\n- **Claims:** The draft makes no statistics, guarantees, health claims or green claims. \"Easiest to pause\" is the reviewer's own opinion from trying four subscriptions, and it fits the policy that subscribers can pause or cancel any time. \"The tins are lovely\" is also opinion.\n- **Testimonial:** This is the blogger's own first-person review, not an invented customer quote. I can't verify the \"four subscriptions\" experience, but it's the author's own claim to stand behind.\n- **Tone:** The copy is short and plain, with no filler or false urgency.\n\nOne optional tweak: put the disclosure before the link, for example \"Affiliate link: I may earn a small commission.\" That would be even clearer, but the current wording is acceptable.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012565999999999999,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

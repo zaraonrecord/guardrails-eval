@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cb5dfe6b9f30ff40fbf4fe138fffa9fde7612ae204d63a182613994c1801f3e3",
+ "result": "This draft is clean, so I'd publish it once Sam has signed it off.\n\n**Claims check**\n| Item in the draft | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product, where it's grown), fine as written |\n| \"grassy and a little sweet\" | Flavour description, fine |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best\" here describes how to brew, not a claim that the tea or brand is the best. |\n| \"The Pebblebrook team\" | Team reference, fine |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Urgency:** none.\n- **Banned words and structures:** none. There are no em-dashes, exclamation points, rhetorical openers or \"not just X, it's Y\" constructions. The tone is warm, plain and unhurried, with UK spelling.\n- **Disclosure:** none needed. It's our own email, with no partnership or affiliate link.\n\n**Optional tweaks (not blockers)**\n- Write \"70°C\" instead of \"70 degrees\", so the unit is clear.\n- Check that the email template carries the usual unsubscribe link, since the draft doesn't show one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011848000000000001,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

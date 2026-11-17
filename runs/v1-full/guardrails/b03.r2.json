@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "934bcfe4f91bb06bba177987b430152d5a949f38efd96fda141d473eb596ad39",
+ "result": "**Publish gate report**\n\n**Going out:** Google-style search ad for Pebblebrook Tea Co., UK. Headline: \"Organic Loose Leaf Tea\". Description: \"Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n**Checks**\n- **Claims:** Both claims are on the policy list in their exact wording.\n  - \"Certified organic by the Soil Association\" has the certificate on file, renewed 2026, so it is within its review date.\n  - \"Free UK delivery on orders over £25\" is backed by the shipping policy.\n  - The headline's \"Organic\" is covered by the certified claim, and \"Loose leaf tea\" is a product fact.\n  - Nothing is invented, no superlatives, no guarantees, no urgency.\n- **Regulated claims:** No health, money, environmental, children or price-offer risk. The delivery threshold is a standing policy, not a time-limited offer.\n- **House style:** Warm, plain and unhurried enough for an ad format. No banned words and no AI tells. Score is about 90, so no rewrite is needed.\n- **Disclosure:** This is a paid ad from the brand's own account, which the platform marks, so no extra label is needed under section 4.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One thing to confirm: the landing page should show the Soil Association certification and the £25 delivery threshold, because an ad can't claim more than its page backs up.\n\n**Approver:** Sam (marketing lead) must approve this exact copy before it goes live. I haven't recorded any approval. Once Sam says yes in this chat, he can record it with the approve.py command, and then the ad can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0123365,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

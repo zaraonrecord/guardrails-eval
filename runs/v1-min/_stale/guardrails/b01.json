@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Landing page hero copy for Pebblebrook Tea Co., UK audience. No date was given.\n\n**Checks**\n- **Claims:** All three claims are on the policy allowlist, worded as the policy words them.\n  - \"Packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\".\n  - \"Certified organic by the Soil Association\" matches the policy.\n  - \"Free UK delivery on orders over £25\" matches the policy.\n  - There are no invented stats, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** The only possible flag is the organic claim, which is covered by the Soil Association certification in the policy. There are no health, money, green, price-comparison or children's claims.\n- **House style:** The policy has no voice section, so I couldn't score against it. The copy is plain and has no AI tells. \"Packed by hand in Bristol\" appears twice, once in each of the first two sentences. This is optional to fix, and I haven't changed the copy. A tighter version:\n  > Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n  This wording changes what is certified, because the Soil Association certifies the tea. If you want to tighten it, keep it as \"our tea is certified organic by the Soil Association\".\n- **Disclosure:** This is the brand's own page, with no ad, sponsorship, affiliate or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** None. The optional repetition tidy above is yours to take or leave.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy before it is published. If you edit the copy, it needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.030948,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

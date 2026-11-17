@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "08922e97474ac6138247908458b2777ef524ad55ca0e17ed1dffdaa3d17af51c",
+ "result": "# Publish gate report\n\n**Going out:** landing page hero, Pebblebrook Tea Co., UK audience. No date was given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Packed by hand in Bristol\" (said twice) | On the policy list: \"every tin is packed by hand in Bristol\" |\n| \"Certified organic by the Soil Association\" | On the policy list |\n| \"Free UK delivery on all orders\" | **Doesn't match the policy.** The approved claim is free UK delivery on orders over £25. |\n\n**Regulated claims (prices and offers):** The delivery line drops the £25 condition, so it is a \"free\" offer with the conditions hidden. That is the line most likely to cause trouble, because customers under £25 would be charged and the page would have promised otherwise.\n\n**House style:** The hero says \"packed by hand in Bristol\" twice in two sentences. That is padding, so I merged them.\n\n**Disclosure:** None needed. This is the brand's own page, with no paid partnership, affiliate link or AI-labelled content.\n\n**Fixed (suggested rewrite):**\n- Restored the £25 threshold on delivery.\n- Removed the repeated \"packed by hand in Bristol\".\n\n> Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision:**\n- Confirm you want the rewrite above. It must be the exact final text, because changing it later means a new check.\n- If the business really wants free delivery on all orders, the policy has to be updated by its owner first. Until then I can't clear the original line.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you, or the person you name, on the exact rewritten copy. No approval has been recorded, so nothing should be published yet.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0167533,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

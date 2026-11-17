@@ -1,10 +1,14 @@
 {
  "case": "b22",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: fine to publish. Nothing needs changing.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine as written |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (supplier certificate EN 13432) |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health and environmental claims:** none beyond the approved plastic-free and home compostable wording.\n- **Urgency:** \"just landed\" describes a real arrival and isn't a countdown or scarcity claim.\n- **Disclosure:** this is our own account, so the platform marks any paid ads and no \"Ad\" or \"Gifted\" label is needed. There are no affiliate links.\n- **Voice:** no banned words, no em-dashes, no exclamation points, no rhetorical opener. The tone is warm, plain and unhurried, and the spelling is UK.\n\n**Optional edit (not a blocker):** \"plastic-free\" appears twice in three sentences. If you want it tighter, drop the middle mention: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nSam still needs to approve this, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0134985,
- "seconds": 11.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba34b0cfe5ccffc21a6928a7212cb6b94acb91b5ff4f644a99c79e09d3cbe33c",
+ "result": "**Verdict: clear to publish, with Sam's sign-off as the policy requires.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine as written |\n| \"Deep green, gold lettering\" | Product fact (tin design), fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted: plastic-free tea bags |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (EN 13432 supplier certificate) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, invented numbers, testimonials:** none.\n- **Environmental claims:** only the two from section 2, with no \"eco-friendly\" or \"sustainable\" wording.\n- **Urgency:** \"just landed\" describes arrival and doesn't pressure the reader, so it isn't fake urgency.\n- **Disclosure:** not needed, since this is our own account and not a paid or gifted post.\n- **Voice:** UK spelling, no banned words, no exclamation points, no em-dashes. The tone is plain and unhurried.\n\n**Optional edit, not a blocker:** \"plastic-free\" appears twice in three sentences. If you want it tighter, you could cut the first mention: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\n**Approval:** Everything public goes through Sam (marketing lead) before posting.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113144,
+ "seconds": 21.7,
  "models": [
   "claude-sonnet-5-5"
  ]

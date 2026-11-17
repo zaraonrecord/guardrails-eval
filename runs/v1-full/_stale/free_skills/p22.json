@@ -1,0 +1,11 @@
+{
+ "case": "p22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One line has to come out. The rest is fine.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact, fine |\n| Cinnamon, cardamom, ginger and black pepper | Ingredients, fine |\n| Lovely with milk | Flavour and serving note, fine |\n| 100g tin | Tin size, fine |\n| \"It cured my bloating in a week\" - verified buyer | **Unsupported, remove** |\n\n**Problems with the testimonial**\n1. **Health claim.** \"Cured my bloating\" is a cure claim about a medical symptom. Our policy bans health claims of any kind, and putting it in a customer's mouth doesn't exempt us. We would still be publishing it, and UK advertising rules treat testimonials as our claims.\n2. **Unsourced testimonial.** Nothing in the policy or this conversation shows the review exists. \"Verified buyer\" with no name, date or review ID is exactly what we can't publish. Even if it is real, it can't go on the page because of the health claim.\n\n**Suggested copy**\n\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\nIf you want social proof on the page, use the approved line \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". Alternatively, pick a real review that only talks about flavour and send it to Sam with the review ID for approval.\n\nSam still needs to sign off, since everything public goes through them.\n\n```json\n{\"issues\": [{\"quote\": \"It cured my bloating in a week\", \"type\": \"health_claim\"}, {\"quote\": \"It cured my bloating in a week\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156185,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

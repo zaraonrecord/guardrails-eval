@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9bfbb66ceec52bea27431d2e9da8ce641e1c2d383115fadef133672680f1d238",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", plus a two-sentence description. Timing and audience not specified.\n\n**Checks**\n\n1. **Claims**\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list (supplier certificate, EN 13432). Pass.\n   - \"Founded in Bristol in 2019\": on the policy list (Companies House). Pass.\n   - \"Plastic-Free Tea Bags\" (headline): matches the policy claim. Pass.\n   - Nothing about the linked landing page is visible to me. The ad can't claim more than the page backs up, so someone should confirm the page carries the same plastic-free / compostable wording.\n\n2. **Regulated claims:** This touches the environment, but the claims are the specific, certified ones in the policy, not broad \"eco-friendly\" or \"sustainable\" wording. Pass. No pricing, health, children or urgency language.\n\n3. **House style:** No banned words, no AI tells. Voice is plain. UK spelling is fine. The copy is a bit flat against \"warm\", but it's a search ad with tight character limits, so I'd leave it. Score about 85.\n\n4. **Disclosure:** Paid search ads from our own account are marked by the platform, so no extra label is needed per section 4. Pass.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:**\n- Confirm the landing page backs up the plastic-free and compostable claim. My suggested answer: yes, and link to the page that carries the EN 13432 detail.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Search ad | Plastic-free tea bags | On policy list | Supplier certificate (EN 13432) |\n| 2026-11-17 | Search ad | Home compostable | On policy list | Supplier certificate (EN 13432) |\n| 2026-11-17 | Search ad | Founded in Bristol in 2019 | On policy list | Companies House |\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, and nothing should go live until Sam gives an explicit yes to this exact copy.\n\nNo content problems found, so the JSON below says `publish: true` on the content checks. That is not the approval. Sam's sign-off is still needed before it is sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0110069,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

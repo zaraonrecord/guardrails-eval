@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "58b9180ed205b12c88e5a551bc5300acbe5035cd5bfb1c50a4374242bbbe3d8a",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list). Send time not specified.\n\n**Checks**\n- **Claims:** None. The brewing guidance (mug, sieve, four minutes for black tea, shorter and cooler for green) is product/brewing guidance, which the policy treats as fine as written. No stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Voice is warm, plain and unhurried. No banned words, no AI tells, UK spelling. Score about 92. Pass.\n- **Disclosure:** No ad, affiliate link, gifted product or partnership. It's the brand's own email. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional note: the sign-off is generic, and there's no unsubscribe or sender footer in the draft. I'm assuming your email platform adds that automatically, so please confirm.\n\n**Approver:** Sam (marketing lead) must approve everything public. I haven't recorded any approval. Sam needs to say yes to this exact text before it's sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071937,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

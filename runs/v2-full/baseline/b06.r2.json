@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a65a79294d7e120c76f8803465599f3e734686b5001e4f8893d4bb18b8d91a59",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Origin and flavour:** The Darjeeling garden, the March picking and \"bright and floral\" are product facts (where a tea is grown, when it's picked, flavour). The policy says the product team checks these and they're fine to use as written.\n- **\"You'll find it in the shop from Monday\":** This is a new product arriving, which is also a product fact. It isn't fake urgency, as there's no countdown, scarcity or \"today only\" wording.\n- **Prohibited claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or testimonials.\n- **Disclosure:** None is required. This is our own newsletter, with no paid partnership, gifted product or affiliate link.\n- **Voice:** It's warm, plain and unhurried, with no banned words, and nothing conflicts with UK spelling.\n\nUnder the policy, Sam (marketing lead) still needs to approve everything public, so get that sign-off before sending. Also check that \"Monday\" is the confirmed arrival date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076638999999999995,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

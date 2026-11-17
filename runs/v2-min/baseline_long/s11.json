@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3e9b1f6bd5f2560afc9d502c2aab6ffa4c0f186a0c73bac82bc5fdfdf85975f0",
+ "result": "**Review: social ad (own account)**\n\nGoing sentence by sentence:\n\n1. \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" This is product description and a lifestyle suggestion. \"After lunch\" describes an occasion and makes no effect-on-the-body claim (it doesn't say it aids digestion). Fine.\n\n2. \"Free UK delivery on orders over £25\" matches the approved claim exactly, with the threshold stated.\n\n3. \"while stocks last\" is a stock/scarcity qualifier. The policy doesn't say stock is limited, and the free delivery offer is an ongoing approved term, not a stock-dependent one. Tacking \"while stocks last\" onto it implies the free delivery offer could run out or that stock is scarce. I can't see evidence this is true. It reads as decoration, which the checklist treats as false urgency, and it also muddies the delivery terms, since the policy says free delivery on orders over £25 with no stock condition.\n\nOther checks:\n- Disclosure: own brand account, so no \"Ad\" label is needed.\n- No health, green, superlative, guarantee, testimonial or statistic claims.\n- Style: plain and specific, no AI clichés.\n\n**Decision:** Hold. Remove \"while stocks last\" (or confirm that stock really is limited and the offer genuinely ends when it runs out). Without it, the copy is fine to publish.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097025,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

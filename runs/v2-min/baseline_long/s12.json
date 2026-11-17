@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "24f26f071c537223cb3ac6a994795b6392049687b73bd0933fe84fe53c93f511",
+ "result": "**Review of the newsletter draft**\n\n- **Product facts:** \"Black tea, orange peel, cinnamon and a little clove\" and \"back in the shop from today\" are product and new-arrival facts. The brand policy allows these as written.\n- **Scarcity claim:** \"selling fast\" is a stock and demand claim. It isn't on the brand's list of provable claims, and nothing in the draft or policy shows sales are actually brisk. If it's decoration, it's false urgency. Fix: delete it, or replace it with something verifiable, such as the date it's available. If the team has real sales or stock data showing it's moving quickly, that could support the line.\n- **Tone and style:** The copy is short, specific and plain, with no clichés or hype.\n- **Labels and other claims:** There are no health, green, price or guarantee claims. As a brand-owned newsletter, it doesn't need an ad label.\n\nThe draft should be held until \"selling fast\" is removed or substantiated.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009452499999999999,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

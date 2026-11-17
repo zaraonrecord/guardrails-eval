@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "**Review: search ad**\n\nSentence by sentence:\n\n- **\"Organic Loose Leaf Tea\"**: Describes the product. \"Organic\" is backed by the Soil Association certification on the brand's allowlist. Fine.\n- **\"Certified organic by the Soil Association.\"**: On the allowlist. Fine.\n- **\"Free UK delivery on orders over £25.\"**: On the allowlist, and the £25 threshold is stated right next to the \"free\" claim, so the condition is clear. Fine.\n\nOther checks:\n\n- No superlatives, comparisons, health claims, green claims, guarantees, reviews, urgency or pricing claims.\n- The paid search placement is recognisable as an ad by the platform's own labelling, and the copy itself makes no pretence of being anything else.\n- No AI clichés or filler. It's short and plain. Spelling is UK-consistent (\"organic\", UK).\n- Nothing is missing that would mislead: the one condition (the £25 threshold) is present.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006335500000000001,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

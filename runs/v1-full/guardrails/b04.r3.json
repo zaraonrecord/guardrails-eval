@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7983ba1b182618ae6c28d12062a78c134fa52ea5d2026c11f026089c8b9557bb",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, on the website, to UK shoppers.\n\n**Checks**\n- **Claims:** There is one claim, \"Certified organic by the Soil Association\". It matches the policy row word for word (certificate on file, renewed 2026). \"100g tin, makes around 40 cups\" is a product fact (tin size and cup count), which the product team has already checked. \"Malty, full-bodied black tea that stands up to milk\" is a flavour and brewing description, so it is also covered by the product-facts rule.\n- **Regulated claims:** There are no health, money, environmental, children's or price claims, so nothing needs a second look.\n- **House style:** The copy sounds warm, plain and unhurried. It uses no banned words and has no AI tells, no superlatives and no urgency. The spelling is fine. Score: about 95/100, and I changed nothing.\n- **Disclosure:** This is the brand's own product page. It has no ad, partnership, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. The draft is clean as written.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead), who approves everything public. Please get an explicit yes from Sam on this exact copy before it goes live. In Claude Code, Sam can record that by running `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Assam Breakfast product page copy\"` in their own terminal. The approval lasts 15 minutes and covers one publish. I haven't recorded any approval.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Assam Breakfast product page | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Assam Breakfast product page | 100g tin, makes around 40 cups | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120393,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

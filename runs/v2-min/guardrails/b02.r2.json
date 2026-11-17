@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c585246020243e24e3820130aa8f86fa6193964ac8ff86426e7993424b1e0bbd",
+ "result": "**Publish gate report**\n\n**Going out:** Transactional/subscription email to Priya, \"Your October tins are on the way\", UK.\n\n**Checks**\n- **Claims:** \"left Bristol this morning\" is an order status, not a marketing claim, and matches the Bristol packing fact. \"Pause or cancel any time\" is on the policy list. Product descriptions (smoky lapsang, soft white peony) are product facts, fine as written. No stats, superlatives, guarantees or testimonials.\n- **Regulated claims:** No health, money, environmental, price or urgency language. Pass.\n- **House style:** Short, plain and specific. No AI tells or banned phrases. Pass.\n- **Disclosure:** It's a service email from the brand to its own subscriber. No ads, sponsorship, affiliate links or AI-content labelling needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Two small things to confirm, neither blocking on policy grounds:\n1. The subject says \"October tins\", but today is 17 November. If this is a real send now, it's probably the wrong month. Check the subject and \"this morning\" are accurate before sending.\n2. \"Your subscription box\" and \"tins\" are slightly different wording. Fine if the box contains tins, as the policy says every tin is packed by hand.\n\n**Approver:** The policy names no approver, so ask the user for an explicit yes to this exact content before sending.\n\nSince the month looks possibly stale, I'm flagging it as a change to make, though it's a factual check rather than a policy breach.\n\n```json\n{\"issues\": [{\"quote\": \"Your October tins are on the way\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0082921,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "336a22209599a6e1fa19f74977a6b9a7bcf9db7783578f0635cac086560e65ba",
+ "result": "I checked the draft against the brand policy.\n\n- **\"left Bristol this morning\"**: Consistent with the policy (founded and hand-packed in Bristol). It's an operational statement about this specific shipment, so it's fine as long as it's true for this send.\n- **\"smoky lapsang and a soft white peony\"**: Product and flavour facts, allowed as written.\n- **\"you can pause or cancel any time from your account\"**: Matches the allowlisted claim that subscribers can pause or cancel any time.\n- **No superlatives, stats, guarantees, health or green claims, fake urgency, or testimonials.** None present.\n- **Disclosure/label**: This is a transactional subscriber email, so no ad label or disclosure is needed.\n- **Tone**: Short, plain, and specific, with no filler.\n\nOne small non-blocking note: the subject says \"October tins\" while the body says \"subscription box\". Today's date is 17 November, so if this is going out now, \"October\" may be out of date. Please confirm the month is right for this send. That's a factual check on timing, not a policy violation, so I haven't flagged it as an issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006182700000000001,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

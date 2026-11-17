@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly, and the supplier certificate (EN 13432) backs it. \"Plastic-free tea bags\" in the first sentence is consistent with it.\n- **Product facts:** The new winter tins, deep green with gold lettering, count as product-team facts and are fine as written.\n- **Banned claims:** There are no superlatives, guarantees, health claims, invented numbers, testimonials, or false urgency. \"Just landed\" describes new stock arriving, not a countdown or scarcity.\n- **Disclosure:** None is needed, because this is our own Instagram account and not a creator or affiliate post.\n- **Voice and spelling:** The tone is plain and warm, there are no banned words, and the spelling is UK.\n\nThe second sentence repeats the plastic-free point from the first. You could trim it, but that is optional. Under policy, Sam needs to approve everything public before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095941,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

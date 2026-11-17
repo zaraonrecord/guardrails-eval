@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e46524ffb9a98d0d3562f5d63542039618345c5164a5e94916214ccf6781c2c0",
+ "result": "**Review of the landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is description and framing. It is fine, and it is consistent with the approved pause/cancel claim.\n- **\"Subscribers can pause or cancel any time\"** is on the approved claims list.\n- **\"free UK delivery on orders over £25\"** is approved, and the threshold is stated correctly.\n- **\"means most boxes ship free\"** is the problem. The brand can back up the £25 threshold, but it has no data on what share of orders clear it. \"Most boxes\" is an unsourced, statistic-like claim. It also suggests delivery is usually free, which could mislead anyone whose order falls under £25. \"Boxes\" is also not a product term the brand uses (it sells tins and tea bags). Fix: cut the clause and keep the approved wording, for example \"Free UK delivery on orders over £25.\"\n- **Style:** no clichés or filler. The copy is short and specific.\n\nThe draft should be held until that clause is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008635899999999998,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

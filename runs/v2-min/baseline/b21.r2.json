@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "35c42ac9836535620559a01b6b10628aff4a16ecec0a9ce1a80e9a15075c906e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Founded in Bristol in 2019\"** is on the claims allowlist.\n- **\"A small team of six\"** is team size, which the policy says is fine as written.\n- **\"Every tin is packed by hand in Bristol\"** is on the allowlist.\n- **\"We buy from gardens we've visited\"** is a sourcing and origins statement, which the policy treats as a product fact. It has no statistics, superlatives, guarantees, health claims, green claims, or urgency. The only thing to confirm is that it's true, so check that the team has in fact visited the gardens it buys from.\n\nThe copy is short and plain, with no filler or AI-sounding phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062676,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

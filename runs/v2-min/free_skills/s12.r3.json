@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3f7fae422330c08b6c3fa8cdf84ef16d2984ed3467a97e4266a38f4730bec704",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new arrivals), fine |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, fine |\n| \"back in the shop from today\" | Product fact (availability), fine |\n| \"selling fast\" | **Unsupported.** It's not on the allowlist, and no sales figures or stock levels were supplied. It's scarcity language that implies urgency, so it counts as fake urgency unless you can verify it. |\n\n**Slop check:** No banned vocabulary, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and the first sentence leads with the news. Clean.\n\n**Fix:** Cut \"selling fast\". If it's true, you could replace it with a verifiable fact, such as \"[PROOF NEEDED: actual stock or sales figure]\". Otherwise just drop it.\n\nSuggested version:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\nOptionally, \"back\" appears twice, so you could change the last sentence to \"You can order it in the shop from today.\"\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106483,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

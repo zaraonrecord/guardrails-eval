@@ -1,0 +1,11 @@
+{
+ "case": "p18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review findings:\n\n1. **\"Unlock your tea journey.\"** This uses two banned words from the voice policy (\"unlock\" and \"journey\"). It is also generic filler that doesn't say anything about brewing. It should be rewritten in a warm, plain, unhurried way, for example: \"You don't need a teapot to enjoy loose leaf.\"\n\n2. **Brewing guidance** (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product/brewing guidance, which the product team checks and is fine to use as written.\n\n3. No health claims, superlatives, guarantees, invented numbers, green claims, or false urgency. The email is from our own account, so no disclosure label is needed. The spelling is fine for UK English.\n\n4. Minor note: the sign-off is fine, and the subject line matches the content. The email is quite short and has no call to action, which is a choice for Sam, not a policy issue.\n\nBecause of the banned words, the draft needs a change before it goes out. As everything public needs Sam's approval, it should go to Sam after the edit.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008360099999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

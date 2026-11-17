@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f576f60c800d4c1d1dc4ab488b96221f7da6434b27e247520cc878dfaaa2f7ee",
+ "result": "**Review of the affiliate blog draft**\n\n**Problem: the affiliate disclosure is not clear enough**\n- The only disclosure is \"*I may earn a small commission.\" It sits after the link, as a footnote, so readers see it after the \"here\" link rather than before it. Affiliate disclosures need to be in plain words, at the top or next to the link.\n- \"I may earn\" is also hedged. If the link is affiliate, say so directly, for example: \"This post contains an affiliate link, so I earn a commission if you buy through it.\"\n- Fix: put a plain disclosure at the very start, and keep one beside the link if you like.\n\n**Claims checked**\n- \"I've tried four tea subscriptions this year\": a personal experience statement. It is fine as long as it's true for the writer.\n- \"easiest to pause\": this is the reviewer's own opinion, clearly framed in the first person. It is also consistent with the brand's approved claim that subscribers can pause or cancel any time. No problem.\n- \"the tins are lovely\": opinion, fine.\n\n**Style:** The copy is short and has a personal voice, with no AI clichés or hype.\n\nOnce the disclosure is moved to the top and made direct, the rest can go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106031,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

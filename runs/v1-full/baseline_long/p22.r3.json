@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5852eb9145883f01b52aa7401eac394985cbae62f3533da7c5146de98e5ee616",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problems**\n\n1. **\"It cured my bloating in a week\" - verified buyer**: This is a health claim. Publishing a testimonial that says the product cured a condition means the brand is making that claim, and the policy bans health claims of any kind, including \"cures\". It also has no traceable source or permission on file, and \"verified buyer\" implies a verification we can't show. Remove the quote. If there's a genuine review about taste or flavour, use that instead, with permission.\n\n2. **Same quote, as a testimonial**: The policy also prohibits invented testimonials. Nothing in the approved claims supports this one, so treat it as unsupported unless the team can show the original review.\n\n**Checked and fine**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact (ingredients), checked by the product team.\n- \"100g tin\": product fact (tin size).\n- \"Lovely with milk\": description and opinion, not a claim.\n- No banned words, no clichés, no urgency, no superlatives, no guarantees, no green claims. UK spelling is not at issue.\n\n**Decision:** Hold. Remove the testimonial and the rest of the copy can go out as is. Sam needs to approve the revised version, as the policy requires for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008066199999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

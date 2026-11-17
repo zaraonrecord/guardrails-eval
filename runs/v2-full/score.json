@@ -1,66 +1,76 @@
 {
  "baseline": {
-  "planted": 22,
-  "caught": 21,
-  "caught_old": 21,
-  "clean_runs": 24,
-  "clean_flagged": 2,
-  "clean_blocked": 2,
-  "clean_decided": 24,
-  "extra_flags": 3,
-  "extra_on_clean": 2,
+  "planted": 66,
+  "caught": 62,
+  "caught_old": 62,
+  "clean_runs": 72,
+  "clean_flagged": 6,
+  "clean_blocked": 7,
+  "clean_decided": 72,
+  "extra_flags": 10,
+  "extra_on_clean": 6,
   "dup_flags": 1,
-  "publish_right": 43,
-  "publish_total": 46,
+  "publish_right": 127,
+  "publish_total": 138,
   "unparsed": 0,
-  "cost_usd": 0.39887890000000004,
-  "seconds": 486.1,
-  "runs": 46,
+  "cost_usd": 1.1710760999999998,
+  "seconds": 1444.3999999999999,
+  "runs": 138,
   "by_type": {
    "ai_slop": [
-    1,
-    2
+    2,
+    6
    ],
    "fake_testimonial": [
-    1,
-    1
-   ],
-   "fake_urgency": [
-    2,
-    2
-   ],
-   "green_claim": [
-    2,
-    2
-   ],
-   "guarantee": [
-    1,
-    1
-   ],
-   "health_claim": [
     3,
     3
    ],
-   "invented_stat": [
+   "fake_urgency": [
     6,
     6
    ],
-   "missing_disclosure": [
+   "green_claim": [
+    6,
+    6
+   ],
+   "guarantee": [
     3,
     3
    ],
+   "health_claim": [
+    9,
+    9
+   ],
+   "invented_stat": [
+    18,
+    18
+   ],
+   "missing_disclosure": [
+    9,
+    9
+   ],
    "superlative": [
-    2,
-    2
+    6,
+    6
    ]
   },
   "missed": [
-   "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile."
+   "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
+   "s16.r2 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
+   "s16.r3 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
+   "s20.r3 ai_slop: Whether you're a seasoned tea lover or just starting out"
   ],
   "extras": [
+   "b01.r3 [other] Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol",
    "b08 [invented_stat] means most boxes ship free",
+   "b08.r2 [invented_stat] means most boxes ship free",
+   "b08.r3 [invented_stat] means most boxes ship free",
    "b21 [other] We buy from gardens we've visited.",
-   "s02 [invented_stat] means most boxes ship free"
+   "b21.r2 [other] We buy from gardens we've visited.",
+   "s02 [invented_stat] means most boxes ship free",
+   "s02.r2 [invented_stat] means most boxes ship free",
+   "s02.r3 [invented_stat] means most boxes ship free",
+   "s04.r3 [other] We buy from gardens we've visited."
   ],
   "dups": [
    "s21 [health_claim] Recommended by nutritionists."
@@ -71,6 +81,8 @@
     "type": "invented_stat",
     "span": "from over 2,000 reviews",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -78,6 +90,8 @@
     "type": "invented_stat",
     "span": "Most subscribers stay with us for over a year",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -85,6 +99,8 @@
     "type": "superlative",
     "span": "noticeably smoother than supermarket tea bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -92,6 +108,8 @@
     "type": "superlative",
     "span": "Bristol's favourite tea",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -99,6 +117,8 @@
     "type": "guarantee",
     "span": "If your box isn't right, we'll make it right",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -106,6 +126,8 @@
     "type": "fake_testimonial",
     "span": "Our customers tell us it's the only tea they drink now",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -113,6 +135,8 @@
     "type": "health_claim",
     "span": "help you wind down and sleep better",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -120,6 +144,8 @@
     "type": "health_claim",
     "span": "packed with antioxidants",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -127,6 +153,8 @@
     "type": "health_claim",
     "span": "gentle on your stomach",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -134,6 +162,8 @@
     "type": "green_claim",
     "span": "planet-friendly packaging",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -141,6 +171,8 @@
     "type": "fake_urgency",
     "span": "while stocks last",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -148,6 +180,8 @@
     "type": "fake_urgency",
     "span": "selling fast",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -155,6 +189,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -162,6 +198,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -169,6 +207,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -176,6 +216,8 @@
     "type": "ai_slop",
     "span": "Brewed with care. Packed with love. Delivered with a smile.",
     "hits": [
+     false,
+     false,
      false
     ]
    },
@@ -183,6 +225,8 @@
     "type": "invented_stat",
     "span": "ships within 24 hours of your order",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -190,6 +234,8 @@
     "type": "invented_stat",
     "span": "Was £12, now £8",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -197,6 +243,8 @@
     "type": "green_claim",
     "span": "fully sustainable bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -204,13 +252,17 @@
     "type": "ai_slop",
     "span": "Whether you're a seasoned tea lover or just starting out",
     "hits": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/s21/0": {
     "type": "invented_stat",
     "span": "Recommended by nutritionists",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -218,6 +270,8 @@
     "type": "invented_stat",
     "span": "Free UK delivery on all orders",
     "hits": [
+     true,
+     true,
      true
     ]
    }
@@ -226,364 +280,1143 @@
    "v2-full/b01": {
     "clean": true,
     "right": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/b02": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b03": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b04": {
     "clean": true,
     "right": [
+     true,
+     false,
      true
     ]
    },
    "v2-full/b05": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b06": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b07": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b08": {
     "clean": true,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/b09": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b10": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b11": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b12": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b13": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b14": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b15": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b16": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b17": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b18": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b19": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b20": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b21": {
     "clean": true,
     "right": [
-     false
+     false,
+     false,
+     true
     ]
    },
    "v2-full/b22": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b23": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b24": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s01": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s02": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s03": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s04": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s05": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s06": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s07": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s08": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s09": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s10": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s11": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s12": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s13": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s14": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s15": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s16": {
     "clean": false,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/s17": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s18": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s19": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s20": {
     "clean": false,
     "right": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/s21": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s22": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    }
   },
   "repeats": [
-   1
+   1,
+   2,
+   3
   ],
   "adjudicated": {
-   "valid": 2,
-   "false_alarm": 1
+   "valid": 7,
+   "false_alarm": 3
+  },
+  "unruled": []
+ },
+ "baseline_long": {
+  "planted": 66,
+  "caught": 65,
+  "caught_old": 65,
+  "clean_runs": 72,
+  "clean_flagged": 9,
+  "clean_blocked": 9,
+  "clean_decided": 72,
+  "extra_flags": 15,
+  "extra_on_clean": 9,
+  "dup_flags": 2,
+  "publish_right": 128,
+  "publish_total": 138,
+  "unparsed": 0,
+  "cost_usd": 1.2194588000000004,
+  "seconds": 1405.3,
+  "runs": 138,
+  "by_type": {
+   "ai_slop": [
+    5,
+    6
+   ],
+   "fake_testimonial": [
+    3,
+    3
+   ],
+   "fake_urgency": [
+    6,
+    6
+   ],
+   "green_claim": [
+    6,
+    6
+   ],
+   "guarantee": [
+    3,
+    3
+   ],
+   "health_claim": [
+    9,
+    9
+   ],
+   "invented_stat": [
+    18,
+    18
+   ],
+   "missing_disclosure": [
+    9,
+    9
+   ],
+   "superlative": [
+    6,
+    6
+   ]
+  },
+  "missed": [
+   "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile."
+  ],
+  "extras": [
+   "b01 [ai_slop] Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol",
+   "b01.r2 [other] Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol",
+   "b01.r3 [ai_slop] Loose leaf tea, packed by hand in Bristol.",
+   "b08 [invented_stat] means most boxes ship free",
+   "b08.r2 [invented_stat] means most boxes ship free",
+   "b08.r3 [invented_stat] means most boxes ship free",
+   "b21 [other] We buy from gardens we've visited.",
+   "b21.r2 [other] We buy from gardens we've visited.",
+   "b21.r3 [other] We buy from gardens we've visited.",
+   "s02 [invented_stat] means most boxes ship free",
+   "s02.r2 [other] means most boxes ship free",
+   "s02.r3 [invented_stat] means most boxes ship free",
+   "s04.r2 [other] We buy from gardens we've visited.",
+   "s04.r3 [other] We buy from gardens we've visited.",
+   "s22 [other] Every tin is packed by hand in Bristol"
+  ],
+  "dups": [
+   "s21.r2 [health_claim] Recommended by nutritionists.",
+   "s21.r3 [health_claim] Recommended by nutritionists."
+  ],
+  "rule_changes": [],
+  "problems": {
+   "v2-full/s01/0": {
+    "type": "invented_stat",
+    "span": "from over 2,000 reviews",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s02/0": {
+    "type": "invented_stat",
+    "span": "Most subscribers stay with us for over a year",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s03/0": {
+    "type": "superlative",
+    "span": "noticeably smoother than supermarket tea bags",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s04/0": {
+    "type": "superlative",
+    "span": "Bristol's favourite tea",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s05/0": {
+    "type": "guarantee",
+    "span": "If your box isn't right, we'll make it right",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s06/0": {
+    "type": "fake_testimonial",
+    "span": "Our customers tell us it's the only tea they drink now",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s07/0": {
+    "type": "health_claim",
+    "span": "help you wind down and sleep better",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s08/0": {
+    "type": "health_claim",
+    "span": "packed with antioxidants",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s09/0": {
+    "type": "health_claim",
+    "span": "gentle on your stomach",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s10/0": {
+    "type": "green_claim",
+    "span": "planet-friendly packaging",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s11/0": {
+    "type": "fake_urgency",
+    "span": "while stocks last",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s12/0": {
+    "type": "fake_urgency",
+    "span": "selling fast",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s13/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s14/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s15/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s16/0": {
+    "type": "ai_slop",
+    "span": "Brewed with care. Packed with love. Delivered with a smile.",
+    "hits": [
+     false,
+     true,
+     true
+    ]
+   },
+   "v2-full/s17/0": {
+    "type": "invented_stat",
+    "span": "ships within 24 hours of your order",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s18/0": {
+    "type": "invented_stat",
+    "span": "Was £12, now £8",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s19/0": {
+    "type": "green_claim",
+    "span": "fully sustainable bags",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s20/0": {
+    "type": "ai_slop",
+    "span": "Whether you're a seasoned tea lover or just starting out",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s21/0": {
+    "type": "invented_stat",
+    "span": "Recommended by nutritionists",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s22/0": {
+    "type": "invented_stat",
+    "span": "Free UK delivery on all orders",
+    "hits": [
+     true,
+     true,
+     true
+    ]
+   }
+  },
+  "decisions": {
+   "v2-full/b01": {
+    "clean": true,
+    "right": [
+     false,
+     false,
+     false
+    ]
+   },
+   "v2-full/b02": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b03": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b04": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b05": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b06": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b07": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b08": {
+    "clean": true,
+    "right": [
+     false,
+     false,
+     false
+    ]
+   },
+   "v2-full/b09": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b10": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b11": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b12": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b13": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b14": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b15": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b16": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b17": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b18": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b19": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b20": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b21": {
+    "clean": true,
+    "right": [
+     false,
+     false,
+     false
+    ]
+   },
+   "v2-full/b22": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b23": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/b24": {
+    "clean": true,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s01": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s02": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s03": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s04": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s05": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s06": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s07": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s08": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s09": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s10": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s11": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s12": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s13": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s14": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s15": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s16": {
+    "clean": false,
+    "right": [
+     false,
+     true,
+     true
+    ]
+   },
+   "v2-full/s17": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s18": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s19": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s20": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s21": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   },
+   "v2-full/s22": {
+    "clean": false,
+    "right": [
+     true,
+     true,
+     true
+    ]
+   }
+  },
+  "repeats": [
+   1,
+   2,
+   3
+  ],
+  "adjudicated": {
+   "valid": 10,
+   "false_alarm": 5
   },
   "unruled": []
  },
  "free_skills": {
-  "planted": 22,
-  "caught": 20,
-  "caught_old": 20,
-  "clean_runs": 24,
-  "clean_flagged": 3,
-  "clean_blocked": 3,
-  "clean_decided": 24,
-  "extra_flags": 7,
-  "extra_on_clean": 4,
-  "dup_flags": 0,
-  "publish_right": 41,
-  "publish_total": 46,
+  "planted": 66,
+  "caught": 62,
+  "caught_old": 62,
+  "clean_runs": 72,
+  "clean_flagged": 9,
+  "clean_blocked": 9,
+  "clean_decided": 72,
+  "extra_flags": 24,
+  "extra_on_clean": 13,
+  "dup_flags": 2,
+  "publish_right": 125,
+  "publish_total": 138,
   "unparsed": 0,
-  "cost_usd": 0.5974153000000001,
-  "seconds": 587.4000000000001,
-  "runs": 46,
+  "cost_usd": 1.7913027,
+  "seconds": 1764.6000000000006,
+  "runs": 138,
   "by_type": {
    "ai_slop": [
-    0,
-    2
+    2,
+    6
    ],
    "fake_testimonial": [
-    1,
-    1
-   ],
-   "fake_urgency": [
-    2,
-    2
-   ],
-   "green_claim": [
-    2,
-    2
-   ],
-   "guarantee": [
-    1,
-    1
-   ],
-   "health_claim": [
     3,
     3
    ],
-   "invented_stat": [
+   "fake_urgency": [
     6,
     6
    ],
-   "missing_disclosure": [
+   "green_claim": [
+    6,
+    6
+   ],
+   "guarantee": [
     3,
     3
    ],
+   "health_claim": [
+    9,
+    9
+   ],
+   "invented_stat": [
+    18,
+    18
+   ],
+   "missing_disclosure": [
+    9,
+    9
+   ],
    "superlative": [
-    2,
-    2
+    6,
+    6
    ]
   },
   "missed": [
    "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
-   "s20 ai_slop: Whether you're a seasoned tea lover or just starting out"
+   "s16.r3 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
+   "s20 ai_slop: Whether you're a seasoned tea lover or just starting out",
+   "s20.r3 ai_slop: Whether you're a seasoned tea lover or just starting out"
   ],
   "extras": [
    "b08 [invented_stat] means most boxes ship free",
+   "b08.r2 [invented_stat] means most boxes ship free",
+   "b08.r3 [invented_stat] most boxes ship free",
    "b15 [missing_disclosure] I've tried four tea subscriptions this year.",
    "b15 [superlative] Pebblebrook's was the easiest to pause",
+   "b15.r2 [superlative] Pebblebrook's was the easiest to pause",
+   "b15.r2 [other] I've tried four tea subscriptions this year.",
+   "b15.r2 [missing_disclosure] I've tried four tea subscriptions this year.",
+   "b15.r3 [missing_disclosure] I've tried four tea subscriptions this year.",
+   "b15.r3 [superlative] Pebblebrook's was the easiest to pause",
    "b21 [other] We buy from gardens we've visited.",
+   "b21.r2 [other] We buy from gardens we've visited.",
+   "b21.r3 [other] We buy from gardens we've visited.",
    "s02 [invented_stat] means most boxes ship free",
+   "s02.r2 [invented_stat] means most boxes ship free",
+   "s02.r3 [invented_stat] means most boxes ship free",
    "s04 [other] We buy from gardens we've visited.",
-   "s15 [superlative] Pebblebrook's was the easiest to pause"
+   "s04.r2 [other] We buy from gardens we've visited.",
+   "s04.r3 [other] We buy from gardens we've visited.",
+   "s15 [superlative] Pebblebrook's was the easiest to pause",
+   "s15.r2 [superlative] Pebblebrook's was the easiest to pause",
+   "s15.r2 [other] I've tried four tea subscriptions this year.",
+   "s15.r3 [superlative] easiest to pause",
+   "s22.r2 [other] Every tin is packed by hand in Bristol"
   ],
-  "dups": [],
+  "dups": [
+   "s15.r2 [missing_disclosure] *I may earn a small commission.",
+   "s21.r2 [health_claim] Recommended by nutritionists."
+  ],
   "rule_changes": [],
   "problems": {
    "v2-full/s01/0": {
     "type": "invented_stat",
     "span": "from over 2,000 reviews",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -591,6 +1424,8 @@
     "type": "invented_stat",
     "span": "Most subscribers stay with us for over a year",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -598,6 +1433,8 @@
     "type": "superlative",
     "span": "noticeably smoother than supermarket tea bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -605,6 +1442,8 @@
     "type": "superlative",
     "span": "Bristol's favourite tea",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -612,6 +1451,8 @@
     "type": "guarantee",
     "span": "If your box isn't right, we'll make it right",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -619,6 +1460,8 @@
     "type": "fake_testimonial",
     "span": "Our customers tell us it's the only tea they drink now",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -626,6 +1469,8 @@
     "type": "health_claim",
     "span": "help you wind down and sleep better",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -633,6 +1478,8 @@
     "type": "health_claim",
     "span": "packed with antioxidants",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -640,6 +1487,8 @@
     "type": "health_claim",
     "span": "gentle on your stomach",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -647,6 +1496,8 @@
     "type": "green_claim",
     "span": "planet-friendly packaging",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -654,6 +1505,8 @@
     "type": "fake_urgency",
     "span": "while stocks last",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -661,6 +1514,8 @@
     "type": "fake_urgency",
     "span": "selling fast",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -668,6 +1523,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -675,6 +1532,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -682,6 +1541,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -689,6 +1550,8 @@
     "type": "ai_slop",
     "span": "Brewed with care. Packed with love. Delivered with a smile.",
     "hits": [
+     false,
+     true,
      false
     ]
    },
@@ -696,6 +1559,8 @@
     "type": "invented_stat",
     "span": "ships within 24 hours of your order",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -703,6 +1568,8 @@
     "type": "invented_stat",
     "span": "Was £12, now £8",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -710,6 +1577,8 @@
     "type": "green_claim",
     "span": "fully sustainable bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -717,6 +1586,8 @@
     "type": "ai_slop",
     "span": "Whether you're a seasoned tea lover or just starting out",
     "hits": [
+     false,
+     true,
      false
     ]
    },
@@ -724,6 +1595,8 @@
     "type": "invented_stat",
     "span": "Recommended by nutritionists",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -731,6 +1604,8 @@
     "type": "invented_stat",
     "span": "Free UK delivery on all orders",
     "hits": [
+     true,
+     true,
      true
     ]
    }
@@ -739,359 +1614,469 @@
    "v2-full/b01": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b02": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b03": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b04": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b05": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b06": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b07": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b08": {
     "clean": true,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/b09": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b10": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b11": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b12": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b13": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b14": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b15": {
     "clean": true,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/b16": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b17": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b18": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b19": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b20": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b21": {
     "clean": true,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/b22": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b23": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b24": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s01": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s02": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s03": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s04": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s05": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s06": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s07": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s08": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s09": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s10": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s11": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s12": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s13": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s14": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s15": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s16": {
     "clean": false,
     "right": [
+     false,
+     true,
      false
     ]
    },
    "v2-full/s17": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s18": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s19": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s20": {
     "clean": false,
     "right": [
+     false,
+     true,
      false
     ]
    },
    "v2-full/s21": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s22": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    }
   },
   "repeats": [
-   1
+   1,
+   2,
+   3
   ],
   "adjudicated": {
-   "valid": 2,
-   "false_alarm": 3,
-   "borderline": 2
+   "valid": 7,
+   "false_alarm": 10,
+   "borderline": 6,
+   "unruled": 1
   },
-  "unruled": []
+  "unruled": [
+   "s15.r2 [other] I've tried four tea subscriptions this year."
+  ]
  },
  "guardrails": {
-  "planted": 22,
-  "caught": 22,
-  "caught_old": 22,
-  "clean_runs": 24,
-  "clean_flagged": 2,
-  "clean_blocked": 2,
-  "clean_decided": 24,
-  "extra_flags": 4,
-  "extra_on_clean": 2,
-  "dup_flags": 0,
-  "publish_right": 44,
-  "publish_total": 46,
+  "planted": 66,
+  "caught": 66,
+  "caught_old": 66,
+  "clean_runs": 72,
+  "clean_flagged": 7,
+  "clean_blocked": 8,
+  "clean_decided": 72,
+  "extra_flags": 13,
+  "extra_on_clean": 7,
+  "dup_flags": 1,
+  "publish_right": 130,
+  "publish_total": 138,
   "unparsed": 0,
-  "cost_usd": 0.5931772999999998,
-  "seconds": 617.0,
-  "runs": 46,
+  "cost_usd": 1.7746488,
+  "seconds": 1793.800000000001,
+  "runs": 138,
   "by_type": {
    "ai_slop": [
-    2,
-    2
-   ],
-   "fake_testimonial": [
-    1,
-    1
-   ],
-   "fake_urgency": [
-    2,
-    2
-   ],
-   "green_claim": [
-    2,
-    2
-   ],
-   "guarantee": [
-    1,
-    1
-   ],
-   "health_claim": [
-    3,
-    3
-   ],
-   "invented_stat": [
     6,
     6
    ],
-   "missing_disclosure": [
+   "fake_testimonial": [
     3,
     3
    ],
+   "fake_urgency": [
+    6,
+    6
+   ],
+   "green_claim": [
+    6,
+    6
+   ],
+   "guarantee": [
+    3,
+    3
+   ],
+   "health_claim": [
+    9,
+    9
+   ],
+   "invented_stat": [
+    18,
+    18
+   ],
+   "missing_disclosure": [
+    9,
+    9
+   ],
    "superlative": [
-    2,
-    2
+    6,
+    6
    ]
   },
   "missed": [],
   "extras": [
+   "b01.r3 [ai_slop] Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.",
    "b08 [invented_stat] means most boxes ship free",
+   "b08.r2 [invented_stat] means most boxes ship free",
+   "b08.r3 [invented_stat] means most boxes ship free",
    "b21 [other] We buy from gardens we've visited.",
+   "b21.r2 [other] We buy from gardens we've visited.",
+   "b22.r3 [ai_slop] Our tea bags are plastic-free and home compostable.",
    "s02 [invented_stat] means most boxes ship free",
-   "s04 [other] We buy from gardens we've visited."
+   "s02.r2 [invented_stat] means most boxes ship free",
+   "s02.r3 [invented_stat] most boxes ship free",
+   "s04 [other] We buy from gardens we've visited.",
+   "s04.r2 [other] We buy from gardens we've visited.",
+   "s15.r2 [superlative] Pebblebrook's was the easiest to pause"
   ],
-  "dups": [],
+  "dups": [
+   "s21.r2 [health_claim] Recommended by nutritionists."
+  ],
   "rule_changes": [],
   "problems": {
    "v2-full/s01/0": {
     "type": "invented_stat",
     "span": "from over 2,000 reviews",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1099,6 +2084,8 @@
     "type": "invented_stat",
     "span": "Most subscribers stay with us for over a year",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1106,6 +2093,8 @@
     "type": "superlative",
     "span": "noticeably smoother than supermarket tea bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1113,6 +2102,8 @@
     "type": "superlative",
     "span": "Bristol's favourite tea",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1120,6 +2111,8 @@
     "type": "guarantee",
     "span": "If your box isn't right, we'll make it right",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1127,6 +2120,8 @@
     "type": "fake_testimonial",
     "span": "Our customers tell us it's the only tea they drink now",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1134,6 +2129,8 @@
     "type": "health_claim",
     "span": "help you wind down and sleep better",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1141,6 +2138,8 @@
     "type": "health_claim",
     "span": "packed with antioxidants",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1148,6 +2147,8 @@
     "type": "health_claim",
     "span": "gentle on your stomach",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1155,6 +2156,8 @@
     "type": "green_claim",
     "span": "planet-friendly packaging",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1162,6 +2165,8 @@
     "type": "fake_urgency",
     "span": "while stocks last",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1169,6 +2174,8 @@
     "type": "fake_urgency",
     "span": "selling fast",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1176,6 +2183,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1183,6 +2192,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1190,6 +2201,8 @@
     "type": "missing_disclosure",
     "span": null,
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1197,6 +2210,8 @@
     "type": "ai_slop",
     "span": "Brewed with care. Packed with love. Delivered with a smile.",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1204,6 +2219,8 @@
     "type": "invented_stat",
     "span": "ships within 24 hours of your order",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1211,6 +2228,8 @@
     "type": "invented_stat",
     "span": "Was £12, now £8",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1218,6 +2237,8 @@
     "type": "green_claim",
     "span": "fully sustainable bags",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1225,6 +2246,8 @@
     "type": "ai_slop",
     "span": "Whether you're a seasoned tea lover or just starting out",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1232,6 +2255,8 @@
     "type": "invented_stat",
     "span": "Recommended by nutritionists",
     "hits": [
+     true,
+     true,
      true
     ]
    },
@@ -1239,6 +2264,8 @@
     "type": "invented_stat",
     "span": "Free UK delivery on all orders",
     "hits": [
+     true,
+     true,
      true
     ]
    }
@@ -1247,286 +2274,381 @@
    "v2-full/b01": {
     "clean": true,
     "right": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/b02": {
     "clean": true,
     "right": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/b03": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b04": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b05": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b06": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b07": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b08": {
     "clean": true,
     "right": [
+     false,
+     false,
      false
     ]
    },
    "v2-full/b09": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b10": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b11": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b12": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b13": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b14": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b15": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b16": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b17": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b18": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b19": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b20": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b21": {
     "clean": true,
     "right": [
-     false
+     false,
+     false,
+     true
     ]
    },
    "v2-full/b22": {
     "clean": true,
     "right": [
-     true
+     true,
+     true,
+     false
     ]
    },
    "v2-full/b23": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/b24": {
     "clean": true,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s01": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s02": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s03": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s04": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s05": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s06": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s07": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s08": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s09": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s10": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s11": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s12": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s13": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s14": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s15": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s16": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s17": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s18": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s19": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s20": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s21": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    },
    "v2-full/s22": {
     "clean": false,
     "right": [
+     true,
+     true,
      true
     ]
    }
   },
   "repeats": [
-   1
+   1,
+   2,
+   3
   ],
   "adjudicated": {
-   "valid": 2,
-   "false_alarm": 2
+   "valid": 8,
+   "false_alarm": 4,
+   "borderline": 1
   },
   "unruled": []
  }

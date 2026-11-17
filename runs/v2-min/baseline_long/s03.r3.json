@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "31364bbf5294eebe1cee92894aa8b24112e21c910770ed655bdd831a446b9d7c",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n**Sentence by sentence**\n\n1. \"Assam Breakfast.\" Product name. Fine.\n2. \"A malty, full-bodied black tea\" Flavour description, and product facts are fine as written.\n3. \"noticeably smoother than supermarket tea bags\" This is a comparison against an unnamed category (supermarket tea bags). It is presented as fact, not personal opinion, and there is no like-for-like evidence in the brand's approved claims. It also promises a result the reader will \"notice\". Unsupported comparison. Fix: remove it, or describe the tea on its own terms (e.g. \"malty and full-bodied, with a rounded finish\").\n4. \"Certified organic by the Soil Association.\" On the approved claims list. Fine.\n5. \"100g tin, makes around 40 cups.\" Size is a product fact and brewing yield is a product fact, so this is fine as written. \"Around\" keeps it appropriately loose.\n\n**Missing items:** No labels, offers, guarantees or pricing in the copy, so nothing is missing for this channel.\n\n**Style:** Short and plain, no clichés or filler.\n\n**Decision:** Hold. One unsupported comparative claim needs to be removed or rewritten, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074272999999999995,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

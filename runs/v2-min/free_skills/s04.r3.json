@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6d0ab8350c1ec37b7f7fad97a09718c31e6f6d2a7cdd9142af2ae340658cc8a2",
+ "result": "**Review: about page copy**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is a superlative with no survey, ranking or sales data behind it. |\n| \"a small team of six\" | OK. Team size is a product fact the policy allows as written. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | OK as an origins and sourcing statement. Confirm it's true of all your gardens, since \"we buy from gardens\" reads as universal. |\n\n**Slop check:** no banned words, no em-dash sandwiches, no exclamation points, no rhetorical openers.\n\n**Fix:** cut the superlative. If you have real evidence (a local poll, an award, a ranking), send it with the source and it can go back in. Otherwise, use the compliant version below.\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\n**Verdict:** hold until \"has become Bristol's favourite tea\" is removed or sourced.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0118554,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eeb9ed1fb9ba3ca27f62b3143721e5c07836578c33d9988c22ed7a79fe0a6c22",
+ "result": "**Review of the draft**\n\nClaims list:\n- \"New tins just landed for winter\": product fact (new arrivals), fine.\n- \"made with zero waste from farm to cup\": unsupported. It's a green/environmental claim not on the allowlist. The allowlist covers only plastic-free, home compostable tea bags and Soil Association organic certification. \"Zero waste\" across the whole supply chain is absolute, unverifiable, and risky under UK CMA Green Claims Code and ASA rules. Cut it or replace with the backed claim.\n- \"Deep green, gold lettering\": product fact, fine.\n- \"the same plastic-free tea bags inside\": allowlisted (plastic-free).\n- \"Our tea bags are plastic-free and home compostable.\": allowlisted. But it repeats the \"plastic-free\" point from the previous sentence, so one of them should go.\n\nOther notes:\n- Slop check: no ban-list words. The opening sentence leads with the arrival, which is okay, though the zero-waste phrase is vague filler.\n- Redundancy: \"plastic-free\" appears twice in three sentences. Keep the sharper one.\n- No disclosure issues: own account, no affiliate or sponsored content.\n\nSuggested compliant version:\n\n> New tins just landed for winter. Deep green with gold lettering, packed by hand in Bristol. Inside, the same plastic-free, home compostable tea bags.\n\n(The \"packed by hand in Bristol\" line is allowlisted. Drop it if you'd rather keep the original wording.)\n\nDo not publish until \"zero waste from farm to cup\" is removed or substantiated.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008385499999999999,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

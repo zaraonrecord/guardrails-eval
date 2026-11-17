@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "050327f34faf102e4fc73c2d88731c4a9617643e2876f7b11a6fd4d64377b884",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Origin and visit:** The Darjeeling garden and the first flush are product-origin facts, which the policy allows as written.\n- **Picking and flavour:** \"Picked in March\" and \"bright and floral\" are product facts and tasting description, with no superlatives or health claims.\n- **Availability:** \"In the shop from Monday\" is a new-arrival announcement. It sets no deadline, offers no discount and claims no scarcity, so it isn't fake urgency.\n- **Other risks:** There are no invented stats, guarantees, testimonials, green claims or health claims. Nothing needs a disclosure, and the tone is plain rather than generic AI copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060417,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

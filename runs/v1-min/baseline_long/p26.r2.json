@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f9c393bab7bacda049d06cfae6dc866a0d9cdf4079822b0060d942e3ecc86c76",
+ "result": "**Review: paid creator post**\n\n**Label:** \"Ad |\" opens the draft, so it's upfront and clear. That's fine.\n\n**Approved claims:** \"packed by hand in Bristol\" matches the policy. The Assam, the pot and the ten minutes away from the phone are description or personal experience, so those are fine.\n\n**Problems:**\n\n1. **\"Honestly the best tea in Britain\"**: This is a superiority claim. The \"honestly\" frames it as personal opinion, but it's a paid post and it reads as a factual statement of being the best. The brand has no evidence for it in its approved claims. Fix: make it clearly personal and specific, e.g. \"my favourite afternoon tea right now\", or cut it.\n\n2. **\"it's a proven immunity booster\"**: This is a health claim (supporting immunity), and \"proven\" adds an evidence claim the brand can't back. Tea can't carry authorised immunity claims here. Fix: remove it entirely.\n\n**Style:** The rest reads like a real person's voice. No clichés to flag.\n\n**Decision:** Hold. Remove the immunity claim and rework or cut the \"best tea in Britain\" line, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007323399999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

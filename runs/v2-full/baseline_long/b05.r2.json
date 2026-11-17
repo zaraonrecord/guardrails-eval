@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d8dd3f502a3e4fcb813e6c14f43f8b0006b34a67f5b3fd6e6e1843400ed21578",
+ "result": "Review of the Instagram draft (own account):\n\n**Claims**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved wording exactly (review platform export, October 2026). Fine.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is an ingredient fact, which the product team checks and which is fine to use as written.\n- \"Rainy Sunday, second pot.\" Scene-setting description, with no claim in it.\n\n**Labels:** This is the brand's own account and nothing suggests a paid partnership, gift or affiliate link, so no label is needed.\n\n**Urgency, health, green, superlatives, guarantees:** None present.\n\n**Voice:** Warm, plain and unhurried, with UK spelling. None of the banned words or AI clichés appear. It reads like a person wrote it.\n\nNothing needs changing. It can go to Sam for the usual approval and then be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061017,
+ "seconds": 6.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

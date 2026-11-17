@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "45d246e0ba22f5f001218ef514162cd3c5c5a4f0199ec30542e314d5c489dc82",
+ "result": "**Review of the landing hero draft**\n\n**Claims (checked against the allowlist):**\n- \"Certified organic by the Soil Association\" is an approved claim, with the certificate on file and renewed 2026.\n- \"packed by hand in Bristol\" matches the approved \"Every tin is packed by hand in Bristol\".\n- \"free UK delivery on orders over £25\" matches the approved wording, and the threshold is stated.\n- There are no superlatives, health claims, green claims, guarantees, urgency, invented numbers or testimonials.\n- Nothing here needs an ad or affiliate label, since this is the brand's own landing page.\n\n**Style and voice:**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is a formulaic rule-of-three line, used for rhythm alone. It is generic and could be on any brand's page.\n- It says nothing specific, and it adds nothing the real claims in the second sentence don't already say better.\n- \"Brewed with care\" is also slightly off, because customers brew the tea, not Pebblebrook.\n- It doesn't sound warm, plain and unhurried in the brand's own voice. It reads as filler. Under the checklist, formulaic copy the brand's voice wouldn't use is grounds to hold.\n\n**Suggested fix:** Cut the first three sentences and lead with the provable facts in plain language. For example: \"Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Decision:** Hold. The factual claims are fine, but the opening line should be rewritten before this goes to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011819,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

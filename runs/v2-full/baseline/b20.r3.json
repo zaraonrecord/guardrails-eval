@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "707b022aa8161366527c9abf9ff476deb63ebb297e411491d48e09ba07abd43e",
+ "result": "I checked the draft against the brand policy line by line.\n\n- **\"Subscribers can pause or cancel any time.\"** Matches the allowlist wording exactly (subscription terms).\n- **\"Free UK delivery on orders over £25.\"** Matches the allowlist wording exactly (shipping policy).\n- **\"Monthly loose leaf tea.\"** A plain product fact, which is fine. We sell loose leaf tea by monthly subscription.\n- **\"Tea Subscription UK\"** is a descriptive headline with no superlatives, guarantees, health claims, green claims, invented numbers or urgency.\n- **Voice and spelling:** plain, with no banned words, and nothing needs UK spelling changes.\n- **Disclosure:** this is a paid ad from our own account, so the platform marks it and no extra label is needed.\n- **Approval:** Sam (marketing lead) needs to approve everything public, so this should go to Sam for sign-off before it goes live.\n\nNothing in the draft needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059241,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

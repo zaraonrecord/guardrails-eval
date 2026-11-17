@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7a39dcbf772bc32fecfcc0dab2939e81b76295ac74b72229be7efef8782cd035",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"If your box isn't right, we'll make it right.\" | **Unsupported** |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n\n**Problem:** \"If your box isn't right, we'll make it right\" is an open-ended satisfaction promise. It implies a remedy (replacement, refund or redo) that isn't in the brand policy. Section 3 rules out guarantees and \"love it or it's free\" style offers, and we have no such offer. A customer could reasonably hold us to it. The ad also can't make a promise the landing page doesn't.\n\n**Compliant version, using only allowlisted claims:**\n\n- Headline: Tea Subscription UK\n- Description: Monthly loose leaf tea, packed by hand in Bristol. Pause or cancel any time. Free UK delivery on orders over £25.\n\nCharacter counts: the headline is 19 characters. The new description is 400 characters shorter than nothing to worry about on length, at 111 characters, though I counted it by hand against no limit you gave. If this is a Google RSA, descriptions cap at 90 characters, and the original (106) was also over. A 90-character option: \"Monthly loose leaf tea, packed by hand in Bristol. Pause or cancel any time.\" (76 characters). Add the delivery line only if you have room, or run it as a separate description.\n\n**Other checks:** no health, green or superlative claims, no fake urgency, no banned words, and the opening is plain. Check that the landing page shows the delivery threshold and pause/cancel terms before the ad goes live. Sam needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0157505,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

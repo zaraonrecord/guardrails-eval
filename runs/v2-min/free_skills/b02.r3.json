@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "049eb68401a0f26769da318d9e3b9db5b24ae478e620ac3426b5d003e79c6823",
+ "result": "**Review: clean, ready to send.**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order status for this shipment. Consistent with the allowlisted \"packed by hand in Bristol\". Confirm it's true for this send. |\n| \"smoky lapsang and a soft white peony\" | Product facts, fine as written |\n| \"pause or cancel any time\" | Allowlisted |\n\nSlop check: there are no ban-list words, no em-dash sandwiches, no exclamation points, no rhetorical opener, no fake urgency, and no invented stats or testimonials. The opening line leads with a concrete fact.\n\nNotes (not blockers):\n- The subject says \"October tins\" and the body says \"subscription box\". If this goes out in November, change the month. Confirm the send timing matches.\n- \"Hi Priya\" should be a merge field, not hard-coded, if this is a template.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010805100000000002,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

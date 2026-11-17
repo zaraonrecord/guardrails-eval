@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2b81f12d538dd0018f0428ca047049f5233b871ecc6c35018b29c90314924de6",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | **Unsupported.** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel policy. Fine. |\n\n**Problem:** \"most boxes ship free\" implies that most orders or subscription boxes come to more than £25. Nothing in the allowlist or this chat says so. It's an invented proportion, and it also doesn't follow from the free-delivery threshold, since the threshold says nothing about how many orders clear it. If some subscription boxes cost under £25, the line is misleading about delivery cost.\n\n**Slop and structure check:** No banned words, no em-dashes, no exclamation marks, no rhetorical-question opener. The opening line is vague but acceptable.\n\n**Suggested fix:**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf you can show that most boxes are over £25, send me the source and I can reinstate the claim. Otherwise, use the version above.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112177,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "I checked each sentence against the brand policy.\n\n- **Headline: \"Organic Loose Leaf Tea\"**: Description of the product. \"Organic\" is backed by the Soil Association certification on file. Loose leaf tea is what the brand sells. Fine.\n- **\"Certified organic by the Soil Association.\"**: Matches the approved claim word for word (certificate on file, renewed 2026).\n- **\"Free UK delivery on orders over £25.\"**: Matches the approved claim exactly, and the £25 threshold sits right beside the \"free\" claim, so the condition is clear.\n- **Superlatives, guarantees, health, green claims, urgency**: None present.\n- **Voice**: Plain and short, no banned words or AI clichés. UK spelling is fine.\n- **Labels**: A search ad from the brand's own account needs no extra disclosure.\n\nNo problems found. It can go out, subject to Sam's usual sign-off, since the policy lists Sam as approver for everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062117000000000006,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

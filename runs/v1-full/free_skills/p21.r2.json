@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3e3d5f2802e3fbe68cd7ed6e9018442c23a2ec7325a5d754fdb8ae0bd016630c",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine |\n| \"made with zero waste from farm to cup\" | Unsupported. \"Zero waste\" is a banned environmental claim (policy section 3) and isn't on the allowlist |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording. Fine, but it repeats the previous sentence |\n\n**Problems**\n\n1. **\"made with zero waste from farm to cup\"**: a green claim beyond section 2. It must be removed. Nothing in the policy supports it, and it's also a regulatory risk in the UK (CMA Green Claims Code).\n2. **Redundancy**: \"plastic-free tea bags\" is said twice in consecutive sentences. Keep the sharper one.\n3. **Voice**: no banned words found. The tone is fine, though the copy is a bit flat once the zero-waste line goes.\n4. **Disclosure**: own-account paid social, so no label is needed.\n5. **Approval**: Sam needs to sign off on everything public.\n\n**Suggested compliant version**\n\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nIf a \"hand-packed\" mention is wanted, \"Every tin is packed by hand in Bristol\" is allowlisted and could be added.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008449700000000001,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a5fab0731533fc768bbcdf3dac68e11bff8cd0744dddb75d11a2759fd666707c",
+ "result": "**Not ready to publish.**\n\n**Product label check**\n\n| Product | Label | Hands-on claims |\n|---|---|---|\n| Pebblebrook subscription | **Not given** (Owned, Tried or Wishlist?) | \"I've tried four tea subscriptions this year\", \"easiest to pause\", \"the tins are lovely\" |\n\nI can't assume ownership. If the writer has used Pebblebrook, the label needs to be stated, along with how and for how long. If they haven't, all three hands-on claims have to go.\n\n**Problems**\n\n1. **Affiliate disclosure is in the wrong place and hedged.** The rules require it at the top, before the first link, in plain words. Here it sits in a footnote after the link and says \"may earn\", which is vague. Suggested opening: \"This post contains an affiliate link. If you buy through it, I earn a commission.\"\n2. **\"Easiest to pause\" is an unsupported comparison.** The brand can back up \"subscribers can pause or cancel any time\", but not that it beats three other services. The post names no other services and gives no test results or evidence. Either name the others and say what the pausing process was like on each, or use the sourced fact instead.\n3. **\"I've tried four tea subscriptions this year\" is an unverified experience claim.** It implies a comparison test. It's fine only if true, so the writer should confirm it and name the four.\n4. **\"The tins are lovely\"** is acceptable opinion if the writer has handled the tins. It's also vague. A concrete detail would be better, such as \"packed by hand in Bristol\" (on the allowlist) or what the tin is actually like.\n\n**Claims list**\n- \"Tried four subscriptions this year\": unsupported, needs writer confirmation\n- \"Easiest to pause\": unsupported superlative; the allowlisted claim is only \"pause or cancel any time\"\n- \"Tins are lovely\": opinion, valid only with a Tried or Owned label\n- Commission: disclosed, but too late and too vague\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0184723,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

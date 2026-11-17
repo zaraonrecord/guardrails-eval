@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d60a8e66108d5cc50b726d4a1e6050e9bd3da9fd2353cb6551c802781f8ad1a9",
+ "result": "# Publish gate report\n\n**Going out:** Creator post, gifted product, UK audience. Timing and platform not given.\n\n## Checks\n\n**Claims:** No stats, rankings, guarantees or testimonials beyond the creator's own opinion. \"Lovely with oat milk\" is a taste opinion and fine. Product facts (rooibos chai, winter sampler) are fine as written. Pass.\n\n**Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n\n**House style:** Plain and specific, no AI tells or banned phrases. Pass.\n\n**Disclosure:** Fails. The product was gifted (\"Thanks to the team for sending it over!\"), which is a paid or valued relationship under UK rules (ASA/CMA). The thanks is a casual acknowledgement at the end, which does not count as a label. The post needs an upfront, plain label before the reader engages.\n\n## Fixed\n- Added an upfront disclosure and kept the rest unchanged.\n\nSuggested final copy:\n\n> **Gifted:** Pebblebrook sent me their winter sampler. #Gifted (use the platform's paid partnership / branded content tool too, if available)\n>\n> The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\n\nCheck the exact wording against the policy's labels. The policy doesn't list specific label wording, so \"Gifted\" is my suggestion. Use \"Ad\" instead if the brand has any editorial control or approval over the post, as that is the ASA's expectation in the UK.\n\n## Needs a decision\n- Did Pebblebrook have any say over the content (brief, approval, requirement to post)? If yes, label as \"Ad\". If the product was truly gifted with no obligation, \"Gifted\" upfront is the minimum.\n- Who approves? The policy names no approver, so I need an explicit yes from you (or the person you nominate) on the exact final copy above.\n\n## Approver\nNone named in the policy. Not approved yet, so nothing is published or recorded.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119073,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

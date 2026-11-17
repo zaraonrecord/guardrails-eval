@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e6cf913174cbe450b2289e3b59d85af84eba2c5107317e068a61155ea3c4841d",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Good tea, no fuss\" | Soft opinion, not a measurable claim. \"Good\" passes the compared-to-what test loosely, but it's a tagline, not a factual claim. |\n\n**Slop check**\n- Ban-list words: none.\n- Structural bans: no exclamation points, no em-dashes, no rhetorical-question opener, no \"not just X, it's Y\", no fake urgency.\n- Opening sentence: \"Good tea, no fuss\" is throat-clearing rather than the most useful fact. That's a style point, not a blocker. Leading with the organic certification would be sharper.\n\n**Ad/landing consistency**\n- The delivery threshold is a claim that should match the checkout and delivery page. Worth a quick confirm, but it matches the brand policy.\n\n**Verdict:** Every factual claim is on the allowlist, there are no invented stats, testimonials, superlatives, guarantees, or regulated-territory claims, and no banned vocabulary. It can publish. Optional: tighten the opener so the first sentence carries a concrete fact.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073694,
+ "seconds": 20.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "This draft can go out.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: matches the approved claim (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\"**: matches the approved claim word for word. It is specific to the tea bags and doesn't stretch to the packaging or the business.\n- **\"because we couldn't find tea bags without plastic in them\"**: this is the founders' own story, not a measurable claim, so I haven't flagged it.\n- **\"here's how we checked\"**: this promises the post will show the checking. The body needs to deliver on that, and anything it says about test results or certifications should stay within the approved claims. That's a note for the full post, not a problem with the intro.\n- **Tone**: the copy is plain and specific, with none of the filler phrases from the style list.\n- **Labels**: it's the brand's own blog, so no \"Ad\" label is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008365099999999999,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

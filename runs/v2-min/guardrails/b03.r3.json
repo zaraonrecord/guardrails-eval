@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4101ef3d7717381edf7468d64b3722ad34f47a2b4b7bda55f6eb6fd31e68e8e8",
+ "result": "## Publish gate report\n\n**Going out:** Search ad for Pebblebrook Tea Co., UK audience. Headline \"Organic Loose Leaf Tea\", plus a two-sentence description.\n\n**Checks**\n- **Claims:** both claims are on the policy's allowlist.\n  - \"Certified organic by the Soil Association\" matches the policy row word for word.\n  - \"Free UK delivery on orders over £25\" matches the policy row, and the threshold is stated, so it isn't misleading.\n  - \"Organic Loose Leaf Tea\" is a product fact backed by the certification.\n- **Regulated claims:** the copy mentions a price condition (free delivery threshold) but no health, money, legal, environmental or children claims. No countdowns, \"was\" prices or stock claims. Pass.\n- **House style:** about 90/100. It's plain and specific, with no banned words or AI tells. It's a bit flat, but that suits a search ad.\n- **Disclosure:** search ads are labelled \"Ad\" by the platform, and there are no creators, affiliates, gifted products or AI-generated imagery. Pass.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision**\n- I can't see the landing page. An ad can't claim more than its page backs up, so confirm the page shows the Soil Association certification and the £25 free delivery threshold. I suggest checking that before launch.\n- Check the ad's final URL points to products that are actually certified organic.\n\n**Approver:** the policy doesn't name one, so I need an explicit yes from you (or whoever owns paid search) for this exact copy before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0114983,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

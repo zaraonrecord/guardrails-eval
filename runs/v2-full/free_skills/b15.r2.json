@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c957ff580c5ce5c02b2cccb5301d984a48ef8dbbf607e54439921344781577a2",
+ "result": "**Not ready to publish.** Here is what I found.\n\n**Product label (Pebblebrook subscription): not given.** I can't tell whether the writer owns it, tried it, or only researched it, and I won't assume ownership. The draft makes these hands-on claims:\n- \"I've tried four tea subscriptions this year\": a claim of experience with four products. It needs confirming, ideally with which four and for how long.\n- \"Pebblebrook's was the easiest to pause\": a hands-on claim and a comparative superlative.\n- \"the tins are lovely\": a hands-on claim that is only fine if the writer has handled the tins.\n\nIf the product is Wishlist/researched, all three claims must be cut.\n\n**Issues**\n\n1. **Superlative:** \"easiest to pause\" compares Pebblebrook with three other services, and we have no proof for that comparison. The only backed claim is \"Subscribers can pause or cancel any time\". Replace \"easiest\" with that wording, or with the writer's specific experience of pausing, such as how many steps it took.\n2. **Unverified hands-on claim:** \"I've tried four tea subscriptions this year\" can stand only if it's true. Please confirm the label and the experience.\n3. **Disclosure placement:** the post has no plain-words affiliate declaration at the top, before the first link. \"(Affiliate link)\" beside the link meets the brand's wording but not the review rule. Add a line above the first link, for example: \"This post contains affiliate links, so I may earn a commission if you buy through them.\" If the subscription was gifted or paid for by the brand, the post must also start with \"Gifted\" or \"Ad\".\n\n**Suggested compliant version (if the writer has actually tried it):**\n\n> This post contains affiliate links, so I may earn a commission if you buy through them.\n>\n> I've tried four tea subscriptions this year. Pebblebrook's let me pause in [PROOF NEEDED: writer to describe how, e.g. number of steps], and the tins are lovely. You can find it here (Affiliate link).\n\n**Other checks:** no health, green, urgency, guarantee or statistic claims, and no banned voice words. The draft also uses no UK-spelling-sensitive terms.\n\nPer the brand policy, Sam needs to approve this before it goes public.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"other\"}, {\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.022010599999999998,
+ "seconds": 20.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

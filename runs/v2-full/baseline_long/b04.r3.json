@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "781a36087420d5ea728f4464701d0b44bc24bb525989664c0d66fb1ae26f9da7",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Assam Breakfast.\" Product name, fine.\n- \"A malty, full-bodied black tea that stands up to milk.\" Flavour and brewing description. Product facts are fine as written, and this is not a health or superiority claim.\n- \"Certified organic by the Soil Association.\" Exact wording from the approved claims table (certificate on file, renewed 2026).\n- \"100g tin, makes around 40 cups.\" Tin size and cup count are product facts, covered by the product team.\n\nNo unsupported numbers, superlatives, guarantees, health claims, green claims, urgency or testimonials. No banned words or AI clichés. The voice is plain and warm enough, and the spelling is UK-consistent. A product page on the brand's own site needs no ad label.\n\nNothing needs changing. It can go to Sam for the usual approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005818499999999999,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

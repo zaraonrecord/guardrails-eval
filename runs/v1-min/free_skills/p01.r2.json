@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d159226e7cef88773ab72bdcf5081ec62775f27e9ae2e0e45df4a691ed5f864e",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported superlative. Not on the allowlist, no source. |\n| \"packed by hand in Bristol\" | Allowlisted (every tin packed by hand in Bristol). |\n| \"certified organic by the Soil Association\" | Allowlisted. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n\n**Problems**\n\n1. **\"The UK's best loose leaf tea\"** is a superlative with no proof behind it. It also fails the \"compared to what?\" test. Remove it, or replace it with something concrete from the allowlist, such as the 4.8 out of 5 rating from over 1,200 reviews on the website (state it as being on your own website).\n2. **Repetition.** \"Packed by hand in Bristol\" appears twice in the first two sentences. Keep one.\n3. **Opening sentence.** It leads with the unsupported superlative rather than the most useful fact.\n\n**Suggested rewrite**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nOptional version with proof: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Add it as a third sentence if you want social proof.\n\nAd/landing consistency: the hero now only makes allowlisted claims, so there is nothing to reconcile elsewhere.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010200299999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

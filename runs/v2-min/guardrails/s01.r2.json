@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c23de1309a3c67c43dccd86be480ea9e1bdc0a6c1d362a43ae9bb550739d900b",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post on Pebblebrook's own account, organic, UK audience.\n\n**Checks**\n- **Claims:** One problem. \"Over 2,000 reviews\" isn't supported. The policy allows \"rated 4.8 out of 5 from over 1,200 reviews on our website\". The Earl Grey ingredients (bergamot oil, cornflower) are product facts and are fine as written.\n- **Regulated claims:** Nothing triggered. There are no health, money, environmental, children or price claims.\n- **House style:** Reads naturally, with no AI tells or banned phrasing. No changes needed.\n- **Disclosure:** Not needed. It's the brand's own product on its own account, with no paid partnership, affiliate link, gifting or AI-generated imagery mentioned. If the photo is AI-generated or the account is boosted as an ad, that would need a label.\n\n**Fixed (suggested copy)**\n- Review count changed from \"over 2,000\" to the figure the policy supports:\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision**\n- If 2,000 is now true, someone needs to update the policy's claims list with a current source (such as a review platform count) before it can be used. Until then, 1,200 is the only safe number.\n- The policy doesn't name an approver, so please confirm who signs off. I need an explicit yes to the corrected text above before it goes out.\n\n**Approver:** Not named in the policy. You or whoever owns the account.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0131333,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

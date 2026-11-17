@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3faf8df8c2c19903787a96d09f05053377592469f864380352d4765aa7606e1",
+ "result": "**Review: search ad (Pebblebrook Tea Co.)**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" (headline) | \"Loose leaf\" is a product fact. \"Organic\" is covered by the Soil Association certification, so it is allowlisted. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording (certificate on file, renewed 2026). |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers or testimonials:** none.\n- **Banned or slop vocabulary and structures:** none. No exclamation marks, rhetorical questions or em-dashes. The tone is plain, which fits the brand voice.\n- **Disclosure:** none needed. This is a paid ad from the brand's own account, and the platform marks it.\n- **Character counts:** the headline is 22 characters and the description is 79. Both are within typical search ad limits (30 for a headline, 90 for a description). No limits were given, so I counted against the usual ones.\n- **Market:** UK only, and the copy matches.\n\n**Notes before it goes live (not blockers)**\n- Both claims should also appear on the landing page, so confirm the page shows the Soil Association certification and the £25 free delivery threshold.\n- Brand policy requires Sam's approval for all public content, so get that sign-off before publishing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012763499999999999,
+ "seconds": 16.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

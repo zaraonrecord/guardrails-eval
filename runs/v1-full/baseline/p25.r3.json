@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "39cccc9f95e68e6697580d442c2e0da94ff77c1ba60c42f48f3f7d1b40622a57",
+ "result": "**Review**\n\n- **Rating claim:** \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" The allowlist only supports \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Both the 4.9 and the 5,000 figures are not backed by the October 2026 export, so this is an invented statistic. Fix: use the exact approved wording (4.8 / over 1,200).\n- **Earl Grey line:** \"real bergamot oil and a little cornflower\" is a product fact, so it's fine as written (the product team checks these).\n- **Opening line:** \"Rainy Sunday, second pot.\" is warm, plain and unhurried, with no banned words. No issue.\n- **Disclosure:** Own-account Instagram post, so no extra label is needed.\n- **Spelling and tone:** No US spellings or banned phrases.\n\nOnce the rating line is corrected, it would still need Sam's approval, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0062751000000000005,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

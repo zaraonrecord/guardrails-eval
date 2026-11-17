@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "**Review: gifted creator post**\n\n**Disclosure:** \"Gifted\" is the first word, so the reader sees it before anything else, and the sentence after it (\"Pebblebrook sent me their winter sampler\") explains the relationship. It isn't buried in tags or hidden behind \"more\". The checklist gives \"Ad\" as an example label, and \"Gifted\" up front does the same job here. If the brand's agreement gives it any say over the content, switching to \"Ad | Gifted\" would be the safer UK wording, but that's optional polish.\n\n**Claims:** There are no numbers, comparisons, superlatives, health claims, green claims, guarantees or urgency. \"The winter sampler\" and \"rooibos chai\" are product facts, which the policy allows as written. \"Lovely with oat milk\" is a clearly personal opinion, not a brand claim.\n\n**\"Not paid to say that, just liked it\":** This is the creator's own statement about their experience. It's only a problem if the creator was actually paid. Worth confirming with the brand, but nothing in the draft contradicts it.\n\n**Style:** It sounds like a real person wrote it, with no filler, clichés or hype.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0116383,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

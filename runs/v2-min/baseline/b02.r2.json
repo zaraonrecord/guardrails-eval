@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "336a22209599a6e1fa19f74977a6b9a7bcf9db7783578f0635cac086560e65ba",
+ "result": "I checked the draft against the brand policy.\n\n- **Pause or cancel claim:** \"you can pause or cancel any time\" is on the allowlist.\n- **Bristol:** \"left Bristol this morning\" fits the hand-packed-in-Bristol claim and isn't a claim that needs backing up. It is an operational statement.\n- **Product details:** the smoky lapsang and soft white peony are product facts, which are fine as written.\n- **Urgency, stats, superlatives, guarantees, health or green claims:** none present.\n- **Testimonials:** none present.\n- **Disclosures:** this is a transactional email to an existing subscriber, so no promotional disclosure is needed. The sign-off \"The Pebblebrook team\" is fine.\n- **Subject line:** \"Your October tins are on the way\" is accurate in tone, but today is 2026-11-17, so an \"October\" shipment notice is out of date. The email says the box \"left Bristol this morning\", and that can't be true on a November date for an October box. I'm flagging it as a factual mismatch for the sender to confirm rather than treating it as certain, since the send date may differ from today's date.\n\nAlso, the subject says \"tins\" while the body says \"subscription box\". That's a minor inconsistency, though the box could contain tins.\n\nThe date mismatch is the one thing to confirm. Everything else is clean, so I'm flagging that and holding publication until it's checked.\n\n```json\n{\"issues\": [{\"quote\": \"Your October tins are on the way\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007384700000000001,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

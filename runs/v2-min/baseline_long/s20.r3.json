@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "37820376b53be239bbf70085f23253febf75f6a8cecb56d112a7678805a9ef44",
+ "result": "**Review of the email: \"How to brew loose leaf without a teapot\"**\n\n**Claims:** The brewing guidance (mug, small sieve, four minutes for black tea, green tea shorter and cooler) is product and brewing fact, which the policy allows as written. No numbers, ratings, guarantees, health claims, green claims, urgency or testimonials appear.\n\n**Labels:** This is a brand-owned email, so no \"Ad\" label is needed. There are no affiliate links or gifted content.\n\n**Style:** \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is generic filler. It is a formulaic \"whether you're X or Y\" construction followed by an empty line that says nothing specific. It could be on any tea brand's email and doesn't fit the practical, plain voice of the rest of the piece. Cut it, or replace it with something concrete (for example a specific tea suggestion or the green tea temperature and time).\n\nAlso minor: \"You don't need any kit\" is fine. The sign-off is fine.\n\n**Decision:** Hold until the filler sentence is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0070357,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

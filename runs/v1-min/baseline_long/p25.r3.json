@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "199f056af2edfb2050ea6f6f81c15a357523a640ec7d2393798a2a5699709022",
+ "result": "**Review: Instagram post (own account)**\n\nSentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact (ingredients), which the policy allows as written. Fine.\n3. \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" This is a rating and a review count. The approved claim is 4.8 out of 5 from over 1,200 reviews on the website. Both the rating and the count are inflated compared with the approved figures, and I can see no evidence for the new numbers. This is an invented/altered statistic.\n\nOther checks:\n- Ad label: own brand account, no paid creator, so no \"Ad\" label needed.\n- Health, green, urgency, guarantee claims: none.\n- Style: short, specific, and in a human voice. No clichés.\n\n**Decision:** Hold. Fix the rating line to the approved figures: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" (Or drop the line if the newer numbers can't be evidenced.) If the brand has genuinely updated figures, they need to be added to the approved claims with a source first.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007421499999999999,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

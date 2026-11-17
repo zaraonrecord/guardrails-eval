@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3c0025cd895b661883dd35233bcbd7a1200c8837e1facbdd608b7664db9572fd",
+ "result": "## Publish gate report: About page\n\n**Going out:** the About page copy, on the website. No date or audience given. Approver: **Sam (marketing lead)**.\n\n**Checks**\n- **Claims:**\n  - \"Founded in Bristol in 2019\" is on the policy list (Companies House).\n  - \"Every tin is packed by hand in Bristol\" is on the policy list (Operations).\n  - \"Small team of six\" is a product fact (team size), fine as written.\n  - **\"Over 98% of our customers rate us five stars\"** is not in the policy and has no source in this chat. The only backed rating is 4.8 out of 5 from over 1,200 reviews on our website (October 2026). 98% five stars is a different and much bigger claim, so it counts as an invented statistic.\n- **Regulated claims:** nothing on health, money, the environment, children or prices.\n- **House style:** warm, plain and unhurried, with no banned words and no AI tells. I'd score it about 90.\n- **Disclosure:** nothing to label. It's the brand's own page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed:** nothing has been changed in your draft. Here is my suggested version:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Our customers rate us 4.8 out of 5 from over 1,200 reviews on our website, and we buy from gardens we've visited.\n\n**Needs a decision**\n1. **Rating claim:** swap in the policy wording above, or send a source for the 98% figure and add it to the policy. I suggest the swap.\n2. **\"We buy from gardens we've visited\":** it isn't a listed claim. It may fall under \"where a tea is grown\", but the visiting part isn't covered. Please confirm with the product team that it's true, or soften it to something like \"we buy from named gardens\" if that's what you can back up.\n\n**Approval:** this is not approved. Once the copy is final, Sam needs to say yes to the exact final text. Any change after that means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0170929,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

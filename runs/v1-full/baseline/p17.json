@@ -1,10 +1,14 @@
 {
  "case": "p17",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the peppermint product page draft**\n\n**Problems that need changing**\n\n1. **\"a natural detox that aids weight loss\"**: This is a health claim, and the policy bans health claims of any kind. \"Detox\" and \"aids weight loss\" are both named explicitly. This has to come out. It can't be reworded into something softer that still implies a health benefit.\n\n**What checks out**\n\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate on file, renewed 2026).\n- \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks and which is fine as written.\n- \"Cool and clean after a big meal\" is a flavour/serving description. It's a sensory claim, not a digestive or health one, so I'm treating it as fine. If the team meant it as a digestion benefit, that would need rethinking, but as written it reads as taste.\n- Voice: plain and warm enough, no banned words, no UK spelling problems.\n- No superlatives, guarantees, invented numbers, fake urgency or environmental claims.\n- No disclosure label is needed, as this is our own product page.\n\n**Suggested fix**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nSince this is public content, Sam needs to approve the corrected version before it goes live.\n\n**Verdict:** Don't publish as it stands. Remove the detox and weight loss line and it's good to go, pending Sam's sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.0098141,
- "seconds": 11.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "71fbf6a3ec55ba9478df9a5ab79d2db790abcb299b6b4d96d4e80fe9337f787f",
+ "result": "**Review of the peppermint product page draft**\n\n**Problems that need changing**\n\n1. **\"a natural detox that aids weight loss\"**: This is a health claim, and section 3 bans health claims of any kind, including detox and aids weight loss. It should be removed. This is the one that stops publication.\n\n**What's fine**\n\n- \"Just peppermint leaves, nothing else.\" This is an ingredient fact, which the product team checks, so it's fine as written.\n- \"Cool and clean after a big meal\" is a flavour and serving description. It's a sensory description rather than a digestive benefit, so I'm treating it as acceptable. If you want to be careful, \"cool and clean\" is the safer half; \"after a big meal\" could be read as implying a digestive effect, so Sam may want to look at it.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- Voice: plain and short, no banned words. UK spelling isn't tested here, as there are no spelling-sensitive words.\n\n**Suggested rewrite**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean, lovely after a big meal. Certified organic by the Soil Association.\n\nAs this is public content, it still needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0070142,
+ "seconds": 8.6,
  "models": [
   "claude-sonnet-5-5"
  ]

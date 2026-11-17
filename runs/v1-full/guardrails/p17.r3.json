@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "48c379dba73d425de5531f5a2e15de0cff5417e8c470a117725e03a61d4884c9",
+ "result": "## Publish gate report\n\n**Going out:** Peppermint tea product page copy, UK, no date given.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" matches the policy list word for word. \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team covers. \"Cool and clean after a big meal\" describes flavour and feel, so it passes.\n- **Regulated claims:** \"a natural detox that aids weight loss\" fails. Section 3 bans health claims of any kind, and detox and weight-loss claims are among the ones regulators challenge most. There is no evidence for it in the policy or in this chat.\n- **House style:** The copy is warm, plain and unhurried, with no banned words and no AI tells. It passes.\n- **Disclosure:** This is the brand's own product page, with no partnership, affiliate link or AI-labelling trigger. Nothing is needed.\n\n**Fixed (suggested rewrite)**\n- Removed \"and a natural detox that aids weight loss\".\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\n**Needs a decision:** None, if you accept the rewrite. The original can't go out as written.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to the exact rewritten text above, and any further edit means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012041600000000003,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

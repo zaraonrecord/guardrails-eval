@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d074deff53e6bbd21e5c374fda7a3c64c07647064763f76e21685033cb7af9fb",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or testimonials. The ingredients (black tea, orange peel, cinnamon, clove) and the blend returning are product facts the product team checks, so they're fine as written.\n- **Urgency:** \"From today\" announces when the blend is available. It isn't a countdown, a \"today only\" offer or a stock warning, so it doesn't count as fake urgency.\n- **Disclosure:** This is our own newsletter, with no paid partnership, gifted product or affiliate link, so no label is needed.\n- **Voice:** It reads as warm, plain and unhurried. It uses no banned words and the spelling is UK.\n- **Approval:** Everything public needs Sam's sign-off, so it should go to Sam before sending. Please also confirm the blend really is back in the shop today.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007351199999999999,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

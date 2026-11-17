@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f9c393bab7bacda049d06cfae6dc866a0d9cdf4079822b0060d942e3ecc86c76",
+ "result": "**Review: paid creator post**\n\n**Disclosure:** The draft opens with \"Ad |\", which is upfront, first, and clear. That's fine.\n\n**Claims checked:**\n- \"Their tins are packed by hand in Bristol\" is on the approved list. Fine.\n- \"a pot of Pebblebrook's Assam and ten minutes away from my phone\" is personal experience and description. Fine.\n- \"Honestly the best tea in Britain\" is a superlative claim of superiority with no evidence. The \"Honestly\" doesn't turn it into personal opinion, since it's stated as fact about all of Britain. Not on the allowlist. Flag it. Fix: \"my favourite tea right now\" would be clearly personal opinion.\n- \"it's a proven immunity booster\" is a health claim (affecting body function) and also says \"proven\", which implies evidence the brand doesn't hold. Not allowed for food/drink. Remove it entirely.\n\n**Style:** The copy reads as a natural personal voice. \"Which I love\" and \"Honestly\" are conversational, with no AI clichés. No issues.\n\n**Decision:** Hold. Two claims must be removed or rewritten before publication.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092985,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

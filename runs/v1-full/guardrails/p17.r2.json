@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "48c379dba73d425de5531f5a2e15de0cff5417e8c470a117725e03a61d4884c9",
+ "result": "# Publish gate report\n\n**Going out:** Peppermint tea product page copy, Pebblebrook Tea Co., UK.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy list (certificate renewed 2026). \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team covers. \"Cool and clean after a big meal\" is a taste description, so I've left it. **\"A natural detox that aids weight loss\" is not allowed.** It isn't on the claims list and it has no source in this chat.\n- **Regulated claims:** \"Detox\" and \"aids weight loss\" are health claims, and policy section 3 bans health claims of any kind. Rules on health claims for food and drink are strict, so this line would be at risk on the page. The selling point survives without it.\n- **House style:** No banned words and no AI tells. The voice is plain and unhurried, and the line fits.\n- **Disclosure:** None needed. This is our own product page, with no partnership, affiliate link or AI-labelled content.\n\n**Needs a decision:** None, once the health claim is removed. I suggest dropping it rather than softening it, because no softer version of \"detox\" or \"weight loss\" is allowed.\n\n**Suggested copy (not yet checked by you or approved):**\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\n**Approver:** Sam (marketing lead) must approve everything public. I haven't recorded an approval, and the original draft shouldn't be published. Once Sam says yes to the exact revised copy, it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014583500000000001,
+ "seconds": 15.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17fbebd7e48d1009f010e2ef779ff46ec24ca568da14c705cc3f6ec7adc8a0ad",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post from our own account, Pebblebrook Tea Co. Earl Grey, rainy-Sunday theme.\n\n### Checks\n- **Claims:** Passed.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word (review export, October 2026, still current).\n  - \"Real bergamot oil and a little cornflower\" is an ingredient fact, which the product team checks and the policy allows as written.\n  - No superlatives, guarantees, invented numbers or urgency.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. \"A rainy Sunday pot is everything\" is mood, not a health claim.\n- **Disclosure:** Nothing needed. It is our own account, with no creator, gifted product, affiliate link or AI imagery mentioned.\n- **House style:** Fails on one point. \"In today's fast-paced world\" is on the banned list and is a stock AI opener. Score is about 70 before the fix and about 92 after.\n\n### Fixed\n- Cut the banned opener \"In today's fast-paced world,\" and left the rest untouched.\n\n**Revised copy:**\n> A rainy Sunday pot is everything. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n### Needs a decision\n- Nothing is unresolved. If you want the opener to do more work, \"A rainy Sunday calls for a proper pot.\" is a warmer, plainer option, but that is optional.\n\n### Approver\nSam (marketing lead) must approve the exact revised copy above before it is posted. I haven't recorded any approval. Once Sam says yes to this version, he can record it in his own terminal and we can retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0151955,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

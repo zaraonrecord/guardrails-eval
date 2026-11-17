@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bccf3759af15a819348fba2d3c0ed134d30f2b4be3bd07a3b667a8e8c9fa37",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The ingredients (black tea, orange peel, cinnamon, clove) and the return of a seasonal blend count as product facts and new arrivals, which the policy allows as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, or green claims.\n- **Urgency:** \"Back in the shop from today\" states availability. It has no countdown, scarcity, or deadline pressure, so it isn't fake urgency.\n- **Tone:** The copy is short and specific, with no filler or generic AI phrasing.\n- **Disclosure:** It is the brand's own newsletter promoting its own product, so no disclosure is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006095,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

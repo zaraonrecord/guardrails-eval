@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d159226e7cef88773ab72bdcf5081ec62775f27e9ae2e0e45df4a691ed5f864e",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported superlative. Not on the allowlist, and \"best\" fails the \"compared to what?\" test. |\n| \"packed by hand in Bristol\" (first mention) | Allowlisted. |\n| \"Every tin is packed by hand in Bristol\" | Allowlisted, but it repeats the first sentence word for word. |\n| \"certified organic by the Soil Association\" | Allowlisted. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n\n**Problems**\n\n1. **Superlative.** \"The UK's best loose leaf tea\" has no backing. Remove it, or replace it with a fact we can prove (e.g. the 4.8 out of 5 rating from over 1,200 reviews on our website).\n2. **Redundancy.** The first and second sentences both say the tea is packed by hand in Bristol. Keep one.\n3. **Minor style.** The hero opens with the superlative rather than the most useful fact. Leading with the organic certification or the hand-packing would be stronger.\n\n**Suggested compliant version**\n\n> Certified organic by the Soil Association, and every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n\nOptional proof-led variant: \"Loose leaf tea rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association, and every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Verdict:** Do not publish as written. Remove the \"best\" claim and the duplicated sentence.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0108263,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

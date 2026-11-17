@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "99233ed233658fb4ba4404e53e88fd1f8538947c58d6e3d8ea83507aa8c939bd",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK.\n\n**Checks**\n- **Claims:** One fails.\n  - \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\".\n  - \"Certified organic by the Soil Association\" matches its policy row (certificate renewed 2026).\n  - **\"Free UK delivery on all orders\" does not match the policy.** The approved claim is \"Free UK delivery on orders over £25\". As written, it promises free delivery on every basket, which is a pricing claim we can't back up.\n- **Regulated claims:** This is a price/offer claim, and the unqualified \"all orders\" is the risk. The fix is below.\n- **House style:** The voice is warm and plain, and no banned words are used. The \"packed by hand in Bristol\" line appears twice in a row, which reads as padding. I've merged the two sentences.\n- **Disclosure:** None needed. This is the brand's own page, with no partnership, affiliate link or AI-label trigger.\n\n**Fixed (suggested rewrite)**\n- Corrected the delivery claim to the policy wording.\n- Merged the duplicated \"packed by hand in Bristol\" lines.\n\n> Loose leaf tea, packed by hand in Bristol. Our tea is certified organic by the Soil Association, and delivery is free across the UK on orders over £25.\n\n**Needs a decision:** None, if you accept the rewrite. It uses only policy-approved claims.\n\n**Approver:** Sam (marketing lead) must approve the exact final copy before it goes live. Nothing has been approved yet, so don't publish the original draft.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014891500000000002,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

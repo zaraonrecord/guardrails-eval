@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "294f6b5ed11d17d00d321f91dad1bb77e3435b61e55e5c571672f27cf5517613",
+ "result": "**Review of the newsletter draft**\n\n**Fine as written (product facts, which the policy says the product team has checked):**\n- \"grows our first flush\": where the tea is grown.\n- \"The leaves are picked in March\": when it is picked.\n- \"taste bright and floral\": flavour.\n- \"You'll find it in the shop from Monday\": a new product arriving.\n\n**Problem:**\n- **\"only 40 tins are left, so be quick\"** is a scarcity claim with a pressure prompt. The brand policy bans \"only X left\" urgency, and nothing in the policy supports a stock-based or time-limited offer. The checklist also says stock claims must be provable when the copy is seen, and nothing here shows that. Fix: cut the sentence. If the stock is genuinely low and the brand wants to say so, Sam would need to approve that specific wording. Otherwise end on the launch: \"You'll find it in the shop from Monday.\"\n\n**Voice and style:** The tone is warm, plain and unhurried, apart from the \"be quick\" line. There are no banned words or AI clichés, and the spelling is consistent with UK English.\n\n**Disclosure:** This is the brand's own newsletter, so no label is needed.\n\n**Decision:** Hold until the urgency line is removed. Everything else can go out as is, and Sam still needs to approve it as the approver for public content.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011340699999999999,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

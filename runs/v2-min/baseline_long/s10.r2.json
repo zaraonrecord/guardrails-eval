@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c1d81313be2fe04a2a496d9fc86ccc795d837d74d0ad49ced1e1ff0ff5fe67b6",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n- \"New tins just landed for winter.\" Product fact (new arrivals), fine.\n- \"Deep green, gold lettering\" is description, fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable.\" Both are on the allowlist. Fine, though the point is made twice (see below).\n- \"planet-friendly packaging\" is a vague green claim. \"Planet-friendly\" is a broad term with no specifics, and nothing in the policy backs it for the tins. The allowlist covers only the tea bags (plastic-free, home compostable), not the tin packaging. It stretches a true claim about the bags to cover the packaging. It needs to be cut or replaced with a specific, provable fact about the tin (for example, material and recyclability, if the brand can show it).\n\n**Disclosure:** Own brand account, no paid or gifted content. No label needed.\n\n**Style:** The post repeats itself: \"plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable.\" Cut one. Otherwise the copy is plain and not cliché-ridden.\n\n**Decision:** Hold. Fix \"planet-friendly packaging\", and tidy the repetition.\n\nSuggested rewrite: \"New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009808500000000001,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

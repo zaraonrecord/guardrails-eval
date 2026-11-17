@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6ac8c0e2f0b6410ef6f34567c37e148def3e4be8a072c4bd1ecfd98f6b447eac",
+ "result": "## Publish gate report\n\n**Going out:** paid creator post for Pebblebrook Tea Co., UK audience. Channel, timing and creator handle weren't given.\n\n**Checks**\n- **Claims:** \"packed by hand in Bristol\" is on the policy list. Two claims are not, and neither is sourced in this chat:\n  - \"the best tea in Britain\" is an unprovable superlative.\n  - \"a proven immunity booster\" is an invented health claim.\n- **Regulated claims:** the immunity line is the serious one. UK advertising rules only allow authorised health claims, and tea has no authorised immunity claim. \"Proven\" makes it worse. This needs removing, not softening.\n- **House style:** the voice is natural and has no obvious AI tells. The closing sentence is the weakest part, and it goes anyway.\n- **Disclosure:** passes. \"Ad |\" is the first thing in the post, in plain words. Also switch on the platform's paid-partnership label if it has one, and repeat \"Ad\" on every post or story frame in the series.\n\n**Fixed (suggested rewrite)**\n- Removed \"Honestly the best tea in Britain, and it's a proven immunity booster.\"\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n**Needs a decision**\n- If the creator wants a stronger line, I suggest a personal taste opinion such as \"my favourite Assam right now\". Check that it reads as the creator's own view and not a claim of fact.\n- If the brand wants to make any health claim, it needs evidence and a compliance sign-off first. I'd drop it.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you, or from whoever you nominate, on the exact revised text. I haven't recorded an approval and nothing should be published until that happens.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013702200000000001,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

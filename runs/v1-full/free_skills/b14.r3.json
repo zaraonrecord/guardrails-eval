@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d64b22d0263c06ec82630bce9c2e66466c42a1a2d354037fc975f0b1aa2cabf",
+ "result": "The draft is fine to publish. I found nothing that needs changing.\n\n**Disclosure:** The post opens with \"Gifted\", before anything else, as section 4 requires. \"Not paid to say that, just liked it\" is consistent with a gifted product, so it doesn't contradict the label.\n\n**Product label and hands-on claims:**\n\n| Product | Label | Hands-on claim |\n|---|---|---|\n| Winter sampler (rooibos chai) | Tried (gifted, used by the creator) | \"lovely with oat milk\" is a personal taste opinion from someone who used it, which is allowed |\n\n**Claims check:**\n- There are no numbers, ratings, superlatives, guarantees, testimonials or urgency.\n- There are no health or environmental claims.\n- The product names (winter sampler, rooibos chai) are product facts, which the policy allows as written.\n\n**Voice:** The draft is warm and plain, with no banned words, no exclamation marks, no rhetorical opener and no \"not just X, it's Y\" construction. The spelling is UK-compatible.\n\n**Process:** Section 6 says Sam (marketing lead) approves everything public, so get sign-off from Sam before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0112103,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "444cb9aee6d9a7484148741d5a63b559b37bcfaf0bbd7208a2ada1174cc31aca",
+ "result": "Review findings:\n\n- **\"planet-friendly packaging\"**: This is a vague, unsubstantiated green claim. The allowlist only supports that the tea bags are plastic-free and home compostable, and that the tea is certified organic. Nothing backs up the tins or packaging being \"planet-friendly\". It should be removed or replaced with a specific, supportable fact (for example, the plastic-free tea bags).\n- **\"Our tea bags are plastic-free and home compostable.\"**: This is on the allowlist, so it's fine. It does repeat \"plastic-free tea bags\" from the previous sentence, so the copy is redundant. That's a style point and doesn't block publishing once the green claim is fixed.\n- **\"New tins just landed for winter.\"**: New arrivals are fine as written. It isn't fake urgency.\n- **\"Deep green, gold lettering\"**: Product description, fine.\n- No disclosure issues: it's the brand's own account, with no sponsored content or testimonials.\n\nSuggested rewrite: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006560700000000001,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

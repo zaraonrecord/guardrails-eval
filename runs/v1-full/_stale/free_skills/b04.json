@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Assam Breakfast product page**\n\nNothing needs changing. Claims check:\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"malty, full-bodied black tea that stands up to milk\" | Product/flavour description, fine as written |\n| \"100g tin, makes around 40 cups\" | Tin size and cup count, product team facts |\n\n- **Banned words and structures:** none found. There are no superlatives, guarantees, health or environmental claims, urgency, or invented numbers.\n- **Voice:** plain and unhurried, with UK spelling.\n- **Disclosure:** none needed. This is our own product page, with no partnership or affiliate link.\n- **Approval:** per policy, Sam (marketing lead) signs off on everything public, so get that before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111705,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

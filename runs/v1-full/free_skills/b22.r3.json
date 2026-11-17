@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba34b0cfe5ccffc21a6928a7212cb6b94acb91b5ff4f644a99c79e09d3cbe33c",
+ "result": "**Verdict: clear to publish, with one optional edit.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving). Fine as written. |\n| \"Deep green, gold lettering\" | Product fact (tin design). Fine. |\n| \"the same plastic-free tea bags inside\" | Allowlisted: plastic-free tea bags, supplier certificate. |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (EN 13432 certificate). |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, invented numbers, testimonials:** none.\n- **Environmental claims:** only the approved plastic-free and home compostable wording. No \"eco-friendly\" or \"sustainable\".\n- **Urgency:** \"just landed\" describes a real arrival, not a countdown or scarcity claim.\n- **Disclosure:** this is our own account, so no \"Ad\" or \"Gifted\" label is needed.\n- **Voice:** no banned words, no em-dashes, no exclamation points, UK spelling. The tone is plain and unhurried.\n\n**Optional edit (not a blocker):** \"plastic-free tea bags\" appears in the second sentence and again in the third, so the last sentence repeats itself. You could cut the second mention, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\nSam still needs to approve it, since everything public goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011264399999999999,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

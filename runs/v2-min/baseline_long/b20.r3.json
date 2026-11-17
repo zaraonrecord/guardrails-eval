@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b47cfbe173d4859ac213fe198633c038cb2e1faa872a4b668c53f2f068240c24",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n- **\"Tea Subscription UK\"** (headline): Plain description of the product and market. No claim.\n- **\"Monthly loose leaf tea.\"**: Product fact, fine as written.\n- **\"Subscribers can pause or cancel any time.\"**: On the approved claims list, word for word.\n- **\"Free UK delivery on orders over £25.\"**: Approved claim, and the £25 threshold is stated right next to it, so the condition is clear.\n\nOther checks:\n\n- No superlatives, statistics, health, green or guarantee language.\n- No urgency or scarcity wording.\n- No testimonials or ratings.\n- It is the brand's own search ad. It is recognisable as an ad in context, and there is no creator or affiliate element, so no extra label is needed.\n- Style: plain and specific, with no AI clichés or filler. Spelling is UK-consistent.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006186499999999999,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

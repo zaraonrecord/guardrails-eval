@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be54bbb63dbb00922f3bf8d597ebfc3779cd83b9f2121af1eb57ac527802ad7b",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, Pebblebrook Tea Co., first flush Darjeeling announcement. Send date and audience weren't given.\n\n**Checks**\n- **Claims:** The garden visit, March picking, bright and floral flavour, and the shop arrival on Monday are product facts (origin, pick date, flavour, new products arriving), so they're fine as written. \"Only 40 tins are left, so be quick\" is not on the allowlist. Section 3 bans \"only X left\" urgency unless a real offer is in the policy, and there is none. I can't verify the stock number, so I'm treating it as unproven.\n- **Regulated claims:** This touches stock and availability, which falls under the urgency rule above. There are no health, money, environmental or children's claims.\n- **House style:** The tone is warm and plain, and none of the banned words appear. \"So be quick\" pushes against the \"unhurried\" voice, and removing it fixes that.\n- **Disclosure:** This is the brand's own newsletter with no sponsor, affiliate link, gifted product or AI-generated imagery, so no label is needed.\n\n**Fixed (suggested, not yet applied to your original)**\n- Cut \"but only 40 tins are left, so be quick\".\n\n**Suggested copy:**\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n**Needs a decision**\n- If the 40-tin limit is real and the team wants to use it, the policy needs a stock-based urgency rule added, with a source for the number. My suggestion is to leave it out, since the Monday launch is enough of a hook.\n\n**Approver:** Sam (marketing lead). Nothing should go out until Sam gives an explicit yes to the final wording. Approval of the original draft doesn't carry over to the revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0142755,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

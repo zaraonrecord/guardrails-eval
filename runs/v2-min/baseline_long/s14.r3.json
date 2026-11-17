@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1de2264b55be4863d38bfbe158f14078ef2f07b3320942f120c08ba23a9a7bb9",
+ "result": "**Review: gifted creator post**\n\n**Claims:** The only content is that the rooibos chai is in the winter sampler and is nice with oat milk. \"Lovely with oat milk\" is personal opinion and a serving suggestion, not a factual or health claim. Product facts are fine as written. No stats, superlatives, guarantees, green or health claims, or urgency.\n\n**Disclosure:** The post says \"Thanks to the team for sending it over!\", which reveals it was gifted, but it doesn't carry a clear upfront label. Gifted items need a label such as \"Ad\" or \"Ad – gifted\" at the very start, before the reader engages. A thank-you at the end of the caption doesn't meet that, and the opening words give no sign of a commercial relationship.\n\n**Style:** Short, natural, no clichés.\n\n**Decision:** Hold. Add a prominent \"Ad | Gifted\" label at the start of the post, then it's good to go. Suggested fix: \"Ad | Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006987500000000001,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

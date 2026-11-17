@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9671c59411852466dbdde0e6a4bac388020d226e06a765339bac9ec1bfa8e92c",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, Christmas blend announcement, UK subscribers.\n\n**Checks**\n- **Claims:** Ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" are product facts and new arrivals, which the policy allows as written. \"Selling fast\" is a sales and scarcity claim. It isn't on the policy list and nothing in this chat supports it, so it's unproven.\n- **Regulated claims:** No health, money, legal, environmental, children or price claims. \"Selling fast\" does work as an urgency cue, so it should only run if it's literally true.\n- **House style:** The copy is short and plain, with no banned phrases or AI tells that I can see. The policy has no voice section, so I couldn't score it against house voice.\n- **Disclosure:** It's the brand's own newsletter with no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** I haven't changed the draft yet. The suggested version is below.\n\n**Needs a decision**\n- Remove \"selling fast\", or give me a source such as current stock or sales data that shows it's true. Suggested copy:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on the exact final text. Once you approve it, record the approval and I'll retry the send. I haven't recorded one.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120433,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

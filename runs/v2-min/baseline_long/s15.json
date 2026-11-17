@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f576f60c800d4c1d1dc4ab488b96221f7da6434b27e247520cc878dfaaa2f7ee",
+ "result": "**Review: Pebblebrook affiliate blog post**\n\n**Claims**\n- \"I've tried four tea subscriptions this year\" is a first-person experience claim. It's fine as long as it's true for the writer.\n- \"Pebblebrook's was the easiest to pause\" is the writer's own opinion, and it fits the brand's approved claim that subscribers can pause or cancel any time. It isn't a brand superlative, so I'm not flagging it.\n- \"the tins are lovely\" is opinion and description, so it's fine.\n- There are no health, green, price, stat or urgency claims.\n\n**Affiliate disclosure (problem)**\n- The only disclosure is a footnote after the link: \"*I may earn a small commission.\"\n- It comes after the reader has already seen the recommendation and the link. The checklist requires the disclosure at the top of the content or right next to the link, in plain words, where it's seen before clicking. A trailing asterisk footnote doesn't meet that.\n- \"May earn\" is also hedged. If the link is an affiliate link, the post should say so plainly.\n- Fix: open with something like \"This post contains affiliate links, so I earn a commission if you buy through them.\" Keep a short note next to the link too.\n\n**Style**\n- The voice is specific and personal, with no clichés or filler.\n\nThe copy is otherwise fine, but it shouldn't go out until the disclosure is moved to the top and made plain.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0154205,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

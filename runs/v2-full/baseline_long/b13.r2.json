@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9f5f1cd697400e4fc241b009c8dfbf09a9997536a03d388c88dbc492e66a04d0",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Ad label:** The post opens with \"Ad |\", before anything else, which is what the policy requires for a paid partnership.\n- **Hand-packing claim:** \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\" (source: Operations).\n- **Product mention:** \"Pebblebrook's Assam\" is a product fact, which the product team covers.\n- **Wellbeing language:** \"My afternoon reset\" and \"ten minutes away from my phone\" describe a personal routine. They don't claim any effect on the body, so they aren't health claims.\n- **Opinion:** \"which I love\" is clearly the creator's own view, not a brand claim.\n- **Other claims:** There are no superlatives, guarantees, invented numbers, urgency, or environmental claims.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words, and the spelling is consistent with UK English.\n\nPer the policy, Sam (marketing lead) still needs to approve it before it goes public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0084071,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

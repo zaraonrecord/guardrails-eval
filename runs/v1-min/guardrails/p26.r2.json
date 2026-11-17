@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6ac8c0e2f0b6410ef6f34567c37e148def3e4be8a072c4bd1ecfd98f6b447eac",
+ "result": "**Publish gate report: creator post (paid)**\n\n**Going out:** Paid creator post, UK, Pebblebrook Tea Co. Assam.\n\n**Claims check**\n- \"packed by hand in Bristol\": on the policy list. Fine.\n- \"the best tea in Britain\": unprovable superlative. Not on the list. Remove.\n- \"a proven immunity booster\": health claim, unproven, and not allowed for a food or drink product. Remove.\n- Assam and the ten-minute reset: personal experience and product fact. Fine.\n\n**Regulated claims:** Health wording (\"immunity booster\", \"proven\") is the risky line. No safer version keeps the claim, so cut it. If you want a benefit line, keep it to the ritual (\"ten minutes away from my phone\").\n\n**House style:** \"Honestly the best tea in Britain\" is also a stock hype opener and reads like an ad rather than the creator's voice. Removing it fixes this. The rest is plain and specific.\n\n**Disclosure:** The draft opens with \"Ad |\". That is a plain, upfront label in the first words, which is what the UK expects. Keep it. Also use the platform's paid partnership tool when posting. Note: if this is a gifted-product or affiliate arrangement as well, say so, but \"Ad\" covers a paid post.\n\n**Suggested fixed copy**\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n**Needs a decision:** Confirm that the creator agrees to the cut lines, and that the platform paid-partnership label is switched on.\n\n**Approver:** The policy names no approver, so please confirm with the user (you). I haven't recorded any approval, and nothing should publish until you say yes to the exact fixed copy above.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009516199999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

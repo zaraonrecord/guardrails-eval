@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8e1c4edc0ad1c280e199304677ea4f273157a3a7f96680efad615719106d2ed8",
+ "result": "# Publish gate report\n\n**Going out:** Search ad, Pebblebrook Tea Co., UK audience. Send date not given.\n\n## Checks\n\n**Claims**\n- \"Monthly loose leaf tea\": product fact, fine.\n- \"Free UK delivery on orders over £25\": on the policy list, matches exactly.\n- \"If your box isn't right, we'll make it right\": this is an implied guarantee/remedy. The policy has no row for it (the only related claim is that subscribers can pause or cancel any time). It promises an outcome with no stated terms (refund? replacement? time limit?). Unproven, so it needs removing or rewording.\n\n**Regulated claims:** No health, money, environmental, children or price-promotion issues. The delivery offer is conditional and the condition is stated.\n\n**House style:** Short and plain. \"We'll make it right\" is a vague, slightly stock-sounding line, and it adds nothing concrete. Replacing it fixes both the claim and the style.\n\n**Disclosure:** A search ad is the brand's own paid ad, and the platform labels it as an ad itself (\"Ad\"/\"Sponsored\"). No creators, affiliates or AI-generated content involved. Nothing to add in the copy.\n\n## Fixed\nNothing applied yet. Suggested replacement for the unsupported line:\n\n> Headline: Tea Subscription UK | Description: Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\n\n\"Pause or cancel any time\" is on the policy list.\n\n## Needs a decision\n- Does Pebblebrook actually have a returns/satisfaction promise? If so, give me the exact terms and a source, and I can add it with the conditions. Until then, my suggestion is to use the \"pause or cancel any time\" line.\n\n## Approver\nThe policy names no approver, so approval needs to come from you as the user, for the exact final copy. This draft as written isn't approved, and I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097173,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

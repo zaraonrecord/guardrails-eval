@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4e98a224a2d8e4ef4091dc97eb5286dbbe58fd36c237aa888721258a9196ad4f",
+ "result": "**Review of the gifted creator post**\n\n**Problem: missing disclosure.** Brand policy section 4 says a gifted-product post must start with \"Gifted\", before anything else. This draft opens with \"Pebblebrook sent me their winter sampler.\" The line \"Not paid to say that\" explains the situation but doesn't count as the label, and it sits at the end. Fix: begin the post with \"Gifted\" (e.g. \"Gifted: Pebblebrook sent me their winter sampler...\").\n\n**Everything else is fine:**\n- \"The rooibos chai is lovely with oat milk\" is a personal opinion about flavour, with no health, superlative or guarantee claim.\n- There are no invented numbers, urgency, or environmental claims.\n- The voice is warm, plain and unhurried, with no banned words and UK spelling.\n\nOnce the label is added, it needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007445399999999999,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "**Review: social ad (own account)**\n\nRead as a reader: a short, plain post about three teas and a delivery offer.\n\n**Claims check**\n- \"Free UK delivery on orders over £25\": on the approved list, and the threshold is stated next to the claim. Fine.\n- \"Builder's, Earl Grey and a peppermint for after lunch\": product description. \"For after lunch\" is a usage suggestion, not a health claim (no digestion or body-function effect is stated). Fine.\n- No numbers, superlatives, guarantees, testimonials, green claims or urgency language.\n\n**Labels**\n- This is the brand's own account, so no \"Ad\" label is required on it.\n\n**Style**\n- Specific, concise, and has a voice. No clichés, filler or formulaic phrasing. \"Three teas for your desk drawer\" is a bit of a fragment, but that is a stylistic choice and not a problem.\n\n**Decision:** Nothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060459,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

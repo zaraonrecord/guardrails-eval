@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3054e9b9b5e454e7a27c344f1135d78ddc04ea673ea3a4e3a1ae62f5a126ecf4",
+ "result": "**Review of gifted creator post**\n\nGoing sentence by sentence:\n\n1. \"Pebblebrook sent me their winter sampler.\" The post says it was gifted, but the brand policy requires the post to *start* with \"Gifted\" before anything else. The opening words are a plain statement, so there is no label up front. Saying \"sent me\" within the caption does not meet the required wording. This is a missing disclosure.\n\n2. \"The rooibos chai is lovely with oat milk.\" This is personal opinion about taste and serving, not a health or superlative claim. Fine. Product facts like flavour are covered by the product team's approval anyway.\n\n3. \"Not paid to say that, just liked it.\" Clear personal opinion, no invented claims. It does not substitute for the label, though. It also frames the relationship as non-commercial when the product was gifted and the post is made because of the gift, which makes the missing \"Gifted\" label more significant.\n\nNo health claims, guarantees, stats, green claims, urgency or banned words. Voice is plain and warm, UK-friendly.\n\n**Fix:** Start the post with \"Gifted\" before anything else, e.g. \"Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Just liked it.\" Consider dropping \"Not paid to say that\" or keeping it only after the label, so it doesn't read as a way to sidestep the disclosure.\n\n**Decision:** Hold until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099127,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cdf167ee04a42648d46920f7dd0094ab2f5059a3159a7a96e3f6eef600e90c61",
+ "result": "## Publish gate report\n\n**Going out:** a review blog post (affiliate) about Pebblebrook Tea Co. Date and audience aren't stated. The market is UK.\n\n**Checks**\n- **Claims:**\n  - \"Easiest to pause\" is the reviewer's own comparison. It is consistent with the policy line \"subscribers can pause or cancel any time\", so I'm leaving it. It only holds if the author really did try four subscriptions and compare them, so please confirm that.\n  - \"The tins are lovely\" is opinion, which is fine.\n  - There are no invented stats, guarantees or health, green or urgency claims.\n- **Regulated claims:** nothing in the post touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** it reads as a natural first-person voice, with no AI tells and no banned phrases.\n- **Disclosure: fails.**\n  - The only disclosure is a footnote at the very end (\"*I may earn a small commission.\").\n  - UK rules (ASA/CAP and CMA) expect a clear label before the reader engages, in plain words, and a footnote after the link doesn't meet that.\n  - \"I may earn\" is also hedged, when the policy treats it as definite.\n\n**Fixed (suggested rewrite, not yet approved):**\n> *Affiliate link: I earn a commission if you buy through links in this post.*\n>\n> I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it here (affiliate link).\n\nI removed the asterisk and footnote and moved the disclosure to the top. I also labelled the link itself.\n\n**Needs a decision**\n1. Did the author get any free product, a discount or payment beyond commission? If so, add \"gifted\" or \"paid partnership\" wording to the label.\n2. Confirm the author did try four subscriptions and found Pebblebrook the easiest to pause. If not, cut that comparison.\n\n**Approver:** the policy names no approver, so the user (the account holder's account owner) must give an explicit yes to the final wording before it publishes. Nothing has been approved, so it should not go out as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.019387300000000003,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

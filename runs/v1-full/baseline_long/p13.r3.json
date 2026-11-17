@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3054e9b9b5e454e7a27c344f1135d78ddc04ea673ea3a4e3a1ae62f5a126ecf4",
+ "result": "**Review: gifted creator post**\n\n**Claims:** \"The rooibos chai is lovely with oat milk\" is personal opinion, clearly framed as such. No health, green, superlative or numeric claims. \"Winter sampler\" is a product fact, fine to use.\n\n**Disclosure:** The product was gifted (\"sent me their winter sampler\"). Policy section 4 requires the post to start with \"Gifted\" before anything else. The draft opens with \"Pebblebrook sent me...\", so the required label is missing. The line \"Not paid to say that\" is not a substitute; it's at the end and doesn't use the required wording. It's also a bit risky, as it could suggest there's no commercial relationship, when the free product is one.\n\n**Style:** Plain, warm, unhurried. No banned words or clichés. UK spelling fine.\n\n**Decision:** Hold. Fix: begin the post with \"Gifted\" (e.g. \"Gifted: Pebblebrook sent me their winter sampler...\") and consider dropping or rewording \"Not paid to say that, just liked it\" so it doesn't undercut the disclosure. Once the label is first, it can go out with Sam's approval.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007157999999999999,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

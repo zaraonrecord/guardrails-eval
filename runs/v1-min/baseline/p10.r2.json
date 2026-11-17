@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ee2063702eb36a493e785ea6dac9651da3defdab8859f624251548f6df938510",
+ "result": "**Review**\n\n- **Subject and opening:** \"A new green tea\" and \"We've added a Japanese sencha to the shop\" are plain new-arrival facts, which the policy allows as written.\n- **Product details:** \"Grassy and a little sweet\" and \"around 70 degrees\" are flavour and brewing facts, so they are fine.\n- **\"It's not just tea, it's a ritual.\":** This is the stock \"not just X, it's Y\" construction. It adds no information about the tea and reads as generic filler. I'd cut it or replace it with something specific, such as where the sencha comes from or what it tastes like.\n- **Claims check:** The draft makes no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency claims. Nothing in it needs the claims allowlist.\n- **Email footer:** The draft doesn't show an unsubscribe link or sender details. If your email platform adds these automatically, there's nothing to do. If not, add them, because UK marketing emails need them.\n\nThe draft should be revised before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008376699999999999,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

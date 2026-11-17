@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2fac34dcc1ebb02bb7d9b82594253a1472d9e97e0c1460a5f0c8ee251ff8e54e",
+ "result": "**Publish gate report**\n\n**Going out:** Creator post (gifted), UK. No time or audience was given.\n\n**Checks**\n- **Claims:** There are no numbers, rankings, guarantees, testimonials or comparisons. \"Lovely with oat milk\" is the creator's own opinion, and the winter sampler and rooibos chai are product facts for the product team to confirm. No evidence-log rows are needed.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. Pass.\n- **House style:** The tone is warm, plain and unhurried. It has no banned words and no AI tells. UK spelling is not tested by this text. Score is about 95, so no rewrite is needed.\n- **Disclosure:** Policy section 4 requires gifted posts to start with \"Gifted\", and this one does, before anything else. Pass. \"Not paid to say that\" is true as a statement about payment, and the gifting is disclosed first, so it doesn't hide the relationship.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved. Two optional notes:\n- Check that the rooibos chai is actually in the winter sampler, since I can't confirm that from the policy.\n- Use the platform's paid-partnership or branded-content tool as well, if one exists, as the disclosure check advises.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011167300000000002,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

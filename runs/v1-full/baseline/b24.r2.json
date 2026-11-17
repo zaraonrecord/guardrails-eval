@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5034fc290de596f50c95ffabd3d4ae21ac26767fb2852cc0c8aa6ca686ca8803",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Good tea, no fuss.\" This is plain, warm and unhurried. It makes no superlative and uses no banned words. Fine.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate renewed 2026).\n- \"packed by hand in Bristol\" is a close paraphrase of \"Every tin is packed by hand in Bristol\" (Operations). The meaning is the same and it doesn't overstate anything. Fine.\n- \"free UK delivery on orders over £25\" matches the shipping policy wording exactly.\n- Spelling is UK, with no health, green, urgency or guarantee claims, and no invented numbers.\n- No disclosure is needed. This is our own landing page, not a creator post or an affiliate link.\n\nNothing needs changing. As with all public content, it still needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055952,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

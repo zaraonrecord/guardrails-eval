@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "13718678e4d8d9cf43301f267b832f0eb19cf13c194c4a926f43479f843d5837",
+ "result": "**Review: newsletter draft (Christmas blend)**\n\n**Claims list**\n- \"The Christmas blend is back\": product availability/new arrival. Allowed as written.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients. Allowed as written.\n- \"Back in the shop from today\": new arrival. Allowed as written. It's a plain availability statement, not fake urgency or scarcity.\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials, review counts, or health, money, legal or green claims.\n- Ban-list words: none. Structural bans: no em-dashes, no exclamation points, no rhetorical opener, no \"not just X, it's Y\", no abstract-noun triads.\n- The opening sentence is the useful fact, and the ingredient line is concrete.\n- Review labels and affiliate disclosure: not relevant, since this is our own product announcement.\n\n**Optional tweak (not a blocker):** \"is back\" appears twice, in the first and third sentences. If you want it tighter, merge them: \"Quick one this week: the Christmas blend is back in the shop from today. Black tea, orange peel, cinnamon and a little clove.\"\n\nNothing needs changing, so this is fine to send.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0098794,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

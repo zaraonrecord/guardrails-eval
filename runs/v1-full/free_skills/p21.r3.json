@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3e3d5f2802e3fbe68cd7ed6e9018442c23a2ec7325a5d754fdb8ae0bd016630c",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"made with zero waste from farm to cup\" | Unsupported. \"Zero waste\" is explicitly banned in policy section 3 and isn't on the allowlist. |\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine. |\n| \"Deep green, gold lettering\" | Product fact, fine. |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free). |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording. |\n\n**Other checks**\n- Disclosure: own-account paid social, so no extra label needed.\n- Voice: no banned words, UK spelling fine, no exclamation marks or em-dashes.\n- Style: the last sentence repeats \"plastic-free\" from the sentence before. Keep the sharper one (the allowlisted wording) and cut the repetition.\n\n**Suggested compliant version**\n\n> New tins just landed for winter. Deep green with gold lettering, and inside, the same tea bags: plastic-free and home compostable.\n\nRemove the \"zero waste\" claim before publishing. If there is a specific, provable fact about the packaging or sourcing, send it with proof and it can go in instead.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073796999999999995,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "120ae24015ecbefa511e239999bd6aaa09e3fc7ac37401120e6aed653801ec2f",
+ "result": "**Review of the search ad**\n\nHeadline: \"Plastic-Free Tea Bags\" – supported by the allowlist (tea bags are plastic-free and home compostable). Fine.\n\nDescription, sentence 1: \"Our tea bags are plastic-free and home compostable.\" – an allowed claim, stated as written. Fine.\n\nDescription, sentence 2: \"Recommended by nutritionists.\" – This is not on the claims allowlist. It implies professional endorsement, which is an unsubstantiated testimonial/authority claim, and it also carries a health-adjacent implication. We have no record of any nutritionist recommending the product, so it must be removed or replaced with a backed claim (e.g. \"Certified organic by the Soil Association\" or \"Free UK delivery on orders over £25\").\n\nOther checks: no invented stats, superlatives, guarantees, urgency, or missing disclosures. The copy is short and not generic filler.\n\n**Verdict:** Do not publish as written. Remove \"Recommended by nutritionists.\"\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009424,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

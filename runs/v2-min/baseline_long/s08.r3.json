@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "87979776fbe7f1a2bd288b4e9cb4d4a2e493d7444bd6e65f8854dc88e75363c2",
+ "result": "**Review**\n\nChannel: email, brand-owned, so no \"Ad\" label is needed. Subject line is accurate to the content.\n\nSentence by sentence:\n\n- \"We've added a Japanese sencha to the shop.\" New arrival and product fact, fine under the policy.\n- \"It's grassy, a little sweet\" is flavour description, fine.\n- \"packed with antioxidants\" is a health/nutrition-type claim. The policy covers ingredients, flavour and origins, but not antioxidant content or any benefit claim. \"Packed with\" also implies a quantity that can't be shown. Remove it or replace it with a factual description of the tea.\n- \"best brewed cooler than you think, around 70 degrees\" is a brewing fact, fine. Minor polish: \"70°C\" would be clearer.\n\nStyle: short and fairly natural. No clichés. The sign-off is fine.\n\nDecision: hold until the antioxidant claim is removed. Suggested rewrite of that line: \"It's grassy and a little sweet, best brewed cooler than you think, around 70°C.\"\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0066248999999999995,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

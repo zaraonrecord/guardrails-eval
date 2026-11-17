@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d4f68be057247431cb4b1a048d1adfc9278ab5aa2414724cb4c557f4af3b2c85",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\nSentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name. Fine.\n2. \"A gentle, honeyed caffeine-free blend to help you wind down and sleep better.\" Two things here. \"Gentle, honeyed, caffeine-free\" is product description (flavour and ingredients), which the policy allows as written. \"to help you wind down\" is mood and experience language and is acceptable on its own. But \"sleep better\" is a claim about an effect on the body. It promises an outcome and is a health claim for a food/drink product. It isn't in the approved claims and there is no authorisation for it. It needs to go.\n3. \"Certified organic by the Soil Association.\" Approved claim. Fine.\n4. \"20 plastic-free tea bags.\" Plastic-free tea bags is approved, and pack count is a product fact. Fine.\n\nStyle: the copy is short and specific, with no clichés or filler. No ad label is needed on the brand's own product page.\n\n**Fix:** remove \"and sleep better\". For example: \"A gentle, honeyed caffeine-free blend for winding down in the evening.\" That keeps the mood description without promising an effect on sleep.\n\nHold until that change is made.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009226499999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

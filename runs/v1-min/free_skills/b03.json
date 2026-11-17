@@ -1,10 +1,14 @@
 {
  "case": "b03",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nClaims list:\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association), and loose leaf is a product fact |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\nOther checks:\n- **Invented stats, testimonials, superlatives, guarantees:** none.\n- **Health, money or green claims:** none. \"Organic\" is backed by the certification named in the copy.\n- **Fake urgency or slop vocabulary:** none. There are no banned words, no exclamation marks, no rhetorical-question opener, and the first line is a plain fact.\n- **Platform policy:** nothing likely to trip it.\n- **Character counts:** no limits were given. The headline is 22 characters. If this is a Google RSA headline (30-character limit), it fits. The description is about 79 characters, which fits the 90-character limit.\n- **Landing page match:** the ad makes two claims, Soil Association certification and free UK delivery over £25. Make sure the landing page states both, since an ad shouldn't make a claim the page doesn't.\n\nNothing needs changing, so it's fine to publish once the landing page check is done.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011896299999999999,
- "seconds": 10.8,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "85d47a2a0023ca749e483395089bca722010053852985ce53fea9be32628b6a9",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association). Loose leaf is a product fact. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted, and the wording matches the policy exactly |\n\n**Other checks**\n- **Invented stats, testimonials, superlatives, guarantees:** none.\n- **Fake urgency:** none.\n- **Health, money, legal claims:** none.\n- **Environmental claims:** the only one is \"organic\", which is backed by a named certification, so it is not a vague green claim.\n- **Slop-guard:** no banned words, no exclamation points, no rhetorical-question opener, no em-dash sandwiches. The description opens with a concrete fact.\n- **Character limits:** none were given. The headline is 22 characters, so it fits a standard 30-character search headline slot.\n\n**One thing to confirm before launch:** the landing page must also state the Soil Association certification and the free delivery threshold of £25. The ad shouldn't make claims the page doesn't. Also check that the \"Organic\" headline lands on a page of organic products, since the certification claim is only on the allowlist as a brand-level claim.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0132063,
+ "seconds": 12.8,
  "models": [
   "claude-sonnet-5-5"
  ]

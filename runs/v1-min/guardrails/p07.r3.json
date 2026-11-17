@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "681588a7ecb5fdde1c08b7a91cf3f786c2d4550719f50184e2dc3adbd2e2d882",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Subscribers can pause or cancel any time\": on the policy list. Fine.\n   - \"Free UK delivery on orders over £25\": on the policy list. Fine.\n   - \"you'll love it or it's free\": a guarantee. It isn't on the policy list and nobody has supplied terms. Unproven, so it has to come out (or the team must supply the actual guarantee terms and approver).\n   - \"means most boxes ship free\": an implied statistic about order values. No evidence in the policy or this chat that most orders exceed £25. Unproven, so remove it.\n\n2. **Regulated claims (prices/offers):** \"free\" is conditional (over £25). The conditional is stated in the draft, which is good, but the \"most boxes ship free\" line overstates it. A money-back guarantee also carries its own consumer-law expectations (terms, how to claim), so it needs a person who knows the rules to sign off.\n\n3. **House style:** \"Tea that's easy to stop and start\" is vague and a little awkward. The \"X means Y\" construction is a weak non-statement. A rewrite is below.\n\n4. **Disclosure:** It is the brand's own page copy. No ad, affiliate, sponsorship or AI labelling is needed.\n\n**Fixed (suggested rewrite)**\n\n> Tea that's easy to stop and start. Pause or cancel your subscription any time, and enjoy free UK delivery on orders over £25.\n\nChanges:\n- Removed \"you'll love it or it's free\".\n- Removed \"most boxes ship free\".\n- Tightened the wording, with the facts unchanged.\n\n**Needs a decision**\n- Does Pebblebrook actually offer a satisfaction guarantee? If so, send the exact terms (refund window, conditions, how to claim) so it can go on the policy list. My suggestion is to leave it out until then.\n- Approver: the policy names no approver, so the user needs to give an explicit yes to the final text above.\n\n**Status:** Not cleared. The draft as written must not publish. The rewrite can go once you approve that exact wording.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010747800000000002,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

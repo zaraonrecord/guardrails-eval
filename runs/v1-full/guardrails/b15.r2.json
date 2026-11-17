@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9a6535f01f4fa31d5f4d211cb1a9eb84049e2d5e7d5508cf6a20e5716b5992fd",
+ "result": "## Publish gate report\n\n**Going out:** a three-sentence affiliate review on the review blog. No date or audience was given.\n\n**Claims:**\n| Claim | Status |\n|---|---|\n| \"I've tried four tea subscriptions this year.\" | The reviewer's own experience, not a brand claim. I can't verify it, so it's worth confirming with the reviewer. |\n| \"Pebblebrook's was the easiest to pause\" | A first-person opinion that is consistent with the policy row \"Subscribers can pause or cancel any time\". It makes no claim beyond that. |\n| \"the tins are lovely\" | Opinion, no claim. |\n\nThere are no invented stats, guarantees, health or green claims, urgency, or unproven superlatives such as \"best\".\n\n**Regulated claims:** none apply. The draft says nothing about health, money, the environment, children or prices.\n\n**House style:** the draft is warm, plain and unhurried. It has no banned words and no AI tells, and it scores about 95/100. I changed nothing.\n\n**Disclosure:** policy section 4 requires \"Affiliate link\" next to the link, and the draft has it right beside \"here\". The post is short and the link sits in the last sentence, so the label is visible before the reader would click. I'm not asking for a change. If the reviewer was gifted the subscription or paid, the post would also need to open with \"Gifted\" or \"Ad\", so please confirm that with them. Nothing in the draft suggests it.\n\n**Fixed:** nothing needed fixing.\n\n**Needs a decision:**\n- Confirm with the reviewer that they received no gift or payment beyond affiliate commission. If they did, the post needs \"Gifted\" or \"Ad\" as its first word.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0163436,
+ "seconds": 17.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

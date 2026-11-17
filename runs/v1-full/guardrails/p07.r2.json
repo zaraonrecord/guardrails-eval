@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "72f825bd1daae113d3d433ec42dae615d177907d7d0c34fc16116db61941f8ae",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | Not allowed. Policy section 3 bans this guarantee and says we have no such offer. Remove. |\n| \"Subscribers can pause or cancel any time\" | On the policy list (Subscription terms). Fine. |\n| \"free UK delivery on orders over £25\" | On the policy list (Shipping policy). Fine. |\n| \"most boxes ship free\" | Unproven. We have no data on order sizes, so this implies a share of orders we can't back up. Remove. |\n| \"Tea that's easy to stop and start\" | Fine, it's a plain paraphrase of the pause/cancel term. |\n\n**Regulated claims:** The guarantee and the \"most boxes ship free\" line both touch price/offer wording. The guarantee is an offer that doesn't exist, so it can't go out. No health, environment or children's content.\n\n**House style:** No banned words. The copy is a bit clunky (\"easy to stop and start, and...\") and the sentence runs two ideas together. I've rewritten it to be warmer and plainer.\n\n**Disclosure:** Our own landing page, no creators, affiliates or AI-labelling issues. Pass.\n\n**Fixed (suggested rewrite):**\n> Tea that's easy to stop and start. Pause or cancel your subscription any time, and delivery is free in the UK on orders over £25.\n\n**Needs a decision:** None, if you accept the rewrite. If the team wants a guarantee, it would need a real offer added to the policy first.\n\n**Approver:** Sam (marketing lead). Nothing is published until Sam gives an explicit yes to the exact rewritten text above.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009557999999999999,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

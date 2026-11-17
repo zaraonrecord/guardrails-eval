@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d90adb1eafc55a2f75179719a8186371a5e518f898d4152e5bd740d46cc16eaa",
+ "result": "**Review: no changes needed.**\n\n**Claims check**\n- \"visited the garden in Darjeeling that grows our first flush\": origin and sourcing fact, allowed as written.\n- \"picked in March\": product fact (origin and harvest), allowed.\n- \"bright and floral\": flavour description, allowed.\n- \"in the shop from Monday\": new arrival, allowed. It's a real release date, not fake urgency.\n\nThere are no numbers, superlatives, guarantees, testimonials, health claims or green claims.\n\n**Slop check**\n- No banned words.\n- No em-dash asides, exclamation points, rhetorical openers or abstract-noun triads.\n- The opening sentence gives a concrete fact.\n\n**Reviews and disclosure:** this is a newsletter announcement, not a product review. It has no affiliate or sponsored content, so nothing needs disclosing.\n\nOne note for you, not a blocker: the draft says \"Monday\" without a date. For a newsletter that may be read days later, confirm the send date makes \"Monday\" unambiguous, or use the date itself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087501,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

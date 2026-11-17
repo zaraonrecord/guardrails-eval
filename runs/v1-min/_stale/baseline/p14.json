@@ -1,0 +1,11 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the affiliate blog draft**\n\n**Needs changing**\n- **Missing affiliate disclosure.** \"You can find it here\" is presumably an affiliate link, but nothing tells the reader the author earns a commission. In the UK, the CMA and ASA require this to be clear and upfront, for example \"Ad\" or \"Affiliate link: I earn a commission if you buy\" at the top, before the reader reaches the link. A small note in the footer isn't enough.\n\n**Checked and fine**\n- \"Easiest to pause\" matches our backable claim that subscribers can pause or cancel any time. It's also framed as the author's own comparison. It's fine as long as the author really did try four subscriptions and compare them. I can't verify that, so please confirm it with the author. Don't present it as a factual ranking of competitors.\n- \"The tins are lovely\" is a subjective opinion about the product, so it's fine.\n- The draft has no invented stats, guarantees, health claims, green claims, or false urgency.\n\n**Suggested fix:** Add a disclosure at the start, for example: \"Ad: this post contains affiliate links, so I may earn a commission if you buy through them, at no extra cost to you.\"\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013792,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

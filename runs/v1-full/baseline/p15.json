@@ -1,10 +1,14 @@
 {
  "case": "p15",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of landing hero draft**\n\n1. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlisted claim word for word. No change needed.\n\n2. **\"The finest organic...\"** \"Finest\" is a superlative we can't prove and is on the never-say list. Also, \"organic\" is only allowed as \"Certified organic by the Soil Association\" per the claims table. Used loosely here, it drops the certifier. I'd flag \"finest\" as the clear problem. The organic wording is a softer point: the safest fix is to use the exact approved phrase.\n\n3. **\"eco-friendly bags\"** \"Eco-friendly\" as a general claim is banned. The approved wording is \"Our tea bags are plastic-free and home compostable\" (EN 13432 certificate).\n\n4. **\"packed by hand in Bristol\"** The approved claim is \"Every tin is packed by hand in Bristol.\" The draft's meaning is consistent with it, so I'm not flagging it.\n\n5. Voice and spelling: no banned phrases, UK spelling is fine. It reads a bit like a stacked list rather than warm and unhurried, but that's a style note, not a blocker.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association, with plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nNeeds Sam's approval before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.0081302,
- "seconds": 13.1,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fe67a1a2d26772df21686b0488c2d95f3c02b73690a693601fb74c262d514f67",
+ "result": "Review of the landing hero draft:\n\n1. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlist wording exactly (review export, October 2026). Fine.\n\n2. **\"The finest organic loose leaf\"** has two problems:\n   - \"Finest\" is a superlative we can't prove, and it's on the never-say list.\n   - \"Organic\" is only allowed in the form \"Certified organic by the Soil Association\". Used loosely, it drifts from the approved wording. Suggest using the exact claim.\n\n3. **\"eco-friendly bags\"** is a general environmental claim, which is not allowed. The approved wording is \"Our tea bags are plastic-free and home compostable.\"\n\n4. **\"packed by hand in Bristol\"** is close to the approved \"Every tin is packed by hand in Bristol.\" It's fine in substance, though using the exact wording is safer.\n\n5. Voice and spelling: no banned words, and UK spelling is fine. The sentence is a bit clipped, but that's a style point and doesn't block anything.\n\n**Suggested rewrite:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf, and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nBecause the draft has a superlative and a general green claim, it shouldn't go out as written. Sam needs to approve the revised version, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080182,
+ "seconds": 9.8,
  "models": [
   "claude-sonnet-5-5"
  ]

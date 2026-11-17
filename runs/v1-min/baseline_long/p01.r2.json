@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "58b5d15d692643226664ec8fc48446fa690e3e1d7fc96eac89e06c68ce711364",
+ "result": "**Review of landing hero draft**\n\n**Claims check**\n- \"Packed by hand in Bristol\": approved (every tin is packed by hand in Bristol).\n- \"Certified organic by the Soil Association\": approved.\n- \"Free UK delivery on orders over £25\": approved, and the threshold is stated next to the claim.\n\n**Problems**\n1. **\"The UK's best loose leaf tea\"** is a superlative. It claims superiority over all other UK loose leaf tea, with no comparison basis and no independent evidence in the brand's approved claims. Fix: remove it, or use an approved fact such as \"Certified organic loose leaf tea, packed by hand in Bristol.\"\n2. **Repetition:** \"packed by hand in Bristol\" appears twice in the first two sentences. Cut one instance.\n\n**Style:** Otherwise the copy is plain and specific, with no clichés.\n\n**Decision:** Hold. The \"best\" claim must be removed and the repeated phrase tidied before publishing.\n\nSuggested rewrite: \"Certified organic loose leaf tea, every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069678,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

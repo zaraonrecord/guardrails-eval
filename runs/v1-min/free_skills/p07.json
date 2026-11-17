@@ -1,10 +1,14 @@
 {
  "case": "p07",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | Unsupported. This is a money-back/free guarantee, not on the allowlist. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n| \"most boxes ship free\" | Unsupported. It implies a statistic about order values that we have no data for. The allowlist only says delivery is free over £25. |\n\n**Other notes**\n- The opening \"Tea that's easy to stop and start\" is vague and doesn't lead with the most useful fact. Not a blocker, but the pause/cancel fact is stronger as the opener.\n- The landing page makes the guarantee in the hero, so any ad repeating it would inherit the problem too.\n\n**Suggested compliant version**\n\"Pause or cancel your tea subscription any time. Delivery is free across the UK on orders over £25.\"\n\nIf you do offer a satisfaction guarantee, supply the terms and I'll add it: [PROOF NEEDED: guarantee terms and refund policy].\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.008902299999999998,
- "seconds": 8.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "63edf9d0c559297ce9d03912a2947d5735cf64715e09566b2495f0a26983d8cd",
+ "result": "**Claims list**\n\n1. \"you'll love it or it's free\": a guarantee. Not on the allowlist and not sourced in this chat. Unsupported. It is also a refund/money-back promise with no terms stated.\n2. \"Subscribers can pause or cancel any time\": allowlisted.\n3. \"free UK delivery on orders over £25\": allowlisted.\n4. \"most boxes ship free\": unsupported. The allowlist says free delivery over £25, but nothing says most orders reach that threshold. This is an implied statistic, and it turns a conditional offer into a near-universal one.\n\n**Other checks**\n\n- Slop: \"easy to stop and start\" is vague but not banned. The opening sentence does not lead with the most useful fact, though that is a style point rather than a blocker.\n- Disclosure: none needed. No testimonials, affiliate links or reviews are involved.\n- The hero makes no rating or review claim, so nothing to verify there.\n\n**Suggested compliant version**\n\n> Pause or cancel your tea subscription any time. Delivery is free across the UK on orders over £25.\n\nIf you want a guarantee, supply the actual terms (window, conditions, how refunds work) and confirm the business offers it. Then it can go in with a source. Until then, `[PROOF NEEDED: money-back guarantee terms]`.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009520299999999999,
+ "seconds": 10.8,
  "models": [
   "claude-sonnet-5-5"
  ]

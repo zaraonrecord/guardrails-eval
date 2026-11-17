@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e54ee86116d3a7a036c93253ab3999ffff9e1a2c1393d607a2a7667beb3b5c73",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"small team of six\" | Team size is listed as fine as written (product facts include team size) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"Over 98% of our customers rate us five stars\" | Unsupported. The allowlist says 4.8 out of 5 from over 1,200 reviews. A 98% five-star figure is a different statistic and would be inconsistent with a 4.8 average. |\n| \"we buy from gardens we've visited\" | Unsupported. Not on the allowlist, and it is a sourcing claim that implies verified, visited suppliers. It is not a product fact. |\n\n**Issues**\n\n1. **\"Over 98% of our customers rate us five stars\"**: an invented stat. Replace with the backed claim: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n2. **\"we buy from gardens we've visited\"**: an unsupported sourcing claim. Either supply proof (which gardens, who visited, when) or cut it. If you can confirm it, add it to the allowlist and I'll keep it. For now: `[PROOF NEEDED: which gardens you buy from and that the team has visited them]`.\n\n**Suggested compliant version**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Rated 4.8 out of 5 from over 1,200 reviews on our website. [PROOF NEEDED: gardens you buy from and have visited]\n\nDon't publish as is.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008883700000000001,
+ "seconds": 16.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

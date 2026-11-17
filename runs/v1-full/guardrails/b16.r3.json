@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "29bfb1dfc6a244f251cac004309c8eaea1aabd4d7707d6e9f46c1643a1503c29",
+ "result": "# Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co. (UK). No date or audience was given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list, word for word (review export, October 2026) |\n| Organic | Backed by \"Certified organic by the Soil Association\" (certificate renewed 2026) |\n| Plastic-free bags | Backed by \"plastic-free and home compostable\" (EN 13432 certificate) |\n| Packed by hand in Bristol | Backed by \"Every tin is packed by hand in Bristol\" (Operations) |\n\n**Other checks**\n- **Regulated claims:** No health, money, environmental-beyond-policy, children, price or urgency language.\n- **House style:** About 95/100. The copy is plain and warm, with no banned words and no AI tells. UK spelling is fine.\n- **Disclosure:** Nothing needed. This is the brand's own page, with no partnership, affiliate link or AI-label trigger.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision (optional):** The policy backs \"packed by hand\" for tins. In the draft it could be read as covering the tea bags too. If the bags aren't hand-packed in Bristol, change it to \"Loose leaf tea packed by hand in Bristol\". If they are, ask Operations to add that to the policy. I haven't treated this as a blocker.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, and nothing should go live until Sam says yes to this exact text.\n\n**Evidence log rows (2026-11-17, landing hero):**\n- Rated 4.8 out of 5 from over 1,200 reviews on our website | on policy list | review platform export, Oct 2026\n- Organic | on policy list | Soil Association certificate, 2026\n- Plastic-free bags | on policy list | EN 13432 supplier certificate\n- Packed by hand in Bristol | on policy list (tins only) | Operations\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.016265300000000003,
+ "seconds": 19.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

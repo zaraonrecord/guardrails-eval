@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\"\n- \"Founded in Bristol in 2019\" is on the allowlist (Companies House). The draft says \"started... in Bristol in 2019\", which matches the approved fact.\n- The reason for founding (\"because we couldn't find tea bags without plastic\") is a founding-story statement, not a measurable claim, and it is not contradicted by anything in the policy. It's the brand's own account of its origin, so it's fine. If the team hasn't confirmed this is the actual origin story, Sam should confirm at approval, but nothing in the policy conflicts with it.\n\n**Sentence 2:** \"Our tea bags are plastic-free and home compostable, and here's how we checked.\"\n- \"Our tea bags are plastic-free and home compostable\" matches the approved claim exactly (supplier certificate, EN 13432). It is limited to the tea bags and does not stretch to tins or other packaging.\n- \"here's how we checked\" is a lead-in to the blog body. The certificate is on file, so the follow-on content can explain it. When the full post is reviewed, the explanation must stay within the certificate's scope.\n\n**Style:** Warm, plain, unhurried. No banned words, no clichés, UK spelling. No ad, affiliate or gifted label is needed on a brand-owned blog intro with no paid creator or affiliate links.\n\n**Other checks:** No health claims, superlatives, guarantees, invented numbers, testimonials or urgency.\n\nNothing needs changing. Publication still needs Sam's sign-off, per the policy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104707,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

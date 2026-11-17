@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "13718678e4d8d9cf43301f267b832f0eb19cf13c194c4a926f43479f843d5837",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims list**\n- \"the Christmas blend is back\": product/new-arrival fact, fine as written per the brand policy.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients, fine as written.\n- \"back in the shop from today\": availability/new-arrival fact, fine. It's a plain statement of timing, not scarcity or a countdown.\n\n**Checks**\n- Numbers, comparisons, superlatives, guarantees: none.\n- Testimonials, reviews, awards: none.\n- Health, money, legal or environmental claims: none.\n- Ban-list words and structural bans (em-dashes, exclamation points, rhetorical openers, \"not just X, it's Y\", abstract triads): none.\n- Opening sentence: it leads with the news, so it earns its place.\n- Review/affiliate rules: this isn't a review or roundup, and there are no affiliate links or sponsorships, so no disclosure is needed.\n\nOne optional note: the draft has no link or call to action. That's a style choice rather than a compliance problem, so I haven't flagged it as an issue. Also, \"from today\" will read oddly if the newsletter is opened days after sending, so check the send date matches.\n\nNothing needs changing before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085534,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

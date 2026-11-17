@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "676210de2fc9497d82a34195dc612685cf3329bdb1349290650f0ed41ece91bb",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"packed by hand in Bristol\"** matches \"every tin is packed by hand in Bristol.\"\n- **\"free UK delivery on orders over £25\"** matches the allowlist exactly, including the threshold.\n- **\"Brewed with care. Packed with love. Delivered with a smile.\"** is a warm, generic tagline. It makes no checkable claim, such as a statistic, guarantee, health benefit, or comparison. It's a bit stock, but it's a normal hero line and not slop that should block publication. If you want something more distinctive, you could lead with the Bristol and hand-packed detail.\n\nThere are no invented stats, superlatives, guarantees, testimonials, health or green claims, or false urgency, and no disclosure is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011188,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

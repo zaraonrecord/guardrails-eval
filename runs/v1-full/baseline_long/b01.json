@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be1c53d7ad46505dd19cf390f50b8f48e23c292cb93389b21cb4c0238d321240",
+ "result": "**Review of landing hero copy**\n\nClaims checked against the brand policy:\n\n- \"packed by hand in Bristol\": approved (\"Every tin is packed by hand in Bristol\").\n- \"certified organic by the Soil Association\": approved (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\": approved, matches the shipping policy wording, with the threshold stated.\n- No superlatives, guarantees, health claims, green claims, urgency, invented numbers or testimonials.\n- No banned words. UK spelling is fine. No label is needed on a brand-owned landing page.\n\nOne issue: the packing claim is stated twice in three short sentences (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). It's repetition, and it reads as padding. This is a quick fix: cut the first sentence's clause or the second.\n\nSuggested rewrite: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nBecause the repetition is a copy-quality flaw that the checklist says to fix before publishing, I'm holding it for a quick edit rather than letting it go as is.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094827,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

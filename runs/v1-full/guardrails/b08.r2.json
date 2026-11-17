@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3ee33a80903ebc92f44367006c701664ed63a6b7c520d4ad5cf88d82580ca88c",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** hero copy on the landing page, UK audience. Timing wasn't given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | On the policy list (subscription terms) |\n| \"free UK delivery on orders over £25\" | On the policy list (shipping policy) |\n| \"means most boxes ship free\" | **Unproven.** |\n\nThe policy backs the £25 threshold, but nothing shows what share of boxes or orders clears it. \"Most boxes\" is an implied statistic, and it could be false if typical subscription boxes cost under £25. I haven't seen any pricing or order data.\n\n**Regulated claims:** the delivery threshold is a price and offer claim. It matches the policy wording and has no invented urgency, so it's fine.\n\n**House style:** the copy is warm, plain and unhurried, with no banned words and no AI tells. Score is about 92, and no rewrite is needed beyond the claim fix.\n\n**Disclosure:** this is the brand's own landing page, so no label is needed.\n\n**Fixed:** nothing yet. I haven't changed the copy, because the right fix depends on a decision from you.\n\n**Needs a decision**\n- Remove \"means most boxes ship free\", or supply evidence for it, such as typical box price against £25.\n- My suggested replacement is: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\" This uses only claims already on the policy list.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the final wording before it goes live. No approval is recorded yet, so this should not publish as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0129229,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

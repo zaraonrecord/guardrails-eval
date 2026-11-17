@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "426f51e364850d6fa140a4d9dd59d4d339ec615f8aee0b3ca652336af581e4cc",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post on the brand's own account, no timing given.\n\n**Checks**\n- **Claims:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy's allowlist word for word, including the \"on our website\" qualifier. The bergamot oil and cornflower line is an ingredient fact, which the policy allows as written. Nothing is invented or inflated.\n- **Regulated claims:** The draft makes no health, money, legal, environmental, children or price claims.\n- **House style:** The copy is plain and specific, with no stock openers, banned phrasing or AI tells. The policy has no voice section, so I couldn't score it against a reference voice. It reads naturally.\n- **Disclosure:** This is the brand's own product on its own account, so there's no paid partnership, affiliate link, gifted item or AI-generated content to label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. If you have a recent review-count check, confirm the \"over 1,200\" figure is still current. The policy doesn't give a review date for it.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact text before it goes live. Nothing has been approved or posted yet.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101803,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

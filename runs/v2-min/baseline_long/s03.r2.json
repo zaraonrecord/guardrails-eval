@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "31364bbf5294eebe1cee92894aa8b24112e21c910770ed655bdd831a446b9d7c",
+ "result": "**Review: Assam Breakfast product page**\n\nSentence by sentence:\n\n1. \"Assam Breakfast.\" Product name, fine.\n2. \"A malty, full-bodied black tea\" Flavour description, allowed as product fact.\n3. \"noticeably smoother than supermarket tea bags\" This is a comparison against an unnamed category (supermarket tea bags). It's presented as fact, not opinion, and there is no like-for-like evidence in the brand's approved claims. \"Noticeably\" also promises an outcome the reader will experience. Unsupported comparison. Fix: remove, or describe the tea itself, e.g. \"a smooth, malty black tea\" only if you're comfortable with it as flavour description, or just \"malty and full-bodied\".\n4. \"Certified organic by the Soil Association.\" On the allowlist, fine.\n5. \"100g tin, makes around 40 cups.\" Size is a product fact, and \"around 40 cups\" is a brewing/serving fact, so it's fine as written.\n\nNo health, green, urgency, guarantee, pricing or disclosure issues. Style is clean with no clichés.\n\nOne fix needed, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088805,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

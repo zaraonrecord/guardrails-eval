@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "bf0bde7bc87507aa29a1886e450b010df5126d958b67b5447429c6402a7c1c3b",
+ "result": "I checked each sentence against the brand policy.\n\n- **\"Just peppermint leaves, nothing else.\"** This is a product fact about ingredients, so it's fine as written.\n- **\"Cool, clean\"** These are flavour descriptions and are fine.\n- **\"gentle on your stomach after a big meal\"** This is a digestive health claim. The policy doesn't allow it, and it implies the tea has a benefit for digestion. It should be removed or rewritten as something like \"a refreshing cup after a big meal\", which describes the experience without promising a bodily effect.\n- **\"Certified organic by the Soil Association.\"** The policy backs this claim, so it can stay.\n\nThere are no invented stats, superlatives, guarantees, fake testimonials, urgency tactics or green claims. The copy is short and reads naturally.\n\nOne thing to check: the draft doesn't mention anything that needs a disclosure, so I don't see a missing label.\n\nFix the health claim before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0059854999999999995,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3054e9b9b5e454e7a27c344f1135d78ddc04ea673ea3a4e3a1ae62f5a126ecf4",
+ "result": "**Review: gifted creator post**\n\n**Claims:** \"The rooibos chai is lovely with oat milk\" is personal opinion and serving description, not a health or superiority claim. Fine. No numbers, guarantees, green claims, urgency or health language.\n\n**Disclosure:** The policy requires a gifted post to start with \"Gifted\" before anything else. The draft opens \"Pebblebrook sent me their winter sampler\", which mentions the gift but is not the required label. \"Not paid to say that, just liked it\" is a disclaimer, not a label, and it sits at the end. Needs \"Gifted\" as the first word.\n\n**Voice:** Warm, plain, unhurried, UK-friendly. No banned words or clichés. Good.\n\n**Fix:** Start with \"Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.\"\n\nHold until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006482,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

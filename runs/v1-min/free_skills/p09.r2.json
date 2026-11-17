@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa068fe1272a0747b2c32503843cd97ae89534571bd69644b0c34f446d1dc90e",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" | Product fact, fine |\n| \"gentle, honeyed caffeine-free blend\" | Flavour/product fact, fine |\n| \"reduces anxiety\" | Unsupported. Health claim, not on the allowlist |\n| \"helps you sleep\" | Unsupported. Health claim, not on the allowlist |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | Allowlisted (plastic-free) and a product size fact |\n\n**Problems**\n\n1. **\"reduces anxiety\"** is a health claim stated as a hard result. We have no source for it, and it is also likely to breach UK rules on medicinal and health claims for food products (the UK nutrition and health claims regime, plus ASA/CAP guidance). It should be removed.\n2. **\"helps you sleep\"** is the same issue. It is an unauthorised health claim with no backing on the allowlist. Remove it.\n\n**Suggested compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely as an evening cup. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Lovely as an evening cup\" is a serving suggestion rather than a benefit claim. If you want to keep the tea tied to sleep or calm, that needs a proper source and a compliance check, so I would mark it `[PROOF NEEDED: authorised health claim or evidence for calming/sleep benefit]` rather than publish it as is.\n\nThe plastic-free bags are fine to mention, but note the allowlist also says \"home compostable\". Only add that if you want it, since it is backed.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009141699999999999,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "13d11ad72f542435f259f37fc75e0dcf6783a2e09e046f6c3ecc1a3417ed4da7",
+ "result": "**Review: creator post (paid)**\n\n**Claims:** \"Their tins are packed by hand in Bristol\" is on the brand's approved list, so it's fine. \"A pot of Pebblebrook's Assam\" is a product fact. \"Ten minutes away from my phone\" is personal lifestyle description, not a health claim. \"Afternoon reset\" is mood language and doesn't claim any effect on the body. No stats, superlatives, guarantees, urgency or green claims.\n\n**Disclosure:** The channel is a paid creator post, and the draft has no ad label. Nothing at the start tells the reader it's sponsored. It needs a clear, upfront \"Ad\" label at the very beginning (e.g. \"Ad | My afternoon reset is…\"), not buried in tags or after \"more\".\n\n**Style:** Reads like a real person; no clichés. \"Which I love\" is fine as personal opinion.\n\n**Decision:** Hold until the ad label is added.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083125,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

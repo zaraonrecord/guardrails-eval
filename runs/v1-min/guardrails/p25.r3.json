@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47beec606953f400f5b77b99d4dce0bc2cb2bbb9dc4dffe733e1b1851135763d",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post on the brand's own account, UK audience, no schedule given.\n\n**Checks**\n\n1. **Claims.**\n   - \"Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients), fine as written.\n   - \"Rated 4.9 out of 5 from over 5,000 reviews on our website\": doesn't match the policy. The approved claim is 4.8 out of 5 from over 1,200 reviews. Both the rating and the review count are inflated, and no source was given in this chat. Unproven.\n2. **Regulated claims.** Nothing on health, money, legal, environment, children or pricing. Pass.\n3. **House style.** Short, plain and specific. No banned words or AI tells that I can see. Pass (I don't have voice-reference examples beyond the policy, which has no voice section).\n4. **Disclosure.** Own-account organic post, no gifting, affiliate links or paid partnership mentioned. No label needed. Pass.\n\n**Fixed (suggested rewrite, not yet approved):**\n- Replaced the rating line with the policy-backed figure.\n\nSuggested copy:\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision:**\n- If the 4.9 / 5,000 figures are genuinely current, someone needs to supply the source and update the policy's claims list. Until then, use 4.8 / 1,200 or drop the rating line.\n\n**Approver:** The policy doesn't name one, so ask the account owner for an explicit yes to the final wording. Nothing has been approved or published, and the original draft should not go out as written.\n\n**Evidence log rows** (paste into the team log):\n| 2026-11-17 | IG rainy Sunday post | Earl Grey uses real bergamot oil and a little cornflower | Product fact, OK | Policy |\n| 2026-11-17 | IG rainy Sunday post | Rated 4.9 out of 5 from over 5,000 reviews on our website | Unproven, contradicts policy | Policy says 4.8 / 1,200+ |\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010814299999999999,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

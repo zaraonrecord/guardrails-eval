@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "76ce4b201c4add52740b65c1fdfd64ee2f537b889f8da1bc68663ee7da9924cd",
+ "result": "**Publish gate report**\n\n**Going out:** product page copy for Chamomile and Lemon Balm, UK, as a live page.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list, word for word (certificate renewed 2026) |\n| 20 plastic-free tea bags | \"Plastic-free\" is on the policy list. The bag count is a product fact for the product team to check |\n| Caffeine-free blend | Product fact (ingredients), fine as written |\n| Gentle, honeyed | Flavour description, fine |\n\n**Regulated claims:** \"for the evening\" only says when to drink it. It doesn't say the tea helps sleep, relaxes or calms, so it isn't a health claim. If someone later adds \"helps you unwind\" or \"promotes sleep\", that would break policy section 3. There are no price, urgency, environmental-beyond-policy or children's claims.\n\n**House style:** The copy is warm, plain and unhurried. It uses no banned words and none of the AI tells (stock openers, reversals, slogan closers). The score is about 92/100, so no rewrite is needed.\n\n**Disclosure:** None is needed. This is the brand's own product page, with no partnership, affiliate link or AI-labelled content.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing is unresolved. Please confirm the 20-bag count matches the product team's spec.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to this exact text. Once Sam has said yes, record it with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Chamomile and Lemon Balm product page copy\"`\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0124698,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

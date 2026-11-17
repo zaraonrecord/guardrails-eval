@@ -1,10 +1,14 @@
 {
  "case": "b12",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: social ad (own account)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy), exact wording |\n| \"Three teas\": Builder's, Earl Grey, peppermint | Product facts, fine as written |\n| \"for your desk drawer\" / \"a peppermint for after lunch\" | Occasion suggestions only. No digestive or other health benefit is implied. |\n\n**Checks**\n- **Superlatives, guarantees, invented numbers, testimonials:** none.\n- **Health claims:** none. \"After lunch\" is a serving moment, not a digestion claim.\n- **Green claims:** none.\n- **Urgency:** none.\n- **Banned words and structures:** none from the brand list or the slop list. There are no exclamation points, rhetorical-question openers or em-dash asides, and the voice is plain and warm with UK spelling.\n- **Disclosure:** a paid social ad from our own account is marked by the platform, so no extra label is needed.\n- **Landing page:** the ad makes the free delivery claim, so make sure the landing page states the same £25 threshold.\n- **Approval:** Sam (marketing lead) signs off on everything public.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0111325,
- "seconds": 9.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c5b54db1f33c777e85e671aa1e9e530236ea18e3cd25a6bc21a365e550b0845c",
+ "result": "**Review: social ad (own account)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, fine as written |\n| \"a peppermint for after lunch\" | Serving suggestion. It makes no digestive or other health claim, so it is fine |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health and green claims:** none. \"After lunch\" doesn't imply \"aids digestion\".\n- **Banned words and structures:** none. There are no exclamation marks, no rhetorical-question opener, no em-dash asides and no \"not just X, it's Y\".\n- **Disclosure:** this is paid social from our own account, which the platform marks, so no extra label is needed.\n- **Voice:** warm, plain and unhurried, with UK spelling.\n- **Landing page:** the ad's only hard claim is free delivery over £25. Make sure the landing page states the same threshold.\n- **Approval:** per the brand policy, Sam needs to sign off before it goes live, as with all public content.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010161899999999998,
+ "seconds": 10.4,
  "models": [
   "claude-sonnet-5-5"
  ]

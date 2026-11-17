@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1fa893e889b2ba5ee6a89f99b4eccc5db794efee6ac07468d3f8a87805b3a4f5",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, UK audience, no send time given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | On the policy list |\n| \"free UK delivery on orders over £25\" | On the policy list |\n| \"means most boxes ship free\" | **Unproven.** The policy backs the £25 threshold, but nothing shows that most orders or boxes clear it. This is an implied statistic. |\n\n**Regulated claims:** This touches delivery pricing, so the \"free\" condition (over £25) must stay visible. It does, but \"most boxes ship free\" blurs it.\n\n**House style:** No banned words or AI tells. The copy is plain and fine.\n\n**Disclosure:** None needed. It's the brand's own page copy, with no ad, affiliate or AI-label trigger.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nThis removes \"most boxes ship free\" and keeps the true condition.\n\n**Needs a decision:**\n- If you want to say most orders ship free, send me the order data (e.g. share of orders over £25) so it can be sourced and added to the policy. Otherwise use the rewrite above.\n- The policy names no approver, so please confirm who is signing off on the final wording.\n\n**Approver:** Not named in the policy. I need an explicit yes from you or your named person on the exact final copy before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011166700000000002,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

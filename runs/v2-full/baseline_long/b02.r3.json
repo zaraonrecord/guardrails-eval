@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f2d661fcf31b969a72a6de60479f3d1d0366202d6098b7b1cd6983ed87b226cb",
+ "result": "I went through the email sentence by sentence.\n\n- **Subject: \"Your October tins are on the way\"**: Matches the body, which says the box left this morning. It's a service notice, not a claim. One small point: today is 17 November, so \"October\" may be a stale month label. That's a send-timing question for the team rather than a copy problem, but worth a quick check that this isn't a delayed send.\n- **\"Your subscription box left Bristol this morning.\"**: Operational statement, not a marketing claim. Bristol is consistent with the brand's base.\n- **\"a smoky lapsang and a soft white peony\"**: Product description (flavour), covered as product facts checked by the product team.\n- **\"you can pause or cancel any time from your account\"**: Matches the approved claim \"Subscribers can pause or cancel any time\". \"From your account\" is a how-to detail, not an extra promise. No cancellation-ease claim is made beyond the approved wording.\n- **Voice**: Warm, plain, unhurried. No banned words, no clichés, UK spelling fine. No health, green, guarantee, urgency or superlative language. No ad or affiliate label is needed for a brand-owned transactional email.\n\nNothing here needs changing. The only note is the optional \"October\" timing check above.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070415,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5a1119bd2af9e956c64e5379d6b3a3f1394b9eaf354629efe03e7f98a6f1a301",
+ "result": "**Review of the blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" Founding year and location match the policy. The motive is brand story, not a checkable claim. Fine.\n\n2. \"Our tea bags are plastic-free and home compostable\" is on the approved list. Fine.\n\n3. \"and our whole business is carbon neutral.\" This is not in the approved claims. It is an environmental claim about the entire business, with no evidence, no explanation of how it was achieved (offsetting or reductions), and no scope. The policy only backs the tea bags being plastic-free and home compostable, and the Soil Association organic certification. A true claim about the bags must not be stretched to cover the whole business. Flag as a green claim. Fix: remove it, or only restore it with full, current evidence and an explanation of how it was reached.\n\n4. \"Here's how we checked.\" This sets up a promise of proof or a verification process that the draft does not deliver, and it implies the carbon neutral claim was verified. It is a lead-in to unsupported content, and with the claim removed it makes no sense. Cut or rewrite it to point to something real, such as the compostability of the bags. Also a slightly formulaic teaser, but the main problem is that it implies verification that isn't shown.\n\nNo ad or disclosure issues: this is a brand-owned blog. No clichés of note.\n\n**Decision:** Hold. The carbon neutral claim must come out (or be properly evidenced), and the \"Here's how we checked\" line needs fixing along with it.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008650399999999999,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

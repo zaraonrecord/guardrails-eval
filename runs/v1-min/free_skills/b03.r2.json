@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "85d47a2a0023ca749e483395089bca722010053852985ce53fea9be32628b6a9",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association; loose leaf is a product fact) |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- **Slop-guard:** No banned words, no em-dashes, no exclamation points, no rhetorical-question opener, no fake urgency. The opening is a plain fact.\n- **Invented proof:** No stats, testimonials, superlatives or guarantees.\n- **Policy risk:** No health, money or environmental claims. \"Organic\" is backed by the certification stated in the description.\n- **Character limits:** None were given. The headline is 23 characters, so it is well within the usual 30-character headline limit.\n- **Landing page:** Make sure the landing page also shows the Soil Association certification and the £25 free-delivery threshold, since an ad shouldn't claim what the page doesn't.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008783299999999999,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

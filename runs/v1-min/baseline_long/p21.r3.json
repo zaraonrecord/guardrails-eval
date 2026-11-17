@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "df0a7f3a6752a1a649749fbe957eb16622742dc7d0b8f7aeddc35b9956874640",
+ "result": "**Review of the Instagram draft (own account)**\n\n**Problem found**\n\n- **\"made with zero waste from farm to cup\"** is a green claim. It is broad, absolute and covers the whole supply chain, from farming through packing to the cup. The brand's approved environmental claims are limited to the tea bags being plastic-free and home compostable, plus Soil Association organic certification. Nothing supports \"zero waste\" across the whole life of the product, and it also reads as covering the tins. Fix: remove it, or replace it with a provable claim, such as \"certified organic by the Soil Association\" (only if that's what you mean) or the tea bag claim.\n\n**Other checks**\n\n- \"New tins just landed for winter\" is a product fact (new arrivals), so it's fine. It is also not a stock or urgency claim.\n- \"Deep green, gold lettering\" is plain description and fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" are both approved claims. However, they say the same thing twice in a short post. That repetition is worth tidying: say it once.\n- No ad label is needed, as this is the brand's own account and nothing suggests paid or gifted content.\n- No health claims, superlatives, stats, guarantees or testimonials.\n- Tone is mostly natural, with no flagged clichés.\n\n**Decision:** hold until the \"zero waste\" claim is removed or replaced. Suggested rewrite:\n\n\"New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008363700000000002,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

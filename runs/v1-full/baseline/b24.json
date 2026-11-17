@@ -1,10 +1,14 @@
 {
  "case": "b24",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the policy.\n\n- \"Good tea, no fuss.\" This is plain and warm, and it isn't a superlative. \"Good\" is a mild descriptor, not a \"best\" or \"finest\" claim. Fine.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly. Certificate renewed 2026, so it's current.\n- \"packed by hand in Bristol\" is a slight shortening of \"Every tin is packed by hand in Bristol\". It says the same thing and doesn't overstate it. Fine.\n- \"free UK delivery on orders over £25\" matches the allowlist wording exactly.\n- Voice: UK spelling, no banned words, no urgency, no health or environmental claims, no invented numbers.\n- Disclosure: this is our own landing page, so no label is needed.\n\nNothing needs changing. Approval: Sam (marketing lead) signs off on all public content, so it should go to Sam before it is published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.007642100000000001,
- "seconds": 7.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5034fc290de596f50c95ffabd3d4ae21ac26767fb2852cc0c8aa6ca686ca8803",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Good tea, no fuss.\" This is plain and warm, with no banned words and no superlative. \"Good\" is a mild descriptor, not a \"best\" or \"finest\" claim.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate renewed 2026).\n- \"packed by hand in Bristol\" is a shortened form of \"Every tin is packed by hand in Bristol\". It says the same thing and is supported by Operations.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n\nThere are no health claims, green claims beyond the allowlist, invented numbers, urgency, guarantees, or banned words. The spelling is UK-compatible. No disclosure is needed, since this is our own landing page and not a creator post or affiliate link.\n\nSam (marketing lead) still needs to approve it, as for everything public, but nothing in the copy needs to change.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005759200000000001,
+ "seconds": 7.8,
  "models": [
   "claude-sonnet-5-5"
  ]

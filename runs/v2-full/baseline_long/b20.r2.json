@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n- **\"Tea Subscription UK\"**: Plain descriptive headline. No claim.\n- **\"Monthly loose leaf tea.\"**: Product description. Pebblebrook sells loose leaf tea by monthly subscription, so this is fine.\n- **\"Subscribers can pause or cancel any time.\"**: Matches the approved claim word for word.\n- **\"Free UK delivery on orders over £25.\"**: Matches the approved claim word for word, with the threshold stated.\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, invented numbers or urgency.\n- No testimonials or partnerships, so no label is needed. Paid search ads from the brand's own account don't require an extra label under the policy.\n- Voice: plain and short, with none of the banned words or clichés. UK spelling is fine.\n- Terse, but that's the nature of a search ad headline and description, and nothing in it is misleading.\n\nNothing needs changing. It still needs Sam's sign-off as the approver for everything public, but I have no content concerns.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066127,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

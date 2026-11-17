@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c1d81313be2fe04a2a496d9fc86ccc795d837d74d0ad49ced1e1ff0ff5fe67b6",
+ "result": "**Review: Instagram post (own account)**\n\nGoing sentence by sentence:\n\n1. \"New tins just landed for winter.\" New arrivals are fine as written per policy. Fine.\n2. \"Deep green, gold lettering\" is product description. Fine.\n3. \"planet-friendly packaging\" is a vague green claim. \"Planet-friendly\" is a broad term with no specifics, and the brand's approved claims only cover the tea bags being plastic-free and home compostable, not the tins or packaging overall. It stretches a narrow claim to cover the packaging. Needs removing or replacing with something specific and provable (e.g. describing the tin's material only if the brand can substantiate it).\n4. \"the same plastic-free tea bags inside\" is approved.\n5. \"Our tea bags are plastic-free and home compostable.\" Approved, but it repeats the previous sentence's plastic-free point. Minor repetition; trim to one mention.\n\nNo ad label is needed, as this is the brand's own account. No health, price, urgency or testimonial issues.\n\n**Decision:** Hold until \"planet-friendly packaging\" is fixed. The repetition is optional polish.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069193,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

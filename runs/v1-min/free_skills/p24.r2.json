@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "983098f34c274ad17da9ea16dabba582cabf7c6608b5f0a90f3fe704e4776d7b",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact, consistent with hand-packing in Bristol. Confirm it's true for each send. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written |\n| \"pause or cancel any time\" | Allowlisted |\n\nNo invented stats, testimonials, guarantees, health or green claims, or fake urgency.\n\n**Slop check**\n- \"Elevate your mornings\" uses a banned word (\"elevate\"), and the sentence is generic filler. Replace it with something concrete, e.g. \"This month it's a smoky lapsang and a soft white peony.\"\n\n**Other note (not in the JSON)**\n- The subject says \"October tins\", but today is 17 November. If this is going out now, the month is probably wrong, so check the send date and the subject line.\n\n**Suggested rewrite**\n\nSubject: Your October tins are on the way\n\nHi Priya,\n\nYour subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011758,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

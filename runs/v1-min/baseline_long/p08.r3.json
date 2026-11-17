@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57e499631f131182f7bba7cae34e8b42d2ef29f03e56dfbd30f05e7a806ad797",
+ "result": "**Review: search ad**\n\n**Read-through:** Two claims plus a quote.\n\n1. \"Our tea bags are plastic-free and home compostable.\" This is on the approved claims list, so it's fine. The headline \"Plastic-Free Tea Bags\" is the same approved claim and is fine too.\n\n2. \"Best tea I've ever had\" - Emma, Leeds. This is a testimonial with no source we can verify. The brand policy doesn't list any customer quotes as approved, and I can't see evidence that Emma exists, gave permission, or said these words. It also works as a superlative (\"best\"), though as a personal opinion from a named customer it would be acceptable if genuine. The problem is provenance: until the team confirms it's a real review from a real customer with permission to use it, it shouldn't run. In a search ad, there's also no context to show it's one person's view rather than the brand's claim.\n\n3. Style: no clichés or filler. The copy is plain.\n\n4. Ad labelling: it's a brand-run search ad, which is recognisable as a paid placement in the search results, so no extra label is needed.\n\n**Decision:** Hold. Either remove the testimonial or supply documentation (the original review, the customer's permission, and the source). If documented, it can go back in. The first two lines are good to go as they are.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075306999999999995,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

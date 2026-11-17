@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b8f1c7b45745dc2d67011960497a98c975057ac2b13b399f08d167bea0043c0f",
+ "result": "**Verdict: don't publish yet. One claim needs to come out.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"a Japanese sencha\" added to the shop | Product fact (origin, new arrival), fine |\n| \"grassy, a little sweet\" | Flavour, fine |\n| \"packed with antioxidants\" | **Unsupported.** This is a health claim and isn't on the allowlist or sourced in this chat. |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing fact, fine |\n\n**Problem**\n- \"packed with antioxidants\" implies a health benefit we can't back up. It's also regulated territory, since UK nutrition and health claim rules apply. Cut it, or supply a sourced, compliant wording if you want a health angle.\n\n**Other checks**\n- Slop: no banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener. Passes.\n- No invented stats, testimonials, urgency or superlatives.\n- Small fix: \"70 degrees\" should read \"70°C\" so it's unambiguous.\n- The email has no call to action or link. That's optional, but worth adding.\n\n**Compliant version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy and a little sweet, and it's best brewed cooler than you think, at around 70°C.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121483,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

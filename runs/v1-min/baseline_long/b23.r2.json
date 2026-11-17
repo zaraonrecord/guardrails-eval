@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0ef017fae833cc3b21d5f3733a29dea07b63b0e120f1f0c525f7513a0438b4b9",
+ "result": "**Review: Rooibos Chai product page**\n\nGoing sentence by sentence:\n\n- \"Rooibos Chai.\" Product name. Fine.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" Ingredient and product fact. Rooibos is naturally caffeine-free, and the brand policy says product facts (ingredients, flavour) are fine as written. No health claim: it describes the product's composition, not an effect on the body.\n- \"Lovely with milk.\" Serving suggestion and opinion about taste. Fine.\n- \"100g tin.\" Size, a product fact. Fine.\n\nOther checks:\n- No superlatives, statistics, guarantees, testimonials, urgency, green claims, or price/offer terms that need support.\n- No ad or affiliate relationship, so no label needed on a brand-owned product page.\n- Style: short, plain, specific. No clichés or filler.\n- One optional note: the copy is quite sparse, but that's a choice, not a problem. It's accurate and ready to go.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008296500000000002,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

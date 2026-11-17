@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2eff3890802d1decd6acc38b83a1ad984e2b4ffebcc7ce930ae4f803cf0bcb1d",
+ "result": "**Review of the draft**\n\n1. **\"over 2,000 reviews\"**: The policy allows \"rated 4.8 out of 5 from over 1,200 reviews on our website.\" The draft raises the count to 2,000, which we cannot back up. This is an invented stat and must be corrected to \"over 1,200.\"\n\n2. **Earl Grey ingredients (\"real bergamot oil and a little cornflower\")**: Product facts are fine as written, so no issue.\n\n3. **Tone and other checks**: \"Rainy Sunday, second pot\" is a casual, natural line. There is no health claim, no green claim, no superlative, no fake urgency, and no guarantee. It is an own-account post, so no disclosure is needed.\n\n**Suggested fix:** \"Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nDo not publish until the review count is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009562000000000001,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

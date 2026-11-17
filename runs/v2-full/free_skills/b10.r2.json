@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9ddac3ad741d6d21fb206b4c6d073a79f09a75365b4d53f05619290426da2834",
+ "result": "**Verdict: fine to publish.** Nothing needs changing.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"plastic-free tea bags\" | Allowlisted (\"Our tea bags are plastic-free…\", supplier certificate). It doesn't use the compostable half, which is fine. |\n| \"20 plastic-free tea bags\" | The count is a product fact (tin sizes and cup counts), so it's fine as written |\n| \"caffeine-free blend\" | Ingredient fact, and chamomile and lemon balm are naturally caffeine-free |\n| \"gentle, honeyed\" | Flavour description, not a claim |\n| \"for the evening\" | Usage suggestion. It doesn't say the tea relaxes you or helps you sleep, so it isn't a health claim. |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, testimonials, stats:** none.\n- **Health claims:** none. Avoid adding \"calming\", \"relaxing\" or \"helps you sleep\" later, because those would be health claims.\n- **Green claims:** none beyond the allowlist.\n- **Disclosure:** none needed, since this is our own product page and not a partnership or affiliate link.\n- **Voice:** no banned words, UK spelling, plain and unhurried.\n\n**Before it goes live:** Sam (marketing lead) needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013596800000000003,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

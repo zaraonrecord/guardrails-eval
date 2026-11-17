@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n- **\"Organic Loose Leaf Tea\"**: Product description. The brand sells loose leaf tea and is certified organic by the Soil Association, so \"Organic\" is supported.\n- **\"Certified organic by the Soil Association.\"**: On the approved claims list, word for word.\n- **\"Free UK delivery on orders over £25.\"**: On the approved claims list, and the threshold is stated beside the offer, so the condition is clear.\n\nOther checks:\n- No superlatives, comparisons, health claims, green claims, guarantees, testimonials, urgency or statistics.\n- It's the brand's own search ad, which is recognisable as an ad by the channel itself, and no creator or affiliate content is involved.\n- Tone: plain and specific, with no clichés or filler. UK conventions are fine.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058875,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

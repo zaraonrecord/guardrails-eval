@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa068fe1272a0747b2c32503843cd97ae89534571bd69644b0c34f446d1dc90e",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm blend, gentle, honeyed, caffeine-free | Product fact, fine as written |\n| \"reduces anxiety\" | Unsupported. Health claim, not on the allowlist. |\n| \"helps you sleep\" | Unsupported. Health claim, not on the allowlist. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | Allowlisted (plastic-free) and product fact (count) |\n\n**Problems**\n\n1. **\"reduces anxiety\"** is a medical/health claim. It is a hard, outcome-style claim with no source, and in the UK, tea marketing that claims to treat or reduce a health condition is likely to breach advertising rules (CAP Code, and the GB Nutrition and Health Claims register, which doesn't authorise this claim for chamomile or lemon balm). It would also be flagged by ad platforms.\n2. **\"helps you sleep\"** is the same kind of problem. Sleep-benefit claims for herbal ingredients aren't authorised, and nothing on the allowlist backs it.\n\n**Suggested compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, easy to enjoy in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Easy to enjoy in the evening\" is a serving suggestion rather than a benefit claim. If you want to keep a calming or sleep angle, it would need a source and a compliance review first: `[PROOF NEEDED: authorised health claim or evidence for calming/sleep benefit]`.\n\nAlso worth a quick check: \"plastic-free\" is allowlisted, but if you want to say the bags are compostable, the allowlist specifies \"home compostable\", so use that wording.\n\n**Verdict:** Do not publish as written. Remove the two health claims.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098497,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

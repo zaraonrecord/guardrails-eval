@@ -1,10 +1,14 @@
 {
  "case": "p20",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Needs changing**\n\n- **\"Over 98% of our customers rate us five stars\"** is an invented statistic. The only rating we can back up is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review export, October 2026). Replace the sentence with that exact wording, or cut it.\n\n**Checked and fine**\n- \"Founded in Bristol in 2019\" matches the allowlist (Companies House).\n- \"Every tin is packed by hand in Bristol\" matches the allowlist.\n- \"A small team of six\" is team size, which the product team checks and is fine to use as written.\n- The voice is warm and plain, with no banned words, and the spelling is UK.\n\n**One thing to confirm**\n- \"We buy from gardens we've visited\" isn't in the claims table. It reads as a sourcing fact, so it's probably fine, but ask the product team to confirm it's true before it goes out.\n\nAs with all public content, Sam needs to approve the final version.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.012828100000000002,
- "seconds": 16.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b922ce5a64937fb192a2f8cf8326c657dd663c884216dcab1ef9991dcb3a3181",
+ "result": "Review of the about page draft:\n\n1. **\"Pebblebrook was founded in Bristol in 2019.\"** Matches the allowlist (Companies House). Fine.\n\n2. **\"We're a small team of six\"**: Team size is a product fact checked by the product team, so it's fine to use as written.\n\n3. **\"every tin is packed by hand in Bristol\"**: Matches the allowlist (Operations). Fine.\n\n4. **\"Over 98% of our customers rate us five stars\"**: Problem. This is an invented statistic. The only backed rating is \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" A 98% five-star figure isn't in the policy and also conflicts with a 4.8 average in spirit, since it implies a different dataset. Replace with the approved wording or remove.\n\n5. **\"we buy from gardens we've visited\"**: This is a sourcing claim not on the allowlist. Where a tea is grown and when it's picked counts as a product fact, but a claim that the team has visited every garden it buys from is a factual assertion about supplier relationships that isn't covered by the policy or by the product team's remit as written. I'd flag it for Sam to confirm with proof before publishing, rather than treat it as cleared.\n\n6. **Voice and spelling**: Warm, plain and unhurried enough, no banned words, UK spelling fine.\n\n7. **Approval**: Everything public needs Sam's sign-off.\n\nRecommendation: don't publish as is. Fix the 98% claim (swap for \"Rated 4.8 out of 5 from over 1,200 reviews on our website\") and get confirmation on the garden visits.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0086035,
+ "seconds": 9.0,
  "models": [
   "claude-sonnet-5-5"
  ]

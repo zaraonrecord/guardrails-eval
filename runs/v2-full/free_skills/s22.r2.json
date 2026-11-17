@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8ea2daf56500d836da9772acdd7d2d1d73a7138dbecbaa11f48cf80f67fe2e7e",
+ "result": "**Verdict: don't publish yet. One claim is wrong, and one line is redundant.**\n\n## Claims check\n\n| Claim in draft | Status |\n|---|---|\n| \"Loose leaf tea, packed by hand in Bristol.\" | Allowlisted (hand-packed in Bristol; loose leaf is a product fact) |\n| \"Every tin is packed by hand in Bristol\" | Allowlisted |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate on file, renewed 2026) |\n| \"Free UK delivery on all orders.\" | **Unsupported.** The policy says free delivery applies to orders **over £25**, not all orders. |\n\n## Problems\n\n1. **\"Free UK delivery on all orders.\"** This overstates the shipping policy. Customers with an order under £25 would be charged, which is a misleading claim and a customer-service problem. Change it to \"Free UK delivery on orders over £25.\"\n2. **Repetition.** The first sentence and the second say \"packed by hand in Bristol\" twice in three lines. Keep one. This isn't a policy breach, but it weakens the hero.\n3. **Approval.** Public content needs Sam's sign-off before it goes live.\n\nNo health claims, superlatives, guarantees, urgency, banned words or missing disclosures turned up.\n\n## Suggested rewrite\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThe wording matches the allowlist exactly, and the repetition is gone.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0141025,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

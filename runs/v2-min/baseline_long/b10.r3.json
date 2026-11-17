@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "07ef55758c184509eb9773ff188f24e2d699186578c08b8cc52c1452069e467e",
+ "result": "Review of the product page draft:\n\n**Sentence by sentence**\n\n1. \"Chamomile and Lemon Balm.\" Product name, description only. Fine.\n2. \"A gentle, honeyed caffeine-free blend for the evening.\" Describes flavour and use. \"Caffeine-free\" is a product fact (chamomile and lemon balm are naturally caffeine-free), and \"for the evening\" is occasion, not an effect on the body. There is no claim of relaxation, sleep or any other health benefit. \"Honeyed\" describes flavour. Fine.\n3. \"Certified organic by the Soil Association.\" On the brand's approved claims list. Fine.\n4. \"20 plastic-free tea bags.\" Plastic-free tea bags is an approved claim, and the count is a product fact. Fine.\n\n**Missing items:** No ad label needed (the brand's own product page). No pricing, offers, urgency or guarantees. No testimonials or statistics.\n\n**Style:** The copy is short, specific and doesn't use any of the filler phrases. No hype or formula.\n\n**Verdict:** Every claim is approved or is a plain product fact. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066888,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

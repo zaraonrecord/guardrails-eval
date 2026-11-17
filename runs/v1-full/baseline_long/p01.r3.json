@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7f1908bc01104e6612e9891a177aefeeb4b8c3989ecad0ccabcfcbbfb68ef2ac",
+ "result": "**Review of landing hero draft**\n\n**Claims check**\n- \"The UK's best loose leaf tea\": an unprovable superlative. The policy lists \"best\" among claims we never make. Fix: drop it, e.g. \"Loose leaf tea, packed by hand in Bristol.\"\n- \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\": the claim is approved (\"Every tin is packed by hand in Bristol\"), but it appears twice in two sentences. This is repetition and should be cut to one.\n- \"certified organic by the Soil Association\": approved (certificate on file, renewed 2026). Note that the draft says \"our tea is certified organic by the Soil Association\", which is close to the approved wording \"Certified organic by the Soil Association\" and is fine.\n- \"Free UK delivery on orders over £25\": exact approved wording. Fine.\n\n**Voice and style**\nNo banned words. Tone is plain enough, though the repetition makes it clunky.\n\n**Decision:** Hold. The \"best\" superlative must go, and the duplicated packing line should be tidied.\n\nSuggested rewrite: \"Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association, and delivery is free in the UK on orders over £25.\"\n\nNote on that rewrite: the approved claim is that the tea is certified organic, so \"every tin\" is a small stretch. Safer: \"Our tea is certified organic by the Soil Association.\"\n\nFinal suggested copy: \"Loose leaf tea, packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00921,
+ "seconds": 19.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

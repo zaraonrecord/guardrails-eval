@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "178437d0ac3b2b4ec212fee6bf5fc378ea08c1f52628f2c24d0d2ad244d21395",
+ "result": "**Review of the newsletter draft**\n\n**Product facts:** The blend description (black tea, orange peel, cinnamon, clove) and the \"back in the shop\" news are product facts and new arrivals, so they're fine as written. There are no health, green, testimonial, or statistic claims.\n\n**Problem: the offer and its deadline**\n- \"Today only: 30% off, ends at midnight.\" The brand policy doesn't list any 30% discount or one-day sale among the claims we can back up. I can't confirm the offer is real or that it really ends at midnight. If the discount continues tomorrow, or the deadline is moved or repeated, this is fake urgency, which is misleading to UK consumers.\n- Even if the offer is real, the copy doesn't say how to get it (automatic or by code) or what it applies to (the Christmas blend or the whole shop). Those details should be added.\n\n**Minor style note (not blocking):** \"back\" appears twice in quick succession (\"is back\" / \"It's back in the shop\"). You could trim one.\n\n**Recommendation:** Hold until someone confirms the 30% discount is approved and that it really ends at midnight today. If it is, publish with the offer's scope and how to claim it. If not, remove the line or replace it with a genuine offer.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105024,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d71ca07a7c1496f2c0e65871a5437a00e08413e71208ed96e9c138af698f7bf1",
+ "result": "**Review: gifted creator post**\n\n1. **Disclosure.** The post opens with \"Gifted\", which is the required wording for a free product and comes before anything else. Compliant.\n\n2. **Claims.** \"The rooibos chai is lovely with oat milk\" is a personal opinion and a serving suggestion, not a factual or health claim. \"Winter sampler\" is a product reference, and product facts are cleared by the product team. \"Not paid to say that, just liked it\" is consistent with a gifted-only relationship. Nothing here is a superlative, guarantee, health claim, green claim, invented number or urgency.\n\n3. **Voice.** Short, plain and warm. No banned words, no AI clichés, UK spelling not at issue.\n\n4. **Optional note.** \"Not paid to say that\" is true as long as the arrangement really was gift-only. Worth a quick confirmation with Sam, but nothing in the draft suggests otherwise.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060905,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

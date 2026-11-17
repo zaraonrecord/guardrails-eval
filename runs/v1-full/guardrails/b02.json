@@ -1,10 +1,14 @@
 {
  "case": "b02",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Going out:** a subscription dispatch email to Priya, sent by email.\n\n**Checks**\n- **Claims:** \"pause or cancel any time\" matches the policy row (subscription terms). The lapsang and white peony are product facts the product team covers. \"Left Bristol this morning\" is an operational fact about this order, so I can't verify it, and the sender should confirm it's true. There are no stats, superlatives, guarantees, testimonials or urgency lines.\n- **Regulated claims:** no health, money, environmental, price or children's content.\n- **House style:** the tone is warm, plain and unhurried, with no banned words and no AI tells. The score is about 95 and no rewrite is needed.\n- **Disclosure:** this is a transactional email with no ad, affiliate, gifted or AI-label triggers, so no label is needed.\n\n**Fixed:** nothing.\n\n**Needs a decision (not blocking):** the subject says \"October tins\" but today is 17 November, and the body says \"This month\". If this is the November box, change the subject. If it's a late October box, the copy is fine.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to this exact content before it is sent. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.014179500000000001,
- "seconds": 12.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "44292ba7541704ccd09fdb6aff78cb556d03e943d279e10d4226825f3b3684b6",
+ "result": "**Publish gate report**\n\n**Going out:** Subscription dispatch email to Priya (email channel). Sending date isn't given.\n\n**Checks**\n- **Claims:** \"Left Bristol this morning\" is an operational statement and the only claim here that needs confirming. \"Pause or cancel any time\" matches the policy row (Subscription terms). The lapsang and white peony are product facts, which the product team covers. No stats, ratings, testimonials or superlatives.\n- **Regulated claims:** No health, money, environmental, price or urgency language.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. Score is about 95, so no rewrite is needed.\n- **Disclosure:** This is a transactional message from the brand, with no ad, affiliate, gifted or AI-label requirement.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision (not blocking):**\n- The subject says \"October tins\", but today is 17 November, and the body says \"this month\" and \"next month\". Please confirm that this is the right month's box and that the subject and body match. Change the subject to \"November\" if that's what is shipping.\n- Confirm the box really did leave this morning, or drop \"this morning\" if the send time may differ.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120463,
+ "seconds": 15.3,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,11 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"caffeine-free blend\" | Product fact (ingredients), fine as written |\n| \"gentle, honeyed\" | Flavour description, fine |\n| \"reduces anxiety\" | Unsupported. Health claim, not on the allowlist |\n| \"helps you sleep\" | Unsupported. Health claim, not on the allowlist |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | Plastic-free is allowlisted; count of 20 is a pack size (product fact), fine |\n\n**Problems**\n\n1. **\"reduces anxiety\"**: a medical/health claim stated as fact. Nothing on the allowlist supports it, and it is likely to breach UK rules on health claims for foods and drinks (the UK nutrition and health claims register doesn't authorise this for chamomile or lemon balm). Remove it.\n2. **\"helps you sleep\"**: same issue. Also unsupported and not an authorised claim. Remove it.\n\n**Style check**: no ban-list words, no exclamation points, no rhetorical opener, no em-dash sandwiches. The opening is a product name followed by a description, which is acceptable.\n\n**Compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, easy to brew in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Easy to brew in the evening\" is a usage suggestion, not a benefit claim. If you'd like a stronger line, I can use `[PROOF NEEDED: authorised or substantiated sleep/relaxation claim]`, but it should not go live without a compliant source.\n\nOptional addition from the allowlist: the tea bags are home compostable (fine to add if you want a second green point, since it is backed up).\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114443,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

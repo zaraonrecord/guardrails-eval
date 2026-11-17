@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "232da0aa801cdd281a228b5c75f4090641f5c7c95bcaf9e85f6f88276435f0fb",
+ "result": "**Review: not ready to publish. One fix needed.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, October 2026) |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\n**Problem**\n- **\"In today's fast-paced world\"** is on the brand's banned phrase list (section 5). It's also a stock AI opener that tells the reader nothing. The draft's most interesting fact is the bergamot and cornflower, so it should open the post.\n\n**Disclosure:** none needed. This is a paid social post from our own account, which the platform marks.\n\n**Suggested rewrite**\n> Our Earl Grey uses real bergamot oil and a little cornflower. Best on a rainy Sunday, in a proper pot. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n\"Best on a rainy Sunday\" is a serving suggestion, not a superlative claim about the product. If you'd rather avoid any \"best\" wording, use \"Made for a rainy Sunday pot.\"\n\nPer the policy, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120045,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

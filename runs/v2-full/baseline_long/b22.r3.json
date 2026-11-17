@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "**Review: Instagram post (own account)**\n\nGoing sentence by sentence:\n\n1. \"New tins just landed for winter.\" Product news (new products arriving is a product fact, fine to use as written). No urgency or stock claim.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Description of the product. \"Plastic-free tea bags\" matches the approved claim.\n3. \"Our tea bags are plastic-free and home compostable.\" This is the exact approved wording (supplier certificate, EN 13432).\n\nOther checks:\n- Health claims: none.\n- Superlatives, guarantees, invented numbers, testimonials: none.\n- Environmental claims: only the approved plastic-free and home compostable wording, which is not stretched to the tins or the whole business.\n- Disclosure: own-account post, no creator, gifting or affiliate link, so no label is needed.\n- Voice: warm, plain, no banned words. UK spelling is not tested by anything here but nothing conflicts.\n- Repetition: \"plastic-free tea bags\" appears in both the second and third sentences. That's a small redundancy, which is optional polish (for example, cut the third sentence or fold it into the second), not a reason to hold the post.\n\nDecision: every claim is approved and nothing breaks policy. It can go out. Sam still signs off on public content per the approvals table.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074405999999999995,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

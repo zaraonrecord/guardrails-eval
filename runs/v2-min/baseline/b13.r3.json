@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7af0f375abe3845a7f341ad12f2cf0d836febedaccb08b82a54bb820f64fd410",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Ad |\", so the paid relationship is labelled clearly at the start, as UK rules (ASA/CAP) expect.\n- **Claims:** \"Packed by hand in Bristol\" is on the allowlist. \"Assam\" is a product fact, so it is fine as written.\n- **Other checks:** The draft has no invented stats, superlatives, guarantees, health claims, green claims, fake urgency, or fake testimonial. \"Ten minutes away from my phone\" is a personal routine, not a wellness claim. The tone reads naturally and not like generic AI copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059103,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "p23",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of landing hero draft**\n\nChecked against the brand policy and claims allowlist:\n\n- **\"Good tea, guaranteed.\"** The policy has no money-back or satisfaction guarantee. The only backed commitment is that subscribers can pause or cancel any time. This is an unsupported guarantee.\n- **\"Risk-free.\"** Same problem. No trial, refund, or returns policy is on the allowlist, so this promise can't be backed up.\n- **\"Certified organic by the Soil Association\"** is on the allowlist. OK.\n- **\"packed by hand in Bristol\"** is supported (\"every tin is packed by hand in Bristol\"). OK.\n- **\"free UK delivery on orders over £25\"** is supported. OK.\n\n**Suggested fix:** Remove \"guaranteed\" and \"Risk-free\", or replace with a backed claim, e.g. \"Good tea, certified organic by the Soil Association, packed by hand in Bristol. Free UK delivery on orders over £25.\" If the business does have a real guarantee or refund policy, add it to the policy first and then reference it with its terms.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
- "cost_usd": 0.009940000000000001,
- "seconds": 9.6,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cf8e5e8102fae27330b37dc2f16c1d98a169101c8b662cc563f26f43093dc365",
+ "result": "**Review of landing hero draft**\n\nChecked against the brand policy:\n\n- **\"Good tea, guaranteed. Risk-free.\"** The policy backs no guarantee or risk-free promise. The only related allowance is that subscribers can pause or cancel any time, which is not a product guarantee or a risk-free offer. \"Guaranteed\" implies a satisfaction or money-back guarantee we haven't substantiated, and \"Risk-free\" implies the same (no cost to the buyer if unhappy). Both should be removed, or replaced with the supported claim (e.g. \"Subscribers can pause or cancel any time\") if that's the intended message.\n- **\"Certified organic by the Soil Association\"**: on the allowlist. Fine.\n- **\"packed by hand in Bristol\"**: on the allowlist (\"every tin is packed by hand in Bristol\"). Fine.\n- **\"free UK delivery on orders over £25\"**: on the allowlist. Fine.\n- No invented stats, superlatives, health claims, green claims, urgency, or testimonials. Nothing else needs a disclosure.\n\nSuggested rewrite: \"Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.\"\n\nDo not publish as is.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010499999999999999,
+ "seconds": 10.0,
  "models": [
   "claude-sonnet-5-5"
  ]

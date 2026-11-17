@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2e2077b75a57b7b0900a4d6250d943d19ab4621fb9b7aa8132a88c3186fc80a9",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the approved claims list.\n- **\"We're a small team of six\"** Team size is a product fact the policy allows as written.\n- **\"every tin is packed by hand in Bristol\"** This is on the approved claims list.\n- **\"We buy from gardens we've visited.\"** This describes where the tea comes from, which falls under origins in the policy's allowed product facts. It makes no superlative, health, environmental or guarantee claim. It's a factual statement the team can confirm, so I'm not flagging it. The only caveat is that the statement should be true of all the gardens you buy from, not just some.\n\nThe channel is an about page on the brand's own site, so no ad label is needed. There are no clichés, filler or formulaic phrasing, and the spelling and tone suit a UK audience. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093342,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

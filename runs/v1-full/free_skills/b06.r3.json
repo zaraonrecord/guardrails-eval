@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "32f98de32f5801eac9aba138a01deff2ace3f96132de92ecf59bdfc8d4b1c4a1",
+ "result": "**Verdict: clean. Nothing needs changing.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where a tea is grown), allowed as written |\n| \"picked in March\" | Product fact (when a tea is picked), allowed |\n| \"taste bright and floral\" | Product fact (flavour), allowed |\n| \"in the shop from Monday\" | Product fact (new product arriving), allowed. It's a launch date, not fake urgency: no countdown, scarcity or \"only X left\". |\n\n**Other checks**\n- **Superlatives, guarantees, health and green claims:** none.\n- **Invented numbers or testimonials:** none.\n- **Disclosure:** not needed. This is our own newsletter, with no paid partnership, gifted product or affiliate link.\n- **Voice:** warm, plain and unhurried. No banned words, no \"not just X, it's Y\", no exclamation marks, no rhetorical opener. UK spelling is fine.\n- **Review labels:** not applicable, as this isn't a review of a third-party product.\n\n**Process note:** per the brand policy, Sam needs to approve everything public, so get his sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101143,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

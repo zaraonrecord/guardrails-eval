@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9f5f1cd697400e4fc241b009c8dfbf09a9997536a03d388c88dbc492e66a04d0",
+ "result": "**Review: paid creator post**\n\n**Disclosure:** The post opens with \"Ad |\", before anything else, as the policy requires for paid partnerships. It's clear and prominent.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\" (Operations). The draft leaves out \"every\", which makes it slightly weaker, not stronger, so it's fine.\n- \"Pebblebrook's Assam\" is a product reference, which is fine.\n- \"which I love\" is clearly the creator's own opinion, not a brand claim.\n\n**Health and wellbeing:** \"My afternoon reset\" and \"ten minutes away from my phone\" describe a personal routine and mood. They don't claim any effect on the body, so this is lifestyle language and not a health claim.\n\n**Other checks:** There are no numbers, superlatives, guarantees, urgency, green claims or testimonials presented as customer proof. None of the banned words appear (\"elevate\", \"unlock\", \"journey\", \"indulge\" and so on). The tone is warm, plain and unhurried, and the spelling is consistent with UK English.\n\n**Approval:** Per policy, Sam (marketing lead) approves all public content, so that sign-off is still needed before it goes live. That's a process step, not a copy problem.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095611,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

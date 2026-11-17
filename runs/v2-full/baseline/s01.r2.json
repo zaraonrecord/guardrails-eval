@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cff18a9700d534cbf1016fc7d49fb92f63bdb200e2a3f42db5c0a7faa515ff3e",
+ "result": "**Review**\n\n- \"Rated 4.8 out of 5 from over 2,000 reviews on our website\": the allowlist says \"over 1,200 reviews\". \"Over 2,000\" is an inflated number not backed by the review export, so it is an invented stat. It needs to be changed to \"over 1,200\".\n- Earl Grey with real bergamot oil and cornflower is a product fact, so it's fine as written.\n- Voice is warm, plain and unhurried, with no banned words. UK spelling is fine. It's our own account, so no disclosure label is needed.\n\nFix: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Then it can go to Sam for approval, as everything public does.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073401000000000004,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

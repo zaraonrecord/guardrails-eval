@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fddb9596efed8b7088d5ced57fafc17e77f7b1beaeb5d759cd98dba6f05160fe",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the allowlist (Companies House).\n- **\"We're a small team of six\"** Team size is a product-team fact and is fine to use as written.\n- **\"every tin is packed by hand in Bristol\"** This matches the allowlist (Operations).\n- **\"We buy from gardens we've visited.\"** This is a sourcing claim, and it isn't on the allowlist. It isn't covered by the product-fact categories either, since it says nothing about where a tea is grown or when it's picked. It claims the team has personally visited every garden it buys from, and nothing on file backs that up. Either get written confirmation from the product team or operations and add it to the policy, or cut it. A safer alternative is a specific, confirmed fact, such as naming a garden and region the product team has verified.\n- **Voice and spelling:** There are no banned words, and the tone is warm, plain and unhurried.\n- **Disclosures:** None are needed for an about page.\n\nI'd hold publication until the sourcing line is confirmed or removed. Sam would need to approve the final version either way.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099338,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

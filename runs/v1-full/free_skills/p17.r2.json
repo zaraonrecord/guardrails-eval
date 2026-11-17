@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ebb8b59cc2ad55d062d818bf254299d250d0a80ad8a30989029b2f0221d421a8",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact, fine |\n| \"Cool and clean after a big meal\" | Flavour and usage description, fine |\n| \"a natural detox that aids weight loss\" | **Unsupported, banned.** Policy section 3 prohibits health claims of any kind, including \"detox\" and \"aids weight loss\". It would also likely trip ad and regulatory rules in the UK. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n\n**Problem:** the third sentence has to go. Nothing in the policy backs it, and \"natural\" doesn't soften it. I haven't swapped in a replacement health benefit, since none is allowed.\n\n**Suggested compliant version:**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nThe voice is warm and plain, UK spelling is fine, and there are no banned words or fake urgency. The revised copy should go to Sam for approval before it's published.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0100206,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

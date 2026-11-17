@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17b577ea60ce19f77db049941819eb37f719761fa676dfe11744564d6fde2c1e",
+ "result": "**Review: Christmas blend newsletter**\n\n**Stops publication**\n- **\"Today only: 30% off, ends at midnight.\"** This is fake urgency. The brand policy says there is no real offer with an end date, and countdowns and \"today only\" are banned unless one is listed. The 30% discount isn't in the policy either, so it's an unsupported claim. Cut the sentence. If a real sale exists, Sam needs to add it to the policy with its dates and terms before it can go out.\n\n**Fine as written**\n- The ingredients (black tea, orange peel, cinnamon, clove) and the blend returning are product facts the product team checks, so they're allowed.\n- No banned words, no health or environmental claims, no superlatives, no invented stats.\n- No partnership or affiliate wording is needed for our own newsletter.\n\n**Minor edit (not blocking)**\n- \"The Christmas blend is back\" and \"It's back in the shop\" say the same thing. Keep one. For example: \"Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n\n**Approval**\n- Sam (marketing lead) needs to approve this before it goes out, as with all public content.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Product fact, OK |\n| Black tea, orange peel, cinnamon, clove | Product fact, OK |\n| 30% off, today only, ends at midnight | Unsupported, remove |\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012543,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

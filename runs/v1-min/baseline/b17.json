@@ -1,10 +1,14 @@
 {
  "case": "b17",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy.\n\n- **Product facts:** The blend's ingredients (black tea, orange peel, cinnamon, clove) and its return to the shop count as product facts and new arrivals, which the policy allows as written.\n- **Urgency:** \"It's back in the shop from today\" is a plain availability statement. It sets no deadline, claims no scarcity and puts no pressure on the reader, so it isn't fake urgency.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims or green claims.\n- **Disclosure and tone:** Nothing in a plain newsletter note like this needs a disclosure label, and the copy reads naturally rather than like filler.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008328,
- "seconds": 14.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bccf3759af15a819348fba2d3c0ed134d30f2b4be3bd07a3b667a8e8c9fa37",
+ "result": "Review of the draft:\n\n- **Claims:** The copy has no statistics, superlatives, guarantees, testimonials, health claims or green claims. The ingredients (black tea, orange peel, cinnamon, clove) are product facts, which are fine as written.\n- **Urgency:** \"Back in the shop from today\" is a plain availability statement, not a countdown or scarcity claim. Nothing suggests limited stock or a deadline.\n- **Disclosure:** This is the brand's own newsletter promoting its own product, so no sponsorship or affiliate label is needed.\n- **Tone:** It's short and natural, with no AI-style filler.\n- **Market fit:** Nothing conflicts with UK marketing.\n\nOne thing to confirm that isn't a copy problem: that the blend really is back in stock today. If it is, the line is accurate.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008668,
+ "seconds": 6.9,
  "models": [
   "claude-sonnet-5-5"
  ]

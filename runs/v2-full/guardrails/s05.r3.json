@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "880be9f9e802d9c464cac9dc961eadfd2173ca87cb8a55b1d624f2e05732238b",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad for Pebblebrook Tea Co., UK, headline and description as drafted.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"If your box isn't right, we'll make it right.\" | **Unproven.** This is an implied satisfaction guarantee/remedy. The policy bans guarantees and says we have no such offer. Not on the allowlist. |\n| \"Free UK delivery on orders over £25\" | On the policy list (shipping policy) |\n\n**Regulated claims:** No health, money, environment or children issues. The \"make it right\" line promises a remedy (refund or replacement), which is the kind of promise that needs a real policy behind it.\n\n**House style:** No banned words or AI tells. Tone is plain and warm. The headline \"Tea Subscription UK\" is keyword-style but acceptable for search. Score about 90.\n\n**Disclosure:** Paid search ad from our own account is marked by the platform, so no extra label needed.\n\n**Fixed:** Nothing applied yet. I haven't swapped in new wording because the right replacement depends on what you actually offer.\n\n**Needs a decision**\n- Remove \"If your box isn't right, we'll make it right.\" My suggestion is to replace it with a claim from the policy: \"Subscribers can pause or cancel any time.\" Suggested version:\n  Headline: Tea Subscription UK | Description: Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\n- If there is a real returns or remedy policy, add it to the brand policy with its terms and then it can be used.\n\n**Approver:** Sam (marketing lead). Approval needs to be an explicit yes to the exact final wording. Nothing is approved yet, so this should not go out as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114075,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

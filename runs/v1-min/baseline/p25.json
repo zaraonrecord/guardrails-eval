@@ -1,10 +1,14 @@
 {
  "case": "p25",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review**\n\n- **\"Rated 4.9 out of 5 from over 5,000 reviews on our website.\"** This doesn't match the approved claim, which is 4.8 out of 5 from over 1,200 reviews on our website. Both the rating and the review count are inflated, so this is an invented stat. Fix: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n- **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is an ingredient fact, which is fine as written.\n\n- **\"Rainy Sunday, second pot.\"** Fine. No label or disclosure is needed on the brand's own account.\n\nOnce the rating line is corrected, the post is fine to publish. Until then, it should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.008798,
- "seconds": 9.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e90200690383f0458a4a5854b298a1a108bf2f358d9a79be25c13ca6db03246f",
+ "result": "**Review of the draft**\n\n1. **\"Rated 4.9 out of 5 from over 5,000 reviews on our website.\"** The brand policy only supports \"rated 4.8 out of 5 from over 1,200 reviews on our website.\" Both the 4.9 rating and the 5,000 review count are unsupported, so this is an invented stat. It should be corrected to the allowed claim: 4.8 out of 5 from over 1,200 reviews.\n\n2. **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is a product fact about ingredients, which is fine as written.\n\n3. **\"Rainy Sunday, second pot.\"** This is casual and harmless. No health, green, urgency, or guarantee claims here. It's an own-account Instagram post, so no disclosure issue arises.\n\n**Verdict:** Don't publish as is. Fix the review stat to match the backed claim (4.8 out of 5 from over 1,200 reviews), then it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009548,
+ "seconds": 7.9,
  "models": [
   "claude-sonnet-5-5"
  ]

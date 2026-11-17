@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ded1da6527fbc7195b9ccf946e9372b483a534d137d9f69a345a0a653ca7a838",
+ "result": "**Verdict: don't publish yet. One claim needs fixing.**\n\n**Problem**\n- \"Free UK delivery on all orders.\" Our proven claim is \"Free UK delivery on orders over £25\" (shipping policy). Saying \"all orders\" promises more than we offer, so customers with smaller baskets would be misled. Change it to \"Free UK delivery on orders over £25.\"\n\n**Checked and fine**\n- \"Packed by hand in Bristol\" and \"Every tin is packed by hand in Bristol\" match the operations claim.\n- \"Certified organic by the Soil Association\" matches the certificate on file, renewed 2026.\n- I found no superlatives, guarantees, health claims, invented numbers, false urgency or banned words, and the spelling is UK.\n\n**Editorial note (not a policy issue)**\nThe hero says \"packed by hand in Bristol\" twice in a row. Consider cutting one, for example: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Approval**\nEverything public needs Sam's sign-off once the delivery wording is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011134100000000001,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "922e1f1691e43c7bb9e0d87c0e9a55e0fb154b90c2f47bc0484db33e4539c5da",
+ "result": "**Review: newsletter draft (Darjeeling first flush)**\n\nRead as a subscriber would: a short, specific, first-person update from the team.\n\n**Claims and numbers:** There are no statistics, ratings, comparisons or superlatives. \"Picked in March\" and \"taste bright and floral\" are product facts about origin, harvest and flavour, which the policy allows as written. The visit to the garden is a company statement of something that happened; nothing in the policy contradicts it.\n\n**Health, environmental, guarantee, testimonial:** None present.\n\n**Urgency/scarcity:** \"You'll find it in the shop from Monday\" is a launch date for a new arrival, not a pressure tactic. New arrivals are fine as written. Just make sure Monday is accurate for when the newsletter lands.\n\n**Disclosure:** Brand-owned newsletter, no paid third party, so no \"Ad\" label is needed.\n\n**Style:** Plain and specific, with no clichés or filler. Voice is natural.\n\n**Optional polish (not blocking):** \"This month\" could become a named month if the newsletter gets archived. Otherwise it's fine.\n\n**Decision:** Nothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006822299999999999,
+ "seconds": 6.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

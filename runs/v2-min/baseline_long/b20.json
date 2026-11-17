@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b47cfbe173d4859ac213fe198633c038cb2e1faa872a4b668c53f2f068240c24",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n- **\"Tea Subscription UK\"** is a plain descriptive headline. No claim.\n- **\"Monthly loose leaf tea.\"** is product description, which the policy allows as written.\n- **\"Subscribers can pause or cancel any time.\"** is on the claims allowlist.\n- **\"Free UK delivery on orders over £25.\"** is on the allowlist, and the £25 threshold is stated next to the claim, so the condition is clear.\n\nOther checks:\n- No superlatives, statistics, health, green, guarantee, urgency or testimonial content.\n- No ad-label issue: a search ad is a recognisable paid placement on the platform, and nothing here pretends to be editorial.\n- Style: plain and specific, no clichés or filler. Spelling is UK-appropriate.\n\nOptional polish only: the headline is a bare keyword string, which is fine for search. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061325,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

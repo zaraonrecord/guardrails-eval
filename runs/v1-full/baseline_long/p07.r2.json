@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0fd32a649c221425cbd3da848d64e38807eb020d007c508dce30e90bda9d571b",
+ "result": "**Review of landing hero draft**\n\nSentence by sentence:\n\n1. \"Tea that's easy to stop and start, and you'll love it or it's free.\"\n   - \"you'll love it or it's free\" is a guarantee. The policy explicitly lists this wording as something the brand never says, because there is no such offer. It is a binding promise the business can't honour. Remove it.\n   - \"easy to stop and start\" is a loose paraphrase of the approved pause/cancel claim. It's fine in meaning, but the approved wording is better and it should sit cleanly on its own.\n\n2. \"Subscribers can pause or cancel any time\" matches the approved claim exactly. Fine.\n\n3. \"free UK delivery on orders over £25 means most boxes ship free\" - the first part matches the approved claim. \"most boxes ship free\" is an unsupported claim: nothing shows what share of orders exceed £25. It implies a fact about order values we have no data for, and it also blurs the threshold condition. Cut it, or state only the approved wording.\n\nStyle: the copy is plain and not padded. \"Easy to stop and start\" is a little clumsy but not a banned phrase. No health, green, urgency or label issues. Channel is the brand's own landing page, so no \"Ad\" label is required.\n\n**Decision: hold.** The guarantee must come out, and \"most boxes ship free\" needs removing.\n\nSuggested rewrite: \"Tea on your terms. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008451199999999999,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

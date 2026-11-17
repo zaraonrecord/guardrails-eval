@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3ee33a80903ebc92f44367006c701664ed63a6b7c520d4ad5cf88d82580ca88c",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. website. No send date or audience was given.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" matches the policy row (subscription terms).\n  - \"free UK delivery on orders over £25\" matches the policy row (shipping policy).\n  - \"means most boxes ship free\" is **unproven**. The policy says nothing about how many orders or boxes pass £25, so \"most\" is an invented proportion. It also implies something about typical basket or subscription value that I can't see evidence for. `[PROOF NEEDED: share of orders or subscription boxes over £25]`\n- **Regulated claims:** This touches prices and offers. The delivery threshold is a real, documented offer, but the \"most boxes ship free\" gloss goes beyond it.\n- **House style:** The draft is warm, plain and unhurried, with no banned words and no AI tells. I'd score it about 90. No rewrite is needed beyond the claim fix.\n- **Disclosure:** This is the brand's own landing page, with no partnership, affiliate link or AI-labelled content. Nothing is needed.\n\n**Fixed:** Nothing has been applied to the draft yet. I'm suggesting one change.\n\n**Needs a decision:** Remove \"means most boxes ship free\". Suggested replacement:\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf the team can show that most boxes are over £25, add that source to the policy and the original line can stay.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to the final wording before this goes live.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Landing hero | Subscribers can pause or cancel any time | On policy list | Subscription terms |\n| 2026-11-17 | Landing hero | Free UK delivery on orders over £25 | On policy list | Shipping policy |\n| 2026-11-17 | Landing hero | Most boxes ship free | Unproven, remove | None |\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013562900000000001,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

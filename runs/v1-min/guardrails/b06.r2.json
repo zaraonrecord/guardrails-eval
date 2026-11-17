@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b099ec8956defd9ddf668778f2d475a3a76305ea239fb6c3c78842dc5119459b",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter, a short note about a Darjeeling garden visit and a new first flush arriving in the shop on Monday. Audience: UK subscribers.\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or comparisons. The garden, the March picking, the flavour (\"bright and floral\") and the Monday arrival are product facts (origins, flavour, new arrivals), which the policy allows as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. There is no \"limited stock\" or countdown wording. \"From Monday\" is a plain launch date, not manufactured urgency.\n- **House style:** It is short, concrete and specific. I found no stock AI openers, empty intensifiers, reversals or slogan closers.\n- **Disclosure:** This is the brand's own product in its own newsletter. There are no sponsors, affiliate links, gifted items or paid partnerships, and nothing here needs an AI label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Confirm that the Monday date is correct and the product will be live then. I can't verify this, and the copy would be wrong if the launch slips.\n- The policy names no approver. Please confirm a named person approves this exact text. I haven't recorded an approval, and I won't record one on anyone's behalf.\n\n**Approver:** None is named in the policy, so you are the approver. Once you say yes to this exact text, it can go.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010705099999999999,
+ "seconds": 19.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

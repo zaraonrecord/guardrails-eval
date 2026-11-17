@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "309e7f0b8b340118af87e53c2adf4803b3131b99508144f17941437bc3b38ba5",
+ "result": "**Review of the creator post (paid)**\n\nChecked against the brand policy:\n\n1. **\"Ad\" label**: The post opens with \"Ad\", as required for paid partnerships. Fine.\n\n2. **\"packed by hand in Bristol\"**: Matches the allowlist (\"Every tin is packed by hand in Bristol\"). Fine.\n\n3. **\"Honestly the best tea in Britain\"**: An unprovable superlative. Section 3 bans \"best\". Must go.\n\n4. **\"it's a proven immunity booster\"**: A health claim (boosts immunity), and \"proven\" implies evidence we don't have. Must go.\n\n5. **Voice and spelling**: The first sentence is warm, plain and unhurried. No banned words. UK spelling is fine.\n\n6. **Assam, afternoon reset, ten minutes away from the phone**: Personal creator experience and product detail, nothing that needs a claim. Fine.\n\n**Suggested fix:** Remove the last sentence, or replace it with something true, for example: \"Their tins are packed by hand in Bristol, which I love, and the Assam is lovely and malty.\" (Flavour description is a product fact for the team to confirm.)\n\nNot publishable as written. Sam needs to approve the revised version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073089999999999995,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

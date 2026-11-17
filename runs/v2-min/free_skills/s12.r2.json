@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3f7fae422330c08b6c3fa8cdf84ef16d2984ed3467a97e4266a38f4730bec704",
+ "result": "**Verdict: hold until one line is changed.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Allowed (product facts, new arrivals) |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Allowed (ingredients) |\n| \"back in the shop from today\" | Allowed (availability), assuming it is true for today's send |\n| \"selling fast\" | **Unsupported.** It implies scarcity and demand with no verifiable figure behind it, so it counts as fake urgency. |\n\n**Slop check:** There are no banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener and no invented stats. The opener \"Quick one this week\" is mild throat-clearing, but it is short and fine to keep.\n\n**Fix:** Cut \"selling fast\". If you want urgency, it has to be real and checkable, such as a limited batch size or a stock level. I've left a placeholder for that.\n\n**Suggested version:**\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's in the shop from today.\n>\n> [PROOF NEEDED: if the batch is genuinely limited, state the real quantity or stock status]\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120343,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

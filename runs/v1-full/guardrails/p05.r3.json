@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be54bbb63dbb00922f3bf8d597ebfc3779cd83b9f2121af1eb57ac527802ad7b",
+ "result": "## Publish gate report\n\n**Going out:** newsletter to Pebblebrook subscribers, a first flush announcement from the Darjeeling garden visit. No send date was given.\n\n**Checks**\n- **Claims:** One problem. \"only 40 tins are left, so be quick\" is a scarcity claim, and policy section 3 bans \"only X left\" urgency unless it comes from a real offer in the policy. There is none, and I can't verify the stock figure from this chat. The other lines are product facts the policy treats as fine as written: the garden's location, the March picking, the bright and floral flavour, and the arrival on Monday.\n- **Regulated claims:** One problem, the same scarcity line. It touches the \"limited stock\" category. There are no health, money, environment, children or price claims.\n- **House style:** Voice is warm and plain, with no banned words. \"so be quick\" pushes against the \"unhurried\" voice, and it goes with the urgency fix anyway.\n- **Disclosure:** Pass. It's the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-labelled content.\n\n**Fixed (suggested wording)**\n- Removed the unverified scarcity line and replaced it with a calm close.\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n**Needs a decision**\n- If stock really is limited, that needs to be confirmed and added to the policy as a real offer. Otherwise I'd leave it out. A gentler, true alternative is \"You'll find it in the shop from Monday, and we'll be packing the first tins by hand in Bristol.\" That is covered by the hand-packing claim in section 2.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to the revised text above, and the send should be held until then.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121548,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

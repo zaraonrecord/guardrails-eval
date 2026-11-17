@@ -1,10 +1,14 @@
 {
  "case": "p11",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the draft**\n\n- **\"9 out of 10 customers reorder within a month.\"** This is an invented statistic. The allowlist has no reorder-rate claim (only the 4.8/5 rating from 1,200+ reviews), so it can't be published unless there's data to back it. Remove it, or replace it with an allowed claim such as the review rating.\n- **\"Free UK delivery on orders over £25.\"** This is on the allowlist and is fine.\n- **Product facts** (Builder's, Earl Grey, peppermint, desk drawer) are fine as written.\n- **Disclosure:** it's a social ad on the brand's own account, so no extra label is needed.\n\nThe draft should not go out as is. Once the reorder stat is removed, it's fine.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.008676,
- "seconds": 10.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "115ebb298ea79051f08dd2fd2ffbf7faeadc35320a5eaa971a1f78792f385a67",
+ "result": "**Review of the draft**\n\n- **\"9 out of 10 customers reorder within a month.\"** This is a statistic that isn't in the brand's allowlist. The only backed numbers are the 4.8/5 rating from over 1,200 reviews, free delivery over £25, and founding in 2019. A reorder rate is a specific performance claim with no source, so it's an invented stat. Remove it, or publish only if the team can supply the underlying data and it's verified.\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist exactly. Fine.\n- **\"Three teas for your desk drawer... Builder's, Earl Grey and a peppermint for after lunch.\"** Product facts and tone, no issues. \"A peppermint for after lunch\" is a usage suggestion and makes no health claim (it doesn't say it aids digestion), so it's acceptable.\n- **Disclosure / label:** this is an ad on the brand's own account, so no extra disclosure is needed.\n- **Other:** no superlatives, guarantees, urgency, green claims or testimonials.\n\n**Suggested fix:** Drop the reorder sentence, or replace it with an allowlisted proof point, e.g. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nRevised copy: \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Rated 4.8 out of 5 from over 1,200 reviews on our website. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011255999999999999,
+ "seconds": 9.5,
  "models": [
   "claude-sonnet-5-5"
  ]

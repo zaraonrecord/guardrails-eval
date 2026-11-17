@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6a404e3d038f1618192fe088eb0402060f95814630822a6b31f1bc8485064351",
+ "result": "**Publish gate report: Assam Breakfast, product page**\n\n**Going out:** Product page copy for Assam Breakfast, UK audience.\n\n**Checks**\n\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy list. OK. \"Malty, full-bodied black tea that stands up to milk\" is product flavour and brewing fact, fine as written. \"100g tin, makes around 40 cups\" is a size/brewing fact, fine. \"Boosts your immunity through winter\" is an unproven health claim. It is not on the policy list, no source was given, and tea can't carry an immunity claim without an authorised health claim (UK rules are strict on this).\n- **Regulated claims:** The immunity line falls under health. Safer version: remove it, or replace it with something true about the tea, such as \"a warming cup for winter mornings.\"\n- **House style:** The policy has no voice section, so I can't score it formally. The copy is plain and specific. The fragment opener is fine.\n- **Disclosure:** This is the brand's own product page, so no ad, affiliate or AI label is needed.\n\n**Fixed (suggested wording)**\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, and a warming cup for winter mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Needs a decision**\n\n- Confirm you're happy to drop the immunity claim. My suggestion is yes. If the team has an authorised basis for it, add the evidence to the policy and I'll re-check.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact revised copy above. I haven't recorded any approval, and as the draft stands, it should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0089242,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

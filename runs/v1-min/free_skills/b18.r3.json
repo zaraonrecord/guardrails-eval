@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "97617901e00753f2fea512d844e686357663e638308c15867f31bb0f2b0be317",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean\" | Flavour description, fine |\n| \"after a big meal\" | Serving occasion. It doesn't say the tea aids digestion, so it isn't a health claim |\n| \"Certified organic by the Soil Association\" | On the allowlist |\n\n**Slop check:** No ban-list words, no em-dash sandwiches, no exclamation points, no rhetorical opener and no abstract triads. The opening word names the product, and there is no throat-clearing.\n\n**Other checks:** There are no invented stats, testimonials, superlatives, guarantees, urgency or green claims beyond the allowlisted certification. Nothing here needs a disclosure.\n\nOne note, not a blocker: if you later add wording like \"aids digestion\" or \"settles your stomach\", that becomes a health claim and would need a source.\n\nThe draft is clear to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008816999999999998,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

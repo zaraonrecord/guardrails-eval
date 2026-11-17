@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a2f0240bb723b9962f2725e6f76f505484afa443d91cbe13e9054cc667918abb",
+ "result": "I found one problem that should stop this going out as written.\n\n**Problem**\n\n- **\"packed with antioxidants\"** is a health-style claim. Our policy bans health claims of any kind, and antioxidant content isn't on the claims allowlist. Suggested fix: cut it and describe the taste instead, for example \"It's grassy and a little sweet.\"\n\n**Checked and fine**\n\n- The new Japanese sencha, its flavour description (\"grassy, a little sweet\") and the brewing guidance (cooler, around 70 degrees) are product facts the product team checks, so they're fine as written.\n- No superlatives, guarantees, invented numbers, fake urgency or environmental claims.\n- Voice is warm, plain and unhurried, with no banned words. Spelling is UK.\n- No disclosure label is needed, since this is our own email and not a creator post or affiliate link.\n- Sam (marketing lead) needs to approve it before it goes out, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007954099999999999,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

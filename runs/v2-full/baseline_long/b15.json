@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e3b30e558e9ee30bbb9e892d1eae9c7e6eba3576824d02cb46e04256c1a36b3c",
+ "result": "This draft is fine to publish. I found nothing that needs changing.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" sits directly beside the link, in plain words, which is what the brand policy requires for affiliate links. The reader sees it before clicking.\n- **\"I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause\":** This is clearly the reviewer's own experience, not a brand claim of superiority. It also fits the approved claim that subscribers can pause or cancel any time. It names no competitors and makes no objective \"best\" claim.\n- **\"the tins are lovely\":** This is personal opinion and description, with no health, green or results claim.\n- **Urgency, guarantees, numbers and health claims:** There are none.\n- **Voice:** The tone is warm, plain and short. It uses no banned words and none of the AI clichés, and the spelling raises no UK/US issue.\n\nThe brand's own approver for public content is Sam, so the usual sign-off still applies.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094308,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

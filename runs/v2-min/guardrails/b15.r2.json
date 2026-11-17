@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9786a6fa134b46c7539066de3cc0f2efa23c7f878ccd439bdf872c2b56eac6c1",
+ "result": "# Publish gate report\n\n**Going out:** Affiliate review blog post about Pebblebrook Tea Co. subscriptions, UK audience. No schedule given.\n\n**Fixed (in the revised copy below):**\n- **Disclosure moved to the top.** \"(Affiliate link)\" came at the very end, after the reader had already read the recommendation. The label now opens the post and says what it means in plain words.\n- **\"Easiest to pause\" softened.** The policy backs \"subscribers can pause or cancel any time\". It doesn't back a ranking against three unnamed competitors, so the revised copy says it was easy to pause.\n\n**Revised copy:**\n> Affiliate disclosure: I earn a commission if you buy through the link in this post. I've tried four tea subscriptions this year. Pebblebrook's was easy to pause, and the tins are lovely. You can find it [here](affiliate link).\n\n**Needs a decision:**\n1. **Gifted product or payment.** If Pebblebrook sent you the tea or paid you anything beyond the commission, that must be disclosed too. Suggested answer: say so in the opening line if it applies.\n2. **\"Four tea subscriptions this year\".** This is your own experience and I can't check it. Please confirm it's true. Suggested answer: keep it only if you can name the four if asked.\n3. **\"Easiest to pause\".** If you want to keep the comparison, confirm that you genuinely found it easier than the other three and that you're happy to be asked which ones. Otherwise use the softened version.\n4. **Link text.** If the affiliate link is on the word \"here\", repeat the label near the link if the post is long or may be shared in pieces.\n\n**Regulated claims:** No health, money, legal, environmental, children or price claims.\n**House style:** The tone is plain and natural, with no AI tells or banned phrases.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact revised copy above. Nothing has been approved or recorded, so it should not be published yet.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0181374,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2807feae88b1f7be6d2341007e9b846d9374883a1e2f1ca60c2d7c6bae9dd953",
+ "result": "**Publish gate report: Chamomile and Lemon Balm product page**\n\n**Going out:** product page copy, Pebblebrook Tea Co. website, UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"20 plastic-free tea bags\": plastic-free is on the policy list; the count of 20 is a product fact (sizes), fine as written. Pass.\n   - \"caffeine-free\": a product fact about ingredients. Chamomile and lemon balm are naturally caffeine-free, so this holds. Pass.\n   - \"gentle, honeyed\": flavour description, a product fact. Pass.\n\n2. **Regulated claims:** \"for the evening\" is a usage suggestion, not a sleep, relaxation or calming claim. No health wording (no \"relaxing\", \"helps you sleep\", \"calming\"). Pass. Keep it that way if edited later.\n   - Environmental: \"plastic-free\" is a specific claim and is backed by the policy. No broad green wording. Pass.\n\n3. **House style:** The policy has no voice section, so I can't score against brand voice. The copy is short and concrete. Mild note: \"A gentle, honeyed caffeine-free blend\" is fine and has no AI tells or banned words. Pass.\n\n4. **Disclosure:** Own-product page, no ad, sponsorship, affiliate link, gifted product or AI-generated imagery stated in the copy. Pass.\n\n**Fixed:** nothing needed.\n\n**Needs a decision:** nothing unresolved. Two small notes: the policy has no voice section, so adding one would let me score future copy properly. The \"20 bags\" count should match the actual pack size.\n\n**Approver:** the policy names no approver, so the user (the account holder) needs to give an explicit yes to this exact text. Once you confirm, record it with the approve script and retry the publish. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094416,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

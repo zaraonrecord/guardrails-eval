@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1ea23388a80cd868aa3c6c3e6b334791f11ff68227914211aad8a7cfd755a60c",
+ "result": "**Review of the landing hero draft**\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlist exactly, including the source (our website).\n- **\"Organic loose leaf\"** is supported by the Soil Association certification. It could name the certifier, but that isn't required.\n- **\"packed by hand in Bristol\"** is on the allowlist.\n- **\"fully sustainable bags\"** is a problem. \"Fully sustainable\" is a broad, unqualified environmental claim, and we can't back it up. What we can say is that the tea bags are plastic-free and home compostable. A claim like this also risks breaching UK CMA Green Claims Code guidance.\n\n**Suggested fix:** replace \"fully sustainable bags\" with \"plastic-free, home compostable tea bags\". The line would then read: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010960000000000001,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "**Review: blog intro**\n\n**Claims check**\n- \"We started Pebblebrook in Bristol in 2019\": matches the approved claim (founded in Bristol in 2019).\n- \"Our tea bags are plastic-free and home compostable\": matches the approved claim word for word. It is also scoped to the tea bags, not stretched to all packaging or the business, so it is not a vague green claim.\n- \"because we couldn't find tea bags without plastic in them\": this is the founders' own origin story, not a product claim or statistic. It is fine as long as it is accurate to how the brand began.\n- \"here's how we checked\": this is a lead-in to the rest of the post. It is fine in the intro, but the body must back it up with the real checks or evidence behind the plastic-free and compostable claims. Keep anything it adds within the approved claims. For example, don't add a certification, test result or compost timeframe that isn't on the allowlist.\n\n**Other checks**\n- No superlatives, health claims, guarantees, urgency, reviews or stats.\n- Blog on the brand's own site, so no ad label is needed. There are no affiliate links or paid placements.\n- Tone is plain and specific, with no AI clichés or filler. UK context is consistent.\n\n**Decision:** Nothing here needs changing, so it can go out. Check the body of the post when it is ready, because the \"how we checked\" promise has to be delivered with evidence the brand holds.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0121345,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2a879a1341c2c5e4f75bc4141e31fbc0c123acb276b882a3b89df6a4ff9f3f67",
+ "result": "**Review of landing hero draft**\n\nSentence by sentence:\n\n1. \"Tea that's easy to stop and start, and you'll love it or it's free.\"\n   - \"you'll love it or it's free\" is a guarantee (and an implied money-back promise). The brand policy has no such guarantee; it only approves pause/cancel any time. No terms (conditions, time limit, how to claim) are given. Hold.\n   - \"easy to stop and start\" is a loose paraphrase of pause/cancel, which is approved. Fine, though \"easy\" is slightly stronger than the approved wording. Acceptable.\n\n2. \"Subscribers can pause or cancel any time\" matches the approved claim.\n\n3. \"free UK delivery on orders over £25\" matches the approved claim and carries its threshold.\n   - \"means most boxes ship free\" is an unsupported claim. The brand has no data on what share of orders exceed £25, so \"most\" is an unsourced statistic-style claim. It also implies a typical basket size the brand can't show. Fix: drop it, e.g. \"Free UK delivery on orders over £25.\"\n\nStyle: no obvious clichés. The copy is short and plain.\n\nDecision: hold. Remove or properly define the guarantee (only if the business actually agrees to honour it, with terms shown), and cut the \"most boxes ship free\" claim.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009662500000000001,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

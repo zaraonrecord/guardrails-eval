@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3a6c59f863097028937b0fa43f7bed241080398878e0861a90313c800dee2e3c",
+ "result": "**Review: landing hero, Pebblebrook Tea Co.**\n\nThe draft is clean and can go out.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy) |\n| \"Good tea, no fuss\" | Soft tone line, not a measurable claim, and not a superlative |\n\n**Other checks**\n- **Banned words and structures:** none. There are no em-dashes, exclamation marks, rhetorical-question openers, \"not just X, it's Y\" constructions or fake urgency.\n- **Health, green and guarantee claims:** none.\n- **Voice:** warm, plain and unhurried. UK spelling is fine, and there are no brand-banned words.\n- **Disclosure:** none needed, since this is the brand's own landing page and not a creator or affiliate post.\n\n**Notes (non-blocking)**\n- \"Good tea\" is a vague opener. It passes, but if you want the first line to carry the most useful fact, you could lead with the organic certification.\n- Per the brand policy, Sam (marketing lead) needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104936,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

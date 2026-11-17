@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n- **Headline: \"Organic Loose Leaf Tea\"** is description of the product, and the organic status is backed by the Soil Association certification in the brand policy. Fine.\n- **\"Certified organic by the Soil Association.\"** This is an approved claim, stated as written.\n- **\"Free UK delivery on orders over £25.\"** This is an approved claim, and the threshold (£25) matches the policy exactly. The condition sits right next to the claim.\n\nOther checks:\n- No superlatives, comparisons, health claims, green claims, guarantees, testimonials, stats or urgency.\n- No ad label is needed for a brand-owned search ad beyond the platform's own sponsored marking, and there is no creator or affiliate element.\n- Style: short, plain, specific, with no clichés or filler. Spelling is UK-appropriate.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059995,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "85d47a2a0023ca749e483395089bca722010053852985ce53fea9be32628b6a9",
+ "result": "**Review: search ad (Pebblebrook Tea Co.)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association; loose leaf is a core product) |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- **Invented stats, testimonials, superlatives, guarantees:** none.\n- **Slop-guard:** no banned words, no exclamation points, no rhetorical-question opener, no em-dash asides. The first sentence carries a concrete fact.\n- **Platform policy:** no health, financial or personal-attribute triggers. Organic certification is a verifiable claim, so there is no green-claim risk.\n- **Character counts:** the headline is 22 characters. The description is 79 characters. Both fit standard search ad limits (30 and 90), and you gave no other limit.\n- **Landing page match:** the ad's organic and free-delivery claims need to appear on the landing page too. I can't see the page, so confirm that before launch.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0108913,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

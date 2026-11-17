@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f758509460859b8032506853222154b4a9d27cdba2e097de2498e0830118675a",
+ "result": "# Publish gate report\n\n**Going out:** landing page hero, Pebblebrook Tea Co., UK audience. No date was given.\n\n**Checks**\n- **Claims:** all three claims match the policy list, so there's nothing to remove.\n  - \"Packed by hand in Bristol\" matches \"Every tin is packed by hand in Bristol\" (Operations).\n  - \"Certified organic by the Soil Association\" has its certificate on file, renewed 2026.\n  - \"Free UK delivery on orders over £25\" matches the shipping policy.\n- **Regulated claims:** no health, money, legal, environmental, children or price-urgency wording. \"Free delivery over £25\" is a standing offer with no countdown or stock claim.\n- **House style:** the voice is plain and warm, with no banned words or AI tells. The one weakness is that \"packed by hand in Bristol\" appears twice in three sentences, which reads as padding in a hero.\n- **Disclosure:** this is the brand's own page, so no ad, affiliate, gifted or AI label is needed.\n\n**Fixed:** nothing was changed in the draft. I'd recommend merging the repetition, but I haven't treated it as a blocker. Suggested version, using only the same claims:\n\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nIf you use this version, I'll need to re-check that final text.\n\n**Needs a decision:** whether to keep the original or use the tidied version. Both pass.\n\n**Approver:** Sam (marketing lead). Nothing is approved yet. Sam needs to say yes to the exact final text, and only then should the approval be recorded and the publish retried.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0137724,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

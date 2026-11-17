@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0301f1505a8f77d1643765df031a3da6471996a05316878fcfa59cc38c3a3d7c",
+ "result": "The draft is short and its claims are fine: the rooibos chai, the oat milk pairing, and the winter sampler are product facts or personal taste. There are no stats, superlatives, guarantees, health claims, green claims, or urgency.\n\nOne problem: the post is a gifted creator post, and the draft says only \"Thanks to the team for sending it over!\" That hints at a gift, but it doesn't clearly disclose it. UK rules (ASA/CAP Code and CMA guidance) require gifted content to be clearly labelled, for example with \"#gifted\" or \"Gifted:\" at the start. A thank-you line at the end is easy to miss and doesn't say plainly that the product was a free gift. The label should be up front.\n\nSuggested fix: begin with \"Gifted: \" (or \"#ad #gifted\") so it reads, \"Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009398,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "I checked each sentence against the brand policy.\n\n- \"We started Pebblebrook in Bristol in 2019\": matches the approved claim (founded in Bristol in 2019).\n- \"because we couldn't find tea bags without plastic in them\": this is the founders' origin story, not a product or result claim. It's a statement about the company's motivation, and nothing in the policy contradicts it. I can't verify it, but it's the brand's own account of itself and reads as a plain narrative statement, so I'm not flagging it.\n- \"Our tea bags are plastic-free and home compostable\": approved claim, worded the same way as the policy.\n- \"and here's how we checked\": this is a lead-in to the blog's body, so it promises a explanation of how the claims were verified. It makes no new claim by itself. The body of the post will need its own review, particularly for how it describes any testing or certification (the policy only supports plastic-free and home compostable, with no named third-party certification for the tea bags).\n\nTone: the intro is plain and specific, with no clichés or hype. No ad or affiliate label is needed on a brand-owned blog.\n\nOptional polish: \"a explanation\" is not in the draft, so no fix is needed there. The only suggestion is to make sure the post that follows doesn't name a lab, standard or certificate (for example a compostability certification) unless the brand holds it.\n\nNothing in this intro needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007421099999999999,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

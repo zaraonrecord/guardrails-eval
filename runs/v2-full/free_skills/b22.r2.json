@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ba34b0cfe5ccffc21a6928a7212cb6b94acb91b5ff4f644a99c79e09d3cbe33c",
+ "result": "**Verdict: clear to publish.** Nothing in it breaks the claims, voice or disclosure rules.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine as written |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (\"plastic-free\") |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (EN 13432 supplier certificate) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, stats, testimonials:** none.\n- **Environmental claims:** only the two certified ones. No \"eco-friendly\" or \"sustainable\".\n- **Urgency:** \"just landed\" describes a launch and is not a countdown or scarcity claim.\n- **Disclosure:** this is our own account, so the platform marks any paid promotion and no extra label is needed.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dash sandwiches, no exclamation points, UK spelling.\n\n**Optional edit (not blocking):** \"plastic-free\" appears twice in three sentences. You could cut the first mention: \"Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\" That keeps the one allowlisted claim and reads tighter.\n\n**Approval:** per the brand policy, Sam needs to sign off on all public content before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0123604,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8669edf4d73fbb55de436107dd36bf306f70b0e56d699352aa7ae8c550faeb2f",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlisted wording exactly. The proof is the October 2026 review platform export.\n- **Product facts:** \"real bergamot oil and a little cornflower\" is an ingredient description, which the product team checks and which is fine to use as written.\n- **Prohibited claims:** There are no superlatives, guarantees, health claims, environmental claims, invented figures, testimonials or false urgency.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words or phrases, and the spelling is UK-compatible.\n- **Disclosure:** This is a post from our own account, with no partnership, gifting or affiliate link, so no label is needed.\n\nUnder section 6, Sam (marketing lead) still needs to approve anything public before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071051,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

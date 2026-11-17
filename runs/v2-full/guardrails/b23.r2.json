@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c647c4cfe9b064db7d63a6cdc65b109894f579807ec004c5acd1b35f2b5d546a",
+ "result": "**Publish gate report**\n\n**Going out:** Rooibos Chai product page copy, on the website, for UK shoppers.\n\n**Checks**\n- **Claims:** The copy has no stats, ratings, superlatives, guarantees, testimonials or comparisons. \"Caffeine-free\", the spice list, \"Lovely with milk\" and \"100g tin\" are product facts (ingredients, flavour, tin size), which the policy says the product team checks and are fine as written. Nothing needs a proof row, so there is nothing to add to the evidence log.\n- **Regulated claims:** \"Caffeine-free\" describes the ingredients and makes no health promise. There are no benefit claims (no \"soothing\", \"calming\" or \"aids digestion\"), no green claims, and no price or urgency wording. Nothing is flagged. Keep it this way if the copy is extended later.\n- **House style:** The copy is warm, plain and unhurried, with no banned words and no AI tells. Score: about 95/100, so no rewrite.\n- **Disclosure:** This is the brand's own product page, with no partnership, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved. If the product team hasn't confirmed the caffeine-free status of this specific blend, they should confirm it. The copy is fine as written under the policy.\n\n**Approver:** Sam (marketing lead), who approves everything public. I have not recorded any approval. Once Sam says yes to this exact copy, record it and retry the publish. Any edit after approval needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118191,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

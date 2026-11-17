@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fa90289815c832398844e285e597f1f250d86af4ed7603e48973a19c6c567a2c",
+ "result": "The draft is clean and can go out as written.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Allowed (new arrivals are fine as written) |\n| \"Deep green, gold lettering\" | Product description, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Green claims:** both environmental claims are on the allowlist and are specific, with no vague \"eco-friendly\" wording.\n- **Banned vocabulary and structure:** no banned words, em-dash sandwiches, exclamation points, rhetorical-question openers, fake urgency or invented proof.\n- **Disclosure:** none needed. It's an organic post on your own account with no affiliate or sponsored content.\n- **Opening line:** it leads with the news, which works.\n\n**Optional edit, not a blocker:** \"plastic-free\" appears in two consecutive sentences, so the last one repeats the second. If you want it tighter, you could end with: \"Same tea bags inside: plastic-free and home compostable.\" The current wording is still compliant.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097662,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

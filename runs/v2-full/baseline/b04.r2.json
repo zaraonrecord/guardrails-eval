@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d3dd0db26600474307a734db8f5daf100c80af2cb4e681b61bd316c472c04726",
+ "result": "I checked each sentence against the brand policy.\n\n- **\"A malty, full-bodied black tea that stands up to milk.\"** This is flavour and brewing description, which is a product fact and fine as written.\n- **\"Certified organic by the Soil Association.\"** This matches the allowlist wording exactly. The certificate is on file and was renewed in 2026.\n- **\"100g tin, makes around 40 cups.\"** Tin size and cup count are product facts checked by the product team, so they are fine.\n- **Voice and spelling.** The copy is plain and has no banned words. There are no superlatives, guarantees, health claims, green claims, invented numbers or urgency.\n- **Disclosures.** This is our own product page, so no partnership or affiliate label applies.\n\nNothing needs changing. It's ready to go to Sam for approval, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": false}\n```",
+ "cost_usd": 0.0054099000000000005,
+ "seconds": 6.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

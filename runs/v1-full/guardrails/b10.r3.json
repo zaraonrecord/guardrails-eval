@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "76ce4b201c4add52740b65c1fdfd64ee2f537b889f8da1bc68663ee7da9924cd",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for Chamomile and Lemon Balm tea, for Pebblebrook Tea Co. (UK).\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026) |\n| plastic-free tea bags | On the policy list (supplier certificate, EN 13432) |\n| 20 tea bags | Product fact, fine as written |\n| caffeine-free | Product fact (ingredients), fine as written |\n| gentle, honeyed | Flavour description, fine as written |\n\n**Regulated claims:** \"for the evening\" only says when to drink it. It doesn't mention sleep, relaxation, calming or any other health benefit, so it's fine. Please don't add \"helps you sleep\" or \"calming\" later, because the policy bans health claims of any kind.\n\n**House style:** No banned words, no AI tells, UK spelling, and the tone is warm, plain and unhurried. It scores well above 80, so no rewrite is needed.\n\n**Disclosure:** This is the brand's own product page, with no ad, affiliate link, gifted product or endorsement. No label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One small check for the product team: \"honeyed\" should describe the flavour. If the blend contains no honey, that's fine, but if it does, the ingredients list should say so.\n\n**Approver:** Sam (marketing lead). The copy has passed the checks, but it isn't approved until Sam says yes to this exact text. Nothing should be published before then.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0124498,
+ "seconds": 21.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

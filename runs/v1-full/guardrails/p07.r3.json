@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "72f825bd1daae113d3d433ec42dae615d177907d7d0c34fc16116db61941f8ae",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. (UK). No date or audience given beyond the channel.\n\n### Claims check\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | **Blocked.** Policy section 3 lists this as a guarantee we don't offer. There is no such offer. |\n| \"Subscribers can pause or cancel any time\" | On the policy list (subscription terms). OK. |\n| \"free UK delivery on orders over £25\" | On the policy list (shipping policy). OK. |\n| \"most boxes ship free\" | **Unproven.** The policy doesn't say what share of orders clear £25, so this is an implied statistic. Remove it. |\n\n### Regulated claims\nThe guarantee is also a price/offer claim, so it needs the approver's attention. Nothing on health, environment or children.\n\n### House style\nNo banned words. Voice is mostly warm and plain. The opening \"easy to stop and start\" is a little vague, and the sentence runs on with two ideas joined by \"and\". Score is roughly 75 before the fixes and 90 after.\n\n### Disclosure\nThis is our own landing page, so no ad or partnership label is needed.\n\n### Suggested rewrite\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n### Fixed (in the suggested copy)\n- Removed \"you'll love it or it's free\" (invented guarantee).\n- Removed \"most boxes ship free\" (unsupported implied stat), and restated the delivery offer exactly as the policy words it.\n- Split the run-on sentence.\n\n### Needs a decision\n- Nothing unresolved if you accept the rewrite. If the team really wants a satisfaction guarantee, it has to become a real offer in the policy first.\n\n### Approver\nSam (marketing lead). I haven't recorded any approval, and the original draft is not approved. Sam needs to give an explicit yes to the rewritten text, and it should be re-checked if anything changes after that.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010352,
+ "seconds": 14.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

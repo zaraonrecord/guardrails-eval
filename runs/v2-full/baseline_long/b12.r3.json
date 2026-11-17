@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0346848f8a0081ae71b8178caedc777655ea26dc5510250b889448c0db318859",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- \"Three teas for your desk drawer.\" Description. Fine.\n- \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description and a usage suggestion. It doesn't claim any effect on the body (no digestion or similar), so it isn't a health claim. Fine.\n- \"Free UK delivery on orders over £25.\" Matches the approved claim wording exactly, with the threshold stated.\n\nChannel: this is a paid social ad from the brand's own account, so the platform marks it as an ad and no extra label is needed. No creator or affiliate involved.\n\nStyle: the voice is warm, plain and unhurried, UK spelling, and none of the banned words appear. The three-item list is a literal list of products, not rhythm for its own sake. No clichés.\n\nNo unsupported claims, superlatives, guarantees, urgency, or health or green claims. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006106100000000001,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

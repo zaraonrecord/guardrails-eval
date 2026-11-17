@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7fad0fca1789ae0c81eec89aa1ad3902b8ee044ebe34b30daf0e778a55b747db",
+ "result": "Two claims in this draft aren't on the brand's approved list.\n\n1. **\"Most subscribers stay with us for over a year.\"** This is a retention statistic. The policy doesn't back it, so it counts as an invented stat. It also sits oddly beside the pause-or-cancel message.\n2. **\"means most boxes ship free.\"** The policy supports free UK delivery on orders over £25. It doesn't support the claim that most boxes qualify, which is an unsupported statistic about order values.\n\nThe pause-or-cancel claim and the free-delivery-over-£25 claim are both approved and fine as written. A safe rewrite would be: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010584,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

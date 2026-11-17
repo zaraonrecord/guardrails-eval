@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "035274b588017db4d56c5da0357ba049d78919f970a2c406bc874d7b7a94492c",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline and description) for the UK, no date given.\n\n**Checks**\n- **Claims:** All pass.\n  - \"Subscribers can pause or cancel any time\" matches the allowlist (subscription terms).\n  - \"Free UK delivery on orders over £25\" matches the allowlist (shipping policy), and the £25 condition is kept.\n  - \"Monthly loose leaf tea\" is a product fact. There are no stats, superlatives, guarantees or testimonials.\n- **Regulated claims:** Nothing on health, environment, children or price promotions. The delivery offer is a standing policy, not a countdown or limited-time deal.\n- **House style:** No banned words or AI tells. The tone is plain and fits \"warm, plain, unhurried\". It is terse, as search ads are.\n- **Disclosure:** This is the brand's own paid search ad, so no extra label is needed under policy section 4.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- The description is about 102 characters. Google responsive search ads cap descriptions at 90, so it may be rejected or truncated. The policy doesn't set a limit, but you may want to check. A suggested trim that keeps both claims intact: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" (about 76 characters). If you change the wording, it needs a new check.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, so please get an explicit yes from Sam on the exact final wording before this goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0124815,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

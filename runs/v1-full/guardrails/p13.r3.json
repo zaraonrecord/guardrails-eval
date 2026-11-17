@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "bb77ac95254348b613b1147126731689f1ddadca3851e6144d69022032f88d10",
+ "result": "## Publish gate report\n\n**Going out:** a creator post (gifted product) about the winter sampler. No date or audience was given.\n\n**Checks**\n- **Claims:** Pass. \"Lovely with oat milk\" is the creator's own taste opinion, not a brand claim. There are no stats, rankings, guarantees or health claims.\n- **Regulated claims:** Pass. Nothing touches health, money, the environment, children or prices.\n- **House style:** Pass. It's plain and warm, with no banned words or AI tells. It's the creator's voice, so I wouldn't rewrite it.\n- **Disclosure:** **Fail.** Policy section 4 says a gifted post must start with \"Gifted\", before anything else. This one opens with \"Pebblebrook sent me their winter sampler\", so the reader only learns about the free product from the body text. The line \"Not paid to say that, just liked it\" makes this worse. It's true that there was no payment, but it plays down the free product and could leave readers thinking there's no connection to the brand.\n\n**Fixed:** nothing yet. This is the creator's post, so the change needs to go back to them.\n\n**Needs a decision**\n1. Add \"Gifted\" as the very first word, and use the platform's paid-partnership or branded-content tool too if it has one. Suggested text:\n   > Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk.\n2. Drop \"Not paid to say that, just liked it\", or reword it after the label is in place. My suggestion is to drop it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Once the creator has made the changes, I'll re-check the final text and Sam can approve that exact version.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127528,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

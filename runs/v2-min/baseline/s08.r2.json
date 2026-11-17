@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6f79e48f6cee25f431e401dd0fe814dc54e55c10f1270121b8dfa490ee714c74",
+ "result": "I checked the draft against the brand policy and found one problem.\n\n**Needs changing**\n- **\"packed with antioxidants\"** is a health and nutrition claim. It isn't on the claims allowlist, and \"packed with\" implies a meaningful benefit we can't substantiate. Cut it, or replace it with flavour or origin detail, for example \"grassy, a little sweet and best brewed cooler than you think, around 70 degrees.\"\n\n**Fine as written**\n- \"Japanese sencha\", \"grassy, a little sweet\" and the brewing temperature are product facts.\n- \"We've added... to the shop\" is a new-arrival statement, which is allowed.\n- There are no invented stats, superlatives, guarantees, testimonials, green claims or fake urgency, and the tone is not generic AI filler.\n\nThe draft shouldn't go out until the antioxidant line is removed. I assumed the usual unsubscribe and sender footer is added by the email platform, since it isn't in the draft text.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011775999999999998,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

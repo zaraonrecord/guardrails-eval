@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, and it names where the reviews are from |\n| \"Organic loose leaf\" | Allowlisted (certified organic by the Soil Association) |\n| \"plastic-free bags\" | Allowlisted (tea bags are plastic-free) |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n\n**Slop check:** No banned words, no exclamation points, no rhetorical opener, no em-dash sandwiches, no fake urgency. The first sentence leads with a concrete fact.\n\n**Notes (not blocking):**\n- The allowlist wording is \"every tin is packed by hand.\" The draft's \"packed by hand\" covers both the loose leaf and the bags. If the bags ship in boxes rather than tins, check that the hand-packing claim holds for them too.\n- \"Organic\" is only backed by the Soil Association certification. Make sure every loose leaf tea on the site is certified, or the line will overstate it for any that aren't.\n- If the hero links to a landing page, the same claims should appear there.\n\nNothing here needs changing as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0138303,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

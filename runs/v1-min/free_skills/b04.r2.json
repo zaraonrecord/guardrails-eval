@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "98f03107e0c565aad22eb3b7f69ecd2252b66b36de139ba1bd56c4c57be76acd",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Assam Breakfast, a malty, full-bodied black tea that stands up to milk | Product/flavour fact, fine as written |\n| Certified organic by the Soil Association | Allowlisted |\n| 100g tin | Product fact (size), fine |\n| Makes around 40 cups | Product fact (brewing), fine. \"Around\" keeps it soft. |\n\n**Slop check:** No banned words, no em-dash asides, no exclamation points, no rhetorical opener, no fake urgency. The copy opens with the product name and a concrete description.\n\n**Other checks:** There are no invented stats, testimonials, superlatives, guarantees, health claims or green claims. Nothing here needs affiliate or sponsorship disclosure, since this is the brand's own product page. The copy is short, but that is normal for a product page and it isn't a problem.\n\n**Optional note, not a blocker:** The \"around 40 cups\" figure depends on the brewing assumption (roughly 2.5g per cup). Make sure the page or packaging uses the same assumption.\n\nNothing needs to change, so it is clear to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0106783,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

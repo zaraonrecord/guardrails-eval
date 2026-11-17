@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "922e1f1691e43c7bb9e0d87c0e9a55e0fb154b90c2f47bc0484db33e4539c5da",
+ "result": "I found nothing that needs changing, so this can go out.\n\n- **Garden visit and origin:** \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a product origin fact, which the policy allows as written.\n- **Harvest timing:** \"The leaves are picked in March.\" This is also a product fact. First flush Darjeeling is normally a spring harvest, so it is plausible.\n- **Flavour:** \"taste bright and floral.\" This describes flavour rather than a health effect, and the policy allows flavour descriptions. It is not a superlative or a result claim.\n- **Availability:** \"You'll find it in the shop from Monday.\" This is a new-arrival announcement, not false urgency. It has no scarcity or countdown language. Please confirm that Monday is the real launch date.\n- **Style:** The copy is short, specific and plain. It has no filler phrases or stacked hype.\n- **Labels:** This is the brand's own newsletter, so it needs no \"Ad\" label. There are no testimonials, statistics, green claims or guarantees.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007654299999999999,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

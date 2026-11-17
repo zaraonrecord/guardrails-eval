@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: approved to publish**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new arrival), fine as written |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health, money or legal claims:** none.\n- **Green claims:** the environmental claims are specific and match the brand policy, so they are fine.\n- **Urgency:** \"just landed\" describes a new arrival and is not scarcity or a countdown.\n- **Slop:** no banned words, no em-dashes, no exclamation points, no rhetorical opener.\n- **Disclosure:** this is the brand's own account and nothing is sponsored or affiliated, so no label is needed.\n\n**Optional edit (not blocking):** \"plastic-free tea bags\" appears twice in three sentences. You could cut the first mention, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122183,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

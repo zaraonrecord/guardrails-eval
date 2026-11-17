@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f692cd127777ca82a388d6eae525ba09f9cb33a3a05f854ca2cf67ef0bcfef21",
+ "result": "**Review**\n\n- \"This month we visited the garden in Darjeeling...\": origin and visit details are product facts, so this is fine.\n- \"picked in March and taste bright and floral\": flavour and harvest details are fine.\n- \"Our customers tell us it's the only tea they drink now.\": this is an unattributed customer testimonial. Our approved claims only cover the 4.8/5 rating from over 1,200 reviews. It's also unlikely to be literally true, and a new first flush may not even have been sold yet. Remove it, or replace it with a real, attributable review quote.\n- \"You'll find it in the shop from Monday.\": a new arrival is fine as written, as long as the date is accurate.\n\nHold publication until the customer claim is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010354,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

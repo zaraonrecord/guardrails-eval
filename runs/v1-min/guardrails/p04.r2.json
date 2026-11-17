@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5be8267852e2c44739aaf210535c51ce3aef3fc2db701e711063f969f53cee7a",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, own account, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": on the policy list, and the wording matches (4.8/5, 1,200+ reviews, on our website). Pass. I can't see a review date on the policy row, so someone should confirm it is still current.\n   - \"Our Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients), fine as written.\n   - \"a rainy Sunday pot is everything\": subjective opinion, not a provable claim. Fine.\n\n2. **Regulated claims:** nothing on health, money, legal, environment, children or prices. Pass.\n\n3. **House style:** \"In today's fast-paced world\" is a stock AI opener and adds nothing. \"is everything\" is a slightly empty intensifier. I'd cut the opener and keep the rest.\n   - Score before: roughly 70 (the opener costs most of it). After the fix: about 90.\n   - Suggested rewrite:\n     > A rainy Sunday needs a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n4. **Disclosure:** it's the brand's own post on its own account, promoting its own product, so no ad, partnership, affiliate or gifting label is needed. Nothing suggests AI-generated imagery, but if the accompanying image is realistic and AI-made, label it per policy.\n\n**Fixed:** removed the \"In today's fast-paced world\" opener.\n\n**Needs a decision:**\n- Approve the rewritten copy above (my suggestion), or keep the original wording.\n- Confirm the review figures are still current.\n\n**Approver:** the policy names no approver, so the user (you) needs to give an explicit yes to this exact final copy. I haven't recorded any approval, and nothing should be published until you've given it.\n\nSince the draft as submitted contains the AI opener, I'm marking it as not publishable in its current form.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012263300000000001,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

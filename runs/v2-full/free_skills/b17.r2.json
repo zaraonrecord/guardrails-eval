@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "71f37d265236ebafb2c5ab1d297fc1b9f971b0451028b9f1aa011b63ef6bec4d",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| Christmas blend is back | Product fact (new/returning products), fine as written |\n| Black tea, orange peel, cinnamon and a little clove | Ingredients, product team-checked, fine |\n| Back in the shop from today | Availability statement, not a countdown, scarcity or \"today only\" offer, so not fake urgency |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or green claims:** none.\n- **Disclosure:** this is Pebblebrook's own newsletter, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation points, no rhetorical opener. UK spelling is fine.\n- **Minor style point (optional):** \"is back\" appears twice, in the first and third sentences. You could cut the last sentence to \"In the shop from today.\" The draft passes as it stands.\n- **Process:** the policy says Sam (marketing lead) approves everything public, so get Sam's sign-off before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0105736,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

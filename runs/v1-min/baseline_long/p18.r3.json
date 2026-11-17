@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f4bc88f503bea62444b3a2347f614e800656f83161610d423d563d0be60c8e7d",
+ "result": "**Review summary**\n\nChannel: email, brand-owned, so no \"Ad\" label is needed. The subject line matches the content, and the brewing advice is product/usage description, which the policy allows. No health, green, price, guarantee, urgency or testimonial claims appear.\n\n**Issue found**\n\n- \"Unlock your tea journey.\" This is a generic, machine-sounding cliché in the same family as \"take it to the next level\". It says nothing specific and doesn't fit a short, practical how-to email. Fix: cut it and open with the useful point, e.g. \"You don't need a teapot to brew good loose leaf.\"\n\n**Optional polish (not blocking)**\n\n- \"You don't need any kit\" is slightly at odds with the next sentence listing a mug and sieve. Consider \"You don't need special kit.\"\n- Brewing times are given for black and green tea, but green is vague (\"shorter and cooler\"). Adding a rough time and temperature would make it more useful, if the team has approved figures.\n- The email ends abruptly with no sign-off line or next step. Optional.\n\n**Decision:** Hold until the opening cliché is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006833699999999999,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

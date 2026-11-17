@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and sensation description. It makes no digestive or health promise, so it is fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials or review counts.\n- No health, money, legal or environmental claims. \"After a big meal\" describes when it tastes good, not a benefit to digestion. Don't extend it to \"aids digestion\" or \"settles your stomach\", as that would need proof and would likely trip platform policy.\n- Slop-guard: no banned words, no em-dash sandwiches, no exclamation points, no rhetorical openers, no abstract triads. The opening is a plain product name, and the copy is concrete.\n- Product-page consistency: the page needs nothing else to support these claims.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111143,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b19",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy.\n\n- **Claims:** No superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency. The brewing guidance (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product guidance the product team checks, so it's fine as written.\n- **Disclosures:** This is our own email, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Voice:** Warm, plain and unhurried. No banned words or phrases. Spelling is UK-consistent (nothing that conflicts).\n- **Approval:** Everything public needs Sam's sign-off (marketing lead), so it should go to Sam before sending. That is a process step, not a problem with the copy.\n\nNothing needs changing in the draft itself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0073261,
- "seconds": 6.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5632e4dad5fb5e2f20b5c1643ff1e8cbab56fb047eaa45f041b5a5ff5bab7bed",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** The only factual content is brewing guidance (a mug, a small sieve, four minutes for black tea, and green tea shorter and cooler). The policy treats brewing guidance as a product fact that can be used as written. There are no superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or false urgency.\n- **Disclosure:** This is our own email, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label applies. There are no links or partnerships.\n- **Voice:** It is warm, plain and unhurried. None of the banned words or phrases appear, and nothing breaks UK spelling.\n- **Approval:** Under the policy, Sam needs to sign off on everything public, so it should go to Sam before it is sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006658299999999999,
+ "seconds": 8.0,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3cd11fa5acd278935e8eeffd03e75edfa2b5f381bda68304a0b5a74e6cadec0f",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Fine as written**\n- Ingredients, flavour, the caffeine-free description, tin size and \"Lovely with milk\" are product facts, which the product team checks and which are allowed as written.\n- There are no superlatives, guarantees, health claims, green claims, invented numbers or banned words, and the voice is warm, plain and unhurried.\n- The draft contains no UK spelling issues.\n\n**Needs sorting before publishing**\n- **\"Was £12, now £8.\"** This is a 33% price cut, and the brand policy doesn't include any current offer or sale. Prices and discounts aren't among the product facts that are fine to use as written. Two things need confirming:\n  - **The reduction is real and approved.** If no real offer exists, this is an invented promotion.\n  - **£12 is a genuine previous price.** UK pricing rules say a \"was\" price must be one the product was actually sold at, so check that it was.\n\n  There is no deadline in the copy, so it isn't false urgency. Don't add one (for example \"today only\") unless a real offer with an end date is added to the policy. Check the price with Sam, who approves all public content, and either confirm the offer or remove the \"Was £12\" part and just state the current price.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0100726,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

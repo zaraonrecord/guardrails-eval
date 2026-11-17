@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7fa4fc19812a2f10d506a565e5668ee8ca6d6ecd165144a5000c6a84532c817c",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\"** (headline): The policy says the tea bags are plastic-free, so this is backed.\n- **\"Our tea bags are plastic-free and home compostable.\"**: Both parts are on the allowlist, so this is backed.\n- **\"Founded in Bristol in 2019.\"**: This is on the allowlist and is accurate.\n\nThere are no invented statistics, superlatives, guarantees, testimonials, health claims, or fake urgency. The wording is plain and specific, so it doesn't read as filler. The ad makes no offer or price claim that would need a disclosure, and it is aimed at UK tea drinkers, which matches the brand's market. The environmental claims are specific and match what the brand can substantiate, with no vague \"eco-friendly\" or \"green\" language.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055493,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

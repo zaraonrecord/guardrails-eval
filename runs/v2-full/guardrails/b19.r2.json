@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "58b9180ed205b12c88e5a551bc5300acbe5035cd5bfb1c50a4374242bbbe3d8a",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list), from the Pebblebrook team. Send time not given.\n\n**Checks**\n- **Claims:** No statistics, comparisons, guarantees, testimonials or superlatives. The only factual content is brewing guidance (mug, small sieve, four minutes for black tea, green tea shorter and cooler), which the policy lists as a product fact that's fine to use as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Voice is warm, plain and unhurried. No banned words, no AI tells (no stock openers, reversals or slogan closers). UK spelling is not tested by any word here, but nothing conflicts. Score roughly 90. Pass.\n- **Disclosure:** The email is the brand's own content with no sponsor, affiliate link, gifted product or AI-labelling trigger. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional note: the email has no call to action or link, which is fine for the gate but may be a choice you want to confirm.\n\n**Approver:** Sam (marketing lead) must approve everything public. I haven't recorded any approval. Please ask Sam for an explicit yes to this exact text before it is sent or scheduled.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077017000000000006,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

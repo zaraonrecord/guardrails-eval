@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "5594bd55d3345a72cdc21db8eabf6253369b4ef3ff3680a4fb438929e31ab3f7",
+ "result": "**Review: Peppermint product page copy**\n\nI read it as a shopper on a product page, then checked each sentence.\n\n- **\"Peppermint. Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the policy allows as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels, not an effect on the body. It doesn't say the tea aids digestion, settles the stomach or relieves anything, so I don't read it as a health claim. It would become one if reworded to something like \"helps digestion\" or \"settles your stomach\".\n- **\"Certified organic by the Soil Association.\"** This is on the approved claims list.\n- **Labels and conditions:** None are needed. It makes no price, delivery, guarantee, urgency or review claims, and it is the brand's own product page, so no ad label applies.\n- **Style:** The copy is short, specific and in a human voice. It has no clichés, filler or hype words.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080992,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

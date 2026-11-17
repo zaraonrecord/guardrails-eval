@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2bf04ba5df889253de51dcac9e8f6bc508f302afa498220a4baeef4a4a370ff7",
+ "result": "**Not ready to publish.** Two things need to change.\n\n**1. Affiliate disclosure is in the wrong place and wrong wording (missing_disclosure)**\n- The only disclosure is a footnote at the bottom, \"*I may earn a small commission.\" Our rules say affiliate links must be declared at the top, before the first link, in plain words.\n- Brand policy also requires \"Affiliate link\" next to the link itself. \"here.*\" doesn't do that.\n- Fix: open the post with a plain declaration, and put \"Affiliate link\" next to the link.\n\n**2. \"Easiest to pause\" is an unprovable superlative (superlative)**\n- Our allowlist only supports \"Subscribers can pause or cancel any time.\" It doesn't support ranking Pebblebrook against three other services.\n- Fix: \"Pebblebrook subscribers can pause or cancel any time.\" If the writer wants to share their own experience, they can describe what pausing actually involved, once the point below is confirmed.\n\n**To confirm before publishing (not blocking in itself)**\n- **Product label:** the draft doesn't say whether Pebblebrook is Owned, Tried or Wishlist for the writer. \"I've tried four tea subscriptions\" and \"the tins are lovely\" are hands-on claims, so they're only fine if the writer has really used it. If they have, the post should say how and for how long.\n- **\"Four subscriptions\":** this is the writer's own claim and is fine if true. It's not a brand statistic.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"I've tried four tea subscriptions this year\" | Writer's own experience, needs confirming |\n| \"easiest to pause\" | Unsupported comparison |\n| \"the tins are lovely\" | Opinion, OK if Owned/Tried |\n| Affiliate commission | Disclosed, but too late and in the wrong form |\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0173571,
+ "seconds": 17.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

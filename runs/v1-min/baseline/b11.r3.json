@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e08527c05c8f487e8e98a43cc428bf24b07b4471d782537d25d654a4bc28e727",
+ "result": "I found nothing in this draft that should stop or change publication.\n\n- **Product facts:** The new Japanese sencha, its grassy and slightly sweet flavour, and the brewing advice (around 70 degrees) all count as product facts, which the policy allows as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims, or urgency language. It makes no claim that needs to be on the allowlist.\n- **Tone:** The copy is short, specific and plain, with no filler.\n\nOne non-blocking note: marketing emails to UK recipients normally need an unsubscribe link and sender identification. I'm assuming your email platform adds these in its footer. If it doesn't, add them before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074614,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

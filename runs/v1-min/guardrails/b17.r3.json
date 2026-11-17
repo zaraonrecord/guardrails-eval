@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "05cdf8a8a8c89f6fae4fbb7ab56a6718fb6adc5f57aa9e6fc986ec87bcf1e288",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter to Pebblebrook Tea Co. subscribers (UK), copy as drafted.\n\n**Checks**\n1. **Claims:** The draft makes no stats, rankings, testimonials, guarantees or comparisons. \"Black tea, orange peel, cinnamon and a little clove\" is a product fact (ingredients), which the policy allows as written. \"Back in the shop from today\" is a new-arrival statement, also allowed. I can't verify the blend is actually available today, so the sender should confirm the launch date matches. Not a claim problem, just a factual check.\n2. **Regulated claims:** No health, money, legal, environment, children or price content. Nothing to flag.\n3. **House style:** The policy has no voice section, so I can't score against a reference. On plain reading it's short, concrete and has no stock openers, intensifiers or slogan closers. One small thing: \"back\" appears twice (\"is back\", \"It's back\"). Optional tidy: \"Quick one this week: the Christmas blend is back in the shop from today. Black tea, orange peel, cinnamon and a little clove.\" This is a suggestion, not a blocker.\n4. **Disclosure:** No sponsor, affiliate link, gifted product, partnership or AI-generated imagery appears in the text. Nothing to label.\n\n**Fixed:** Nothing changed. The copy passes as written.\n\n**Needs a decision:**\n- Confirm the Christmas blend is live in the shop today before sending.\n- Optionally apply the repetition tidy above.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to this exact copy. I haven't recorded an approval, and I have no tools here to run the approval script. Once you've said yes, record it in your terminal with `approve.py --by \"Your Name\" --what \"Christmas blend newsletter\"`, then retry the send.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091324,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

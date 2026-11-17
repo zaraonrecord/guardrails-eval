@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "I read the draft as Tom would see it in his inbox, then went sentence by sentence.\n\n**Subject: \"A new green tea\"**: Accurate description of the content. It doesn't mislead about what's inside. \"Green tea\" is the tea type, not an environmental claim.\n\n**\"We've added a Japanese sencha to the shop.\"**: Product fact (what's new, origin). Falls under product facts the product team checks and the policy says are fine to use as written.\n\n**\"It's grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\"**: Flavour description and brewing guidance, both explicitly covered as product facts. \"Best brewed\" is brewing advice, not a superiority claim about the brand. Not a health claim, no urgency, no guarantee, no stats.\n\n**Sign-off \"The Pebblebrook team\"**: Fine. A brand-owned email needs no \"Ad\" label.\n\n**Voice:** Warm, plain, unhurried, UK spelling, none of the banned words. No clichés or formula. It's short but specific and reads like a person wrote it. One optional note: \"70 degrees\" could say \"70°C\" for clarity, but that's polish, not a blocker.\n\n**Missing items:** Nothing is offered, so there are no price, delivery or offer terms to qualify. No testimonials, ratings or environmental language.\n\nNothing here needs changing. It can go out, with Sam's approval as the policy requires for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007700199999999999,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

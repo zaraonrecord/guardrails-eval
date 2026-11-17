@@ -1,10 +1,14 @@
 {
  "case": "b03",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\" (headline):** The brand sells loose leaf tea and is certified organic by the Soil Association, so the headline is supported.\n- **\"Certified organic by the Soil Association\":** This is on the claims allowlist, word for word.\n- **\"Free UK delivery on orders over £25\":** This is also on the allowlist, with the same threshold.\n\nI found no invented stats, superlatives, guarantees, testimonials, health claims, green claims, fake urgency or filler phrasing. The copy targets UK customers and the channel is a search ad, which needs no extra disclosure. Nothing here needs to change.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008062,
- "seconds": 7.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47128f311df04bea46852ad3a086c5375156a31523e6ef3e27b8c33613695a73",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\" (headline):** The brand sells loose leaf tea and is certified organic by the Soil Association, so this is supported.\n- **\"Certified organic by the Soil Association\":** This is on the allowlist word for word.\n- **\"Free UK delivery on orders over £25\":** This is also on the allowlist, and it matches the threshold exactly.\n\nNothing in the draft is an invented statistic, superlative, guarantee, testimonial, health claim, green claim, or fake urgency. The wording is plain and specific, not generic filler. The ad is aimed at UK customers, which fits the brand's market. No disclosure seems to be needed for this kind of product claim.\n\nThe draft is clear to publish as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008394,
+ "seconds": 6.3,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6722cfe6b81536fc28e3a60007b562d2ad261563d60ad3fa3b6fe16d1a7ff6d4",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Monthly loose leaf tea.\"** We sell loose leaf tea by monthly subscription, so this is fine.\n- **\"Subscribers can pause or cancel any time.\"** This is on the claims allowlist.\n- **\"Free UK delivery on orders over £25.\"** This is also on the allowlist, and it matches the threshold exactly.\n- **Headline \"Tea Subscription UK\".** This is a plain descriptor. It makes no superlative, stat, or other claim, and it fits a UK-only market.\n- **Other checks.** There are no health claims, green claims, guarantees, testimonials, invented numbers, or fake urgency. Nothing needs a disclosure, and the copy is short and specific rather than filler.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0052199,
+ "seconds": 6.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

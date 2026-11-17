@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9539a623a1b1cd451b47bc55a6f729de96e7d2b6fbd0837e17461925c99999ab",
+ "result": "## Publish gate report\n\n**Going out:** About page copy, 3 sentences. Approver per policy: Sam (marketing lead).\n\n**Checks**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list (Companies House) |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list (Operations) |\n| \"We buy from gardens we've visited.\" | **Unproven.** It is a claim about our sourcing practice, not a product fact like where a tea is grown. Nothing in the policy or this chat backs it. |\n\n- **Regulated claims:** nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** the copy is warm, plain and unhurried, with no banned words or AI tells. Pass.\n- **Disclosure:** no ads, partnerships, affiliate links or AI content. Nothing needed.\n\n**Fixed:** nothing. I didn't want to guess at the gardens line.\n\n**Needs a decision:**\n- \"We buy from gardens we've visited.\" Does someone on the team have a record of visiting the gardens, and does that cover every garden you buy from? If so, send the source, and I'll add it to the evidence log and suggest adding it to the policy. If not, or if only some gardens were visited, I suggest removing the sentence. Or cut it to something provable, such as naming a specific garden and region the product team has confirmed.\n- Suggested copy if you cut it: \"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol.\"\n\n**Approval:** not requested yet. Once the gardens line is settled, I'll rerun the checks on the final text, and Sam needs to approve that exact version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0130332,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

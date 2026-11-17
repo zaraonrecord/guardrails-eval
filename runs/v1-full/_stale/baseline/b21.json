@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"Founded in Bristol in 2019\"** is an allowlisted claim (Companies House), and the wording matches.\n- **\"a small team of six\"** is team size, which the product team checks and which is fine to use as written.\n- **\"every tin is packed by hand in Bristol\"** is an allowlisted claim (Operations), and the wording matches.\n- **\"We buy from gardens we've visited.\"** is a sourcing statement with no number, superlative, guarantee, health claim or environmental claim. It sits close to the product facts about where tea is grown, so I've treated it as fine. It's worth a quick confirmation with the product team that it's accurate, because it isn't in the claims table.\n- **Voice:** the tone is warm, plain and unhurried, and there are no banned words. The spelling is UK-compatible.\n- **Disclosure:** none is needed, as this is our own about page.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012002099999999998,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

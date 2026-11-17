@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b0c4a3180c9088c86ddcc64b6529bf56ac8ced11570214adfa33eff25392df53",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (first mention) | Allowlisted: \"every tin is packed by hand in Bristol\" |\n| Packed by hand in Bristol (second mention) | Allowlisted, but a repeat |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on orders over £25 | Allowlisted, with the threshold stated |\n\n**Slop check:** There are no banned words, no exclamation points, no rhetorical openers, no invented stats and no fake urgency.\n\n**Problem:** The draft says \"packed by hand in Bristol\" twice, in the first and second sentences. This breaks the rule against saying the same thing twice, and the copy reads as padded. The claim is true, so the fix is only to cut the repeat.\n\n**Suggested rewrite:**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nOne thing to check before publishing: the hero should sit on a page that makes the same claims, which holds if the organic and delivery details appear on the page.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011191200000000002,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

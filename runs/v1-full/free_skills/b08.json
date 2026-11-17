@@ -1,10 +1,14 @@
 {
  "case": "b08",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: landing hero**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem**\n\n\"Most boxes ship free\" implies that most orders come to more than £25. We have no order-value data in the policy, so this is an invented statistic. The wording also doesn't match the allowlisted claim. It adds \"boxes\", though we sell tins and tea bags, and it suggests free delivery applies to subscription orders, which the shipping policy as written doesn't confirm. The free delivery claim is true on its own, and it's the \"means most boxes ship free\" conclusion that has to go.\n\n**Everything else checks out**\n- No banned words or AI-slop structures, no urgency, health, green or superlative claims.\n- UK spelling, and the tone is warm and plain.\n- A landing hero needs no ad or affiliate label.\n\n**Suggested replacement**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf you want to say that subscription orders qualify for free delivery, the shipping policy needs to confirm that first. Then I can add it.\n\nSam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.013094500000000002,
- "seconds": 14.2,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc041685bda32ad27b9b49ea6041be92542b4668dd0e680d5cbaf16906cfeedb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing, backed by the pause/cancel claim. Fine. |\n\n**Problem:** \"most boxes ship free\" implies that most orders pass £25. No order data in the policy supports that, so it's an invented statistic. It also says \"boxes\", while the policy describes tins and tea bags. The free delivery claim is true only with the £25 threshold, and the \"most\" wording blurs that.\n\n**Voice and slop:** No banned words, no em-dashes, no exclamation marks. Tone is plain and warm.\n\n**Suggested fix:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nAs with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110359,
+ "seconds": 12.8,
  "models": [
   "claude-sonnet-5-5"
  ]

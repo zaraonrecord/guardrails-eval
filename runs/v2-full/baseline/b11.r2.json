@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc22f1b161a714ac6b975a4d4c4625b6a0c0fcb58860900e9ad206d4ca6c1d8e",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** The sencha description (grassy, a little sweet) and the brewing guidance (around 70 degrees) are product facts, which are fine as written. \"We've added a Japanese sencha to the shop\" is a new product arriving, also fine. There are no superlatives, guarantees, health claims, green claims, invented numbers, or urgency.\n- **Voice:** It is warm, plain and unhurried. None of the banned phrases appear. Spelling is UK-compatible.\n- **Disclosures:** This is our own email, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Other:** The sign-off and greeting are fine. The draft has no call to action or link, but that is a style choice and not a policy problem.\n\nNothing needs changing. Sam (marketing lead) approves everything public, so it still needs their sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056356,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

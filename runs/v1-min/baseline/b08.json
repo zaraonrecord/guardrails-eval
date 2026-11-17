@@ -1,10 +1,14 @@
 {
  "case": "b08",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** is on the claims allowlist, so it's fine.\n- **\"free UK delivery on orders over £25\"** is also on the allowlist and is worded correctly.\n- **\"means most boxes ship free\"** is the problem. The brand policy doesn't back it up. It implies that most orders or subscription boxes exceed £25, which is a statistic we have no data for. It also reads as though delivery is free on most boxes regardless of value, which could mislead customers whose orders fall under the threshold. Either cut it or reword it to the supported claim, for example: \"Subscribers can pause or cancel any time, and delivery is free on UK orders over £25.\"\n- There are no health, green, urgency, testimonial or superlative claims, and the copy has no AI-slop issues.\n\nFix the delivery line and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.010522,
- "seconds": 9.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "afbc31182eba9d842317620654547f96b62199aba0cbce8b9651dc92e1eaa9ae",
+ "result": "**Review of the landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"**: this is on the allowlist, so it's fine.\n- **\"free UK delivery on orders over £25\"**: this is also on the allowlist and matches the policy wording.\n- **\"means most boxes ship free\"**: this is a problem. The policy only backs free delivery on orders over £25. It says nothing about what share of orders or boxes meet that threshold. \"Most boxes ship free\" implies a statistic we can't support, and it could mislead customers whose orders fall under £25. Cut it, or end the sentence after \"over £25\".\n- **\"Tea that's easy to stop and start.\"**: this is fine, with no claim problems.\n\nSuggested fix: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010894,
+ "seconds": 8.8,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "51db22841802a013a99f4a2726d06e7fa2d2a9a1efe6e61fdf6b3948c931fb62",
+ "result": "**Review: newsletter, Christmas blend**\n\n**Claims**\n- \"Black tea, orange peel, cinnamon and a little clove\" is a product fact (ingredients), which the policy allows as written.\n- \"the Christmas blend is back\" and \"back in the shop\" are new-arrival facts, so they are also fine.\n- The draft has no health, green, comparison, review, guarantee or stat claims, and nothing needs an ad label because this is the brand's own newsletter.\n\n**Urgency and offer**\n- \"Today only: 30% off, ends at midnight.\" The policy doesn't mention this discount, but it's a promotion the team sets, not a factual claim about the product. The copy is acceptable if the offer really does end at midnight tonight and doesn't run again or extend. That's a pre-send check for the team, not a reason to hold the draft.\n- Make sure the newsletter goes out today. Readers who open it tomorrow would see an expired \"today only\".\n- Any exclusions or conditions, such as a discount code or items not included, should sit next to the offer if they exist. Right now there are none, and \"30% off\" reads as applying across the board.\n\n**Style**\n- The copy is plain and specific, with no AI clichés or hype.\n- Optional polish: \"is back\" appears twice in quick succession (\"the Christmas blend is back… It's back in the shop\"). You could merge them, for example \"The Christmas blend is back in the shop.\"\n\n**Decision:** No changes are required. It can go out once the team confirms the 30% deadline is genuine and the send date matches.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015556500000000001,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

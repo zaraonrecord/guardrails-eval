@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1c0c7acafd203952a77c7ed8b11e58332f1f260b9df1571ea0b43a56b5ae0742",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Tea Subscription UK\" | Descriptive, not a claim. We market in the UK only. |\n| \"Monthly loose leaf tea.\" | Product fact, fine as written. |\n| \"Subscribers can pause or cancel any time.\" | Allowlisted, exact wording (subscription terms). |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, invented numbers, urgency:** none present.\n- **Banned voice words and slop structures:** none. No exclamation marks, rhetorical-question opener, or em-dash asides.\n- **Disclosure:** this is a paid ad from our own account, which the platform marks, so no extra label is needed.\n- **Landing page match:** both the pause/cancel and free delivery claims must also appear on the landing page. I can't see the page, so confirm that before it goes live.\n- **Length:** you gave no character limit, but the description is 102 characters. If this is a Google responsive search ad (90-character description limit), it will need trimming. For example, drop \"Monthly loose leaf tea.\" or merge the two claims.\n- **Approval:** Sam signs off on everything public.\n\nNothing in the copy needs changing for claims or policy reasons.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0129405,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

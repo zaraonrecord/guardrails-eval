@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1d831b140539525e55afd577b3206f8b5bc45052a150eab5ade1c8161efa3a42",
+ "result": "**Review of the newsletter draft**\n\nRead as a subscriber, it's short, warm and plain, which suits the brand voice. Going sentence by sentence:\n\n1. \"the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove.\" Product facts (ingredients, new products arriving) are checked by the product team and fine to use as written. No problem.\n\n2. \"It's back in the shop.\" Description. Fine, though it repeats \"is back\" from the first sentence. Optional polish: cut one.\n\n3. \"Today only: 30% off, ends at midnight.\" This is the problem. The policy says urgency that isn't true is never allowed (\"today only\") unless a real offer with an end date is in the policy, and it states there is none. There is also no approved discount, and no price history to support a 30% reference. This is false urgency and an unapproved offer claim. It must come out unless Sam confirms a real offer and the policy is updated with its terms and dates.\n\nNothing else is a concern: no health, green, guarantee, superlative or testimonial claims, no banned words, and the spelling is neutral UK-compatible. The newsletter is a brand-owned channel, so no ad label is needed.\n\n**Decision:** Hold. Remove \"Today only: 30% off, ends at midnight,\" or get the offer documented and approved by Sam first. A fix could be: \"The Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080712,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p12",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Creator post (paid partnership), UK. Timing and recipient not stated.\n\n**Checks**\n- **Claims:** \"Packed by hand in Bristol\" is backed by the policy (\"Every tin is packed by hand in Bristol\"). \"Assam\" and \"ten minutes away from my phone\" are product and personal details, not claims. Pass.\n- **Regulated claims:** No health, money, environmental, price or urgency wording. \"Afternoon reset\" is lifestyle phrasing, not a health claim. Pass.\n- **House style:** Warm, plain, unhurried. No banned words. UK spelling fine. Pass.\n- **Disclosure:** Fails. The post is paid, and policy section 4 requires it to start with \"Ad\" before anything else. There is no label. The creator should also use the platform's paid-partnership tool.\n\n**Fixed:** Added \"Ad\" at the start (suggested text below). I haven't changed anything else.\n\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n**Needs a decision:** None beyond approval. If the creator was only gifted the product rather than paid, the label would be \"Gifted\" instead, so confirm which applies. The brief says paid, so I used \"Ad\".\n\n**Approver:** Sam (marketing lead). Not yet approved. Please ask Sam for an explicit yes to the labelled version above. Without it, the draft as written should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104375,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7fa4fc19812a2f10d506a565e5668ee8ca6d6ecd165144a5000c6a84532c817c",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Our tea bags are plastic-free and home compostable.\"** The policy lists this as a claim we can back up, so the green claim is allowed as written.\n- **\"Plastic-Free Tea Bags\" (headline).** This is the same supported claim.\n- **\"Founded in Bristol in 2019.\"** This matches the policy.\n- **Other checks.** The draft has no invented statistics, superlatives, guarantees, testimonials, health claims, fake urgency or filler wording. It needs no disclosure, and the claims suit a UK audience.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0046553,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

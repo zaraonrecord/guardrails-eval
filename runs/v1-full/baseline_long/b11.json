@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc72ef371d5a0981f082eeddee2b6a17f626a1a9de9169b5520f01f1c30b5153",
+ "result": "**Review: \"A new green tea\" (email)**\n\nRead as Tom would: a short, plain note announcing a new product.\n\n**Claims, numbers, promises**\n- \"We've added a Japanese sencha to the shop.\" Product fact (new product arriving), covered by the product team's approval.\n- \"grassy and a little sweet\" is flavour description, which is fine.\n- \"best brewed cooler than you think, around 70 degrees\" is brewing guidance, which is approved product fact. \"best\" here is advice on how to brew, not a superiority claim about the brand.\n- No health, environmental, guarantee, urgency, pricing or review claims.\n\n**Subject line:** \"A new green tea\" accurately reflects the content (sencha is a green tea). Not misleading.\n\n**Disclosure:** Brand-owned email, no paid partnership or affiliate link, so no label is needed.\n\n**Voice:** Warm, plain, unhurried. No banned words or AI clichés. UK spelling isn't tested by anything here but nothing conflicts. The \"green\" in the subject refers to the tea type, not an environmental claim.\n\n**Optional polish (not blocking):** Consider a link to the product so Tom can find it, and the sign-off could be a named person. Neither is required.\n\n**Decision:** Nothing needs changing. Approval from Sam is still required per the policy for public content, but the copy itself is clean.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094027,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

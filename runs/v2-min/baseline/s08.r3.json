@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6f79e48f6cee25f431e401dd0fe814dc54e55c10f1270121b8dfa490ee714c74",
+ "result": "**Review of \"A new green tea\"**\n\n- **\"packed with antioxidants\"**: This is a health/nutrition claim. It isn't on the claims allowlist, and \"product facts\" covers ingredients, flavour, sizes, brewing, origins, team size and new arrivals, not benefits. Remove it or replace it with a plain product fact, such as origin or tasting notes.\n- **New arrival, flavour and brewing**: \"We've added a Japanese sencha\", \"grassy, a little sweet\" and \"around 70 degrees\" are all allowed product facts.\n- **Other checks**: No invented stats, superlatives, guarantees, testimonials, green claims or fake urgency. The tone is plain and doesn't read as AI filler.\n\nSuggested fix: \"It's grassy, a little sweet and best brewed cooler than you think, around 70 degrees.\"\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011196,
+ "seconds": 17.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

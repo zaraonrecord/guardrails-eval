@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "15d08a800d76488575e3d28ebe3756bb718eff413265af2a98736afca9ac3821",
+ "result": "**Channel:** landing hero. The headline promise should match what the page and product deliver.\n\n**Claims check**\n- \"Certified organic by the Soil Association\" is on the approved list.\n- \"packed by hand in Bristol\" is approved (\"every tin is packed by hand in Bristol\").\n- \"free UK delivery on orders over £25\" is approved, and the threshold is stated next to the claim.\n- No superlatives, health claims, green claims, stats, urgency or guarantees. No ad or affiliate label is needed on a brand-owned landing page.\n\n**Style check**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is a formulaic rule of three, used for rhythm rather than information. Every phrase is generic filler that could sit on any brand's page, and none of it is specific to Pebblebrook.\n- \"Packed with love\" also repeats \"packed by hand in Bristol\" in the next sentence, so the same point is made twice.\n- \"Delivered with a smile\" is an empty line that adds nothing the delivery claim doesn't already say.\n\n**Decision:** Hold. The factual claims are fine, but the opening triplet is machine-sounding filler that shouldn't carry the brand's name. Suggested fix: cut the first three sentences and lead with the specifics, for example \"Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009716800000000001,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

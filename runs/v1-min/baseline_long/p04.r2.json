@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eacf5e40b66681e7dbdaa724d31e0324d2cc9c1e7ef3ed5475e189c6957ab1f1",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Matches the approved claim exactly and names its source. Fine.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is a product fact (ingredients), which the policy allows as written. Fine.\n- \"a rainy Sunday pot is everything\" is mood and opinion, not a factual claim. Fine.\n\n**Labels and disclosure**\nBrand-owned account, no paid or gifted element, so no \"Ad\" label is needed.\n\n**Style**\n- \"In today's fast-paced world\" is a stock AI-style opener. It says nothing specific about the tea or the brand, and the brand's voice wouldn't need it. Cut it. The post can start at \"A rainy Sunday pot is everything.\"\n- \"is everything\" is a mild hype phrase, but it is acceptable on its own once the opener is removed.\n\n**Decision**\nHold for one fix: remove the cliché opener. Everything else is supported by the policy.\n\nSuggested rewrite: \"A rainy Sunday pot is everything. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094945,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

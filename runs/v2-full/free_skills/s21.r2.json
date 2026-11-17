@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e99d99e89124ded2f298f10baf9035bfeae960a6efa490638715be8a98da7f0b",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" (headline) | Allowlisted: \"Our tea bags are plastic-free and home compostable\" (supplier certificate, EN 13432) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording |\n| \"Recommended by nutritionists\" | Unsupported. It's a social-proof/endorsement claim with no source in the allowlist, and it implies a health-professional endorsement. Health-adjacent territory is also never permitted by the brand policy, and platforms scrutinise it. |\n\n**Other checks**\n- Slop/banned words: none hit.\n- Landing-page rule: any ad claim must also appear on the landing page. \"Recommended by nutritionists\" would need to be there too, and there's no proof for it.\n- Character limits: none were given, so I haven't counted against a limit. Note that the headline as written is short, but real RSA headlines are capped at 30 characters. \"Plastic-Free Tea Bags\" is 21, so it's fine.\n- Disclosure: this is our own paid ad, which the platform marks, so no extra label is needed.\n\n**Verdict:** Do not publish as is. Remove \"Recommended by nutritionists\". If a replacement is wanted, use an allowlisted claim.\n\n**Compliant version**\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Certified organic by the Soil Association.\n\n(Alternative second sentence: \"Free UK delivery on orders over £25.\")\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106325,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

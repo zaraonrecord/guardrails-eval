@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d2aaa403a3fbc96f8e431873fa2268900af2950384b89d3fa4efdd9faa93298",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product), fine |\n| \"Grassy and a little sweet\" | Flavour description, fine |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best brewed\" is advice, not a superlative about the product. |\n| Statistics, testimonials, guarantees, health, green claims, urgency | None present |\n| Disclosure | Not needed. This is our own email, not a creator or affiliate post. |\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" is the banned \"it's not just X, it's Y\" construction (brand voice rules, and an AI-tell structure). It also says nothing concrete. The sentence after it is the useful part, so cutting it loses nothing.\n\n**Suggested fix**\n```\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, and best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n```\nIf you want to say where it's grown or when it was picked, the product team can supply that and it's fine to use.\n\nPer the policy, Sam needs to approve this before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104453,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

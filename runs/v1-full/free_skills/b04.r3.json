@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "683ac6f8c166c520864b9e13af2d4de1f6dbadb59695a3cd5a8c946ae5444400",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate on file, renewed 2026) |\n| \"A malty, full-bodied black tea that stands up to milk\" | Flavour and brewing description, a product fact the product team covers |\n| \"100g tin, makes around 40 cups\" | Tin size and cup count, a product fact; \"around\" keeps it soft |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency:** none present.\n- **Invented stats or testimonials:** none.\n- **Banned words and structures:** no banned words, no rhetorical opener, no \"not just X, it's Y\", no em-dashes, no exclamation points.\n- **Disclosures:** not required. This is our own product page, not a creator post or affiliate link.\n- **Voice and spelling:** plain, warm, unhurried, with no UK-spelling problems.\n- **Approval:** per the policy, Sam (marketing lead) signs off on everything public, so make sure that happens before it goes live.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086243,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

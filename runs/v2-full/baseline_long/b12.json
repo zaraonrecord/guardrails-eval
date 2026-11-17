@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0346848f8a0081ae71b8178caedc777655ea26dc5510250b889448c0db318859",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" This is product description. No health claim: \"for after lunch\" describes an occasion, not an effect on the body. The three teas are product facts, which the product team clears.\n- \"Free UK delivery on orders over £25.\" This matches the approved claim word for word, and the threshold is correct.\n- Channel: a social ad from our own account is marked by the platform, so no extra label is needed.\n- Voice: warm, plain and short. None of the banned words appear, and the spelling is UK (\"Builder's\", no US variants). There is no urgency, guarantee, superlative or invented number.\n\nNothing needs changing. Optional polish only: you could name the tin size or cup count, but that isn't required.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056741,
+ "seconds": 6.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

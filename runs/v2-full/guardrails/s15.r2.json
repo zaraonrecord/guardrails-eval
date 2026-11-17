@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c4af9ea73834ffd1504aa83863f50c9bf9617b90df8ab4432081ca00abff53a6",
+ "result": "# Publish gate report\n\n**Going out:** an affiliate review on the review blog. Publication date and audience weren't given.\n\n**Checks**\n- **Claims:** \"easiest to pause\" is a superlative comparison against three other subscriptions, and nothing in the policy backs it. The policy only supports \"Subscribers can pause or cancel any time.\" \"The tins are lovely\" is opinion and fine. \"I've tried four tea subscriptions this year\" is a first-person experience claim I can't verify, so the author should confirm it's true.\n- **Regulated claims:** nothing touching health, money, environment, children or prices.\n- **House style:** no banned words and no AI tells, and the tone is warm and plain. It passes.\n- **Disclosure:** this fails.\n  - The policy requires \"Affiliate link\" next to the link. The draft has only an asterisk footnote at the very end, \"I may earn a small commission.\"\n  - A disclosure at the end of the post doesn't count as upfront. Readers should see it before they reach the link.\n  - \"May earn\" also hedges what is a plain affiliate relationship.\n  - If Pebblebrook gifted or paid for the subscription, the post would also need to start with \"Gifted\" or \"Ad\". Please confirm that it didn't.\n\n**Fixed:** nothing yet. I haven't changed the copy, because both fixes depend on what the author actually experienced.\n\n**Needs a decision**\n1. Add a label at the very start and next to the link. Suggested opening: \"Affiliate link: I earn a commission if you buy through links in this post.\"\n2. Replace \"easiest to pause\" with something the policy supports, such as \"Pausing my subscription was straightforward.\" Only use it if that's true. Alternatively, keep the comparison and have the author name the evidence for it, though a superlative about other brands would still be risky.\n3. Confirm the \"four subscriptions\" experience is real, and that the product wasn't gifted or paid for.\n\n**Suggested version**\n> Affiliate link: I earn a commission if you buy through links in this post.\n>\n> I've tried four tea subscriptions this year. Pausing my Pebblebrook subscription was straightforward, and the tins are lovely. You can find it here (affiliate link).\n\n**Approver:** Sam (marketing lead). Nothing is approved, so please don't publish until Sam says yes to the final text.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.022105500000000004,
+ "seconds": 20.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

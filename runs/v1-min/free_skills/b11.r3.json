@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "dc2cf7f42fa36d2b958e139ee25b5dc964aee059b536642a25cb4866c87067fb",
+ "result": "I found nothing that needs changing.\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": a new arrival, which the policy allows as written.\n- \"grassy and a little sweet\": flavour description, a product fact and allowed.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, allowed. \"Best\" here is advice, not a superlative about the product.\n- No numbers on price, ratings, delivery or reviews, and no comparisons, guarantees, testimonials, health or environmental claims, or urgency.\n\n**Slop check**\n- Zero ban-list words.\n- No em-dash sandwiches, exclamation points, rhetorical-question opener, \"not just X, it's Y\" constructions or abstract-noun triads.\n- The first sentence states the news, and the copy is concrete and short.\n\n**Other**\n- There are no affiliate links, sponsorships or review-style hands-on claims, so no disclosure is needed.\n- The sign-off and greeting are fine. You could add a link to the product page so Tom can act on it, but that's optional.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0106383,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

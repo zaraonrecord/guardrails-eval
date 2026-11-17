@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: blog intro**\n\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (\"founded in Bristol in 2019\") |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"We couldn't find tea bags without plastic in them\" | Founding story, not a stat or comparison. Fine as long as it's accurate, so worth a quick confirmation from the founders. |\n| \"Here's how we checked\" | Not a claim in itself, but it promises evidence in the rest of the post |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no fake urgency. The opening sentence leads with a concrete fact.\n\n**Green claims:** Both environmental claims are on the allowlist, which is what the UK Green Claims Code needs. The one thing to watch is \"here's how we checked.\" The body of the post has to explain the real checking process (for example, the actual certification or testing you did). Don't add test results, timeframes or lab names that aren't supplied. If the body adds those, they'll need sourcing or a `[PROOF NEEDED]` marker. This only applies to the rest of the post. The intro itself is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013586299999999999,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

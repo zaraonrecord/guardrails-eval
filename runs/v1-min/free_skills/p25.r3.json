@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "db7ce41309ec6688a3b51d1d9fb304d8fb17853149acfeffa7d6c22c1842557b",
+ "result": "**Review of the draft**\n\nClaims list:\n\n1. \"Our Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients). Fine as written.\n2. \"Rated 4.9 out of 5 from over 5,000 reviews on our website\": **unsupported**. The allowlist backs only \"4.8 out of 5 from over 1,200 reviews on our website\". Both the rating and the review count are inflated, and no source for the new figures was supplied in this chat.\n\nOther checks:\n- \"Rainy Sunday, second pot.\" Not a claim. Reads fine, no ban-list words, no exclamation marks, no rhetorical opener.\n- No health, green, urgency, guarantee or superlative claims.\n- No affiliate or sponsorship content, so no disclosure is needed.\n\n**Fix:** use the allowlisted figure, or supply a source for the new numbers.\n\nCompliant version:\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nDo not publish the original until the rating line is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071033,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

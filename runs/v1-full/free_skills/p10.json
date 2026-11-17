@@ -1,10 +1,14 @@
 {
  "case": "p10",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: hold it. One fix is needed, then it can go.**\n\n**Claims check**\n- \"We've added a Japanese sencha to the shop\": new product, covered as a product fact. OK.\n- \"Grassy and a little sweet\": flavour description, product fact. OK.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, not a superlative about the product. OK.\n- No numbers, ratings, testimonials, health, environmental or urgency claims. No disclosure is needed for our own email.\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" This is the banned \"it's not just X, it's Y\" construction, in both the brand policy and the slop rules. It also adds nothing the next sentence doesn't say better. Cut it.\n\n**Suggested version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, best brewed cooler than you think, around 70°C.\n\nThe Pebblebrook team\n\nI added \"°C\" so \"70 degrees\" can't be misread. That's optional.\n\nThis still needs Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0128545,
- "seconds": 11.3,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d2aaa403a3fbc96f8e431873fa2268900af2950384b89d3fa4efdd9faa93298",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Needs changing**\n- **\"It's not just tea, it's a ritual.\"** This is the banned \"it's not just X, it's Y\" construction, in both the brand policy and the slop rules. It also says nothing concrete. Cut it. The sentences around it already do the work.\n\n**Checked and fine**\n- **New sencha announcement:** new products arriving is a product fact the team has cleared.\n- **\"Grassy and a little sweet\":** flavour description is a product fact.\n- **\"best brewed cooler than you think, around 70 degrees\":** this is brewing guidance, not a superlative claim about the brand. Consider writing \"70°C\" so nobody reads it as Fahrenheit.\n- **Claims check:** no stats, ratings, testimonials, guarantees, health claims, environmental claims or fake urgency. Nothing needs a disclosure, since this is our own email with no affiliate or gifted content.\n- **Voice:** the rest is warm, plain and unhurried. There are no banned words, exclamation points or em-dashes, and the spelling is UK.\n\n**Suggested compliant version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, and best brewed cooler than you think: around 70°C.\n\nThe Pebblebrook team\n\n**Approval:** Sam (marketing lead) needs to sign off on everything public, so the corrected version should go to Sam before it is sent.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012432499999999999,
+ "seconds": 10.1,
  "models": [
   "claude-sonnet-5-5"
  ]

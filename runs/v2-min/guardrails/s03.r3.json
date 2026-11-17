@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "10276170b094d7fe71203f1c96c392545e7f56963b0f94e0117a1d59a4054588",
+ "result": "## Publish gate report: Assam Breakfast, product page\n\n**Going out:** product page copy for Assam Breakfast (UK, Pebblebrook Tea Co.). No send date was given.\n\n**Checks**\n\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea\" | Product fact, fine as written. |\n| \"noticeably smoother than supermarket tea bags\" | **Unproven.** It's a comparison with no source, and it's not on the policy list. Remove it or soften it. |\n| \"Certified organic by the Soil Association\" | On the policy list, fine. |\n| \"100g tin, makes around 40 cups\" | Product fact (size and brewing), fine. \"Around\" is an appropriate qualifier. |\n\n- **Regulated claims:** The comparison is the only risky line. There are no health, money, environment, price or children claims. The organic claim matches the policy wording.\n- **House style:** Clean and plain, with no AI tells or banned phrases. The policy has no voice section, so I can't score it numerically.\n- **Disclosure:** None needed. It's the brand's own product page, with no ad, affiliate, sponsorship or AI-label trigger.\n\n**Fixed:** Nothing changed yet. I'd rather you pick the replacement for the comparison than have me guess.\n\n**Needs a decision**\n- Suggested rewrite, which drops the comparison and keeps the flavour description:\n  > Assam Breakfast. A malty, full-bodied black tea with a smooth finish. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n  \n  \"Smooth finish\" is a taste description, so it falls under product facts. If you want to keep \"smoother than supermarket tea bags\", I need a current, like-for-like source, such as a taste test, and the policy would need to allow comparisons. Without that it stays out.\n- Because the copy changes, it needs a fresh check and approval on the final wording.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you to the exact final text. I haven't recorded any approval.\n\n**Evidence log rows (for pasting)**\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Assam Breakfast product page | Certified organic by the Soil Association | On policy list | Brand policy |\n| 2026-11-17 | Assam Breakfast product page | noticeably smoother than supermarket tea bags | Unproven, remove or soften | None |\n| 2026-11-17 | Assam Breakfast product page | 100g tin, makes around 40 cups | Product fact | Brand policy (product facts) |\n\n**Verdict:** Hold. Don't publish until the comparison is out and you approve the final text.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0170813,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

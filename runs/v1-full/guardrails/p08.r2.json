@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b43a51388f95c04061b5249065f4f75eb13edbb67b085ca1af9bcbd4271d2ac9",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline + description), Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Plastic-Free Tea Bags\" and \"Our tea bags are plastic-free and home compostable\": on the policy list (supplier certificate, EN 13432). Fine.\n   - \"Best tea I've ever had\" - Emma, Leeds: a testimonial with no permission on record, and it's a superlative (\"best\") that the policy bans. The policy says never to make unproven superlatives or invent testimonials. I can't see a source or permission for Emma, so it's unproven. Remove it.\n\n2. **Regulated claims:** \"home compostable\" is an environmental claim, but it's the exact policy wording with a certificate behind it. No health, money, children or price issues.\n\n3. **House style:** No banned words. Tone is plain. The testimonial line is the only thing that doesn't fit the policy.\n\n4. **Disclosure:** Paid search ad from the brand's own account, so no extra label is needed (section 4).\n\n**Fixed (suggested copy)**\n- Removed the testimonial.\n\nSuggested version:\n> Headline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n(The delivery line is on the policy list; swap in any other listed claim if you prefer.)\n\n**Needs a decision**\n- If the team really has Emma's written permission and wants to use a quote, it must be a real, documented review, and \"best\" would still need to go because of the superlative rule. I suggest dropping it.\n\n**Approver:** Sam (marketing lead). Not yet approved. Nothing should go live until Sam says yes to the final wording above.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009543699999999999,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

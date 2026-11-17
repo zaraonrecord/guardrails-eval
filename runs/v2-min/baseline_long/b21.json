@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2e2077b75a57b7b0900a4d6250d943d19ab4621fb9b7aa8132a88c3186fc80a9",
+ "result": "**Review: about page**\n\nI went through each sentence and checked it against the brand policy.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the approved claim exactly.\n- **\"We're a small team of six\"** Team size is a product and company fact that the policy allows as written.\n- **\"every tin is packed by hand in Bristol.\"** This matches the approved claim exactly.\n- **\"We buy from gardens we've visited.\"** This is a sourcing and origins statement, which the policy allows as written. It makes no superlative, ethical, environmental or quality claim. It's a plain statement of practice, so I'm treating it as fine. Make sure the team can say it's true, since it describes what the team has actually done.\n\nThere are no health claims, green claims, guarantees, testimonials, urgency or pricing claims, and no ad or affiliate label is needed on the brand's own about page. The tone is plain and specific, with no AI clichés or filler. It reads like a real small team wrote it.\n\nThe copy can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009318199999999999,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

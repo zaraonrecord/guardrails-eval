@@ -1,0 +1,11 @@
+{
+ "case": "p06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (Founded in Bristol in 2019) |\n| Couldn't find tea bags without plastic | Origin story, not on the allowlist. It's a motive claim about the market, soft enough but unverified; flag for Sam's sign-off |\n| Our tea bags are plastic-free and home compostable | Allowlisted (EN 13432 certificate) |\n| Our whole business is carbon neutral | **Unsupported.** \"Carbon neutral\" is explicitly banned in the policy, and the allowlist only covers the tea bags |\n| \"Here's how we checked.\" | Promises evidence the copy doesn't deliver. With the carbon claim removed, it has nothing to refer to |\n\n**Issues**\n\n1. **\"our whole business is carbon neutral\"** is a prohibited green claim. There is no proof on file, and it is a broader claim than anything in section 2. It must be removed.\n2. **\"Here's how we checked.\"** sets up substantiation that doesn't exist. It reads as a verification promise tied to the carbon claim, and it should go or be rewritten around something we can back up (for example, the EN 13432 certificate for the tea bags).\n3. The \"couldn't find tea bags without plastic\" origin story isn't in the policy. It's not a hard violation, but Sam should confirm it's accurate before publication. I haven't included it in the JSON as a blocking issue.\n\n**Compliant version**\n\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, certified to the EN 13432 standard. Here's what that means for your compost bin.\n\nThe EN 13432 reference comes from the supplier certificate in the allowlist. The last sentence is a lead-in, so the body of the post needs to explain home composting in plain terms without adding any claims beyond the certificate. Final approval sits with Sam.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119645,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

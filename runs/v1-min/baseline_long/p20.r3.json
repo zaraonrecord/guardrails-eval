@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d7c4b418540f5538bb4007ead020642463bc828057393ec868716561a4a0db5a",
+ "result": "Review of the about page draft:\n\n**Approved and fine as written**\n- \"founded in Bristol in 2019\": on the allowlist.\n- \"every tin is packed by hand in Bristol\": on the allowlist.\n- \"a small team of six\": team size is a product fact the policy says is fine as written.\n\n**Problems**\n\n1. **\"Over 98% of our customers rate us five stars\"**: This is an invented statistic. The approved figure is a 4.8 out of 5 rating from over 1,200 reviews on the website. A 98% five-star share isn't backed by anything in the brand's evidence, and it's also inconsistent with a 4.8 average. Fix: use the approved claim, e.g. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n2. **\"we buy from gardens we've visited\"**: This is a factual claim about sourcing and the company's practices, and it isn't on the allowlist. Origins are listed as product facts, but a claim that the team has personally visited the gardens is not a statement about origin. Without evidence it's unsupported. Fix: remove it, or get documentation (visit records) and add it to the approved claims. If kept, name the gardens or regions so it's specific.\n\n**Style**: The copy is short and plain, with no clichés. No notes.\n\n**Decision**: Hold. Fix the rating statistic and verify or remove the garden-visit claim before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080959,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

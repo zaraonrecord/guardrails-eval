@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6a404e3d038f1618192fe088eb0402060f95814630822a6b31f1bc8485064351",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** product page copy for Assam Breakfast, UK audience. No publish time was given.\n\n**Checks run**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy list, so it passes. \"Malty, full-bodied\", \"stands up to milk\", \"100g tin\" and \"around 40 cups\" are product facts, so they pass. \"Boosts your immunity through winter\" is not on the policy list and has no source in this chat, so it is unproven.\n- **Regulated claims (health):** \"Boosts your immunity\" is a health claim. In the UK, advertising rules only allow authorised health claims, and tea has none for immunity. The line is high risk and should be removed.\n- **House style:** The policy gives no voice rules beyond the claims list. The copy is short and plain, with no AI tells. It passes.\n- **Disclosure:** The page is the brand's own product copy, with no affiliate links, sponsorship or AI-labelled content. Nothing is needed.\n\n**Fixed (suggested edit, not yet applied to a live page)**\n- Removed \"and boosts your immunity through winter\". Suggested replacement keeps the winter angle without the health claim:\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, and a warming cup for winter mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Needs a decision**\n- Do you accept the rewrite above? If you want to keep an immunity message, it would need an authorised claim and a source added to the policy first. I don't recommend that.\n- The policy names no approver for product page copy, so I need a named person to approve this exact final text. Approval of the earlier draft doesn't carry over.\n\n**Approver:** Not named in the policy. Please tell me who signs off. Nothing is approved or recorded yet, so the page should not go live.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116242,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

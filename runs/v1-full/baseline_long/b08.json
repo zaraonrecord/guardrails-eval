@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is description, not a claim. It is warm and plain, with no banned words. It's fine.\n- **\"Subscribers can pause or cancel any time\"** matches the approved claim (subscription terms). It's fine.\n- **\"free UK delivery on orders over £25\"** matches the approved claim (shipping policy). It's fine.\n- **\"means most boxes ship free\"** is a problem. Nothing in the policy shows that most orders pass £25, so this is an unsupported, vague statistic. It also says \"boxes\", while the policy describes tins and tea bags. It also implies the threshold is easy to meet, which the brand can't show. Fix: cut it and keep the approved wording, e.g. \"Free UK delivery on orders over £25.\"\n\nNo label is needed on the brand's own landing page, and there are no health, green, superlative, guarantee or urgency issues.\n\nSuggested rewrite: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nHold until the \"most boxes\" phrase is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010722699999999998,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "880be9f9e802d9c464cac9dc961eadfd2173ca87cb8a55b1d624f2e05732238b",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Tea Subscription UK\", UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"If your box isn't right, we'll make it right.\" | **Unproven.** It's an implied satisfaction guarantee/remedy promise. The policy says we have no such offer (section 3: \"you'll love it or it's free\" is not an offer). Nothing in section 2 backs a remedy promise. |\n| \"Free UK delivery on orders over £25\" | On policy list (shipping policy). Fine. |\n\n**Regulated claims:** Touches prices/offers. The delivery threshold matches the policy exactly, so no problem. The \"make it right\" line is the only risk, since it promises a remedy we haven't defined.\n\n**House style:** Reads plain and warm, no banned words, no AI tells. \"Tea Subscription UK\" is a keyword-style headline, which is normal for search. Fine.\n\n**Disclosure:** Our own paid ad; the platform marks it. No extra label needed.\n\n**Fixed (suggested rewrite):**\nDescription: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\"\nThis swaps the vague promise for a claim that's on the policy list (\"Subscribers can pause or cancel any time\").\n\n**Needs a decision:**\n- If Sam wants to keep a \"we'll make it right\" promise, the actual returns/refund terms need to be written into the policy first. My suggestion is to use the pause/cancel line instead.\n\n**Approver:** Sam (marketing lead). Approval needed for the revised copy, not this draft. Not published, and no approval has been recorded.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111275,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

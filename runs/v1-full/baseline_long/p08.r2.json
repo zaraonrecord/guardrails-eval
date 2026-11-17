@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3496cf2a3c4ac6197f847830d4010a80bf20ca14a2ca26a6cf97ad4ba57e53fe",
+ "result": "**Review: search ad**\n\n**Claims**\n- \"Plastic-Free Tea Bags\" and \"Our tea bags are plastic-free and home compostable\": both are on the approved claims list (supplier certificate, EN 13432). Fine.\n\n**Testimonial**\n- \"Best tea I've ever had\" - Emma, Leeds: the brand policy lists no testimonials as approved, and it prohibits invented testimonials. There is no source, permission record or review reference for Emma. Without one, treat it as unsupported. It's also a personal opinion that reads as a superlative (\"best\"), which the brand never uses on its own account. Even if Emma is real, a search ad puts it in the brand's voice at the top of a results page, so it needs a traceable source and her permission before it runs. Fix: remove it, or confirm it's a genuine review with permission and quote it exactly with its source (e.g. from the website review export).\n\n**Style and tone**\nThe copy is plain, with no banned words or clichés. UK spelling is fine.\n\n**Labels and urgency**\nNo ad label is needed (platform marks it), and there is no urgency, health, guarantee or green overreach.\n\n**Decision:** hold. The factual claims are good, but the testimonial can't be verified from what I can see. If the team can show it is a real, permitted customer review, it can go out as is; otherwise cut it and run the plastic-free line alone.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009820699999999998,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

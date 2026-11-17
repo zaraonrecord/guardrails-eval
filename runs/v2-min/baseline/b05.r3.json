@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b8630b675b388c425e2a7c1a05cbb9c131e29b5bfb1eccdcfb39205fbe9582b5",
+ "result": "I checked the draft against the brand policy.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly (4.8 out of 5, over 1,200 reviews, on our website). It's fine.\n- **Product facts:** \"real bergamot oil and a little cornflower\" is an ingredient fact, which is fine as written.\n- **Other checks:** There's no health claim, superlative, guarantee, green claim, fake urgency, or testimonial. The tone is natural rather than generic AI copy. It's the brand's own Instagram account, so no disclosure is needed, and nothing is promotional in a way that needs a label.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.004934900000000001,
+ "seconds": 6.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

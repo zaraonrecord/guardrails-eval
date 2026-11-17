@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "05cdf8a8a8c89f6fae4fbb7ab56a6718fb6adc5f57aa9e6fc986ec87bcf1e288",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter to Pebblebrook subscribers, announcing the Christmas blend's return.\n\n**Checks**\n- **Claims:** No stats, ratings, guarantees, testimonials or comparisons. Ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop\" are product facts, which the policy allows as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. No \"limited\" or \"only X left\" wording. Pass.\n- **House style:** The policy has no voice section or banned list, so I checked for AI tells. It's short, plain and specific, with no stock openers, slogan closers or reversals. Pass.\n- **Disclosure:** It's the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-generated imagery. Nothing to label. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One minor note: \"from today\" is fine as long as the blend is live in the shop today, so confirm the send date matches.\n\n**Approver:** The policy names no approver, so the user (you) needs to give an explicit yes to this exact text. I haven't recorded an approval, and I can't run the approval script here since I have no tools in this session.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073263999999999985,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

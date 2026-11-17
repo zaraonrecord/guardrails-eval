@@ -1,10 +1,14 @@
 {
  "case": "p12",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review**\n\n- **Missing disclosure:** This is a paid creator post, so it must start with \"Ad\" before anything else. It currently opens with \"My afternoon reset...\", so it can't go out as written.\n- **Hand-packed claim:** \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\" (Operations). It's fine.\n- **Other checks:** There are no superlatives, guarantees, health claims, green claims, invented numbers or urgency. \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle framing, not health claims. No banned words are used, and the spelling is fine.\n\n**Fix:** Start the post with \"Ad\" (for example, \"Ad: My afternoon reset is...\"). Then it can go to Sam for approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
- "cost_usd": 0.0092121,
- "seconds": 8.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "254166bff3bda567368d45fd2e87f31deb0f7b15bbd3159ceeeadbd8d6c7fa56",
+ "result": "**Review of the paid creator post**\n\n**Problem: missing disclosure.** This is a paid partnership, so the post must start with \"Ad\" before anything else. The draft opens straight into \"My afternoon reset...\", so it needs \"Ad\" added at the very start.\n\n**Checked and fine:**\n- \"Their tins are packed by hand in Bristol\" matches the allowed claim \"Every tin is packed by hand in Bristol\".\n- \"Afternoon reset\" and \"ten minutes away from my phone\" are a personal routine, not a health claim (no stress, anxiety or wellbeing benefit is stated).\n- No superlatives, guarantees, invented numbers, green claims or false urgency.\n- None of the banned words appear, the tone is warm, plain and unhurried, and the spelling is UK.\n\nOnce \"Ad\" is added at the start, the post is fine to go to Sam for approval, as all public content needs.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007774099999999999,
+ "seconds": 10.4,
  "models": [
   "claude-sonnet-5-5"
  ]

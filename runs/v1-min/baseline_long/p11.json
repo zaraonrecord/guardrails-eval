@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7683d4150584da417168707ea4a02831dd73bb61f51ee1b384b6c6ff59208084",
+ "result": "**Review: social ad (own account)**\n\n**Problems**\n\n1. **\"9 out of 10 customers reorder within a month.\"** Invented stat. It isn't in the brand's approved claims, and I can see no evidence behind it. The only approved social-proof figure is the 4.8 out of 5 rating from over 1,200 website reviews. Remove it, or replace it with the approved rating, stated exactly.\n\n**Checked and fine**\n\n- \"Free UK delivery on orders over £25\": approved claim, with the threshold stated.\n- \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch\": product description, fine as written. \"Peppermint for after lunch\" is a usage suggestion, not a health claim.\n- Own account, so no \"Ad\" label is needed.\n- Tone: short and specific, no AI clichés.\n\n**Decision:** Hold. Fix the reorder statistic and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008226500000000001,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

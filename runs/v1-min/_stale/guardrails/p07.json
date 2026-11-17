@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Pebblebrook Tea Co. landing page hero, UK audience, not yet scheduled.\n\n**Checks run**\n- **Claims:** two problems (below).\n- **Regulated claims:** a money-back guarantee touches pricing and offers, so it needs a person's sign-off.\n- **House style:** the policy has no voice section, so I couldn't score against it. The copy reads clean and has no obvious AI tells.\n- **Disclosure:** nothing needed. This is the brand's own page, with no sponsor, affiliate link or AI-labelled content.\n\n**Needs a decision**\n1. **\"you'll love it or it's free\"** is a guarantee. It isn't on the policy's claims list and nobody has given a source or terms (refund window, which products, how to claim). It's also a binding offer the business would have to honour. Remove it, or confirm the exact terms and add them to the policy. Suggested: remove.\n2. **\"free UK delivery on orders over £25 means most boxes ship free\"**: the delivery offer is on the policy list, but \"most boxes ship free\" is a claim about order values that nobody has backed with data. Cut it and keep the sourced offer.\n3. **Approver:** the policy names no approver, so I need an explicit yes from you, or from whoever owns this page, on the exact final text.\n\n**Suggested replacement (uses only policy-backed claims)**\n> Tea you can pause or cancel any time. Subscribers can stop and start whenever they like, and delivery is free in the UK on orders over £25.\n\nOnce you approve that exact wording (or give me the guarantee terms), I'll re-check it. Any change after approval means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156353,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

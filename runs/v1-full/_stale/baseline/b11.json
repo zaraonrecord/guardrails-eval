@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** The only claims are product facts: a Japanese sencha, its flavour (grassy, a little sweet), and brewing guidance (around 70 degrees). The product team has checked these, so they're fine as written.\n- **Superlatives, guarantees, health claims, green claims, stats, testimonials, urgency:** None present.\n- **Voice:** Warm, plain and unhurried. No banned words. UK spelling is fine (nothing affected).\n- **Disclosure:** This is our own email, with no paid partnership, gifted product or affiliate link, so no label is needed.\n- **Approval:** Everything public needs Sam's sign-off (marketing lead), so please send it to Sam before it goes out.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071901,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "be9f45fd156f6347092bb71daf6716d2809f2eb3775ff3d033d298760796e8c3",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\"** (headline): the policy lists \"Our tea bags are plastic-free and home compostable\" as provable, and the product line is plastic-free tea bags. This is fine.\n- **\"Our tea bags are plastic-free and home compostable.\"**: this is the exact approved wording, backed by the EN 13432 supplier certificate. It is scoped to the tea bags and doesn't stretch to the whole product or packaging. This is fine.\n- **\"Founded in Bristol in 2019.\"**: this is the exact approved wording, backed by Companies House. This is fine.\n\n**Other checks:**\n- No superlatives, guarantees, health claims, invented numbers, urgency or testimonials.\n- No banned words, and the tone is plain. The copy is short and not padded.\n- Search ad from the brand's own account, so no extra label is needed.\n- No UK spelling issues.\n\nNothing needs changing. Per the policy, Sam still approves all public content, so it should go through Sam for sign-off as normal.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0065880999999999995,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

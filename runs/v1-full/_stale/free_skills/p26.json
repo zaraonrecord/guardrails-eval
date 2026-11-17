@@ -1,0 +1,11 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish as written. Two claims need to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Ad\" as the opening word | Meets the required wording for paid partnerships |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"tins are packed by hand in Bristol\" | On the allowlist (\"Every tin is packed by hand in Bristol\") |\n| \"which I love\" | Creator's own opinion, fine |\n| \"the best tea in Britain\" | **Unsupported superlative.** \"Best\" is on the never-claim list. |\n| \"a proven immunity booster\" | **Health claim.** Immunity claims are banned, and \"proven\" makes it worse. It is also likely to breach UK advertising rules on tea. |\n\n**Other notes**\n- \"Honestly\" is harmless, but it's only there to introduce the superlative, so it can go too.\n- Tone is warm and plain, with no banned words.\n- Sam needs to approve the post, as with all public content.\n- The creator describes using the tea, so confirm they've actually been drinking it. If so, the first-person lines are fine.\n\n**Compliant version**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0149285,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "15d08a800d76488575e3d28ebe3756bb718eff413265af2a98736afca9ac3821",
+ "result": "**Claims check**\n- \"Certified organic by the Soil Association\": on the allowlist. Fine.\n- \"packed by hand in Bristol\": allowlisted (\"every tin is packed by hand in Bristol\"). Fine.\n- \"free UK delivery on orders over £25\": allowlisted, and the threshold is stated. Fine.\n- No stats, superlatives, health claims, green claims, guarantees, testimonials or urgency.\n- Landing hero on the brand's own site, so no ad label needed.\n\n**Style**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" This is a formulaic rule-of-three opener built for rhythm. It is generic, could belong to any brand, and says nothing specific. \"Brewed with care\" and \"Delivered with a smile\" are also empty filler, and \"Packed with love\" repeats the concrete point about hand packing that follows in the same copy. Under the checklist, formulaic copy like this should be held.\n\n**Suggested fix**\nDrop the first three sentences and lead with the facts, e.g. \"Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\" Add a specific line about the tea itself if the hero needs warmth.\n\n**Decision:** hold until the opening line is rewritten.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076188,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

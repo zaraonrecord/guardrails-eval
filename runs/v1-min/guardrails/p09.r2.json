@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "622fff22f5d57a9bcd340b497db91f82451df50c29ff5764600395cbc8e13c5a",
+ "result": "**Publish gate report: Chamomile and Lemon Balm, product page**\n\n**Going out:** product page copy for the Chamomile and Lemon Balm blend, UK audience, live on publish.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"20 plastic-free tea bags\": plastic-free is on the policy list, and pack count is a product fact. Pass.\n   - \"caffeine-free\", \"gentle, honeyed\": product facts (ingredients/flavour). Pass, assuming the blend is in fact caffeine-free (chamomile and lemon balm are naturally so).\n   - \"reduces anxiety and helps you sleep\": not on the policy list and no source in this chat. **Unproven.**\n\n2. **Regulated claims (health):** \"reduces anxiety\" is a treatment claim about a health condition, and \"helps you sleep\" is a health benefit claim. In the UK, herbal teas sold as food can't carry unauthorised health claims, and claims about treating a medical condition risk the product being treated as a medicine. Both need removing.\n   - Safer version: \"A gentle, honeyed, caffeine-free blend, a calming cup for the evening.\"\n   - \"Calming\" is still borderline in some readings, so a softer alternative is \"a soothing, caffeine-free cup to wind down with\", which describes the ritual rather than a physiological effect.\n\n3. **House style:** the policy has no voice section, so I can't score it against the brand. The copy is short and plain with no obvious AI tells. No change.\n\n4. **Disclosure:** no ad, affiliate, sponsorship or gifted-product element. No AI-generated content that needs a label. Pass.\n\n**Fixed (suggested rewrite, not yet approved):**\n- Removed \"reduces anxiety and helps you sleep\".\n- Replaced with a descriptive, non-medical line about winding down.\n\n**Revised copy:**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for winding down in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n**Needs a decision:**\n- Confirm the blend is caffeine-free and that the organic certification covers this specific product (my suggested answer: yes to both, since both are in the policy and product facts).\n- If the team wants to keep any sleep or anxiety wording, it would need authorised-claim evidence and compliance sign-off. My suggestion is not to.\n\n**Approver:** the policy names no approver, so the user (you) needs to give an explicit yes to the revised copy above. Nothing is recorded or published until then. The draft as submitted should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014091300000000001,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

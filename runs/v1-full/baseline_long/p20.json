@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "72d90589a24f8c5122bd00cf2aa37552624196b2604b39a1a67452ea50a98576",
+ "result": "**Verdict: hold.** One claim is unsupported and needs to change before this goes out.\n\n**Problem**\n- **\"Over 98% of our customers rate us five stars\"** is an invented statistic. The only approved rating figure is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (October 2026 export). Nothing on file backs a 98% five-star share, and it doesn't match the approved rating. Replace it with the approved wording.\n\n**Checked and fine**\n- \"founded in Bristol in 2019\" is on the approved claims list.\n- \"a small team of six\" is team size, a product-team-checked fact.\n- \"every tin is packed by hand in Bristol\" is on the approved claims list.\n- No banned words, health, environmental or urgency claims. The tone is plain and warm, with UK spelling.\n\n**Worth a quick confirmation (not blocking)**\n- \"we buy from gardens we've visited\" is a claim about sourcing practice. It's not on the approved list, so ask the product team to confirm it's true of every tea before it stays.\n\n**Suggested rewrite of the problem sentence:** \"Our customers rate us 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156947,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

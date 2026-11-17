@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c87f5e2ccbc0d072a40b57aa604f4ed40f9fd7fd14a08f74539c8f58737d995a",
+ "result": "**Review: landing hero**\n\nClaim check against the brand policy:\n- \"packed by hand in Bristol\": approved (\"every tin is packed by hand in Bristol\").\n- \"certified organic by the Soil Association\": approved.\n- \"Free UK delivery on orders over £25\": approved, and the threshold is stated next to the claim.\n\nNo health, green, superlative, guarantee, urgency or stat problems. No ad label is needed on a brand-owned landing page.\n\nStyle: the packed-by-hand-in-Bristol point is made twice in three short sentences (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). That is repetition, which the checklist says to check for and which makes the hero read as padded. It is a small fix but it is a real flaw in a three-sentence piece, so I'd change it before publishing.\n\nSuggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.02396,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

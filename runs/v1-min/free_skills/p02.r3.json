@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "647bacb408c7d39b392c66198c61c8db47739ba97d7ae57877366eaea02bbcec",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" (headline) | Allowlisted (certified organic by the Soil Association; loose leaf is a product fact) |\n| \"Loved by 50,000 tea drinkers\" | Unsupported. Nothing on the allowlist gives a 50,000 figure. The only social proof is 4.8/5 from over 1,200 reviews. \"Loved by\" is also a soft superlative-style claim. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Problems**\n\n1. \"Loved by 50,000 tea drinkers\" is an invented statistic. Remove it or replace it with the backed claim: \"Rated 4.8/5 from over 1,200 reviews\". Note that the ad claim should also appear on the landing page, so check that the reviews rating is shown there.\n2. Headline \"Organic Loose Leaf Tea\" is fine, but the ad as a whole should make sure the landing page shows the Soil Association certification.\n\n**Compliant version**\n\nHeadline: Organic Loose Leaf Tea\nDescription: Rated 4.8/5 from over 1,200 reviews. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nI haven't counted characters because no limits were given. If this is for Google search, send the limits (typically 30 for headlines, 90 for descriptions) and I'll count them. Note the headline as written is 23 characters, and the compliant description is about 106 characters, so it would need trimming to fit a 90-character limit. A shorter option: \"Rated 4.8/5 from 1,200+ reviews. Free UK delivery over £25.\" Wait, \"1,200+\" is a fair shorthand for \"over 1,200\", so that is acceptable.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011244299999999999,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fe67a1a2d26772df21686b0488c2d95f3c02b73690a693601fb74c262d514f67",
+ "result": "I checked the draft against the claims allowlist and the brand rules.\n\n**Passes**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly.\n- \"packed by hand in Bristol\" is a close paraphrase of \"Every tin is packed by hand in Bristol\", which is allowed. Strictly, the claim covers tins, and the draft says \"bags\" too (see below).\n- \"organic loose leaf\" is fine as a product description, but note that the certified organic claim has to keep its exact wording if used as a certification (\"Certified organic by the Soil Association\"). Plain \"organic\" here is acceptable but worth confirming with Sam.\n\n**Problems**\n1. **\"The finest\"** is a superlative we can't prove. Section 3 bans \"finest\". Remove it, or say something plain like \"Organic loose leaf tea\".\n2. **\"eco-friendly bags\"** is a general environmental claim, which section 3 bans. The allowlist has a specific, backed alternative: \"Our tea bags are plastic-free and home compostable\". Use that instead.\n3. **Packed by hand scope**: the approved claim is about tins. \"Packed by hand in Bristol\" attached to \"bags\" in the same sentence may stretch it. Suggest rewording so it refers to tins.\n\nAlso, everything public needs Sam's approval before it goes live.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"The finest\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008430199999999999,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

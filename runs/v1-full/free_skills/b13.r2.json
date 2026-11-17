@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "8545157671f07a1ec71534073cb61868a4a5d78b30f42337ffa5437f808284d2",
+ "result": "**Review: creator post (paid)**\n\n**Required disclosure:** The post opens with \"Ad\", before anything else, as section 4 requires. Pass.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (Operations: every tin is packed by hand in Bristol) |\n| \"My afternoon reset is a pot of... Assam and ten minutes away from my phone\" | The creator's own routine, not a product claim. It makes no health, stress or wellbeing promise. |\n| \"which I love\" | Personal opinion, not a factual claim |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, statistics, testimonials:** none.\n- **Health claims:** none. \"Reset\" reads as a break in the day, not a benefit. If anyone edits it to mention relaxing, calming or reducing stress, that would become a health claim and should be cut.\n- **Green claims:** none.\n- **Banned words and structures:** none, and there are no em-dashes or exclamation points. The tone is warm and plain.\n- **Spelling:** no US/UK issues.\n- **Hands-on experience:** the creator describes using the tea. This is a paid partnership, so confirm they actually drink it.\n\n**Before it goes live:** per the approvals table, Sam needs to sign off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0109449,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

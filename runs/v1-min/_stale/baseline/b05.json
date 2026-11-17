@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review of the draft:\n\n- **Rating claim**: \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly (4.8 out of 5, over 1,200 reviews, on our website). It's fine.\n- **Product facts**: \"real bergamot oil and a little cornflower\" is an ingredient description, which is allowed as written.\n- **Tone and wording**: \"Rainy Sunday, second pot\" is natural and not generic filler. No superlatives, guarantees, health claims, green claims, urgency, or testimonials.\n- **Disclosure**: This is the brand's own Instagram account, so no sponsorship label is needed.\n- **Market**: Nothing conflicts with UK marketing.\n\nNothing needs changing. It's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00853,
+ "seconds": 6.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

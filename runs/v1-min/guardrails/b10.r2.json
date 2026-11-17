@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2807feae88b1f7be6d2341007e9b846d9374883a1e2f1ca60c2d7c6bae9dd953",
+ "result": "**Publish gate report: Chamomile and Lemon Balm product page**\n\n**Going out:** product page copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | On the policy list |\n| \"20 plastic-free tea bags\" | \"Plastic-free tea bags\" is on the policy list. The count of 20 is a product fact (sizes), so it is fine as written. |\n| \"caffeine-free\" | Product fact (ingredients). Chamomile and lemon balm are naturally caffeine-free. |\n| \"gentle, honeyed ... for the evening\" | Flavour and occasion description, not a claim. |\n\nNothing is invented, ranked, guaranteed or urgent.\n\n**Regulated claims:** The copy says nothing about sleep, relaxation, calming or any other health effect. \"For the evening\" describes when to drink it, not what it does. Please don't add wording like \"helps you sleep\" or \"calming\" without proof. \"Plastic-free\" is covered by the policy. I'd avoid adding \"compostable\" or \"eco\" unless it matches the policy wording (\"home compostable\").\n\n**House style:** No AI tells and no banned patterns. The copy is short, concrete and plain. Score is about 90 and it needs no rewrite. The policy has no voice section, so I judged it on clarity and AI tells only.\n\n**Disclosure:** This is the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes from you to publish this exact text. Once you've given it, record it in your terminal with `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"Chamomile and Lemon Balm product page\"`. The approval lasts 15 minutes and covers one publish. If you change the copy, it needs a new check.\n\n**Evidence log rows** (to paste into `.guardrails/evidence.md`):\n- 2026-11-17 | Chamomile and Lemon Balm product page | Certified organic by the Soil Association | On policy list | Brand policy\n- 2026-11-17 | Chamomile and Lemon Balm product page | 20 plastic-free tea bags | On policy list (plastic-free) / product fact (count) | Brand policy\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0167073,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9a624e6582815c1c53b40859b5edd155fe0161b644c9392c3b6268e62d216916",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (founded in Bristol in 2019) |\n| \"tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"because we couldn't find tea bags without plastic in them\" | Not on the allowlist. It's an origin story rather than a product claim, so I'd get the founders to confirm it, but I'm not blocking on it. |\n| \"here's how we checked\" | Unsupported. It promises a testing or verification process, and no such process is on the allowlist or supplied in this chat. |\n\n**Main problem**\n\n\"Here's how we checked\" turns an allowlisted green claim into one that implies evidence: a test, a certification or a home-composting trial. The intro promises it, but nothing in the draft supplies it. Under the UK Green Claims Code, a compostability claim needs to be backed by the evidence the post says it will show. If the body doesn't describe a real check, that is a misleading environmental claim. If it does, someone has to supply the details (what was tested, by whom, over what period, with what result), and I can't invent them.\n\n**Fix options**\n\n- Keep the line and add the real method and result, or mark it `[PROOF NEEDED: how the home-compostable claim was checked, by whom, and the result]`.\n- Or use the compliant version: \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable.\"\n\n**Style check**\n\nThere are no ban-list words, no em-dash sandwiches, no exclamation points, no rhetorical openers and no fake urgency. The opening sentence carries a concrete fact.\n\n```json\n{\"issues\": [{\"quote\": \"here's how we checked\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0141529,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f692cd127777ca82a388d6eae525ba09f9cb33a3a05f854ca2cf67ef0bcfef21",
+ "result": "**Review of the newsletter draft**\n\n- **\"Our customers tell us it's the only tea they drink now.\"** This is an unsupported customer claim. The brand policy has no backing for it: the only customer evidence we can cite is the 4.8 out of 5 rating from over 1,200 reviews. It reads as an invented testimonial and should be removed. Alternatively, replace it with a real, attributable quote or the review rating.\n- **Garden visit, March picking, \"bright and floral\"**: these are product facts about origin and flavour, so they're fine as written.\n- **\"You'll find it in the shop from Monday.\"** This is a new-arrival announcement, not manufactured urgency, so it's fine. Check that Monday is the actual launch date.\n- No other health, green, superlative, statistic or guarantee claims turned up.\n\nThe draft shouldn't go out until the testimonial line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010894,
+ "seconds": 16.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

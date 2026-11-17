@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17b863f2b4a83b4b6d6a1ae752585557a67cf6a64b35afa6cc175b83f3833b7e",
+ "result": "**Review of the landing hero draft**\n\n**Problems that must change**\n\n1. **\"you'll love it or it's free\"** is a guarantee. Section 3 names this exact phrase as one we never use, because we have no such offer. Remove it. This is the most serious problem, since it promises customers money back that we don't offer.\n2. **\"means most boxes ship free\"** is an unsupported claim. The allowlist only backs \"Free UK delivery on orders over £25\". Saying most boxes qualify implies a statistic about order values that we haven't verified. Use the exact approved wording and drop the \"most boxes\" part.\n\n**What's fine**\n- \"Subscribers can pause or cancel any time\" matches the approved wording from the subscription terms.\n- \"Free UK delivery on orders over £25\" is approved. The draft uses it in a slightly altered form, so keep the original wording.\n- The tone is plain and warm, and the draft has no banned words and no health, green or urgency claims.\n- The landing hero is our own page, so no disclosure label is needed.\n\n**Suggested rewrite:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nAs with all public content, Sam needs to approve the revised version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009316600000000001,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

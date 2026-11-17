@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "I checked each sentence of the search ad against the brand policy.\n\n- **\"Tea Subscription UK\"**: A plain description of the product and market. No claim.\n- **\"Monthly loose leaf tea.\"**: Product fact, fine as written (we sell loose leaf tea by monthly subscription).\n- **\"Subscribers can pause or cancel any time.\"**: Matches the approved claim word for word (subscription terms).\n- **\"Free UK delivery on orders over £25.\"**: Matches the approved claim exactly (shipping policy), and the threshold is stated next to \"free\".\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, invented numbers, or urgency.\n- No banned words or AI clichés. The tone is plain, and the spelling is UK.\n- No paid-creator or affiliate element, so no label is needed. Paid search ads from the brand's own account don't need an extra label under the policy.\n- The copy is short and generic, but that fits the format. It's not a problem that needs fixing.\n\nNothing needs changing. Sam still needs to approve it, as with all public content, but there are no copy issues to raise.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067087,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

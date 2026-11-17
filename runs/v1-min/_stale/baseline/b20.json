@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- \"Monthly loose leaf tea\": a product fact, which is fine as written.\n- \"Subscribers can pause or cancel any time\": on the allowlist.\n- \"Free UK delivery on orders over £25\": on the allowlist, with the same threshold and scope.\n- \"Tea Subscription UK\": a plain descriptive headline with no superlatives, stats, or other claims.\n\nThe copy has no health, green, urgency, testimonial, or guarantee claims. It is a search ad, so no disclosure label is needed, and nothing reads as filler. It is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007868,
+ "seconds": 6.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

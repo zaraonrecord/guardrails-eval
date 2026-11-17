@@ -1,10 +1,14 @@
 {
  "case": "b21",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Team size is a product-team-checked fact, fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** \"We buy from gardens we've visited.\" is a sourcing claim that isn't on the allowlist. The policy covers where a tea is grown and when it's picked, but not a claim that the team has visited its suppliers. It also reads as all of them (\"gardens\", with no qualifier), which is hard to back up. Either someone confirms it with proof, for example \"[PROOF NEEDED: which gardens the team has visited, and whether that covers every supplier]\", or it comes out. If it's true for only some gardens, name them or say \"some of\".\n\n**Other checks:**\n- No banned words, no superlatives, no health or green claims, no fake urgency.\n- The tone is warm, plain and unhurried, and the spelling is fine.\n- No disclosure is needed for an about page.\n- Sam still needs to approve it before it goes live.\n\n**Suggested version if the visits can't be verified:**\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.013098500000000003,
- "seconds": 14.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f8f636519995c1f68ae5f9ae31bb112709257daf7fb4d69c4b9b0fe0125a46dc",
+ "result": "**Review of the about page draft**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Team size is a product-team fact, fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**The problem:** \"We buy from gardens we've visited\" isn't on the allowlist, and it isn't one of the product facts the policy covers (ingredients, flavour, tin sizes, brewing, where a tea is grown and when it's picked, team size, new products). It's a sourcing claim about how the company buys, and it implies something about supplier relationships. Nothing in this conversation gives a source for it.\n\n**Options:**\n- Cut the sentence.\n- Keep it as `[PROOF NEEDED: confirmation from the product team that every garden we buy from has been visited by someone on the team, and when]`. If it's only true for some gardens, the copy should say that, for example \"We've visited the gardens behind [named teas].\"\n\nEverything else is fine. There is no banned vocabulary, no superlatives, no health or green claims, and no urgency. The tone is warm, plain and unhurried, with UK spelling. As with all public content, Sam needs to approve it before it goes out.\n\n**Suggested version once the garden claim is confirmed or removed:**\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012460200000000001,
+ "seconds": 14.0,
  "models": [
   "claude-sonnet-5-5"
  ]

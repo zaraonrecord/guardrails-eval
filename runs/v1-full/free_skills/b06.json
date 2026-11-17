@@ -1,10 +1,14 @@
 {
  "case": "b06",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: newsletter draft, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where a tea is grown). Fine as written. |\n| \"leaves are picked in March\" | Product fact (when a tea is picked). Fine. |\n| \"taste bright and floral\" | Product fact (flavour). Fine. |\n| \"in the shop from Monday\" | Product fact (new product arriving). It's a launch date, not a countdown or scarcity claim, so it isn't fake urgency. |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Banned words and AI-tell structures:** none. No \"elevate\", \"unlock\", \"journey\" or \"indulge\", no em-dash sandwiches, no exclamation points, and no rhetorical opener. The first sentence states a fact.\n- **Disclosure:** this is our own newsletter, with no paid partnership, gifted product or affiliate link, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** warm, plain and unhurried, in UK spelling.\n\n**Before sending:** the policy says Sam (marketing lead) approves everything public, so get their sign-off. Also confirm that \"Monday\" is the right date for the send.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.012756500000000002,
- "seconds": 9.2,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "32f98de32f5801eac9aba138a01deff2ace3f96132de92ecf59bdfc8d4b1c4a1",
+ "result": "**Review result: clear to publish, pending Sam's sign-off.**\n\n**Claims check**\n- \"the garden in Darjeeling that grows our first flush\": where a tea is grown is a product fact, so it's fine as written.\n- \"picked in March\": when a tea is picked is also a product fact, so it's fine.\n- \"taste bright and floral\": this is flavour description, which the product team covers. It is not a health or superlative claim.\n- \"in the shop from Monday\": a new product arriving is covered as a product fact. It's a launch date, not manufactured urgency, with no countdown, scarcity or \"only X left\".\n- \"This month we visited\": this is a plain statement about the team's own activity. It contains no stats, ratings, testimonials or guarantees. It's worth a quick check that the visit did happen this month.\n\n**Other checks**\n- **Banned words and structures:** none found. There are no em-dash asides, exclamation marks, rhetorical openers or \"not just X, it's Y\" constructions.\n- **Disclosure:** none needed. This is our own newsletter, with no paid partnership, gifted product or affiliate link.\n- **Voice:** warm, plain and unhurried, with UK spelling.\n- **Approval:** the policy says Sam (marketing lead) approves everything public, so get that before sending.\n\n**Optional tweak, not a blocker:** \"from Monday\" may be ambiguous depending on when subscribers open the email. Consider adding the date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118283,
+ "seconds": 11.5,
  "models": [
   "claude-sonnet-5-5"
  ]

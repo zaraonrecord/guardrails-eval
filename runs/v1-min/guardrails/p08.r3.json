@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57827c05104fd4269194a7400566a7adbf9c98b5b2d1a2fd4738dd3a03e72e7e",
+ "result": "## Publish gate report\n\n**Going out:** Search ad, UK. Headline \"Plastic-Free Tea Bags\" plus a description.\n\n**Checks**\n- **Claims:**\n  - \"Plastic-Free Tea Bags\" is on the policy list, so it passes.\n  - \"Our tea bags are plastic-free and home compostable\" is on the policy list, so it passes.\n  - `\"Best tea I've ever had\" - Emma, Leeds` is **unproven**. The policy has no testimonials, and nothing in this chat shows that Emma exists or gave permission to be quoted. It's also a superlative.\n- **Regulated claims:** The environmental claims (\"plastic-free\", \"home compostable\") are specific and are backed by the policy, so they pass. Keep the wording exactly as it is and don't broaden it to \"eco-friendly\" or \"sustainable\".\n- **House style:** Clean, with no banned words or AI tells.\n- **Disclosure:** Search platforms add their own \"Ad\" label, and the copy doesn't need a separate one. No affiliate, sponsored or AI-content issues.\n\n**Fixed (suggested edit, not yet approved):**\n- Remove the testimonial. Suggested description: *\"Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\"* The delivery line is on the policy list.\n- If Emma is a real customer, add her written permission to the policy or send it here. The quote can then go back in as `[PROOF NEEDED: Emma's written permission, plus the original review]`.\n\n**Needs a decision:**\n- Do you have permission and a source for the testimonial? My suggested answer is no, so cut it for now.\n\n**Approver:** The policy names no approver. Please confirm who signs off on the revised ad. Nothing should go live until that person says yes to the exact final copy.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0129075,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

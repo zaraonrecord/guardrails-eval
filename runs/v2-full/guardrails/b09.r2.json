@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9bfbb66ceec52bea27431d2e9da8ce641e1c2d383115fadef133672680f1d238",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline + description), no date or audience specified.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Our tea bags are plastic-free and home compostable\" | On policy list (supplier certificate, EN 13432) |\n| \"Founded in Bristol in 2019\" | On policy list (Companies House) |\n| \"Plastic-Free Tea Bags\" (headline) | Covered by the same policy row |\n\n**Regulated claims:** The ad makes an environmental claim, but it is the specific, evidenced one in section 2 (plastic-free, home compostable, with a certificate). It isn't a broad \"eco\" or \"sustainable\" claim. No health, money, children or price content.\n\n**House style:** No banned words, no AI tells, plain and warm enough for a search ad. Score about 88. Title Case in the headline is normal for ads. The description is a bit flat, but that's a taste point and not a blocker.\n\n**Disclosure:** Paid search ad from our own account. The platform marks it as an ad, and the policy requires no extra label. No creators, affiliate links or AI imagery.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One small note: the ad should link to a page that also backs up the plastic-free and compostable claims, so check the landing page states them.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Please get an explicit yes from Sam on this exact copy before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008028899999999999,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

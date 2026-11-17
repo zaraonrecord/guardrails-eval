@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "92bd9de7967c2102097c570502b30e24dee81e85c93a3393d2514dd9ffb8fe89",
+ "result": "**Review: newsletter draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Origin/product fact, fine as written (confirm the visit happened this month) |\n| \"picked in March\" | Product fact, fine |\n| \"taste bright and floral\" | Flavour, fine |\n| \"in the shop from Monday\" | New arrival, fine (confirm the date) |\n| \"only 40 tins are left, so be quick\" | **Unsupported.** Scarcity isn't on the allowlist and nobody has supplied a verified stock figure. \"So be quick\" adds pressure on top. |\n\n**Problem**\n\nThe stock count and \"be quick\" are fake urgency unless the 40 is a real, checked number. Also, the line says \"only 40 tins are left\" while the tea isn't in the shop until Monday, so the number can't be a live figure and will be stale by the time people click.\n\n**Compliant version**\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nIf the 40-tin limit is real, you can keep it as a plain fact (e.g. \"This is a small batch of 40 tins\") once you've confirmed the figure. Drop \"so be quick\" either way.\n\nNo AI-slop vocabulary, disclosure issues, or regulated claims found.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0131003,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

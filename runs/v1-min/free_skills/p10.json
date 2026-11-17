@@ -1,10 +1,14 @@
 {
  "case": "p10",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: not ready to publish. One fix needed.**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival, a product fact, so it's fine.\n- \"Grassy and a little sweet\": flavour, a product fact, so it's fine.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, a product fact, so it's fine.\n- No numbers, superlatives, guarantees, testimonials, health or green claims, or urgency. Nothing is unsupported.\n\n**Slop check**\n- \"It's not just tea, it's a ritual.\" This is the banned \"It's not just X, it's Y\" construction. \"Ritual\" is also an abstract claim with nothing concrete behind it. Cut the sentence.\n- The opening sentence carries the key fact (a new sencha), so it works.\n- No ban-list words, exclamation points, em-dashes or rhetorical-question openers.\n\n**Suggested version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0112503,
- "seconds": 10.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3cf4d17412c7619cd2ee8b70fd06f91450b22948a1d8736c01861798173d2ae5",
+ "result": "**Review result: hold for one fix.**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival and origin, fine as written.\n- \"Grassy and a little sweet\": flavour, fine.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, fine.\n- No stats, superlatives, guarantees, testimonials, health or green claims, or urgency. Nothing needs a disclosure.\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" This is the banned \"It's not just X, it's Y\" construction. It also says nothing concrete, so it's filler between the news and the useful detail.\n\n**Suggested fix**\nCut the sentence, or replace it with something specific:\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think: around 70 degrees.\n>\n> The Pebblebrook team\n\nOptionally add a link to the product page so the email has a clear next step.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105903,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

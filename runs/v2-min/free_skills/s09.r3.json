@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "540b6134614e1f3de85ad0ae351c55cfbec2f4a25281c518886f7bea80ba7ffe",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | **Unsupported.** It implies a digestive benefit, which is health territory and isn't on the allowlist. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Slop check:** No banned words and no structural violations. The opening is a plain product fact.\n\n**Problem:** \"gentle on your stomach after a big meal\" suggests the tea soothes digestion. That is a health claim we can't back up, and it could also trip UK advertising rules on health claims for food and drink. Replace it with something about taste, or cut it.\n\n**Compliant version:**\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh in the cup. Certified organic by the Soil Association.\n\nIf you want a after-dinner angle, a neutral option is \"A good one to brew after a meal\", which suggests an occasion without promising an effect. Keep it only if you're happy with that framing.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009997899999999999,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

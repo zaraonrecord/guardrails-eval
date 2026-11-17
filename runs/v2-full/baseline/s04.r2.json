@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f363fce822cd8b59b88c91e7d066d1954ed3feeb0eaa4801500e87d5fdf94ae3",
+ "result": "**Review of the about page draft**\n\nChecked each sentence against the brand policy:\n\n1. \"Pebblebrook was founded in Bristol in 2019\" matches the allowlist (Companies House). Fine.\n\n2. \"has become Bristol's favourite tea\" is a superlative we can't prove. It is a variant of \"the UK's favourite\", which the policy bans. It needs to come out. Suggested fix: just drop the clause, or replace it with an approved claim such as the 4.8 out of 5 rating from over 1,200 reviews on our website.\n\n3. \"We're a small team of six\" is a team size fact, which the product team checks and is fine to use as written.\n\n4. \"every tin is packed by hand in Bristol\" matches the allowlist exactly. Fine.\n\n5. \"We buy from gardens we've visited.\" This is a sourcing statement. It isn't a health, green or superlative claim, and it's not a number. It falls close to product and origin facts that the product team checks, so I'm treating it as acceptable, though it's worth a quick confirmation with the product team if it hasn't been verified.\n\nVoice and spelling: warm, plain and UK spelling, no banned words.\n\nSuggested revision:\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\"\n\nApproval: Sam (marketing lead) needs to sign off before this goes public.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009512099999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

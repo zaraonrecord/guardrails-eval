@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "879e37859ff556e4f2e7706aea1dd4d45d8fddaa4f904170a74278ede2712320",
+ "result": "I checked the draft against the brand policy and the claim categories.\n\n- **Product facts:** Caffeine-free rooibos, the spice list (cinnamon, cardamom, ginger, black pepper), serving suggestion with milk, and the 100g tin size are all product facts, which the policy allows as written.\n- **Health claims:** \"Caffeine-free\" describes the ingredient (rooibos naturally contains no caffeine), and it makes no wellness or medical promise. Fine.\n- **Stats, superlatives, guarantees, testimonials, urgency, green claims:** None present.\n- **Disclosures:** A product page for a tea listing needs no disclosure here, and no sponsored or affiliate content is involved.\n- **Style:** The copy is short and plain, with no filler or AI-sounding phrasing.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0053955,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

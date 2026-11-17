@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7d9e0dc8af523e9f0dcd19e18bbe35c5f1fec9de72c50b5166bed739b044c996",
+ "result": "**Publish gate report**\n\n**Going out:** Email, subject \"A new green tea\", to Tom (and presumably the list), announcing the new Japanese sencha.\n\n**Checks**\n- **Claims:** There are no stats, ratings, guarantees, testimonials or comparisons. The sencha, its flavour (\"grassy and a little sweet\") and the brewing temperature (around 70 degrees) are product facts the product team has already checked, so they are fine as written. \"Best brewed cooler than you think\" is brewing advice, not a superlative about the brand.\n- **Regulated claims:** There are no health, money, environmental, children's or price claims. \"Green tea\" names the tea type and is not an environmental claim.\n- **House style:** The copy is warm, plain and unhurried, with no banned words and no AI tells. Score is about 95/100, so no rewrite is needed.\n- **Disclosure:** This is the brand's own email, with no ad, partnership, affiliate link, gifted product or AI-labelling requirement.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. Optionally, add a link to the sencha in the shop so Tom can find it. That is a suggestion, not a requirement, and any new link would need a re-check.\n\n**Approver:** Sam (marketing lead), who must approve everything public. I haven't recorded an approval. Please ask Sam for an explicit yes to this exact text, then record it with the approve step before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010825000000000001,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

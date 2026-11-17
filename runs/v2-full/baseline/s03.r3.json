@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a63819af9602df25522d8b9549b070356a50e17c8b4cc0822e19934fd5bd7260",
+ "result": "Review of the Assam Breakfast product page copy:\n\n**Problems**\n\n1. **\"noticeably smoother than supermarket tea bags\"** is a comparative claim we can't back up. It isn't on the claims allowlist, there's no test or proof on file, and it implies a superiority we haven't verified. It also puts down other products without evidence. Remove it, or replace it with a plain description of the flavour (e.g. \"malty, full-bodied, with a soft finish\" if the product team confirms that).\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate renewed 2026).\n- \"malty, full-bodied black tea\" is a flavour description, which the product team checks and which is fine as written.\n- \"100g tin, makes around 40 cups\" is a tin size and cup count, a product fact covered by the product team.\n- Voice: plain and warm enough, no banned words, UK spelling is fine.\n- No health, green, urgency, or guarantee claims. No disclosure needed for a product page on our own site.\n\n**Approval:** Sam (marketing lead) needs to sign off on everything public once the edit is made.\n\n**Verdict:** Do not publish as written. Cut the \"smoother than supermarket tea bags\" comparison and resubmit.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009090099999999999,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

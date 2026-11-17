@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "47beec606953f400f5b77b99d4dce0bc2cb2bbb9dc4dffe733e1b1851135763d",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, Pebblebrook's own account, UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Rated 4.9 out of 5 from over 5,000 reviews on our website\": the policy allows 4.8 out of 5 from over 1,200 reviews. Both numbers are higher than what's proven, so this is an invented stat. It needs the policy figures, or a source and an updated policy row.\n   - \"Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients), fine as written.\n   - \"Rainy Sunday, second pot\": scene-setting, no claim.\n\n2. **Regulated claims:** No health, money, environmental, children or price claims. Nothing to flag.\n\n3. **House style:** Voice is short and natural, with no obvious AI tells. The review line reads a bit like an add-on, but it's fine once corrected.\n\n4. **Disclosure:** Own-account post about own product, no gifting, affiliate links, or paid partnership. No label needed.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision:** If the 4.9 / 5,000 figures are genuinely current, someone needs to supply the source and update the policy before they can be used. Otherwise, use the corrected version above. My suggestion is the corrected version.\n\n**Approver:** The policy names no approver, so the account owner (you) needs to give an explicit yes to the exact final text. I haven't recorded any approval, and the original draft shouldn't go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091923,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

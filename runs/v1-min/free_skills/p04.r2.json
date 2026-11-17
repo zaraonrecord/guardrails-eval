@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e2989ad34646767fb7e57f667bedaf434353c037bf7657e5ade369932f1e3002",
+ "result": "**Claims check**\n\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": allowlisted (the brand policy states exactly this). Fine.\n- \"real bergamot oil and a little cornflower\": product ingredient fact, fine as written.\n- \"a rainy Sunday pot is everything\": mood line, not a verifiable claim. Fine, though vague.\n- No health, green, guarantee, urgency or testimonial claims.\n\n**Slop check**\n\n- \"In today's fast-paced world\" is on the ban list. It is also throat-clearing: the opening sentence carries no fact. Cut it.\n- \"is everything\" is vague and fails the \"compared to what?\" test. Replace with something concrete.\n\n**Disclosure**\n\nOwn account, no affiliate or sponsored content. Nothing to declare.\n\n**Suggested rewrite**\n\n\"Our Earl Grey uses real bergamot oil and a little cornflower. Best on a rainy Sunday, brewed by the pot. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nThe draft should not go out as written because of the banned opener.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006764399999999999,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

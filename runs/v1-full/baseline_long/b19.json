@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e491f1e14b1d14855cfe6aa9041147f6c5e53e491ded8cd6d8ac5bbb6ce1e0a9",
+ "result": "I read the draft as a customer receiving the email, then checked each sentence.\n\n- **Subject line:** \"How to brew loose leaf without a teapot\" matches the content. It isn't misleading.\n- **Brewing guidance:** \"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\" Brewing guidance is a product fact the product team checks, and the policy allows it as written. No health, green, or superlative claims.\n- **Claims, numbers, urgency, guarantees:** None present. No offers, no ratings, no testimonials.\n- **Disclosure:** This is the brand's own email, so no \"Ad\" label is needed. No creator or affiliate content.\n- **Voice:** Warm, plain, unhurried, UK spelling, no banned words or AI clichés. \"You don't need any kit\" is natural UK phrasing. The sign-off is short and fine.\n- **Personalisation:** \"Hi Ana\" depends on the merge field being right. That's a send-time check, not a copy problem.\n\nNothing needs changing. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086387,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

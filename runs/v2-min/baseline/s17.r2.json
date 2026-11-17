@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b3ea16723f9d4f900dc09586d0cc23c6ce3a90efeaafdc7d2c6bd3a19b766ca",
+ "result": "**Review result: hold, one claim needs changing.**\n\n**Problem**\n- \"As always, it ships within 24 hours of your order.\" The brand policy doesn't back up any dispatch-speed promise. The allowlist covers free UK delivery over £25, hand-packing in Bristol, and pause/cancel any time, but nothing about shipping times. It also reads oddly in a subscription email, where the box wasn't ordered that day. Remove it, or publish it only once ops confirms the 24-hour commitment and it's added to the policy.\n\n**Checked and fine**\n- \"left Bristol this morning\" is consistent with the Bristol packing claim, assuming it's true on the send date.\n- \"pause or cancel any time from your account\" is on the allowlist.\n- The lapsang and white peony descriptions are product facts.\n- There are no invented stats, superlatives, health or green claims, fake urgency, or testimonials, and no disclosure is needed for this email.\n\n**One thing to confirm (not flagged in the JSON)**\n- The subject says \"October tins\", but today is 17 November 2026. If this is going out now, the month is probably wrong. If it's a scheduled or resend, ignore this.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014898,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

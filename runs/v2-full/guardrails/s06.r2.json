@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0449448bbbf8a382f56e9b86fa54525a25bf27ccc1d683ba59a558167a761ef8",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter to subscribers. No send date or list was given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown). OK |\n| \"picked in March and taste bright and floral\" | Product fact (pick time, flavour). OK |\n| \"Our customers tell us it's the only tea they drink now.\" | **Unproven.** No customer quote, count or permission is on record, and the policy bans invented testimonials. Remove it or replace it with `[PROOF NEEDED: real customer quote with permission]`. |\n| \"You'll find it in the shop from Monday.\" | New product arriving, so it's a product fact. It isn't fake urgency, but confirm the date with the product team. |\n\n**Regulated claims:** Nothing on health, money, legal outcomes, the environment, children or prices.\n\n**House style:** Warm, plain and unhurried, with no banned words or AI tells. Pass.\n\n**Disclosure:** It's the brand's own newsletter with no sponsor, affiliate link or gifted product, so no label is needed.\n\n**Fixed:** Nothing changed yet. I haven't rewritten the copy, because the fix depends on whether you have a real quote.\n\n**Needs a decision:** Drop the testimonial sentence. My suggested version:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nIf you have a real customer quote with permission on file, send it and I'll work it in.\n\n**Approver:** Sam (marketing lead). Approval needs an explicit yes to the final text, and I haven't recorded one. This stays unpublished until the revised version is checked and approved.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0137735,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

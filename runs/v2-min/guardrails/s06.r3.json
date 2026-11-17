@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6648003fb820da800778906640ee0443561907c6938234efd35948b6ddcca9cc",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter to Pebblebrook Tea Co.'s UK subscribers. The draft announces a first flush Darjeeling tea arriving in the shop on Monday. No send time was given.\n\n**Checks run**\n- **Claims:** One problem.\n  - \"Our customers tell us it's the only tea they drink now.\" This is an unsourced customer testimonial and a sweeping claim. Nothing in the policy or this chat backs it, and no customer permission is on record. I'm treating it as unproven.\n  - Fine as written, as product facts under the policy: the Darjeeling origin, first flush, March picking, \"bright and floral\" flavour, and \"in the shop from Monday\" as a new arrival.\n- **Regulated claims:** Nothing on health, money, legal, environment, children or prices.\n- **House style:** The policy has no voice section, so I can't score against brand voice. The copy is plain and has no obvious AI tells.\n- **Disclosure:** No ad, sponsorship, affiliate link, gifted product or AI-generated content is involved. Nothing to label.\n\n**Fixed:** Nothing yet. The one issue needs your call.\n\n**Needs a decision**\n- Remove the \"only tea they drink now\" line. This is my suggestion.\n- Or replace it with something the policy allows, such as \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- Or keep a real customer quote, if you can show me the quote and confirm the customer gave permission.\n\nA suggested clean version:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nPlease also confirm that Monday is the real launch date and that the tea will be in stock.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final text. I haven't recorded any approval, and the draft shouldn't send until the testimonial line is resolved and you've approved the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0161793,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

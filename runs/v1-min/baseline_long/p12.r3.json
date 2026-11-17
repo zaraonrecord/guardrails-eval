@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "13d11ad72f542435f259f37fc75e0dcf6783a2e09e046f6c3ecc1a3417ed4da7",
+ "result": "**Review: paid creator post**\n\n**Claims:** \"Their tins are packed by hand in Bristol\" matches the approved claim (every tin is packed by hand in Bristol). The Assam is a product fact, fine as written. \"Ten minutes away from my phone\" is personal lifestyle description, not a health claim. \"My afternoon reset\" is a personal experience and reads as description of mood, not an effect on the body. No stats, superlatives, guarantees, green claims, or urgency.\n\n**Disclosure:** The channel is a paid creator post, and the draft has no \"Ad\" label or any indication of the commercial relationship. The label needs to be clear and upfront, at the very start of the post, not buried in tags or after a \"more\" cut-off. This is a must-fix. Suggested fix: begin with \"Ad:\" or \"#Ad\" as the first words, e.g. \"Ad: My afternoon reset is...\".\n\n**Style:** Reads like a real person, short and specific. No clichés. Fine.\n\n**Decision:** Hold until the ad label is added.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067504999999999996,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

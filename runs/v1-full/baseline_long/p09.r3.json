@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "49b021ca1b7b5a5fb5d4738fbc22ca12bc27e137d15be3de3a7ecc8c8da95095",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\nSentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name, fine.\n2. \"A gentle, honeyed caffeine-free blend\" is product description. Ingredients and flavour facts are covered by the product team, so this is fine.\n3. \"that reduces anxiety and helps you sleep.\" Two health claims. The policy bans health claims of any kind, and \"reduces anxiety\" is named explicitly. \"Helps you sleep\" is the same kind of claim, an effect on the body. Both must go.\n4. \"Certified organic by the Soil Association.\" Exact wording on the approved list. Fine.\n5. \"20 plastic-free tea bags.\" Plastic-free is approved, and the count is a product fact. Fine. (Not claiming home compostable here, so no issue.)\n\nVoice: warm and plain, no banned words, UK spelling. No problems.\n\nFix: replace the health clause with description of the experience, for example \"A gentle, honeyed, caffeine-free blend, lovely in the evening.\" That describes when to drink it without promising an effect. Sam will need to approve the final wording.\n\nDecision: hold until the health claims are removed.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009422699999999999,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

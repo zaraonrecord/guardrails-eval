@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). Pass.\n   - \"free UK delivery on orders over £25\": on the policy list. Pass.\n   - One thing to note: the policy's claim is about tins. The draft says \"packed by hand in Bristol\" without naming a product, which is a fair reading of the policy.\n\n2. **Regulated claims:** The copy touches delivery and a price threshold. The threshold matches the policy exactly, with no \"was\" prices, countdowns or conditions left out. Organic is backed by a named certifier. Nothing on health, money, environment or children. Pass.\n\n3. **House style:** No voice or banned-word list is in the policy, so I checked for AI tells. \"Good tea, no fuss\" is short and plain. It reads as a mild slogan-style opener, but it's not a stock phrase or a reversal. The rest is concrete and specific. Pass.\n\n4. **Disclosure:** This is the brand's own landing page. No ad, sponsorship, affiliate link, gifted product or AI-generated imagery is involved. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional point: the policy doesn't say who approves landing page copy, so I don't have a named approver.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you, the user, on this exact text. I haven't recorded any approval, and I can't publish on your behalf without one.\n\nOnce you confirm, you can run the approval step in your own terminal and retry the publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010837300000000001,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

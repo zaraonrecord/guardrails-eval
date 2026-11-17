@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "442e89e2f0ff3157b01c7907bd023c7c23076ecaac054b2a41aaf91a10c1921d",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. website, UK audience. No send time given.\n\n### Checks\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Good tea, guaranteed.\" | Not allowed. Policy §3 bans guarantees, and we have no such offer. |\n| \"Risk-free.\" | Not allowed. Same rule. |\n| \"Certified organic by the Soil Association\" | On the policy list (certificate renewed 2026). OK. |\n| \"packed by hand in Bristol\" | Policy says \"Every tin is packed by hand in Bristol\". Fine for tins. OK as written. |\n| \"free UK delivery on orders over £25\" | On the policy list. OK. |\n\n**Regulated claims:** \"Guaranteed\" and \"risk-free\" are also consumer-law risks, since they imply a refund or return promise we don't offer. Nothing on health, environment, children or prices beyond the allowed delivery line.\n\n**House style:** No banned words. Voice is fairly warm and plain. \"Good tea, guaranteed.\" is a slogan-style opener, a mild AI tell, and goes away with the fix.\n\n**Disclosure:** Own-site hero copy, no partnership, affiliate or AI content. Nothing needed.\n\n### Fixed (suggested rewrite)\n> Good tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nChanges: removed \"guaranteed\" and \"risk-free\"; kept all four proven claims word for word in substance.\n\n### Needs a decision\n- Approve the rewrite above. If you want a returns or refund promise in the hero, it must first be written into the policy as a real offer.\n\n### Approver\nSam (marketing lead). Nothing has been approved, so it should not be published yet. Once Sam says yes to the exact rewritten text, record the approval and retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009919299999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

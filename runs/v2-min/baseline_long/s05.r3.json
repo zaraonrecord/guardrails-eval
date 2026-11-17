@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732816593fdef031d2f55da07ab9ee683f1fae7c52e68678a4a69da72c69ab2f",
+ "result": "**Channel:** search ad. Short copy still needs every claim backed.\n\n**Sentence by sentence**\n- \"Tea Subscription UK\": plain description, fine.\n- \"Monthly loose leaf tea.\": product fact, fine.\n- \"If your box isn't right, we'll make it right.\": this is a soft guarantee. A customer could reasonably read it as a promise of a replacement, refund or fix. The brand policy approves no guarantee, returns or satisfaction promise. The only subscription promise it backs is pausing or cancelling any time. The copy gives no terms either, such as what \"isn't right\" means or what the remedy is. Hold it until the business confirms the real terms, or replace it with an approved claim.\n- \"Free UK delivery on orders over £25.\": matches the approved claim, and the threshold is stated. Fine.\n\n**Style:** no clichés or filler.\n\n**Suggested fix:** replace the guarantee line with an approved claim, for example \"Pause or cancel any time.\" If the brand does have a documented satisfaction policy, add it to the allowlist and state its main conditions.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008118499999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

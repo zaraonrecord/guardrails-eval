@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "540b6134614e1f3de85ad0ae351c55cfbec2f4a25281c518886f7bea80ba7ffe",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | Unsupported. It's a digestive health benefit, which is regulated territory, and it isn't on the allowlist. |\n| \"Certified organic by the Soil Association.\" | Allowlisted |\n\n**Slop check:** No banned words, no em-dashes, no exclamation points, no rhetorical opener. The opening sentence states the product plainly.\n\n**Issue:** \"Gentle on your stomach after a big meal\" implies the tea soothes or aids digestion. In the UK, that kind of claim needs an authorised health claim or evidence, and nothing here backs it up. Cut it, or use `[PROOF NEEDED: source for digestive/stomach claim]` if you want to keep the idea.\n\n**Compliant version:**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh-tasting, [or: lovely after a big meal]. Certified organic by the Soil Association.\n\n\"Lovely after a big meal\" describes when to drink it, not what it does to your body, so it's a safer option. Check it against your own compliance view before using it.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0113943,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

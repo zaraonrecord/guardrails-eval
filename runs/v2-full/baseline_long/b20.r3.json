@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n- \"Tea Subscription UK\": plain description of the offer. No claim.\n- \"Monthly loose leaf tea.\": product description; the brand sells loose leaf tea by monthly subscription. Fine.\n- \"Subscribers can pause or cancel any time.\": on the approved claims list, exact wording. Fine.\n- \"Free UK delivery on orders over £25.\": on the approved claims list, exact wording, with the threshold stated. Fine.\n\nOther checks:\n- No superlatives, guarantees, health or environmental claims, numbers, testimonials or urgency.\n- No ad or affiliate label is needed; this is a search ad from the brand's own account.\n- Voice: plain and short, no banned words or AI clichés. UK spelling is consistent.\n\nNothing needs changing. It still needs Sam's sign-off as the approver for public content, but that is a process step, not a copy problem.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061047,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

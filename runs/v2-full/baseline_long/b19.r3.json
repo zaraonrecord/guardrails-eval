@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e491f1e14b1d14855cfe6aa9041147f6c5e53e491ded8cd6d8ac5bbb6ce1e0a9",
+ "result": "I read the draft as the recipient would see it, in an email.\n\n- **Claims:** The email has no claims about results, numbers, reviews, guarantees, health, or the environment. \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" are brewing guidance, which the policy treats as a product fact the product team checks and clears.\n- **Superlatives, urgency, pricing:** None. There is no offer, no deadline, and no price.\n- **Disclosure:** This is a brand-owned email, not a paid creator post or an affiliate link, so no label is needed.\n- **Voice:** It's plain, warm and unhurried. It uses none of the banned words or AI clichés, and there's no formulaic phrasing. Spelling is UK-neutral.\n- **Subject line:** It matches the content and doesn't mislead.\n\n\"You don't need any kit\" is a light, natural phrase. It's accurate for what follows and not a claim that needs evidence.\n\nOne optional note: the email is very short and has no link or next step. That's a content choice for Sam, not a compliance problem. The policy says Sam approves all public content, so it still needs his sign-off before sending.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0069908999999999995,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

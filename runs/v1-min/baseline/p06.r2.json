@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04eb9b0db1e3b13369ddb5d45602780d59cf52edb460735390f48211da5a2c61",
+ "result": "Review of the blog intro:\n\n**Supported claims**\n- \"started Pebblebrook in Bristol in 2019\": matches the allowlist (founded in Bristol in 2019).\n- \"tea bags are plastic-free and home compostable\": on the allowlist.\n- \"couldn't find tea bags without plastic in them\": a founder-story motivation, not a product claim, so fine.\n\n**Problems**\n1. **\"our whole business is carbon neutral\"** is an environmental claim that isn't on the allowlist. We have no certification or evidence to back it up, and a business-wide carbon neutral claim is the kind of thing the UK CMA Green Claims Code and ASA would expect to be substantiated. It should come out, or be replaced only once we have verifiable evidence (and a named scheme or method).\n2. **\"Here's how we checked.\"** This is a lead-in to something that doesn't exist in the draft. It promises evidence and leaves the reader with nothing, and it implies the carbon neutral claim was verified, which we can't show. It should be cut or rewritten to point to real content, such as the certification or composting details we can support.\n\n**Suggested rewrite**\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. Here's what that means, and how to compost them at home.\"\n\n(Only include the last sentence if the post actually covers that.)\n\n**Verdict:** Don't publish as is. Remove the carbon neutral claim and fix the dangling \"how we checked\" line.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008159799999999998,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

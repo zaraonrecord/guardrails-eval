@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "63edf9d0c559297ce9d03912a2947d5735cf64715e09566b2495f0a26983d8cd",
+ "result": "**Claims list**\n\n1. \"you'll love it or it's free\": a money-back/free guarantee. Not on the allowlist, no terms supplied. Unsupported.\n2. \"Subscribers can pause or cancel any time\": allowlisted.\n3. \"free UK delivery on orders over £25\": allowlisted.\n4. \"most boxes ship free\": an implied statistic about order values. No data supplied, and it isn't on the allowlist. Unsupported. It also stretches the delivery claim, since the threshold depends on basket size.\n5. \"easy to stop and start\": soft restatement of pause/cancel. Acceptable, though \"stop and start\" is a bit loose; \"pause or cancel\" is the backed version.\n\n**Other checks**\n- Slop: no ban-list words, no em-dash sandwich, no exclamation points. Fine.\n- The opening line is vague rather than leading with a concrete fact. Suggest starting with the pause/cancel or delivery fact.\n- No ad-platform or regulated-territory issues.\n\n**Suggested compliant version**\n\"Loose leaf tea and plastic-free tea bags, delivered free in the UK on orders over £25. Pause or cancel your subscription any time.\"\n\nIf you want a satisfaction guarantee in the hero, send the actual terms (period, refund conditions) and it can go in.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076408,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

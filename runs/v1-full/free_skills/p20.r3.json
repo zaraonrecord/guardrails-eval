@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2b0fa94743bea2693ebdf3cef1cf2056eab2e6b4d1a83fe026314875b8420047",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"Over 98% of our customers rate us five stars\" | **Unsupported.** Invented statistic. |\n| \"we buy from gardens we've visited\" | **Unsupported.** Not on the allowlist. |\n\n**Problems**\n\n1. **\"Over 98% of our customers rate us five stars\"**: The only approved rating claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" The 98% figure isn't in the policy, and it also claims something about customers in general rather than about reviews. Replace it with the approved wording, or get a sourced figure from the review platform export.\n2. **\"we buy from gardens we've visited\"**: Where a tea is grown is a fine product fact, but a claim that the team has visited the gardens is a sourcing practice, and it isn't on the allowlist. It also implies this applies to all the gardens. Either have the product team confirm it in writing (and whether it's all gardens or some), or cut it. If it would help the page, write `[PROOF NEEDED: confirmation that the team has visited every garden it buys from]`.\n\nThe rest of the copy is fine. There are no banned words, no health, green or urgency claims, and the voice is plain and warm. The page needs Sam's approval before it goes live, as with all public content.\n\n**Suggested compliant version**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Rated 4.8 out of 5 from over 1,200 reviews on our website. [PROOF NEEDED: confirmation that we've visited the gardens we buy from]\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.017687900000000003,
+ "seconds": 18.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

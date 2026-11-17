@@ -1,10 +1,14 @@
 {
  "case": "p24",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the October subscription email**\n\nChecked against the brand policy:\n\n- **\"Elevate your mornings\"**: \"elevate\" is a banned word (section 5). It's also a generic marketing phrase that doesn't match the warm, plain, unhurried voice. Cut it, or replace it with something simple like \"This month it's a smoky lapsang and a soft white peony.\"\n- **\"left Bristol this morning\"**: this is a fine factual statement about shipping and doesn't need a claim from the allowlist.\n- **\"you can pause or cancel any time\"**: matches the allowlisted claim (\"Subscribers can pause or cancel any time\"). Fine.\n- **Tea descriptions** (smoky lapsang, soft white peony): product facts, fine as written.\n- **Spelling**: UK spelling is fine throughout.\n- **Disclosures**: none needed. This is our own email, with no partnership, gifted product, or affiliate link.\n- **Health, green, urgency, guarantee, superlative, or invented-number claims**: none found.\n\nOne minor note for Sam, who approves all public content: the subject says \"October tins,\" and the body says \"subscription box.\" It's a small inconsistency, but worth a glance. Also, today is 17 November, so check the timing of an October-labelled dispatch is correct.\n\nThe only required change is removing \"Elevate\".\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0092881,
- "seconds": 9.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cc8d6d619dc0d5ab5d3e2edca886bb02de434f038acab5424dddd1a6b0818c1f",
+ "result": "I checked the draft against the brand policy line by line.\n\n**Problems**\n- \"Elevate your mornings\" uses \"elevate\", which is on the banned word list (section 5). It also reads as generic filler. Rewrite it in a warm, plain voice, for example \"This month it's a smoky lapsang and a soft white peony.\"\n\n**Checked and fine**\n- \"you can pause or cancel any time\" matches the allowed claim \"Subscribers can pause or cancel any time\".\n- \"left Bristol this morning\" is an operational fact about dispatch. It isn't a claim from the allowlist, but it's a statement about this specific order, so the team should confirm it's true for Priya's box before sending.\n- The tea descriptions (smoky lapsang, soft white peony) are product facts and fine as written.\n- No health claims, superlatives, guarantees, green claims, invented numbers, or false urgency.\n- UK spelling is fine. No disclosure label is needed for an email from the brand itself.\n- The subject line says \"October tins\" and today is 17 November. If this is the November box, the subject is out of date. Please check the month before sending.\n- Approval: everything public needs Sam's sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006709799999999999,
+ "seconds": 9.8,
  "models": [
   "claude-sonnet-5-5"
  ]

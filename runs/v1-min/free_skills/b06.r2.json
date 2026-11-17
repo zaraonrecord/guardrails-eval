@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d90adb1eafc55a2f75179719a8186371a5e518f898d4152e5bd740d46cc16eaa",
+ "result": "**Review: newsletter draft, Pebblebrook Tea Co.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Origin and team fact, fine as written per brand policy |\n| \"The leaves are picked in March\" | Product origin fact, fine |\n| \"taste bright and floral\" | Flavour description, fine |\n| \"in the shop from Monday\" | New arrival, fine. It's a real launch date, not fake urgency or scarcity |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health, green or regulated claims:** none.\n- **Slop guard:** no banned words, no em-dash asides, no exclamation points, no rhetorical opener, no \"not just X, it's Y\". The first sentence carries a concrete fact.\n- **Disclosure:** this isn't a review, and there are no affiliate links or sponsorships.\n\n**Optional tweak, not a blocker:** a newsletter can be read days after sending, so \"from Monday\" is safer as a date (e.g. \"from Monday 24 November\") if the send date isn't the same week.\n\nNothing needs changing, so it's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097561,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

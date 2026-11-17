@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f7fa51fa3151b562987c67fb7b83a4150c41f6c47b1a61d1ec0d6c931bbca2f9",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the policy allows as written.\n- **\"Cool and clean after a big meal.\"** This describes flavour and sensation. It doesn't claim the tea aids digestion or has any health benefit, so I don't count it as a health claim. If the wording were changed to something like \"settles your stomach\" or \"aids digestion\", it would become one.\n- **\"Certified organic by the Soil Association.\"** This is on the claims allowlist.\n\nThere are no invented stats, superlatives, guarantees, testimonials, green claims, urgency tactics or missing disclosures. The copy is short and specific, and it doesn't read as filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063625999999999995,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

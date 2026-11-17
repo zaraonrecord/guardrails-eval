@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d71ca07a7c1496f2c0e65871a5437a00e08413e71208ed96e9c138af698f7bf1",
+ "result": "**Review of the gifted creator post**\n\n**Disclosure:** The post opens with \"Gifted\", which is the required wording and comes before anything else. The policy asks for exactly this for free products. Fine.\n\n**Claims:** \"The rooibos chai is lovely with oat milk\" is a personal opinion about taste, clearly the creator's own. It makes no health, superlative or environmental claim. \"Not paid to say that, just liked it\" is a statement about the creator's own relationship. It is consistent with a gifted (not paid) arrangement, and the \"Gifted\" label already covers it. Worth confirming with the creator that no payment was involved, since the label must be \"Ad\" if there was, but nothing in the draft contradicts the label.\n\n**Product facts:** \"winter sampler\" and \"rooibos chai\" are product facts the product team covers. I can't see the product list, so Sam may want to confirm that the sampler contains a rooibos chai, but this is a routine check, not a problem with the copy.\n\n**Voice:** Plain, warm and short. No banned words, no clichés, UK spelling not at issue.\n\n**Decision:** Nothing here breaks the policy or would mislead a reader. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0068425000000000005,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

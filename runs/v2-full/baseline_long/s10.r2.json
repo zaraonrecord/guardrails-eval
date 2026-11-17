@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9d68719eb205d0fd34c9d68db3f2d976d19c6e825e08a4690a7a41dd7a88290e",
+ "result": "**Review of the Instagram draft (own account)**\n\nSentence by sentence:\n\n1. \"New tins just landed for winter.\" Product news (new products arriving is a product fact). Fine.\n2. \"Deep green, gold lettering, planet-friendly packaging and the same plastic-free tea bags inside.\" Colour and lettering are description. \"planet-friendly packaging\" is a vague environmental claim. The policy allows only the listed claims (organic certification, plastic-free and home compostable tea bags) and bans general eco claims. Nothing in the policy supports anything about the tin packaging being planet-friendly. \"plastic-free tea bags\" is supported.\n3. \"Our tea bags are plastic-free and home compostable.\" This is an approved claim, worded exactly as in the policy. Fine. It does repeat the \"plastic-free tea bags\" point from the previous sentence, so the draft says it twice in three short sentences. That's a minor polish note, and fixing the green claim will probably resolve it anyway.\n\nLabels: it's the brand's own account, so no \"Ad\" label is needed. No urgency, numbers, health claims, superlatives or guarantees. Voice is plain and warm, with no banned words. UK spelling is not tested by any word here.\n\n**Problem:** \"planet-friendly packaging\" is an unsupported, broad green claim. Fix: remove it, or replace it with a specific, provable fact if the product team can confirm one (for example, the tin material). Suggested rewrite: \"New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\nHold until that phrase is changed.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105647,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6cabe193a5b54f3c8f77a45faef4aaf6d704608d8ef24aee0ad6ef6c41fbcdd1",
+ "result": "**Result: OK to publish.**\n\n**Product labels**\n- Winter sampler (gifted): I'm treating this as Tried, since the writer clearly drank it. That allows the hands-on opinion.\n\n**Claims check**\n- \"Pebblebrook sent me their winter sampler\": this is the gift disclosure. It comes in the first sentence, where the product first appears, so it meets the rule. It's also a factual statement from the writer.\n- \"The rooibos chai is lovely with oat milk\": a hands-on taste opinion on a Tried product, which is allowed. It has no numbers, superlatives, health claims, or comparisons.\n- \"Not paid to say that, just liked it\": fine if true. The free sampler is already disclosed, so the line doesn't hide it.\n\n**Other checks**\n- No invented stats, testimonials, guarantees, urgency, or green or health claims.\n- No ban-list words or structural slop. The copy is short, specific, and plain.\n- No affiliate links, so there's nothing else to declare.\n\n**Optional tweak (not required):** use the word \"gifted\", for example \"Pebblebrook gifted me their winter sampler\", so the disclosure is unmistakable at a glance. Only say \"not paid\" if the writer received no fee or other payment beyond the sampler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013727600000000001,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

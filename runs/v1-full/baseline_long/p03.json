@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b2ff1fa35413fd517b3b0bbe029dc0e748ed9528279b1935516672afc4ebe8b1",
+ "result": "**Review: Assam Breakfast product page**\n\nSentence by sentence:\n\n1. \"A malty, full-bodied black tea that stands up to milk\" is product description (flavour/brewing), covered as product fact. Fine.\n2. \"boosts your immunity through winter\" is a health claim. Brand policy bans health claims of any kind, including \"boosts immunity\". It must go.\n3. \"Certified organic by the Soil Association.\" This is on the allowlist, exact wording, certificate renewed 2026. Fine.\n4. \"100g tin, makes around 40 cups.\" Tin size and cup count are product facts checked by the product team. Fine.\n\nTone: warm and plain, no banned words, UK spelling is fine. No urgency, guarantees, superlatives, or green claims. No label needed, as this is the brand's own product page.\n\n**Fix:** Remove \"and boosts your immunity through winter\". Something like \"A malty, full-bodied black tea that stands up to milk, a good pot for a cold morning.\" would keep the seasonal feel without a health claim. The rest can stay.\n\nHold until that phrase is changed.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008792699999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

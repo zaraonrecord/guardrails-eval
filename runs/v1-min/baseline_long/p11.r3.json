@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7683d4150584da417168707ea4a02831dd73bb61f51ee1b384b6c6ff59208084",
+ "result": "**Review: social ad (own account)**\n\n**Sentence by sentence**\n\n1. \"Three teas for your desk drawer.\" Description. Fine.\n2. \"9 out of 10 customers reorder within a month.\" This is a statistic about customer behaviour. It isn't in the brand's approved claims (the only approved numbers are the 4.8/5 rating from 1,200+ reviews, the founding year and so on), and I can't see any data behind it. Treat it as an unsupported, invented stat. Fix: remove it, or replace it with the approved claim \"rated 4.8 out of 5 from over 1,200 reviews on our website\".\n3. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description. Fine. \"After lunch\" describes an occasion and makes no claim about digestion or other body effects.\n4. \"Free UK delivery on orders over £25.\" Matches the approved claim, and the threshold is stated.\n\n**Other checks**\n\n- Labelling: it's the brand's own account, so no \"Ad\" label is needed.\n- Style: short and specific, no clichés.\n- No health, green, guarantee, urgency or superlative issues.\n\n**Decision:** Hold. The \"9 out of 10\" reorder stat has no approved source. Once it's removed or replaced with an approved figure, the copy is good to go.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007569599999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

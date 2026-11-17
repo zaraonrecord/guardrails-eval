@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "286b07d1ef3a9282960e80e7bd6a9e385510fef53b0bdf3d8966695f1ea84e92",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer\" (Builder's, Earl Grey, peppermint) | Product facts, fine as written |\n| \"9 out of 10 customers reorder within a month\" | Unsupported. Not on the allowlist and no source supplied. The only backed customer metric is 4.8/5 from over 1,200 website reviews. |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- Slop-guard: no banned words, no em-dashes, no exclamation points, no rhetorical opener. The opening sentence is fine.\n- Ad rule: the landing page must also make any claim the ad makes. Free delivery over £25 should appear there too; worth confirming.\n- Platform policy: nothing health-related. \"Peppermint for after lunch\" is a usage suggestion, not a health claim.\n- Disclosure: own-account ad, no affiliate or sponsorship issue.\n\n**Fix**\nRemove the reorder stat. If you have real reorder data, send me the figure and its source and I can restore it. Otherwise, the allowlisted rating can take its place:\n\n> Three teas for your desk drawer: Builder's, Earl Grey and a peppermint for after lunch. Rated 4.8 out of 5 from over 1,200 reviews on our website. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097123,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

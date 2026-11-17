@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "be9f45fd156f6347092bb71daf6716d2809f2eb3775ff3d033d298760796e8c3",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n- \"Plastic-Free Tea Bags\" (headline): matches the approved claim that our tea bags are plastic-free. Fine.\n- \"Our tea bags are plastic-free and home compostable.\": exact wording from the claims allowlist, backed by the EN 13432 supplier certificate. Fine.\n- \"Founded in Bristol in 2019.\": exact approved claim, backed by Companies House. Fine.\n\nOther checks:\n\n- No superlatives, guarantees, health claims, urgency, stats or testimonials.\n- No broad environmental terms beyond the approved, specific compostability claim.\n- Search ads from the brand's own account need no extra label.\n- Voice: plain and warm enough, with no banned words or AI clichés. UK spelling is not at issue.\n- Optional polish: the copy is short and a little flat, but that is not a reason to hold it.\n\nVerdict: every claim is on the allowlist and nothing needs changing. It can go out, subject to Sam's sign-off as the approver for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066401,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "15a4250237822328cd49e591807f81ff3b97bafc15112a90a04e3fa3c6de513e",
+ "result": "**Review: landing hero**\n\nChecked sentence by sentence against the brand policy.\n\n**Problems**\n\n1. \"Good tea, guaranteed.\" – Guarantee. The policy bans \"guaranteed\" and we have no such offer. Remove it. Also a vague quality claim with nothing behind it; \"Good tea\" on its own is filler.\n2. \"Risk-free.\" – Guarantee. Also banned by policy, and it implies a returns or refund promise that doesn't exist. Remove it.\n\n**Approved claims (fine as written)**\n- \"Certified organic by the Soil Association\" – on the allowlist.\n- \"packed by hand in Bristol\" – on the allowlist (\"Every tin is packed by hand in Bristol\"). Fine as a shortened form.\n- \"free UK delivery on orders over £25\" – on the allowlist, threshold stated.\n\n**Style**\nNo banned words. The tone is a bit clipped and salesy rather than warm and unhurried, but once the guarantee lines are cut, what remains is plain and fine.\n\n**Suggested fix**\n\"Certified organic by the Soil Association, packed by hand in Bristol, with free UK delivery on orders over £25.\"\n\nHold the draft until the two guarantee phrases are removed. Sam needs to approve the revised version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096247,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

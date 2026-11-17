@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "49b021ca1b7b5a5fb5d4738fbc22ca12bc27e137d15be3de3a7ecc8c8da95095",
+ "result": "**Review of the Chamomile and Lemon Balm product page copy**\n\n**Problems that should stop publication**\n\n1. **\"reduces anxiety and helps you sleep\"**: This is a health claim. The policy bans health claims of any kind, and \"reduces anxiety\" is named explicitly. \"Helps you sleep\" is the same kind of claim, an effect on the body. Fix: describe the experience instead, for example \"a calming cup for the end of the day\" or \"a gentle blend to wind down with\". Even \"calming\" should be kept to the experience of drinking it, not an effect.\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\": on the approved claims list, word for word.\n- \"20 plastic-free tea bags\": the plastic-free part is approved. The count of 20 is a product fact for the product team to confirm, and is fine as written. Note the approved claim is \"plastic-free and home compostable\"; the draft only says plastic-free, which is within what can be said.\n- \"caffeine-free\": a product fact (ingredients), fine as written.\n- \"gentle, honeyed\": flavour description, fine.\n\n**Style**\n\nThe voice is plain and fits the brand. No banned words or AI clichés. The fragment \"Chamomile and Lemon Balm.\" works as a title line. No notes.\n\n**Decision:** Hold. Remove or rewrite the anxiety and sleep claim, then it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098447,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

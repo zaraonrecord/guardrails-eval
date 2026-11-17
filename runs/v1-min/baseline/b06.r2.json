@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "050327f34faf102e4fc73c2d88731c4a9617643e2876f7b11a6fd4d64377b884",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Origin and flavour:** The Darjeeling garden, the March picking and the \"bright and floral\" taste are product facts (origins, flavour), which the policy allows as written.\n- **Availability:** \"In the shop from Monday\" is a new-arrival announcement, not manufactured urgency. It has no countdown, scarcity or pressure language.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims or green claims.\n- **Tone:** The copy is plain and specific, with no filler or generic AI phrasing.\n\nOne thing to confirm that I can't check from here: the Monday launch date should match the actual go-live, since the newsletter will be dated differently from when it's read.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062437,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

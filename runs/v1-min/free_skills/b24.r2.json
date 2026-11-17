@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e6cf913174cbe450b2289e3b59d85af84eba2c5107317e068a61155ea3c4841d",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Good tea, no fuss\" | Soft, subjective opener. No factual claim, no comparison, no superlative |\n\n**Slop-guard check**\n- Ban-list words: none.\n- Structural bans: no em-dashes, no exclamation points, no rhetorical question, no \"not just X, it's Y\", no abstract-noun triad, no fake urgency.\n- Opening sentence: \"Good tea, no fuss\" is mild throat-clearing rather than the most useful fact, but it works as a brand tagline in a hero and is not slop vocabulary. Optional tweak: lead with the organic certification.\n- \"Good\" passes the \"compared to what?\" test as a plain, non-comparative descriptor. It is not a superlative.\n\n**Review-rules check:** Not a product review, no hands-on or affiliate content. Not applicable.\n\n**Other notes**\n- Ad/landing consistency: the delivery threshold and certification should appear on the page below the hero. The page should confirm the £25 threshold.\n- No regulated claims (health, environmental) are made.\n\nVerdict: nothing needs changing. Safe to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093723,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9f5f1cd697400e4fc241b009c8dfbf09a9997536a03d388c88dbc492e66a04d0",
+ "result": "I found nothing that needs changing, so this can go out.\n\n- **Disclosure:** The post opens with \"Ad\", which is the required first word for a paid partnership. It comes before anything else, so it is clear and prominent.\n- **Claims:** \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\". Mentioning Assam is a product fact, which is fine to use.\n- **Health:** \"My afternoon reset\" and \"ten minutes away from my phone\" describe a personal routine and mood. They make no claim about effects on the body, so they are not health claims.\n- **Other risks:** There are no superlatives, guarantees, invented numbers, green claims, urgency or testimonial issues.\n- **Voice:** The tone is warm, plain and unhurried. It uses no banned words or AI clichés, and the spelling is consistent with UK English.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076951,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

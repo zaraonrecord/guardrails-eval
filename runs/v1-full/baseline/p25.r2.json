@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "39cccc9f95e68e6697580d442c2e0da94ff77c1ba60c42f48f3f7d1b40622a57",
+ "result": "**Review notes**\n\n- **Rating claim:** \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" The approved claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Both the rating (4.9) and the review count (5,000) differ from what we can prove, so these are invented numbers. It needs to be changed to the exact approved wording.\n- **Earl Grey line:** \"real bergamot oil and a little cornflower\" is a product fact (ingredients), so it's fine as written.\n- **Voice:** \"Rainy Sunday, second pot.\" is warm, plain and unhurried. No banned words. UK spelling is fine.\n- **Disclosure:** Own-account Instagram post, so no extra label is needed.\n- **Approval:** Sam (marketing lead) needs to approve before it goes out.\n\n**Suggested fix:** \"Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0066871,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

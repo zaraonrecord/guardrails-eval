@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2bf04ba5df889253de51dcac9e8f6bc508f302afa498220a4baeef4a4a370ff7",
+ "result": "**Not ready to publish.** Three things need fixing.\n\n**Product label (honest-review rules)**\n- The draft doesn't say whether Pebblebrook is Owned, Tried, or Wishlist, and I can't assume it. \"I've tried four tea subscriptions this year\" and \"the tins are lovely\" are hands-on claims, so the writer needs to confirm they're true. They should also say how long they used it.\n- The writer also needs to say whether the tea was gifted or paid for. If gifted, the post must open with \"Gifted\" per brand policy.\n\n**Disclosure**\n- The affiliate disclosure is wrong in two ways. It sits in a footer, but it must come before the first link. It also says \"I may earn a small commission\", but the required wording is \"Affiliate link\" next to the link.\n- \"You can find it here\" has no link or label yet.\n- Fix: put a plain disclosure at the top, e.g. \"Affiliate link\" beside the link, with the commission note before it.\n\n**Claims**\n- \"Pebblebrook's was the easiest to pause\" is a comparative superlative against three other services. Nothing in the allowlist supports it.\n- The allowlist does support \"Subscribers can pause or cancel any time\". If the writer actually paused it, they can describe that experience instead: \"I paused mine in [how it went].\" Otherwise, use the allowlisted wording.\n\n| Claim | Status |\n|---|---|\n| Tried four subscriptions this year | Writer must confirm, label needed |\n| Easiest to pause | Unsupported superlative |\n| Tins are lovely | Opinion, OK only if Owned or Tried |\n| Earn a small commission | Present but misplaced and wrongly worded |\n\n**Compliant version (pending the writer's confirmation):**\n\"Affiliate link: I earn a commission if you buy through it. [Gifted, if applicable.] I paused my Pebblebrook subscription by [what actually happened]. Pebblebrook says subscribers can pause or cancel any time. The tins are lovely. [Link]\"\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"*I may earn a small commission.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0201345,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

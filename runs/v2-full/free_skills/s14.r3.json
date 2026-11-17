@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1f5ba0e87eddd13ee57818d574e038accd3c98d27c906f6b419d84927dc6dfc0",
+ "result": "**Review: creator post (gifted)**\n\n**Must fix**\n- **Missing \"Gifted\" label.** Brand policy section 4 says a gifted post must start with \"Gifted\" before anything else. The draft opens with the product and only mentions being sent it in the last sentence (\"Thanks to the team for sending it over!\"). A thank-you doesn't count as the label, and it comes too late.\n\n**Claims list**\n- \"rooibos chai from Pebblebrook's winter sampler\": product fact, fine to use as written.\n- \"lovely with oat milk\": personal taste opinion. It's fine if the creator actually tried it, and the gifted sampler suggests they did. Please confirm they've tasted it.\n- No numbers, superlatives, guarantees, health claims, green claims, urgency or testimonials.\n\n**Minor notes (not blocking)**\n- The exclamation point is fine for a creator's own voice, but cut it if you want to match the brand's plain, unhurried tone.\n- Per section 6, Sam needs to approve it before it goes public.\n\n**Suggested version**\n> Gifted. The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013260500000000001,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

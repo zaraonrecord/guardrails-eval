@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0ffcfda7ded756d5ec6c4d7ddee28cb154922d7413c41871b7312d29b03183a4",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"A new green tea\", to Tom (UK tea drinker), no send time given.\n\n**Checks**\n- **Claims:** The only statements are product facts (new Japanese sencha, grassy and slightly sweet flavour, brewing at around 70 degrees). The policy allows product facts and new arrivals as written. No stats, superlatives, guarantees, testimonials or urgency. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Short, plain and specific, with no banned stock phrases or AI tells. The brewing tip is useful. Pass. One small point: \"70 degrees\" is better as \"70°C\" so it's unambiguous, but that's optional.\n- **Disclosure:** It's the brand's own marketing email to its own list, with no sponsorship, affiliate links, gifted products or AI-generated imagery. No label needed. Pass.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** None. Optional: change \"70 degrees\" to \"70°C\". I'd also consider adding a link to the product, since the email says \"to the shop\" but doesn't point anywhere. Neither blocks sending.\n\n**Approver:** The policy names no approver for this kind of content, so ask the user (you) for an explicit yes to this exact copy. I haven't recorded any approval. Once you confirm, it can go.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076468000000000005,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

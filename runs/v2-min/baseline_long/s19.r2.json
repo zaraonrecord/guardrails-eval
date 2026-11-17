@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "361c35eabd8c2bf8e3b35caa3b63a26b7af870f46fc97ce0f32ad0b807b92be8",
+ "result": "**Review: landing hero**\n\nSentence by sentence:\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Matches the approved claim exactly (4.8 out of 5, over 1,200 reviews, on our website). Source is named. Fine.\n\n2. \"Organic loose leaf\" is covered by the Soil Association certification claim. Fine, though naming the certifier would be stronger. Optional.\n\n3. \"fully sustainable bags\" is a problem. The approved claim is that the tea bags are plastic-free and home compostable. \"Fully sustainable\" is a broad, vague green claim with no specifics, and it implies a whole-life benefit (sourcing, manufacture, transport, disposal) that the brand hasn't shown it can prove. Fix: use the approved wording, e.g. \"plastic-free, home compostable tea bags\".\n\n4. \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\". Fine. Note it refers to tins, while the sentence pairs it with bags; if bags aren't hand-packed in tins, it's worth making sure the sentence doesn't imply otherwise. Minor.\n\nStyle: no clichés or hype. Short and plain. No labels needed on a brand-owned hero.\n\nDecision: hold until \"fully sustainable bags\" is replaced.\n\nSuggested rewrite: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf tea and plastic-free, home compostable tea bags, with every tin packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083924,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

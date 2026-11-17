@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f00ca10f93567a200ad7d768cfb4f3c5412f3be3dfb87772127dc6c72dcc40d5",
+ "result": "I'd approve this draft as written.\n\n- **Disclosure:** The draft labels the link \"(Affiliate link)\" right where the link appears, so the reader knows it's commercial. The disclosure would be clearer if it came before the link or at the top of the post, for example \"This post contains affiliate links\", but that's a suggestion and not a blocker.\n- **\"Easiest to pause\":** This is the reviewer's own opinion from their own experience. It's consistent with our backed claim that subscribers can pause or cancel any time, and it doesn't say anything about other brands' failings.\n- **\"Tried four tea subscriptions this year\":** This is a first-person statement from the reviewer. It's not a brand statistic, and only the author can confirm it, so please check that it's true.\n- **\"The tins are lovely\":** This is a subjective opinion, not a claim that needs backing.\n- **Other checks:** There are no invented numbers, guarantees, health claims, green claims, urgency pressure, or unsupported superlatives. The copy also reads like a person wrote it and not like filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00921,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

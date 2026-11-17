@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1db1a02369be6d922fb392945aef033acb50f1ad1eacb4a1eff457315d3a602d",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n**Problem found**\n\n1. **\"boosts your immunity through winter\"**: This is a health claim, and the policy bans health claims of any kind. It needs to come out. Nothing else in the sentence depends on it, so the fix is simple: \"A malty, full-bodied black tea that stands up to milk.\"\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\": exact wording from the claims allowlist, certificate renewed 2026.\n- \"100g tin, makes around 40 cups\": tin size and cup count are product facts, fine as written.\n- \"malty, full-bodied black tea that stands up to milk\": flavour and brewing description, a product fact.\n- Voice: plain and warm enough, no banned words, UK spelling is fine. No superlatives, guarantees, invented numbers, urgency or environmental claims.\n- No disclosure needed: this is our own product page, not a creator post or affiliate link.\n\n**Suggested revision**\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nOnce the immunity claim is removed, it can go to Sam for approval, as everything public does.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007076999999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

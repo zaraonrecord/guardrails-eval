@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1d831b140539525e55afd577b3206f8b5bc45052a150eab5ade1c8161efa3a42",
+ "result": "**Review: Christmas blend newsletter**\n\n**Claims and urgency**\n- \"Today only: 30% off, ends at midnight.\" The policy says there is no real offer with an end date, and \"today only\" is listed as a never-make unless one is in the policy. Nothing shows this discount exists or that it ends at midnight. It also gives no reference price or conditions. This is false urgency and an unsupported offer. Remove it, or get Sam to confirm a real offer and add it to the policy with its terms.\n\n**Product facts**\n- \"Black tea, orange peel, cinnamon and a little clove\" is an ingredient description, covered as a product fact.\n- \"the Christmas blend is back\" and \"It's back in the shop\" are fine as new/returning product facts, but they repeat each other. Say it once.\n\n**Health, green, superlatives, guarantees, testimonials**\n- None present.\n\n**Voice**\n- Warm, plain and short, with no banned words. The only polish note is the repetition above.\n\n**Disclosure**\n- It is the brand's own newsletter, so no label is needed.\n\n**Decision:** Hold. Fix the \"Today only\" offer, and trim the repeated \"back\" line while you're there.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009074699999999998,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

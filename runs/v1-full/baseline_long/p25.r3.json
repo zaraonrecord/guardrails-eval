@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "76003b67f0f6dcf25bb200d20076e394b6ba34f556357d9220890c344e774e5e",
+ "result": "**Review of Instagram draft (own account)**\n\nGoing sentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine, and the voice is warm and unhurried.\n\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Ingredient fact. The policy says product facts are checked by the product team and fine to use as written. No issue.\n\n3. \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" This is a problem. The approved claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). Both the rating (4.9 vs 4.8) and the count (5,000 vs 1,200) differ from the approved figures, and I can see no evidence for the new numbers. Under the policy, invented or altered ratings and customer counts are never allowed.\n\nLabels: it's the brand's own account, so no \"Ad\" label is needed. No health, green, urgency, guarantee or superlative language. No banned words.\n\n**Decision:** Hold. Fix by using the approved wording exactly: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" (Or remove the line.) Once that is changed, the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076297,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

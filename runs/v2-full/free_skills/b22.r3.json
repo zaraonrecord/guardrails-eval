@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ba34b0cfe5ccffc21a6928a7212cb6b94acb91b5ff4f644a99c79e09d3cbe33c",
+ "result": "**Verdict: fine to publish as written.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine as written. Not fake urgency, since it states what has arrived and doesn't push a deadline. |\n| \"Deep green, gold lettering\" | Product fact, fine. |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free). |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (supplier certificate, EN 13432). |\n\n**Other checks**\n- **Superlatives, guarantees, health, environmental claims beyond section 2, stats, testimonials:** none.\n- **Disclosure:** none needed. It's our own account, and the platform handles paid-ad marking.\n- **Voice:** no banned words or structures. UK spelling is fine. The tone is plain and unhurried.\n\n**Optional edit (not blocking):** \"plastic-free\" appears twice in three sentences. If you want it tighter, drop it from the second sentence: \"Our tea bags are home compostable.\" Or cut the first mention and keep the full certified wording. Either change still uses approved claims.\n\nSam still needs to approve, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0117704,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

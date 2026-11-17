@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1ef7c9e2a3e9245123d7922db95b8671141abb9bdfa7d82fb5974b2998060870",
+ "result": "**Verdict: hold. One unsupported claim needs fixing.**\n\n**Problem**\n- **\"it ships within 24 hours of your order\"**: This is a service promise (dispatch time), and it isn't on the brand's approved claims list. The policy covers free UK delivery over £25, hand-packing in Bristol, and pause/cancel any time, but nothing about dispatch speed. It also reads oddly here, because this order has already shipped. Either remove it or get the dispatch commitment confirmed and add it to the policy, including any exceptions. A fix is simply: \"Your subscription box left Bristol this morning.\"\n\n**Checked and fine**\n- \"left Bristol this morning\": consistent with the Bristol packing claim, assuming it's true for this batch.\n- \"a smoky lapsang and a soft white peony\": product facts, fine as written.\n- \"you can pause or cancel any time from your account\": approved claim.\n- The email is brand-owned, so no ad label is needed. Tone is plain and specific, with no clichés or hype.\n\n**Worth confirming (not listed as an issue)**\n- The subject and body say \"October tins\" and \"This month\", but today is 17 November. If this is going out now, the month reference is stale or wrong. If it's a scheduled or resent October email, ignore this.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111869,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

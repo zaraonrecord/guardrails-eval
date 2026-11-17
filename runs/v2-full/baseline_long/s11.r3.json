@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a9e9bc985f316ce385a04dff71a5be57ca390c851da2fdf317992cf0a3632092",
+ "result": "**Review notes**\n\nChannel: social ad from the brand's own account, so no \"Ad\" label is needed (the platform marks it).\n\nSentence by sentence:\n\n1. \"Three teas for your desk drawer.\" Description, fine. Warm and plain.\n2. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description and suggested use, not a health claim. \"After lunch\" doesn't promise any bodily effect. Fine.\n3. \"Free UK delivery on orders over £25\" matches the approved claim exactly.\n4. \"while stocks last\" is a problem. The policy says urgency that isn't true is never allowed, and there's no evidence of limited stock. It also implies the free delivery offer could end with stock, which doesn't match the shipping policy (the threshold offer is standing). This is false urgency/scarcity and should be cut.\n\nStyle: no banned words or clichés. UK spelling is fine. \"Three teas for your desk drawer\" is a bit list-like but has a real voice.\n\nFix: remove \"while stocks last\" so it reads \"Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068246999999999995,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

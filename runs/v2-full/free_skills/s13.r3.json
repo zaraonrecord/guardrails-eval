@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c04852533f8424dc36e7b6cc9530e9bd87b750b068ed6ad66ba0110de085c862",
+ "result": "**Verdict: don't publish yet. The \"Ad\" label is missing from the start.**\n\n**Problem**\n- **Disclosure:** The brand policy says a paid creator post must start with \"Ad\" before anything else. This draft opens with \"My afternoon reset…\" and only has #ad buried in the hashtags at the end. Move the label to the front.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"ten minutes away from my phone\" | The creator's own habit, not a brand claim |\n| \"which I love\" | Personal opinion, fine |\n\n**Checked and fine**\n- There are no superlatives, guarantees, stats, health claims, green claims or fake urgency.\n- None of the banned words appear. \"Reset\" and #selfcare are soft lifestyle language, not health claims, so I've left them alone. Don't add anything like \"calming\" or \"stress relief\" later.\n- The hands-on tone (\"my afternoon reset\") only works if the creator actually drinks this tea. Please confirm that they do, and whether they own it or were given it. If it was gifted as well as paid, that should be stated.\n\n**Suggested fix**\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #assam #selfcare\n\nSam still needs to approve it before it goes out, since the policy covers everything public.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0145752,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "p02",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review findings**\n\n1. **\"Loved by 50,000 tea drinkers\"**: This is an invented statistic. The allowlist supports only \"rated 4.8 out of 5 from over 1,200 reviews on our website.\" Nothing backs a figure of 50,000 people, and \"loved by\" implies a customer or fan count we can't verify. Replace it with the supported rating claim, e.g. \"Rated 4.8/5 from over 1,200 reviews on our website.\"\n\n2. **\"Certified organic by the Soil Association\"**: Allowed as written.\n\n3. **\"Free UK delivery on orders over £25\"**: Allowed as written.\n\n4. **Headline \"Organic Loose Leaf Tea\"**: Fine. It is a product description backed by the organic certification, and loose leaf is something we sell.\n\n5. **Missing items**: None. A search ad for UK tea drinkers needs no disclosure here, and there is no urgency, guarantee, health claim, or green claim.\n\n**Suggested fix:**\nHeadline: Organic Loose Leaf Tea | Description: Rated 4.8/5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nDo not publish until the 50,000 claim is changed.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.010405999999999999,
- "seconds": 9.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0f22d897f13a656e75014ddc4632c709ae8d9da6e3c5329e61927ec3edada4b4",
+ "result": "Review findings:\n\n1. **\"Loved by 50,000 tea drinkers\"**: This figure isn't on the claims allowlist. The only audience number we can back up is a 4.8 out of 5 rating from over 1,200 reviews. \"50,000 tea drinkers\" is an unsupported stat, and \"loved by\" implies a customer base or satisfaction measure we can't verify. Remove it, or replace it with the approved claim: \"Rated 4.8/5 from over 1,200 reviews.\"\n\n2. **\"Certified organic by the Soil Association\"**: Approved claim. OK.\n\n3. **\"Free UK delivery on orders over £25\"**: Approved claim. OK.\n\n4. **\"Organic Loose Leaf Tea\"** (headline): We sell loose leaf tea and it's certified organic, so this is fine.\n\nOther checks: no superlatives, guarantees, health claims, fake urgency, or green claims. The copy is short and reads naturally. Search ads don't need a disclosure here.\n\nSuggested revision:\nHeadline: Organic Loose Leaf Tea | Description: Rated 4.8/5 from over 1,200 reviews. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010252,
+ "seconds": 8.9,
  "models": [
   "claude-sonnet-5-5"
  ]

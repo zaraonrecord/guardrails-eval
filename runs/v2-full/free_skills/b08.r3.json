@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc041685bda32ad27b9b49ea6041be92542b4668dd0e680d5cbaf16906cfeedb",
+ "result": "**Review: landing hero**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing, no checkable fact. Fine. |\n\n**Problem:** \"most boxes ship free\" makes a claim about how many orders clear £25, and nothing in the policy backs that up. It is an implied statistic. \"Boxes\" also doesn't match what we sell (tins and tea bags), so the wording is loose.\n\n**Everything else passes.** There are no superlatives, guarantees, health or green claims, or fake urgency. The draft has no banned words or slop structures, the spelling is UK, and the tone is plain. No disclosure is needed on our own landing page.\n\n**Compliant version:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\n\nPer the policy, Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010681900000000001,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

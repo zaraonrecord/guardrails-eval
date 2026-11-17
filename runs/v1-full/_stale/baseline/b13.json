@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** This is a paid creator post, and it opens with \"Ad\", as section 4 requires.\n- **Claims:** \"Their tins are packed by hand in Bristol\" matches the allowlisted wording \"Every tin is packed by hand in Bristol\". The Assam is a product fact, which is fine as written.\n- **Health claims:** \"Afternoon reset\" and \"ten minutes away from my phone\" describe a routine, not a health benefit. Nothing suggests relaxation, stress relief or similar effects.\n- **Superlatives, guarantees, stats, urgency, green claims:** None present.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words, and the spelling is UK.\n\nUnder section 6, Sam still needs to approve everything public, so the post needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090961,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

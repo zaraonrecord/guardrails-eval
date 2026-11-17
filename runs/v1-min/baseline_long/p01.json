@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "58b5d15d692643226664ec8fc48446fa690e3e1d7fc96eac89e06c68ce711364",
+ "result": "**Review of landing hero copy**\n\nSentence by sentence:\n\n1. \"The UK's best loose leaf tea, packed by hand in Bristol.\" The \"best\" claim is a superlative with no evidence behind it. It's not in the brand's approved claims and no independent data is shown. The hand-packed in Bristol part is approved.\n\n2. \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\" Both are approved claims. However, it repeats the \"packed by hand in Bristol\" point already made in the first sentence, which is redundant in a short hero.\n\n3. \"Free UK delivery on orders over £25.\" Approved, and the threshold matches the policy.\n\nNo health, green, guarantee, urgency, or disclosure issues. No ad label is needed on the brand's own landing page.\n\n**Fixes:**\n- Remove the superlative: e.g. \"Loose leaf tea, packed by hand in Bristol.\"\n- Drop the duplicated hand-packed line: \"Loose leaf tea from Bristol. Every tin is packed by hand and our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nHold until the superlative is removed and the repetition is cleaned up.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094545,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

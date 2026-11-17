@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "58b9180ed205b12c88e5a551bc5300acbe5035cd5bfb1c50a4374242bbbe3d8a",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (a personalised send). Timing and list not stated.\n\n**Checks**\n- **Claims:** None of the sentences is a promotional claim. \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" are brewing guidance, which the policy treats as a product fact. No stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** No health, money, legal, environmental, children or price content.\n- **House style:** Warm, plain and unhurried. No banned words and no AI tells. UK spelling is fine. Score is about 90, so no rewrite is needed.\n- **Disclosure:** It's the brand's own email, with no sponsor, affiliate link, gifted product or AI-labelling trigger, so no label is required.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing blocking. One optional point: \"Hi Ana\" assumes the merge field is right for this recipient. Confirm the send is personalised correctly and not a hard-coded name going to a whole list.\n\n**Approver:** Sam (marketing lead), since the policy says everything public needs Sam's approval. I haven't recorded any approval. Sam needs to say yes to this exact content, and then it can be sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007637699999999999,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

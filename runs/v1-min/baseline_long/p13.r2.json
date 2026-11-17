@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "bc436186cbbdbf7947f4a9aec48b3e89e237217f300751401b86b6c79ae31deb",
+ "result": "**Review: gifted creator post**\n\n**Problem: missing ad label.** The post opens with \"Pebblebrook sent me their winter sampler.\" The creator received the product free and is posting because of it, so it needs a clear, prominent label such as \"Ad\" or \"Ad | Gifted\" at the very start. Saying the tea was sent is a polite mention of a free product, and that isn't enough on its own.\n\n**Also a problem: \"Not paid to say that, just liked it.\"** This could mislead. The gift is a commercial relationship even without payment, and the line suggests there is no relationship to disclose. Cut it, or replace it with a plain statement such as \"Ad. Gifted by Pebblebrook. Opinions are my own.\"\n\n**Fine as written:**\n- \"The rooibos chai is lovely with oat milk.\" This is a personal opinion about taste and serving, not a health, superlative or numeric claim.\n- \"winter sampler\" is a product fact.\n- The tone is natural and not formulaic, and I found no clichés.\n\n**Suggested fix:** Open with \"Ad | Gifted:\" and drop the \"not paid\" sentence. Once the label is in place, the post can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091798,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8625d5ef913a24b92b3420160406eff77e31c28e1ec421d22d8baa80ee53bbd1",
+ "result": "**Review of search ad**\n\nSentence by sentence:\n\n1. **\"Organic Loose Leaf Tea\"** – Product description. Organic is backed by the Soil Association certification. Fine.\n\n2. **\"Loved by 50,000 tea drinkers.\"** – Problem. The approved evidence is a 4.8/5 rating from over 1,200 reviews. Nothing in the policy supports a figure of 50,000 customers or fans. This is an unsupported number (and \"loved by\" implies a measured sentiment). Fix: use the approved claim, e.g. \"Rated 4.8/5 from over 1,200 reviews on our website.\"\n\n3. **\"Certified organic by the Soil Association.\"** – Approved claim. Fine.\n\n4. **\"Free UK delivery on orders over £25.\"** – Approved claim, threshold matches. Fine.\n\nStyle: no clichés or filler. Not labelled as an ad, but a search ad is a recognisable paid placement in its channel, so no extra label is needed in the copy.\n\n**Decision:** Hold. One unsupported number must be fixed before publication.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087245,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

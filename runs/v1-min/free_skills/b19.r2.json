@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f01584fb745d2372387df5f80520c1ff8175c6719e83932aa3b785d80a8c617d",
+ "result": "The draft is clean, so it can go out as written.\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written under the brand policy.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- No stats, superlatives, guarantees, testimonials, health or environmental claims, urgency, or product-review claims. No affiliate links or sponsorship to disclose.\n\n**Slop check**\n- None of the banned words or structures appear. There are no em-dash sandwiches, exclamation points or rhetorical-question openers, and the first sentence states a useful fact.\n\n**Optional, not blocking:** The email gives no specific water temperature or green tea timing. If you want it to be more useful, add those as brewing facts. Check your usual email footer (unsubscribe link) is added by your sending tool, as it isn't in the draft.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107423,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

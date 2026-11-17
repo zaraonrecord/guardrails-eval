@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7bee168436f0c531442694ac58c7734424f4afddb7e69d11862c277f613859fb",
+ "result": "**Claims list**\n- \"Monthly loose leaf tea\": product fact, fine.\n- \"Subscribers can pause or cancel any time\": allowlisted.\n- \"Free UK delivery on orders over £25\": allowlisted.\n- \"Tea Subscription UK\": descriptive, no claim.\n\n**Ad checks**\n- No invented stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency.\n- No banned slop vocabulary or structures. No exclamation points, no rhetorical opener, no em-dashes.\n- Platform policy: nothing risky.\n- Landing page consistency: the pause/cancel and free delivery claims must also appear on the landing page. I can't verify that here, so please confirm before launch.\n- Character limits: none given, so no count needed. For reference, the headline is 20 characters, and the description is 99 characters including spaces. Google RSA limits are 30 for headlines and 90 for descriptions, so if this is an RSA the description is over by 9 characters. Please confirm which format and limits apply.\n\n**Verdict:** the claims are all backed. The only open point is length. If this is a Google RSA, the description needs trimming, for example: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" (76 characters). Otherwise it's fine to publish.\n\nNo issues I can pin to the draft's claims, so I'm returning no flagged issues. Publish is true on the basis that no limits were specified and the copy is compliant.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007756300000000001,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

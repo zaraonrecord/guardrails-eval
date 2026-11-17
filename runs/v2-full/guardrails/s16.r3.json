@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "422a0c37bd7477fb31552f1350e26aa4afb5554e9d5c79bcd24e38520cddf924",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. website, UK audience. No date given.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026) |\n| packed by hand in Bristol | On the policy list (Operations) |\n| free UK delivery on orders over £25 | On the policy list (shipping policy) |\n| Brewed with care / Packed with love / Delivered with a smile | Sentiment, not a checkable claim |\n\nThere are no invented stats, superlatives, guarantees, health or green claims, or fake urgency. The regulated-claims check finds nothing in scope, and no disclosure label is needed because this is the brand's own page copy.\n\n**House style**\nThe opener \"Brewed with care. Packed with love. Delivered with a smile.\" is a tidy three-beat slogan, which the policy treats as an AI tell. It is also generic, so it doesn't sound like \"warm, plain, unhurried\" and says nothing a customer can use. I'd score the draft about 70 before the rewrite, which is under the 80 threshold. The three facts after it are good.\n\n**Fixed (suggested rewrite, not yet approved)**\n> Certified organic by the Soil Association. Every tin is packed by hand in Bristol, and UK delivery is free on orders over £25.\n\n- Cut the three-beat slogan.\n- Used the policy's exact wording for the hand-packed claim (\"Every tin is packed by hand in Bristol\") and for the delivery offer.\n- No facts were added. Estimated score after the rewrite is about 90.\n\n**Needs a decision**\n- Do you want the rewrite above, or a different opener? If you want a warmer line, give me a true detail, such as where a tea is grown, and I'll build it from that.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Once Sam says yes to the final wording, the approval can be recorded and the page published. Any change after that needs a new check.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0164915,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

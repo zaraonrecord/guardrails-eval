@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ebb8b59cc2ad55d062d818bf254299d250d0a80ad8a30989029b2f0221d421a8",
+ "result": "**Not ready to publish.** One sentence has to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact, fine |\n| \"Cool and clean after a big meal\" | Flavour description, fine |\n| \"a natural detox\" | **Unsupported.** Health claim, never allowed (section 3) |\n| \"aids weight loss\" | **Unsupported.** Health claim, never allowed (section 3) |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n\n\"Detox\" and \"aids weight loss\" are both health claims, which the policy bans of any kind. They are also likely to trip ad platform and UK advertising rules. \"Natural\" adds nothing once the detox claim is gone.\n\n**Compliant version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nThe voice rules, banned words and UK spelling all pass. No label or disclosure is needed for our own product page. As with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110386,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

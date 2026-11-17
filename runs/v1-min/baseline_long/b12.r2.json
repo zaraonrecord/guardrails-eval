@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "**Review: social ad (own account)**\n\nRead as a customer: a short, plain ad listing three teas with a delivery offer.\n\n**Claims check**\n- \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" This is product description and suggested use. \"For after lunch\" describes an occasion, not an effect on the body, so it's not a health claim.\n- \"Free UK delivery on orders over £25.\" This matches the approved claim exactly, and the threshold is stated beside the offer.\n\n**Labels:** The channel is the brand's own account, so no \"Ad\" label is required by the checklist for own-channel posts.\n\n**Style:** The copy is specific and has a human voice. No clichés, no filler, no hype words, and no repetition. It uses UK conventions.\n\n**Superlatives, stats, urgency, green claims, guarantees, testimonials:** None present.\n\nNothing needs changing. The copy can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078685,
+ "seconds": 6.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

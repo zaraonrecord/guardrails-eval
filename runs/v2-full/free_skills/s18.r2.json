@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "4d43b7474e7d7e295eb7724f1ba979502759d1533f6548a89ca0302630cb2d5c",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims check**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": ingredient and product fact, fine under the product-team rule.\n- \"Lovely with milk\": serving and flavour suggestion, not a measurable claim. Fine.\n- \"100g tin\": tin size, fine.\n- \"Was £12, now £8.\": **unsupported.** Prices and discounts aren't on the claims allowlist, and the product-fact carve-out doesn't cover them. The policy says there is no real offer with an end date in force. This is a 33% reduction presented as a markdown, so it needs confirmation before it goes out. Either the £12 was a genuine recent selling price and a real sale is running, or the line should be changed to the current price only. The UK rules on reference pricing mean a \"Was\" price has to be a genuine previous price.\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, testimonials or invented stats.\n- No banned voice words, and the tone is plain and unhurried.\n- No disclosure is needed, since this is our own product page.\n- Spelling is UK.\n\n**Suggested fix**\nOnce Sam confirms the pricing, either keep the line as is or use the current price only:\n\n\"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin. £8.\"\n\nIf the sale is real, `[PROOF NEEDED: previous £12 price and sale dates]` should be added to the policy before \"Was £12\" is used.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015374500000000001,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

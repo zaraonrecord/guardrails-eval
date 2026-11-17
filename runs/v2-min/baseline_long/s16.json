@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "15d08a800d76488575e3d28ebe3756bb718eff413265af2a98736afca9ac3821",
+ "result": "**Review: landing hero**\n\n**Claims check**\n- \"Certified organic by the Soil Association\": on the approved list.\n- \"packed by hand in Bristol\": approved (\"every tin is packed by hand in Bristol\").\n- \"free UK delivery on orders over £25\": approved, and the threshold is stated next to the claim.\n\nNo unsupported stats, health claims, green claims, guarantees, urgency, superlatives or testimonials. No ad or affiliate label is needed on a brand-owned landing page.\n\n**Style**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" This is a formulaic rule-of-three: three parallel \"[Verb]ed with [warm noun]\" lines used for rhythm alone. It says nothing specific, and it could be on any brand's page. \"Brewed with care\" is also odd, since customers brew the tea themselves. \"Delivered with a smile\" is a cliché that isn't true of a courier service. The checklist says to hold generic, machine-sounding copy, and this opening is the first thing a reader sees.\n- The factual second sentence is strong and specific. It would work better as the lead.\n\n**Suggested fix**\nDrop the first three lines and open with the facts, e.g. \"Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Decision:** Hold. The claims are fine, but the opening line is generic filler and should be rewritten before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0100225,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

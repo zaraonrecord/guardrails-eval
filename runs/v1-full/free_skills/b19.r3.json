@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "515783309eb1bbd6514439434907e660b47a96a69eb1d41ef36aa69104d8458c",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, which the product team covers and the policy allows as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same status |\n| \"You don't need any kit\" | Instruction, not a claim |\n\nThe draft contains no statistics, superlatives, guarantees, testimonials, health or environmental claims, or urgency. It has no review or sponsorship content, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed. It's our own email, so no extra disclosure applies.\n\n**Voice and slop check**\n- It uses none of the banned words or constructions: no \"elevate\", \"unlock\", \"journey\" or \"indulge\", no \"not just X, it's Y\", no em-dash sandwiches, no exclamation points and no rhetorical-question opener.\n- The opening sentence gets straight to the point and the tone is warm, plain and unhurried.\n- It uses UK spelling, and nothing in it needs Americanising.\n\n**Optional, not blocking:** \"shorter and cooler\" for green tea is vague. If the product team has the exact figures, adding them would make the email more useful. Without them, leave it as is.\n\n**Process note:** the policy says Sam must approve everything public, so get his sign-off before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118887,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

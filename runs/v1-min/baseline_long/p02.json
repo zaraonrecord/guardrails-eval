@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8625d5ef913a24b92b3420160406eff77e31c28e1ec421d22d8baa80ee53bbd1",
+ "result": "**Review of the search ad**\n\nSentence by sentence:\n\n1. **\"Organic Loose Leaf Tea\"** is a product description, and the Soil Association certification is on the approved list. Fine.\n2. **\"Loved by 50,000 tea drinkers.\"** This is a customer count, and numbers are claims. The brand's approved evidence is a 4.8 out of 5 rating from over 1,200 reviews. Nothing supports 50,000 customers or tea drinkers who \"love\" it. It is an invented statistic and should come out. A fix would be to use the approved claim: \"Rated 4.8/5 from over 1,200 reviews on our website.\"\n3. **\"Certified organic by the Soil Association.\"** Approved.\n4. **\"Free UK delivery on orders over £25.\"** Approved, and the threshold matches.\n\nTone: the copy is short and plain, with no clichés.\n\nDecision: hold. The 50,000 figure is unsupported and has to be replaced before publication.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083425,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

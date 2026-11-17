@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "**Review: social ad (own account)**\n\nRead as a reader: a short, plain product post. Sentence by sentence:\n\n1. \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" This is product description. The list of three teas is fine as written, and \"a peppermint for after lunch\" describes an occasion, not an effect on the body, so it isn't a health claim. The three items are a natural list, not a padded rule-of-three formula.\n2. \"Free UK delivery on orders over £25.\" This matches the approved claim exactly, and the threshold sits right beside the offer.\n\nOther checks:\n- No stats, superlatives, guarantees, testimonials, green claims, urgency or pressure.\n- Disclosure: it's on the brand's own account, so no \"Ad\" label is needed.\n- Style: specific and in a human voice, with no clichés or hype. UK spelling and conventions are consistent.\n\nNothing needs changing. It can go out as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007976500000000001,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

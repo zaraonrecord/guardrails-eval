@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", for UK tea drinkers. Timing and approver not given.\n\n**Checks**\n- **Claims:** \"plastic-free and home compostable\" is on the policy list. \"Founded in Bristol in 2019\" is on the policy list. Both pass. The headline \"Plastic-Free Tea Bags\" matches the same policy claim.\n- **Regulated claims (environment):** \"Home compostable\" and \"plastic-free\" are specific, not broad green claims like \"eco\" or \"sustainable\", and both are backed by the policy. Pass. One caution: the landing page should back them up (the ad can't claim more than the page does), so please confirm the page says the same.\n- **House style:** Plain, specific, no banned words or AI tells. Pass. Score is high, no rewrite needed.\n- **Disclosure:** A brand's own search ad is labelled \"Ad\" by the platform itself. No creators, affiliates or AI imagery involved. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Only the landing page confirmation above.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you to this exact copy before it is scheduled. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091993,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

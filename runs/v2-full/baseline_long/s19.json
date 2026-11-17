@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8effbc8df493a8fd27c4b75d71d2fd56dcab2718d9abe50c71664a1803ec95ee",
+ "result": "**Review of the landing hero draft**\n\n**Claims checked**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": matches the approved claim word for word (review export, October 2026). Fine.\n- \"Organic loose leaf\": covered by the Soil Association certification on file. Fine. Optionally say \"Soil Association certified organic\" to match the approved wording.\n- \"packed by hand in Bristol\": covered by \"Every tin is packed by hand in Bristol\". Fine.\n- \"fully sustainable bags\": **problem (green claim).** The policy bans \"sustainable\" without specifics, and \"fully\" makes it broader still. It claims sustainability across the whole life of the bag, which the brand can't show. The approved, provable facts are that the bags are plastic-free and home compostable (EN 13432).\n  - Suggested fix: \"plastic-free, home compostable tea bags\".\n\n**Other checks**\n- No health claims, superlatives, guarantees, urgency or testimonials.\n- No banned words, and the tone is plain. The copy is short and a bit flat, but it isn't formulaic.\n- No ad or affiliate label is needed on the brand's own landing page.\n\n**Decision:** Hold until the \"fully sustainable bags\" wording is replaced. Suggested rewrite: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0135067,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

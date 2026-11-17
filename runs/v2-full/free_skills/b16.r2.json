@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "5c43fb34ca10ff1cf40a6f27919a084c579c600fbda5bb98bbf9c146e25d724f",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording. The export is dated October 2026, so it is current. |\n| \"Organic loose leaf\" | Allowlisted (certified organic by the Soil Association, renewed 2026). \"Organic\" is softer than the certified wording, so it doesn't overstate. |\n| \"plastic-free bags\" | Allowlisted (plastic-free tea bags, EN 13432 certificate). |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n\n**Other checks**\n- Superlatives, guarantees, health claims, green claims beyond section 2, urgency, testimonials: none.\n- Banned words and structures (slop-guard and the brand voice list): none. No exclamation marks, no rhetorical opener, no em-dash sandwich. The opening sentence leads with a concrete fact.\n- UK spelling: fine.\n- Disclosure: this is the brand's own landing page, so no \"Ad\", \"Gifted\" or affiliate label applies.\n- Review rules: not a product review, so they don't apply.\n\n**One note, not a blocker:** the allowlist says every *tin* is hand-packed. The draft's phrasing could be read as covering the tea bags too. If the bags aren't hand-packed, check with the product team or reword it to \"loose leaf tins packed by hand in Bristol\". Otherwise the draft is fine as written. It still needs Sam's approval as public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015330300000000002,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

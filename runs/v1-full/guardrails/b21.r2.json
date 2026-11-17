@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9539a623a1b1cd451b47bc55a6f729de96e7d2b6fbd0837e17461925c99999ab",
+ "result": "## Publish gate report\n\n**Going out:** About page copy for Pebblebrook Tea Co., 3 sentences, public.\n\n**Checks**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list (Companies House) |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list (Operations) |\n| \"We buy from gardens we've visited\" | Sourcing fact (where the tea is grown), treated as a product fact |\n\n- **Regulated claims:** No health, money, legal, environmental, children or price content.\n- **House style:** About 92/100. It's warm, plain and unhurried, with no banned words and no AI tells. No rewrite needed.\n- **Disclosure:** Nothing to label. It's our own page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** \"We buy from gardens we've visited\" isn't a row on the claims list. I read it as a product fact about sourcing, so I'm letting it through. Sam should confirm it's true of every garden you buy from, since \"gardens we've visited\" reads as all of them. If it's only some, say \"some of the gardens we buy from\".\n\n**Approver:** Sam (marketing lead). Nothing publishes until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014933199999999999,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

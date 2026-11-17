@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cb5dfe6b9f30ff40fbf4fe138fffa9fde7612ae204d63a182613994c1801f3e3",
+ "result": "**Review: \"A new green tea\" (email)**\n\nI checked each item in the draft against the brand policy and the claims rules.\n\n| Item | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product arriving), fine as written |\n| \"grassy and a little sweet\" | Flavour description, a product fact |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best\" here is a brewing instruction, not a superlative claim about the product. |\n| Numbers, ratings, testimonials, customer counts | None |\n| Health, environmental or guarantee claims | None |\n| Urgency or scarcity | None |\n| Banned words and AI-tell structures | None. No em-dashes, exclamation points, rhetorical openers or \"not just X, it's Y\". |\n| Voice | Warm, plain, unhurried. UK spelling. |\n| Disclosure | Not needed. This is the brand's own email, with no partnership or affiliate link. |\n\nTwo optional notes, neither blocking:\n- \"70 degrees\" could read as \"70°C\" so there's no doubt about the unit.\n- The draft has no link to the new tea. That's a usefulness point, not a compliance one.\n\nPer the policy, Sam (marketing lead) approves everything public, so it needs his sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010068,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** an affiliate review post on a review blog, with a link to Pebblebrook Tea Co.\n\n**Fixed (in the suggested rewrite below):**\n- Added the \"Affiliate link\" label next to the link, at the top of the post, as section 4 requires.\n- Replaced \"easiest to pause\" with the policy-backed claim that subscribers can pause or cancel any time.\n- Replaced \"You can find it here\" with a link line that carries the label.\n\n**Needs a decision:**\n1. **Missing disclosure (blocks publication).** The draft has an affiliate link but no \"Affiliate link\" wording. UK rules expect a clear, upfront label, so it should come before the reader reaches the link, not after.\n2. **\"Easiest to pause\" (comparative superlative).** This compares Pebblebrook with three other subscriptions, and we have no evidence for it. The policy only supports \"Subscribers can pause or cancel any time\". My suggested answer is to use that wording, or to describe the reviewer's own experience without ranking (\"I paused mine in a couple of clicks\"), if the reviewer confirms it's true.\n3. **Please confirm with the writer:**\n   - \"Four tea subscriptions this year\" is a first-hand claim we can't verify. It's fine if true.\n   - Was the product gifted or paid for? If gifted, the post must also start with \"Gifted\".\n\n\"The tins are lovely\" is a plain opinion and is fine.\n\n**Suggested rewrite:**\n> Affiliate link: this post contains an affiliate link, so I may earn a commission if you buy.\n>\n> I've tried four tea subscriptions this year. Pebblebrook's lets you pause or cancel any time, and the tins are lovely. You can find it here (affiliate link).\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, and nothing should go out until Sam has said yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018111500000000003,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "**Review: newsletter, Christmas blend**\n\nGoing sentence by sentence:\n\n1. \"Quick one this week: the Christmas blend is back.\" Description and a product announcement. \"New products arriving\" counts as a product fact the product team checks. Fine.\n2. \"Black tea, orange peel, cinnamon and a little clove.\" Ingredients are product facts, fine to use as written. No health claim, no flavour hype.\n3. \"It's back in the shop from today.\" A factual availability statement, not urgency. There's no countdown, no \"limited stock\", no \"only X left\", no end date. \"From today\" describes when it returns, so it isn't false urgency.\n\nOther checks:\n- Claims and numbers: none made.\n- Superlatives, guarantees, health, environmental claims: none.\n- Disclosure: this is the brand's own newsletter, so no \"Ad\" label is needed.\n- Voice: warm, plain, unhurried. No banned words or clichés. UK spelling isn't tested by any word here, but nothing conflicts.\n- Approval: policy says Sam (marketing lead) approves all public content, so it needs his sign-off in the normal way. That's process, not a copy problem.\n\nNothing needs changing. It's short, accurate and in the brand's voice.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070858,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

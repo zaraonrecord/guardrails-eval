@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cc7a8a07831d67f38250c9cb7d77827aea8a8fac1d721b129601b737ecabd45e",
+ "result": "**Not ready to publish.** One claim has to go.\n\n## Claims list\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer\" | Not a factual claim. Fine. |\n| \"9 out of 10 customers reorder within a month\" | **Unsupported.** It isn't on the allowlist and no source was given. Invented stats are never allowed. |\n| \"Builder's, Earl Grey and a peppermint for after lunch\" | Product facts. Fine. \"After lunch\" is a serving suggestion, not a digestion or health claim. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Banned words and structures:** none found. No exclamation points, rhetorical openers, or urgency.\n- **Disclosure:** none needed for paid social from our own account, as the platform marks it.\n- **Spelling and voice:** UK spelling, plain and unhurried. Fine.\n\n## Suggested copy\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nIf you want social proof in this slot, I can use the allowlisted line \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". If the 9 in 10 reorder figure is real, send me the data source and date. I can then use it, and Sam would need to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127865,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

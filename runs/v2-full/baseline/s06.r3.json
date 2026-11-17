@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "60ea79c88d049ffc01435d32a9bc953d2e06d7a88d6905d7b6f2b6c5943b429f",
+ "result": "**Review: newsletter draft**\n\n**Needs changing**\n- **\"Our customers tell us it's the only tea they drink now.\"** This is an unsupported customer testimonial. Nothing in the policy backs it up, and we can't invent customer quotes or sentiment. Cut it, or replace it with a real, sourced review quote. The only review claim we can make is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\".\n\n**Checked and fine**\n- The Darjeeling garden, first flush, March picking and the \"bright and floral\" flavour are product facts the product team covers.\n- \"You'll find it in the shop from Monday\" is a new-product arrival, which is also a product fact. It isn't fake urgency, since it has no countdown, scarcity or \"today only\".\n- The voice is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- There are no health, environmental, superlative or guarantee claims.\n- No disclosure label is needed for our own newsletter.\n\nOnce the testimonial line is removed, the draft is fine to send, with Sam's sign-off, since he approves everything public.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084537,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

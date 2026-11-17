@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d71ca07a7c1496f2c0e65871a5437a00e08413e71208ed96e9c138af698f7bf1",
+ "result": "**Review of the gifted creator post**\n\n- **Disclosure:** The post opens with \"Gifted\", as the policy requires for free products, and it comes before anything else. Good.\n- **Claims:** \"The rooibos chai is lovely with oat milk\" is the creator's personal opinion and a description of taste, not a health or superiority claim. \"Not paid to say that, just liked it\" is a statement about their own relationship with the brand, consistent with a gifted (not paid) post. \"Winter sampler\" is a product fact, which the product team covers.\n- **Health, green, urgency, guarantees, stats:** None present.\n- **Voice:** Short, plain and warm. No banned words or AI clichés. No UK spelling issues.\n\nNothing needs changing. Per the policy, Sam (marketing lead) approves everything public, so it should go through that sign-off before it is posted.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058265,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cff658b125c39870453f03eae9c4fda452127c4b81394607bc0758a4f8fca6b6",
+ "result": "**Review: Chamomile and Lemon Balm product page**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" | Product name, fine |\n| \"gentle, honeyed\" | Flavour description, fine as written |\n| \"caffeine-free blend\" | Ingredient fact, fine |\n| \"for the evening\" | Usage suggestion, not a health or sleep claim |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | Allowlisted (plastic-free) and a pack size, which is a product fact |\n\nOther checks:\n- **Health and regulated claims:** None. It doesn't say the blend relaxes, calms or aids sleep, so there is nothing to trip UK rules.\n- **Green claims:** \"Plastic-free\" is on the allowlist. The draft doesn't say \"compostable\" or anything broader.\n- **Slop and structure:** No ban-list words, no em-dash sandwiches, no exclamation marks, no rhetorical opener, no invented stats or urgency. The first sentence is the product name, which suits a product page.\n- **Disclosures:** No affiliate, gifted or hands-on review claims, so none are needed.\n\nNothing needs changing. One optional note: \"honeyed\" is a flavour word, so check that nobody reads it as an ingredient if the blend contains no honey. That wouldn't stop publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111526,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ac37ababa59dddd3b2749ca8e23d539532f03f28a4e049f5ad4c210436c3f8af",
+ "result": "**Verdict: clear to publish, no changes needed.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredient/composition), covered by the product team. It describes the leaf, not a health benefit. |\n| Cinnamon, cardamom, ginger and black pepper | Ingredients list, product fact |\n| Lovely with milk | Flavour and serving suggestion, product fact. It's a mild taste description, not a superlative or comparison. |\n| 100g tin | Tin size, product fact |\n\n**Other checks**\n- **Numbers, stats, ratings, testimonials:** none.\n- **Superlatives and guarantees:** none.\n- **Health claims:** none. \"Caffeine-free\" is a composition statement, and the copy doesn't say it calms, relaxes or helps sleep. Keep it that way if the copy is extended.\n- **Green claims:** none.\n- **Urgency:** none.\n- **Banned words and slop:** none of the brand's banned words, no em-dashes, no exclamation points, no rhetorical opener, no \"not just X, it's Y\".\n- **Voice:** warm, plain, unhurried. UK spelling isn't tested by this copy, but nothing conflicts with it.\n- **Disclosure:** not needed. This is the brand's own product page, with no creator, gifted or affiliate content.\n\n**Process note:** per the brand policy, Sam (marketing lead) approves everything public, so this still needs her sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120361,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

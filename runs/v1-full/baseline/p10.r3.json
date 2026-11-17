@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "44dd9eba26b64986177ac31ca5357209badb89e5a65cbf66860e11eb7c2b5a07",
+ "result": "Review of the draft:\n\n**Problem found**\n\n- \"It's not just tea, it's a ritual.\" This is the banned \"it's not just X, it's Y\" construction (brand policy section 5). It's also a stock phrase that adds nothing. Cut it or replace it with something plain, for example: \"Grassy and a little sweet, it's a gentle one for a quiet morning.\"\n\n**Checked and fine**\n\n- New product (Japanese sencha), flavour notes (\"grassy and a little sweet\") and brewing guidance (around 70 degrees) are product facts, which are fine to use as written.\n- \"best brewed cooler than you think\" is brewing advice, not a superlative claim about the tea, so it doesn't breach the \"best\" rule.\n- No health, environmental, guarantee, urgency, or invented-number claims.\n- No disclosure needed: this is our own email, with no partnership, gifting, or affiliate link.\n- UK spelling is fine, and no other banned words appear.\n\nOnce that line is changed, it needs Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0064028999999999996,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

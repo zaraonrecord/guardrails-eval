@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "**Review of the search ad**\n\nGoing sentence by sentence:\n\n- \"Tea Subscription UK\": descriptive headline, no claim.\n- \"Monthly loose leaf tea.\": product description. The brand sells loose leaf tea by monthly subscription, so it's accurate.\n- \"Subscribers can pause or cancel any time.\": matches the approved claim exactly (subscription terms).\n- \"Free UK delivery on orders over £25.\": matches the approved claim exactly (shipping policy), and the threshold is stated next to \"free\".\n\nOther checks:\n- No superlatives, guarantees, health claims, environmental claims, invented numbers or testimonials.\n- No urgency or scarcity language.\n- It's a paid search ad from the brand's own account, so no extra label is needed.\n- Voice: plain and unhurried, no banned words or AI clichés, UK spelling fine.\n\nNothing needs changing. It is short and a bit bare, but that is not a reason to hold it. Optional polish only: the headline could carry a little more of the brand's warmth, though it works as is. It still needs Sam's sign-off as the approver for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085707,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

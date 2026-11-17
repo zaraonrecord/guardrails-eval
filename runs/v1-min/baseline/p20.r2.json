@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3ae09e09891c66a147c0c0d9d3af26b2cac28f79012766d516977e5a347e5c17",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the allowlist.\n- **\"a small team of six\"** Team size is a product fact that is fine as written.\n- **\"every tin is packed by hand in Bristol\"** This is on the allowlist.\n- **\"Over 98% of our customers rate us five stars\"** This is a problem. It is an invented statistic. The only backed rating claim is 4.8 out of 5 from over 1,200 reviews on our website. A 98% five-star figure isn't supported and sounds stronger than the real rating. Replace it with \"rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **\"we buy from gardens we've visited\"** This is a sourcing and origins statement, which counts as a product fact. It is fine as written, as long as the team has in fact visited those gardens.\n\n**Verdict:** Don't publish until the 98% claim is replaced with the approved rating.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084853,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

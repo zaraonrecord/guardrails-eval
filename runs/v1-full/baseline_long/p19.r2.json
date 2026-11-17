@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5defc2fa7c1b7c7db69523364a29df9448fc1f2b7776f0cb523ec5a43112b605",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n1. **\"Tea Subscription UK\"** (headline): plain description, no claim. Fine.\n\n2. **\"The UK's number one tea subscription.\"** This is a superlative claim of market leadership. The brand policy explicitly lists \"number one\" under claims we never make, and there is no independent data to support it. Short search copy is no excuse. It must be removed. A fix: \"A tea subscription from Bristol\" or \"Loose leaf and plastic-free tea bags, delivered monthly\" (both are supported by the policy's product facts and the Bristol claim).\n\n3. **\"Subscribers can pause or cancel any time.\"** This matches the approved wording in the claims table exactly. Fine.\n\n4. **\"Free UK delivery on orders over £25.\"** This also matches the approved wording exactly, and the threshold is stated. Fine.\n\nOther checks:\n- No health, green, guarantee, urgency, or testimonial language.\n- No banned voice words.\n- UK spelling is not tested by anything here, and no disclosure label is needed for a paid ad from the brand's own account.\n\n**Decision:** Hold. One blocking problem: the \"number one\" superlative. Once that sentence is replaced with a supported line, the rest can go out (with Sam's approval, as required for all public content).\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077027,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

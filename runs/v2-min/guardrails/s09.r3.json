@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "26266d974c00227ea9252f15610ccff62fbae004ac638fcc1a76fe8f952ff621",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Claims**\n- \"Certified organic by the Soil Association\": on the policy list. Pass.\n- \"Just peppermint leaves, nothing else\": product fact (ingredients). Fine as written.\n- \"Cool, clean\": flavour description. Fine.\n- \"gentle on your stomach after a big meal\": implies a digestive benefit. Not on the policy list and not sourced in this chat. Unproven.\n\n**Regulated claims (health)**\n- \"gentle on your stomach after a big meal\" suggests the tea soothes or aids digestion. Health claims on food and drink in the UK must be authorised, and a general digestive benefit for peppermint isn't one. Risky.\n- Safer version that keeps the selling point: \"Cool, clean and refreshing after a big meal.\" This describes taste and occasion without claiming an effect on the body.\n- Sign-off: the policy names no approver, so this goes to you as the user.\n\n**House style:** Short, plain, no AI tells. No banned words in the policy. Pass.\n\n**Disclosure:** A product page for the brand's own product, with no ad, sponsorship, affiliate link, gifted product or AI-generated content. Nothing to label. Pass.\n\n**Going out:** Product page copy for peppermint tea, UK.\n\n**Fixed:** Nothing changed in the draft. The stomach line needs your decision.\n\n**Needs a decision:** Replace \"gentle on your stomach after a big meal\" with \"refreshing after a big meal\", or supply an authorised source for the digestive claim. My suggestion is the replacement.\n\n**Suggested final copy:**\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and refreshing after a big meal. Certified organic by the Soil Association.\n\n**Approver:** None named in the policy, so I need an explicit yes from you on the final wording. I haven't recorded any approval, and this should not publish until you give one.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096609,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

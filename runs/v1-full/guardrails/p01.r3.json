@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e33e469c95a7ae3b265637f67da2b24f7898e0923f1aee77bbc673bc4432cbdb",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, UK audience. No scheduled time given.\n\n**Checks**\n- **Claims:** \"The UK's best loose leaf tea\" fails. It is an unprovable superlative, and section 3 of the policy rules out \"best\". The other claims match the policy list exactly: \"packed by hand in Bristol\", \"certified organic by the Soil Association\" (certificate renewed 2026) and \"Free UK delivery on orders over £25\".\n- **Regulated claims:** Nothing on health, money, legal outcomes, children or prices. The organic claim is backed by a certificate on file. No green claims go beyond section 2.\n- **House style:** No banned words, and the tone is plain. The hand-packed-in-Bristol claim appears twice in three sentences, which is padding. I merged it into one mention.\n- **Disclosure:** Our own landing page, with no partnership, affiliate link or gifted product. No label is needed.\n\n**Fixed**\n- Removed \"The UK's best\", which leaves a plain description of the product.\n- Cut the repeated \"packed by hand in Bristol\" line to one mention.\n\n**Revised copy**\n> Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n\n**Needs a decision:** If you want a stronger opener, one option is a product fact from the product team, such as where the tea is grown. Any \"best\" or \"favourite\" wording needs proof added to the policy first.\n\n**Approver:** Sam (marketing lead). Nothing is approved yet. Sam needs to say yes to the revised copy above, not the original draft. After that, record the approval and retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0180035,
+ "seconds": 16.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

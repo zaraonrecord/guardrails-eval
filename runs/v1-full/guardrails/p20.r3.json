@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3c0025cd895b661883dd35233bcbd7a1200c8837e1facbdd608b7664db9572fd",
+ "result": "## Publish gate report\n\n**Going out:** About page copy, Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list (Companies House) |\n| \"small team of six\" | Product fact, fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list (Operations) |\n| \"Over 98% of our customers rate us five stars\" | **Unproven.** The policy only supports 4.8 out of 5 from over 1,200 reviews on our website. No 98% five-star figure exists, and \"customers\" is broader than \"reviews\". |\n| \"we buy from gardens we've visited\" | Sourcing fact that is not on the list. I've left it in, but the team should confirm it's true. |\n\n**Regulated claims:** Nothing on health, money, the environment, children or prices.\n\n**Disclosure:** Nothing needed. This is the brand's own page, with no partnership, affiliate link or AI-labelled content.\n\n**House style:** Warm, plain and unhurried, with no banned words or AI tells. Score is about 92 and nothing needs rewriting.\n\n**Fixed:** Nothing has been changed yet. The one blocking line needs this replacement:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Our tea is rated 4.8 out of 5 from over 1,200 reviews on our website, and we buy from gardens we've visited.\n\n**Needs a decision**\n1. Swap the \"98% five stars\" line for the policy-backed rating above. This is my suggested answer.\n2. Confirm that the team has visited the gardens it buys from. If not, cut that clause.\n\n**Approver:** Sam (marketing lead). Approval needs to cover the final wording, so I'm not marking this as approved. Once Sam says yes to the corrected text, he can record it and I'll retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015632899999999998,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

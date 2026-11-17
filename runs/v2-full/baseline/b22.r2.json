@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cdbcf16f2681cd94d121727147605710b1cfa778bfcf578d2dfdd654430b4d80",
+ "result": "I found nothing that needs changing before this goes out.\n\n- **Product facts:** The new winter tins, the deep green colour and the gold lettering come from the product team, so they're fine as written.\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly (supplier certificate, EN 13432). \"The same plastic-free tea bags inside\" is covered by the same claim.\n- **Banned claims:** There are no superlatives, guarantees, health claims, invented numbers, testimonials or false urgency. \"Just landed\" describes a new arrival, not a countdown.\n- **Disclosure:** This is a post from our own account, so no label is needed.\n- **Voice and spelling:** It's warm, plain and unhurried, with no banned words, and the spelling is UK.\n\nOptional, not blocking: \"plastic-free tea bags\" appears twice in three short sentences. Sam might want to trim one, for example by dropping the first mention and keeping the full compostable claim.\n\nSam still needs to approve it, as with everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007697999999999999,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

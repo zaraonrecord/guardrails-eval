@@ -1,10 +1,14 @@
 {
  "case": "b16",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website\"** matches the allowlist exactly, including the source (our website).\n- **\"Organic loose leaf\"** is covered by the Soil Association organic certification.\n- **\"Plastic-free bags\"** is supported by the plastic-free tea bag claim.\n- **\"Packed by hand in Bristol\"** matches \"every tin is packed by hand in Bristol.\"\n\nThe draft has no superlatives, guarantees, urgency, health claims, testimonials or invented numbers. It makes no vague environmental claims beyond the supported plastic-free one. It needs no disclosure, and the tone is plain and specific.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.009656,
- "seconds": 8.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ce871dff08a52ea2fcd60c16bdbbb467fbafb5578cf180ccecabfd0580197858",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website\"** matches the allowlist exactly, including where the reviews are published.\n- **\"Organic loose leaf\"** is backed by the Soil Association certification.\n- **\"Plastic-free bags\"** is backed by the plastic-free, home compostable tea bag claim.\n- **\"Packed by hand in Bristol\"** matches the claim that every tin is packed by hand in Bristol.\n\nThe draft has no superlatives, guarantees, health claims, urgency, testimonials or unsupported statistics. The copy is short and specific, and it reads as written for a UK audience.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00945,
+ "seconds": 7.7,
  "models": [
   "claude-sonnet-5-5"
  ]

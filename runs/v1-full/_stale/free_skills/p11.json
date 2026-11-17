@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"9 out of 10 customers reorder within a month\" | Unsupported. Not on the allowlist and no source given. This is an invented statistic. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording matches. |\n| \"Builder's, Earl Grey and a peppermint for after lunch\" | Product facts, fine as written. |\n| \"Three teas for your desk drawer\" | Product fact, fine. |\n\n**Other checks**\n- Ban list (slop-guard and brand voice): no hits. No em-dashes, exclamation marks, rhetorical-question opener, or fake urgency.\n- Health claims: \"for after lunch\" is a usage suggestion, not a health claim. Fine.\n- Disclosure: own-account paid social ad, platform marks it, no extra label needed.\n- Opening sentence: \"Three teas for your desk drawer\" is a concrete fact, acceptable.\n\n**Problem**\nThe \"9 out of 10 customers reorder within a month\" line must come out. If the team has real reorder data, it needs a source and a place in the policy first. Otherwise, replace it with an allowlisted proof point, such as \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", or mark it `[PROOF NEEDED: reorder rate source]`.\n\n**Compliant version**\nThree teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Rated 4.8 out of 5 from over 1,200 reviews on our website. Free UK delivery on orders over £25.\n\nPer the approvals table, Sam needs to sign off before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107445,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

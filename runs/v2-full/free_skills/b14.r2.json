@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6d64b22d0263c06ec82630bce9c2e66466c42a1a2d354037fc975f0b1aa2cabf",
+ "result": "**Verdict: fine to publish once Sam has signed off.**\n\n**Required label:** The post opens with \"Gifted\", before anything else, as section 4 requires.\n\n**Claims check:**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook sent me their winter sampler\" | Product fact, and consistent with the gifted label |\n| \"The rooibos chai is lovely with oat milk\" | The creator's own opinion and serving suggestion, not a brand claim |\n| \"Not paid to say that, just liked it\" | Consistent with \"Gifted\" (free product, no payment). It is the creator's statement, so the creator should confirm it's true |\n\n**Other checks:**\n- **Superlatives, guarantees, stats, testimonials:** none.\n- **Health claims:** none. Oat milk and chai are mentioned only as taste.\n- **Green claims:** none.\n- **Urgency:** none.\n- **Banned words and structures:** none. The tone is warm and plain.\n- **Review honesty:** this is a Tried product (received and used), and the hands-on comment matches that. Only the creator can confirm they actually tried it, so check that with them.\n\n**Before it goes out:** under section 6, Sam (marketing lead) approves everything public, so get his sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0115403,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6ac702f9a6187e48707ecc3fec4b68437b633a53fdc92849d36fa90e04b6e071",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved wording exactly. The source is the October 2026 review platform export.\n- **\"Organic loose leaf\"** is covered by the Soil Association certification, which is on file and was renewed in 2026.\n- **\"plastic-free bags\"** is covered by the plastic-free tea bags claim, backed by the EN 13432 supplier certificate. The draft doesn't say \"compostable\", so it adds nothing unapproved.\n- **\"packed by hand in Bristol\"** is covered by \"Every tin is packed by hand in Bristol\". One small point: the approved wording is about tins, and the draft applies it to both loose leaf and bags. I'm assuming the bags are also sold in tins, as the product-fact wording on tin sizes and cup counts suggests. If any bags ship in something other than a tin, the product team should confirm.\n\nThe draft has no superlatives, guarantees, health claims, vague green claims, urgency, or testimonials. It is a brand-owned landing page, so no \"Ad\" label is needed. The tone is plain and warm, in UK spelling, with none of the banned words or AI clichés.\n\nEverything is approved or provable, so it can go out. It still needs Sam's sign-off, since everything public goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118165,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

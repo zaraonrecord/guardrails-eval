@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f10a658923422024199a7734ff97988928630fe3b0ff8ba04724e00361100ba1",
+ "result": "**Review: newsletter, Christmas blend**\n\nGoing sentence by sentence:\n\n1. \"Quick one this week: the Christmas blend is back.\" Description, fine. Product launch/return is a product fact (new products arriving), so it's fine.\n2. \"Black tea, orange peel, cinnamon and a little clove.\" Ingredients are product facts, fine as written.\n3. \"It's back in the shop from today\" Availability statement, a product fact about arrivals. Fine.\n4. \"and selling fast.\" This is a stock/demand claim. The policy says urgency that isn't true is not allowed, and there is no evidence of sales velocity in the claims list or product facts. \"Selling fast\" implies scarcity and pressure to buy now, and it isn't backed by anything I can see. Flag it as fake urgency. Fix: cut it, or replace with something factual such as \"Available now in the shop.\"\n\nOther checks: no health claims, no superlatives, no guarantees, no green claims, no invented stats, no banned words. Tone is warm, plain and unhurried, apart from the \"selling fast\" pressure line. UK spelling is not tested here. Newsletter is a brand-owned channel, so no ad label is needed.\n\nDecision: hold until \"selling fast\" is removed or evidenced. Everything else is fine.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093087,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

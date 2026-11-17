@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e066b4d1351f9cfa9fb01f6a29ec8d8d580291009fd4acffc2fc2d7e4ea4d9e3",
+ "result": "**Review: Instagram post (own account)**\n\n**Problem found**\n\n1. **\"made with zero waste from farm to cup\"** – This is an environmental claim beyond the approved list. The brand policy explicitly bans \"zero waste\", and it is also broad and unprovable across the whole supply chain. Fix: cut it. If you want to say something about the product, use the approved wording on plastic-free, home compostable tea bags, or a checked product fact (for example where the tea is grown).\n\n**Checked and fine**\n\n- \"Our tea bags are plastic-free and home compostable\" matches the approved claim (EN 13432 supplier certificate).\n- \"the same plastic-free tea bags inside\" is consistent with that claim.\n- \"New tins just landed for winter\" and \"Deep green, gold lettering\" are product facts/description, covered by product team checks. There is no false urgency.\n- Own-account post, so no \"Ad\" label is needed.\n- No banned words, and no health claims, superlatives or invented numbers.\n\n**Optional polish**\n\n- The plastic-free tea bags claim is made twice in three sentences (\"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). Consider merging them into one line. The tone is otherwise plain and warm.\n\n**Decision:** Hold. Remove the \"zero waste\" claim, then it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009706699999999999,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

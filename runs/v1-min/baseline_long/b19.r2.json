@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "I read the draft as the recipient would see it, in an email.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency. The brewing advice (mug, small sieve, four minutes for black tea, green tea shorter and cooler) is product and brewing fact, which the policy allows as written.\n- **Disclosure and offers:** This is a brand-owned email with no paid placement, no affiliate links and no pricing or offer, so no label or terms are needed.\n- **Subject line:** It matches the content and doesn't mislead.\n- **Style:** The copy is short, plain and specific. It has no AI clichés or filler, and the voice sounds human. \"Hi Ana\" is personalisation, so the merge field should be checked at send, but that is a routine step and not a problem with the copy.\n- **Language:** The spelling is consistent, with no UK or US conflicts.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060827,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

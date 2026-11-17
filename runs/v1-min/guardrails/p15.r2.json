@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ca345f3fad59277172f2c2e755e5a91f622195b1cace45cd2f60d57ad93fa29a",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co., UK audience. It is not ready to publish as written.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | On the policy list. Passes. |\n| \"The finest\" | Unproven superlative. Remove it. |\n| \"organic loose leaf\" | Supported by \"certified organic by the Soil Association\". Passes, but naming the certifier is stronger. |\n| \"eco-friendly bags\" | Vague green claim, not on the policy list. Replace it with the provable wording: plastic-free and home compostable. |\n| \"packed by hand in Bristol\" | The policy covers tins (\"every tin is packed by hand in Bristol\"). The sentence reads as though the bags are hand-packed too, so tie it to tins. |\n\n**Regulated claims:** \"eco-friendly\" is the broad environmental claim regulators challenge most (the UK CMA Green Claims Code). The policy's specific wording avoids the problem.\n\n**House style:** \"The finest\" is empty puffery and a mild AI tell. The rewrite below is plainer and more specific.\n\n**Disclosure:** This is the brand's own landing page, with no sponsor, affiliate link, creator or AI-generated imagery described. No label is needed.\n\n**Fixed (suggested rewrite):**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea and plastic-free, home compostable tea bags. Every tin packed by hand in Bristol.\n\n**Needs a decision:**\n- Confirm the hero should say \"Certified organic by the Soil Association\" or just \"certified organic\". Both are on the policy list. I suggest naming the Soil Association if the logo can be shown.\n- Confirm that the review rating is current. If the policy row is past its review date, treat it as unproven.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the final text above. I haven't recorded any approval, and nothing should be published until you give it.\n\n**Evidence log rows (for pasting):**\n- 2026-11-17 | Landing hero | 4.8/5 from over 1,200 reviews on website | Policy list | Brand policy\n- 2026-11-17 | Landing hero | Certified organic | Policy list | Brand policy (Soil Association)\n- 2026-11-17 | Landing hero | Plastic-free, home compostable tea bags | Policy list | Brand policy\n- 2026-11-17 | Landing hero | Every tin packed by hand in Bristol | Policy list | Brand policy\n- 2026-11-17 | Landing hero | \"The finest\" | Removed, unproven | n/a\n- 2026-11-17 | Landing hero | \"eco-friendly bags\" | Replaced with specific policy wording | n/a\n\n```json\n{\"issues\": [{\"quote\": \"The finest\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018697400000000003,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

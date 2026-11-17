@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: blog intro (Pebblebrook Tea Co., UK)**\n\n**Going out:** Blog intro on the Pebblebrook site, UK audience. The publish time wasn't given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | On the policy list (founded in Bristol in 2019) |\n| \"Our tea bags are plastic-free and home compostable\" | On the policy list |\n| \"couldn't find tea bags without plastic in them\" | Founder origin story, not a measurable claim. It is phrased as the team's own experience, not \"no one else offered this\", so it's fine. |\n| \"here's how we checked\" | A teaser for the rest of the post. It needs no change here, but see below. |\n\n**Regulated claims:** The plastic-free and home compostable claims are environmental, but they are exactly the specific wording on the policy list. They are not broad \"eco\" or \"green\" claims, so there is no problem.\n\n**House style:** No banned openers, intensifiers, groups of three or slogan closers. The voice is plain and specific. No rewrite is needed.\n\n**Disclosure:** This is the brand's own blog with no sponsorship, affiliate link, gifted product or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- \"Here's how we checked\" promises evidence. The body of the post must actually show the checking, such as a supplier confirmation, a compost test or a certificate. I'd also keep the body to the policy wording of plastic-free and home compostable, and not add things like \"biodegrades in X weeks\" unless you give me a source. I've only seen the intro, so the full post needs its own check before it goes out.\n- The policy names no approver. Please confirm who approves blog content, and give an explicit yes to this exact text. I won't record an approval on anyone's behalf.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0158293,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "76003b67f0f6dcf25bb200d20076e394b6ba34f556357d9220890c344e774e5e",
+ "result": "**Review: Instagram (own account), Pebblebrook Tea Co.**\n\n**Sentence by sentence**\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine, and the tone is warm and unhurried.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Ingredient fact, which the product team checks and which is fine to use as written.\n3. \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" This is a problem. The approved claim is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (review platform export, October 2026). Both the rating (4.9 vs 4.8) and the review count (over 5,000 vs over 1,200) differ from the approved figures, and there is no evidence on file for the new numbers. Under the policy, invented or altered ratings and customer counts are never allowed. The fix is to use the approved wording exactly, or get a fresh export approved first.\n\n**Other checks**\n- No health claims, green claims, guarantees, superlatives or urgency.\n- No banned words and UK spelling is fine.\n- Own-account post, so no \"Ad\" label is needed.\n- Approval: Sam needs to sign off on everything public.\n\n**Decision:** Hold. Correct the rating line to \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", or drop it, and the post is good to go.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008157699999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

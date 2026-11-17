@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9ddac3ad741d6d21fb206b4c6d073a79f09a75365b4d53f05619290426da2834",
+ "result": "**Review: Pebblebrook Tea Co., product page, Chamomile and Lemon Balm**\n\nNothing needs changing. Every claim is on the allowlist or counts as a product fact.\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"plastic-free tea bags\" | Allowlisted (supplier certificate, EN 13432) |\n| \"20 plastic-free tea bags\" (count) | Product fact (pack size) |\n| \"caffeine-free blend\" | Product fact (ingredients) |\n| \"gentle, honeyed\" | Flavour description, product fact |\n| \"for the evening\" | Serving suggestion. It doesn't claim sleep, calm or relaxation, so it isn't a health claim. |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, invented numbers or testimonials:** none.\n- **Health claims:** none. Keep it this way: don't add \"calming\", \"helps you sleep\" or \"soothing\", which would be health claims.\n- **Green claims:** \"plastic-free\" is the approved wording. No general \"eco-friendly\" or \"sustainable\" claims.\n- **Banned words and structures:** none. No \"indulge\", \"elevate\", \"unlock\" or \"journey\", and no \"not just X, it's Y\". No exclamation marks or rhetorical openers.\n- **Spelling and voice:** UK spelling, and the tone is plain and unhurried.\n- **Disclosures:** a first-party product page needs none.\n- **Approval:** as with all public content, Sam needs to sign off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0129068,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

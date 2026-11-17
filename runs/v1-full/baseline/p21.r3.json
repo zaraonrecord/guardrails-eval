@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3423cd3e7c49f9df0dbe12ebe8c2b1a8359cbde9dbfa0a5bd6cb56c74beaa002",
+ "result": "Review of the draft:\n\n**Problem found**\n\n1. **\"made with zero waste from farm to cup\"** – \"zero waste\" is an environmental claim that isn't on the allowlist (section 3 bans \"zero waste\"). We can't back it up. Remove it, or replace it with the approved wording about plastic-free, home compostable tea bags.\n\n**Checked and fine**\n\n- \"New tins just landed for winter\": new products arriving is a product fact, fine to use.\n- \"Deep green, gold lettering\": product description, fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": matches the approved claim wording exactly (EN 13432 certificate).\n- No superlatives, guarantees, health claims, invented numbers, or false urgency.\n- No disclosure needed: it's our own account, not a paid partnership, gifted post, or affiliate link.\n- Voice and spelling: warm and plain, no banned words.\n\n**Minor note (not blocking on its own):** the draft says plastic-free tea bags twice in three sentences. Consider trimming the repetition, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\n**Verdict:** Do not publish as written. Once \"zero waste\" is removed, it needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074413,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

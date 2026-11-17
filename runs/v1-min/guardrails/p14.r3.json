@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7538ddf9ab263a8439398771964129f282b6dbf2c63451098d1418aaf74bb602",
+ "result": "# Publish gate report\n\n**Going out:** a review blog post with an affiliate link (\"You can find it here\"). No date or audience was given.\n\n**Checks**\n- **Disclosure: fail.** The link is affiliate, but nothing tells the reader before they reach it. The policy requires clear, upfront labelling in the UK, so the label has to come first and the link needs its own tag too. \"Here\" on its own doesn't count.\n- **Claims: one issue.** \"Easiest to pause\" is a comparison against three other services. The policy only backs \"subscribers can pause or cancel any time\". The comparison holds only if you really did try all four and pausing really was easiest. Written as your own experience, it's an honest opinion and can stay.\n- **Regulated claims: pass.** Nothing touches health, money, the environment, prices or children.\n- **House style: pass.** The copy is plain and specific, with no AI tells or banned words.\n\n**Fixed (suggested rewrite, not yet approved)**\n> *Disclosure: this post contains an affiliate link, so I may earn a commission if you buy through it.*\n> I've tried four tea subscriptions this year. In my experience, Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it [here](#) (affiliate link).\n\n**Needs a decision**\n1. Did you actually try all four subscriptions this year, and was Pebblebrook the easiest to pause? If so, keep \"in my experience\". If not, cut the comparison and use the policy line: \"Pebblebrook lets you pause or cancel any time.\"\n2. Were you paid, gifted product or given a discount beyond the affiliate commission? If so, say that in the disclosure too.\n\n**Approver:** the policy names no approver, so you need to give an explicit yes to the final wording. I haven't recorded an approval, and nothing should be published until you've given one.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0162947,
+ "seconds": 17.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

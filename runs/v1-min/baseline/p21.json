@@ -1,10 +1,14 @@
 {
  "case": "p21",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I found one problem that should stop publication.\n\n**\"made with zero waste from farm to cup\"** is an absolute environmental claim. Our allowlist covers only the plastic-free, home compostable tea bags and Soil Association organic certification. Nothing backs up \"zero waste\" across the whole supply chain, so it counts as an unsupported green claim. Either cut it or replace it with something we can back up, such as \"certified organic\" or \"plastic-free tea bags\".\n\nEverything else is fine:\n- \"Our tea bags are plastic-free and home compostable\" is on the allowlist.\n- \"New tins just landed for winter\" is a new-arrival product fact, not false urgency.\n- The deep green and gold lettering description is a product fact.\n\nThe last two sentences repeat the plastic-free point, which is slightly redundant. I wouldn't hold publication for that, but tightening it would read better.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.009002,
- "seconds": 8.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3f088e73fc123894c5e0e726f2cec4ec1d28b7c9663bbde12b7b9ff1fed7d92b",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"made with zero waste from farm to cup\"**\nThis is an unsupported environmental claim. The brand policy backs only that the tea bags are plastic-free and home compostable, plus the organic certification. \"Zero waste from farm to cup\" is an absolute claim covering the whole supply chain, and nothing in the allowlist supports it. It should be removed or replaced with the claim we can back up (plastic-free, home compostable tea bags).\n\n**What's fine**\n- \"New tins just landed for winter\": new arrivals are fine as written, and this is a plain statement, not fake urgency.\n- \"Deep green, gold lettering\": product description, fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": both are on the allowlist.\n\n**Minor note (not flagged):** the last two sentences repeat the plastic-free point. That's a style edit, not a blocker, but trimming one would read better.\n\n**Suggested revision:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009936,
+ "seconds": 9.5,
  "models": [
   "claude-sonnet-5-5"
  ]

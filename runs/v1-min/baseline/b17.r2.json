@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bccf3759af15a819348fba2d3c0ed134d30f2b4be3bd07a3b667a8e8c9fa37",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims or green claims. The ingredients (black tea, orange peel, cinnamon, clove) are product facts, which the policy allows as written.\n- **Urgency:** \"Back in the shop from today\" says when the blend returns. It doesn't pressure the reader with a deadline or a limit on stock, so it isn't fake urgency.\n- **New arrival:** The policy treats new arrivals as fine as written, and a returning seasonal blend falls under the same heading.\n- **Tone:** The copy is short and plain, with no filler phrasing.\n- **Disclosure:** Nothing in it calls for a disclosure, such as an ad label or an incentive statement.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005259,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

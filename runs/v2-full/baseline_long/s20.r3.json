@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "847e136286e6738ca7f6f5afa1b5a2d8eb912ba58475a042d7f951b5eec0ad31",
+ "result": "**Review of the email \"How to brew loose leaf without a teapot\"**\n\n**Claims:** The draft makes no claims that need evidence. \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" are brewing guidance, which the product team checks and the policy allows as written. There are no stats, superlatives, guarantees, health claims, environmental claims, urgency or testimonials.\n\n**Disclosure:** This is a brand-owned email, so no \"Ad\" label is needed, and there are no affiliate links.\n\n**Subject line:** It matches the content and doesn't mislead.\n\n**Voice:** The first three sentences are warm, plain and unhurried, which fits the brand. The line \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is the problem. It is the generic \"whether you're X or Y\" formula, it says nothing specific, and it sounds machine-written. It also pads out an otherwise tight email and breaks the plain, specific tone of the lines before it. Cut it, or replace it with something concrete, such as how long to steep green tea or which tea to try first.\n\n**Decision:** Hold until that sentence is fixed. Everything else is fine.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0102959,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

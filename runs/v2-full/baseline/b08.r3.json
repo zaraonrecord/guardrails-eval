@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6d63a8a7fbfbb0b6cf0338b8f02c0c2b3f637a4961d156eb6cb533d00b61ed28",
+ "result": "**Review of the landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is fine. It is warm and plain, and it matches the subscription terms.\n- **\"Subscribers can pause or cancel any time\"** This matches the allowlist wording exactly.\n- **\"free UK delivery on orders over £25\"** This matches the allowlist claim (only the capitalisation differs, which is fine mid-sentence).\n- **\"means most boxes ship free\"** This is the problem. The policy gives no proof of how many boxes or orders come to over £25. \"Most\" implies a proportion that we haven't verified, so it works as an invented statistic. It also reads as a promise about subscriptions that the shipping policy doesn't make. Either cut it, or end the sentence after \"over £25\".\n\nThe voice is on-brand, with no banned words, and the spelling is UK. There are no health, green, urgency or guarantee issues, and no disclosure is required for this channel.\n\n**Suggested fix:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nSam needs to approve the final version, since everything public goes through them.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088815,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f4bc88f503bea62444b3a2347f614e800656f83161610d423d563d0be60c8e7d",
+ "result": "**Review notes**\n\nClaims: The brewing facts (mug, small sieve, four minutes for black tea, green tea shorter and cooler) are product/brewing facts, which the policy allows as written. No stats, health claims, guarantees, urgency, or testimonials. It's a brand-owned email, so no \"Ad\" label is needed. Subject line matches the content.\n\nStyle: \"Unlock your tea journey.\" is a generic, machine-sounding cliché (in the same family as \"take it to the next level\"). It also doesn't connect to the practical content that follows, and it sits oddly against \"You don't need any kit.\" The sign-off is fine. Suggested fix: cut it, or replace it with something plain such as \"No teapot? No problem.\" (or just start with the mug and sieve).\n\nMinor optional polish: \"Hi Ana\" is personalisation, so confirm the merge field populates correctly.\n\nDecision: hold until the cliché line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008240500000000001,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

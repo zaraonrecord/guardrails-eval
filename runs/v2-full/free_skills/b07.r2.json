@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7bfff1efa15f453de637175f19934057c4c5ff74daeb8f807975acf3fda86a85",
+ "result": "**Verdict: nothing in the draft needs to change. It's clear to publish once Sam approves it.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Founded in Bristol in 2019, Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (supplier certificate) |\n| \"because we couldn't find tea bags without plastic in them\" | Origin story, not on the allowlist. It's not a stat, superlative or guarantee, but confirm with Sam that it's the real reason. |\n| \"here's how we checked\" | A promise about the rest of the post, not a claim. |\n\n**Other checks**\n- **Banned words and structures:** none. There are no \"unlock\", \"journey\" or \"indulge\" hits, no \"it's not just X, it's Y\", no exclamation points and no em-dashes.\n- **Superlatives, guarantees, health, green and urgency claims:** none. The green claim is the specific approved one, not a general \"eco-friendly\".\n- **Disclosure:** this is our own blog, so no \"Ad\", \"Gifted\" or affiliate label is required.\n- **Spelling and voice:** UK spelling, plain and warm.\n\n**Notes for the rest of the post**\n- \"Here's how we checked\" sets up an explanation, so the body must deliver it. It should stick to what's on file (the supplier certificate, EN 13432) and not describe tests we didn't run.\n- EN 13432 is normally an industrial composting standard, not a home composting one. The policy approves the \"home compostable\" wording against that certificate, so I haven't flagged it. Ask Sam to confirm the certificate covers home composting before the body leans on it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015297100000000001,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

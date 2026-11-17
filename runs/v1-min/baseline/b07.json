@@ -1,10 +1,14 @@
 {
  "case": "b07",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: this matches the allowed claim that we were founded in Bristol in 2019.\n- **\"Our tea bags are plastic-free and home compostable\"**: this is an environmental claim, but the policy backs it, and the wording matches the allowlist.\n- **\"because we couldn't find tea bags without plastic in them\"**: this is a founding-story motivation, not a product or performance claim, so it needs no substantiation.\n- **\"here's how we checked\"**: this is a lead-in to the rest of the post. When the full post is written, whatever it says about how the tea bags were checked (for example, any testing or certification) should be accurate and match what we can back up.\n\nThe draft has no invented stats, superlatives, guarantees, testimonials, health claims, false urgency or filler phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.010536,
- "seconds": 8.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9c80263c0588a6c95b4273756336ec1e468fa9e24c24c5f28191a00a41db8df8",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"We started Pebblebrook in Bristol in 2019\"** matches the allowlist (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\"** is an allowlisted claim, stated as written with no added qualifiers or upgrades.\n- **\"because we couldn't find tea bags without plastic in them\"** is a founder-story motivation, not a statistic, superlative or guarantee. It doesn't claim that no plastic-free tea bags existed anywhere.\n- **\"here's how we checked\"** is a lead-in to the rest of the post. This is only the intro, so I can't see what follows. Whatever the body says about the checking should stick to what the brand can support, such as the plastic-free and home compostable claims. It should not invent test results, percentages, timeframes, or third-party certifications beyond the Soil Association organic certification.\n- There is no fake urgency, no testimonial, no health claim and no filler phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012473999999999999,
+ "seconds": 9.6,
  "models": [
   "claude-sonnet-5-5"
  ]

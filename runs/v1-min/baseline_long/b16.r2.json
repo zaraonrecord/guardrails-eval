@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly, including the source (our website).\n- \"Organic loose leaf\": the policy allows \"certified organic by the Soil Association\". Calling the tea organic is consistent with that certification. Naming the certifier would be a nice addition but isn't required.\n- \"plastic-free bags\": the approved claim is \"tea bags are plastic-free and home compostable\", so this is fine.\n- \"packed by hand in Bristol\": matches \"every tin is packed by hand in Bristol\". The draft says this about the whole range, while the policy says tins. It's a small stretch, but packing by hand in Bristol is the approved fact, so I'm not flagging it. If bags are packed in a different way or place, the team may want to say \"every tin\".\n\nThere are no health claims, superlatives, urgency, guarantees, testimonials or green claims beyond what's approved. The copy is plain and specific, with no AI clichés or hype. This is a brand-owned landing page, so no ad label is needed.\n\nVerdict: it can go out. The only optional polish is to tie \"packed by hand\" to tins if bags are packed differently.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088365,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

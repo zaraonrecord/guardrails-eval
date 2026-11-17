@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9786a6fa134b46c7539066de3cc0f2efa23c7f878ccd439bdf872c2b56eac6c1",
+ "result": "## Publish gate report\n\n**Going out:** Review blog post with an affiliate link, for UK readers. No publish time was given.\n\n**Checks**\n- **Claims:** \"Easiest to pause\" fits the policy (\"subscribers can pause or cancel any time\"). It's also a comparison with three unnamed services, so it should stay framed as your own opinion. \"Tins are lovely\" is opinion and fine. \"I've tried four tea subscriptions this year\" is a first-person claim I can't verify, so please confirm it's true.\n- **Regulated claims:** Nothing touches health, money, legal, environmental, children's or price claims.\n- **House style:** The draft is plain and personal, with no AI tells or banned words.\n- **Disclosure:** This fails. \"(Affiliate link)\" sits at the very end in brackets, after the reader has already read the recommendation. UK rules expect ad and affiliate labels to be upfront and obvious, and the policy wording is \"Affiliate link\". The disclosure needs to come first.\n\n**Fixed (suggested rewrite, not yet approved)**\n> Affiliate link: I earn a commission if you buy through the link in this post.\n>\n> I've tried four tea subscriptions this year. In my experience, Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it here (affiliate link).\n\n- I moved the disclosure to the top in plain words.\n- I kept the label next to the link.\n- I added \"In my experience\" so the comparison reads as your opinion.\n\n**Needs a decision**\n1. Is it true that you tried four subscriptions this year? Suggested answer: confirm, or change it to the real number.\n2. Were you gifted the tea or paid anything beyond the commission? If so, that needs disclosing too. Suggested answer: add \"Pebblebrook sent me a free box\" if applicable.\n3. If the post is also shared on social, use the platform's paid-partnership tool as well.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final text above. Nothing should be published until then.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0176613,
+ "seconds": 18.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f10a658923422024199a7734ff97988928630fe3b0ff8ba04724e00361100ba1",
+ "result": "**Review of the newsletter draft**\n\nI read it as a subscriber would, sentence by sentence.\n\n- **\"Quick one this week: the Christmas blend is back.\"** This is plain description and fits the warm, unhurried voice. It's fine.\n- **\"Black tea, orange peel, cinnamon and a little clove.\"** Ingredients are product facts the product team checks, so this is fine.\n- **\"It's back in the shop from today\"** is a product availability fact, so this is fine.\n- **\"and selling fast.\"** This is a problem. It's a demand and scarcity claim, and nothing in the brand's approved claims or the draft supports it. The policy bars urgency that isn't true, and there's no evidence of sales pace. It also pushes readers to hurry, which doesn't suit the \"unhurried\" voice. Cut it. The sentence works without it: \"It's back in the shop from today.\"\n\nNo banned words, health claims, green claims, superlatives or missing labels. Spelling is fine. Once \"selling fast\" is removed, it can go out. Sam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080103,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

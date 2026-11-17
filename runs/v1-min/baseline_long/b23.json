@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0ef017fae833cc3b21d5f3733a29dea07b63b0e120f1f0c525f7513a0438b4b9",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n- **Claims:** Nothing here needs evidence beyond the brand's allowed product facts. \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are ingredient and size facts. \"Caffeine-free\" describes the composition, not an effect on the body. Rooibos is naturally caffeine-free, so it holds up. Please confirm that this blend adds no caffeinated ingredients, such as black tea.\n- **Superlatives, stats, guarantees, urgency:** None.\n- **Health claims:** None. The spices are listed as ingredients, with no benefits attached.\n- **Green claims:** None.\n- **Labels:** This is a brand-owned product page, so no ad label is needed.\n- **Tone:** \"Lovely with milk\" is a mild serving suggestion in a plain voice. There are no AI clichés, filler or hype. It is short, but that suits a product page.\n- **Optional polish:** Consider adding brewing guidance, if the team has it, but this is not required.\n\nEvery claim is a product fact, and the tone is clean. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103885,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c647c4cfe9b064db7d63a6cdc65b109894f579807ec004c5acd1b35f2b5d546a",
+ "result": "## Publish gate report\n\n**Going out:** Rooibos Chai product page copy (Pebblebrook Tea Co. website). No send date was given.\n\n**Checks**\n- **Claims:** The draft has no stats, rankings, guarantees, testimonials or comparisons. \"Caffeine-free\", the ingredient list, \"Lovely with milk\" and \"100g tin\" are product facts, flavour and tin size. The policy says the product team checks these and they are fine as written. I treated \"caffeine-free\" as an ingredient fact, not a health claim, because it makes no promise about what it does for the body.\n- **Regulated claims:** Nothing on health, money, legal outcomes, the environment, children, prices or urgency. There are no benefit claims for the spices.\n- **House style:** Warm, plain and unhurried. It has none of the banned words and no AI tells, and the spelling is neutral UK. Score is about 90, so I made no rewrites.\n- **Disclosure:** This is the brand's own product page, with no paid partnership, gifted product, affiliate link or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. The copy is unchanged.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead), who approves everything public. Please ask Sam for an explicit yes to this exact copy before it goes live. I haven't recorded an approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103151,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

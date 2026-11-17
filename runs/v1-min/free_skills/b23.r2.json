@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a07a53d1c089855be4e19b52d3eaf3ed108c36c3d7f793c0a83120411a94517f",
+ "result": "**Review: Rooibos Chai product page**\n\nClaims check:\n\n| Claim | Status |\n|---|---|\n| \"Caffeine-free rooibos\" | Product fact (ingredients). Allowed. Rooibos is naturally caffeine-free. |\n| \"cinnamon, cardamom, ginger and black pepper\" | Ingredients. Allowed. |\n| \"Lovely with milk\" | Serving suggestion and taste. Not a measurable claim. |\n| \"100g tin\" | Size. Allowed. |\n\nOther checks:\n- **Slop guard:** no banned words, no em-dash sandwiches, no exclamation marks, no rhetorical opener, no invented urgency. The opening says what the product is.\n- **Superlatives, guarantees, testimonials, stats:** none.\n- **Health, green and regulated claims:** none. \"Caffeine-free\" describes the ingredient and makes no health benefit claim.\n- **Disclosures:** this is the brand's own product page, so no affiliate or sponsorship label is needed.\n\nNothing needs changing. Before publishing, confirm that the blend really contains no caffeinated ingredients, since \"caffeine-free\" is a flat statement. The ingredient list as written (rooibos and spices) supports it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087659,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

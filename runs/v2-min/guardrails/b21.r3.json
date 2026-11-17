@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "de36e56e2a73961191bbb8fbb67e41a9608b7637456ba24e25a8e39e0ce9d019",
+ "result": "**Publish gate report: About page**\n\n**Going out:** Three-sentence About page copy on the Pebblebrook site. No date or audience was given beyond the UK site.\n\n**Checks**\n- **Claims:**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list |\n| \"small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list |\n| \"We buy from gardens we've visited\" | Origins/sourcing fact, fine as written |\n\n  Nothing here is a stat, superlative, guarantee, testimonial, or comparison.\n- **Regulated claims:** None. There is no health, money, environmental, children, or pricing content.\n- **House style:** Plain, specific, and short. It has no AI tells or banned phrases, so I'd score it well above 80 and made no rewrites.\n- **Disclosure:** None needed. It's the brand's own page, with no ad, sponsorship, affiliate link, gifted product, or AI-generated imagery.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- One light check. \"Gardens we've visited\" is a factual statement about your sourcing, and the policy doesn't list it word for word. It sits under \"origins\", so I've passed it. Please confirm it's true for all your teas. If some come through suppliers or blends you haven't visited, soften it to \"many of the gardens we buy from, we've visited.\"\n- Evidence log: I have no tools in this session, so nothing was written to `.guardrails/evidence.md`. The rows above can be pasted in.\n\n**Approver:** The policy doesn't name one, so you are the approver. Please give an explicit yes to this exact text, and I'll treat any later edit as a new check. I haven't recorded an approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012775000000000002,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

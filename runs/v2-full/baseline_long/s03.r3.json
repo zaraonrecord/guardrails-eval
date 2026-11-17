@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cbdc5370937e4d3488b4279a37cf6c437f93a6e469b6cb0bd472a1ef4070140e",
+ "result": "**Review of the Assam Breakfast product page copy**\n\nGoing sentence by sentence:\n\n1. \"A malty, full-bodied black tea\" is product description (flavour), which the product team checks and which is fine as written.\n2. \"noticeably smoother than supermarket tea bags\" is a comparison against a whole category. It is an unsupported claim of superiority with no evidence in the policy or the draft. It also implies a result the reader will \"notice\". Cut it, or replace it with a description of the tea itself (e.g. how it tastes or how it is brewed).\n3. \"Certified organic by the Soil Association.\" This matches the approved claim wording exactly, with a certificate on file renewed 2026. Fine.\n4. \"100g tin, makes around 40 cups.\" Tin size and cup count are product facts covered by the policy. Fine.\n\nStyle: the voice is plain and warm enough, there are no banned words, and spelling is UK-consistent. No disclosure or label is needed on a brand-owned product page.\n\n**Decision:** Hold. One problem needs fixing: the comparison to supermarket tea bags. Once that phrase is removed or rewritten as plain description, the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071515,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

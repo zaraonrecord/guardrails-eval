@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cff658b125c39870453f03eae9c4fda452127c4b81394607bc0758a4f8fca6b6",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product fact (ingredients) |\n| \"gentle, honeyed\" | Flavour description, fine as written |\n| \"caffeine-free\" | Product fact (ingredients). Both herbs are naturally caffeine-free. |\n| \"for the evening\" | Usage suggestion. It makes no sleep or relaxation promise, so it isn't a health claim. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | Allowlisted (plastic-free) and product fact (pack size) |\n\n**Other checks**\n- Banned vocabulary: none.\n- Structural problems (rhetorical opener, exclamation marks, em-dash asides, fake urgency): none.\n- Invented stats, testimonials, superlatives or guarantees: none.\n- Disclosures: none needed. This isn't a review, and there are no affiliate links or sponsorship.\n\n**Suggestion (optional):** Confirm the pack count of 20 against the actual product before publishing. It falls under product facts, so it's fine as written.\n\nNothing needs changing, so it's clear to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096406,
+ "seconds": 16.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

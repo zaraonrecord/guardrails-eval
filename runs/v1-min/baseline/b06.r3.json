@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "050327f34faf102e4fc73c2d88731c4a9617643e2876f7b11a6fd4d64377b884",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Origin and sourcing:** The Darjeeling garden, the first flush and the March picking are product and origin facts, which the policy allows as written.\n- **Flavour:** \"Bright and floral\" is a normal flavour description and makes no health or superlative claim.\n- **Availability:** \"In the shop from Monday\" announces a new arrival. It is a plain launch date, not fake urgency, because it has no countdown or scarcity pressure.\n- **Other claims:** The draft has no invented stats, guarantees, testimonials, health claims, green claims or superlatives. It needs no disclosure and reads naturally, without filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062357,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "I went through the draft sentence by sentence.\n\n**Channel:** a social ad on the brand's own account. Brand-owned channels don't need an \"Ad\" label on every post, so there is no missing-disclosure issue.\n\n**Sentence 1: \"Three teas for your desk drawer.\"** Description. Fine.\n\n**Sentence 2: \"Builder's, Earl Grey and a peppermint for after lunch.\"** Product facts and a suggested occasion. \"For after lunch\" describes when to drink it. It makes no claim about digestion or any effect on the body, so it isn't a health claim. Fine.\n\n**Sentence 3: \"Free UK delivery on orders over £25.\"** This matches the approved claim exactly, including the threshold and the UK scope. Fine.\n\n**Other checks:**\n- There are no statistics, ratings, superlatives, guarantees, testimonials, environmental claims or urgency language.\n- Tone is specific and plain. The rule of three in the second sentence is a plain list of three actual products, not a rhythm device. There are no AI clichés or filler.\n- Spelling is UK-consistent.\n\n**Optional polish only:** none needed.\n\n**Decision:** it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006833899999999999,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

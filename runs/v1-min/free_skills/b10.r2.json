@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cff658b125c39870453f03eae9c4fda452127c4b81394607bc0758a4f8fca6b6",
+ "result": "**Review: Chamomile and Lemon Balm product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" (plastic-free) | Allowlisted |\n| \"20\" (pack size) | Product fact (sizes), fine as written |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm are both naturally caffeine-free. |\n| \"gentle, honeyed\" | Flavour description, fine as written |\n| \"for the evening\" | Usage suggestion, not a sleep or relaxation promise |\n\n**Other checks**\n- **Health claims:** None. The copy doesn't say it calms, relaxes, or helps sleep. Keep it that way if you edit it later.\n- **Slop guard:** No banned words, no em-dashes, no exclamation points, no rhetorical opener, and no fake urgency. The opening names the product.\n- **Stats, testimonials, superlatives, guarantees:** None.\n- **Review disclosures:** Not applicable. This is the brand's own product page, not an affiliate or sponsored review.\n\nNothing needs changing before publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119083,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

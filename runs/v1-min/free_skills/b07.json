@@ -1,10 +1,14 @@
 {
  "case": "b07",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: blog intro**\n\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (\"founded in Bristol in 2019\") |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"We couldn't find tea bags without plastic in them\" | Founding story, not a stat or comparison. Fine as long as it's accurate, so worth a quick confirmation from the founders. |\n| \"Here's how we checked\" | Not a claim in itself, but it promises evidence in the rest of the post |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no fake urgency. The opening sentence leads with a concrete fact.\n\n**Green claims:** Both environmental claims are on the allowlist, which is what the UK Green Claims Code needs. The one thing to watch is \"here's how we checked.\" The body of the post has to explain the real checking process (for example, the actual certification or testing you did). Don't add test results, timeframes or lab names that aren't supplied. If the body adds those, they'll need sourcing or a `[PROOF NEEDED]` marker. This only applies to the rest of the post. The intro itself is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.013586299999999999,
- "seconds": 12.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9a624e6582815c1c53b40859b5edd155fe0161b644c9392c3b6268e62d216916",
+ "result": "**Review: blog intro**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Started Pebblebrook in Bristol in 2019 | Allowlisted (\"founded in Bristol in 2019\") |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"We couldn't find tea bags without plastic in them\" | Not on the allowlist. It's a founder-motivation statement, not a product or performance claim. |\n| \"Here's how we checked\" | A promise of content that isn't in the intro. |\n\n**Green claims:** Both environmental claims (\"plastic-free\", \"home compostable\") are on the brand's allowlist and are stated plainly, with no inflated wording like \"eco-friendly\" or \"zero waste\". They're fine as written.\n\n**Slop and structure:** No banned vocabulary, no em-dash asides, no exclamation marks, no rhetorical-question opener, no invented stats or testimonials. The first sentence leads with a concrete fact.\n\n**Notes for the author (not blockers):**\n- Confirm the origin story is true. If the founders really started because they couldn't find plastic-free bags, it's fine. If it's a marketing flourish, rephrase it.\n- \"Here's how we checked\" sets up a verification explanation. The body needs to actually show the checking, such as the Soil Association certification or how the compostability was tested. Any claims in the body that aren't on the allowlist will need their own review.\n\nNothing in the draft needs to change before publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015534300000000001,
+ "seconds": 15.9,
  "models": [
   "claude-sonnet-5-5"
  ]

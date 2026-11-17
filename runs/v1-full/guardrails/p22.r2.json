@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b059bf6a1aab21e8b895db1080ec5470b784980f13cea442bebcfc7b089bb2b3",
+ "result": "# Publish gate report: Rooibos Chai product page\n\n**Going out:** Rooibos Chai product page copy, on the website. No date or audience was given.\n\n**Verdict: not ready to publish.** One line has to come out.\n\n## Checks\n\n**Claims**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact, fine as written |\n| Lovely with milk | Taste opinion, fine |\n| 100g tin | Product fact, fine |\n| \"It cured my bloating in a week\" - verified buyer | **Unproven.** Nothing shows the customer gave permission, and the policy has no sourced testimonial. \"Verified buyer\" is also a trust claim with no visible basis. |\n\n**Regulated claims**\n- The line \"It cured my bloating in a week\" is a health claim. Policy section 3 bans health claims of any kind, including \"cures\". Putting it in a customer's mouth doesn't fix this, because the brand is still publishing it. The \"in a week\" timeframe also makes it a specific result.\n- Safer version: drop it. If you want social proof, use a real, permissioned review about taste, such as \"Lovely with milk\", and no mention of the body.\n\n**House style:** Passes. It's plain, short and unhurried, with no banned words or AI tells. Score is about 90.\n\n**Disclosure:** Nothing needed. It's the brand's own product page with no sponsorship, affiliate link or AI-generated content.\n\n## Fixed\n- Removed the bloating testimonial, which is a banned health claim and an unsourced testimonial.\n\n## Suggested copy\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\n## Needs a decision\n- If you want a testimonial on this page, send me a real review with the customer's permission on record. It must say nothing about health, and I'll check it again.\n- Either way, the changed copy needs a fresh check and approval before it goes live.\n\n## Approver\nSam (marketing lead). Approval must be for the exact final copy above, not this draft.\n\n## Evidence log rows\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Rooibos Chai product page | Caffeine-free rooibos with cinnamon, cardamom, ginger, black pepper | OK | Product facts (policy §2) |\n| 2026-11-17 | Rooibos Chai product page | \"It cured my bloating in a week\" - verified buyer | Removed | Banned health claim, no testimonial permission |\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016483,
+ "seconds": 17.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

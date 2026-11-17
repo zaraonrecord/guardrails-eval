@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0346848f8a0081ae71b8178caedc777655ea26dc5510250b889448c0db318859",
+ "result": "**Review of the draft (social ad, own account)**\n\nGoing sentence by sentence:\n\n1. \"Three teas for your desk drawer.\" Description. Fine.\n2. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description and a mood/occasion suggestion, not an effect on the body. \"For after lunch\" doesn't claim digestion or any health benefit. Fine.\n3. \"Free UK delivery on orders over £25.\" Matches the approved claim word for word, and the threshold is stated beside it.\n\nOther checks:\n- **Label:** Paid social ads from the brand's own account are marked by the platform, so no extra label is needed.\n- **Voice:** Warm, plain, short. No banned words, no AI clichés, UK spelling. The list of three is natural here because it names three actual products, not rhythm for its own sake.\n- **Urgency, superlatives, guarantees, health, green claims, stats:** None present.\n\nNothing needs changing. Optional polish only: \"a peppermint\" is slightly loose (a peppermint tea?), but it reads naturally and isn't a problem. As always, Sam approves everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008596699999999999,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

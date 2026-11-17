@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a2352b9a0694c7e65babd6fd14a07ce6642d53a9a680d28cffb8dc0444535e3a",
+ "result": "**Not ready to publish.** One claim is wrong.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (twice) | Allowlisted |\n| Certified organic by the Soil Association | Allowlisted |\n| \"Free UK delivery on all orders\" | **Unsupported.** The allowlist says free UK delivery on orders **over £25**. \"All orders\" promises more than the brand can back up. It would also mislead customers on a landing page. |\n\n**Other notes**\n- The first and second sentences say the same thing (hand-packed in Bristol). Keep one. This is a quality fix, not a compliance block.\n- There are no ban-list words, exclamation marks, invented stats, fake urgency or health claims.\n\n**Suggested copy**\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014518300000000001,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

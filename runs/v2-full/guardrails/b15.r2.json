@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9a6535f01f4fa31d5f4d211cb1a9eb84049e2d5e7d5508cf6a20e5716b5992fd",
+ "result": "## Publish gate report\n\n**Going out:** a short affiliate review on the review blog. Date and audience weren't given.\n\n**Checks**\n- **Claims:** Nothing needs changing.\n  - \"I've tried four tea subscriptions this year\" is the reviewer's own experience, not a brand claim.\n  - \"Easiest to pause\" is the reviewer's opinion, and it fits our policy row \"Subscribers can pause or cancel any time\". It isn't one of the banned superlatives (\"best\", \"number one\", \"finest\").\n  - \"The tins are lovely\" is opinion.\n  - There are no stats, guarantees, urgency, or health or green claims.\n- **Regulated claims:** Not triggered. There is nothing on health, money, the environment, children or prices.\n- **House style:** About 95/100. It's warm, plain and unhurried, with no banned words and no AI tells. UK spelling is fine.\n- **Disclosure:** Passes. Section 4 requires \"Affiliate link\" next to the link, and the draft has it there in plain words.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is blocking. One optional suggestion: the label sits in the third sentence, and the CMA prefers affiliate disclosure before the reader engages. If you want to be safe, add \"Affiliate link:\" at the very start. The policy doesn't require this.\n\n**Approver:** Sam (marketing lead). I can't approve this myself. Sam needs to say yes to this exact text before it's published, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0160256,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

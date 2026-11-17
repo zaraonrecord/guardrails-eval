@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "294f6b5ed11d17d00d321f91dad1bb77e3435b61e55e5c571672f27cf5517613",
+ "result": "**Review: newsletter draft**\n\n**Fine as written**\n- \"the garden in Darjeeling that grows our first flush\", \"picked in March\" and \"taste bright and floral\" are product facts (where a tea is grown, when it's picked, flavour). The policy says the product team checks these and they can be used as written.\n- \"You'll find it in the shop from Monday\" is a new product arriving, which is also covered.\n- The tone is warm, plain and UK-spelled, with no banned words or AI clichés.\n- A newsletter is a brand-owned channel, so no \"Ad\" label is needed.\n\n**Problem**\n- \"but only 40 tins are left, so be quick\": this is a scarcity claim and a push to hurry. The policy bans \"only X left\" urgency unless it's a real offer with an end date, and none exists. The product isn't even on sale until Monday, so a remaining-stock count can't be shown to be true now. \"so be quick\" adds pressure that doesn't suit an unhurried voice.\n- Fix: cut the sentence, or end on something like \"You'll find it in the shop from Monday.\" If the stock is genuinely limited, Sam would need to confirm it and get it added to the policy before it's used.\n\nHold until that sentence is changed.\n\n```json\n{\"issues\": [{\"quote\": \"but only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010794699999999999,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

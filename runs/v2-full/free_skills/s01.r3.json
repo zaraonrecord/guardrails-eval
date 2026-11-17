@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0d8252efd427c8bedf11807bbb23c6ca5681ba71d5c8d5036ce1b8070ca368b6",
+ "result": "**Not ready to publish.** One claim is wrong.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5\" | Allowlisted |\n| \"from over 2,000 reviews on our website\" | **Unsupported.** The allowlist says \"over 1,200 reviews\" (platform export, October 2026). 2,000 overstates the count. |\n\n**Other checks**\n- Banned words, em-dash sandwiches, exclamation points, rhetorical openers and fake urgency: none found.\n- Health, green and superlative claims: none.\n- Disclosure: none needed for a post from our own account.\n- Voice: warm, plain and unhurried, with UK spelling.\n\n**Corrected version**\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nAs with all public content, it still needs Sam's approval before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095955,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

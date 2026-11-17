@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "39621c9862e4e8567bdb58241325f6054873c8397752c0e79a1a1bc11082282c",
+ "result": "**Publish gate report**\n\n**Going out:** Creator post (gifted product), Pebblebrook winter sampler rooibos chai. Channel and timing not specified.\n\n**Checks**\n- **Claims:** None. \"Lovely with oat milk\" is a taste opinion, not a provable claim. Product facts (rooibos chai, winter sampler) are fine as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Warm, plain, unhurried. No banned words, no AI tells. Pass.\n- **Disclosure:** Fails. Policy section 4 requires a gifted post to start with \"Gifted\", before anything else. The draft opens with \"The rooibos chai...\" and \"Thanks to the team for sending it over\" at the end is not a label. It's too late in the post and doesn't use the required word.\n\n**Fixed (suggested edit):**\n- Add \"Gifted\" at the very start:\n\n> Gifted. The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\n\nAlso use the platform's paid-partnership or branded-content tool if one exists. The thank-you line can stay.\n\n**Needs a decision:** None beyond confirming the revised wording with the creator, since it's their post.\n\n**Approver:** Sam (marketing lead). Approval has to be given for the exact revised text. Nothing should go out until Sam says yes to it. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101975,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

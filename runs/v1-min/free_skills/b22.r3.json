@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa90289815c832398844e285e597f1f250d86af4ed7603e48973a19c6c567a2c",
+ "result": "**Review: Instagram draft (own account)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| New tins just landed for winter | Allowed (new arrivals are fine as written) |\n| Deep green, gold lettering | Allowed (product fact) |\n| Same plastic-free tea bags inside | Allowlisted (tea bags are plastic-free) |\n| Tea bags are plastic-free and home compostable | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Green claims:** The plastic-free and home compostable claims are both on the allowlist, and they're specific rather than vague (\"eco-friendly\" and the like), so they're fine.\n- **Superlatives, stats, testimonials, guarantees, urgency:** None.\n- **Ban-list words and structures:** No hits. There are no exclamation points, em-dashes, rhetorical openers or abstract triads. The first sentence carries the news.\n- **Disclosures:** Nothing here needs one. It's the brand's own product on its own account, with no affiliate or sponsored content.\n\n**Optional edit, not blocking:** \"plastic-free tea bags\" appears twice in three short sentences, so the last sentence repeats the second. Keeping the sharper one would give:\n\n> New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\nThe original is compliant as written, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009974199999999999,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

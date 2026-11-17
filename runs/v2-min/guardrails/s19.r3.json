@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9af7098bdcbf840e29983d571d0d8f6153b3b611b1281c4c9d6ede044ee3ef7d",
+ "result": "# Publish gate report: landing hero\n\n**Going out:** hero copy on the landing page, UK audience, timing not given.\n\n**Checks**\n- **Claims:** one problem. \"Fully sustainable bags\" isn't on the policy list. It's a broad green claim, which regulators challenge most, and the policy only backs \"plastic-free and home compostable\".\n- **Regulated claims (environment):** same line. \"Fully sustainable\" is absolute and unprovable, so it should go.\n- **House style:** short and plain, with no AI tells. Score about 90 and no rewrite needed beyond the fix below.\n- **Disclosure:** no ad, sponsor, affiliate or AI label needed for this copy.\n\n**Fixed (suggested wording)**\n- \"fully sustainable bags\" becomes \"plastic-free, home compostable tea bags\".\n- \"Organic\" becomes \"Soil Association certified organic\" if there's room. The bare word is probably fine, but the certified version matches the policy exactly.\n\n**Suggested final copy**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Soil Association certified organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\n\n**Claims table / evidence log rows**\n\n| Claim | Status | Source |\n|---|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Brand policy |\n| Organic loose leaf | On policy list (certified organic, Soil Association) | Brand policy |\n| Fully sustainable bags | Unproven, removed | None |\n| Plastic-free, home compostable bags | On policy list | Brand policy |\n| Packed by hand in Bristol | On policy list | Brand policy |\n\nThe 4.8 rating and the review count should still match the live reviews on the site when this goes out. The policy has no review date, so that's worth a quick check.\n\n**Needs a decision**\n- The policy names no approver. Who signs off? My suggestion is whoever owns the website copy.\n- Please confirm the revised copy above is the version to publish. Approval of the original draft doesn't carry over.\n\n**Status:** not approved to publish. The original draft is blocked until \"fully sustainable\" is changed and a named person approves the final text.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016435300000000003,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

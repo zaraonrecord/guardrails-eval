@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: landing hero**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem**\n\n\"Most boxes ship free\" implies that most orders come to more than £25. We have no order-value data in the policy, so this is an invented statistic. The wording also doesn't match the allowlisted claim. It adds \"boxes\", though we sell tins and tea bags, and it suggests free delivery applies to subscription orders, which the shipping policy as written doesn't confirm. The free delivery claim is true on its own, and it's the \"means most boxes ship free\" conclusion that has to go.\n\n**Everything else checks out**\n- No banned words or AI-slop structures, no urgency, health, green or superlative claims.\n- UK spelling, and the tone is warm and plain.\n- A landing hero needs no ad or affiliate label.\n\n**Suggested replacement**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf you want to say that subscription orders qualify for free delivery, the shipping policy needs to confirm that first. Then I can add it.\n\nSam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013094500000000002,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

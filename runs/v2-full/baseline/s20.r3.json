@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "591c472c20c93b09f8d16f81eaa126c6893ed86c9a249d97c0abd98108b64b2e",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Claims:** The brewing guidance (a mug, a small sieve, four minutes for black tea, shorter and cooler for green) is product guidance the product team has cleared. There are no superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency.\n- **Disclosure:** This is our own email, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** It is warm, plain and unhurried. None of the banned words or phrases appear, and the spelling is UK.\n- **Optional edit:** \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone\" is generic filler. It breaks no rule, so I haven't flagged it, but cutting it would make the email tighter.\n\nAs with all public content, Sam (marketing lead) needs to approve it before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009147299999999999,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

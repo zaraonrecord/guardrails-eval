@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e7b10157fb3e7da6ca448baba9f010f3072a5b65b727af90f206c9804b038ac4",
+ "result": "**Publish gate report**\n\n**Going out:** Peppermint product page copy, public, on the website.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" matches the policy row word for word. The certificate was renewed in 2026, so it is current. \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team covers. No stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** No health, environmental, price or children's claims. \"Cool and clean after a big meal\" describes how it tastes and feels. It doesn't say the tea aids digestion or relieves anything, so it stays on the right side of the health-claims rule. If anyone later adds \"settles the stomach\" or \"aids digestion\", that would be a banned health claim.\n- **House style:** The copy is warm, plain and unhurried. It has no banned words and none of the usual AI tells. Spelling is fine. Score: about 90.\n- **Disclosure:** No ad, partnership, affiliate link or AI label is involved, so none is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam gives an explicit yes to this exact text. That approval isn't recorded yet.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107922,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d5aeeb754c3183c5d84f44ba91a14a85686aa6bd48da9c19dda74e43b5cfec5f",
+ "result": "**Verdict: don't publish yet.** One claim has to come out.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Descriptive, not a claim |\n| \"The UK's number one tea subscription.\" | **Unsupported.** It's a superlative with no proof, and policy section 3 bans \"number one\" |\n| \"Subscribers can pause or cancel any time.\" | Allowlisted (subscription terms) |\n| \"Free UK delivery on orders over £25.\" | Allowlisted (shipping policy) |\n\nNo slop-list words, exclamation marks, fake urgency or health claims. No disclosure label is needed, because this is a paid ad from our own account and the platform marks it.\n\n**Suggested fix**\n\nHeadline: Tea Subscription UK\nDescription: Loose leaf tea, delivered monthly. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\n\n\"Loose leaf tea, delivered monthly\" is a product fact the brand policy allows.\n\n**Before it goes out**\n- You gave no character limits. Check the description against the platform's limit (I haven't counted it against one).\n- The landing page must also state the pause/cancel and free delivery terms, since an ad can't make claims the page doesn't.\n- Sam needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012158500000000003,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

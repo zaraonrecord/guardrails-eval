@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f5e9fd8ca27cb25bb50fcc4dd7f18f3c7d2fe130edac7e899abfb104f17255bb",
+ "result": "## Publish gate report\n\n**Going out:** Paid creator post for Pebblebrook Tea Co., UK audience. Channel timing and handle weren't given.\n\n**Checks**\n\n| Check | Result |\n|---|---|\n| Claims | Pass. \"Packed by hand in Bristol\" matches the policy row \"every tin is packed by hand in Bristol\". Assam and the pot of tea are product facts. \"Ten minutes away from my phone\" is a lifestyle line, not a claim. |\n| Regulated claims | Pass. Nothing touches health, money, legal outcomes, the environment, children or prices. \"Afternoon reset\" is a mood, not a wellbeing promise. |\n| House style | Pass. It is short, plain and specific, with no banned or stock phrases. I'd score it about 90 and made no rewrites. |\n| Disclosure | Pass. \"Ad\" opens the post in plain words, before the reader engages, which suits UK rules (ASA/CMA). |\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision**\n- Use the platform's paid-partnership or branded-content tool as well as the \"Ad\" label, if the channel has one. I can't see that from here.\n- The creator should repeat \"Ad\" on any story, carousel or follow-up post that could be seen alone.\n\n**Approver:** The policy names no approver, so you need to give an explicit yes to this exact text. I haven't recorded any approval, and any edit means a new check.\n\n**Evidence log rows**\n- 2026-11-17 | Creator post (paid) | \"Their tins are packed by hand in Bristol\" | On policy list | Brand policy: every tin is packed by hand in Bristol\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120617,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

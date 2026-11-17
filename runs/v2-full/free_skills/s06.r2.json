@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ef066b14d81286d505a7d534566d26985f566bed7ae407b896b1fbd36e344c3a",
+ "result": "**Verdict: don't publish as written. One sentence has to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown). OK. |\n| \"picked in March\" | Product fact (when it's picked). OK. |\n| \"taste bright and floral\" | Product fact (flavour). OK. |\n| \"Our customers tell us it's the only tea they drink now.\" | **Unsupported.** It's an invented testimonial. It implies customer feedback and a result (\"only tea they drink\") that isn't in the policy or supplied with a source. |\n| \"You'll find it in the shop from Monday.\" | New product arriving. OK, and it's not fake urgency. Please confirm the Monday date with the product team. |\n\n**Other checks**\n- Banned words and structures: none found. No exclamation marks, em-dashes, rhetorical-question openers or \"not just X, it's Y\".\n- Superlatives, guarantees, health claims, green claims: none.\n- Disclosure: not needed. This is our own newsletter, not a paid partnership, gifted post or affiliate link.\n- Voice: warm, plain, unhurried, UK spelling. Fine.\n\n**Suggested fix**\n\nCut the customer sentence. If you want a social-proof line, you could use the approved one, but it needs to be accurate in context: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" That rating covers the site generally, not this tea, so I'd only use it if framed that way. Otherwise, add something concrete about the visit instead, such as [PROOF NEEDED: a detail from the trip, e.g. what the pickers do or what the garden looks like in March].\n\nCompliant version:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nSam still needs to approve it, since everything public goes through him.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014696499999999998,
+ "seconds": 25.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** A short new-arrivals post on the brand's own account. No ad label is needed on brand-owned channels, and nothing suggests a paid or gifted placement.\n\n**Sentence by sentence:**\n\n1. \"New tins just landed for winter.\" New arrival, a product fact. Fine.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Product description. \"Plastic-free tea bags\" is on the approved claims list. Fine.\n3. \"Our tea bags are plastic-free and home compostable.\" Both claims are on the allowlist verbatim. Fine.\n\n**Claims check:** No numbers, superlatives, health claims, guarantees, testimonials, urgency or scarcity language, or vague green terms. The environmental claim is specific and scoped to the tea bags only, not stretched to the tins or the whole business, so it's acceptable.\n\n**Style:** The copy is plain and specific, with no AI clichés or filler. There is mild repetition: \"plastic-free tea bags\" appears in sentence 2 and again in sentence 3. It's optional polish, not a blocker. You could merge them, e.g. \"Deep green with gold lettering, and inside, the same plastic-free, home compostable tea bags.\"\n\n**Decision:** Nothing needs to change. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074004000000000006,
+ "seconds": 7.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

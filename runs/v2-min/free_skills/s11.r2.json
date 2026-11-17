@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4d6029e52fbec4efd6ec4debe42bdddc2269206bd7fc9aacce977843ac3c3c7d",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint\" | Product fact, fine as written |\n| \"a peppermint for after lunch\" | Suggested use, not a digestive or health claim, so fine |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| \"while stocks last\" | **Unsupported.** It implies scarcity, and nothing on the allowlist says stock is limited. |\n\n**Slop and structure check:** no banned words, no em-dashes, no exclamation points, no rhetorical-question opener, and no invented stats or testimonials. The opening sentence is concrete.\n\n**Problem:** \"while stocks last\" is scarcity language with no verified basis. Unless stock really is limited and you can show it, it counts as fake urgency, and it could also draw a complaint under UK advertising rules. Cut it, or keep it only if you can confirm the stock position for these three teas and the landing page says the same.\n\n**Compliant version:**\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nMake sure the landing page shows the same £25 delivery threshold.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011920299999999998,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

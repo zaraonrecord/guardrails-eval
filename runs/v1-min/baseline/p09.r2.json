@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "33ecabb6c0704b2fda9551f2c4d2a4d501cd4dec294166a38db3fed175b8b4fa",
+ "result": "**Review of the Chamomile and Lemon Balm product page draft**\n\n**Problems**\n\n1. **\"reduces anxiety and helps you sleep\"**: This is a health claim. It says the tea treats a medical condition (anxiety) and affects sleep. The brand policy doesn't list it as a claim we can back up, and in the UK, medicinal or health claims on food and drink must be authorised. It needs to be removed. A safer wording describes the flavour or the occasion, for example \"a calming blend to enjoy in the evening\". Even \"calming\" should be checked, but it is a softer, experience-based description.\n\n2. **\"Certified organic by the Soil Association\"**: This is on the allowlist, so it's fine.\n\n3. **\"20 plastic-free tea bags\"**: Plastic-free is allowlisted. The count is a product fact, so fine.\n\n4. **\"caffeine-free\"**: This is a product fact about ingredients. Chamomile and lemon balm are naturally caffeine-free, so it is fine.\n\n5. **\"gentle, honeyed\"**: Flavour description, fine.\n\n**Suggested rewrite**\n\n\"Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, ideal for winding down in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\"\n\n**Verdict:** Do not publish until the health claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074592999999999994,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

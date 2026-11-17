@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e40ae52cfb0253c8ac0bd2307664063eeca1a85d1df566fd124ed975189e666a",
+ "result": "# Publish gate report\n\n**Going out:** Creator post (gifted), UK audience, about Pebblebrook's winter sampler. No timing given.\n\n**Checks**\n- **Claims:** Nothing to log. \"Lovely with oat milk\" is the creator's opinion about a product, which is fine. There are no stats, rankings, guarantees or health claims.\n- **Regulated claims:** Not triggered.\n- **House style:** Reads as a natural personal voice, with no AI tells or banned phrasing.\n- **Disclosure:** Fails, for two reasons.\n  1. The free product is mentioned, but there is no clear label up front. \"Pebblebrook sent me their winter sampler\" is a passing remark, not a plain-word label such as \"Gifted\" or \"Ad\". A gifted product is a material connection, and UK rules expect a clear, upfront label.\n  2. \"Not paid to say that, just liked it\" works against disclosure. Free product is something of value, so this line could leave readers thinking there is no commercial relationship. It should go.\n\n**Fixed (suggested rewrite, not yet approved):**\n> **Gifted:** Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk.\n\nUse the platform's own paid-partnership or branded-content tool as well, if the channel has one. Repeat the label on every post in a series.\n\n**Needs a decision**\n- Confirm whether the creator received anything beyond the free sampler (fee, commission, discount code, affiliate link). If so, the label should be \"Ad\" or \"Paid partnership\" and the content should say so.\n- Confirm that the creator's opinion is genuine and that they have not been briefed on what to say.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you, or from whoever you name, on the final wording above. Any change to the copy needs a fresh check.\n\n**Status:** Hold. Do not publish until the disclosure is fixed and approved.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0130826,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

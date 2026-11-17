@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "**Review: social ad (own account)**\n\nReading it as a UK tea drinker: it's a short, plain post with three product mentions and one offer.\n\n- **Claims:** \"Free UK delivery on orders over £25\" matches the approved claim exactly, with the threshold stated beside it. The tea names (Builder's, Earl Grey, peppermint) are product facts and fine as written.\n- **Comparisons/superlatives:** None.\n- **Health:** \"a peppermint for after lunch\" describes an occasion, not an effect on digestion or the body. Fine.\n- **Urgency, guarantees, reviews, green claims:** None present.\n- **Ad label:** This is the brand's own account, so no \"Ad\" label is needed.\n- **Style:** Specific and conversational. No clichés, no filler, no repetition. UK spelling and conventions are consistent.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059019,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

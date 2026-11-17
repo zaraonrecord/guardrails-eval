@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7af0f375abe3845a7f341ad12f2cf0d836febedaccb08b82a54bb820f64fd410",
+ "result": "I checked the draft and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Ad |\", so the paid relationship is clear at the start, as it should be for a paid creator post.\n- **Claims:** \"Packed by hand in Bristol\" is on the brand's list of claims it can back up. The Assam is a product fact, so it's fine as written.\n- **Other checks:** There are no invented stats, superlatives, guarantees, health claims, green claims or fake urgency. The \"afternoon reset\" and \"ten minutes away from my phone\" lines are personal lifestyle framing, not claims about the product's effects. It reads like a real person wrote it, with no generic filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059003,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "aa6db6048ab7d6e812ce99025254172728775ce9a1ced7cddc11b4e3563adaff",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, UK audience, Pebblebrook Tea Co.\n\n**Checks**\n\n1. **Claims.** All three are on the policy allowlist:\n   - \"Certified organic by the Soil Association\" matches the policy row.\n   - \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\".\n   - \"free UK delivery on orders over £25\" matches the policy row exactly.\n\n   No invented stats, superlatives, guarantees or testimonials. One caveat: the policy has no review date, so I can't confirm the organic certification is current. Worth a quick check that the certificate hasn't lapsed.\n\n2. **Regulated claims.** \"Certified organic\" is a certification claim, and it is backed by the policy. No health, money, environmental, children's or price-comparison claims. The delivery threshold is a plain condition, stated clearly alongside \"free\".\n\n3. **House style.** The policy has no voice section, so I can't score it formally. \"Good tea, no fuss\" is plain and concrete. It's a mild slogan-style opener, but I wouldn't change it. There are no AI tells such as stock openers, reversals or tidy-triplet padding. The list of three facts is concrete, not rhetorical.\n\n4. **Disclosure.** This is the brand's own first-party page, with no ad, sponsorship, affiliate link, gifted product or AI-generated imagery in the copy, so no label is needed. If the hero image is AI-generated and realistic, check the labelling separately.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Optional: confirm the Soil Association certificate is in date.\n\n**Approver:** The policy names no approver, so please confirm a yes from you (or whoever owns the landing page) on this exact copy. I haven't recorded an approval, and I can't publish anything in this session anyway. Once you've approved it, it's clear to go.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094384,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

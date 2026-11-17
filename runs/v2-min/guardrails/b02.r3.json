@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c585246020243e24e3820130aa8f86fa6193964ac8ff86426e7993424b1e0bbd",
+ "result": "**Publish gate report**\n\n**Going out:** a transactional subscription dispatch email to Priya (UK), channel: email. No send time was given.\n\n**Checks**\n- **Claims:** The only claim is \"you can pause or cancel any time\", which is on the policy list. \"Left Bristol\" fits the policy (packed by hand in Bristol). The lapsang and white peony are product facts, which are fine as written. There are no stats, testimonials, rankings or guarantees.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** It's short, plain and specific. There are no AI tells, banned phrases or stock openers.\n- **Disclosure:** This is a service email about an existing order. It has no ad, sponsorship, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** nothing, no changes needed.\n\n**Needs a decision:** none that block publication. Today is 17 November, and the subject says \"October tins\" while the body says the box \"left Bristol this morning\". If this is sending now, confirm the month is right. If it's a template, check the month field is filled in correctly.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you to this exact copy before it is sent. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010192099999999999,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "I checked each sentence against the brand policy's claims allowlist.\n\n- **\"Organic Loose Leaf Tea\"** (headline): The brand sells loose leaf tea, and \"organic\" is backed by the Soil Association certification on file (renewed 2026). Fine.\n- **\"Certified organic by the Soil Association.\"** This matches the allowlist wording exactly. Fine.\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist wording exactly, and the threshold is stated beside the claim. Fine.\n\nNo superlatives, health claims, green claims, guarantees, urgency, invented numbers or testimonials appear. The copy is plain and in the brand's voice, with no banned words, and uses UK spelling. A paid social label doesn't apply, since this is a search ad and not a creator post. Both claims are short, but they're approved, so the short format isn't a problem here.\n\nNothing needs changing, so this can go out. Per the policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it's live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064657,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

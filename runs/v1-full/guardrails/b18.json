@@ -1,10 +1,14 @@
 {
  "case": "b18",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report**\n\n**Going out:** Product page copy for the peppermint tea, UK, public.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal.\" | Describes taste and feel, not a health outcome. It makes no digestive or other benefit claim. |\n| \"Certified organic by the Soil Association.\" | On the policy list, exact wording. Certificate on file, renewed 2026. |\n\n**Regulated claims:** Nothing on health, money, environment, children or prices. \"Cool and clean after a big meal\" is the one line to watch. It stays acceptable as long as nobody expands it to \"aids digestion\", \"settles your stomach\" or similar, which the policy bans.\n\n**House style:** About 95/100. The tone is warm, plain and unhurried. It uses no banned words and has none of the AI tells (no stock openers, reversals or slogan closers).\n\n**Disclosure:** None needed. This is the brand's own product page with no ad, affiliate, gifted or AI-label trigger.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to this exact copy before it goes live, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0128875,
- "seconds": 11.3,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e7b10157fb3e7da6ca448baba9f010f3072a5b65b727af90f206c9804b038ac4",
+ "result": "**Publish gate report**\n\n**Going out:** Peppermint product page copy, Pebblebrook Tea Co. website, UK.\n\n**Checks**\n- **Claims:**\n  - \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks and which is fine as written.\n  - \"Certified organic by the Soil Association\" matches the policy row word for word. The certificate was renewed in 2026, so it is still in date.\n  - \"Cool and clean after a big meal\" describes how the tea tastes and feels. It makes no digestive or health claim, so it is allowed.\n- **Regulated claims:** Nothing touches health outcomes, money, the environment, children or prices. If someone later adds \"aids digestion\" or \"settles the stomach\", that would be a health claim and would be blocked.\n- **House style:** About 95 out of 100. The tone is warm, plain and unhurried, and none of the banned words appear. There are no AI tells, no stock openers and no slogan closer.\n- **Disclosure:** This is the brand's own product page, with no ad, affiliate, gifted or AI-content label needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead). The copy passes, but it has not been approved. Sam needs to say yes to this exact text before it goes live.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Peppermint product page | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Peppermint product page | Just peppermint leaves, nothing else | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012066200000000001,
+ "seconds": 12.5,
  "models": [
   "claude-sonnet-5-5"
  ]

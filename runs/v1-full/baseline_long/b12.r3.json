@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0346848f8a0081ae71b8178caedc777655ea26dc5510250b889448c0db318859",
+ "result": "I went through the draft sentence by sentence.\n\n**\"Three teas for your desk drawer.\"** Description. Fine.\n\n**\"Builder's, Earl Grey and a peppermint for after lunch.\"** Product description and a suggested occasion. \"After lunch\" describes when to drink it. It makes no digestive or other health claim. Fine.\n\n**\"Free UK delivery on orders over £25.\"** This matches the approved claim word for word (shipping policy). Fine.\n\n**Label:** This is a paid social ad from the brand's own account, so the platform marks it. No extra label is needed.\n\n**Voice and banned words:** None of the banned words appear. The tone is warm, plain and unhurried, with UK spelling. The rule of three in the list of teas is a plain list of products, not rhythm for its own sake.\n\n**Urgency, superlatives, guarantees, green claims, stats:** None present.\n\nNothing needs changing. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061221,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

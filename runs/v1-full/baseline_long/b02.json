@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f2d661fcf31b969a72a6de60479f3d1d0366202d6098b7b1cd6983ed87b226cb",
+ "result": "**Review of the October subscription email**\n\nGoing sentence by sentence:\n\n- **Subject: \"Your October tins are on the way\"**: Accurate, non-misleading, matches the content. Fine.\n- **\"Your subscription box left Bristol this morning.\"**: Consistent with the Bristol packing/operations facts. A transactional shipping statement, not a marketing claim. Fine.\n- **\"This month it's a smoky lapsang and a soft white peony.\"**: Product description (flavour), covered by product-team facts. Fine.\n- **\"If you're away next month, you can pause or cancel any time from your account.\"**: Matches the approved claim \"Subscribers can pause or cancel any time\". Fine.\n- **Sign-off**: \"The Pebblebrook team\" is fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, green claims, invented numbers, testimonials, or urgency.\n- Not an ad placement or affiliate content, so no label is needed.\n- Voice: warm, plain, unhurried. No banned words or AI clichés. UK spelling is consistent.\n- Minor note, not a blocker: the email is dated against today's date (17 November) but refers to \"October tins\". If this is a late send or the October box is only now shipping, that's accurate as written; if it's a template reused for November, the subject and month should be updated. I can't verify this from the draft, so I'm not flagging it as an issue, but the team may want to confirm the month before sending.\n\nNothing here needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009834699999999998,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fbe25db30360616f5fee3ad90ecaee020b7efaf6e0f3a0b97abf81f99e45a110",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** The draft makes no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency. The brewing advice (mug, small sieve, four minutes for black tea, shorter and cooler for green) is a product fact, which the policy allows as written.\n- **Tone:** It reads as plain, useful and specific, with no filler or generic AI phrasing.\n- **Disclosure:** This is an informational email with no sponsorship, incentive or ad content, so no label is needed. I assume the email platform adds the usual unsubscribe link and sender footer.\n- **Fit:** The content suits UK tea drinkers and the brand's loose leaf range.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064380999999999996,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

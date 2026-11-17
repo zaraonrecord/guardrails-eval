@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "591c472c20c93b09f8d16f81eaa126c6893ed86c9a249d97c0abd98108b64b2e",
+ "result": "I checked the draft against the brand policy.\n\n**Claims:** The brewing guidance (a mug, a small sieve, four minutes for black tea, shorter and cooler for green) is product guidance the product team has approved. It contains no superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency.\n\n**Disclosure:** This is our own email, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n\n**Voice:** The tone is mostly warm, plain and unhurried, and the spelling is fine. None of the banned words appear. One sentence is a problem: \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" It's a generic \"whether you're X or Y\" line that says nothing specific. It also sits oddly after the practical advice, and it reads like stock filler. I'd cut it, or replace it with something concrete, such as a tip on steeping time or water temperature for a particular tea.\n\n**Approval:** Sam (marketing lead) needs to approve everything public before it goes out.\n\nPublication should wait until that line is changed and Sam has signed off.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010910099999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

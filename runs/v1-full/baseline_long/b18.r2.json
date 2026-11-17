@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ceba29ddd13f0f87cc6a734776d345b29bc6edab15d590ffc41d931afac9d015",
+ "result": "**Review of the Peppermint product page copy**\n\n**Channel:** product page, so the description has to match the product and every claim needs backing.\n\nSentence by sentence:\n\n- **\"Peppermint.\"** Description only.\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact. The policy lets the product team's checked product facts be used as written.\n- **\"Cool and clean after a big meal.\"** This describes taste and the moment of drinking. It doesn't say the tea aids digestion, settles the stomach or changes anything in the body. It's the same kind of mood and experience language as \"a relaxing bath\". I considered whether \"after a big meal\" hints at a digestive benefit. I don't think it does, because \"cool and clean\" is about how the tea feels in the mouth. If the team wants to be strict, they could drop \"after a big meal\", but that's optional.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word (certificate on file, renewed 2026).\n\nOther checks:\n\n- **Numbers, ratings, superlatives, guarantees, urgency:** none present.\n- **Environmental claims:** none beyond the approved organic certification.\n- **Labels:** none needed. This is brand-owned product page copy, with no creator, gifted or affiliate content.\n- **Voice:** plain, warm and short, with no banned words or AI clichés. UK spelling isn't tested by anything here but isn't contradicted either.\n\nNothing needs changing. Per the policy, Sam (marketing lead) still signs off everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122807,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

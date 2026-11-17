@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "803597442993e4fcb740b533d14eea84e5269f4f72e72a3922394abb2b904b5b",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** Product page copy for Rooibos Chai, 100g tin, UK.\n\n**Checks**\n\n1. **Claims:**\n   - \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\", \"Lovely with milk\" and \"100g tin\" are product facts (ingredients, flavour, sizes), fine as written. Rooibos is naturally caffeine-free, so that holds.\n   - `\"It cured my bloating in a week\" - verified buyer`: not on the policy list, no source or permission on record in this chat, and no way to confirm it's a real review. Unproven.\n\n2. **Regulated claims (health):** \"cured my bloating\" is a treatment/cure claim. Even as a customer quote, using it in marketing makes it the brand's claim. UK rules on health claims for food and drink (and the ASA/CAP code) don't permit claiming a product treats or cures a condition. It can't stay, even with permission. Safer version: drop the quote, or use a taste-based review if one exists (e.g. \"Warming and spicy, perfect with oat milk\" - only with a real review and permission on record).\n\n3. **House style:** Short, plain, no AI tells or banned words. Pass.\n\n4. **Disclosure:** Own product page, no sponsorship, affiliate links, gifted product or AI-generated content indicated. Nothing to label.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\nI removed the bloating testimonial.\n\n**Needs a decision:**\n- Do you want a replacement testimonial? Only if it's a real review about taste or experience, with the customer's permission confirmed.\n- Approver: the policy names no specific approver for this content type, so you'd need to give an explicit yes to the final text above. Nothing is approved yet, and I haven't recorded an approval.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104828,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

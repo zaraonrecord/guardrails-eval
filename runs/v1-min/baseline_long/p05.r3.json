@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "de83776440865832d91498331d7c6460701b05292dabbac053ee0b34189edddd",
+ "result": "**Review of the newsletter draft**\n\n**Channel:** Newsletter from the brand's own list, so no \"Ad\" label is needed.\n\n**Sentence by sentence**\n- \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a product origin fact, which the policy allows as written.\n- \"The leaves are picked in March and taste bright and floral.\" This is a product and flavour fact, which is also fine.\n- \"You'll find it in the shop from Monday.\" This is a new arrival, which is fine.\n- \"but only 40 tins are left, so be quick.\" This is the problem. The brand policy doesn't cover stock levels, and nothing here shows that 40 is the real inventory figure. The tea isn't on sale until Monday, so \"are left\" also reads oddly. \"So be quick\" adds pressure on top of a number I can't verify. If 40 tins is the genuine, confirmed allocation, state it as fact without the nudge, for example \"We have 40 tins in this first batch.\" If it isn't confirmed, cut the line.\n\n**Tone and style:** The copy is specific and in a human voice, with no clichés or filler. Nothing to change.\n\n**Decision:** Hold until the stock claim is confirmed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"but only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0108218,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

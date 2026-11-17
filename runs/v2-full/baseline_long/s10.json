@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9d68719eb205d0fd34c9d68db3f2d976d19c6e825e08a4690a7a41dd7a88290e",
+ "result": "**Review of the Instagram draft (own account)**\n\nSentence by sentence:\n\n1. \"New tins just landed for winter.\" New products arriving is a product fact the product team checks, so it's fine.\n2. \"Deep green, gold lettering, planet-friendly packaging and the same plastic-free tea bags inside.\" Colours and lettering are description. \"planet-friendly packaging\" is a vague environmental claim. The policy only allows the specific claims in section 2 (plastic-free, home compostable tea bags, Soil Association organic), and it rules out general green claims such as \"eco-friendly\" and \"sustainable\" without specifics. \"Planet-friendly\" is the same kind of broad term, and nothing on file supports it for the tins. The fix is to remove it or replace it with a specific, approved fact.\n3. \"Our tea bags are plastic-free and home compostable.\" This matches the approved claim exactly (EN 13432 certificate). It's fine. It also repeats \"plastic-free tea bags\" from the sentence before, so the same point is made twice in a short post. That's a minor polish note, but fixing the green claim in sentence 2 could remove the repetition at the same time.\n\nOther checks: no health claims, no superlatives, no invented numbers, no guarantees, no false urgency, none of the banned words. The account is the brand's own, so no \"Ad\" label is needed. The tone is plain and warm enough.\n\nDecision: hold. \"planet-friendly packaging\" needs to come out or be replaced before this goes to Sam for approval.\n\nSuggested rewrite: \"New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010638700000000001,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

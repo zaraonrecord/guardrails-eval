@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f2d661fcf31b969a72a6de60479f3d1d0366202d6098b7b1cd6983ed87b226cb",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- **\"Your subscription box left Bristol this morning.\"** This is an operational statement about the customer's own order, and the company is based and packs in Bristol. It's fine, assuming the dispatch status is true at send time, which is a systems matter and not a copy one.\n- **\"This month it's a smoky lapsang and a soft white peony.\"** These are product facts, which the product team checks and which are fine to use as written.\n- **\"you can pause or cancel any time from your account.\"** This matches the approved claim \"Subscribers can pause or cancel any time\".\n- **Subject line:** \"Your October tins are on the way\" doesn't mislead about the content. One small observation: today is 17 November, so \"October\" may be stale if this is a November send. Worth confirming the month is correct, but it's not a policy breach.\n- **Labels:** This is a brand-owned email, so no ad label is needed. No affiliate or creator content is involved.\n- **Voice:** Warm, plain, unhurried. No banned words, no clichés, UK spelling. No urgency, guarantees, health, green or superlative claims.\n\nNothing needs changing. The only note is to confirm the \"October\" in the subject line is the right month for the send date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007027499999999999,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

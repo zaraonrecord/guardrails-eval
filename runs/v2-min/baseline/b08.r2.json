@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "afbc31182eba9d842317620654547f96b62199aba0cbce8b9651dc92e1eaa9ae",
+ "result": "**Review of the landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** is on the claims allowlist, so it's fine.\n- **\"free UK delivery on orders over £25\"** is also on the allowlist and is worded correctly, with the threshold stated.\n- **\"means most boxes ship free\"** is the problem. The policy backs only the £25 threshold. It says nothing about what share of orders clears it, so \"most boxes ship free\" is an unsupported claim about order values and reads as a statistic we can't verify. It also says \"boxes\" when the policy describes tins and tea bags. Cut the phrase, or end the sentence after \"over £25\".\n\nSuggested fix: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075312999999999995,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

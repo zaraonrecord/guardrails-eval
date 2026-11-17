@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "040978123bf44aeec6cb801da0f121c0cd019771da9387e363939b41206cec10",
+ "result": "**Claims check**\n- \"Packed by hand in Bristol\": backed by the policy (every tin is packed by hand in Bristol).\n- \"Certified organic by the Soil Association\": backed.\n- \"Free UK delivery on orders over £25\": backed, and it matches the UK market.\n- There are no invented stats, superlatives, guarantees, health or green claims, or fake urgency.\n\n**Problem: repetition**\nThe hero says \"packed by hand in Bristol\" twice, in the first and second sentences. It reads as a drafting error, wastes prime hero space, and weakens the message. Cut one instance.\n\nSuggested rewrite: \"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080228,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

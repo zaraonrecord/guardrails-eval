@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d8c70c57b603526e87ecad7fac8c6906c545b78870a06f205d6ad7fdb72d232f",
+ "result": "**Review of search ad**\n\nSentence by sentence:\n\n1. \"Tea Subscription UK\": plain descriptive headline. No claim. Fine.\n2. \"Monthly loose leaf tea.\": product description, consistent with what the brand sells (loose leaf, monthly subscription). Fine.\n3. \"If your box isn't right, we'll make it right.\": this is a soft, implied guarantee. A reader would reasonably take it as a promise of a remedy (replacement or refund) if unhappy. The policy says there is no \"you'll love it or it's free\" offer, and the allowlist has no returns or satisfaction promise. The only subscriber promise approved is pausing or cancelling any time. No terms are stated, and the checklist says to watch for implied guarantees a customer could rely on. This should be changed.\n4. \"Free UK delivery on orders over £25.\": matches the approved claim word for word. Fine.\n\nTone: plain and short, no banned words or AI clichés. UK spelling is fine. No health, green, urgency, superlative or numeric claims. No label needed, since a search ad from the brand's own account is not a creator or affiliate post.\n\n**Fix:** Remove the \"we'll make it right\" line. If the team wants a reassurance in that slot, use an approved claim such as \"Pause or cancel any time.\" Any remedy promise would need real terms agreed and added to the policy first.\n\n**Decision:** Hold until the guarantee line is replaced.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099347,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

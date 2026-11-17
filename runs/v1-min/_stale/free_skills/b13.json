@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (paid), Pebblebrook Assam**\n\n**Disclosure:** The draft opens with \"Ad |\", which is plain, upfront and placed before anything else. That meets the UK expectation for paid content. No change needed.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"ten minutes away from my phone\" | The creator's own routine, not a product claim |\n| \"which I love\" | Personal opinion, not a factual claim |\n\nNo numbers, superlatives, guarantees, health claims, green claims, urgency, testimonials or review counts. There are no ban-list words and no structural problems: no em-dashes, exclamation points, question openers or \"not just X, it's Y\" lines.\n\n**Product label:** The post speaks from personal use (\"My afternoon reset is a pot of...\"), but no Owned/Tried/Wishlist label was given. This isn't a draft problem as long as the creator has actually been drinking the Assam. Please confirm that before it goes out. If they haven't, the first sentence would need to go.\n\n**Verdict:** Nothing in the copy needs changing. Publish once the creator confirms they've used the tea.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0152103,
+ "seconds": 16.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

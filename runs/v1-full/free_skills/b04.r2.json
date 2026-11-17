@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "683ac6f8c166c520864b9e13af2d4de1f6dbadb59695a3cd5a8c946ae5444400",
+ "result": "The draft is clean and can go to Sam for approval.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine as written |\n| \"A malty, full-bodied black tea that stands up to milk\" | Flavour and brewing description, product team fact |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency, invented numbers or testimonials:** none.\n- **Banned words and structures:** none. There are no em-dashes, exclamation points, rhetorical openers or \"not just X, it's Y\" constructions.\n- **Spelling and voice:** UK spelling, plain and unhurried.\n- **Disclosures:** none needed for our own product page.\n\nPer the policy, all public content needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097443,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d8dd3f502a3e4fcb813e6c14f43f8b0006b34a67f5b3fd6e6e1843400ed21578",
+ "result": "I found nothing that needs changing, so this can go out.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the approved wording exactly. The proof is the October 2026 review export, which is current.\n- **Ingredients:** \"real bergamot oil and a little cornflower\" is a product fact (ingredients), which the product team checks and which is fine to use as written.\n- **Disclosure:** This is the brand's own Instagram account and nothing suggests a paid or gifted partnership, so no \"Ad\" or \"Gifted\" label is needed.\n- **Health, green, urgency and guarantee language:** None of it appears. \"Rainy Sunday, second pot\" is mood description, not a claim about an effect on the body.\n- **Voice:** It reads as warm, plain and unhurried, with no banned words or AI clichés. The spelling is UK-compatible.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007819699999999999,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

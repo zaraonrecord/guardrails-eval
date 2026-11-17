@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "99233ed233658fb4ba4404e53e88fd1f8538947c58d6e3d8ea83507aa8c939bd",
+ "result": "# Publish gate report: landing hero\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. Publish time and audience weren't given.\n\n**Checks run**\n- **Claims:** one fails (see below).\n- **Regulated claims:** the draft makes no health, environmental or urgency claims, and has no guarantees or superlatives. The delivery line is a price/offer claim, covered under Claims.\n- **House style:** no banned words and no AI tells. The tone is plain and warm. The only weakness is that \"packed by hand in Bristol\" appears twice in three sentences.\n- **Disclosure:** nothing to label. It's the brand's own page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed**\n- \"Free UK delivery on all orders\" now reads \"Free UK delivery on orders over £25\". The policy only supports free delivery over £25, and \"all orders\" drops that qualifier.\n- Merged the duplicated \"packed by hand in Bristol\" lines into one.\n\n**Revised copy**\n> Loose leaf tea, every tin packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- None on the claims. If the team wants \"free delivery on all orders\", that needs a change to the shipping policy and the claims table first. My suggestion is to keep the £25 threshold.\n\n**Approver:** Sam (marketing lead). Nothing is approved yet. Sam needs to say yes to the revised copy above, not the original draft.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Landing hero | Every tin is packed by hand in Bristol | On policy list | Operations |\n| 2026-11-17 | Landing hero | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Landing hero | Free UK delivery on all orders | Unproven, corrected | Policy supports orders over £25 only |\n| 2026-11-17 | Landing hero | Free UK delivery on orders over £25 | On policy list | Shipping policy |\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0182235,
+ "seconds": 18.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

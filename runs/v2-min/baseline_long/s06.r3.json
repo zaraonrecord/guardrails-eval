@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ae35999e6c722fdb7130a567419ba2ca3718531ff9bc34d876c2ec239ae2ead6",
+ "result": "**Review of the newsletter draft**\n\nGoing sentence by sentence:\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" Product origin and sourcing. Origins are fine as written under the brand policy.\n2. \"The leaves are picked in March and taste bright and floral.\" Product fact and flavour description. Fine.\n3. \"Our customers tell us it's the only tea they drink now.\" This is a problem. It is a testimonial-style claim about customer behaviour, generalised to \"customers\" with no source, and it is not in the approved claims. It also implies the tea is so good people switch entirely, which isn't something the brand can show. Since this is a first flush arriving Monday, it is also odd that customers could already say this about it; it reads as invented or at best a stretched paraphrase. Either remove it or replace it with a real, permissioned, attributed quote.\n4. \"You'll find it in the shop from Monday.\" New arrival, fine as written under the policy.\n\nTone: the copy is plain and specific, with no AI clichés. No health, green, price or guarantee claims. No ad or affiliate disclosure is needed for a brand-owned newsletter.\n\n**Decision:** hold until the customer sentence is removed or replaced with a documented quote.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073821,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

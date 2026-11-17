@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9a6535f01f4fa31d5f4d211cb1a9eb84049e2d5e7d5508cf6a20e5716b5992fd",
+ "result": "**Publish gate report**\n\n**Going out:** a short affiliate review on the review blog, with one affiliate link.\n\n**Checks**\n- **Claims:** \"I've tried four tea subscriptions this year\" is the reviewer's own experience, not a brand claim. \"Easiest to pause\" is a personal opinion that matches our policy row \"Subscribers can pause or cancel any time\". It names no competitor and gives no figures. \"The tins are lovely\" is opinion. There are no invented stats, ratings, guarantees or testimonials.\n- **Regulated claims:** nothing touches health, money, the environment, children or prices.\n- **House style:** none of the banned words appear, and the tone is warm, plain and unhurried. I found no AI tells.\n- **Disclosure:** the policy requires \"Affiliate link\" next to the link, and the draft has it. This passes.\n\n**Fixed:** nothing. No changes were needed.\n\n**Needs a decision (optional):** the label sits at the very end, after the praise. The policy is met, but UK regulators prefer disclosure before the reader engages. Consider adding \"Affiliate link\" or a short note at the start of the post. This is a suggestion, not a blocker.\n\n**Approver:** Sam (marketing lead). No approval has been recorded yet, so this should not go live until Sam says yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0162756,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

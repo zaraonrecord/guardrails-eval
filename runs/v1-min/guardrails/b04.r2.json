@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1b338357bfa2096f269bfec82a6609b74de5a288f9e13ef6e8cfaf7de31610ad",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co., UK.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy's claims list. \"Malty, full-bodied black tea that stands up to milk\" is flavour and brewing description, \"100g tin\" is a size, and \"makes around 40 cups\" is a serving estimate. The policy treats all of these as fine as written. \"Around\" keeps the cup count appropriately soft. Nothing is unproven.\n- **Regulated claims:** No health, money, environmental, children or price claims. The organic claim is certified, so it is safe.\n- **House style:** Short, concrete and plain. No AI tells, no banned words, no padding. Nothing to rewrite.\n- **Disclosure:** This is the brand's own product on its own page, with no sponsorship, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved. One optional point: if the 40-cup figure is based on a specific serving size (for example 2.5g per cup), confirm it matches the pack.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes from you to this exact copy before it is written to the CMS. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012051300000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

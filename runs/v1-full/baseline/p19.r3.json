@@ -1,0 +1,15 @@
+{
+ "case": "p19",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "537a56434c4c0574cfad0c3b3e127780b3a0d9871bd5f84717b5e70618e87044",
+ "result": "**Review of the search ad**\n\n- **\"The UK's number one tea subscription\"**: This is an unprovable superlative, and section 3 bans \"number one\". It has to come out.\n- **\"Subscribers can pause or cancel any time\"**: This matches the allowlist wording exactly, so it's fine.\n- **\"Free UK delivery on orders over £25\"**: This also matches the allowlist exactly, so it's fine.\n- **Headline \"Tea Subscription UK\"**: This is a plain keyword headline with no claim in it. It's fine.\n- **Voice and spelling**: No banned words, and nothing here conflicts with UK spelling.\n\n**Suggested fix:** Replace the superlative with something we can back up, for example \"Loose leaf tea and plastic-free tea bags, delivered monthly.\" Then the description would read: \"Loose leaf tea and plastic-free tea bags, delivered monthly. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\" Check the character count against the description limit for the ad platform. Sam needs to approve the final version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065101,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3a6c59f863097028937b0fa43f7bed241080398878e0861a90313c800dee2e3c",
+ "result": "**Verdict: clear to publish, once Sam signs off.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy) |\n| \"Good tea, no fuss\" | Soft, not a superlative, and makes no factual or comparative claim |\n\n**Other checks**\n- **Banned words and structures:** none. There are no em-dash asides, exclamation points, rhetorical openers, or \"not just X, it's Y\" constructions. The voice is warm, plain and unhurried.\n- **Superlatives, guarantees, health or green claims, urgency:** none.\n- **Disclosure:** none needed. This is our own landing page, with no partner, gifted or affiliate content.\n- **Spelling:** UK, consistent.\n- **Approval:** the policy requires Sam (marketing lead) to approve all public content. I can't confirm that has happened, so get it before it goes live.\n- **Optional note:** the hero says \"packed by hand\" without \"every tin\". That is narrower than the allowlisted claim, so it's safe.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0100296,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

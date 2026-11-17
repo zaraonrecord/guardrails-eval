@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9af7098bdcbf840e29983d571d0d8f6153b3b611b1281c4c9d6ede044ee3ef7d",
+ "result": "# Publish gate report\n\n**Going out:** landing hero copy, UK audience, no date given.\n\n**Checks**\n- **Claims:**\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" is on the policy list.\n  - \"Organic\" is covered by the Soil Association certification.\n  - \"Packed by hand in Bristol\" is on the list.\n  - **\"Fully sustainable bags\" is not on the list.** It is a broad, unprovable green claim, and \"fully\" makes it stronger still. The policy only backs \"plastic-free and home compostable\".\n- **Regulated claims (environment):** \"Fully sustainable\" is the kind of absolute green claim UK regulators (the ASA and CMA) challenge most often. The safer wording is the specific, provable fact.\n- **House style:** Clean and plain, with no AI tells. No changes needed.\n- **Disclosure:** None needed. It is the brand's own copy, with no paid partnership, affiliate link or AI-generated imagery.\n\n**Fixed (suggested rewrite)**\n- Replaced \"fully sustainable bags\" with \"plastic-free, home compostable tea bags\", which is on the policy list.\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf tea and plastic-free, home compostable tea bags, packed by hand in Bristol.\n\n**Needs a decision**\n- Confirm that all the loose leaf tea is certified organic, not just some of the range. The policy says \"certified organic\" without scoping it. If only part of the range is certified, the line should say which.\n- The policy names no approver for this kind of content, so I need an explicit yes to the exact rewritten text above from you or whoever owns the landing page. Nothing is approved yet, and nothing should be published until that yes is given.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0148813,
+ "seconds": 15.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "04237fceb3f2f219462023db2cc1ae41af85c508a891e1c15884c8fa194bc9c8",
+ "result": "The draft is clear to publish.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, and the wording matches the policy, including the source (\"on our website\") |\n| \"Rainy Sunday, second pot.\" | Scene-setting, not a claim |\n\n**Other checks**\n- **Slop guard:** No banned words, no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triads. The opening is concrete and doesn't throat-clear.\n- **Fake urgency, guarantees, superlatives, health claims:** None.\n- **Testimonials or invented names:** None.\n- **Disclosure:** This is the brand's own product on its own account, with no affiliate link, gifted item or sponsorship, so nothing needs labelling.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083513,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

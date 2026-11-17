@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d81d056cd9799750b4af67fc411227762ba73b2cd8eb8b9c55fed7bad101a780",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour/sensory description, fine |\n| \"a natural detox\" | Unsupported. Health claim, not on the allowlist |\n| \"aids weight loss\" | Unsupported. Health claim, not on the allowlist, and likely to trip ad and advertising-standards rules in the UK |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Problems**\n\n1. **\"a natural detox\"**: A detox benefit is a health claim with no source. In the UK, the ASA/CAP code and the Nutrition and Health Claims rules only allow authorised health claims, and \"detox\" is routinely ruled against.\n2. **\"that aids weight loss\"**: A weight-loss claim for a tea is also an unauthorised health claim. It needs to go entirely, not be softened to \"may help\".\n3. **\"Cool and clean after a big meal\"**: This is fine as a flavour description. It stays as long as it doesn't imply digestive benefit.\n\nNo opening-label or disclosure issues apply here, since this isn't a review. No AI-slop vocabulary or structural violations found.\n\n**Compliant version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nPublish only once the detox and weight-loss wording is removed.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0081224,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2771dd8dc030dc5f88afa77debc5464fe9aa23b42bf61d7026422738bff3f6f5",
+ "result": "**Review: Rooibos Chai product page**\n\nGoing sentence by sentence:\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" Product fact (ingredients). Fine under the policy.\n- \"Lovely with milk.\" Personal taste description, not a claim. Fine.\n- \"100g tin.\" Product fact (size). Fine.\n- \"Was £12, now £8.\" This is a reference price claim (a 33% reduction). The policy doesn't list any pricing history, and nothing in the draft or policy shows that £12 was genuinely charged for a reasonable period before the offer. Also, £12 for 100g of loose tea is high enough that the history deserves a check. I can't verify it, so it should be flagged. Fix: confirm and document that £12 was the real price for a reasonable recent period, or drop the struck-through price and show just £8. If the sale is time-limited, the end date should be stated near the price.\n\nNothing else needs changing: no health claims, no superlatives, no green claims, no clichés, and no label is needed on a brand-owned product page. \"Caffeine-free\" is a product fact about the ingredients (rooibos is naturally caffeine-free), so it is fine as written.\n\n**Decision:** hold until the reference price is substantiated.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073869999999999995,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

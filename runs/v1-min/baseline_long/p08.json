@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57e499631f131182f7bba7cae34e8b42d2ef29f03e56dfbd30f05e7a806ad797",
+ "result": "**Review of the search ad**\n\nChannel: search ad. Short copy still needs every claim to be provable.\n\n**Sentence by sentence**\n\n1. \"Plastic-Free Tea Bags\" is on the approved list (tea bags are plastic-free). Fine.\n2. \"Our tea bags are plastic-free and home compostable.\" Also on the approved list. Fine. The claim is limited to the tea bags and doesn't stretch to packaging or the whole business, so it's not a vague green claim.\n3. \"Best tea I've ever had\" - Emma, Leeds. This is a testimonial. The brand policy doesn't list any approved testimonials or say that Emma gave permission, and there's nothing I can see that traces the quote to a real customer review. It's also a superlative, though personal opinion from a customer is allowed when clearly attributed to them. The problem is the provenance: a first name and town with no source, permission or link to a real review. Until the team confirms it's a real customer quote, used with permission, I'd treat it as unsupported. Also, the quote is attached to the brand's claims in an ad about tea bags, and it isn't clear that Emma was talking about the tea bags.\n\n**Style:** No clichés or filler. The copy is plain and specific.\n\n**Labels and conditions:** Nothing is missing that the claims need. It's the brand's own search ad, so it will be recognisable as an ad in the results.\n\n**Decision:** Hold. The compostable and plastic-free claims are fine; the testimonial can't be verified from what I have. If the team confirms it's a genuine, permitted customer review (ideally from the website's reviews), it can go out as is. Otherwise, remove it or replace it with the approved \"rated 4.8 out of 5 from over 1,200 reviews on our website\" line.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110245,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

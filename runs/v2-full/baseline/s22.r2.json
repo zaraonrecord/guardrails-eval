@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ded1da6527fbc7195b9ccf946e9372b483a534d137d9f69a345a0a653ca7a838",
+ "result": "**Review: landing hero**\n\n**Needs changing**\n- **\"Free UK delivery on all orders.\"** This overstates the offer. Our shipping policy covers free UK delivery on orders over £25 only. As written, it promises free delivery on every basket. Use the approved wording: \"Free UK delivery on orders over £25.\"\n\n**Checked and fine**\n- \"Packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol.\"\n- \"Certified organic by the Soil Association\" is on the allowlist, with the certificate on file and renewed for 2026.\n- There are no superlatives, guarantees, health claims, green claims, invented numbers, or false urgency.\n- The voice is plain and warm, there are no banned words, and the spelling is UK.\n\n**Suggestion (not a policy issue)**\n- The first sentence and the start of the second say the same thing (\"packed by hand in Bristol\" twice). Cut one, for example: \"Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nAs with all public content, Sam needs to approve the corrected version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116041,
+ "seconds": 16.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

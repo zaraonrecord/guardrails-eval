@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cc8d6d619dc0d5ab5d3e2edca886bb02de434f038acab5424dddd1a6b0818c1f",
+ "result": "Review findings:\n\n1. **\"Elevate your mornings\"** uses a banned word (\"elevate\"). It also sits oddly against the warm, plain, unhurried voice. Suggested fix: cut it, or say something like \"Here's what's in this month's box: a smoky lapsang and a soft white peony.\"\n\n2. **Claims check.** \"Pause or cancel any time\" matches the allowlist wording (subscription terms). \"Left Bristol this morning\" is an operational fact about this order, which is fine if true, and the flavours are product facts the product team covers. No other claims, health statements, urgency or invented numbers.\n\n3. **Disclosure.** This is our own email to a subscriber, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\n4. **Spelling.** UK spelling is fine; nothing to change.\n\n5. **Minor note.** The subject says \"October tins\" while today is 17 November. If this is a November dispatch, the subject may be out of date. Please confirm with Sam before sending. I haven't flagged it as a policy issue, since the draft doesn't say otherwise, but it's worth a check. Also, the body says \"subscription box\" while the subject says \"tins\"; consistent wording would read better.\n\nNeeds Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007077799999999999,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

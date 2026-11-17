@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f7fa51fa3151b562987c67fb7b83a4150c41f6c47b1a61d1ec0d6c931bbca2f9",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- \"Just peppermint leaves, nothing else.\" This is an ingredient fact, which is fine as written.\n- \"Cool and clean after a big meal.\" This is a flavour description. It does not claim digestion benefits or any other health effect, so it is acceptable.\n- \"Certified organic by the Soil Association.\" This is on the claims allowlist.\n\nThe copy has no invented stats, superlatives, guarantees, testimonials, urgency, or environmental claims. Nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0043246,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

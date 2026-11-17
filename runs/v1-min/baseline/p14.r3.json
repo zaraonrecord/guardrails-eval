@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "01d268593b10d4f68a00966af5beefaf7dd8409bd05c636aadfd039b9a12ad92",
+ "result": "**Review of the draft (review blog, affiliate)**\n\n**Needs changing**\n- **Missing affiliate disclosure.** \"You can find it here\" is presumably an affiliate link, but nothing tells readers the blog earns a commission. UK rules (ASA/CAP code and CMA guidance) require this to be clear and upfront, not buried. Add a label at the very start, such as \"Ad / Affiliate link: I earn a commission if you buy through my links,\" and ideally repeat it next to the link.\n\n**Checked and fine**\n- \"Easiest to pause\" matches the brand's backed claim that subscribers can pause or cancel any time. As the reviewer's own comparison from personal experience, it reads as opinion rather than an objective superlative. It is fine as long as the author really did try the four subscriptions.\n- \"The tins are lovely\" is a subjective opinion, with no factual or health claim.\n- There are no invented stats, guarantees, green claims, health claims or fake urgency.\n\n**Note for the author:** \"I've tried four tea subscriptions this year\" is a first-person experience claim. Only keep it if it's true.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095093,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a4ed7a5d3468594b6268c674770b1208f478b1af48c786efe5a5e84e4e193d75",
+ "result": "**Review: newsletter draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| The Christmas blend is back | Product fact, fine |\n| Black tea, orange peel, cinnamon and a little clove | Ingredients, fine as written |\n| Back in the shop from today | New product arriving, fine (the product team should confirm the date is right) |\n| \"selling fast\" | **Unsupported.** Nothing in the policy backs it. It implies scarcity or demand we can't verify, which falls under the \"urgency that isn't true\" rule. |\n\n**Other checks**\n- No banned words, em-dash sandwiches, exclamation points or rhetorical openers.\n- No health, green, superlative or guarantee claims.\n- No disclosure needed, since this is our own newsletter and not a paid or gifted post.\n- UK spelling is fine.\n\n**Fix:** cut \"and selling fast\". The line still works without it.\n\nSuggested version:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\nPer the approvals table, Sam should sign off before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0091761,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

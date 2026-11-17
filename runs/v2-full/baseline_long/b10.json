@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** \"Certified organic by the Soil Association\" matches the approved wording exactly, and the certificate is on file. \"Plastic-free tea bags\" is covered by the plastic-free claim in the policy. \"20 plastic-free tea bags\" is a pack count, which counts as a product fact the product team checks. \"Caffeine-free\" is an ingredient fact, and \"gentle, honeyed\" describes flavour.\n- **Health:** \"for the evening\" only says when to drink it. It doesn't mention sleep, relaxation or calm as an effect on the body, so it isn't a health claim.\n- **Other checks:** There are no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims beyond the approved ones. No ad or affiliate label is needed on the brand's own product page.\n- **Voice:** The copy is warm, plain and unhurried, uses UK spelling, and has none of the banned words or AI clichés.\n\nOne optional note: \"honeyed\" should describe the flavour. If the blend doesn't actually contain honey, the product team should confirm the word is right, but this isn't a reason to hold the page.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009367,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

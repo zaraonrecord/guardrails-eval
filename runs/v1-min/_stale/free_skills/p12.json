@@ -1,0 +1,11 @@
+{
+ "case": "p12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: not ready to publish as written.**\n\n**Problem: no paid-partnership disclosure.** This is a paid creator post, and nothing in it says so. In the UK, the ASA/CMA rules require a clear label up front, before the reader gets to the brand mention. Put something like \"Ad\" or \"Paid partnership with Pebblebrook Tea Co.\" at the very start (or use the platform's paid-partnership tool as well). A footer or hashtag buried at the end isn't enough.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"which I love\" | Personal opinion, fine if true |\n\nThere are no invented stats, superlatives, guarantees, health claims, green claims, urgency or slop-list words in the draft.\n\n**One thing to confirm (not a copy change):** \"My afternoon reset is a pot of…\" implies the writer actually drinks this tea regularly. Please confirm whether they own or have tried it (and for how long), or whether it was gifted for this post. If gifted, say so in the disclosure. If they haven't used it, the first line has to change, because hands-on claims are only allowed for tea they've actually drunk.\n\n**Fix:** add the disclosure at the start, e.g. \"Ad | Paid partnership with Pebblebrook Tea Co. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014450300000000001,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

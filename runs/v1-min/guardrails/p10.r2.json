@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9503ce523406aeab66abee6ef76bbb4c6f758ecd65b34f0acd3becc49572878a",
+ "result": "## Publish gate report\n\n**Going out:** Email to Tom (UK list), announcing the new Japanese sencha. No send time given.\n\n**Checks**\n- **Claims:** Pass. The sencha, its flavour and the brewing temperature are product facts and fine as written. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Pass. There are no health, money, environment, price or urgency claims. \"Green tea\" here is the tea type, not an environmental claim.\n- **House style:** One fix. \"It's not just tea, it's a ritual\" is a stock \"not X, it's Y\" reversal and a slogan-style line that adds nothing. The policy has no voice words or banned list, so I judged it on plain, specific wording only.\n- **Disclosure:** Pass. This is the brand's own product email, with no sponsor, affiliate link, gifted product or AI-generated content to label.\n\n**Fixed (suggested rewrite)**\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. Grassy and a little sweet, it's best brewed cooler than you think, around 70°C.\n>\n> The Pebblebrook team\n\nChanges:\n- Cut the \"not just tea, it's a ritual\" line.\n- Changed \"70 degrees\" to \"70°C\" so the unit is clear.\n\n**Needs a decision**\n- Please confirm the rewritten version is the one to send. The original should not go out as written.\n- The policy names no approver, so I need an explicit yes to this exact text from you or whoever owns the send. Nothing is approved yet.\n- Optional: add a link to the sencha. The email says it's \"in the shop\" but gives no way to get there.\n\n**Approver:** None named in the policy, so you.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012250100000000002,
+ "seconds": 15.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

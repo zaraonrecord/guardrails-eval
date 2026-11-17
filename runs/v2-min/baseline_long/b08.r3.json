@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e46524ffb9a98d0d3562f5d63542039618345c5164a5e94916214ccf6781c2c0",
+ "result": "**Review of the landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is a loose paraphrase of the approved claim that subscribers can pause or cancel any time. I'd accept it.\n- **\"Subscribers can pause or cancel any time\"** is on the brand's approved list.\n- **\"free UK delivery on orders over £25\"** is also approved, and the threshold is stated correctly.\n- **\"means most boxes ship free\"** is the problem. The approved claim is only that delivery is free over £25. Saying that *most* boxes ship free asserts something about typical order values, and the brand has no evidence for that. It is an implied statistic. It also blurs the £25 condition, because boxes under £25 don't ship free. The fix is to drop the \"most boxes\" line and state the offer plainly, for example: \"Free UK delivery on orders over £25.\"\n\nThe style is fine, with no clichés or filler. Fix the one claim and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085039,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

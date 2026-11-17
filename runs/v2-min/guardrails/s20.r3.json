@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b1ab4b6e7f737d0019dd1f39cb53b2a3413bf58cea5db33206a57699f911af55",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (UK list), sent by the Pebblebrook team. No send time was given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The brewing details (mug, sieve, four minutes for black tea, shorter and cooler for green) are product facts, which the policy allows as written. Nothing needs logging.\n- **Regulated claims:** There is no health, money, legal, environmental, children or price content. Pass.\n- **House style:** The sentence \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is a stock filler line. It says nothing specific and reads like generic AI copy. The rest of the email is plain and concrete. The policy has no voice section, so I couldn't give a full score.\n- **Disclosure:** This is the brand's own editorial email. It has no sponsor, affiliate link, gifted product or AI-generated imagery, so no label is needed. Pass.\n\n**Fixed (suggested edit, not yet applied to a final version):**\n- Cut the \"seasoned tea lover… a cup for everyone\" sentence. The email works without it, or you could swap in something concrete, such as \"Pour the water just off the boil for green tea.\"\n\n**Needs a decision:**\n- Confirm the edited version is the final copy. Any change means a new check.\n- The policy names no approver, so the user needs to give an explicit yes to the exact final text before it is sent.\n\n**Approver:** None named in the policy, so you as the user.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120165,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e46524ffb9a98d0d3562f5d63542039618345c5164a5e94916214ccf6781c2c0",
+ "result": "**Review of the landing hero copy**\n\n- **\"Tea that's easy to stop and start.\"** This is description and framing, and it fits the approved claim that subscribers can pause or cancel any time. No problem.\n- **\"Subscribers can pause or cancel any time\"** is on the approved claims list. No problem.\n- **\"free UK delivery on orders over £25\"** is approved, and the threshold is stated correctly.\n- **\"means most boxes ship free\"** is the problem. The brand can prove the £25 threshold, but it has no evidence about how many orders or boxes clear it. \"Most\" is an unsourced quantity claim. It also implies a typical order is over £25, which the draft can't support. A single box may well fall under the threshold, and \"boxes\" isn't how the brand describes its products (tins, loose leaf and tea bags). A reader could expect free delivery on a typical subscription order and be charged at checkout.\n\n**Suggested fix:** drop the \"most boxes\" inference and state the condition plainly, for example: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free across the UK on orders over £25.\"\n\nThe draft should be held until that phrase is changed.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092039,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

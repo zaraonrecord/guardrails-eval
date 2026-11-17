@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Verdict: hold. One claim needs checking before this goes out.**\n\nSentence by sentence:\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the approved claims list (Companies House). It's fine.\n- **\"We're a small team of six\"** Team size is a product-team-checked fact and can be used as written. It's fine, as long as six is still the current headcount.\n- **\"every tin is packed by hand in Bristol.\"** This is on the approved claims list (Operations). It's fine.\n- **\"We buy from gardens we've visited.\"** This is a claim about how the company sources its tea, and it isn't on the approved list. The policy covers where a tea is grown and when it's picked, but not a claim that the team has visited every garden it buys from. \"Gardens\" is plural and \"we've visited\" is absolute, so it implies all suppliers. Nothing in front of me shows that's true. Either the team gets written confirmation from sourcing that every supplying garden has been visited, or the line is reworded to something provable (for example, naming specific gardens the team has visited).\n\nTone and style: the copy is plain and warm, with no banned words, no clichés and UK spelling. There are no health, green, superlative, guarantee, urgency or label issues. Once the sourcing line is confirmed or fixed, this is good to go, subject to Sam's approval.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012468400000000001,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

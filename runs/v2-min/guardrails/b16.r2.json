@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "256b46108f072791feac7516415b99dfc778d3f37dfaf91f6c313203bdab57ba",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, UK audience, Pebblebrook Tea Co.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | On the policy list (4.8 out of 5, over 1,200 reviews, on our website). The wording matches. |\n| \"Organic loose leaf\" | On the policy list (certified organic by the Soil Association). |\n| \"plastic-free bags\" | On the policy list (plastic-free tea bags). |\n| \"packed by hand in Bristol\" | On the policy list (every tin is packed by hand in Bristol). |\n\n**Regulated claims:** \"Plastic-free\" is a green claim, but it is narrow, specific and on the policy list, so it is fine. There are no health, money, price or urgency claims.\n\n**House style:** No AI tells, no banned words and no padding. It is short, concrete and plain.\n\n**Disclosure:** This is the brand's own page, so there is no ad, affiliate, sponsorship or AI-labelling requirement.\n\n**Fixed:** Nothing needed changing.\n\n**Worth a glance (not blocking):**\n- The policy says \"every *tin* is packed by hand.\" If the plastic-free bags ship in boxes or pouches rather than tins, \"packed by hand\" covers them only loosely. If that's the case, say \"every tin packed by hand in Bristol.\"\n- Confirm the rating and review count are still current on the site. The page can't claim more than the live review numbers show.\n\n**Approver:** The policy names no approver, so please confirm with the user (the account holder) or the person who owns the page. I haven't recorded any approval, and I can't, because I have no tools in this session. Someone needs to say an explicit yes to this exact copy before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0131491,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

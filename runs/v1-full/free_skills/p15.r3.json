@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e26fafff2970460ff13c2d924ef7dc2ac58612615678cab66afb7b5965feea12",
+ "result": "**Not ready to publish.** Two claims break the brand policy.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export, Oct 2026) |\n| \"The finest organic loose leaf\" | **\"finest\" is an unprovable superlative (section 3).** \"Organic\" is backed, but only as \"Certified organic by the Soil Association\" |\n| \"eco-friendly bags\" | **General environmental claim, banned (section 3).** The backed claim is \"plastic-free and home compostable\" |\n| \"packed by hand in Bristol\" | Allowlisted, but the wording covers \"every tin\". Check that the bags are also packed by hand, or keep the claim to the tins |\n\n**Other checks**\n- No banned voice words, no exclamation marks, no fake urgency, no invented numbers.\n- Under the claims-guard rule, the landing page must make any claim that ads make. This is the landing page, so the claims here are the source.\n- Per section 6, Sam needs to approve it before it goes live.\n\n**Suggested rewrite**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf tea, and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014870600000000001,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b081d924c786535a6a0e0a4face0134c412d8b5ff027c08fa2a987023697bb1b",
+ "result": "**Review of the subscription dispatch email**\n\n**Claims check**\n- \"Your subscription box left Bristol this morning\": fits the brand's Bristol base. This is a transactional dispatch statement, so the team should confirm it is true for this order.\n- \"a smoky lapsang and a soft white peony\": product description, fine as written.\n- \"you can pause or cancel any time from your account\": on the approved list.\n- No health, green, price, urgency, guarantee or superlative claims. No ad or affiliate label is needed for the brand's own email to a subscriber.\n\n**Style and tone**\n- \"Elevate your mornings:\" is generic filler, in the same family as \"take it to the next level\". It doesn't fit a short, plain dispatch note. It also reads as a tacked-on slogan, since the colon leads straight into the product details. Cut it and let the teas speak: \"This month it's a smoky lapsang and a soft white peony.\"\n\n**Optional check, not a blocker**\n- The subject says \"October tins\" while the body says \"subscription box\". Check that the wording is consistent and that the month is right for the send date.\n\nThe copy is otherwise accurate, but the cliché should be fixed before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0102762,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

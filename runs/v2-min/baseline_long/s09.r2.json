@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4d02a21a8efead0faab2341f170c7086f647d6557aacc657c7920a61db311174",
+ "result": "**Review: peppermint product page**\n\nSentence by sentence:\n\n1. \"Peppermint. Just peppermint leaves, nothing else.\" Product fact (ingredients). Fine.\n2. \"Cool, clean and gentle on your stomach after a big meal.\" \"Cool, clean\" is sensory description and fine. \"Gentle on your stomach after a big meal\" is a claim about an effect on the body (digestion). It is a soft health claim, and it isn't in the brand's approved list. Product facts cover ingredients, flavour, sizes, brewing and origins, not digestive effects. Fix: describe the taste or occasion instead, e.g. \"Cool, clean and fresh, a good cup to finish a big meal.\" Even that should be kept to taste rather than effect.\n3. \"Certified organic by the Soil Association.\" Approved claim. Fine.\n\nNo ad-label issues (brand's own product page), no pricing, urgency, green or superlative claims, and no clichés.\n\nDecision: hold until the digestive wording is changed.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084085,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

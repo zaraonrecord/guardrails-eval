@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1c9f2139f383c92476f7a0ae0409c2439124ed745f93a87e76767e26edfc9713",
+ "result": "**Going out:** Instagram post from Pebblebrook's own account, announcing the new winter tins.\n\n**Checks**\n- **Claims:** \"plastic-free\" and \"home compostable\" match the policy row word for word (supplier certificate, EN 13432). The new tins, their colours and their lettering are product facts the product team has already cleared. There are no stats, superlatives, guarantees, health claims or urgency.\n- **Regulated claims:** the only environmental wording is the policy-approved claim, with no broader \"eco\" or \"sustainable\" language. Nothing touches health, money, children or prices.\n- **House style:** warm, plain and unhurried, with no banned words and no AI tells. The one weak spot is that \"plastic-free\" appears twice in three sentences. It reads fine, so I left it alone. If you want it tighter, you could cut the last sentence or merge it into the second: \"…and the same plastic-free, home compostable tea bags inside.\"\n- **Disclosure:** this is the brand's own organic post, with no creator, affiliate link or gifted product, so no label is needed.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** nothing.\n\n**Approver:** Sam (marketing lead). The post is clear to go, but it shouldn't be published until Sam has given an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011441400000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

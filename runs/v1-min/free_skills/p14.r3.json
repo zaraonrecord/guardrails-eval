@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "68db0bdc0c33b9957b9eaba46ae9233d06e9b51e2bfc2fedc384b3a0777e5e7b",
+ "result": "**Not ready to publish.** Here is the check, product by product.\n\n**Product label**\n| Product | Label | Hands-on claims |\n|---|---|---|\n| Pebblebrook subscription | **Not given** | \"easiest to pause\", \"the tins are lovely\" |\n\nI can't assume ownership. Please confirm whether you own it, tried it (how, and for how long), or only researched it. If it's only researched, both hands-on claims have to go.\n\n**Problems**\n1. **No affiliate disclosure.** The post ends with an affiliate link (\"You can find it here\"), but nothing declares that before the first link. Add a plain-words line at the top, e.g. \"This post contains affiliate links, so I earn a commission if you buy through them.\"\n2. **\"Easiest to pause\" is an unsupported superlative.** It compares against three unnamed subscriptions with no basis given. What we can back up is that subscribers can pause or cancel any time. If you did compare them, name the others and say what made Pebblebrook easier (e.g. number of steps).\n3. **\"The tins are lovely\" is an unlabelled hands-on claim.** It's only valid if you've handled the tins. It's also vague, so say what you actually liked. Pebblebrook's packing detail is that every tin is packed by hand in Bristol, which you can use as a sourced fact.\n4. **\"I've tried four tea subscriptions this year\" is unverified.** It's a first-person experience claim, and I can't confirm it. Keep it only if it's true, and ideally name the four.\n\n**Suggested compliant version (once you confirm the label and the facts):**\n\n> *This post contains affiliate links. I earn a commission if you buy through them, which doesn't change my verdict.*\n>\n> I've tried four tea subscriptions this year: [names]. Pebblebrook's was the one I found simplest to pause: [what you did, e.g. steps]. Subscribers can pause or cancel any time. The tins are [specific detail you observed]. [Affiliate link]\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"the tins are lovely\", \"type\": \"other\"}, {\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0158857,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

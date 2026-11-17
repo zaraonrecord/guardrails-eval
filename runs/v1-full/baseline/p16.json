@@ -1,10 +1,14 @@
 {
  "case": "p16",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy.\n\n**Problem found**\n\n- **\"Today only: 30% off, ends at midnight.\"** This is fake urgency. Section 3 bans \"today only\" and countdown-style deadlines unless a real offer with an end date is in the policy, and none is. The 30% discount itself is also not in the policy, so it isn't an approved offer. Either remove the line or get Sam to confirm a real offer, with its dates, and add it to the policy before it is used.\n\n**Fine as written**\n\n- \"Black tea, orange peel, cinnamon and a little clove\" is a product fact, so it's cleared by the product team.\n- \"The Christmas blend is back\" and \"It's back in the shop\" are new-product-arrival facts and are fine. They are a little repetitive, so you could merge them into one sentence.\n- Voice is warm and plain, with no banned words. Spelling is fine.\n\n**Approval:** Sam needs to sign off before anything public goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
- "cost_usd": 0.0079941,
- "seconds": 10.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "af2200f38df4339fda80357ee53f33104a7ef3ac553df818b7ddfe1fcf11e6c4",
+ "result": "**Review of the newsletter draft**\n\n**Problem: fake urgency.** \"Today only: 30% off, ends at midnight.\" The policy says there is no real offer with an end date, so \"today only\" and the midnight countdown can't be used. The 30% discount itself also isn't in the policy, so it can't go out unless Sam confirms a real offer exists. Either way, this line needs to come out or be replaced by something Sam approves.\n\n**What's fine:**\n- The blend description (black tea, orange peel, cinnamon, clove) and \"back in the shop\" are product facts, which are fine as written.\n- The tone is warm, plain and unhurried, apart from the urgency line, which pushes against \"unhurried\".\n- No banned words, and the spelling is fine.\n\n**Minor note:** \"It's back in the shop\" repeats \"the Christmas blend is back\" from the line before. You could cut one, for example: \"Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n\n**Approval:** Everything public needs Sam's sign-off before it goes out.\n\n**Verdict:** Do not publish as is. Remove the \"today only\" offer and the midnight deadline, then send to Sam.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069906,
+ "seconds": 8.1,
  "models": [
   "claude-sonnet-5-5"
  ]

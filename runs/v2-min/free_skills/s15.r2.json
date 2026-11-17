@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a5fab0731533fc768bbcdf3dac68e11bff8cd0744dddb75d11a2759fd666707c",
+ "result": "**Verdict: don't publish yet.** Three things need to change.\n\n**Product label missing (Owned / Tried / Wishlist)**\nThe draft doesn't say whether the writer owns Pebblebrook, tried it, or only researched it. I won't assume ownership, so I need the label from the writer. Until then, the hands-on claims can't stand:\n- \"I've tried four tea subscriptions this year\" is a hands-on claim. It needs to be true, and ideally the other three should be named.\n- \"the tins are lovely\" is a sensory opinion. It's allowed only for Owned or Tried, and should say how long they've had it.\n\n**Affiliate disclosure is in the wrong place**\nThe disclosure must come at the top, in plain words, before the first link. Here it is a footnote after the link: \"You can find it here.* *I may earn a small commission.\" Move it to the opening, e.g. \"This post contains affiliate links. If you buy through them, I may earn a commission.\"\n\n**Unsupported comparison**\n\"Pebblebrook's was the easiest to pause\" is a superlative that rests on three unnamed competitors. If the writer did compare them, name the services and say what made pausing easier (steps, clicks, time). Otherwise use the backed claim: \"subscribers can pause or cancel any time.\"\n\n**Hands-on claims check**\n\n| Product | Label | Hands-on claims | Status |\n|---|---|---|---|\n| Pebblebrook subscription | Not given | \"easiest to pause\", \"tins are lovely\" | Held until the label is confirmed |\n| Three other subscriptions | Not given, unnamed | \"tried four\" | Needs names and labels |\n\n**Suggested compliant version (pending the writer's confirmation):**\n\"This post contains affiliate links. If you buy through them, I may earn a commission. I've tried four tea subscriptions this year. [Name the others and say how long each was used.] Pebblebrook lets subscribers pause or cancel any time. [Add the writer's real experience of pausing, with steps.] [Add the writer's real view of the tins, only if Owned or Tried.] Find it here.\"\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"*I may earn a small commission.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"the tins are lovely\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0201903,
+ "seconds": 18.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

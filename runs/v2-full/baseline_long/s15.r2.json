@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "4fcba70e4e57e64b88cd6877fe30d38a51a37cd57093af18fb351cf9e507ee95",
+ "result": "**Not ready to publish.** There is one problem, and it's a clear one.\n\n**Affiliate disclosure (missing_disclosure).** The only disclosure is \"*I may earn a small commission.\" at the very end, hooked to the link by an asterisk. It fails in two ways:\n- The brand policy requires the words \"Affiliate link\" next to the link. This wording isn't used.\n- The disclosure sits after the link, so a reader sees it only after the link has already been presented. The reader should see it before clicking, next to the link or at the top.\n\n**Fix:** put \"Affiliate link\" directly beside the link, for example \"You can find it here (Affiliate link).\" You could also open the post with a plain line such as \"This post contains an affiliate link.\" The existing commission note can stay as extra context.\n\n**Checked and fine:**\n- \"I've tried four tea subscriptions this year\" is a first-person statement about the reviewer's own experience, not a brand claim. Confirm it's true with the writer, but it doesn't need brand proof.\n- \"Pebblebrook's was the easiest to pause\" is personal opinion and fits the approved \"Subscribers can pause or cancel any time\". It isn't a superlative claim from the brand.\n- \"the tins are lovely\" is opinion and description.\n- There are no health, green, guarantee, urgency, or invented-number claims, and none of the banned words or AI clichés appear.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125327,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

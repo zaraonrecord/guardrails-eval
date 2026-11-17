@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "07de8af5cd50b0680597b18ce3aea97b98ed0c6dd19f2fe9ad9ee53a0fe38809",
+ "result": "I went through the draft sentence by sentence.\n\n- **\"Rooibos Chai.\"** Product name. Fine.\n- **\"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\"** Ingredients and a basic product fact. Rooibos is naturally caffeine-free, and the policy treats ingredients and flavour as product-team-checked facts that are fine as written. \"Caffeine-free\" describes the composition and makes no effect on the body, so it isn't a health claim.\n- **\"Lovely with milk.\"** Serving suggestion and mild opinion. Fine.\n- **\"100g tin.\"** Tin size is a product fact. Fine.\n\nOther checks:\n- No superlatives, guarantees, testimonials, statistics, urgency, environmental claims or health claims.\n- No banned words from the voice list. The tone is plain and warm, with no AI clichés.\n- UK spelling is consistent, and there are no spelling issues.\n- No creator or affiliate content, so no label is needed.\n- No prices or offers appear, so there are no conditions to check.\n\nThe copy is short, accurate and in the brand's voice. It can go out, subject to Sam's usual approval for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006942299999999999,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f0a193053ad3d3910d212a17ae5cd4b027b935f39554e6520d048acd5c82f0c4",
+ "result": "**Publish gate report: Instagram (own account), Pebblebrook Tea Co.**\n\n**Going out:** Instagram post from the brand's own account, announcing new winter tins.\n\n**Checks**\n\n1. **Claims**\n   - \"made with zero waste from farm to cup\": not on the policy list. Section 3 bans \"zero waste\" outright, and nothing backs it. Remove.\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list (EN 13432 supplier certificate). Fine.\n   - \"the same plastic-free tea bags inside\": the plastic-free part is covered. Fine.\n   - \"New tins just landed for winter\" and \"Deep green, gold lettering\": product facts (new products arriving, product description). Fine.\n\n2. **Regulated claims (environment):** \"zero waste\" is exactly the kind of broad green claim regulators challenge, and the UK CMA Green Claims Code expects such claims to be specific and substantiated. Safer version: stick to the certified, specific claim already in the draft.\n\n3. **House style:** No banned words. Voice is fairly warm and plain. The last sentence repeats \"plastic-free\" from the sentence before it, which reads as padding. Score about 80 before, higher after tightening.\n\n4. **Disclosure:** Own-account organic post, no paid partnership, affiliate link, gifted product or creator involved. No label needed.\n\n**Fixed (suggested rewrite):**\n> New tins just landed for winter. Deep green with gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\nChanges: removed \"zero waste\" claim, merged the duplicated plastic-free line into one sentence, no new facts added.\n\n**Needs a decision:** None, if you accept the rewrite. If the team wants a \"farm to cup\" line, it needs a specific, provable fact (for example, the Soil Association organic certification) rather than a broad claim.\n\n**Approver:** Sam (marketing lead). The original draft should not go out. Once Sam gives an explicit yes to the rewritten text, it can be published. No approval has been recorded, so I'm not publishing.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012219500000000001,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

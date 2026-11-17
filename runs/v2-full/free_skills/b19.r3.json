@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "515783309eb1bbd6514439434907e660b47a96a69eb1d41ef36aa69104d8458c",
+ "result": "**Review result: clear to publish, with Sam's sign-off.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, covered by product facts in the policy |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, covered by product facts |\n| \"You don't need any kit\" | Plain how-to statement, not a performance claim |\n\n**Checks**\n- **Unsupported claims:** there are no stats, superlatives, guarantees, testimonials, review counts or awards.\n- **Health and green claims:** none.\n- **Urgency:** none.\n- **Disclosure:** this is our own email, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Voice:** it reads warm, plain and unhurried. It has none of the banned words or structures, no exclamation marks, no rhetorical-question opener and no em-dashes. The first sentence gets straight to the point.\n- **Spelling:** nothing in the copy conflicts with UK spelling.\n\n**Before sending:** the policy says Sam (marketing lead) approves everything public, so get Sam's approval first.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101147,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

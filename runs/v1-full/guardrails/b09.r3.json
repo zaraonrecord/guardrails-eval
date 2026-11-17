@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9bfbb66ceec52bea27431d2e9da8ce641e1c2d383115fadef133672680f1d238",
+ "result": "**Going out:** Search ad, headline \"Plastic-Free Tea Bags\", description with two claims.\n\n**Checks**\n\n1. **Claims**\n   - \"Plastic-Free Tea Bags\" matches the policy row \"Our tea bags are plastic-free and home compostable\" (supplier certificate, EN 13432). Pass.\n   - \"Our tea bags are plastic-free and home compostable\" is the exact policy wording. Pass.\n   - \"Founded in Bristol in 2019\" is the exact policy wording (Companies House). Pass.\n   - The policy list has no review-date problems; the review export is dated October 2026 and isn't used here anyway.\n\n2. **Regulated claims:** This is an environmental claim, but it is specific and matches the certified wording (plastic-free, home compostable, EN 13432). It makes no broad \"eco\" or \"sustainable\" claim. Pass. The landing page should show or back up the certification, since an ad can't claim more than its page supports.\n\n3. **House style:** Voice is plain and warm enough for ad copy. There are no banned words and no AI tells. UK spelling is fine. Pass.\n\n4. **Disclosure:** This is the brand's own paid search ad, with no creator, affiliate or AI-generated content. No extra label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One suggestion: confirm the landing page mentions the home compostable certification.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to this exact copy before it goes live. I haven't recorded any approval. I have no tools in this session, so once Sam approves, the approval command (`approve.py --by \"Sam\" --what \"...\"`) needs to be run in your terminal before the publish is retried.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0089049,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

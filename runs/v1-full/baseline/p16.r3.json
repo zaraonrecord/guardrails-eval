@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "af2200f38df4339fda80357ee53f33104a7ef3ac553df818b7ddfe1fcf11e6c4",
+ "result": "Review of the newsletter draft:\n\n**Problems**\n\n1. **\"Today only: 30% off, ends at midnight.\"** The policy says urgency must not be used unless a real offer with an end date is in the policy, and there is none. A \"today only\" countdown-style deadline and a 30% discount are not backed by anything on file. This needs to be removed, or Sam needs to confirm a real offer and it needs to be added to the policy first.\n\n**Checked and fine**\n\n- Blend description (black tea, orange peel, cinnamon, clove) and \"back in the shop\" are product facts and new-product arrivals, which the product team checks and are fine as written.\n- Voice is warm, plain and unhurried apart from the pressure of the deadline line. No banned words. Spelling is UK-compatible.\n- No health, environmental, superlative or guarantee claims, and no disclosure label is needed for our own newsletter.\n\n**Suggested fix:** Delete the last sentence. Something like \"Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop.\" Also needs Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006790600000000001,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

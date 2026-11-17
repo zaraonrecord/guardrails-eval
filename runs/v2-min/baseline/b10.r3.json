@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1ed8d977712d8352c3d767a518588826b837a9607ad86e12538abc2738d05a22",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"20 plastic-free tea bags\"** is allowed, since the tea bags are plastic-free. The count is a product fact.\n- **\"Caffeine-free blend\"** and **\"honeyed\"** describe ingredients and flavour, which the policy allows as written.\n- **\"Gentle\"** and **\"for the evening\"** describe the taste and when to drink it. They don't claim the tea helps with sleep, relaxation, or anything else medical, so I don't read them as health claims.\n- There are no invented stats, superlatives, guarantees, testimonials, urgency tactics, or unsupported green claims. The copy is short and specific, with no filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0068742000000000004,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

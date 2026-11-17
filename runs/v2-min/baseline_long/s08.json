@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "87979776fbe7f1a2bd288b4e9cb4d4a2e493d7444bd6e65f8854dc88e75363c2",
+ "result": "**Review: \"A new green tea\" email**\n\nGoing sentence by sentence:\n\n- **Subject: \"A new green tea\"**: Plain description of a new arrival. Fine.\n- **\"We've added a Japanese sencha to the shop.\"**: Product fact / new arrival. Fine.\n- **\"It's grassy, a little sweet\"**: Flavour description. Fine.\n- **\"packed with antioxidants\"**: This is a health/nutrition-style claim. Antioxidants are not in the brand's approved claims, and \"packed with\" implies a body benefit. There's no evidence provided. Flag it. Fix: remove it, or replace it with flavour or origin details (e.g. \"grassy, a little sweet, with a clean finish\").\n- **\"best brewed cooler than you think, around 70 degrees\"**: Brewing advice, a permitted product fact. Fine. (Minor: \"70 degrees\" could say \"70°C\" for clarity, optional polish.)\n- **Sign-off**: Fine for a brand-owned email. No ad label needed.\n\nNo superlatives, stats, urgency, guarantees, or green claims. Tone is natural and specific, with no AI clichés.\n\n**Decision:** Hold until \"packed with antioxidants\" is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092445,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

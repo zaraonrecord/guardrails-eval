@@ -1,10 +1,14 @@
 {
  "case": "b07",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I found nothing in this draft that needs changing.\n\n- **Founding claim:** \"We started Pebblebrook in Bristol in 2019\" matches the allowlisted \"Founded in Bristol in 2019\" (Companies House).\n- **Compostable claim:** \"Our tea bags are plastic-free and home compostable\" uses the exact allowlisted wording, backed by the EN 13432 supplier certificate.\n- **Origin reason:** \"because we couldn't find tea bags without plastic in them\" is a brand story, not a statistic, superlative, guarantee or health claim, so it doesn't break any rule. It isn't on the allowlist, so it's worth a quick check with Sam that it's how the founders tell it.\n- **\"Here's how we checked\":** The rest of the post should explain the checking. If it goes beyond the EN 13432 certificate, such as extra claims about breakdown time or environmental impact, it needs the same review.\n- **Voice and spelling:** The tone is warm and plain, there are no banned phrases, and nothing conflicts with UK spelling.\n- **Approval:** All public content needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0108101,
- "seconds": 10.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5299a78a31ad33e3d594ea53bf10ef7338295aea644ed0862ec43eb707b9a85e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"We started Pebblebrook in Bristol in 2019\"** matches the allowlisted claim \"Founded in Bristol in 2019\" (Companies House).\n- **\"Our tea bags are plastic-free and home compostable\"** uses the allowlisted wording exactly, backed by the EN 13432 supplier certificate.\n- **\"because we couldn't find tea bags without plastic in them\"** is a founding-story motivation. It isn't a statistic, superlative, guarantee, health claim or environmental claim, so it isn't restricted.\n- **\"here's how we checked\"** leads into the rest of the post. When the full post is reviewed, any specifics about how the checking was done should stay within the EN 13432 certificate.\n- **Voice:** the tone is warm, plain and unhurried, with UK spelling and no banned phrases.\n- **Disclosure:** none is required, because this is our own blog and not a paid or gifted post or an affiliate link.\n- **Approval:** per policy, Sam (marketing lead) still signs off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086187,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cdbcf16f2681cd94d121727147605710b1cfa778bfcf578d2dfdd654430b4d80",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording exactly and is backed by the EN 13432 supplier certificate. \"Plastic-free tea bags\" is also how we describe the product.\n- **Product facts:** The new winter tins and their look (deep green, gold lettering) count as new products arriving and product details, which the product team checks and which are fine as written.\n- **Banned content:** There are no superlatives, guarantees, health claims, invented numbers, testimonials, or unsupported environmental claims. \"Just landed\" describes an arrival, not false urgency.\n- **Disclosure:** This is our own Instagram account with no creator, gifted product, or affiliate link, so no label is needed.\n- **Voice:** It is warm, plain, and unhurried, uses UK spelling, and has none of the banned words.\n- **Approval:** Sam (marketing lead) approves everything public, so it still needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00749,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

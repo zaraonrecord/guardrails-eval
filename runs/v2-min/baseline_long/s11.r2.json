@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3e9b1f6bd5f2560afc9d502c2aab6ffa4c0f186a0c73bac82bc5fdfdf85975f0",
+ "result": "**Review of the social ad (own account)**\n\n**Sentence by sentence**\n- \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch.\" This is product description and a lifestyle suggestion. \"After lunch\" describes an occasion and makes no digestive or other body-function claim, so it is fine.\n- \"Free UK delivery on orders over £25\" matches the approved claim exactly, including the threshold.\n- \"while stocks last\" is the problem. The brand's free delivery offer is a standing term with no stock condition, so this phrase changes the terms and implies the offer or the products could run out. Nothing in the policy or evidence shows low or limited stock. It reads as decorative scarcity, which counts as false urgency and also misstates the delivery terms. Fix: delete it, ending the sentence at \"orders over £25.\"\n\n**Other checks**\n- Labelling: this is the brand's own account, so no \"Ad\" label is needed.\n- Style: the copy is short and specific, with no clichés or filler.\n- No unsupported statistics, superlatives, health, green or guarantee claims.\n\nThe draft should be held until \"while stocks last\" is removed.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112705,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

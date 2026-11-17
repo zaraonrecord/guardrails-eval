@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "I checked each claim against the brand policy.\n\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": matches the approved claim exactly (4.8 out of 5, over 1,200 reviews, on our website). The source is stated.\n- \"Organic loose leaf\": the policy allows \"certified organic by the Soil Association\". Saying \"organic\" without naming the certifier is a narrower, accurate statement, so it is fine. Adding \"certified organic by the Soil Association\" would be optional polish.\n- \"plastic-free bags\": approved (tea bags are plastic-free and home compostable).\n- \"packed by hand in Bristol\": approved (every tin is packed by hand in Bristol). The copy says \"Organic loose leaf and plastic-free bags, packed by hand\", and the policy covers tins specifically. The loose leaf comes in tins, so this is consistent. If the bags are not packed in tins, the team could confirm that hand-packing applies to them too, but the policy's phrasing is \"every tin\", and nothing here contradicts it.\n\nNo health, environmental overreach, superlative, urgency, guarantee or testimonial issues. No ad or affiliate label is needed on the brand's own landing page. Style: it is short, specific and free of clichés or filler.\n\nVerdict: all claims are approved and nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073043,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cdb0c39e1ff1d9ffbcdbc452fff1fd8dc572ff4fc857bbfaac153b12ad472fc0",
+ "result": "**Verdict: don't publish yet. One claim has to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, exact wording (October 2026 export) |\n| Organic loose leaf | Allowlisted as \"Certified organic by the Soil Association\". The bare \"organic\" is acceptable, but the certified wording is stronger. |\n| fully sustainable bags | **Unsupported.** Section 3 bans \"sustainable\" without specifics, and \"fully\" makes it stronger still. |\n| packed by hand in Bristol | Allowlisted for tins (\"Every tin is packed by hand in Bristol\"). Keep it tied to tins so it doesn't imply the bags are hand-packed. |\n\n**Fix**\n\nReplace \"fully sustainable bags\" with the claim we can prove: plastic-free and home compostable (supplier certificate, EN 13432).\n\n**Suggested hero copy**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf, plastic-free and home compostable tea bags, and every tin packed by hand in Bristol.\n\nIf that reads too long for the hero, split it into two sentences: the compostable-bag claim and the organic claim each stand fine on their own.\n\n**Other checks**\n- Banned words: none.\n- Health claims, guarantees, superlatives, fake urgency: none.\n- Disclosure: not needed, since this is our own landing page.\n- Spelling is UK. Sam still needs to approve before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0180665,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7d9e0dc8af523e9f0dcd19e18bbe35c5f1fec9de72c50b5166bed739b044c996",
+ "result": "## Publish gate report\n\n**Going out:** Email to Tom (subject \"A new green tea\"), announcing a new Japanese sencha.\n\n**Checks**\n- **Claims:** There are no statistics, ratings, superlatives, guarantees, testimonials or comparisons. \"Added a Japanese sencha to the shop\" is a new-product fact, and \"grassy and a little sweet\" and \"around 70 degrees\" are flavour and brewing guidance. Policy section 2 covers all of these. \"Best brewed cooler\" describes how to brew the tea, not a claim that it's the best.\n- **Regulated claims:** There are no health, money, environmental, price or urgency claims. Nothing says the tea is good for you, and nothing pushes Tom to buy by a deadline.\n- **House style:** The tone is warm, plain and unhurried, with no banned words or AI tells. I'd score it about 92/100. Optionally, write \"70°C\" instead of \"70 degrees\" so the unit is clear. I haven't changed it.\n- **Disclosure:** This is our own email about our own product. It has no paid partnership, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved. Optionally, change \"70 degrees\" to \"70°C\".\n\n**Approver:** Sam (marketing lead). Everything public needs Sam's explicit yes to this exact wording before it's sent. I haven't recorded any approval, and the content shouldn't be sent until Sam gives one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011719,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

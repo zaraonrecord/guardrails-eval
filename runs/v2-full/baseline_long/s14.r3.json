@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7269b8bc2042c4c3d086c780ec4fccf032a5ac1232f5700a4ead3fd99ecd6374",
+ "result": "**Review: creator post (gifted)**\n\n**Claims:** The draft says the rooibos chai is lovely with oat milk. That is a personal opinion about taste, not a factual claim. \"Winter sampler\" is a product fact the product team covers. No numbers, health claims, superlatives, guarantees, green claims or urgency.\n\n**Disclosure:** The brand policy requires gifted posts to start with \"Gifted\" before anything else. The draft opens with \"The rooibos chai from Pebblebrook's...\". \"Thanks to the team for sending it over!\" does acknowledge the free product, but it comes at the end and doesn't use the required label. Under the checklist, a mention of a free product on its own is not enough, and the label must be first. This is a missing disclosure.\n\n**Style:** Plain and warm, no banned words or clichés. UK spelling isn't tested by anything here, but nothing conflicts.\n\n**Fix:** Start the post with \"Gifted\" (e.g. \"Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"). Once that is added, it can go out, subject to Sam's approval as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073437,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

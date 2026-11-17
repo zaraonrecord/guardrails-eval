@@ -1,10 +1,14 @@
 {
  "case": "p18",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: not ready to publish as written. One fix needed.**\n\n**Problem**\n- \"Unlock your tea journey.\" uses two words the brand policy bans (\"unlock\" and \"journey\"), and both are on the slop ban list too. It also adds nothing: the useful fact is in the next sentence.\n- Suggested fix: cut it and open with \"You don't need a teapot to brew loose leaf.\" That puts the useful fact first and matches the warm, plain, unhurried voice.\n\n**Claims check**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing guidance, which the product team has approved for use as written.\n- \"Green tea likes it shorter and cooler\": brewing guidance, same status.\n- No statistics, superlatives, guarantees, testimonials, health claims, environmental claims or urgency.\n- No disclosure is needed. This is our own email, with no affiliate link and no gifted or paid partnership.\n- Spelling is UK-compatible.\n\n**Approval:** Sam (marketing lead) needs to sign off on the revised version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.0110005,
- "seconds": 12.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "337d9f76e8a60e6388aadce74159aef2592a2368a39c5ac5ee8e8be58cd047d5",
+ "result": "**Review of the draft**\n\n**Claims check**\n- \"You don't need any kit\": a practical instruction, not a marketing claim. Fine.\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing guidance, covered as a product fact. Fine.\n- \"Green tea likes it shorter and cooler\": brewing guidance. Fine.\n- No numbers, superlatives, guarantees, testimonials, health, environmental or urgency claims.\n- No paid partnership, gifted product or affiliate link, so no disclosure needed.\n\n**Problems**\n1. \"Unlock your tea journey.\" This breaks the brand policy twice: \"unlock\" and \"journey\" are both banned words. It is also vague filler that says nothing concrete, and it contradicts the sentence that follows (you don't need any kit). Cut it. The email can open with the useful fact: \"You don't need a teapot to brew loose leaf.\"\n\n**Suggested fix**\n\nSubject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nYou don't need a teapot to brew loose leaf. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n\nThe Pebblebrook team\n\nNote: the email says \"shorter and cooler\" without figures. If you want exact times and temperatures, the product team can supply them, and I'd add them rather than guess.\n\nSam needs to approve the final version before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099245,
+ "seconds": 10.3,
  "models": [
   "claude-sonnet-5-5"
  ]

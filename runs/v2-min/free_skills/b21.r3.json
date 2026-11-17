@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6c1617c2f25973c7a4e99761fc1d31f141bec8a2543b25fcbdc980afa6aa09fb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Team size is fine as written under the brand policy |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited\" | Sourcing/origins statement, covered by the policy's product-facts allowance |\n\n**Other checks**\n- No invented stats, testimonials, superlatives, guarantees, or health, green, or urgency claims.\n- No banned vocabulary or structural slop. The copy is plain, specific and short.\n- The about page needs no disclosure labels.\n\nOne non-blocking note: \"gardens we've visited\" reads as covering all your suppliers. Before it goes live, confirm that's true of every tea you sell. If it's only some of them, say \"many of the gardens we buy from\" or name the ones you've visited.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009569999999999999,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

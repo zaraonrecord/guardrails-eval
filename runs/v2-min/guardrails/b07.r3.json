@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732438fec6171281d71140c3517dc3c4022a0b2657542062cbcd2dd904f2e28d",
+ "result": "**Going out:** blog intro, Pebblebrook Tea Co., UK audience. No date given.\n\n**Checks**\n- **Claims:** \"Bristol in 2019\", \"plastic-free\" and \"home compostable\" are all on the policy's list of provable claims. No numbers, rankings or guarantees.\n- **Regulated claims (environment):** \"Plastic-free and home compostable\" is a green claim, but it is specific and on the policy list, so it passes. Don't broaden it in the body to something like \"eco-friendly\" or \"sustainable\" without a source.\n- **House style:** It's plain and specific, with no stock openers or slogan closers. No changes needed.\n- **Disclosure:** This is the brand's own blog with no sponsor, affiliate link, gifted product or AI-labelling trigger, so no label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision (not blocking):**\n- \"Here's how we checked\" promises a verification story, and I can only see the intro. The article body must describe checks that really happened, such as a compostability certificate or supplier documentation, and it must not claim more than the policy allows. If the body adds new claims, such as a compost time, a test result or a certification, it needs its own check.\n- The \"couldn't find tea bags without plastic\" origin story isn't on the policy list. It's a statement of the founders' motive, so I've treated it as fine, but someone on the team should confirm it's true.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact text before it goes out. Nothing has been published or recorded as approved.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122739,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

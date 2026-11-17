@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6c1617c2f25973c7a4e99761fc1d31f141bec8a2543b25fcbdc980afa6aa09fb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Allowed (team size counts as a product fact in the policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** The allowlist covers origins and product facts, but it doesn't say the team has visited the gardens it buys from. That is a claim about sourcing practice, and readers will take it as a verifiable fact (it also edges toward ethical-sourcing territory). It also reads as \"all gardens, every time,\" which is a hard claim. Nothing in this conversation supports it.\n\n**Options:**\n- Cut the sentence.\n- Replace it with `[PROOF NEEDED: which gardens the team has visited, and whether that covers every supplier]`.\n- If it's true, send me the details (which gardens, and when) and I'll write it accurately, for example naming the specific gardens visited.\n\nThe rest is fine. There's no slop, no superlatives, and no style violations.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010093999999999999,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

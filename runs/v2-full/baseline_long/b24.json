@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ecf4d3d45d326f3f756469c5caa366684a9a775b625f84243ce5c58b3499d5e0",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Good tea, no fuss.\" is plain, warm description. It makes no claim and uses no banned words.\n- \"Certified organic by the Soil Association\" matches the approved claim word for word.\n- \"packed by hand in Bristol\" is covered by the approved claim \"Every tin is packed by hand in Bristol\". It leaves out \"every tin\", but that does not change the meaning or overstate anything.\n- \"free UK delivery on orders over £25\" matches the approved claim, and the threshold is stated next to it.\n\nThere are no superlatives, health claims, green claims, guarantees, invented numbers or false urgency. The channel is the brand's own landing page, so no \"Ad\" label is needed. The spelling and tone fit the UK voice (warm, plain, unhurried). I found no clichés or banned words.\n\nNothing needs changing, so it can go out. Under the policy, Sam (marketing lead) still has to approve everything public before it is published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061698,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

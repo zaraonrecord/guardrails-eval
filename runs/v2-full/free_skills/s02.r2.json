@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ca3d901ad7ec1fd8fcc12e9cf9cdce33b95197963506684922a09b7d771c3015",
+ "result": "**Not ready to publish.** Two claims have no support in the brand policy.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel terms. OK. |\n| \"Most subscribers stay with us for over a year\" | **Unsupported.** It's a retention statistic that isn't on the allowlist and has no source in this chat. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"means most boxes ship free\" | **Unsupported.** The policy backs the threshold, not the share of orders that meet it. The \"most\" is an invented figure. |\n\n**Other checks**\n- Banned words and structures: none found.\n- Health, green, urgency and guarantee claims: none.\n- Disclosure: not needed for our own hero copy.\n- Spelling: UK, fine.\n\n**Compliant version**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time. Delivery is free in the UK on orders over £25.\n\nIf you want the retention line, it needs a source. For example: `[PROOF NEEDED: subscriber retention data showing most subscribers stay over 12 months, with date range]`. As with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014204500000000002,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

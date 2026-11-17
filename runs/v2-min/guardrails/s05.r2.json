@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8e1c4edc0ad1c280e199304677ea4f273157a3a7f96680efad615719106d2ed8",
+ "result": "## Publish gate report\n\n**Going out:** Search ad, UK. Headline \"Tea Subscription UK\", description about monthly loose leaf tea, a make-it-right promise, and free delivery.\n\n**Checks**\n\n1. **Claims**\n   - \"Free UK delivery on orders over £25\": on the policy list. Pass.\n   - \"Monthly loose leaf tea\": product fact. Pass.\n   - \"If your box isn't right, we'll make it right\": this is an implied guarantee (a remedy promise) with no policy backing. The policy only supports \"pause or cancel any time\". No terms (refund, replacement, time window) are defined, so it's unproven. Remove it, or replace it with the supported claim.\n2. **Regulated claims:** Touches no health, money, environmental or children topics. The delivery offer has a condition (over £25) which is stated, so that's fine.\n3. **House style:** Clean and plain. \"We'll make it right\" is a vague, stock-sounding line, which is another reason to swap it.\n4. **Disclosure:** The search ad is the brand's own, and the platform labels it as an ad (\"Ad\"/\"Sponsored\"). No creator, affiliate or AI content. Pass.\n\n**Fixed (suggested rewrite)**\n- Description: \"Monthly loose leaf tea, packed by hand in Bristol. Pause or cancel any time. Free UK delivery on orders over £25.\"\n\n**Needs a decision**\n- If the team really does offer a guarantee or remedy, someone needs to supply the actual terms and add them to the policy. Then the original line could stay in a specific form, for example \"Not happy? We'll replace your box within 30 days\", once that is confirmed.\n- Approver: the policy names no approver, so please confirm the yes to the exact final copy. I haven't recorded any approval, and the ad shouldn't go live until it's given.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112393,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

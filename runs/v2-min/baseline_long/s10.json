@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c1d81313be2fe04a2a496d9fc86ccc795d837d74d0ad49ced1e1ff0ff5fe67b6",
+ "result": "**Review: Instagram post (own account)**\n\nSentence by sentence:\n\n1. \"New tins just landed for winter.\" New arrivals are fine as written per policy.\n2. \"Deep green, gold lettering\" is product description, fine.\n3. \"planet-friendly packaging\" is a vague green claim. \"Planet-friendly\" is a broad term with no specifics, and the policy only backs the tea bags being plastic-free and home compostable, not the tins or packaging overall. It also stretches a claim about one component to cover the packaging. Fix: state something provable, e.g. \"tea bags that are plastic-free and home compostable\", or describe the tin factually (only if the brand can support any material or recyclability claim).\n4. \"the same plastic-free tea bags inside\" is approved.\n5. \"Our tea bags are plastic-free and home compostable.\" Approved, but it repeats the previous sentence's plastic-free point. Optional tidy: merge the two.\n\nNo ad label is needed, since this is the brand's own account. No health, urgency, guarantee or stat issues, and no clichés.\n\nDecision: hold until \"planet-friendly packaging\" is replaced with a specific, supportable statement.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0089045,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

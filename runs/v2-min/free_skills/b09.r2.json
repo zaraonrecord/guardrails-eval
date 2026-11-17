@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b15fbecb9f6745174369d4def13ea295fefc6df526c6fee0115cc19c210f6de5",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| Founded in Bristol in 2019 | Allowlisted |\n\n**Slop check:** No ban-list words, no exclamation points, no rhetorical opener, no em-dash sandwich, no fake urgency. The opening is a plain fact.\n\n**Ad checks:**\n- Headline \"Plastic-Free Tea Bags\" is 21 characters, under the 30-character headline limit. Description is 77 characters (counting spaces and punctuation), under 90.\n- Landing page consistency: the plastic-free and home compostable claims need to appear on the landing page too. I can't see it from here, so confirm before launch.\n- Platform policy: nothing touching health, finance or personal attributes. The green claims (plastic-free, home compostable) are on the brand's allowlist, so they're backed.\n\n**Verdict:** No changes needed. Every claim is on the allowlist and the copy is clean. The one non-blocking to-do is confirming the landing page carries the same claims.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0065877,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

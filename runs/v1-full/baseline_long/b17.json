@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "I read the draft as a newsletter reader would and checked each sentence against the brand policy.\n\n- \"the Christmas blend is back\": a product fact (new or returning product), which the product team checks and is fine to use.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients, a product fact. Fine.\n- \"It's back in the shop from today\": this is a plain availability statement, not a countdown, a stock warning or a \"today only\" offer. It doesn't pressure the reader, so it isn't false urgency.\n- There are no health claims, superlatives, guarantees, statistics, green claims or testimonials, and no paid or affiliate content that needs a label (this is the brand's own newsletter).\n- Voice: warm, plain and short. None of the banned words appear, and the spelling is neutral UK-compatible.\n\nNothing needs changing. Optional, not required: confirm with the product team that the blend really is on sale today, since the line states it as fact.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007944699999999999,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

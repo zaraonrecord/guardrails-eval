@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c288b2b44a042a32f3a7e639a5a2f198ebc969fabe61051497eaa0235b95550b",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Organic post on Pebblebrook's own Instagram, about new winter tins. No timing given.\n\n**Checks**\n\n1. **Claims.** \"Plastic-free\" and \"home compostable\" tea bags are both on the policy allowlist. \"New tins just landed for winter\", the colours and the gold lettering are product facts, fine as written. Passes.\n2. **Regulated claims.** \"Plastic-free\" and \"home compostable\" are environmental claims, but they're the exact wording on the allowlist, so they're covered. \"Just landed\" is a new-arrival fact, not fake urgency. Passes.\n3. **House style.** The policy has no voice section, so I can't score it against the brand voice. One real problem: the draft says the same thing twice (\"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). It reads as padding. Suggested rewrite:\n   > New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n4. **Disclosure.** It's the brand's own account promoting its own product, with no creators, affiliates, gifted items or paid partnership. No label needed. No AI-generated imagery is mentioned. If the image is AI-generated and realistic, check the label rules.\n\n**Fixed:** merged the repeated plastic-free line into one sentence.\n\n**Needs a decision:**\n- Do you want the rewrite above, or to keep the original wording? It's a style fix, not a compliance one. The original isn't wrong, just repetitive.\n- Approver: the policy doesn't name one, so you're the approver. I need an explicit yes to the exact final text before it goes out.\n\n**Verdict:** No compliance issues. Only a redundancy to tidy, which I don't count as a blocker. Publishing is waiting on your approval of the final wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0092612,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "09a48783e859564d9bc317399c01353e934d29ac7bf93103ea1e76cba897464c",
+ "result": "**Review notes (affiliate review blog)**\n\n**Claims and opinion**\n- \"I've tried four tea subscriptions this year.\" This is a first-person experience claim, not a brand claim. It's fine as long as it's true for the author.\n- \"Pebblebrook's was the easiest to pause.\" This is a personal comparison framed as the reviewer's experience, not an objective superiority claim. It is consistent with the brand's backed claim that subscribers can pause or cancel any time. It's acceptable.\n- \"the tins are lovely.\" This is opinion and description. It's fine.\n\n**Disclosure**\n- \"You can find it here.\" This reads as an affiliate link, given the channel. Nothing in the draft tells the reader the author earns from the link or has a commercial relationship with Pebblebrook. The disclosure must be in plain words, at the top of the content or next to the link, so the reader sees it before clicking. Without it, the post presents a paid or commission-driven recommendation as a purely independent one. This must be fixed before publication.\n- Suggested fix: open with something like \"Ad / Affiliate: I earn a commission if you buy through links in this post.\" Also repeat a short note beside the link.\n\n**Style**\n- The copy is short and sounds like a real person. No clichés or filler to cut.\n\n**Decision:** Hold. Add a clear affiliate disclosure at the top and by the link, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116325,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

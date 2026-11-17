@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "35c42ac9836535620559a01b6b10628aff4a16ecec0a9ce1a80e9a15075c906e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"founded in Bristol in 2019\"** matches the allowlist.\n- **\"a small team of six\"**: team size is a product fact that is fine as written. Please confirm the number is still current.\n- **\"every tin is packed by hand in Bristol\"** matches the allowlist.\n- **\"We buy from gardens we've visited.\"** This falls under origins and sourcing, which are fine as written. It's a factual statement about your own practice, so make sure it is true of all your suppliers, not just some.\n\nThe draft has no invented stats, superlatives, guarantees, health or green claims, fake urgency, or filler wording. No disclosure is needed for an about page.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007565599999999999,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

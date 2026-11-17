@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "bb77ac95254348b613b1147126731689f1ddadca3851e6144d69022032f88d10",
+ "result": "# Publish gate report\n\n**Going out:** a creator post (gifted product) about the winter sampler. No date or audience was given.\n\n**Checks**\n- **Claims:** Pass. \"The rooibos chai is lovely with oat milk\" is the creator's own opinion. There are no stats, rankings, guarantees or health claims.\n- **Regulated claims:** Pass. Nothing touches health, money, the environment, children or prices.\n- **House style:** Pass. It's warm, plain and unhurried, and uses none of the banned words. Nothing here reads as AI-generated.\n- **Disclosure:** **Fail.** Policy section 4 says a gifted post must start with \"Gifted\", before anything else. This draft opens with \"Pebblebrook sent me their winter sampler.\" The line \"Not paid to say that, just liked it\" is at the end and doesn't count as the label. It also doesn't tell the reader the product was free, which is the point of the label.\n\n**Fixed:** Nothing changed on my side, because the label needs to come from the creator's post. Here is the suggested version:\n\n> Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.\n\n**Needs a decision**\n- Add \"Gifted\" as the very first word, as above. Use the platform's paid-partnership or branded-content tool as well, if it has one.\n- \"Not paid to say that\" is true, but it can sound like it cancels the gifted relationship. I'd suggest keeping it as is, or cutting it to keep the disclosure unambiguous.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and this version shouldn't go out until Sam says yes to the corrected text.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010854800000000001,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

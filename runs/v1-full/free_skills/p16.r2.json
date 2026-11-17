@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17b577ea60ce19f77db049941819eb37f719761fa676dfe11744564d6fde2c1e",
+ "result": "**Not ready to publish.** One problem needs fixing.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (product team), fine |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, fine as written |\n| \"It's back in the shop\" | Product fact, fine, but repeats the first sentence |\n| \"Today only: 30% off, ends at midnight.\" | **Unsupported** |\n\n**Problem**\n- **\"Today only: 30% off, ends at midnight.\"** is a countdown-style deadline, and the brand policy says there is no real offer with an end date. The 30% discount isn't in the policy either, so it is an unverified number. The line must come out, or you need to send me the real offer details (discount, dates, how it is applied) before it goes in.\n\n**Minor edit, not blocking**\n- \"the Christmas blend is back\" and \"It's back in the shop\" say the same thing. Cut one, for example: \"Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n\n**Compliant version**\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n\nIf a real, dated promotion exists, add it with its actual terms: `[PROOF NEEDED: confirmed offer, discount and end date]`.\n\nVoice, spelling and banned words check out. As with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013310500000000001,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

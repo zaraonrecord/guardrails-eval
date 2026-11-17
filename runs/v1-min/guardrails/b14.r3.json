@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a805be712611c93c0bd6db6848318b14b0a6af7f710883d354ea78030e9d6560",
+ "result": "**Publish gate report**\n\n**Going out:** a creator post on the gifted channel, UK audience. It's a short post about the winter sampler and the rooibos chai.\n\n**Checks**\n- **Claims:** There are no numbers, rankings, guarantees or testimonials to source. \"Lovely with oat milk\" is the creator's own opinion, and the sampler and rooibos chai are product facts, which the policy allows as written. Pass.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, environment, children or prices. Pass.\n- **House style:** The policy has no voice section, so I judged it on tone alone. It reads like a person wrote it, with no AI tells, no filler and no banned-style phrasing. Pass.\n- **Disclosure (UK):** \"Gifted\" is the first word, in plain language, before the reader engages, so it meets the upfront-label requirement. The post doesn't read as an ad, which fits a gifted product with no payment. Pass.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision**\n- \"Not paid to say that\" is only true if the creator got no payment, commission, affiliate link, discount code or other perk beyond the gifted sampler. Please confirm with the creator or whoever manages the relationship. If any of those apply, remove that line and relabel it as \"Ad\" or \"Paid partnership\". My suggested answer is to publish as written once that's confirmed.\n- If the platform has a branded-content or paid-partnership tool, use it as well, if the platform's rules treat gifted items as covered.\n- If this is repeated in a series (stories, a carousel), put \"Gifted\" on each piece.\n\n**Approver:** the policy names no approver, so you're the approver. I need an explicit yes to this exact text before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0143831,
+ "seconds": 16.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

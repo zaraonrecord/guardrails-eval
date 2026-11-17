@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly: 4.8 out of 5, over 1,200 reviews, on our website. The source is named. Fine.\n\n**Sentence 2:** \"Organic loose leaf and plastic-free bags, packed by hand in Bristol.\"\n- \"Organic\" is backed by the Soil Association certification. It would be slightly stronger to name the certifier, but that's optional.\n- \"plastic-free bags\" matches the approved \"tea bags are plastic-free\".\n- \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\". The draft says it of the whole range rather than tins. The policy covers tins, and the sentence is a short hero line, so I read it as the same claim. If bags are sold in something other than tins, the team may want to say \"every tin\", but I'm not treating it as a problem.\n\n**Style:** No clichés, no hype, no filler. Short and specific.\n\n**Labels, urgency, health, green, guarantees:** None present. It's brand-owned landing copy, so no ad label is needed.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0069163,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

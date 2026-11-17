@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "10eea6b0a17a5ec53b7dcea77f9d4e761ca8b987b30dd546f94bfffa8ca28b43",
+ "result": "**Verdict: hold. One claim needs to change before this goes out.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving). OK |\n| \"Deep green, gold lettering\" | Product fact. OK |\n| \"planet-friendly packaging\" | **Unsupported.** Vague environmental claim |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (EN 13432 certificate) |\n\n**Problem**\n- \"planet-friendly packaging\" is a general green claim, which section 3 rules out. Our only backed environmental claim is about the tea bags (plastic-free, home compostable), not the tins. \"Planet-friendly\" also implies the tin is covered, and nothing on file says so. Cut it, or replace it with a specific fact about the tin that the product team has confirmed.\n\n**Smaller edit, not a blocker**\n- \"plastic-free\" appears twice in three short sentences. Merging the last two sentences fixes it and keeps the wording on the allowlist.\n\n**Other checks**\n- Banned words, em-dash sandwiches, exclamation points and \"not just X, it's Y\": none found.\n- Urgency: \"just landed\" is a true statement about a launch, not fake urgency.\n- Disclosure: this is our own account, so no \"Ad\" or \"Gifted\" label is needed.\n- Voice and spelling: warm, plain and UK-friendly.\n\n**Suggested rewrite**\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nAs with everything public, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014688500000000002,
+ "seconds": 16.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

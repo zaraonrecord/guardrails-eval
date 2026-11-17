@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "eb206d56d79a10839019195c5113cf4951e1d7adc14c7c0096801bf8685bf651",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list, exact wording (export October 2026, current) |\n| The finest organic loose leaf | \"Finest\" is a banned superlative. \"Organic\" is supported only as \"Certified organic by the Soil Association\". |\n| eco-friendly bags | Banned general green claim. The policy only backs \"plastic-free and home compostable\". |\n| packed by hand in Bristol | The policy says \"Every tin is packed by hand in Bristol\". The draft's wording can read as covering the tea bags too. |\n\n**Regulated claims:** The environmental wording (\"eco-friendly\") is the risky line. The safer version is the specific, certified claim from the policy. There are no health, price or urgency claims.\n\n**Disclosure:** None needed. This is our own page copy with no partnership or affiliate content.\n\n**House style:** About 70/100 before the fix. \"Finest\" is the sort of inflated word that doesn't sound warm, plain or unhurried. No banned words appear. After the rewrite it is about 90.\n\n**Fixed (in the suggested rewrite)**\n- Removed \"finest\".\n- Replaced \"eco-friendly bags\" with \"plastic-free, home compostable tea bags\".\n- Replaced \"organic\" with the certified wording.\n- Changed the hand-packing line to match the policy: \"Every tin packed by hand in Bristol\".\n\n**Suggested copy**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Loose leaf tea certified organic by the Soil Association, and plastic-free, home compostable tea bags. Every tin packed by hand in Bristol.\n\n**Needs a decision**\n- Please confirm that the original line about hand-packing was meant to cover only the tins. If bags are also packed by hand and that is on record, we can say so.\n- The original draft can't go out as written. The rewrite needs a fresh yes on this exact wording.\n\n**Approver:** Sam (marketing lead). I have not recorded any approval, and nothing should be published until Sam says yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0195556,
+ "seconds": 17.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

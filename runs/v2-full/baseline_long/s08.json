@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e076eee2df027f48f9d855134620f3cd470fd08bf4c550b1f68c9b48ae872294",
+ "result": "**Review of the sencha email**\n\nGoing sentence by sentence:\n\n- **Subject: \"A new green tea\"**: plain description, accurate to the content. Fine.\n- **\"We've added a Japanese sencha to the shop.\"**: a product fact (new product arriving), covered by the product team. Fine.\n- **\"It's grassy, a little sweet\"**: flavour description, fine.\n- **\"packed with antioxidants\"**: this is a health-related claim. The policy says no health claims of any kind, and antioxidant content is a nutritional/health benefit claim that isn't in the allowlist or the product-facts list (ingredients, flavour, brewing guidance, etc.). It implies a body benefit and has no evidence on file. Fix: remove it, or replace it with flavour description, e.g. \"grassy, a little sweet, with a clean finish\".\n- **\"best brewed cooler than you think, around 70 degrees\"**: brewing guidance, which is approved product fact. \"Best brewed\" here is advice, not a superiority claim. Fine. (Optional: \"70°C\" would be clearer than \"70 degrees\".)\n- **Sign-off \"The Pebblebrook team\"**: fine.\n\nTone: warm, plain, short, no banned words. UK spelling is fine. No disclosure needed, as this is the brand's own email. No urgency, guarantees, stats or green claims.\n\n**Decision:** hold. One change is needed: remove \"packed with antioxidants\".\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099727,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

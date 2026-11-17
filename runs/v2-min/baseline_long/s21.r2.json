@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "013081c75201ef6547831ffcc7165a05301eec06feab98763451ddbd81c4e38e",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Sentence by sentence**\n\n1. \"Plastic-Free Tea Bags\" is on the approved claims list. Fine.\n2. \"Our tea bags are plastic-free and home compostable.\" Also approved word for word. Fine.\n3. \"Recommended by nutritionists.\" This is an expert endorsement claim. It isn't in the brand's allowlist, and I can see no documented endorsements from named, verifiable nutritionists. It also edges into health territory, since nutritionist recommendation implies the tea is good for your health. Short search ad copy still needs evidence for every claim. Unsupported, so it must come out.\n\n**Other checks**\n- No urgency, price, guarantee or review figures.\n- No clichés or filler. The copy is short and plain.\n- No ad-label issue: a search ad is a recognisable paid placement.\n\n**Fix:** Delete \"Recommended by nutritionists.\" Replace it with an approved claim, for example \"Certified organic by the Soil Association\" or \"Free UK delivery on orders over £25.\"\n\n**Decision:** Hold until the nutritionist line is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088565,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

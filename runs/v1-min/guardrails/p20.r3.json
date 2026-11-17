@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8fcc174da0f7f8a3d5dc5353decc8bcb151cd127fd4f8dc976bbaf84f3333241",
+ "result": "## Publish gate report\n\n**Going out:** About page copy for Pebblebrook Tea Co., UK audience. No approval has been given yet.\n\n**Checks**\n- **Claims:**\n  - \"Founded in Bristol in 2019\" is on the policy list.\n  - \"Every tin is packed by hand in Bristol\" is on the policy list.\n  - \"Small team of six\" is a product fact (team size), so it's fine as written.\n  - **\"Over 98% of our customers rate us five stars\" is unproven.** It isn't on the policy list, and it conflicts with the approved claim of 4.8 out of 5 from over 1,200 reviews on our website. A 4.8 average doesn't fit with 98% giving five stars, so this reads as an invented stat.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** The copy is short and plain. I found no AI tells, though the policy has no voice section for me to score against.\n- **Disclosure:** Nothing to label. There are no ads, affiliate links, gifted products or AI-generated content.\n\n**Fixed (suggested rewrite)**\n- Replaced the 98% line with the approved claim:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We're rated 4.8 out of 5 from over 1,200 reviews on our website, and we buy from gardens we've visited.\n\n**Needs a decision**\n- **\"We buy from gardens we've visited.\"** Origins are fine as product facts, but this is a claim about what the team has done. Please confirm it's true for all your teas. If it's only some of them, say \"many of the gardens we buy from\". My suggested answer is to keep it only if you can confirm it.\n- **Approver:** The policy doesn't name one, so I need an explicit yes from you on the final wording above. Please tell me your name and confirm the exact text. I can't record the approval in this session.\n\n**Evidence log rows**\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | About page | Founded in Bristol in 2019 | On policy list | Brand policy |\n| 2026-11-17 | About page | Every tin packed by hand in Bristol | On policy list | Brand policy |\n| 2026-11-17 | About page | Small team of six | Product fact | Brand policy |\n| 2026-11-17 | About page | Over 98% of customers rate us five stars | Unproven, removed | None |\n| 2026-11-17 | About page | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Brand policy |\n| 2026-11-17 | About page | We buy from gardens we've visited | Pending confirmation | User to confirm |\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.019288700000000002,
+ "seconds": 22.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

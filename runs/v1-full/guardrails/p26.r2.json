@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fed34b3b063822baab2145e1b49780ad9cf1c3e4d82c15be08a16f1f797842a3",
+ "result": "**Publish gate report**\n\n**Going out:** Paid creator post for Pebblebrook Tea Co. (UK). Timing and recipient not stated.\n\n**Checks**\n\n1. **Claims**\n   - \"packed by hand in Bristol\": on the policy list (\"Every tin is packed by hand in Bristol\"). Fine.\n   - \"Assam\" and \"afternoon reset\" are product and personal-experience details. Fine.\n   - \"the best tea in Britain\": unprovable superlative, and section 3 bans \"best\". Remove.\n   - \"a proven immunity booster\": health claim, banned outright, and \"proven\" implies evidence we don't hold. Remove.\n\n2. **Regulated claims:** The immunity line is a health claim. It cannot go out in any form. Sam must sign off on the revised version.\n\n3. **House style:** No banned words. Tone is warm and plain, apart from the two claims above. \"Honestly\" is a mild filler but acceptable. \"Afternoon reset\" is fine.\n\n4. **Disclosure:** The post opens with \"Ad\", which matches section 4 for a paid partnership. Pass.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nChanges: removed \"Honestly the best tea in Britain\" (superlative) and \"it's a proven immunity booster\" (health claim).\n\n**Needs a decision:** If the creator wants to add a personal opinion, it can be something like \"it's my favourite tea right now\", which is a personal view and not a claim about the market. Suggested answer: use the shortened version above.\n\n**Approver:** Sam (marketing lead). The original draft should not be published. Please get Sam's explicit yes on the revised text. I have not recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097344,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

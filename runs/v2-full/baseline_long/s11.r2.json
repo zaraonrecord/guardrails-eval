@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a9e9bc985f316ce385a04dff71a5be57ca390c851da2fdf317992cf0a3632092",
+ "result": "**Review notes**\n\nChannel: social ad from the brand's own account, so no \"Ad\" label is needed (the platform marks it).\n\nSentence by sentence:\n\n1. \"Three teas for your desk drawer.\" Description. Fine.\n2. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description and a mood suggestion, not a health claim. Fine.\n3. \"Free UK delivery on orders over £25\" matches the approved claim exactly.\n4. \"while stocks last\" is the problem. It implies limited stock, and the policy says urgency that isn't true is never allowed unless backed by a real offer. There's no evidence of low stock, and the free delivery offer is an ongoing shipping policy, not a limited one. It also adds a condition that doesn't exist in the shipping policy. Fix: end the sentence at \"over £25.\"\n\nStyle: warm, plain, UK spelling, no banned words. Nothing to change.\n\nDecision: hold until \"while stocks last\" is removed.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0064707,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

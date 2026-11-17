@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5256bc66e9eeccd4feb90e249586c6b6951eae72a80d3edbb450eb08885501ee",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad, own account, UK. Timing and audience not given.\n\n**Checks**\n\n- **Claims:**\n  - \"9 out of 10 customers reorder within a month\" is not on the policy list and no source was given. It is an invented stat. Remove it, or provide proof (e.g. an order-data export) and add it to the policy.\n  - \"Free UK delivery on orders over £25\" matches the policy exactly. Fine.\n  - The tea names (Builder's, Earl Grey, peppermint) are product facts. Fine.\n- **Regulated claims:** Touches prices/offers only via the delivery line, which is a real, documented offer. No health, green or urgency claims. \"A peppermint for after lunch\" is a serving suggestion, not a health claim.\n- **House style:** No banned words. Voice is plain and warm. The list-of-three structure is mild and acceptable here since it's literal product content. Score about 88 before the fix. Nothing else to rewrite.\n- **Disclosure:** Paid social ad from our own account is labelled by the platform, so no extra label is needed.\n\n**Fixed (suggested edit):** Removed the unproven stat.\n\n> Three teas for your desk drawer: Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision:**\n- If you do have reorder data, send me the source and I can put the claim back with the exact wording the data supports. Otherwise, publish without it.\n\n**Approver:** Sam (marketing lead). I need Sam's explicit yes to the revised text above before it goes out. The original draft should not be published as written.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087926,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

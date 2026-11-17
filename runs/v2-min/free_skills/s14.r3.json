@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "58c17e893b780070147c080c0f8d7f8bde2afd16e3f21426a9c202840b3fe132",
+ "result": "**Verdict: don't publish yet. One fix is needed.**\n\n**Product label check**\n- Pebblebrook winter sampler (rooibos chai): gifted. The \"lovely with oat milk\" line is a hands-on claim, so I'm treating it as **Tried**. Please confirm you actually drank it that way, because I can't verify it.\n\n**Claims list**\n- \"lovely with oat milk\": personal taste opinion, no factual claim. OK if you tried it.\n- No numbers, superlatives, guarantees, health claims, or green claims. Nothing unsupported.\n\n**Problem: the gift isn't clearly disclosed**\n\"Thanks to the team for sending it over!\" hints at a gift but doesn't say so plainly. A reader could take it as a casual thank-you and not realise the product was free. Under UK rules (ASA/CMA), and under our own honest-review rules, a gifted product should be labelled clearly where it first appears. The label belongs at the start of the post, not in a thank-you at the end.\n\n**Suggested fix**\n> Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk.\n\nYou could also open with \"#gifted\" or \"Ad – gifted\" if you prefer. Keep the thanks if you like, but the label needs to come first.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0123593,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

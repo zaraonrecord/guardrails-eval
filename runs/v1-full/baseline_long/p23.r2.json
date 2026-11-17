@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "15a4250237822328cd49e591807f81ff3b97bafc15112a90a04e3fa3c6de513e",
+ "result": "**Review: landing hero**\n\nChecked sentence by sentence against the brand policy:\n\n1. **\"Good tea, guaranteed.\"** The policy lists \"guaranteed\" as a word the brand never uses, and there is no guarantee offer behind it. A guarantee is a binding promise. Fix: drop it, e.g. \"Good tea, packed by hand in Bristol.\"\n2. **\"Risk-free.\"** Also on the never-make list. There is no returns or money-back offer in the policy to support it. Cut it.\n3. **\"Certified organic by the Soil Association\"** is an approved claim, with the exact wording on file. Fine.\n4. **\"packed by hand in Bristol\"** is approved (\"Every tin is packed by hand in Bristol\"). Fine.\n5. **\"free UK delivery on orders over £25\"** is approved and matches the shipping policy. Fine.\n\nVoice: no banned words. The copy is short and plain, though once the guarantee language goes the opening needs a replacement line. \"Good tea\" is a mild opinion and acceptable as description, but a more specific opener would suit the \"warm, plain, unhurried\" voice better.\n\n**Decision:** Hold. The two guarantee phrases must be removed before this goes out, and Sam needs to approve the revised version, as with all public content.\n\nSuggested rewrite: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008300499999999999,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

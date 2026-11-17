@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7983ba1b182618ae6c28d12062a78c134fa52ea5d2026c11f026089c8b9557bb",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" matches the policy row exactly (certificate on file, renewed 2026). Fine. \"A malty, full-bodied black tea that stands up to milk\" is flavour description, a product fact, fine. \"100g tin, makes around 40 cups\" is tin size and cup count, a product fact checked by the product team, fine. No stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** No health, money, legal, environmental, children or price claims.\n- **House style:** Warm, plain, unhurried. No banned words, no AI tells. UK spelling is fine. Score about 90.\n- **Disclosure:** First-party product page, no ad, affiliate link, gifted product or AI-labelling trigger. Nothing needed.\n\n**Fixed:** Nothing needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). Please give an explicit yes to this exact copy. Once Sam has approved, record it with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Assam Breakfast product page\"`\nThen publish. I haven't recorded any approval myself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078393,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

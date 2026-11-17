@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "adfc838942bd78415b67bb2d373ee496541202c57d2ec4b8e5aaee3896d4a231",
+ "result": "## Publish gate report\n\n**Going out:** creator post (paid) for Pebblebrook Tea Co., UK. Date and audience weren't given.\n\n**Checks**\n- **Claims:** Pass. \"Packed by hand in Bristol\" matches the policy row (\"Every tin is packed by hand in Bristol\"). There are no stats, rankings, guarantees, testimonials or urgency claims.\n- **Regulated claims:** Pass. \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle phrasing, not health claims. I'd keep `#selfcare` an eye on, but it doesn't promise any health outcome, so I'm not flagging it.\n- **House style:** Pass. It's warm, plain and unhurried, with no banned words and no AI tells. Hashtag count is a bit high but the policy doesn't limit it.\n- **Disclosure:** **Fail.** Section 4 says a paid creator post must start with \"Ad\", before anything else. Here the only label is `#ad`, buried in the middle of a hashtag block at the very end, which doesn't count as upfront labelling.\n\n**Fixed (suggested rewrite, not yet approved)**\n- Added \"Ad\" as the opening word and moved the `#ad` hashtag out of the hashtag string (it's now redundant):\n\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #assam #selfcare\n\n**Needs a decision**\n- Please also switch on the platform's paid-partnership tool for this post, if the channel has one. My suggested answer is yes.\n- If the creator was paid and also received free product, \"Ad\" alone is enough, since the policy's \"Gifted\" label applies to free-product-only posts.\n\n**Approver:** Sam (marketing lead). The post should not go out until Sam gives an explicit yes to the corrected text above, not to this original draft.\n\n**Verdict:** Do not publish as written. The only blocker is the missing upfront \"Ad\" label.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0168635,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

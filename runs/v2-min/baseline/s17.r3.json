@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b3ea16723f9d4f900dc09586d0cc23c6ce3a90efeaafdc7d2c6bd3a19b766ca",
+ "result": "**Review**\n\n- **\"As always, it ships within 24 hours of your order.\"** This is a dispatch-speed promise that isn't on the claims allowlist, and nothing shows we can back it up. Remove it or replace it with a verified timeframe. It also sits oddly with \"left Bristol this morning\", which already tells Priya her box has shipped.\n- **\"you can pause or cancel any time\"**: on the allowlist, so fine.\n- **\"smoky lapsang and a soft white peony\"**: product and flavour facts, fine.\n- **\"left Bristol\"**: consistent with tins being packed by hand in Bristol, fine.\n- **Date check (not flagged):** the subject says \"October tins\", but today is 17 November 2026. If this is going out now, the month is probably wrong. Please confirm the send date.\n\nThe draft shouldn't go out until the 24-hour claim is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013229999999999999,
+ "seconds": 18.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

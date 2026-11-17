@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6e230716035fb7273a4361a3302862875dba52a5b420103e77cf47c50c1cbcec",
+ "result": "**Review: \"Your October tins are on the way\" (email)**\n\n**Problem: unsupported service promise**\n- \"As always, it ships within 24 hours of your order.\" The brand policy lists only free UK delivery on orders over £25 as an approved delivery claim. A 24-hour dispatch promise isn't on the allowlist, and \"as always\" presents it as a consistent track record. It also reads oddly for a monthly subscription box. Either get the dispatch time confirmed and added to the policy, or cut the sentence.\n- Suggested fix: \"Your subscription box left Bristol this morning.\"\n\n**Checked and fine**\n- \"left Bristol this morning\": consistent with the brand's Bristol base and hand-packing.\n- \"a smoky lapsang and a soft white peony\": product description, fine as written.\n- \"you can pause or cancel any time from your account\": matches the approved subscription terms.\n- No health, green, superlative, guarantee, urgency or testimonial claims. No disclosure label is needed for a brand-owned email.\n- Voice is warm, plain and unhurried, with UK spelling and no banned words.\n\n**Worth a quick check (not blocking by itself)**\n- The subject says \"October tins\", but today is 17 November. If this is going out now, confirm the month is right.\n\nThe draft should be held until the 24-hour claim is removed or verified.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015176700000000001,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

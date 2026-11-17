@@ -1,10 +1,14 @@
 {
  "case": "b14",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: creator post (gifted), Pebblebrook winter sampler**\n\n**Product label (honest-review-rules):** Tried. The writer received the sampler and describes drinking the rooibos chai with oat milk. The hands-on claim is a first-person opinion that matches that label. I'm assuming they really did try it.\n\n**Money in the open:** \"Gifted\" is the first word, before any other content, so the disclosure is clear and up front for a UK audience. \"Not paid to say that, just liked it\" is consistent with a gifted item, since the gift is already declared. The post doesn't suggest the gift shaped the verdict.\n\n**Claims check:**\n| Claim | Status |\n|---|---|\n| Pebblebrook sent the winter sampler | Product fact, fine |\n| Rooibos chai | Product fact, fine |\n| \"lovely with oat milk\" | Personal opinion from the writer, not a factual or comparative claim |\n\n**Other checks:**\n- No stats, superlatives, guarantees, testimonials, or fake urgency.\n- No health, green, or regulated claims.\n- No banned vocabulary or structural slop. The copy is short, concrete, and specific.\n- No exclamation points, rhetorical questions, or em-dash sandwiches.\n\nNothing needs changing. Before posting, the writer should confirm the \"Gifted\" label stays visible if the post is shortened or truncated by the platform.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.014032300000000001,
- "seconds": 14.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "38987e83602a1087cb95273b4ade5cbb631cd815d65ee1ccb3ad2740eb1f47f2",
+ "result": "**Review: creator post (gifted), Pebblebrook winter sampler**\n\n**Product label:** The writer was sent the sampler and says they liked the rooibos chai, so I'm treating it as **Tried** (gifted). The hands-on remark (\"lovely with oat milk\") is a personal taste claim, which is allowed for Tried products. If they haven't actually drunk it, that line has to go.\n\n**Disclosure:**\n- \"Gifted\" is the first word, so it appears before anything else and isn't buried in a footer.\n- \"Not paid to say that, just liked it\" is consistent with a gifted-only arrangement. If any money, commission or affiliate link is involved, that sentence would be wrong and would need changing, and an affiliate link would need declaring up front. Nothing in the draft suggests either.\n\n**Claims list:**\n| Claim | Status |\n|---|---|\n| Pebblebrook sent a winter sampler | Fact from the writer (gifted), disclosed |\n| Rooibos chai is lovely with oat milk | Personal opinion, Tried |\n| Not paid | Writer's statement, matches the gifted label |\n\nNo numbers, superlatives, guarantees, health or green claims, fake urgency, testimonials or slop vocabulary. No em-dash sandwiches, exclamation points or rhetorical openers. The copy is short and specific.\n\n**Verdict:** Nothing needs changing. One note for the writer: confirm \"not paid\" is accurate.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0143103,
+ "seconds": 12.4,
  "models": [
   "claude-sonnet-5-5"
  ]

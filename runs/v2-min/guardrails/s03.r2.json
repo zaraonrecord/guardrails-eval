@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "10276170b094d7fe71203f1c96c392545e7f56963b0f94e0117a1d59a4054588",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, UK.\n\n**Checks**\n\n1. **Claims**\n   - \"Malty, full-bodied black tea\": product/flavour fact, fine.\n   - \"Certified organic by the Soil Association\": on the policy list, fine.\n   - \"100g tin, makes around 40 cups\": product fact (size, brewing), fine.\n   - \"noticeably smoother than supermarket tea bags\": an unsourced comparative claim. It isn't on the policy list, there's no source in this chat, and \"noticeably\" implies tested or measurable. It needs evidence (e.g. a taste test) or removal.\n\n2. **Regulated claims:** Nothing on health, money, legal, environment, children or pricing. The organic claim is backed by the policy's certification.\n\n3. **House style:** Short and plain, no AI tells. The policy gives no voice rules beyond this, so nothing else to flag.\n\n4. **Disclosure:** Not an ad, sponsorship, affiliate or gifted content. No label needed.\n\n**Fixed:** Nothing changed yet. I'd rather not guess at the replacement.\n\n**Needs a decision**\n- Remove the comparison, or supply evidence for it. Suggested version:\n  > Assam Breakfast. A malty, full-bodied black tea with a smooth finish. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n  \n  \"Smooth finish\" is a flavour description rather than a comparison, so it falls under product facts. If you want to keep the comparison, send the source.\n\n**Approver:** The policy names no approver, so the user (you) needs to give an explicit yes to the exact final copy. Nothing has been approved or recorded, and I can't publish with this line in place.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111553,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

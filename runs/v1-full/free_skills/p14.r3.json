@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d5c4c8ca9978df8e57363e1781a14189e06922a49b57b76d7051b06645042abe",
+ "result": "**Not ready to publish.** Three things need to change.\n\n**1. Affiliate disclosure is missing (blocking).**\n- Brand policy requires \"Affiliate link\" next to the link. The review rules also require the affiliate declaration at the top of the post, before the first link.\n- The draft has neither. \"You can find it here.\" is a bare link at the end.\n- Fix: open with a plain line such as \"This post contains an affiliate link.\" and write \"Affiliate link\" beside the link itself.\n\n**2. \"Easiest to pause\" is a superlative the brand can't back up.**\n- The allowlist supports only \"Subscribers can pause or cancel any time.\" It has no proof for \"easiest\", and brand policy bans unprovable superlatives.\n- Fix: use the allowlisted wording, \"Subscribers can pause or cancel any time.\" Or keep it as clearly personal opinion only if the writer really did compare the pause process across all four services. Even then, I'd still prefer the allowlisted line.\n\n**3. Hands-on experience isn't labelled.**\n- The review rules require each product to be labelled Owned, Tried or Wishlist. The draft doesn't say which Pebblebrook is.\n- \"I've tried four tea subscriptions this year\" and \"the tins are lovely\" are hands-on claims. I can't confirm they're true, and I won't assume ownership.\n- Please confirm:\n  - whether the writer owns or has tried Pebblebrook, and for how long;\n  - whether they used all four subscriptions this year;\n  - whether the product was gifted or sponsored. If so, \"Gifted\" or \"Ad\" must open the post.\n- If Pebblebrook is only researched, the hands-on lines must go and the post should say so.\n\n**Smaller point:** \"lovely\" is fine as opinion if the writer owns or has tried the tins. Something concrete would be stronger, for example the tin size or cup count from the product team.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0186539,
+ "seconds": 17.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

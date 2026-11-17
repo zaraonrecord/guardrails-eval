@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "45d246e0ba22f5f001218ef514162cd3c5c5a4f0199ec30542e314d5c489dc82",
+ "result": "**Review: landing hero**\n\nClaims check against the allowlist:\n- \"Certified organic by the Soil Association\": approved wording, certificate on file.\n- \"packed by hand in Bristol\": matches \"Every tin is packed by hand in Bristol\".\n- \"free UK delivery on orders over £25\": approved, threshold stated.\n\nOther lines:\n- \"Brewed with care. Packed with love. Delivered with a smile.\": this is an emotional, descriptive tagline, not a factual claim or promise. It is a rule-of-three rhythm, which the checklist says to watch for, but it uses none of the banned words, and it fits the warm, plain voice. At most it is optional polish; I wouldn't hold the copy for it. Also, \"Packed with love\" sits next to the true \"packed by hand\" claim without conflict.\n\nNo health, green, guarantee, urgency, superlative, or disclosure issues. UK spelling is fine. No labels needed on a brand-owned landing page.\n\nOptional polish: the opening triple is a little formulaic; consider swapping it for something specific to the tea. Not required.\n\nDecision: publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085187,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

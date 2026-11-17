@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ee2063702eb36a493e785ea6dac9651da3defdab8859f624251548f6df938510",
+ "result": "The draft is mostly fine, with one problem.\n\n**Needs changing**\n- **\"It's not just tea, it's a ritual.\"** This is the stock \"not just X, it's Y\" construction. It adds nothing about the sencha and reads as generic filler. Cut it, or replace it with something specific, such as where the tea is from or how it tastes.\n\n**Checked and fine**\n- \"We've added a Japanese sencha to the shop\" is a new-arrival product fact, which the policy allows.\n- \"Grassy and a little sweet\" is a flavour description and \"around 70 degrees\" is brewing guidance. Both are allowed as written.\n- There are no stats, superlatives, guarantees, testimonials, health or green claims, or urgency tactics.\n- The subject line is accurate and plain.\n\n**Optional**\n- As a marketing email to UK recipients, check that your email platform adds the usual footer with an unsubscribe link and sender details. The draft has no footer, and I'm assuming the platform adds one.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0081587,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7f1908bc01104e6612e9891a177aefeeb4b8c3989ecad0ccabcfcbbfb68ef2ac",
+ "result": "**Review of landing hero copy**\n\n**Problems**\n\n1. **\"The UK's best loose leaf tea\"** is a superlative the brand can't prove. Policy section 3 bans \"best\" and \"the UK's favourite\". Fix: drop it, e.g. \"Loose leaf tea, packed by hand in Bristol.\"\n\n2. **Repetition.** \"packed by hand in Bristol\" appears twice in the first two sentences (\"packed by hand in Bristol. Every tin is packed by hand in Bristol\"). Say it once.\n\n**Checked and fine**\n- \"Every tin is packed by hand in Bristol\": approved claim.\n- \"certified organic by the Soil Association\": approved claim. The draft says \"our tea is certified organic by the Soil Association\", which is close to the approved wording and acceptable.\n- \"Free UK delivery on orders over £25\": approved claim, threshold matches.\n- No banned words, no health, green, urgency or guarantee language. UK spelling is consistent. The channel is the brand's own landing page, so no ad label is needed.\n\n**Suggested rewrite**\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Decision:** Hold until the superlative is removed and the repetition fixed. Sam needs to approve it before it goes public.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101027,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

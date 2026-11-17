@@ -1,10 +1,14 @@
 {
  "case": "p19",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the search ad**\n\nChecked against the brand policy:\n\n- **\"The UK's number one tea subscription.\"** This is an unprovable superlative. Section 3 bans \"number one\" and \"the UK's favourite\". It must come out.\n- **\"Subscribers can pause or cancel any time.\"** This matches the allowlist wording exactly. Fine.\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist wording exactly. Fine.\n- **Headline \"Tea Subscription UK\"**: A plain descriptor, no claims. Fine.\n- **Voice and spelling**: No banned words, UK spelling, and the tone is plain. Fine.\n- **Disclosure**: This is our own paid search ad, so no extra label is needed.\n\n**Suggested fix:** Replace the second sentence with something factual, for example: \"Loose leaf tea and plastic-free tea bags, delivered monthly.\" Keep the pause/cancel and delivery lines as they are. Sam needs to approve the final version before it goes out.\n\n**Verdict:** Do not publish as written. Remove the \"number one\" claim, then send to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
- "cost_usd": 0.0085421,
- "seconds": 8.7,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "537a56434c4c0574cfad0c3b3e127780b3a0d9871bd5f84717b5e70618e87044",
+ "result": "**Review of the search ad**\n\n- **\"The UK's number one tea subscription\"**: This is an unprovable superlative (policy section 3 bans \"number one\" and \"the UK's favourite\"). It has to come out. Something plain like \"A tea subscription from Bristol\" would work, since \"Founded in Bristol in 2019\" is on the allowlist.\n- **\"Subscribers can pause or cancel any time.\"**: This matches the allowlist wording exactly. Fine.\n- **\"Free UK delivery on orders over £25.\"**: This also matches exactly. Fine.\n- **Headline \"Tea Subscription UK\"**: Plain keyword headline, no claims. Fine.\n- Voice and spelling: no banned words, UK spelling, tone is plain. Fine.\n- Approval: as with all public content, Sam needs to sign off on the corrected version.\n\n**Verdict:** Do not publish as written. Fix the \"number one\" claim and resubmit.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0060061,
+ "seconds": 10.7,
  "models": [
   "claude-sonnet-5-5"
  ]

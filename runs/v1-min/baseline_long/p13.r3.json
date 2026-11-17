@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "bc436186cbbdbf7947f4a9aec48b3e89e237217f300751401b86b6c79ae31deb",
+ "result": "**Review: gifted creator post**\n\n**Disclosure:** The post says \"Pebblebrook sent me their winter sampler\", which does reveal a gift, but it doesn't carry a clear upfront label such as \"Ad\" or \"Gifted\". A casual mention of a free product is not enough on its own. Worse, \"Not paid to say that, just liked it\" is misleading: the product was supplied free in return for a post, which is a commercial relationship, and the line suggests the opinion is free of any incentive. The post needs a prominent label at the very start (e.g. \"Ad – gifted\"), and the \"Not paid\" line should go or be reworded.\n\n**Claims:** \"The rooibos chai is lovely with oat milk\" is a personal opinion about taste, which is fine. No stats, health claims, superlatives, green claims or urgency language.\n\n**Style:** Short and natural, no AI clichés.\n\n**Decision:** Hold until a clear upfront ad/gifted label is added and the \"Not paid\" line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069038,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

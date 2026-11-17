@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e7b10157fb3e7da6ca448baba9f010f3072a5b65b727af90f206c9804b038ac4",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for the peppermint tea (Pebblebrook Tea Co., UK). No send date or audience was given.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" matches the policy wording exactly (certificate on file, renewed 2026). \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks and is fine as written. No stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** \"Cool and clean after a big meal\" describes how the tea tastes and when people drink it. It makes no digestive, detox or other health claim, so I'm leaving it. If anyone rewrites it to say the tea \"settles\" or \"aids\" digestion, that would break section 3.\n- **House style:** It's warm, plain and unhurried, with no banned words and no AI tells. I'd score it about 90, so no rewrite is needed.\n- **Disclosure:** This is the brand's own product page, with no ad, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead) must approve all public content. I haven't recorded an approval, and I can't approve my own work. Once Sam says yes to this exact text, run the approve step and publish. Any edit after approval needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0125462,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

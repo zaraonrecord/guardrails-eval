@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7269b8bc2042c4c3d086c780ec4fccf032a5ac1232f5700a4ead3fd99ecd6374",
+ "result": "**Review: gifted creator post**\n\n**Disclosure:** The post is gifted (\"Thanks to the team for sending it over!\"), so brand policy requires it to start with \"Gifted\" before anything else. It currently opens with \"The rooibos chai...\", and the thanks at the end is not a sufficient label. This is a blocker.\n\n**Claims:** \"lovely with oat milk\" is personal opinion about taste, not a factual or health claim. No numbers, superlatives, guarantees, health, green or urgency claims. The sampler name and rooibos chai are product facts and fine.\n\n**Voice:** Warm, plain, no banned words or clichés. UK spelling not at issue.\n\n**Fix:** Start with \"Gifted\" (e.g. \"Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"). With that change it can go out, subject to Sam's approval as per policy.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065397,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

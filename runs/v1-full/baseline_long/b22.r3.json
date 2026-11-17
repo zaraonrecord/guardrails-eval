@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n- \"Our tea bags are plastic-free and home compostable.\" This matches the approved claim word for word (EN 13432 supplier certificate). Fine.\n- \"the same plastic-free tea bags inside\" is consistent with the approved claim. Fine.\n- \"New tins just landed for winter. Deep green, gold lettering\" is product description (new products arriving), which the product team has cleared. Fine.\n\n**Other checks**\n- No superlatives, guarantees, health claims, invented numbers, testimonials or false urgency.\n- No creator, gifted or affiliate content, so no label is needed. Own-account posts don't need an \"Ad\" label.\n- Voice: warm, plain, unhurried. No banned words (\"elevate\", \"unlock\", \"journey\", \"indulge\", etc.). UK spelling is fine.\n- Repetition: \"plastic-free tea bags\" appears twice in three short sentences, and the last sentence restates the previous one. This is a minor style point rather than a rule breach. Optional fix: cut the final sentence, or drop \"the same plastic-free tea bags inside\" in favour of \"the same tea bags inside\". It doesn't need to hold the post.\n\n**Decision:** Every claim is on the allowlist and nothing breaks policy. The repetition is optional polish, so it can go out. As always, Sam approves public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007548599999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

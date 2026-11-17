@@ -1,10 +1,14 @@
 {
  "case": "b21",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** About page copy, three sentences, UK audience. No publish time was given.\n\n**Checks**\n- **Claims:**\n  - \"Founded in Bristol in 2019\" is on the policy list.\n  - \"Every tin is packed by hand in Bristol\" is on the policy list.\n  - \"Small team of six\" is a team-size fact, which the policy allows as written.\n  - \"We buy from gardens we've visited\" is a sourcing and origin statement, which the policy treats as a product fact. It is a factual claim about your practice that I can't verify, so please confirm it's true of all your teas, not just some.\n- **Regulated claims:** The copy has no health, money, legal, environmental, children or price content, so nothing is flagged.\n- **House style:** The copy is plain and specific. It has no stock openers, intensifiers, slogan closers or banned phrases. No changes were needed.\n- **Disclosure:** It isn't an ad, sponsorship, affiliate link or gifted product, and nothing reads as AI-generated in a way that needs a label. No label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Please confirm \"gardens we've visited\" is accurate and that the team is still six people today. If it isn't, I'd soften it to \"many of the gardens we buy from, we've visited.\"\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.013333300000000001,
- "seconds": 12.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "de36e56e2a73961191bbb8fbb67e41a9608b7637456ba24e25a8e39e0ce9d019",
+ "result": "**Publish gate report: About page**\n\n**Going out:** the About page copy for Pebblebrook Tea Co., a three-sentence blurb, UK audience.\n\n**Checks**\n- **Claims:**\n  - \"Founded in Bristol in 2019\" is on the policy list.\n  - \"Every tin is packed by hand in Bristol\" is on the policy list.\n  - \"Small team of six\" is a team-size fact, which the policy allows as written.\n  - \"We buy from gardens we've visited\" is a sourcing and origin statement, which the policy also allows. It has no numbers, superlatives or ethical certification claims. It does say someone has actually visited the gardens, so please confirm that's true for the gardens you buy from now.\n- **Regulated claims:** nothing on health, money, legal outcomes, environment, children or prices.\n- **House style:** the copy is plain and specific. It has no stock openers, empty intensifiers or slogan closers, and no banned words.\n- **Disclosure:** no ads, affiliate links, gifted products, sponsorship or AI-generated content to label.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:**\n- Confirm the garden-visits line is accurate. I'd keep it as is.\n- The policy doesn't name an approver, so a named person on your side needs to give an explicit yes to this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013731300000000002,
+ "seconds": 12.9,
  "models": [
   "claude-sonnet-5-5"
  ]

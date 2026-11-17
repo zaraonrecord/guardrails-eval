@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fbe25db30360616f5fee3ad90ecaee020b7efaf6e0f3a0b97abf81f99e45a110",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** The draft makes no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency. The brewing advice (mug, small sieve, about four minutes for black tea, shorter and cooler for green) is a product fact, which the policy allows as written.\n- **Tone:** It reads as plain, useful and specific, with no filler or generic AI phrasing.\n- **Disclosure:** It is a brand-to-subscriber email with no sponsorship, incentive or partnership, so no label is needed. I assume the unsubscribe link and company details are added by the email platform's footer, since they aren't in the draft.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062701,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

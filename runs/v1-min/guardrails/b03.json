@@ -1,10 +1,14 @@
 {
  "case": "b03",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** Search ad, UK. Headline \"Organic Loose Leaf Tea\", plus a two-sentence description.\n\n**Checks**\n\n| Check | Result |\n|---|---|\n| Claims | Both claims match the policy allowlist. \"Certified organic by the Soil Association\" and \"Free UK delivery on orders over £25\" are on the list word for word. The headline's \"Organic\" is backed by that certification. |\n| Regulated claims | Nothing to flag. The organic claim names the certifier, and the delivery offer states its condition (over £25), so it isn't a bare \"free\". It has no health, money or green claims and no fake urgency. |\n| House style | Plain and specific, with no banned words or AI tells. The policy has no voice section, so I couldn't score it against a reference. |\n| Disclosure | The search platform labels the ad as an \"Ad\" itself, and there are no partnerships, affiliate links or AI-generated content. Nothing to add. |\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One housekeeping point: before launch, confirm the landing page also shows the Soil Association certification and the £25 delivery threshold, since an ad can't claim more than its page backs up.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to this exact copy. Once you've said yes in this chat, you can record it with `approve.py --by \"Your Name\" --what \"Search ad: Organic Loose Leaf Tea\"`. Nothing is recorded or published until then. The JSON below shows the content passed the checks, not that it's approved.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0127393,
- "seconds": 12.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4101ef3d7717381edf7468d64b3722ad34f47a2b4b7bda55f6eb6fd31e68e8e8",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline and description), UK audience.\n\n**Checks**\n- **Claims:** both claims are on the policy allowlist, so no change is needed.\n  - \"Certified organic by the Soil Association\" matches the policy row.\n  - \"Free UK delivery on orders over £25\" matches the policy row.\n  - \"Organic Loose Leaf Tea\" is a product fact backed by the certification.\n- **Regulated claims:** the copy has no health, money, or legal claims, and no broad green claims. The delivery offer is on the allowlist with its condition (over £25) stated, and it has no countdown or scarcity language.\n- **House style:** the copy is plain and specific. It has no banned words, AI tells, superlatives, or padding.\n- **Disclosure:** the search platform labels the placement as an ad, and the copy has no partnership, affiliate, or AI-generated elements. No extra label is needed.\n\n**Fixed:** nothing. No changes were needed.\n\n**Needs a decision**\n- Make sure the landing page backs up both claims. It should show the Soil Association certification and the £25 free-delivery threshold, because an ad can't claim more than its page supports.\n- The policy names no approver for ad content, so I need an explicit yes from you to this exact copy before it goes live. Nothing is recorded yet.\n\n**Approver:** you, since the policy doesn't name anyone else.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0125853,
+ "seconds": 10.8,
  "models": [
   "claude-sonnet-5-5"
  ]

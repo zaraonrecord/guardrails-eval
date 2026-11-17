@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f8bce84fb0c3d94b0b0284e45bad37930fca13838a849c0d4c98efccee7cc721",
+ "result": "## Publish gate report: Chamomile and Lemon Balm, product page\n\n**Going out:** Product page copy for Pebblebrook Tea Co. (UK). No date or audience was given.\n\n**Checks**\n\n| Claim | Status |\n|---|---|\n| \"caffeine-free\" | Product fact (ingredients), fine as written. |\n| \"gentle, honeyed\" | Flavour description, fine. |\n| \"Certified organic by the Soil Association\" | On the policy list. |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is on the policy list and the count is a product fact. |\n| \"to help you wind down and sleep better\" | **Unproven health claim.** Nothing in the policy or this chat backs it. |\n\n- **Regulated claims:** The line \"sleep better\" promises a wellbeing benefit. In the UK, claims that a food or drink improves sleep generally need authorised or evidenced support, and herbal teas are commonly challenged on this. \"Help you wind down\" is softer but still implies a functional effect.\n- **House style:** No banned words or AI tells. It's short and plain. Only the sleep line changes.\n- **Disclosure:** None needed. It's the brand's own product on its own page, with no ad, affiliate, gifted or AI-label trigger.\n\n**Fixed (suggested rewrite, not yet applied to the live page):**\n- Replaced the sleep benefit with a flavour and occasion description:\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, made for a quiet cup in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n**Needs a decision:**\n1. Do you accept the rewrite above? My suggestion is yes. If you want to keep a sleep or relaxation claim, it needs `[PROOF NEEDED: authorised or evidenced support for the claim]` and a sign-off from someone who knows UK food advertising rules.\n2. Is \"plastic-free\" the only packaging claim you want here? It's fine as written. The policy also allows \"home compostable\" for the tea bags, but only add it if it's true of this product.\n\n**Approver:** The policy names no approver, so you need to give an explicit yes to the exact final copy. Nothing has been approved or recorded, so it should not publish yet.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0138343,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

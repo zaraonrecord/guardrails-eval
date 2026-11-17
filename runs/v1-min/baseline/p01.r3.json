@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e46837392e9eaff5d3348f30c43760f362bc1405e12ffc21ee69269f965b639b",
+ "result": "Review of the landing hero draft:\n\n**Issues found**\n\n1. **\"The UK's best loose leaf tea\"** is an unsubstantiated superlative. The brand policy doesn't back up a \"best in the UK\" claim (there is no award, ranking or comparative test on the allowlist). It needs to be removed or replaced with something supportable, such as the 4.8 out of 5 rating from over 1,200 reviews on the website.\n\n2. **Repetition**: \"packed by hand in Bristol\" appears twice in three short sentences (\"...packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). The claim itself is allowed, but the duplication reads as filler and should be cut to one mention.\n\n**Claims that check out**\n- \"Every tin is packed by hand in Bristol\" is on the allowlist.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"Free UK delivery on orders over £25\" is on the allowlist.\n\n**Suggested rewrite**\n\"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nAlternatively, if you want a quality hook: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074972,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

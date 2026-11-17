@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c957ff580c5ce5c02b2cccb5301d984a48ef8dbbf607e54439921344781577a2",
+ "result": "**Not ready to publish.** Two things need to change.\n\n**Product label (Owned / Tried / Wishlist)**\n- The draft says \"I've tried four tea subscriptions\", so I'm treating Pebblebrook as **Tried**. Please confirm.\n- A Tried product needs to say how and for how long it was used, for example \"I had it for three months\". The draft doesn't.\n- I also need to know whether the product was gifted or paid for. If it was gifted, the post has to open with \"Gifted\". If it was a paid partnership, it has to open with \"Ad\". Neither appears.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"I've tried four tea subscriptions this year\" | The writer's own experience. It's fine only if true. |\n| \"Pebblebrook's was the easiest to pause\" | **Unsupported.** It's a superlative comparison against three other services. Our policy only backs \"Subscribers can pause or cancel any time\". |\n| \"the tins are lovely\" | Opinion, fine. |\n| \"(Affiliate link)\" | Correct wording, placed next to the link as the brand policy requires. |\n\n**Fixes**\n1. Add a plain-words affiliate declaration at the top of the post, before the first link. For example: \"This post contains an affiliate link, so I may earn a commission if you subscribe.\" The \"(Affiliate link)\" tag next to the link stays, but it doesn't replace the top declaration.\n2. Change the superlative to something the writer can stand behind and the policy supports. For example: \"Pebblebrook's was easy to pause: you can pause or cancel any time.\" The writer should only keep a comparison like \"easiest\" if they actually compared the pause process on all four.\n3. Add how long the writer used the subscription.\n4. Add \"Gifted\" or \"Ad\" at the very start if either applies.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0182886,
+ "seconds": 17.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

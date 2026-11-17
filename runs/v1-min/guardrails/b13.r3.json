@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f5e9fd8ca27cb25bb50fcc4dd7f18f3c7d2fe130edac7e899abfb104f17255bb",
+ "result": "## Publish gate report\n\n**Going out:** Paid creator post, UK audience, with the final text exactly as drafted. No schedule was given.\n\n**Checks**\n- **Claims:** Pass. \"Packed by hand in Bristol\" matches the policy allowlist (\"every tin is packed by hand in Bristol\"). The Assam, the pot of tea and the ten minutes away from the phone are product facts or personal routine, not provable claims. No stats, rankings, guarantees or testimonials appear.\n- **Regulated claims:** Pass. \"Afternoon reset\" is lifestyle language. It doesn't promise a health, calming or wellbeing benefit, so keep it that way and don't add one.\n- **House style:** Pass. It's plain and specific, with no banned words and no AI tells such as stock openers, tidy triples or slogan closers.\n- **Disclosure:** Pass. \"Ad\" is the first word, so the label is upfront and in plain words, which is what UK rules expect for a paid post. Also switch on the platform's paid-partnership or branded-content tool if the channel has one, and make sure the label appears on every post in any series.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** The brand policy doesn't name an approver, so I need an explicit yes to this exact text from you. Nothing has been recorded as approved yet. If you change a word after approving, the post needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0114017,
+ "seconds": 16.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

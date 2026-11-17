@@ -1,10 +1,14 @@
 {
  "case": "b14",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** a creator post on the \"gifted\" channel, UK audience. The brand is Pebblebrook Tea Co. Timing and platform weren't given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. \"The rooibos chai is lovely with oat milk\" is the creator's own opinion about a product. Product facts are fine as written under the policy. Pass.\n- **Regulated claims:** There is nothing on health, money, legal outcomes, the environment, children or prices. Pass.\n- **House style:** There are no AI tells or banned phrases. It reads like a person wrote it. The policy gives no voice words to score against, so this is a plain read rather than a numeric score. Pass.\n- **Disclosure (UK):** \"Gifted\" is the first word, so it is upfront, in plain language and visible before anyone engages. That meets the expectation for free product. \"Not paid to say that\" is consistent with it, because the post names the free sampler as the only thing of value.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision (optional):**\n- If the platform has a paid-partnership or branded-content tool, switch it on as well as the written label. That is my suggestion.\n- Confirm there was no brief, payment, discount or commission beyond the free sampler. If there was, \"Not paid\" would be misleading and the post should say \"Ad\" or \"Paid partnership\".\n\n**Approver:** the policy doesn't name an approver. Please give an explicit yes to this exact wording, and tell me your name for the approval record. I haven't recorded any approval, and nothing should go out until you've given it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0167353,
- "seconds": 15.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a805be712611c93c0bd6db6848318b14b0a6af7f710883d354ea78030e9d6560",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (gifted), UK audience, Pebblebrook Tea Co. winter sampler.\n\n**Checks**\n- **Claims:** Pass. There are no stats, ratings, rankings or guarantees. \"Winter sampler\" and \"rooibos chai\" are product facts, and \"lovely with oat milk\" is the creator's own opinion.\n- **Regulated claims:** Pass. There are no health, green, price or urgency claims.\n- **House style:** Pass. It reads as a real person, with no AI tells or stock phrases.\n- **Disclosure (UK):** Pass. \"Gifted\" is the first word, in plain language, so it comes before the reader engages. That is the right approach for a gifted item.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision (not blocking):**\n- \"Not paid to say that\" is only true if the creator got no payment, commission or affiliate link, and the brand didn't approve or control the content. The creator should confirm that. If any of those apply, it becomes an ad and needs \"Ad\" or \"Paid partnership\" instead.\n- If the platform has a paid-partnership or branded-content tool, use it as well as the \"Gifted\" label.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact text before it goes out. Nothing has been approved or recorded yet.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0161373,
+ "seconds": 15.6,
  "models": [
   "claude-sonnet-5-5"
  ]

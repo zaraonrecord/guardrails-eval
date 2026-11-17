@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "I found nothing that needs changing. The draft is cleared to publish.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This describes flavour, ingredients and when to drink it. \"Caffeine-free\" is a product fact, and neither herb contains caffeine. \"For the evening\" is occasion language, not a claim about an effect on the body. It does not say the tea helps you sleep or relax, which would be a health claim. The tone is warm, plain and unhurried.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate was renewed in 2026.\n- **\"20 plastic-free tea bags.\"** \"Plastic-free\" is on the approved list. The bag count is a product fact the product team checks. It does not claim compostability, so the EN 13432 wording isn't needed.\n\nThe draft has no superlatives, guarantees, invented numbers, testimonials, urgency, vague green claims or banned words, and it reads as human-written. On a product page, no ad or affiliate label is required.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0108227,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

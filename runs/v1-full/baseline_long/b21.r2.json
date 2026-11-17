@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a1e3d6e0b5bf9c8e653e96df055d7fac161ce0a2a9d863f1ffe94b632e7ce023",
+ "result": "**Review of the about page draft**\n\n**Sentence by sentence**\n\n1. \"Pebblebrook was founded in Bristol in 2019.\" This matches the approved claim (Companies House). Fine.\n2. \"We're a small team of six.\" Team size is a product fact checked by the product team and fine to use as written. Fine, as long as six is still the current headcount.\n3. \"every tin is packed by hand in Bristol.\" This matches the approved claim (Operations). Fine.\n4. \"We buy from gardens we've visited.\" This is a factual claim about how the company sources its tea. It isn't on the claims allowlist, and the policy's product-facts clause covers where a tea is grown and picked, not whether the team has visited the gardens. It also reads as covering every supplier. Nothing I can see backs it up. Either get written confirmation that every garden has been visited, or reword to something provable, such as naming the gardens or regions the product team has already signed off.\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, urgency, invented numbers or testimonials.\n- No paid-partnership or affiliate content, so no label is needed.\n- Voice is plain and warm, with no banned words or AI clichés. Spelling is UK-consistent.\n\n**Decision:** Hold. The draft is nearly there, and only the last sentence needs a fix or proof. Sam approves all public content, so the fix should go through Sam.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0143367,
+ "seconds": 19.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

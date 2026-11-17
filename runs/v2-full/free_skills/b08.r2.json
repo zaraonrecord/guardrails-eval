@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fc041685bda32ad27b9b49ea6041be92542b4668dd0e680d5cbaf16906cfeedb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem:** \"most boxes ship free\" implies a fact about order sizes (that most orders or subscriptions exceed £25). Nothing in the policy backs this up, and it's an invented statistic by implication. Subscription box prices aren't in the policy either, so we can't assume they clear the threshold. The £25 threshold claim stands on its own and doesn't need this conclusion.\n\n**Suggested fix:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery in the UK is free on orders over £25.\"\n\nIf the team can confirm what share of orders or subscriptions are over £25, or the subscription price, a more specific line becomes possible: `[PROOF NEEDED: subscription price or share of orders over £25]`.\n\n**Other checks:** No superlatives, guarantees, health or green claims, fake urgency, or banned words. UK spelling is fine. No partnership or affiliate label is needed for our own landing page. Approval from Sam is still required before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011071899999999999,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

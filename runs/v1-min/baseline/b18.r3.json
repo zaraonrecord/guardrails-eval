@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f7fa51fa3151b562987c67fb7b83a4150c41f6c47b1a61d1ec0d6c931bbca2f9",
+ "result": "Review of the draft:\n\n- **\"Certified organic by the Soil Association.\"** This is on the claims allowlist, so it is fine.\n- **\"Just peppermint leaves, nothing else.\"** This is a product fact about ingredients, so it is fine as written.\n- **\"Cool and clean after a big meal.\"** This describes flavour and the experience of drinking it. It doesn't claim a digestive benefit (such as aiding digestion), so I don't read it as a health claim.\n- No invented stats, superlatives, guarantees, testimonials, urgency, green claims beyond the allowed organic certification, or missing disclosures.\n- The copy is short and specific, without filler phrasing.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008142,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

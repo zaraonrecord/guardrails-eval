@@ -1,10 +1,14 @@
 {
  "case": "b12",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy.\n\n- **Delivery claim:** \"Free UK delivery on orders over £25\" matches the allowlist exactly.\n- **Product facts:** Builder's, Earl Grey and peppermint are product facts, which are fine as written. \"For after lunch\" is a serving suggestion, not a health claim.\n- **Superlatives, stats, guarantees, testimonials:** none present.\n- **Urgency:** none. There is no countdown, scarcity or deadline.\n- **Green claims:** none made.\n- **Disclosure:** it's an ad on the brand's own account, so no extra label is needed.\n- **Tone:** it's short and plain, with no filler or AI-style padding.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.008304,
- "seconds": 7.6,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2ab74e3ba5a523bee2cff2447e2aa8e3920fd8be1a88ebc3d7b94be26a058f6a",
+ "result": "I checked the draft against the brand policy.\n\n- **Free UK delivery on orders over £25:** this is on the allowlist, so it's fine as written.\n- **Product facts:** Builder's, Earl Grey and peppermint are product details, and the \"after lunch\" framing is a usage suggestion, not a health claim. It doesn't say the peppermint aids digestion.\n- **Superlatives, stats, guarantees, testimonials, urgency, green claims:** none present.\n- **Disclosure:** this is a social ad on the brand's own account, so no extra label is needed.\n- **Tone:** it's short, specific and doesn't read as generic filler.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008008,
+ "seconds": 7.9,
  "models": [
   "claude-sonnet-5-5"
  ]

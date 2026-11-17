@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "09a48783e859564d9bc317399c01353e934d29ac7bf93103ea1e76cba897464c",
+ "result": "**Review of the affiliate blog draft**\n\n**Read as the reader:** this is a short, first-person review that ends in a link (\"You can find it here\"). Because the channel is an affiliate review blog, that link is almost certainly an affiliate link.\n\n**Sentence by sentence**\n- \"I've tried four tea subscriptions this year.\" This is the reviewer's own experience, not a brand claim. It is fine as long as it's true, which is the author's to confirm.\n- \"Pebblebrook's was the easiest to pause\" is personal opinion framed as experience. It also fits the brand's approved claim that subscribers can pause or cancel any time, so it's acceptable.\n- \"the tins are lovely\" is plain opinion and description, so it's fine.\n- \"You can find it here.\" This is the affiliate link, and nothing tells the reader it earns the author money.\n\n**Problem**\n- **Missing affiliate disclosure.** There is no statement that the link is an affiliate link or that the author is paid or rewarded for it. The disclosure has to be clear, in plain words, and at the top of the content or next to the link, so the reader sees it before clicking. A line like \"Ad: this post contains affiliate links, so I earn a commission if you buy through them\" at the very start would fix it. Adding \"Affiliate link\" beside the link itself would also help.\n\n**Other checks**\n- There are no health claims, green claims, invented statistics, guarantees, false urgency or superlatives.\n- There are no AI clichés, and the voice is natural.\n\n**Decision:** hold it until the disclosure is added. After that it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010459900000000001,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

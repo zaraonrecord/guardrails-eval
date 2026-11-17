@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6ee5dabc2c1ee957e210f035a4a2f1193b8dedb3fb47088ac96b021ab62e1ced",
+ "result": "**Review: Peppermint product page**\n\n**Problems**\n\n1. **\"a natural detox that aids weight loss\"** – Health claim. The policy bans \"detox\" and \"aids weight loss\" outright, and the checklist treats both as unauthorised body-function claims. Both need to go. Fix: remove the phrase entirely.\n\n**Checked and fine**\n\n- \"Just peppermint leaves, nothing else.\" This is an ingredient fact, which the product team verifies and which is fine to use as written.\n- \"Certified organic by the Soil Association.\" This is on the approved claims list in exactly that wording.\n- \"Cool and clean after a big meal.\" This reads as a description of taste and experience rather than an effect on the body, so I'd leave it. It sits close to the line if it were pushed further (e.g. \"aids digestion\"), but as written it's fine.\n- No banned words, no clichés, UK spelling is fine, and the tone is plain and warm enough.\n\n**Suggested rewrite**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nOnce the detox/weight loss phrase is removed, it's fine to publish, and Sam still needs to sign off as the approver for public content.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073668,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

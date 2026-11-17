@@ -1,10 +1,14 @@
 {
  "case": "p18",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the draft**\n\n- **\"Unlock your tea journey.\"** This is a generic, filler marketing phrase. It says nothing about brewing and doesn't match the practical tone of the rest of the email. I'd cut it or replace it with something concrete, such as \"Here's how to brew loose leaf with what's already in your kitchen.\"\n- **Brewing advice** (mug, small sieve, four minutes for black tea, shorter and cooler for green): this counts as product and brewing information, so it's fine as written.\n- **Claims check:** there are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. Nothing conflicts with the claims allowlist.\n- **Sign-off and greeting:** both are fine.\n\nThe draft needs that one line changed before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.011371999999999998,
- "seconds": 11.1,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b7bd86c5e8bb9cbfa76ffe6b774d09a7e083866befff1eccd7e7cdc901a3ad3a",
+ "result": "I checked the draft against the brand policy and the usual problem types.\n\n**Claims:** There are no invented stats, superlatives, guarantees, testimonials, health claims, green claims or fake urgency. The brewing advice (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product/brewing information, which the policy allows as written.\n\n**Filler copy:** \"Unlock your tea journey.\" is generic AI-style marketing filler. It says nothing concrete, and \"unlock your journey\" is a stock phrase. It also sits oddly against the next line, which is practical. I'd cut it or replace it with something specific, such as \"No teapot? No problem.\"\n\n**Disclosure and compliance:** This is a marketing email to a named recipient. It has no unsubscribe link or sender identification (company name and address), which UK PECR/GDPR practice expects in marketing emails. If the footer is added by the email platform, this is fine. If not, it needs adding before sending. I'm flagging it as a missing disclosure since it isn't visible in the draft. Quote is the opening words of the draft, per the instructions for a missing label.\n\n**Minor:** \"The Pebblebrook team\" is fine as a sign-off. The email doesn't mention a product or call to action, which is a style choice and not a compliance problem.\n\n**Verdict:** Don't publish as is. Remove or rewrite the filler line and confirm the unsubscribe/sender footer is present.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}, {\"quote\": \"Subject: How to brew loose leaf without a teapot\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011361999999999999,
+ "seconds": 9.6,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2158d4032890048bd8a0a1b79c3a00e10757663c7c20cc0284b81ffe323b9e69",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted (the rating, review count and source \"on our website\" all match) |\n| \"Organic loose leaf\" | Allowlisted (certified organic by the Soil Association) |\n| \"plastic-free bags\" | Allowlisted (tea bags are plastic-free) |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n\n**Slop and structure check:** There are no ban-list words, no em-dashes, no exclamation marks, no rhetorical opener, no fake urgency and no superlatives or guarantees. The first sentence leads with a concrete fact.\n\n**Notes (not blocking):**\n- The \"organic\" claim sits next to \"loose leaf\", so it reads as applying to the loose leaf. That is backed by the Soil Association certification. If any range is not certified, keep the wording as it is and don't extend \"organic\" to it.\n- \"Packed by hand\" is backed for tins. If the plastic-free bags ship in something other than tins, check that the line is still true for them.\n- The landing hero is the page itself, so the ad-consistency rule is met. Any ad that uses this rating line should link here.\n\nNothing needs changing, so the draft can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111301,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

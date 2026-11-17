@@ -1,10 +1,14 @@
 {
  "case": "p26",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "Review of the creator post (paid):\n\n**Disclosure:** The post starts with \"Ad\", which is the required wording for a paid partnership. Fine.\n\n**Claims check:**\n- \"Their tins are packed by hand in Bristol\": matches the allowlist (\"Every tin is packed by hand in Bristol\"). Fine.\n- \"Pebblebrook's Assam\", \"a pot of... Assam and ten minutes away from my phone\": product mention and personal routine, fine.\n- \"Honestly the best tea in Britain\": an unprovable superlative. Not allowed.\n- \"it's a proven immunity booster\": a health claim, and \"proven\" implies evidence we don't have. Not allowed.\n\n**Voice:** The tone is warm and plain otherwise. No banned words. UK spelling is fine.\n\n**Required changes:** Remove the \"best tea in Britain\" line and the immunity claim. A safe rewrite:\n\n\"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\nThis needs Sam's approval before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.008932099999999998,
- "seconds": 8.3,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "309e7f0b8b340118af87e53c2adf4803b3131b99508144f17941437bc3b38ba5",
+ "result": "Review of the paid creator post:\n\n**Disclosure:** The draft opens with \"Ad\", which is the required label for a paid partnership. Fine.\n\n**Claims check:**\n- \"Their tins are packed by hand in Bristol\" matches the allowlist claim (every tin is packed by hand in Bristol). Fine.\n- \"Assam\", \"pot of tea\", \"ten minutes away from my phone\": product fact and personal routine, fine.\n- \"Honestly the best tea in Britain\": an unprovable superlative. Not allowed.\n- \"it's a proven immunity booster\": a health claim, and \"proven\" implies evidence we don't have. Not allowed.\n\n**Voice:** Otherwise warm, plain and unhurried. No banned words. UK spelling is fine.\n\n**Required changes:** Remove \"the best tea in Britain\" and the immunity claim. The post could end after \"which I love\", or swap in something personal, such as how the Assam tastes. It needs Sam's approval before publishing, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006453,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

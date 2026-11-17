@@ -1,10 +1,14 @@
 {
  "case": "b05",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "Review of the draft:\n\n- **Rating claim**: \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly (4.8 out of 5, over 1,200 reviews, on our website). It's fine.\n- **Product facts**: \"real bergamot oil and a little cornflower\" is an ingredient description, which is allowed as written.\n- **Tone and wording**: \"Rainy Sunday, second pot\" is natural and not generic filler. No superlatives, guarantees, health claims, green claims, urgency, or testimonials.\n- **Disclosure**: This is the brand's own Instagram account, so no sponsorship label is needed.\n- **Market**: Nothing conflicts with UK marketing.\n\nNothing needs changing. It's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.00853,
- "seconds": 6.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b8630b675b388c425e2a7c1a05cbb9c131e29b5bfb1eccdcfb39205fbe9582b5",
+ "result": "I checked the draft against the brand policy.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist word for word, so it's fine.\n- **Product facts:** \"real bergamot oil and a little cornflower\" is an ingredient fact, which the policy allows as written.\n- **Tone and wording:** \"Rainy Sunday, second pot\" is a natural, specific line. It has no superlatives, guarantees, health claims, green claims, or false urgency.\n- **Disclosure:** This is the brand's own account posting about its own product, so no paid-partnership or gifting label is needed.\n- **Testimonial:** The rating is a stated aggregate, not a quoted customer, so it isn't a fake testimonial.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008564,
+ "seconds": 9.8,
  "models": [
   "claude-sonnet-5-5"
  ]

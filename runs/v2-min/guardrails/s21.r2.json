@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "eada6523c7c3d98773273f2539272a74533ca782ccdf0b0c3d34e91bab272bfd",
+ "result": "**Publish gate report: search ad, UK**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", description with two sentences. Audience: UK tea drinkers.\n\n**Checks**\n\n1. **Claims**\n   - \"Plastic-free and home compostable\": on the policy list. Pass.\n   - \"Recommended by nutritionists\": not on the policy list and no source in this chat. It also implies professional endorsement, which would need named people and their permission on record. Unproven.\n\n2. **Regulated claims (health):** \"Recommended by nutritionists\" is a health-adjacent endorsement claim. It suggests health benefit backed by professionals. Risky, and it should not run without evidence.\n\n3. **House style:** The copy is short and plain. No banned words or AI tells visible. Fine.\n\n4. **Disclosure:** The ad is a paid search ad. Search platforms label it as an ad themselves, so no extra label is needed in the copy. Pass.\n\n**Fixed:** Removed \"Recommended by nutritionists\".\n\n**Suggested replacement copy:**\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n(The delivery line is on the policy list, so it's safe to use.)\n\n**Needs a decision:**\n- If the team does have nutritionist endorsements, I need the names, the permission on record and the wording they agreed to, plus the policy owner's sign-off. Otherwise leave it out.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to the revised copy above. I haven't recorded any approval and the original draft should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106433,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

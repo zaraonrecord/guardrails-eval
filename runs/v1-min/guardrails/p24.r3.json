@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "01f4223ca75af5f2f7ce0c59206cb615b66043554b5e8182978207c9c44b0bd0",
+ "result": "## Publish gate report\n\n**Going out:** Subscription dispatch email to Priya (UK subscriber), via email.\n\n**Checks**\n- **Claims:** \"left Bristol this morning\" is an operational statement, not a marketing claim. \"Pause or cancel any time\" is on the policy list. The lapsang and white peony are product facts, which are fine as written. No invented stats, testimonials or guarantees.\n- **Regulated claims:** Nothing touches health, money, environment, children or prices.\n- **House style:** \"Elevate your mornings:\" is a stock slogan opener and an AI tell. It adds nothing to a plain dispatch note and clashes with the otherwise straightforward tone.\n- **Disclosure:** This is a transactional email about the customer's own subscription. There are no ads, affiliates, sponsorships or AI-labelling triggers, so no label is needed.\n\n**Fixed (suggested rewrite)**\n- Removed \"Elevate your mornings:\".\n\nRevised body:\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\n**Needs a decision**\n- The subject says \"October tins\", but today is 17 November. If this box is the November one, the subject is wrong. My suggestion is to confirm the month before sending.\n- The policy names no approver for email, so I need an explicit yes to the revised text from you or whoever owns the send. Nothing is recorded or sent until then.\n\n**Approver:** Not named in the policy. Please confirm who should sign off.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings:\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012443000000000003,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

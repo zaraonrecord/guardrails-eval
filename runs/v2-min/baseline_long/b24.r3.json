@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "043bfe9ba9ebee4e566fd54533c686fd611f868c7b0300b170c898784661403e",
+ "result": "I checked each sentence of the landing hero against the brand policy.\n\n- \"Good tea, no fuss.\" This is description and tone, not a claim. It's short and plain, and it reads like the brand's own voice rather than filler.\n- \"Certified organic by the Soil Association\" is on the approved claims list.\n- \"packed by hand in Bristol\" matches the approved claim \"every tin is packed by hand in Bristol\".\n- \"free UK delivery on orders over £25\" matches the approved claim, and the threshold is stated right next to the offer.\n\nThere are no superlatives, health claims, green claims, guarantees, urgency, testimonials or statistics. As a brand-owned landing page it needs no ad label. The only things I'd note are optional: nothing needs fixing, and the copy has no clichés or hype words.\n\nThe draft can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005595599999999999,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

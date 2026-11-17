@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "873e2fe6281c7b403d4dfff3eaddd342d7be46453c775dd320d24909747be3e1",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** \"Gifted\" is the first word, so readers see it straight away. The text also says the product was sent by the brand, which makes the relationship clear.\n- **Claims:** The draft makes no statistics, superlatives, guarantees, health claims, green claims or urgency. \"Lovely with oat milk\" is a personal opinion on flavour, which is fine.\n- **\"Not paid to say that\":** This is consistent with a gifted-only arrangement. If the creator was actually paid or has any other commercial arrangement with the brand, this line would need to change. Nothing in the brief suggests that.\n- **Tone:** It reads like a real person wrote it, with no filler or generic phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006683699999999999,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

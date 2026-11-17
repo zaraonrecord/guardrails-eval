@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "e4d2d58df214dcbbc718a04189743e43da7d89ffc138e6124a01d397e316d763",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, UK audience, Pebblebrook Tea Co. No date was given.\n\n**Claims check:** All three claims are on the policy list.\n| Claim | Status |\n|---|---|\n| Every tin is packed by hand in Bristol | On the policy list |\n| Certified organic by the Soil Association | On the policy list |\n| Free UK delivery on orders over £25 | On the policy list |\n\nThere are no stats, superlatives, guarantees, testimonials or urgency claims. \"Loose leaf tea\" is a product fact, which is fine as written.\n\n**Regulated claims:** No health, money, environmental, children's or pricing-promise claims. The delivery threshold matches the policy exactly. Nothing to flag.\n\n**Disclosure:** This is the brand's own hero copy, so there are no ads, affiliate links, sponsors or AI-labelling triggers. Nothing to flag.\n\n**House style:** The policy has no voice section, so I can't score against the brand's voice. Nothing in the draft reads as an AI tell. One edit I'd suggest, which doesn't block publishing, is that \"packed by hand in Bristol\" appears twice in three short sentences. Suggested tightening:\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Fixed:** I haven't changed the copy. The tightening above is optional, and if you take it, I'll re-check the final text.\n\n**Needs a decision:**\n- Whether to use the original or the tightened version. I suggest the tightened one.\n- Who approves this. The policy names no approver, so I need an explicit yes from you on the exact final text before it goes live.\n\n**Approver:** None named in the policy, so you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0136902,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

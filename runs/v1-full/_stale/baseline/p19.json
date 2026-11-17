@@ -1,0 +1,11 @@
+{
+ "case": "p19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\nChecked against the brand policy:\n\n- **\"The UK's number one tea subscription.\"** This is an unprovable superlative. Section 3 bans \"number one\" and \"the UK's favourite\". It must come out.\n- **\"Subscribers can pause or cancel any time.\"** This matches the allowlist wording exactly. Fine.\n- **\"Free UK delivery on orders over £25.\"** This matches the allowlist wording exactly. Fine.\n- **Headline \"Tea Subscription UK\"**: A plain descriptor, no claims. Fine.\n- **Voice and spelling**: No banned words, UK spelling, and the tone is plain. Fine.\n- **Disclosure**: This is our own paid search ad, so no extra label is needed.\n\n**Suggested fix:** Replace the second sentence with something factual, for example: \"Loose leaf tea and plastic-free tea bags, delivered monthly.\" Keep the pause/cancel and delivery lines as they are. Sam needs to approve the final version before it goes out.\n\n**Verdict:** Do not publish as written. Remove the \"number one\" claim, then send to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085421,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

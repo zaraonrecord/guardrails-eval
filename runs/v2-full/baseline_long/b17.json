@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "09f1a23d13eef91b5efba822899be109a17a9eac7e59d82d0c798c06df6e1bb1",
+ "result": "I found nothing that needs changing before this goes out.\n\n- **Claims:** The draft makes no claims about results, health, the environment, superlatives, guarantees or numbers. The ingredients (black tea, orange peel, cinnamon, clove) are product facts the product team has checked, so they are fine as written.\n- **Urgency:** \"It's back in the shop from today\" announces availability. It is not a countdown, a stock warning or a \"today only\" offer, so it isn't false urgency.\n- **Labels:** This is the brand's own newsletter, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Voice:** It is warm, plain and unhurried. It uses none of the banned words, and the spelling is UK-consistent.\n- **Optional polish:** \"is back\" appears twice in three short sentences (\"the Christmas blend is back\" and \"It's back in the shop\"). You could change the second to \"It's in the shop from today\". This is not a reason to hold the draft.\n\nPer the policy, Sam (marketing lead) still needs to approve all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081858,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

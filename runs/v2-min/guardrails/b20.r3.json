@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fe4d494252a4e48f8726997af757a86143e17adeb9baa7ea36f99ebfddc445ae",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline plus description) for Pebblebrook Tea Co., UK audience.\n\n**Claims**\n\n| Claim | Status |\n|---|---|\n| \"Monthly loose leaf tea\" | Product fact, fine as written |\n| \"Subscribers can pause or cancel any time\" | On the policy list |\n| \"Free UK delivery on orders over £25\" | On the policy list, and the £25 condition is stated |\n\n**Regulated claims:** The only offer is free delivery, and its condition is in the copy. There are no health, money, environment, children or price-comparison claims, and no countdowns or stock pressure.\n\n**House style:** No banned words, AI tells, superlatives or padding. The copy is plain and specific, so I made no rewrites.\n\n**Disclosure:** Search ads are labelled \"Ad\" or \"Sponsored\" by the platform, so the copy needs no extra label. There are no affiliate, influencer or AI-generated elements.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. Two small notes:\n- The ad's landing page must show the same delivery threshold and the pause/cancel terms, since an ad can't claim more than its page backs up.\n- The policy names no approver, so you are the approver. I can't record the approval myself in this session. Please say \"approved\" for this exact copy, and then record it yourself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107813,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

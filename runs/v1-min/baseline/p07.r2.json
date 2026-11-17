@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "da5078bd6f8c4da68452750da8e4204a83aae3ca7d7bcde0045eb5a51d4d49c7",
+ "result": "Review of the landing hero draft:\n\n**Problems**\n\n1. **\"you'll love it or it's free\"** is a money-back or free-product guarantee. The brand policy doesn't include it among the claims we can back up. The only supported commitment is that subscribers can pause or cancel any time. Remove it, or get the guarantee approved with its terms (what's refunded, time window, conditions) before it goes live.\n\n2. **\"most boxes ship free\"** is an unsupported claim. The policy backs free UK delivery on orders over £25, but nothing says what share of orders reach that threshold. \"Most boxes\" implies a statistic we haven't verified. Say \"free UK delivery on orders over £25\" and stop there.\n\n**Checked and fine**\n- \"Subscribers can pause or cancel any time\" is on the allowlist.\n- \"Free UK delivery on orders over £25\" is on the allowlist.\n- No health, green, urgency or testimonial claims appear.\n\n**Suggested rewrite:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free across the UK on orders over £25.\"\n\nDo not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068264,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

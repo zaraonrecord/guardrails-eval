@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "71f37d265236ebafb2c5ab1d297fc1b9f971b0451028b9f1aa011b63ef6bec4d",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Product fact (new products arriving), fine |\n| Black tea, orange peel, cinnamon, a little clove | Ingredients, product team facts, fine as written |\n| Back in the shop from today | Availability fact, not a countdown or scarcity claim, fine |\n\n**Checks**\n- **Numbers, stats, ratings, testimonials:** none.\n- **Superlatives and guarantees:** none.\n- **Health claims:** none. The spices are listed as ingredients only, with no benefit implied.\n- **Environmental claims:** none.\n- **Urgency:** \"from today\" is a launch date, not \"today only\" or \"only X left\", so it isn't fake urgency.\n- **Disclosures:** none required. This is our own newsletter, with no partnership, gifting or affiliate link.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation points, no rhetorical opener, and UK spelling is fine.\n- **Minor style point (not blocking):** \"back\" appears twice in three sentences. You could trim it to \"It's in the shop from today.\"\n\n**Approval:** Per policy, Sam needs to sign off on everything public, so get that before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0105296,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

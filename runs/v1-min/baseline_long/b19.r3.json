@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "I read the draft as a subscriber would see it in an email.\n\n**Claims:** The draft contains no statistics, health claims, environmental claims, guarantees, testimonials, superlatives, urgency or pricing. The brewing advice (a mug, a small sieve, four minutes for black tea, shorter and cooler for green) is product and brewing information, which the policy allows as written.\n\n**Disclosure:** This is a brand-owned email, so it needs no \"Ad\" label. The sender is \"The Pebblebrook team\", and the greeting \"Hi Ana\" is personalisation that should be checked in the send tool to make sure the name merge works.\n\n**Subject line:** It accurately describes what is inside.\n\n**Style:** The copy is short, specific and plain. It has no clichés, hype or formulaic phrasing. The only note is optional: \"Green tea likes it shorter and cooler\" is slightly vague about actual times and temperatures, so adding something like \"two to three minutes at around 80°C\" would be more useful. That is polish, not a blocker.\n\n**Decision:** Nothing here needs changing, so the email can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0065267,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

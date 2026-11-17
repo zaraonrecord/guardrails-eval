@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9a6535f01f4fa31d5f4d211cb1a9eb84049e2d5e7d5508cf6a20e5716b5992fd",
+ "result": "## Publish gate report\n\n**Going out:** a short affiliate review post on a review blog, with no date or audience given.\n\n**Checks**\n- **Claims:** Nothing needs changing.\n  - \"Tried four tea subscriptions this year\" is the reviewer's own experience, not a brand claim.\n  - \"Easiest to pause\" is a personal comparison. It is consistent with the policy row \"Subscribers can pause or cancel any time\" and doesn't claim \"best\" or \"number one\".\n  - \"The tins are lovely\" is opinion.\n- **Regulated claims:** No health, money, environmental, children or price content.\n- **House style:** The tone is warm, plain and unhurried. It contains no banned words and no AI tells.\n- **Disclosure:** \"(Affiliate link)\" sits right next to the link, which is the policy's required wording and placement. The post is two short sentences, so the label is seen before the reader reaches the link.\n\n**Fixed:** Nothing.\n\n**Needs a decision:**\n- Optional: you could open with \"Affiliate link:\" or \"Ad:\" so the disclosure comes first. The policy doesn't require it, so I'm not blocking on it.\n- Please confirm whether the reviewer was gifted the subscription. If so, the post must start with \"Gifted\" under policy section 4.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and nothing should be published until Sam says yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0173896,
+ "seconds": 16.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

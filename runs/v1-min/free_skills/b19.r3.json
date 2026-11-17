@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f01584fb745d2372387df5f80520c1ff8175c6719e83932aa3b785d80a8c617d",
+ "result": "I checked the draft against the claims allowlist, the slop rules and the review rules. It's clear to publish.\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact. Product and brewing facts are fine as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, and the wording is soft, not absolute.\n- No statistics, superlatives, guarantees, testimonials, reviews, awards or health, money or environmental claims.\n\n**Slop check**\n- No banned vocabulary.\n- No em-dash sandwiches, exclamation points, rhetorical-question opener, \"not just X, it's Y\" construction or abstract-noun triad.\n- No fake urgency.\n- The opening sentence, \"You don't need any kit.\", is concrete, and the next sentence backs it with specifics.\n\n**Review rules**\n- The email names no third-party products, affiliate links or sponsorships, so no labels or disclosures are needed.\n\n**Optional notes (not blockers)**\n- The email has no call to action. You may want to link to your loose leaf range.\n- Make sure your usual marketing email footer (unsubscribe link and company details) is added by your email platform, since it isn't part of the draft text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113543,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

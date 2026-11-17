@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "049eb68401a0f26769da318d9e3b9db5b24ae478e620ac3426b5d003e79c6823",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Transactional shipping fact. Consistent with the hand-packed-in-Bristol claim. Confirm it matches the actual dispatch. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written |\n| \"you can pause or cancel any time from your account\" | Allowlisted (\"subscribers can pause or cancel any time\") |\n\n**Other checks**\n- No invented stats, superlatives, guarantees, testimonials, health claims or green claims.\n- No fake urgency and no banned vocabulary. There are no em-dash sandwiches, exclamation points or rhetorical openers.\n- Nothing here needs an affiliate or sponsorship disclosure.\n- The opening sentence leads with the useful fact.\n\n**Notes (not blocking)**\n- The subject says \"October tins\" and the body says \"subscription box\". If the box contains tins, that's fine, but keep the wording consistent.\n- Today is 17 November, so check that \"October\" and \"this month\" are right for this send. If this is a template that fills in the month, make sure it's the correct one.\n\nThe copy makes no unsupported claims, so it can go out once you've confirmed the month.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011679100000000001,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

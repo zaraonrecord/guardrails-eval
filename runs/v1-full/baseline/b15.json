@@ -1,10 +1,14 @@
 {
  "case": "b15",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "This draft is fine to publish as written.\n\n- **Affiliate disclosure:** \"Affiliate link\" sits right next to the link, as section 4 requires. No \"Ad\" or \"Gifted\" label is needed unless the blogger was paid or sent free product. The draft doesn't say either way, so it's worth confirming.\n- **Claims:** \"Easiest to pause\" and \"the tins are lovely\" are the reviewer's own opinions, not brand claims. They don't fall under the banned superlatives like \"best\", \"number one\" or \"finest\". \"Easiest to pause\" is also consistent with our allowed claim that subscribers can pause or cancel any time. \"I've tried four tea subscriptions this year\" is the reviewer's own statement, not a number from us.\n- **Banned categories:** There are no health claims, green claims, guarantees, urgency or invented stats.\n- **Voice:** The tone is warm and plain, with no banned words and no AI-sounding phrasing. The spelling is fine.\n- **Approval:** Per section 6, Sam should still sign off before anything public goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0134581,
- "seconds": 12.4,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e574e0597ea826caf3e203ca0c5bd751b3e6bb65ea7af68da66cc3462af218bb",
+ "result": "This draft is fine to publish, with Sam's sign-off, since everything public goes through Sam.\n\n- **Disclosure:** \"Affiliate link\" sits right next to the link, as section 4 requires. The draft doesn't say the tea was gifted or that the post is a paid partnership, so no \"Ad\" or \"Gifted\" opener is needed. If Pebblebrook did send the reviewer free tea or pay them, the post would have to start with \"Gifted\" or \"Ad\", so it's worth confirming with the blogger.\n- **Claims:** \"Easiest to pause\" is the reviewer's own comparison with other subscriptions, not a brand claim. It also fits our backed claim that subscribers can pause or cancel any time. \"The tins are lovely\" is plain opinion.\n- **Numbers and testimonials:** \"Four tea subscriptions this year\" is the reviewer's own experience. It isn't a Pebblebrook statistic or a testimonial we made up.\n- **Other checks:** There are no health, environmental, guarantee, urgency or superlative claims, and no banned words. The tone is warm and plain.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010254200000000002,
+ "seconds": 10.5,
  "models": [
   "claude-sonnet-5-5"
  ]

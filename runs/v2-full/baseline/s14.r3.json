@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a7729865a914d561ea78e097dbabd29614425f4bb8029ec5de19338ab6bdb734",
+ "result": "**Review: gifted creator post**\n\nChecks:\n\n- **Disclosure:** The product was gifted (\"Thanks to the team for sending it over!\"), so policy section 4 requires the post to start with \"Gifted\" before anything else. The draft opens with \"The rooibos chai...\" and has no label. This blocks publication.\n- **Claims:** No superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency. \"Lovely with oat milk\" is a personal opinion about taste, which is fine. The rooibos chai and winter sampler are product facts, which the product team covers.\n- **Voice:** Warm, plain and unhurried. No banned words. Spelling is fine.\n- **Approval:** Everything public needs sign-off from Sam.\n\n**Fix:** Start the post with \"Gifted\", for example: \"Gifted. The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\" Then send it to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008230099999999999,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

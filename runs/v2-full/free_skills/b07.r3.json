@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7bfff1efa15f453de637175f19934057c4c5ff74daeb8f807975acf3fda86a85",
+ "result": "**Verdict: clear to publish, subject to Sam's sign-off.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Founded in Bristol in 2019, Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, wording matches (supplier certificate, EN 13432) |\n| \"because we couldn't find tea bags without plastic in them\" | Not on the allowlist. It's a founding-story motivation, not a stat or a proof claim. Check with Sam that it's true to the company's history. |\n| \"here's how we checked\" | A promise about the rest of the post. The body should point to the EN 13432 supplier certificate and shouldn't add green claims beyond \"plastic-free and home compostable\". |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, urgency:** none.\n- **Green claims:** nothing beyond the approved wording. There's no \"eco-friendly\", \"sustainable\" or \"zero waste\".\n- **Voice:** no banned words or structures. It's plain and warm, in UK spelling.\n- **Disclosure:** this is the brand's own blog, so there's no partnership, gifted-product or affiliate label to add.\n- **Approval:** all public content needs Sam's approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0132891,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

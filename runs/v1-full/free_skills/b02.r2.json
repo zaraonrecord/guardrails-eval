@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1da3c059eef512c8c07801e5abc9b8c8fef23920789089c361fe7c435ad3b848",
+ "result": "**Review result: clean on claims and voice. Nothing in the draft needs changing.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact. Consistent with the Bristol base. Confirm it's true for this shipment. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, covered by product-team sign-off. |\n| \"you can pause or cancel any time from your account\" | Allowlisted (\"Subscribers can pause or cancel any time\"). |\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials or review counts.\n- No health, environmental or urgency claims.\n- No banned words (\"elevate\", \"unlock\", \"journey\", \"indulge\" and so on), no em-dash sandwiches, no exclamation points, no rhetorical opener. The tone is warm, plain and unhurried, and the spelling is UK.\n- No disclosure needed: this is the brand's own transactional email, not a paid partnership, gifted product or affiliate link.\n\n**Two things to check before sending (not claims problems)**\n1. **Month mismatch:** the subject says \"October tins\", but today is 17 November. If this is a late send or a template carried over from last month, the subject and \"this month\" may be wrong. If it really is the October box, it's fine.\n2. **Approval:** all public content needs Sam's sign-off, so make sure that has happened.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013863300000000002,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

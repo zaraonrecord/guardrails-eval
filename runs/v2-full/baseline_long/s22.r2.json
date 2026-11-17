@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9c8460d0809684aba05f54f79a8f4c8603ccc116e19afc2dc3393e29884d7b15",
+ "result": "**Verdict: hold. One claim needs fixing.**\n\n**Blocking issue**\n- \"Free UK delivery on all orders.\" The approved claim is \"Free UK delivery on orders over £25.\" Dropping the threshold promises free delivery on every order, which misstates the shipping policy. Fix: \"Free UK delivery on orders over £25.\"\n\n**Checked and fine**\n- \"packed by hand in Bristol\" and \"Every tin is packed by hand in Bristol\" match the approved claim.\n- \"certified organic by the Soil Association\" matches the approved claim (certificate on file, renewed 2026).\n- No superlatives, health claims, green claims, guarantees, invented numbers or false urgency.\n- No banned words, and the tone is plain.\n- A landing hero on the brand's own site needs no ad label.\n\n**Optional polish (not blocking)**\n- The first sentence and the second say the same thing: \"packed by hand in Bristol\" appears twice in one short line. Cut one, for example: \"Loose leaf tea, every tin packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013362700000000002,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

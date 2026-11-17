@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "254166bff3bda567368d45fd2e87f31deb0f7b15bbd3159ceeeadbd8d6c7fa56",
+ "result": "**Review of the creator post (paid)**\n\n**Missing disclosure:** This is a paid creator post, and policy section 4 requires it to start with \"Ad\" before anything else. The draft opens with \"My afternoon reset...\", so the label is missing. This blocks publication.\n\n**Claims check:**\n- \"Their tins are packed by hand in Bristol\" matches the allowlist claim \"Every tin is packed by hand in Bristol\". Fine.\n- \"a pot of Pebblebrook's Assam\" is a product fact. Fine.\n- \"ten minutes away from my phone\" is the creator's own routine, not a health claim. \"Reset\" is casual and doesn't claim a health benefit. Fine.\n- No banned words, superlatives, guarantees, invented numbers, green claims or false urgency. Voice is warm and plain, UK spelling is fine.\n\n**Fix:** Start the post with \"Ad\" (e.g. \"Ad: My afternoon reset is...\"). With that added, it's good to go, subject to Sam's approval as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0064621,
+ "seconds": 16.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

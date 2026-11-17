@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f576f60c800d4c1d1dc4ab488b96221f7da6434b27e247520cc878dfaaa2f7ee",
+ "result": "**Review of the affiliate blog draft**\n\n**Claims and opinion**\n- \"I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause\" is a personal, first-person comparison. It is clearly the reviewer's own experience and not a brand claim, and it matches the approved fact that subscribers can pause or cancel any time. This is fine as long as the writer really did try four subscriptions.\n- \"the tins are lovely\" is plain opinion, so it is fine.\n- There are no health, green, guarantee, urgency or statistic claims.\n\n**Affiliate disclosure (problem)**\n- The only disclosure is \"*I may earn a small commission.\" It sits after the link, as a footnote marked by an asterisk, so the reader meets the link before they see it. The checklist requires a plain disclosure at the top of the content or next to the link, visible before clicking.\n- \"may earn\" is also vague. If there is an affiliate link, the post should say plainly that it contains one and that the writer earns a commission.\n- Fix: open the post with something like \"This post contains affiliate links, so I earn a commission if you buy through them.\" Keep a short note beside the link if you like.\n\n**Style**\n- The copy is short and sounds like a real person. There are no clichés.\n\n**Decision:** hold the post until the disclosure is moved to the top and worded plainly.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0113571,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

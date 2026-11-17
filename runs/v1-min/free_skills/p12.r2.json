@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7d455db3e331a418bff04dbbe05d7abf29a1a6ef961c865485b0f7466c78d51f",
+ "result": "**Not ready to publish. One thing needs to change.**\n\n**1. Missing paid-partnership disclosure.** This is a paid creator post, and nothing in it says so. Sponsored content has to be labelled where the product first appears, not in a footer. In the UK, the ASA/CMA rules also require a clear label such as \"#ad\" or \"Paid partnership with Pebblebrook Tea Co.\" at the start. Add it before the first mention of Pebblebrook.\n\n**2. One thing to confirm (not blocking).** \"My afternoon reset is a pot of Pebblebrook's Assam\" is a hands-on claim. Please confirm whether the writer owns the tea or has actually tried it, and for how long. If they haven't, the line has to be reworded. If they have, it's fine as is.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Pebblebrook's Assam | Product fact, fine |\n| \"packed by hand in Bristol\" | Allowlisted |\n| \"which I love\" | Personal opinion, fine if true. A gifted or paid product doesn't change the verdict. |\n| \"ten minutes away from my phone\" | Personal habit, not a product claim |\n\nNo invented stats, superlatives, guarantees, health claims, green claims, fake urgency or banned vocabulary.\n\n**Product label:** Pebblebrook Assam is Owned/Tried/Wishlist (unconfirmed, see point 2). It is also Sponsored (paid).\n\n**Suggested fix:** \"#ad. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119363,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

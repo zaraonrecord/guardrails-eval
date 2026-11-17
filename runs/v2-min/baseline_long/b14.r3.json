@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "786a5f1b4cd3f24ee63fc0ad7a1c54f8348921a84a75fe7112fd3108647a91dd",
+ "result": "This draft can go out as written.\n\n- **Disclosure:** \"Gifted\" is the first word, so the reader sees it before anything else. The sentence \"Pebblebrook sent me their winter sampler\" then explains the relationship in plain words. This meets the checklist's requirement that gifted posts carry a prominent label up front.\n- **Claims:** \"The rooibos chai is lovely with oat milk\" is clearly a personal opinion about taste, not a factual or health claim. The draft makes no statistics, superlatives, guarantees, health, environmental or urgency claims.\n- **\"Not paid to say that, just liked it\":** This is consistent with a gifted post, and nothing in the brief suggests payment. The team should confirm no payment was made. If there was any, this line would need to go and the label would need to be \"Ad\".\n- **Product details:** The winter sampler and the rooibos chai fall under product facts, which the policy allows as written.\n- **Tone:** The copy reads like a real person wrote it. It has no clichés, filler or formulaic phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0100083,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

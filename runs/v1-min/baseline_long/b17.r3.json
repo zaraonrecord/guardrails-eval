@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "698a5e822813ccc253ff34155d3e0846172708dac7799237425a43826bb70c0b",
+ "result": "I checked the draft sentence by sentence.\n\n- **Claims:** The draft contains no statistics, health claims, green claims, guarantees, superlatives, testimonials or comparisons. \"Black tea, orange peel, cinnamon and a little clove\" is a product fact (ingredients), which the brand policy allows as written.\n- **Urgency:** \"It's back in the shop from today\" is an availability announcement, not a scarcity or deadline claim. It doesn't say stock is limited or that an offer is ending. It is fine, provided the blend really is on sale today, which is the team's own news to confirm.\n- **Disclosure:** This is a brand-owned newsletter announcing the brand's own product, so no \"Ad\" label is needed.\n- **Style:** The copy is short, plain and specific. It has no filler phrases or AI clichés. One optional note: \"back in the shop\" and \"It's back\" repeat the same point in consecutive sentences, so you could merge them (for example, \"The Christmas blend is back in the shop from today: black tea, orange peel, cinnamon and a little clove.\"). That is polish only and doesn't need to hold the send.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067796,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

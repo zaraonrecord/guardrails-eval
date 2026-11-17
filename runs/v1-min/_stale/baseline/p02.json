@@ -1,0 +1,11 @@
+{
+ "case": "p02",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review findings**\n\n1. **\"Loved by 50,000 tea drinkers\"**: This is an invented statistic. The allowlist supports only \"rated 4.8 out of 5 from over 1,200 reviews on our website.\" Nothing backs a figure of 50,000 people, and \"loved by\" implies a customer or fan count we can't verify. Replace it with the supported rating claim, e.g. \"Rated 4.8/5 from over 1,200 reviews on our website.\"\n\n2. **\"Certified organic by the Soil Association\"**: Allowed as written.\n\n3. **\"Free UK delivery on orders over £25\"**: Allowed as written.\n\n4. **Headline \"Organic Loose Leaf Tea\"**: Fine. It is a product description backed by the organic certification, and loose leaf is something we sell.\n\n5. **Missing items**: None. A search ad for UK tea drinkers needs no disclosure here, and there is no urgency, guarantee, health claim, or green claim.\n\n**Suggested fix:**\nHeadline: Organic Loose Leaf Tea | Description: Rated 4.8/5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nDo not publish until the 50,000 claim is changed.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010405999999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b15",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I found nothing that needs changing before this goes out.\n\n- **Disclosure:** The \"(Affiliate link)\" label sits right next to the link, so the affiliate relationship is flagged. Putting \"Affiliate link\" or \"#ad\" nearer the start would be slightly clearer for UK readers, but that's optional.\n- **\"Easiest to pause\":** This is the reviewer's own opinion from first-hand comparison. It fits the brand's allowed claim that subscribers can pause or cancel any time, and it doesn't promise anything beyond that.\n- **\"I've tried four tea subscriptions this year\":** This is a personal experience statement, not a statistic or a brand claim. The blogger should be sure it's true.\n- **\"The tins are lovely\":** This is subjective opinion, not a factual claim.\n- **Other checks:** There are no invented stats, superlatives, guarantees, health claims, green claims, urgency pressure, or fake testimonials, and the tone doesn't read as generic AI filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.012014,
- "seconds": 11.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f00ca10f93567a200ad7d768cfb4f3c5412f3be3dfb87772127dc6c72dcc40d5",
+ "result": "I checked this draft against the brand policy and found nothing that needs to change before publication.\n\n- **Disclosure:** The affiliate relationship is labelled \"(Affiliate link)\" right beside the link, so readers can see it is commercial. A clearer label near the top, such as \"Contains affiliate links\", would be better practice under UK advertising rules, but it isn't a blocker.\n- **\"Easiest to pause\":** This is the reviewer's own opinion, based on trying four subscriptions. It also fits the policy, which says subscribers can pause or cancel any time. It doesn't claim a measured ranking or a number.\n- **\"Tins are lovely\":** This is a subjective opinion, not a factual claim.\n- **Other claims:** There are no invented stats, guarantees, health claims, green claims, fake urgency, or made-up testimonials. The \"four subscriptions this year\" line is the author's own experience, so the author should confirm it is true.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014724000000000001,
+ "seconds": 13.0,
  "models": [
   "claude-sonnet-5-5"
  ]

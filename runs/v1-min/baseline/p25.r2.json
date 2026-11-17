@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e90200690383f0458a4a5854b298a1a108bf2f358d9a79be25c13ca6db03246f",
+ "result": "**Review of the draft**\n\n1. **Review rating and count:** \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" The policy only supports 4.8 out of 5 from over 1,200 reviews. Both the rating and the review count are inflated and can't be backed up. This is an invented stat and must be corrected to \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n2. **Product facts:** \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is an ingredient fact, which the policy says is fine as written.\n\n3. **Disclosure and tone:** Own-account Instagram post with no endorsement or paid partnership, so no disclosure is needed. The tone is natural, with no urgency, guarantees, health claims or green claims.\n\n**Verdict:** Don't publish as is. Fix the review stat to match the allowlist, then it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009386,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

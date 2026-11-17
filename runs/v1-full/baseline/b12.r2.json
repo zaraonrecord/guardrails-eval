@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0b250b44300ef2f910633a8668195cc7fdbbfc0f1de766c6c21d512f7976b1d6",
+ "result": "I checked the draft against the brand policy.\n\n- **Free UK delivery on orders over £25**: matches the allowlist wording exactly.\n- **Product facts** (Builder's, Earl Grey, peppermint): fine to use as written.\n- **Superlatives, guarantees, health claims, green claims, invented numbers, urgency**: none present.\n- **Banned words**: none. \"For after lunch\" is a plain suggestion, not a health claim.\n- **Voice**: warm, plain, unhurried. UK spelling is fine (\"Builder's\" is the usual UK usage).\n- **Disclosure**: this is a paid social ad from our own account, which the platform marks, so no extra label is needed.\n- **Approval**: Sam (marketing lead) needs to sign off before it goes out, as with all public content.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0053655000000000005,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a1d33429963e043c1c8152cf2daf9e03d1c7fec1af4319401e3a2c9445c6b2db",
+ "result": "**Review of landing hero copy**\n\n**Claims check against brand policy**\n- \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\": approved.\n- \"certified organic by the Soil Association\": approved.\n- \"Free UK delivery on all orders\": **not approved.** The policy allows free UK delivery only on orders over £25. As written it overstates the offer and drops the threshold. Fix: \"Free UK delivery on orders over £25.\"\n\n**Style**\n- The first sentence and the second repeat the same point (\"packed by hand in Bristol\" appears twice back to back). Cut one. Suggested: \"Loose leaf tea, certified organic by the Soil Association, and every tin packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Decision:** Hold until the delivery claim is corrected and the repetition is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065752,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

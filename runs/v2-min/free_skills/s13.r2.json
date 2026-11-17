@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "740bce5852bb5dac18f42f8cef84173bb562337d9bc0b8224f23b13c86b60d17",
+ "result": "**Verdict: hold it. One fix is needed before it goes out.**\n\n**Problem: the ad disclosure is buried**\n- This is a paid post, and the only disclosure is `#ad`, sixth in a string of hashtags at the very end. UK ad rules (ASA/CAP) expect the disclosure to be upfront and obvious, and a tag in a hashtag pile is easy to miss.\n- Fix: put the disclosure at the start, in plain words (e.g. \"Ad | paid partnership with Pebblebrook Tea Co.\"). Use the platform's paid-partnership label too, if it has one.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"ten minutes away from my phone\" | Personal routine, not a product claim |\n\nNo invented stats, superlatives, guarantees, testimonials, health claims or fake urgency. No banned slop vocabulary either.\n\n**One thing to confirm:** the draft says the Assam is your afternoon reset, which reads as hands-on use. That is fine if you have actually been drinking it (Owned or Tried). If you haven't, the line needs to change. Also, if the tea was gifted as well as paid for, the disclosure should say so.\n\n**Optional tidy-up:** \"#selfcare\" is harmless here, but it can drift toward wellness claims, so keep the copy from suggesting the tea does anything for health.\n\n**Suggested version**\n> Ad | paid partnership with Pebblebrook Tea Co.\n> My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n> #tea #teatime #bristol #slowliving #assam\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0182723,
+ "seconds": 18.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

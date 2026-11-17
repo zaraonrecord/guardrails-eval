@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b1ab4b6e7f737d0019dd1f39cb53b2a3413bf58cea5db33206a57699f911af55",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list), from the Pebblebrook team. No send time was given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The brewing advice (mug, sieve, about four minutes for black tea, shorter and cooler for green) counts as product and brewing fact, which the policy allows as written. \"There's a cup for everyone\" is light puffery, not a provable claim. Nothing to log.\n- **Regulated claims:** The email makes no health, money, legal, environmental, children or price claims.\n- **House style:** It is short, plain and concrete. \"Whether you're a seasoned tea lover or just starting out\" is a slightly stock phrase, but it isn't a banned word or a real problem. I'd keep it, though you could cut that sentence for a tighter email.\n- **Disclosure:** This is the brand's own email, with no sponsor, affiliate link, gifted product or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing blocking. The policy doesn't name an approver, so you need to give an explicit yes to this exact text before it is sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0132513,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

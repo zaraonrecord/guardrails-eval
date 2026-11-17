@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e35394ee317349d83feda9883460ab628ca053485ecc41e6ec95e36240766f97",
+ "result": "**Review of the draft (email)**\n\n**Claims list**\n- \"Japanese sencha added to the shop\": product fact (new product arriving), fine.\n- \"grassy, a little sweet\": flavour, product fact, fine.\n- \"packed with antioxidants\": health claim. Health claims of any kind are banned in section 3. Unsupported, must go.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, product fact, fine. \"Best brewed\" here is a brewing instruction, not a superlative about the product.\n- Sign-off \"The Pebblebrook team\": fine.\n\n**Other checks**\n- Banned words: none found. No em-dash sandwiches, exclamation points or fake urgency.\n- Disclosure: this is our own email, so no \"Ad\" or \"Gifted\" label is needed. No affiliate links.\n- Approval: Sam (marketing lead) needs to approve all public content before it goes out.\n- Minor: the sentence is a bit run-on after removing the claim; suggested fix below reads cleaner. The email also has no link to the tea, which would help, but I haven't invented one.\n\n**Suggested fix**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\n**Verdict:** Do not publish as written. Remove \"packed with antioxidants\", then send to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080189,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

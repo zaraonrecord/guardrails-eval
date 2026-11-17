@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9c8460d0809684aba05f54f79a8f4c8603ccc116e19afc2dc3393e29884d7b15",
+ "result": "**Review of the landing hero draft**\n\n- **\"Free UK delivery on all orders.\"** This is the main problem. The approved claim is \"Free UK delivery on orders over £25\". Dropping the threshold promises free delivery on every order, which contradicts the shipping policy. Fix: \"Free UK delivery on orders over £25.\"\n- **Repetition.** \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol…\" says the same thing twice in one short piece. The claim itself is approved (\"Every tin is packed by hand in Bristol\"), so keep one version.\n- **\"certified organic by the Soil Association.\"** This is approved, with the certificate on file, so there's no issue.\n- **Voice.** The copy is plain and has no banned words, no superlatives, no health or green claims, and no false urgency. It's UK English.\n\nSuggested rewrite: \"Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nThe delivery claim has to be corrected before this goes to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0108527,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

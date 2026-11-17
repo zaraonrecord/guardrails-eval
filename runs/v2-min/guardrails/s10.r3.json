@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "dd983ed402dc34545196a1c4c1bd0918aca9329d21fcf5330e9f0a112c82128e",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, Pebblebrook's own account, UK audience.\n\n**Checks**\n\n1. **Claims:**\n   - \"Our tea bags are plastic-free and home compostable\" is on the policy list. Fine.\n   - \"the same plastic-free tea bags inside\" is covered by the same row. Fine.\n   - \"New tins just landed for winter\" is a new arrival, which the policy says is fine as written. \"Deep green, gold lettering\" is a product fact. Fine.\n   - \"planet-friendly packaging\" is not on the list. It's a broad environmental claim with no evidence behind it. The policy only backs the tea bags (plastic-free, home compostable). It says nothing about the tins. Regulators challenge vague green claims like this one most often. Unproven.\n\n2. **Regulated claims (environment):** \"planet-friendly\" is vague and says the packaging is good for the planet without saying how. The tins' material and recyclability aren't in the policy. Safer options: drop it, or state something provable, such as \"the same plastic-free, home compostable tea bags inside.\" If the team wants to say something about the tins, we'd need the material and recycling facts, marked `[PROOF NEEDED: tin material and recyclability]`.\n\n3. **House style:** The copy is plain and short. One issue: \"plastic-free tea bags\" and \"Our tea bags are plastic-free and home compostable\" say the same thing twice. Cut the repetition.\n\n4. **Disclosure:** This is the brand's own product post on its own account. It's not an ad, sponsorship, affiliate link or gifted item, and there's no AI-generated imagery mentioned. If the tin image was made or edited with AI, it would need a label. I can't see the image, so please confirm. No label is needed otherwise.\n\n**Fixed (suggested rewrite)**\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nChanges: removed \"planet-friendly packaging\" and merged the duplicated tea bag line.\n\n**Needs a decision**\n- Do you want the rewrite above? My suggestion is yes. If you want an environmental line about the tins, send the material and recycling details and the Soil Association or other proof, and we'll check them.\n- Is the tin image free of AI generation or editing?\n\n**Approver:** The policy names no approver, so I'll need an explicit yes from you on the final text. I haven't recorded any approval, and nothing should be published until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011436100000000001,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

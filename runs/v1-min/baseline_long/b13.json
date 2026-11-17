@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: paid creator post**\n\n**Read-through:** The draft is short and personal. Two things matter: the ad label and the claims.\n\n**Disclosure:** The draft opens with \"Ad\", which is the first word, clear and upfront. That meets the requirement for a paid creator post. \"Ad |\" is fine as a label.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"every tin is packed by hand in Bristol\". Fine.\n- \"Assam\" and \"a pot of\" are product facts, fine as written.\n- \"ten minutes away from my phone\" is the creator's own lifestyle description, not a product claim.\n- \"which I love\" is clearly personal opinion, acceptable.\n\n**Health/wellbeing:** \"afternoon reset\" is mood and lifestyle language describing an experience, not an effect on the body. No health claim.\n\n**Style:** It sounds like a real person wrote it. No clichés, no filler, no repetition. \"Reset\" is mildly trendy but not an AI cliché from the list.\n\n**Other checks:** No stats, superlatives, guarantees, green claims, urgency, pricing or testimonials. Nothing to correct.\n\n**Decision:** Good to publish as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088385,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

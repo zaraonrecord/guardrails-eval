@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7776a505bf3506d96e4ae14ee42f2cee4442833aad87bb6b632a8b43dc4f38ba",
+ "result": "# Publish gate report\n\n**Going out:** landing page hero copy for Pebblebrook Tea Co. Timing and audience weren't given. The policy says UK.\n\n**Checks**\n- **Claims:**\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. The October 2026 export is current.\n  - \"Organic\" is backed by the Soil Association certificate.\n  - \"Packed by hand in Bristol\" is on the policy list, but the policy wording is \"Every tin is packed by hand in Bristol.\" In the draft it follows \"bags\", so it could read as covering the tea bags. I can't confirm that.\n  - \"Fully sustainable bags\" is not on the list. It is a broad green claim, and section 3 bans \"sustainable\" without specifics. The provable version is \"plastic-free and home compostable\" (EN 13432 certificate).\n- **Regulated claims:** the green claim is the only hit. There are no health, price, urgency or guarantee claims.\n- **House style:** the copy is plain and has no banned words or AI tells. It scores about 85.\n- **Disclosure:** nothing needed. This is the brand's own page, with no partner, affiliate or AI-label triggers.\n\n**Fixed (suggested rewrite)**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\n- \"Fully sustainable bags\" became \"plastic-free, home compostable tea bags\".\n- \"Organic\" became \"Certified organic\", which matches the certificate.\n- The packing line now uses the policy wording, so it no longer appears to cover the bags.\n\n**Needs a decision**\n- If the bags are also packed by hand in Bristol, Operations should confirm it and the policy should be updated. Until then, I suggest keeping the tin wording.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. The original draft shouldn't go out as written, and Sam needs to say yes to the revised text.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Landing hero | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review export, Oct 2026 |\n| 2026-11-17 | Landing hero | Certified organic | On policy list | Soil Association certificate |\n| 2026-11-17 | Landing hero | Plastic-free, home compostable tea bags | On policy list | EN 13432 supplier certificate |\n| 2026-11-17 | Landing hero | Every tin is packed by hand in Bristol | On policy list | Operations |\n| 2026-11-17 | Landing hero | Fully sustainable bags | Removed (unproven) | None |\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.021313500000000003,
+ "seconds": 16.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

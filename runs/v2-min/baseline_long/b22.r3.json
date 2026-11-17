@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Review: Instagram post (own account)**\n\n**Channel:** Brand-owned Instagram account, so no \"Ad\" label is needed for a normal post about the brand's own product.\n\n**Sentence by sentence:**\n\n1. \"New tins just landed for winter.\" New arrival, which the policy treats as a fine product fact. No urgency or scarcity implied.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Product description. \"Plastic-free tea bags\" is an approved claim.\n3. \"Our tea bags are plastic-free and home compostable.\" Both parts are on the approved claims list (\"tea bags are plastic-free and home compostable\"). It is specific, applies to the tea bags only, and doesn't stretch to the tins or the whole business.\n\n**Other checks:**\n- No numbers, ratings, or superlatives.\n- No health claims, guarantees, testimonials, or pricing.\n- No generic AI phrasing or hype words. The tone is plain and specific.\n- Repetition: \"plastic-free tea bags\" appears in the second sentence and again in the third, so the point is made twice in three short sentences. That is a minor style note, not a reason to hold the post. An optional tidy-up would be to cut the second mention, e.g. \"Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\n**Decision:** Every claim is on the brand's approved list, nothing is missing, and the only note is optional polish. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078704,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "44dd9eba26b64986177ac31ca5357209badb89e5a65cbf66860e11eb7c2b5a07",
+ "result": "Review findings:\n\n1. **\"It's not just tea, it's a ritual.\"** This is the banned \"it's not just X, it's Y\" construction from the voice rules. It's also a bit of filler that says nothing about the tea. Cut it, or replace it with something plain, such as a line about how the tea tastes.\n\n2. Everything else checks out. The sencha is a new product (product facts are fine to use as written), and \"Grassy and a little sweet, best brewed cooler than you think, around 70 degrees\" is flavour and brewing guidance. There are no superlatives, health claims, green claims, invented numbers, or false urgency. The spelling is fine. The email is from our own account, so no disclosure label is needed. As with all public content, it needs Sam's approval before sending.\n\nSuggested edit: \"We've added a Japanese sencha to the shop. Grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\"\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0059609,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

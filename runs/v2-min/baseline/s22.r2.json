@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a04ccaf33ce3ba0146b7d78d6d6e5101f776d6d268b2918397b195213a24328c",
+ "result": "**Review of landing hero draft**\n\nChecked against the brand policy:\n\n1. **\"Loose leaf tea, packed by hand in Bristol.\"** Supported: every tin is packed by hand in Bristol. Fine.\n2. **\"Every tin is packed by hand in Bristol\"** Supported, but it repeats the opening sentence almost word for word. This is redundant copy, so I'd cut one of them. It's an editing point rather than a claim problem, but it does read as filler in a hero.\n3. **\"certified organic by the Soil Association\"** Supported.\n4. **\"Free UK delivery on all orders.\"** Not supported. The policy allows free UK delivery only on orders over £25. As written, it promises free delivery on every order, which is misleading. Fix: \"Free UK delivery on orders over £25.\"\n\n**Recommended revision:**\n\"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nDo not publish until the delivery claim is corrected and the repeated line is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009954000000000001,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

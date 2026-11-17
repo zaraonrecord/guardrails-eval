@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c28221dd54c536ec5afbb343978f8cab39c8f4e4f26d1e44c164d8cf137c3c8a",
+ "result": "I checked the draft against the brand policy.\n\n- **Green claim:** \"plastic-free and home compostable\" for the tea bags is on the allowlist, so it's backed.\n- **New tins and design:** \"New tins just landed for winter. Deep green, gold lettering\" is a product fact (new arrivals), so it's fine as written.\n- **Urgency, stats, superlatives, guarantees, testimonials, health claims:** none present.\n- **Disclosure:** this is the brand's own account promoting its own product, so no disclosure is needed.\n- **Style:** the copy repeats itself. \"Plastic-free tea bags\" appears in the second sentence and again in the third. This is a minor wording issue rather than a compliance problem. Consider trimming, for example: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\nNothing needs to change for compliance, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056418,
+ "seconds": 6.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

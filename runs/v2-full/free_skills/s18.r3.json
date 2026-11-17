@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "4d43b7474e7d7e295eb7724f1ba979502759d1533f6548a89ca0302630cb2d5c",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact (ingredients), fine |\n| Lovely with milk | Flavour and serving suggestion, fine |\n| 100g tin | Product fact (tin size), fine |\n| Was £12, now £8 | **Unsupported** |\n\n**Problem: \"Was £12, now £8.\"**\n- The policy has no sale, discount or reference price. Section 3 says there is no real offer on record, and prices aren't covered by the product facts the team has cleared.\n- A \"was\" price is a claim that the product really sold at £12 before. In the UK that has to be a genuine prior price, and I have no evidence of one in this conversation.\n- The copy has no end date and no urgency wording, so it isn't fake urgency. The issue is that the discount is unsupported and unapproved.\n\n**What to do:** Before publishing, confirm with Sam that the £12 was a real selling price for a meaningful period and that this sale is approved. If it can't be confirmed, publish the current price only: \"£8 for a 100g tin.\" You could also use `[PROOF NEEDED: confirmed prior price of £12 and approval of the sale]` as a placeholder.\n\n**Everything else is clean.** There are no health claims, superlatives, guarantees, green claims or banned words. The tone is plain and the spelling is UK.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014581000000000002,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

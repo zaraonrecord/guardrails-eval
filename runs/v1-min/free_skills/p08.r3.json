@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c8e7a7f1efc9b7982d0f584ce0d1f5c3ce4b40c20e21fa949c75fe988b32e8c4",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Best tea I've ever had\" - Emma, Leeds | Unsupported. Testimonial with a customer name and location, none supplied or on the allowlist. It is also a superlative. |\n\n**Problems**\n\n1. **Fake testimonial.** The Emma, Leeds quote isn't on the allowlist and no source was given in this conversation. I can't verify it's real, so it can't run. If Emma is a real customer who gave written permission, supply the source and it can be reconsidered. Even then, \"best tea I've ever had\" is a subjective opinion attributed to a person, so it needs the original wording and consent on file.\n2. **Superlative.** \"Best tea I've ever had\" reads as a \"best\" claim. Within a testimonial it's the customer's opinion, but without a verified source it's unsupported.\n3. **Landing page consistency.** The ad's claims need to appear on the landing page too. The plastic-free and home compostable claims are fine, but the testimonial would also need to appear there, which it can't unless verified.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery over £25.\n\n(Optional proof point from the allowlist: \"Rated 4.8/5 from 1,200+ reviews on our website.\" Only use it if the landing page shows it too. Check the character limits for your platform; the version above is well within standard search ad limits of 30 characters for the headline and 90 for the description, except the description, which runs to about 82 characters, so it fits.)\n\nNote: the headline \"Plastic-Free Tea Bags\" is 21 characters. The description \"Our tea bags are plastic-free and home compostable. Free UK delivery over £25.\" is 78 characters, within the 90 limit.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101865,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

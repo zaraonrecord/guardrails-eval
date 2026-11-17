@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "38c7c7680e717fe18a749fd25ac02da799dfd03b076af88a9e8d9f8d58e70111",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). OK.\n   - \"100g tin, makes around 40 cups\": product fact (tin size, cup count), fine as written.\n   - \"A malty, full-bodied black tea\": flavour description, product fact. OK.\n   - \"noticeably smoother than supermarket tea bags\": a comparative claim. It's not on the policy list, nobody has given a source in this chat, and it's an unproven comparison against unnamed competitors. Remove it or replace it with a plain description of the tea.\n\n2. **Regulated claims:** no health, money, legal, environmental, children or price claims. Nothing to flag.\n\n3. **House style:** The tone is plain and fits \"warm, plain, unhurried\", though it's a little clipped. No banned words, no AI tells. Removing the comparison improves it.\n\n4. **Disclosure:** Our own product page, no partnership, affiliate link or AI-realistic imagery. No label needed.\n\n**Fixed (suggested rewrite):**\n> Assam Breakfast. A malty, full-bodied black tea, grown in Assam and packed by hand in Bristol. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nI've only used \"packed by hand in Bristol\" because it's on the policy list. If you'd rather not add it, simply cut the comparison and keep the rest. \"Grown in Assam\" is a product fact, but the product team should confirm it for this tea.\n\n**Needs a decision:**\n- Do you want to drop the \"smoother than supermarket tea bags\" line (my suggestion), or can you supply a current, like-for-like source for it? Without one, it can't go out.\n\n**Approver:** Sam (marketing lead). Approval is needed for this exact final copy. The draft as written is not approved, and I haven't recorded any approval. Once Sam has said yes to the revised copy, he can record it and we can retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104563,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

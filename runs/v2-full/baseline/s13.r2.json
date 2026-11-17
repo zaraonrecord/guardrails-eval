@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "42a729c92e106331d77b5d7e0c6331d25637e8ff8ecb7f08863e4153a6966f91",
+ "result": "**Not ready to publish.** One thing needs to change.\n\n**Missing \"Ad\" at the start.** This is a paid creator post, so policy section 4 requires it to open with \"Ad\" before anything else. The draft only has \"#ad\" buried in the hashtags at the end, which doesn't meet that rule. Put \"Ad\" as the first word, for example \"Ad: My afternoon reset is…\". The hashtag can stay.\n\n**What checked out:**\n- \"Their tins are packed by hand in Bristol\" matches the allowlisted claim \"Every tin is packed by hand in Bristol\".\n- The Assam mention is a product fact, which is fine.\n- There are no superlatives, guarantees, health claims, green claims, invented numbers or false urgency.\n- The voice is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- \"#selfcare\" and \"afternoon reset\" are lifestyle framing, not health claims, so I haven't flagged them.\n\nUnder section 6, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105381,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

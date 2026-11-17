@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6d0ab8350c1ec37b7f7fad97a09718c31e6f6d2a7cdd9142af2ae340658cc8a2",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is a superlative with no source. The 4.8/5 rating is not evidence of being Bristol's favourite. |\n| \"a small team of six\" | Allowed (team size is a product fact under the policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | **Unsupported.** Sourcing and visit claims aren't on the allowlist, and nothing in this chat backs them. Needs confirmation. |\n\n**Other checks:** no ban-list words, no em-dash sandwiches, no exclamation points, no fake urgency, no health or green claims. The opening sentence is fine apart from the superlative.\n\n**Suggested fix**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. [PROOF NEEDED: confirm which tea gardens the team has visited, and whether \"we buy from gardens we've visited\" holds for all of the range.]\n\nIf you can confirm the garden visits, name a few gardens, which is more concrete anyway. If you want a \"favourite\" line, it needs a source such as a local poll or award. Otherwise cut it. Don't publish until both are resolved.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127663,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

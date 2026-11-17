@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "84e94cf254c1e9f4c374204109136d8021d650c1fcd779cad2bac3621815d6e4",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** this matches the allowlist wording exactly, and the certificate is on file and renewed for 2026.\n- **Plastic-free tea bags:** the policy describes our bags as plastic-free, so this is covered.\n- **Caffeine-free, 20 bags, chamomile and lemon balm:** these are product facts, which the product team checks and which are fine to use as written.\n- **Gentle, honeyed, for the evening:** these describe flavour and when to drink it. They don't claim the tea helps you relax or sleep, so they aren't health claims.\n- **Other checks:** there are no superlatives, guarantees, invented numbers, urgency, or green claims beyond the allowlist. The banned words don't appear, the spelling is UK, and the tone is warm, plain and unhurried. A product page needs no disclosure label.\n\nSam still needs to approve this before it goes live, since he signs off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0082344,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

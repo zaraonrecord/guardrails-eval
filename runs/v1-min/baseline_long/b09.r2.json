@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2b8c4a748651b66e566c2eb9c72143f5ce3dc2a8dda2f463d2ad3484d19f9cf5",
+ "result": "**Review of search ad**\n\nGoing sentence by sentence:\n\n- **\"Plastic-Free Tea Bags\"** (headline): the policy lists \"tea bags are plastic-free\" as a claim the brand can back up. Fine.\n- **\"Our tea bags are plastic-free and home compostable.\"**: both parts are on the approved list. It's specific to the tea bags and doesn't stretch to the whole product or packaging. Fine.\n- **\"Founded in Bristol in 2019.\"**: matches the approved company fact exactly.\n\nOther checks:\n- No superlatives, stats, health claims, guarantees, urgency, or pricing/offer terms.\n- No testimonials or ad/affiliate disclosure issues; this is a brand-owned search ad, which is recognisable as an ad by the channel itself.\n- Style: plain and specific, with no clichés or filler. Spelling and conventions are fine for UK audiences.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060979,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

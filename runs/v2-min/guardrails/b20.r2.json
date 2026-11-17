@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fe4d494252a4e48f8726997af757a86143e17adeb9baa7ea36f99ebfddc445ae",
+ "result": "# Publish gate report\n\n**Going out:** Search ad (headline plus description), UK audience. No send time was given.\n\n**Claims:** All pass.\n| Claim | Status |\n|---|---|\n| Monthly loose leaf tea | Product fact, fine as written |\n| Subscribers can pause or cancel any time | On the policy list |\n| Free UK delivery on orders over £25 | On the policy list, and the £25 condition is stated |\n\n**Regulated claims:** The only relevant area is offers. \"Free delivery\" carries its condition (over £25), so it is not misleading. There are no health, green, money or urgency claims.\n\n**House style:** The copy is plain and specific. It has no banned words or AI tells, and I made no edits.\n\n**Disclosure:** Search platforms add their own \"Ad\" label to this format, so nothing is needed in the copy. If this runs on a channel that doesn't label ads automatically, add \"Ad\" up front.\n\n**Fixed:** Nothing.\n\n**Needs a decision:**\n- **Character limits:** If this is for Google Ads, the description is about 102 characters, and the limit is 90. The platform would likely reject it. Suggested trim: \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" This keeps every claim intact and puts it at about 76 characters. If you use it, it needs a fresh check.\n- **Approver:** The policy doesn't name an approver, so I need an explicit yes from you on the exact final wording before it is scheduled or launched. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014341300000000001,
+ "seconds": 17.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

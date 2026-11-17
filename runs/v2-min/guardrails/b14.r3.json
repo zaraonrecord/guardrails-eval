@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a805be712611c93c0bd6db6848318b14b0a6af7f710883d354ea78030e9d6560",
+ "result": "**Publish gate report**\n\n**Going out:** Creator post (gifted product), UK audience, no schedule given.\n\n**Checks**\n- **Claims:** No stats, rankings, guarantees or testimonials. \"Winter sampler\" and \"rooibos chai with oat milk\" are product facts, and \"lovely\" is the creator's own opinion. Nothing needs proof.\n- **Regulated claims:** Nothing on health, money, legal outcomes, the environment, children or prices.\n- **House style:** The policy has no voice section, so I can't score it. Reading it plainly, it is short and human, with no AI tells or banned phrases.\n- **Disclosure (UK):** \"Gifted\" is the first word and in plain English, so the reader sees it before engaging. That is acceptable for a gifted product with no brand control over the content. Two notes:\n  - If Pebblebrook has any say over the content (approval, required wording, a brief), the UK rules treat it as an ad and it should be labelled \"Ad\".\n  - \"Not paid to say that\" is fine only if it is true. A gifted product is still a benefit, so the opening \"Gifted\" label must stay.\n\n**Fixed:** Nothing, no changes needed.\n\n**Needs a decision:**\n1. Confirm Pebblebrook had no approval rights or brief for this post. If they did, change the opening to \"Ad | Gifted:\".\n2. Optional: also use the platform's paid-partnership or branded-content tool if one exists.\n\n**Approver:** The policy names no approver, so you are the one to approve. I haven't recorded an approval. Reply with an explicit yes to this exact text and I'll treat it as cleared.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0152251,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

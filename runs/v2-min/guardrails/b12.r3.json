@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8082e5b70357729b0dab53a4ed21aabd9afc4b77a90a5abceb973e24e0978246",
+ "result": "## Publish gate report\n\n**Going out:** Social ad on Pebblebrook's own account. UK audience. No send time was given.\n\n**Checks**\n- **Claims:** The only claim is \"Free UK delivery on orders over £25\". It is on the policy's provable list and matches word for word. Builder's, Earl Grey and peppermint are product facts, so they are fine as written. There are no stats, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** Nothing on health, money, environment, children or prices beyond the delivery threshold. \"A peppermint for after lunch\" is a serving suggestion, not a digestive benefit claim. Keep it that way.\n- **House style:** The policy has no voice section, so I checked for AI tells only. The copy is plain, specific and short. The three-item list is a literal product list, not a rhetorical triplet. No changes.\n- **Disclosure:** This is the brand advertising its own products on its own account, so there is no third-party relationship, affiliate link, gifted product or AI-generated content to label. If the ad runs as paid, use the platform's own \"Sponsored\" or \"Ad\" label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Confirm the delivery offer still applies at publish time, since the policy row has no review date.\n- The policy names no approver. Please tell me who is approving this exact copy.\n\n**Approver:** None named in the policy, so I need an explicit yes from you or a named colleague for this exact text. I can't record approval myself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011798699999999999,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

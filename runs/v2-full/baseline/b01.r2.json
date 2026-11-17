@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "52a35442096ba98038174220e33edf974ba19e6ba86dc24283142ed2b2eaebf1",
+ "result": "**Review: landing hero**\n\nEvery claim in the draft matches the allowlist:\n- \"Every tin is packed by hand in Bristol\" is in section 2 (Operations).\n- \"Certified organic by the Soil Association\" is in section 2 (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\" uses the exact approved wording.\n\nThere are no superlatives, guarantees, health claims, green claims, invented numbers or false urgency. The voice is plain and warm, with no banned words, and the spelling is UK.\n\n**Optional edit (not a blocker):** The packed-by-hand-in-Bristol point appears twice in a row (\"packed by hand in Bristol. Every tin is packed by hand in Bristol\"). It reads as a copy slip. I'd cut one, for example:\n\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Approval:** Per section 6, Sam needs to sign off on this before it goes live, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008396999999999998,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

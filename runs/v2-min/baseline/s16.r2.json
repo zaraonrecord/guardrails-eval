@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "676210de2fc9497d82a34195dc612685cf3329bdb1349290650f0ed41ece91bb",
+ "result": "**Review of landing hero draft**\n\nClaims check against the allowlist:\n- \"Certified organic by the Soil Association\": allowed.\n- \"packed by hand in Bristol\": allowed (every tin is packed by hand in Bristol).\n- \"free UK delivery on orders over £25\": allowed, and the threshold is stated, so no missing disclosure.\n\nTone and style:\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is a generic triplet of warm filler. It says nothing specific about Pebblebrook, could be pasted onto any brand, and has the rhythm of stock copy. For a hero, this is weak and reads as ai_slop. It's not a factual risk, but it's the opening line of the page and it wastes the space. \"Delivered with a smile\" is also a bit odd, since delivery is by courier and we can't promise a smile.\n\nNo invented stats, superlatives, guarantees, testimonials, health claims, green claims beyond the certified organic claim, or fake urgency. No disclosures appear to be required.\n\nRecommendation: change the opening line before publishing. Suggested direction: lead with something concrete, e.g. \"Organic tea, packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010328,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

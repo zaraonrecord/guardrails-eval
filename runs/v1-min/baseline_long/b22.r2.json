@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "48e43d1124c9ebfee60ab89e6d729962e7b9957806a3c2c3c961efbe38ccb233",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** A short product announcement on the brand's own account, so no \"Ad\" label is needed.\n\n**Sentence by sentence:**\n\n1. \"New tins just landed for winter.\" New arrivals are fine as written under the policy.\n2. \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" Product description. \"Plastic-free tea bags\" is an approved claim.\n3. \"Our tea bags are plastic-free and home compostable.\" This is approved verbatim in the brand policy (\"tea bags are plastic-free and home compostable\"). It is specific, covers only the tea bags, and doesn't stretch to the tins or other packaging, so it is not a vague green claim.\n\n**Other checks:**\n- No statistics, ratings, superlatives, health claims, guarantees, testimonials, urgency or pricing.\n- Style: the copy is plain and specific. The only note is optional polish: the plastic-free point is made twice in quick succession (\"same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\"). Trimming one would tighten it, but it isn't a reason to hold the post.\n- No AI clichés or filler phrases.\n\n**Decision:** Every claim is on the approved list, and nothing misleads. It can go out. Optional: cut the repetition, for example \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078124,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

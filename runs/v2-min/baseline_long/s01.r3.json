@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc922395ee026fe09affc35150db2271d441be18df0bd05fe6650c1e567b357b",
+ "result": "**Review: Instagram (own account)**\n\nSentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Mood and description. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact (ingredients). Allowed as written.\n3. \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\" The approved claim is 4.8 out of 5 from over 1,200 reviews on the website. \"Over 2,000\" is a different figure from the one the brand can prove, so it is an unsupported, inflated review count. The rating itself and the source (the website) are correct.\n\nLabel check: this is the brand's own account and nothing suggests payment or gifting, so no \"Ad\" label is needed.\n\nTone: short, specific and natural. No clichés.\n\n**Fix:** change to \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nHold until the review count is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065474999999999995,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

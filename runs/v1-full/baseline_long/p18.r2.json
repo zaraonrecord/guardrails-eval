@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6df44a6d45a6a5970cd1fae5b1b104f8e13bee164ca7a29a300a7195b6a5f044",
+ "result": "**Review: brew-without-a-teapot email**\n\nClaims: None needing proof. The brewing guidance (mug, sieve, four minutes for black tea, shorter and cooler for green) is product/brewing guidance the product team covers. No health, green, superlative, guarantee, urgency or testimonial issues. It's an email from the brand's own channel, so no \"Ad\" label is needed.\n\nProblem: \"Unlock your tea journey.\" Both \"unlock\" and \"journey\" are on the brand's banned list. It is also a generic, machine-sounding opener that doesn't fit the warm, plain, unhurried voice. Fix: cut it, or replace it with something plain like \"You don't need a teapot to make a good cup of loose leaf tea.\"\n\nMinor, optional: \"Green tea likes it shorter and cooler\" is a bit vague. A rough time and temperature would be more useful, but only if the product team confirms the figures.\n\nDecision: hold until the opening line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0084667,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

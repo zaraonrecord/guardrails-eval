@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for the peppermint tea, UK, public.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal.\" | Describes taste and feel, not a health outcome. It makes no digestive or other benefit claim. |\n| \"Certified organic by the Soil Association.\" | On the policy list, exact wording. Certificate on file, renewed 2026. |\n\n**Regulated claims:** Nothing on health, money, environment, children or prices. \"Cool and clean after a big meal\" is the one line to watch. It stays acceptable as long as nobody expands it to \"aids digestion\", \"settles your stomach\" or similar, which the policy bans.\n\n**House style:** About 95/100. The tone is warm, plain and unhurried. It uses no banned words and has none of the AI tells (no stock openers, reversals or slogan closers).\n\n**Disclosure:** None needed. This is the brand's own product page with no ad, affiliate, gifted or AI-label trigger.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to this exact copy before it goes live, and any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0128875,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

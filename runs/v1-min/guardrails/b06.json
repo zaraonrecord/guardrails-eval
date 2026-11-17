@@ -1,10 +1,14 @@
 {
  "case": "b06",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report: newsletter**\n\n**Going out:** a newsletter item about the Darjeeling first flush, going to subscribers, with the shop launch \"from Monday\".\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or comparisons. The garden visit, the March picking, the \"bright and floral\" flavour and the Monday arrival are product facts (origin, flavour, new arrival), which the policy allows as written. I can't verify that the visit happened or that the leaves are picked in March, so please confirm both.\n- **Regulated claims:** The draft makes no health, money, environmental, children or price claims.\n- **House style:** The policy has no voice section, so I judged it on general quality. It's short and concrete, with no stock openers, intensifiers or slogan closers. Nothing needs rewriting.\n- **Disclosure:** This is the brand's own content. It has no sponsor, affiliate link, gifted product or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** Check that \"from Monday\" is the right date for the newsletter's send day and the shop's actual launch.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes to this exact text from you, or from whoever you nominate. Nothing has been sent or approved yet.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0118733,
- "seconds": 11.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b099ec8956defd9ddf668778f2d475a3a76305ea239fb6c3c78842dc5119459b",
+ "result": "**Publish gate report: newsletter**\n\n**Going out:** a short newsletter item about the Darjeeling first flush, arriving in the shop on Monday, to the subscriber list.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The Darjeeling garden, the March picking, the \"bright and floral\" taste and the Monday arrival are all product facts (origin, flavour, new arrivals), which the policy allows as written. Nothing needs proof.\n- **Regulated claims:** There is no health, money, legal, environmental, children or price wording. Nothing is flagged.\n- **House style:** The copy is plain and specific, with no AI tells, stock openers, banned phrasing or slogan closers. No rewrite is needed.\n- **Disclosure:** This is the brand's own editorial content. It has no paid partnership, affiliate link, gifted product or AI-generated imagery, so no label is needed.\n\n**Fixed:** nothing.\n\n**Needs a decision:** nothing in the copy. Before sending, please confirm the shop launch really is Monday, since the date is stated as fact. The policy names no approver, so I need an explicit yes to this exact text from you, or whoever you name, before it is scheduled or sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111793,
+ "seconds": 12.3,
  "models": [
   "claude-sonnet-5-5"
  ]

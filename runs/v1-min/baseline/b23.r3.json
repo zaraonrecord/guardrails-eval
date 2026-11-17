@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "879e37859ff556e4f2e7706aea1dd4d45d8fddaa4f904170a74278ede2712320",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Ingredients and size:** The rooibos, cinnamon, cardamom, ginger and black pepper, and the 100g tin, are product facts, which the policy allows as written.\n- **\"Caffeine-free\":** Rooibos is naturally caffeine-free, so this describes the product. It makes no health benefit claim.\n- **\"Lovely with milk\":** This is a flavour and serving suggestion, not a superlative or a guarantee.\n- **Other risks:** There are no statistics, testimonials, urgency claims, green claims, or unbacked certifications. The copy reads plainly and doesn't sound like filler.\n- **Disclosures:** Nothing in the copy requires one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006581499999999999,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

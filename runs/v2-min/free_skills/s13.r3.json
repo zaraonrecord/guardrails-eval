@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "740bce5852bb5dac18f42f8cef84173bb562337d9bc0b8224f23b13c86b60d17",
+ "result": "**Verdict: hold it. It needs two fixes before it goes out.**\n\n**1. The ad disclosure is buried.**\nThis is a paid post, but `#ad` is the 6th of 7 hashtags at the very end. Under the rules for UK creator posts (ASA/CMA) and our own review rules, the disclosure has to be upfront and obvious, not hidden in a hashtag pile. Put \"Ad\" or \"Paid partnership with Pebblebrook Tea Co.\" at the start of the post. If the tea was gifted, say that too, where the product first appears.\n\n**2. There's no usage label for the tea.**\n\"My afternoon reset is a pot of Pebblebrook's Assam\" tells readers the writer drinks it regularly. I don't know if the writer owns it, has tried it, or has only been sent it. Please confirm which it is:\n- **Owned:** they buy and drink it. The line can stay as it is.\n- **Tried:** say how and for how long, for example \"I've been trying it for two weeks\".\n- **Researched only:** the \"my afternoon reset\" line has to go.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"Tins are packed by hand in Bristol\" | Allowlisted |\n| \"Ten minutes away from my phone\" | Personal habit, not a brand claim |\n| \"which I love\" | Opinion, fine if it's true |\n| `#selfcare`, `#slowliving` | Lifestyle tags, no health claim made. Keep it that way. |\n\nThere are no invented stats, superlatives, guarantees, testimonials, fake urgency or green claims. No slop-list words appear.\n\n**Suggested fix (assuming Owned and gifted/paid):**\n\"Ad, paid partnership with Pebblebrook Tea Co. My afternoon reset is a pot of their Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #assam\"\n\n```json\n{\"issues\": [{\"quote\": \"#ad\", \"type\": \"missing_disclosure\"}, {\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.017200299999999998,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

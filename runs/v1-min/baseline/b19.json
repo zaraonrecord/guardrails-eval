@@ -1,10 +1,14 @@
 {
  "case": "b19",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. The brewing advice (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product and brewing information, which the policy allows as written.\n- **Disclosure:** This is a plain brewing-tips email with no offer, sponsorship or incentive, so no disclosure is needed.\n- **Tone:** It's short and natural, with no filler or generic AI-style phrasing.\n- **Audience and market:** It suits UK tea drinkers, and nothing in it is specific to another market.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.00823,
- "seconds": 8.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fbe25db30360616f5fee3ad90ecaee020b7efaf6e0f3a0b97abf81f99e45a110",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. The brewing advice (a mug, a small sieve, about four minutes for black tea, shorter and cooler for green) is product and brewing information, which the policy allows as written.\n- **Tone:** It is short and practical, with no filler or generic AI-style phrasing.\n- **Disclosure and email basics:** It is a plain informational email with no sponsored content, offer or price claim, so no disclosure is needed. The sign-off is \"The Pebblebrook team\", which fits the brand. Your email workflow may add an unsubscribe link and company address in the footer, and this draft doesn't show one. That is a template matter, not a copy problem, so I haven't flagged it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008744,
+ "seconds": 8.8,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e6eef96d3e5403d49b9d14d424668f0b038466858066b6ccd5f2e034807d8fce",
+ "result": "**Review of landing hero draft**\n\nProblems:\n\n1. **\"Good tea, guaranteed.\"** Policy section 3 bans guarantees. We have no guarantee offer. Remove or rewrite.\n2. **\"Risk-free.\"** Also a banned guarantee wording. Remove.\n\nChecked and fine:\n- \"Certified organic by the Soil Association\" matches the allowlist exactly (certificate renewed 2026).\n- \"packed by hand in Bristol\" is supported by \"Every tin is packed by hand in Bristol\". Wording is slightly shortened but the claim is the same. It is fine.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n- No banned voice words, UK spelling is fine, no health or environmental claims, no invented numbers, no urgency.\n\nSuggested rewrite: \"Good tea, made with care. Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.\"\n\nThis needs Sam's approval before publishing, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065959,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

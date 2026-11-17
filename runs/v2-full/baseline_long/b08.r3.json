@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\nSentence by sentence:\n\n1. **\"Tea that's easy to stop and start.\"** This is description and tone. It is backed by the pause and cancel terms in the next sentence, so it is fine.\n2. **\"Subscribers can pause or cancel any time\"**: This is on the claims allowlist (subscription terms), so it is fine.\n3. **\"free UK delivery on orders over £25\"**: This is also approved wording (shipping policy), so it is fine.\n4. **\"means most boxes ship free\"**: This is the problem. The brand can prove the £25 threshold, but nothing in the policy shows that most orders or subscription boxes reach £25. It is a claim about the proportion of orders, which is effectively an unsourced statistic. It also softens the threshold, so a reader may think delivery is free on nearly everything. If a typical subscription box is under £25, it is misleading.\n\n   **Fix:** Cut the clause and keep the approved wording, e.g. \"Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nVoice and style: it is plain and warm, with no banned words and UK spelling. No label is needed for a brand-owned hero.\n\nHold it until the \"most boxes ship free\" clause is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105761,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

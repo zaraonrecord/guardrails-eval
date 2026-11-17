@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\n**Claim check**\n- \"Subscribers can pause or cancel any time\": this is on the approved list (subscription terms). Fine.\n- \"free UK delivery on orders over £25\": this is on the approved list (shipping policy). Fine.\n- \"means most boxes ship free\": this is not on the approved list. It says that most orders or boxes are over £25, which is a vague statistic with no data behind it. It could also mislead readers whose subscription orders fall under the £25 threshold. The approved wording only supports the threshold itself, not how many orders meet it. The brand's own product wording also refers to tins and tea bags, not \"boxes\".\n- \"Tea that's easy to stop and start\": this is description, and it matches the pause and cancel terms. Fine.\n\n**Style:** The tone is warm, plain and unhurried. It uses no banned words and no AI clichés, and the spelling is UK.\n\n**Fix:** Remove \"means most boxes ship free\". For example: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nThe rest of the copy is fine, but this one claim should be fixed before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010312099999999998,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

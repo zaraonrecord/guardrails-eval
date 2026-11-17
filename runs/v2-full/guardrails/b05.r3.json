@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b9adc6547f3e5cb1ad61329872a44953278a046b1ecea45dced3a8f30a0fb57b",
+ "result": "**Going out:** Instagram post on Pebblebrook's own account. Timing and audience weren't given.\n\n**Checks**\n\n- **Claims:**\n  - \"Our Earl Grey uses real bergamot oil and a little cornflower\" is an ingredient fact. The policy says the product team checks these and they're fine to use as written.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. It's backed by the October 2026 review export, which is current as of today (17 Nov 2026).\n  - No superlatives, guarantees, invented numbers, testimonials or false urgency.\n- **Regulated claims:** No health, money, environmental, children or price content. \"Real bergamot oil\" is an ingredient description, not a health claim.\n- **House style:** Warm, plain and unhurried, with UK spelling. It has none of the banned words and no AI tells. The score is about 95/100, so no rewrite is needed.\n- **Disclosure:** It's a post from the brand's own account, not a creator partnership, affiliate link or gifted product. The policy says no extra label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved. The only open step is approval.\n\n**Approver:** Sam (marketing lead), per the policy for everything public. This exact text needs an explicit yes from Sam before it posts. I haven't recorded any approval.\n\n**Evidence log rows** (to paste into the team log):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Instagram, Rainy Sunday Earl Grey | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review platform export, Oct 2026 |\n| 2026-11-17 | Instagram, Rainy Sunday Earl Grey | Earl Grey uses real bergamot oil and a little cornflower | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012032500000000002,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

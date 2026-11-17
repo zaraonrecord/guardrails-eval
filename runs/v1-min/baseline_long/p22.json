@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0252373270d16387e6bf4a18149287b46356df23ca7a909e1a31e32caea40f2c",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problem found**\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim delivered through a testimonial. Publishing it means the brand is claiming the tea cures a digestive condition, which is not permitted for food and drink without specific authorisation. \"Cured\" is also an outcome promise. It's not in the brand's approved claims. Remove the quote. A testimonial about taste or enjoyment (for example, how it is with milk) would be fine if it is real and permitted for use.\n\n**Checked and fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact (ingredients), fine as written.\n- \"Lovely with milk\": mild descriptive opinion, fine.\n- \"100g tin\": product fact (size), fine.\n- No superlatives, stats, urgency, green claims or guarantees present.\n- Style: short and plain, no AI clichés.\n\n**Decision:** Hold. Remove the bloating testimonial, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087365,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: paid creator post**\n\n**Read-through:** Short, first-person, specific. It sounds like a real person (\"ten minutes away from my phone\") rather than template copy.\n\n**Label:** The draft opens with \"Ad\", placed first and prominent, which meets the requirement for a paid post. It is clear before the reader engages.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\": this is on the approved claims list (\"every tin is packed by hand in Bristol\"). Fine.\n- \"pot of Pebblebrook's Assam\": product fact, fine as written.\n- \"My afternoon reset\" and \"ten minutes away from my phone\": personal lifestyle description, not a health or effect claim. It describes an experience rather than an effect on the body.\n- \"which I love\": clearly personal opinion, acceptable.\n\n**Style:** No clichés, no filler, no repetition. Spelling and conventions are fine for a UK audience.\n\n**Missing or risky items:** No stats, superlatives, guarantees, urgency, green claims or health claims. Nothing is missing that would mislead.\n\n**Decision:** Publish as is.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066189000000000005,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

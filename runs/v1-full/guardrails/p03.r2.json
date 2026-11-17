@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e8cdb7fadad55264de973330d4b95bf217578dfbfaeeff898df3bf4f10d2e90d",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Claims check**\n- \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). Pass.\n- \"100g tin, makes around 40 cups\": product fact (tin size and cup count), fine as written.\n- \"malty, full-bodied black tea that stands up to milk\": flavour description, a product fact. Pass.\n- \"boosts your immunity through winter\": health claim. Policy section 3 bans health claims of any kind, including \"boosts immunity\". Must be removed.\n\n**Regulated claims check**\nHealth is a high-risk area. The immunity line is the only problem. Safer version keeps the selling point without the claim: \"A malty, full-bodied black tea that stands up to milk, made for cold winter mornings.\"\n\n**House style**\nVoice is plain and warm enough. No banned words, no AI tells. Score about 90 once the health claim is gone. The opening \"Assam Breakfast.\" is fine as a product name.\n\n**Disclosure**\nOwn product page, no ad, affiliate link, gifted product or AI-label trigger. Nothing needed.\n\n**Suggested final copy**\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, made for cold winter mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n**Report**\n- **Going out:** product page copy for Assam Breakfast, website.\n- **Fixed:** replaced \"boosts your immunity through winter\" with a non-health winter line (in the suggested copy above).\n- **Needs a decision:** whether Sam is happy with the replacement wording \"made for cold winter mornings\".\n- **Approver:** Sam (marketing lead). Nothing has been approved yet, so the draft as submitted should not publish. Once Sam says yes to the exact final copy, record the approval and retry.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095124,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

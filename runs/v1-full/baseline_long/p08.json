@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3496cf2a3c4ac6197f847830d4010a80bf20ca14a2ca26a6cf97ad4ba57e53fe",
+ "result": "**Review of the search ad**\n\nGoing sentence by sentence:\n\n1. **Headline: \"Plastic-Free Tea Bags\"**. The claim is on the allowlist (plastic-free, supported by the EN 13432 supplier certificate). Fine.\n\n2. **\"Our tea bags are plastic-free and home compostable.\"** Exact wording from the allowlist. Fine.\n\n3. **\"Best tea I've ever had\" - Emma, Leeds.** Two problems:\n   - It is a testimonial with no traceable source in the brand's records. The policy bans invented testimonials, and nothing here shows Emma is a real customer who gave permission. It needs a documented source and permission before use.\n   - \"Best tea I've ever had\" is a superlative. Presented as a personal opinion it could be acceptable if the quote were genuine, but in a paid search ad it reads as the brand's own \"best\" claim, and the policy says \"best\" is something the brand never claims. Even if the quote is verified, it is risky in this placement.\n\nOther checks: no health claims, no green claims beyond the allowlist, no urgency, no guarantees, no banned or cliché words. UK spelling is fine. Search ads from the brand's own account are platform-marked, so no label needed.\n\n**Fix:** Remove the testimonial. The ad is fine without it, for example: \"Plastic-Free Tea Bags | Our tea bags are plastic-free and home compostable.\" If the team wants to keep a quote, confirm Emma's identity, consent and the original wording, and pick one that doesn't use \"best\".\n\n**Decision:** Hold. Needs Sam's approval after the fix.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109007,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

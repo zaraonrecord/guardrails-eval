@@ -1,0 +1,11 @@
+{
+ "case": "p16",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** newsletter to UK subscribers, Pebblebrook Tea Co. Christmas blend announcement with a discount.\n\n**Checks**\n- **Claims:** The product facts (black tea, orange peel, cinnamon, clove, back in the shop) are fine as written. \"30% off\" and \"Today only... ends at midnight\" are not on the policy's claims list, and nothing in this chat shows the offer is real or when it ends.\n- **Regulated claims (prices and offers):** A \"today only\" deadline must be literally true. If the discount actually runs past midnight, or the code is reused tomorrow, this is fake urgency. \"Midnight\" is also ambiguous, since it doesn't say which midnight or which timezone.\n- **House style:** The copy is short and plain. \"Back\" appears twice in consecutive sentences (\"the Christmas blend is back... It's back in the shop\"), which is a small tidy-up, not a blocker.\n- **Disclosure:** This is the brand's own product in its own newsletter, so no ad, affiliate or AI label is needed.\n\n**Fixed:** Nothing changed yet, because the offer needs your confirmation first.\n\n**Needs a decision**\n1. Is the 30% off real, and does it end tonight? If so, confirm the exact end time. My suggested wording: *\"Today only: 30% off, ends at midnight tonight (GMT), 17 November.\"* Add any conditions, such as whether it applies to everything or only the Christmas blend.\n2. If the offer isn't strictly one day, or you can't confirm it, drop the urgency and say what's true, for example *\"30% off until [date].\"*\n3. Optional tidy-up: *\"The Christmas blend is back in the shop: black tea, orange peel, cinnamon and a little clove.\"*\n\n**Approver:** The policy names no approver, so you (the user) need to give an explicit yes to the final wording. I can't record an approval for you.\n\nNot ready to publish until the offer is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0155753,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

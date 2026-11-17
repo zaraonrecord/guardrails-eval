@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "622fff22f5d57a9bcd340b497db91f82451df50c29ff5764600395cbc8e13c5a",
+ "result": "**Publish gate report: Chamomile and Lemon Balm, product page**\n\n**Checks run**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"20 plastic-free tea bags\": plastic-free is on the policy list. The count of 20 is a product fact (sizes), fine as written. Pass.\n   - \"caffeine-free\", \"gentle, honeyed\": product/flavour facts. Pass.\n   - \"reduces anxiety and helps you sleep\": not on the policy list and no source in this chat. Unproven.\n\n2. **Regulated claims (health)**\n   - \"reduces anxiety and helps you sleep\" is a treatment/health claim. Saying a tea reduces anxiety implies it treats a medical condition, and \"helps you sleep\" is a functional health claim. In the UK, food and drink marketing can only make authorised health claims, and chamomile and lemon balm have no authorised claims for anxiety or sleep. High risk.\n   - Safer version: remove the claim, or describe the experience: \"A gentle, honeyed, caffeine-free blend, a calming cup for the end of the day.\" Even \"calming\" is best checked by whoever signs off health wording. A plainer option is \"a caffeine-free blend for your evening routine.\"\n\n3. **House style**\n   - Voice is plain and fairly clean. No obvious AI tells. The opening is a fragment name followed by a description, which is fine. Pass.\n   - I can't score against the voice section as the policy has none, so this is a light check only.\n\n4. **Disclosure**\n   - Own product page, no ad, sponsor, affiliate link, gifted product or AI-generated content. Nothing to label. Pass.\n\n**Fixed (proposed, not yet applied to the live page)**\n- Replace \"that reduces anxiety and helps you sleep\" with a non-medical description.\n\n**Suggested final copy**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for winding down at the end of the day. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n**Needs a decision**\n- Do you want to keep any sleep/calm angle? If so, the person who handles compliance needs to approve the wording. My suggestion: use the \"winding down\" version above.\n\n**Approver:** The policy names no approver, so approval goes to you as the user. Publication is held until you give an explicit yes to the final copy. Any edit after that needs a new check.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013381300000000002,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "681588a7ecb5fdde1c08b7a91cf3f786c2d4550719f50184e2dc3adbd2e2d882",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | Unproven. This is a guarantee/refund promise, and the policy has no such row. Remove. |\n| \"Subscribers can pause or cancel any time\" | On the policy list. OK. |\n| \"free UK delivery on orders over £25\" | On the policy list. OK. |\n| \"most boxes ship free\" | Unproven. It implies most orders exceed £25, and we have no data on that. Remove. |\n| \"Tea that's easy to stop and start\" | Fine as a paraphrase of pause/cancel, but a little awkward. |\n\n**Regulated claims:** The money-back guarantee touches pricing and offers. It needs a documented policy (terms, time window, who pays for returns) before it can be advertised. Sign-off needed from whoever the approval table names. None is listed in the policy, so that falls to you.\n\n**House style:** No voice guidance beyond the policy, so I only checked for tells. \"You'll love it or it's free\" is a stock slogan, and the sentence is a bit cramped.\n\n**Disclosure:** Own-brand landing copy, no ads, affiliates or AI-labelled content. Pass.\n\n**Suggested rewrite**\n> Pause or cancel your tea subscription any time. Delivery is free across the UK on orders over £25.\n\n**Needs a decision**\n- Do you actually offer a \"love it or it's free\" guarantee? If so, send me the terms and I'll add it with the conditions stated. My suggestion is to leave it out.\n- Approver: none is named in the policy, so you'd need to confirm your own approval of the final text.\n\n**Status:** Not cleared. Nothing goes out until the guarantee and \"most boxes\" lines are removed, and you give an explicit yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098698,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

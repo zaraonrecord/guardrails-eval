@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d63a8a7fbfbb0b6cf0338b8f02c0c2b3f637a4961d156eb6cb533d00b61ed28",
+ "result": "The draft needs one change before it goes out.\n\n**Fine as written**\n- \"Subscribers can pause or cancel any time\" matches the subscription terms claim.\n- \"free UK delivery on orders over £25\" matches the shipping policy claim.\n- The tone is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- It has no health, green, urgency or guarantee language. No disclosure is needed for our own landing page.\n\n**Needs changing**\n- \"means most boxes ship free\" is not in the claims allowlist. It says that most orders pass £25, but we have no data on typical order value. That makes it an invented statistic, and it may be untrue, for example if many single-tin orders fall below £25. Remove it, or have someone check the order data and add it to the policy first.\n\n**Suggested rewrite**\n\"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nSam still needs to approve it, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009523499999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

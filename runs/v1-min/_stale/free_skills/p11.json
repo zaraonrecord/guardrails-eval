@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"9 out of 10 customers reorder within a month\" | Unsupported. Not on the allowlist, no source in this chat. Invented-looking statistic. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n| \"Three teas for your desk drawer\" / Builder's, Earl Grey, peppermint | Product facts, fine as written. |\n\n**Slop and structure check:** No banned words, no exclamation points, no rhetorical opener, no em-dash sandwiches. The opening sentence is fine, though the strongest fact (free delivery) sits last.\n\n**Ad checks:** No character limit was given. The delivery claim should also appear on the landing page. Please confirm it does. Nothing here is likely to trip platform policy.\n\n**Fix:** Remove the reorder stat. If you have a real figure, send it with its source and I'll add it. Otherwise use a placeholder or drop it.\n\n**Compliant version:**\n\nThree teas for your desk drawer: Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nOptional, if you have the data: `[PROOF NEEDED: source for reorder rate]`\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009186299999999998,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

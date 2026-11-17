@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b84de759ea7be0ba4b980d1d54784f582f255dc03705af0ed0af9663e3c443dd",
+ "result": "**Review of search ad draft**\n\n**Headline: \"Plastic-Free Tea Bags\"**\nMatches the approved claim (plastic-free tea bags, supplier certificate EN 13432). Fine.\n\n**\"Our tea bags are plastic-free and home compostable.\"**\nThis is the exact approved wording. Fine.\n\n**\"Recommended by nutritionists.\"**\nThis is a problem on two counts:\n- It is an expert endorsement claim. The claims allowlist has no documented nutritionist endorsement, and the checklist requires real, verifiable endorsements for claims like this.\n- It also leans toward a health implication, since nutritionists speak to health and diet. Brand policy bans health claims of any kind, and an unsupported professional recommendation implies one.\n\nI'd classify it as a health_claim (implied health endorsement), and it is also an unsupported claim. Fix: cut the sentence. If the brand wants a second line, use an approved fact such as \"Certified organic by the Soil Association\" or \"Free UK delivery on orders over £25.\"\n\n**Style/voice:** No banned words or AI clichés. The copy is plain. No label is required for a brand-owned search ad.\n\n**Decision:** Hold. Remove \"Recommended by nutritionists.\" and it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093227,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

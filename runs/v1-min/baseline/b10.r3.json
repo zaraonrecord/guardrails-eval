@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1ed8d977712d8352c3d767a518588826b837a9607ad86e12538abc2738d05a22",
+ "result": "I checked the draft line by line against the brand policy, and it can go out as written.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"20 plastic-free tea bags\"** matches the allowed claim that our tea bags are plastic-free. The pack size is a product fact.\n- **\"Caffeine-free blend\"** is an ingredient fact, which is fine as written.\n- **\"Gentle, honeyed... for the evening\"** describes flavour and when to drink it. It makes no sleep, relaxation or calming promise, so it isn't a health claim.\n- **Other checks:** the draft has no invented statistics, superlatives, guarantees, testimonials, urgency or filler phrasing. Nothing needs a disclosure.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072282,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

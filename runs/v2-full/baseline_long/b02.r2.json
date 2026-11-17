@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f2d661fcf31b969a72a6de60479f3d1d0366202d6098b7b1cd6983ed87b226cb",
+ "result": "**Review: \"Your October tins are on the way\" (email)**\n\n**Claims**\n- \"Your subscription box left Bristol this morning\": this is an order-status statement, not a marketing claim. It's consistent with the brand's Bristol base. The send should only trigger once the box has actually shipped.\n- \"a smoky lapsang and a soft white peony\": product description, covered as product facts checked by the product team.\n- \"you can pause or cancel any time from your account\": matches the approved claim \"Subscribers can pause or cancel any time\" (subscription terms).\n\n**Missing items**\n- No offer, price, guarantee, urgency, health, environmental or review claims.\n- No ad or affiliate label is needed. This is a brand-owned transactional email.\n\n**Tone and style**\n- Warm, plain and unhurried, in UK spelling. There are no banned words and no AI clichés.\n\n**Two small checks before sending (not blockers)**\n- Today is 17 November, and the subject says \"October tins\" and refers to \"next month\". If this is a scheduled send or a delayed batch, confirm the month wording is right.\n- Sam needs to sign off, as with all public content.\n\nNothing here breaks the policy or would mislead a reader.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010249500000000002,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

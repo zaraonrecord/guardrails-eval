@@ -1,10 +1,14 @@
 {
  "case": "p10",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review notes**\n\n- **Product facts:** A new Japanese sencha, its flavour (grassy, a little sweet) and the brewing temperature (around 70 degrees) are all product facts, so they're fine as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency, and nothing outside the allowlist.\n- **\"It's not just tea, it's a ritual.\"** This is the stock \"not just X, it's Y\" construction. It says nothing specific about the tea and sounds generic and machine-written. It should be cut or replaced with something concrete, for example a line about the cooler brewing or the taste.\n- **Email footer:** The draft doesn't show an unsubscribe link or sender details. I assume your email platform adds these automatically, but confirm that before sending.\n\nThe draft is otherwise short and accurate. Once the ritual line is rewritten or removed, it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.011969999999999998,
- "seconds": 9.8,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ee2063702eb36a493e785ea6dac9651da3defdab8859f624251548f6df938510",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Needs changing**\n- **\"It's not just tea, it's a ritual.\"** This is a stock \"not just X, it's Y\" line. It says nothing specific about the sencha and reads as generic AI-style filler. Cut it, or replace it with something concrete, such as how the tea tastes or when to drink it.\n\n**Checked and fine**\n- The new Japanese sencha, the flavour (\"grassy and a little sweet\") and the brewing tip (about 70 degrees) are product facts, which the policy allows as written.\n- There are no stats, superlatives, guarantees, testimonials, health claims, green claims or fake urgency.\n\n**Note, not flagged:** this is a marketing email to UK recipients, so make sure the email template adds the unsubscribe link and sender details. The draft doesn't include them, but they usually sit in the footer.\n\nWith that one line fixed, the rest is ready to send.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012468,
+ "seconds": 14.9,
  "models": [
   "claude-sonnet-5-5"
  ]

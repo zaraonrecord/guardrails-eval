@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "63b7c31b0942835329f7f8d98bf941ff3ee344fbdfec22c1fa50c322fab52361",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Claims list**\n- Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper: product fact (ingredients), fine.\n- \"Lovely with milk\": a flavour and serving suggestion, a soft opinion, fine.\n- \"100g tin\": size, fine.\n- \"Was £12, now £8\": **unsupported**. Prices and discounts aren't on the allowlist, and nothing in this conversation sources them. A \"was\" price is a factual claim. Under UK pricing rules (CMA and Trading Standards guidance), it must be a genuine price the product was actually sold at, recently and for a meaningful period. A 33% reduction is a strong claim if that isn't the case.\n\n**Other checks**\n- No health claims. \"Caffeine-free\" describes the ingredient and makes no benefit claim.\n- No superlatives, guarantees, testimonials, review counts or green claims.\n- No fake urgency: there's no countdown, no \"limited time\" and no scarcity language.\n- No ban-list words or structural slop.\n\n**What to do**\nConfirm that £12 was the real selling price for this tin for a reasonable recent period. If it was, publish as is, ideally with the sale end date if there is one. If you can't confirm it, drop the \"was\" price and show only \"£8\", or replace the line with `[PROOF NEEDED: evidence £12 was the genuine previous price]`. I'm holding publication until that's confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015430300000000001,
+ "seconds": 19.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

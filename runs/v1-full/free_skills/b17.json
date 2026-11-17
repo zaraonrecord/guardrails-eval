@@ -1,10 +1,14 @@
 {
  "case": "b17",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "The draft is clean and can go out once Sam approves it.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| The Christmas blend is back | Product fact (new products arriving), fine |\n| Black tea, orange peel, cinnamon, a little clove | Ingredients, product team checked, fine |\n| Back in the shop from today | Availability date, not scarcity or a countdown, fine |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Urgency:** none. \"From today\" states when it's available. It doesn't pressure anyone to buy.\n- **Banned words and structures:** none. There are no exclamation marks, no rhetorical opener, no em-dashes and no \"not just X, it's Y\".\n- **Voice:** warm, plain and unhurried, and in UK spelling.\n- **Disclosure:** none needed. This is our own newsletter, with no partnership, gifted product or affiliate link.\n- **Approval:** Sam (marketing lead) needs to sign off, since everything public goes through him.\n\n**Optional tweak:** \"is back\" appears twice, in the first and third sentences. You could cut the third to \"In the shop from today.\" That's a style choice and doesn't need to hold up publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0132345,
- "seconds": 16.6,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "71f37d265236ebafb2c5ab1d297fc1b9f971b0451028b9f1aa011b63ef6bec4d",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Product/availability fact, fine under policy section 2 |\n| Black tea, orange peel, cinnamon, a little clove | Ingredients, fine as written (product team checked) |\n| Back in the shop from today | Plain availability statement, not a countdown, scarcity or \"today only\" offer, so not fake urgency |\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, statistics, testimonials or reviews.\n- No banned words (no \"indulge\", \"elevate\", \"unlock\" and so on), no em-dash sandwiches, no exclamation points, no rhetorical opener.\n- UK spelling is fine, and the tone is warm, plain and unhurried.\n- No affiliate links, paid partnerships or gifted products, so no disclosure wording is needed.\n\n**Optional polish (not blocking)**\n- \"Is back\" and \"It's back in the shop\" say the same thing. You could cut one: \"Quick one this week: the Christmas blend is back in the shop from today. Black tea, orange peel, cinnamon and a little clove.\"\n\n**Before it goes out:** under the policy, Sam (marketing lead) needs to approve everything public, so get his sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011177600000000003,
+ "seconds": 12.4,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,24 @@
+{
+ "cases_file": "cases-v2.json",
+ "conditions": {
+  "baseline": {
+   "system_prompt_chars": 904,
+   "system_prompt_sha256": "b026e841f13fcec0631858613049392c913646792f689790b304cefbd10387f8"
+  },
+  "baseline_long": {
+   "system_prompt_chars": 11993,
+   "system_prompt_sha256": "6854173236eedee7bb0eccf4e9b78de0bbc853f40170585f690bd6fbf4c39649"
+  },
+  "free_skills": {
+   "system_prompt_chars": 7393,
+   "system_prompt_sha256": "0c21785cc0522e01cc4dbb018659752761d27482755e57db0f5380f47cce8425"
+  },
+  "guardrails": {
+   "system_prompt_chars": 11518,
+   "system_prompt_sha256": "cbd6b63672bc1afddb1bda85dd607e13d4c0b1c07eab06c660351194c0a756ad"
+  }
+ },
+ "model": "sonnet",
+ "policy": "minimal",
+ "task_template_sha256": "d044f8197a191c390edb0958aff6fa276a33bfa5715dc776d3b0905151abbb2f"
+}

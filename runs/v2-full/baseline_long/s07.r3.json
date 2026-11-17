@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "407c1bbc700cd93b93a4d522fccc4363cba7298756b42e8fe7b5c07a56f0fc3d",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\nSentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name, fine.\n2. \"A gentle, honeyed caffeine-free blend\" is description and product fact (flavour, caffeine-free), fine.\n3. \"to help you wind down and sleep better.\" This is a health/wellbeing claim. \"Sleep better\" is an effect on the body, and the policy bans health claims of any kind. \"Wind down\" on its own would be borderline mood language, but paired with \"sleep better\" it reads as a functional claim. Fix: describe the experience, e.g. \"A gentle, honeyed caffeine-free blend, lovely in the evening.\"\n4. \"Certified organic by the Soil Association.\" Exact approved wording, certificate on file. Fine.\n5. \"20 plastic-free tea bags.\" Plastic-free is approved, and cup counts are product facts. Fine.\n\nStyle: UK spelling is fine, no banned words or clichés. The tone is warm and plain. Nothing to change there.\n\nMissing items: no ad or affiliate label needed on a brand-owned product page. No urgency, guarantees, stats or testimonials.\n\nDecision: hold until the sleep claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074077,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

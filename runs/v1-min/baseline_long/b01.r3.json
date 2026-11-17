@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c87f5e2ccbc0d072a40b57aa604f4ed40f9fd7fd14a08f74539c8f58737d995a",
+ "result": "**Review of the landing hero draft**\n\nClaims check against the brand policy:\n- \"packed by hand in Bristol\": approved (every tin is packed by hand in Bristol).\n- \"certified organic by the Soil Association\": approved.\n- \"Free UK delivery on orders over £25\": approved, and the threshold matches.\n- \"Loose leaf tea\": product fact, fine.\n\nNo health, green, superlative, urgency, guarantee, testimonial or disclosure issues. There are no AI clichés or hype words.\n\nOne style note: the \"packed by hand in Bristol\" point appears twice in a three-sentence piece (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). The checklist treats repetition as something to check, and in a hero this short it reads as a slip. It is a small fix, but it is a real flaw in copy that goes live, so I'd change it before publishing.\n\nSuggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068594,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

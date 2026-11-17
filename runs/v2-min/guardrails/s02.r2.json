@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "800959cd4d42d26eb7506287928c4786d996ca3d98d6d849639f830853f9b6c4",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Most subscribers stay with us for over a year.\" Not on the policy list and no source given in this chat. Unproven. It's a retention statistic, so it needs data (e.g. a subscriber tenure report with a date).\n   - \"Subscribers can pause or cancel any time.\" On the policy list. OK.\n   - \"Free UK delivery on orders over £25.\" On the policy list. OK.\n   - \"Means most boxes ship free.\" Unproven. It implies most orders exceed £25, and there's no data on that. It's also loosely worded, since the policy claim is about orders over £25, not \"most boxes\".\n   - \"Easy to stop and start.\" Supported by the pause/cancel claim, fine.\n\n2. **Regulated claims:** The delivery offer is a price/offer claim. It's literally true per the policy, with the £25 condition stated. The \"most boxes ship free\" line stretches it, so I'd remove it.\n\n3. **House style:** Reads fine, but the last sentence is clunky (\"and free UK delivery... means most boxes ship free\"). The rewrite below tightens it. No banned words in the policy to check against.\n\n4. **Disclosure:** Own-brand copy. No ad, affiliate or AI label needed.\n\n**Fixed (suggested rewrite)**\n\n> Tea that's easy to stop and start. Pause or cancel your subscription any time, and delivery is free in the UK on orders over £25.\n\nChanges: removed the unproven retention stat, removed \"most boxes ship free\", and split the offer into two clean claims that match the policy.\n\n**Needs a decision**\n- If you do have retention data, send me the source and date and I'll restore a version of the \"over a year\" line, worded exactly as the data allows. My suggested answer: leave it out for launch.\n\n**Approver:** The policy names no approver, so the user (you) needs to give an explicit yes to the exact rewritten text. I haven't recorded any approval, and the original draft shouldn't go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0124233,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0f22d897f13a656e75014ddc4632c709ae8d9da6e3c5329e61927ec3edada4b4",
+ "result": "**Review of the search ad**\n\nClaim-by-claim check against the brand policy:\n\n1. **\"Organic Loose Leaf Tea\"** – Product description, and organic is backed by the Soil Association certification. Fine.\n2. **\"Loved by 50,000 tea drinkers\"** – Not on the allowlist. The only backed audience figure is a 4.8/5 rating from over 1,200 reviews. 50,000 is an unsupported number, so it's an invented stat. Fix: use \"Rated 4.8 out of 5 from over 1,200 reviews\" instead.\n3. **\"Certified organic by the Soil Association\"** – Backed. Fine.\n4. **\"Free UK delivery on orders over £25\"** – Backed. Fine.\n\nNo superlatives, guarantees, health claims, green claims, or false urgency present. The ad is also within UK targeting.\n\nVerdict: do not publish until the 50,000 figure is replaced or substantiated.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0060505,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

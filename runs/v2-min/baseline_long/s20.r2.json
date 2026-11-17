@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "37820376b53be239bbf70085f23253febf75f6a8cecb56d112a7678805a9ef44",
+ "result": "**Review of the email \"How to brew loose leaf without a teapot\"**\n\n**Claims:** The brewing advice (\"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\") is a product and brewing fact, which the policy allows as written. There are no numbers, health claims, green claims, guarantees, urgency, testimonials or superlatives. The email comes from the brand's own channel, so it needs no ad label.\n\n**Style:** The first two sentences are plain and specific. \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is different. It is a generic \"whether you're X or Y\" formula that could go in any tea email. It adds nothing about the brewing topic and reads as machine-made filler. Cut it, or replace it with something concrete, such as a suggested tea to try or a tip on water temperature for green tea.\n\n**Decision:** Hold until that sentence is cut or rewritten. Everything else is fine.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0113725,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

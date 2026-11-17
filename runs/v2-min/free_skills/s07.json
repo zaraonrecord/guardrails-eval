@@ -7,5 +7,10 @@
  "seconds": 11.0,
  "models": [
   "claude-sonnet-5-5"
- ]
+ ],
+ "hash": "6c7d6654c66ac82079005299de89604f562d016143681dbf84bb667049646b42",
+ "hash_adopted": true,
+ "repeat": 1,
+ "policy": "minimal",
+ "cases_file": "cases-v2.json"
 }

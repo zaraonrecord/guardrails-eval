@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "The draft is clean against the brand policy, the claims allowlist, the slop rules and the review rules.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific fulfilment fact, not a marketing claim. It fits the allowlisted Bristol packing. |\n| \"a smoky lapsang and a soft white peony\" | Product facts (flavour), fine to use as written. |\n| \"you can pause or cancel any time\" | Allowlisted: \"Subscribers can pause or cancel any time\". |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, health, green and urgency claims:** none.\n- **Banned words and structures:** none. There are no exclamation points, rhetorical openers, em-dash asides or \"not just X, it's Y\" lines. The opening sentence carries the useful fact.\n- **Disclosure:** this is the brand's own transactional email, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Spelling and voice:** UK spelling, warm, plain and unhurried.\n- **Products:** this is not a review, so the owned/tried/wishlist labels don't apply.\n\n**Two non-blocking notes**\n1. The subject says \"October tins\" and the body says \"This month\", but today is 17 November. If this box is the November one, change the subject. If it is a delayed October box, the body should not say \"this month\".\n2. Per the policy, Sam needs to approve everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0186825,
+ "seconds": 18.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

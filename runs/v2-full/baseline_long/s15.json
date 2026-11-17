@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "4fcba70e4e57e64b88cd6877fe30d38a51a37cd57093af18fb351cf9e507ee95",
+ "result": "**Review of the affiliate blog draft**\n\n**Problem: the affiliate disclosure doesn't meet the brand policy**\n- Pebblebrook's policy says affiliate links must carry the words \"Affiliate link\" next to the link. The draft puts \"*I may earn a small commission.\" in a footnote after the link, and that wording does not say \"Affiliate link\".\n- The checklist asks for a plain disclosure the reader sees before clicking, either next to the link or at the top. A trailing asterisk footnote falls short of that, even in a short post.\n- Fix: put \"Affiliate link\" directly beside \"You can find it here\", for example \"You can find it here (Affiliate link).\" You can keep the commission sentence as well, but ideally near the top.\n\n**Checked and fine**\n- \"Pebblebrook's was the easiest to pause\": this is the reviewer's personal opinion and matches the approved claim that subscribers can pause or cancel any time. It isn't a brand superlative.\n- \"I've tried four tea subscriptions this year\": this is the reviewer's own experience, not a brand statistic. It's worth confirming it is true with the author.\n- \"the tins are lovely\": this is opinion.\n- There are no health, environmental, guarantee, urgency or invented-number claims. The voice is warm and plain, with no banned phrases and no AI clichés.\n\n**Decision:** hold until the disclosure is fixed. Sam also needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015310700000000002,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

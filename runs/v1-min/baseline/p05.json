@@ -1,9 +1,13 @@
 {
  "case": "p05",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the newsletter draft**\n\n- **\"visited the garden in Darjeeling that grows our first flush\"**: This is an origin fact, which the policy allows as written.\n- **\"picked in March and taste bright and floral\"**: These are product and flavour facts, so they are fine.\n- **\"in the shop from Monday\"**: This is a new-arrival fact and is fine. Make sure \"Monday\" is unambiguous for readers, for example by giving the date.\n- **\"only 40 tins are left, so be quick\"**: This is a specific scarcity claim with a call to hurry, and nothing in the brand policy supports a stock level. The product isn't on sale until Monday, so \"left\" doesn't quite make sense yet. If the 40 tins is the real size of a limited batch, rewrite it as a fact, such as \"a limited run of 40 tins\". If the number can't be verified, remove it and the \"be quick\" pressure.\n\nNothing else in the draft makes a prohibited claim. It makes no green, health or superlative claims, and it doesn't use invented stats or testimonials.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
- "cost_usd": 0.013016,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6ffadfa30a820043a69cc3f50c1ec92015de6d22117dc8af7ea6046124bb03c5",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Origin and harvest:** the Darjeeling garden, the March picking and the \"bright and floral\" taste are product facts (origins, flavour, new arrivals), so they're fine as written.\n- **Stat, superlative, guarantee, testimonial, health and green claims:** there are none. It doesn't use \"best\", \"finest\" or \"purest\", and it makes no organic, compostable or plastic-free claims.\n- **Disclosure:** nothing in the draft is sponsored or incentivised, so it needs no label.\n- **Urgency:** \"only 40 tins are left\" is a stock statement, not a countdown or invented deadline. It's acceptable if the number is true. Please confirm with the team that 40 tins is the real stock figure, and that the launch date of Monday is correct. If either is wrong, change the wording before sending.\n- **Tone:** the copy is specific and plain, with no generic filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.01422,
  "seconds": 12.8,
  "models": [
   "claude-sonnet-5-5"

@@ -1,10 +1,14 @@
 {
  "case": "p08",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the search ad**\n\n- **\"Plastic-Free Tea Bags\"** (headline): Supported. The brand policy says tea bags are plastic-free.\n- **\"Our tea bags are plastic-free and home compostable.\"**: Supported. Both claims are on the allowlist.\n- **\"Best tea I've ever had\" - Emma, Leeds**: Not supported. The policy lists no customer quotes, and nothing shows that Emma is a real customer who agreed to be quoted. A named testimonial with a location presents itself as a real review, so it needs a verified source and permission before it runs. If it can't be sourced, remove it. The \"best\" wording is also a superlative, but because it is a personal opinion, the main problem is that the attribution is unverified.\n\n**Recommendation:** Do not publish as is. Either remove the quote or confirm it comes from a real, consented customer review. The rest of the copy can stay. A safe version is:\n\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
- "cost_usd": 0.011765999999999999,
- "seconds": 14.6,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "518b0ee5f82d030f2e8e72872440ad8cc213c48664711786f32d477ecf7f08d2",
+ "result": "**Review of the search ad**\n\n- **\"Plastic-Free Tea Bags\" and \"Our tea bags are plastic-free and home compostable.\"** Both are on the claims allowlist, so they are fine as written.\n- **\"Best tea I've ever had\" - Emma, Leeds.** This is the problem. The brand policy has no record of this quote or of a customer named Emma in Leeds. A named testimonial in an ad needs a real, traceable source with the customer's permission. Without one, it reads as an invented endorsement. It also works as an unqualified \"best\" superlative in the brand's voice. Remove it, or replace it with a verified quote or the supported claim \"rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **Format and disclosure.** Nothing else is missing for a short search ad. There are no stats, guarantees, urgency, or health claims.\n\nDo not publish until the testimonial is verified or removed. The ad works with just the plastic-free and compostable claim.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011266,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,11 @@
+{
+ "case": "p01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nProblems found:\n\n1. **\"The UK's best loose leaf tea\"** is an unprovable superlative (\"best\"). Policy section 3 bans this. It needs to go.\n\n2. **Redundancy**: \"packed by hand in Bristol\" appears twice in the first two sentences. This is an editing issue rather than a policy breach, but it reads clumsily and should be tightened.\n\nChecked and fine:\n- \"Every tin is packed by hand in Bristol\" matches the allowlist wording exactly.\n- \"certified organic by the Soil Association\" matches the allowlist (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\" matches the allowlist exactly.\n- No banned voice words, no health or green claims, no urgency, no invented numbers. UK spelling is fine.\n\n**Suggested rewrite:**\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nSam needs to approve the final version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087941,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

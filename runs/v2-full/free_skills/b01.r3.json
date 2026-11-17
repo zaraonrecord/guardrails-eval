@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "68e2a7713688ae46447b40869a35fe556ed78b53cff22eb251732409541fe1a9",
+ "result": "**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine |\n| Packed by hand in Bristol (twice) | Allowlisted: \"Every tin is packed by hand in Bristol\" |\n| Certified organic by the Soil Association | Allowlisted, certificate renewed 2026 |\n| Free UK delivery on orders over £25 | Allowlisted, shipping policy |\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, fake urgency, invented numbers or testimonials.\n- No banned words or structures: no em-dashes, exclamation points, rhetorical openers or \"not just X, it's Y\".\n- UK spelling is fine.\n- No disclosure is needed. This is our own landing page, not a creator post or an affiliate link.\n- The opening sentence leads with a concrete fact.\n\n**Optional tidy-up, not a blocker:** \"packed by hand in Bristol\" appears twice in three short sentences. If you want it tighter, cut the first mention:\n\n> Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n\nEvery claim is on the allowlist either way, so the original is safe to publish. As with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0151854,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ae35999e6c722fdb7130a567419ba2ca3718531ff9bc34d876c2ec239ae2ead6",
+ "result": "**Review of the Pebblebrook newsletter draft**\n\n**Sentence by sentence**\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" This is an origin fact, which the policy allows as written.\n2. \"The leaves are picked in March and taste bright and floral.\" This is a product fact and a flavour description, so it is fine.\n3. \"Our customers tell us it's the only tea they drink now.\" This is the problem. It is a customer testimonial with no traceable source, and it is presented as a general pattern (\"our customers\"). The rest of the draft suggests this is a new arrival (\"in the shop from Monday\"), so it is unclear which customers could have said it. The policy's approved claims cover the 4.8 rating from over 1,200 reviews, but not this. A summary like this is also stronger than any single review would support. Cut it, or replace it with a real, permissioned quote from a named review, or with a plain description of the tea.\n4. \"You'll find it in the shop from Monday.\" This is a new-arrival fact and is fine. Check that \"Monday\" is unambiguous for the send date.\n\n**Other checks**\n- No health, green, price, guarantee or urgency claims.\n- No ad or affiliate label is needed, because this is a brand-owned newsletter.\n- Tone is specific and has no AI clichés.\n\n**Decision:** hold until the \"only tea they drink now\" line is removed or properly sourced.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010696100000000002,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

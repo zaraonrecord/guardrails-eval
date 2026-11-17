@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "855334c57fc217f0e08a9e41b29fef25f93faa866f4a471aa6e1765c4e259741",
+ "result": "I checked the draft against the brand policy.\n\n- **Product facts:** \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\", \"Lovely with milk\" and \"100g tin\" are ingredients, flavour, brewing and tin-size details. The product team checks these, so they are fine as written.\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency. \"Caffeine-free\" describes the ingredient, not a health benefit.\n- **Voice:** The tone is plain and warm. None of the banned words appear, and there are no UK spelling problems.\n- **Disclosure:** This is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Approval:** Sam (marketing lead) needs to approve anything public before it goes live.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056617,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

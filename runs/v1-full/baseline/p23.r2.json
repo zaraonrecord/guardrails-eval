@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e6eef96d3e5403d49b9d14d424668f0b038466858066b6ccd5f2e034807d8fce",
+ "result": "**Review of landing hero draft**\n\nProblems:\n\n1. **\"Good tea, guaranteed.\"** Policy section 3 bans guarantees. We have no guarantee offer.\n2. **\"Risk-free.\"** Also a banned guarantee wording.\n\nWhat checks out against the allowlist:\n- \"Certified organic by the Soil Association\" matches the claim exactly (certificate renewed 2026).\n- \"packed by hand in Bristol\" is covered by \"Every tin is packed by hand in Bristol\". The wording is slightly shortened, but the meaning is the same and it's accurate.\n- \"free UK delivery on orders over £25\" matches exactly.\n\nVoice and spelling are fine: warm, plain, no banned words. No disclosure is needed for our own landing page.\n\nSuggested fix: drop the first two phrases, e.g. \"Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.\"\n\nNot publishable as written. Sam needs to approve the revised version, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006525899999999999,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

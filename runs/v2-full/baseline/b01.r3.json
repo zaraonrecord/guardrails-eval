@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "52a35442096ba98038174220e33edf974ba19e6ba86dc24283142ed2b2eaebf1",
+ "result": "I checked each claim against the allowlist and the brand rules.\n\n**Claims**\n- \"Packed by hand in Bristol\" matches \"Every tin is packed by hand in Bristol\" (Operations).\n- \"Certified organic by the Soil Association\" matches the certificate on file, renewed 2026.\n- \"Free UK delivery on orders over £25\" matches the shipping policy.\n\n**Never-make rules**\n- No superlatives, guarantees, health claims, green claims, invented numbers, testimonials or false urgency.\n- No banned words, and the spelling is UK.\n- No disclosure is needed, because this is our own landing page.\n\n**One problem: repetition.** The first sentence (\"Loose leaf tea, packed by hand in Bristol.\") and the second (\"Every tin is packed by hand in Bristol...\") say the same thing back to back. It reads like a drafting slip in a hero line. Merge them, for example: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nSam still needs to approve before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010431000000000001,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

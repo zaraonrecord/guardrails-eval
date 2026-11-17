@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3a6ae59c94af779e57fd96a13ca9f8be4bea89871bebe040020b0ad45d713d77",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad for Pebblebrook Tea Co., aimed at UK tea drinkers. No send time was given.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On the policy list: \"tea bags are plastic-free and home compostable\" |\n| \"plastic-free and home compostable\" | On the policy list, same row |\n| \"Founded in Bristol in 2019\" | On the policy list |\n\nNo stats, superlatives, guarantees, testimonials or urgency claims appear.\n\n**Regulated claims:** This is an environmental claim, which regulators challenge often. It is specific rather than a vague \"eco-friendly\" or \"sustainable\", and it matches an approved policy row. It passes. Before launch, confirm that the landing page backs up the claim, since an ad can't claim more than its page supports. Also check that the policy row is still within its review date.\n\n**House style:** The copy is plain, factual and free of AI tells, with no banned words or slogan closers. Score is about 90 or higher, so no rewrite is needed.\n\n**Disclosure:** Google and Bing label search ads as \"Ad\" or \"Sponsored\" themselves, so no extra label is needed in the copy. There are no affiliate, partnership or AI-imagery elements.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. The policy names no approver, so I need an explicit yes to this exact copy from you, or from whoever owns approvals, before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010430700000000001,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "365b7b7023a972362fc7bb0018de77a4594d6bf90b690a758dafa545314c67a4",
+ "result": "Review of the search ad:\n\n**Problem: \"Loved by 50,000 tea drinkers\"**\nThe policy only allows the review claim (4.8 out of 5 from over 1,200 reviews on our website). A figure of 50,000 customers or tea drinkers isn't in the allowlist and is an invented customer count. It must be removed or replaced with an approved claim.\n\n**Checked and fine:**\n- \"Organic Loose Leaf Tea\": we sell loose leaf tea, and the Soil Association certification is on file, so \"organic\" is supported.\n- \"Certified organic by the Soil Association\": exact approved wording.\n- \"Free UK delivery on orders over £25\": exact approved wording.\n- No banned words, health claims, guarantees, superlatives, or false urgency. No disclosure is needed for our own search ad.\n\n**Suggested fix:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\" (Check the length against the description character limit.) Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0065946999999999985,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

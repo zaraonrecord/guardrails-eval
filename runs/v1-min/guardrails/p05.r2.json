@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fd29e8a8345be1a937a28742531ec6a6a3fa8f6ec63439143b99fcf9e1270e2f",
+ "result": "# Publish gate report\n\n**Going out:** Newsletter, UK tea drinkers, product announcement (first flush Darjeeling, in shop from Monday).\n\n## Checks\n\n**Claims:** Product facts (origin, pick month, flavour) are fine as written. One problem: \"only 40 tins are left, so be quick\" is a stock/scarcity claim. The policy doesn't list it, and nothing in this chat sources the stock number. If it isn't literally true and current, it is fake urgency. There's also a logic wrinkle: the tins aren't in the shop until Monday, so \"left\" implies a prior sale that hasn't happened.\n\n**Regulated claims (prices/offers/stock):** \"Only X left\" must be literally true. Mark as `[PROOF NEEDED: current stock count confirmed by fulfilment]`.\n\n**House style:** Mostly plain and concrete. \"so be quick\" is a pushy filler close. The draft is fine otherwise.\n\n**Disclosure:** No ad, sponsorship, affiliate or AI label is needed. It is the brand's own newsletter, with no paid partnership.\n\n## Fixed (suggested rewrite)\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nIf the 40-tin count is confirmed true, this can be restored as: \"We have 40 tins in this first batch.\" That states a fact without pressure.\n\n## Needs a decision\n- Can someone confirm the stock figure? Suggested answer: drop the urgency line unless fulfilment confirms 40 tins.\n\n## Approver\nThe policy names no approver, so please give an explicit yes to the final text. Nothing is approved yet and I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0090966,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

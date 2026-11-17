@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e99d99e89124ded2f298f10baf9035bfeae960a6efa490638715be8a98da7f0b",
+ "result": "**Verdict: don't publish as written.** One sentence is unsupported.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (plastic-free tea bags, supplier certificate) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (EN 13432 certificate) |\n| \"Recommended by nutritionists\" | **Unsupported.** Nothing in the policy backs it. |\n\n**Problem**\n\n\"Recommended by nutritionists\" is an invented endorsement, and it also implies a health benefit. The policy bans invented testimonials and health claims of any kind. It would likely trip ad platform health-claim policies too. Cut it. If a real nutritionist endorsement exists, it would need a named source and sign-off from Sam before use.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nThe description is about 90 characters, and the headline is 21. Both are well within standard search ad limits, but please check them against your platform's limits. The delivery line is allowlisted, so it replaces the removed claim. Make sure the landing page also states the plastic-free and home compostable claim and the delivery threshold, since an ad shouldn't claim anything the page doesn't. Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012877699999999999,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

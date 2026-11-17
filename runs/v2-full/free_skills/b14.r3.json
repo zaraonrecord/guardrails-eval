@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6d64b22d0263c06ec82630bce9c2e66466c42a1a2d354037fc975f0b1aa2cabf",
+ "result": "**Review: creator post (gifted), Pebblebrook Tea Co.**\n\n**Disclosure:** The post opens with \"Gifted\", which is the required wording and comes before anything else. It passes.\n\n**Claims check:**\n\n| Item | Status |\n|---|---|\n| \"Pebblebrook sent me their winter sampler\" | Product fact and the gifted disclosure. Fine, as long as the product team confirms the sampler's name. |\n| \"The rooibos chai is lovely with oat milk\" | The creator's own opinion after trying it, not a brand claim. Fine. |\n| \"Not paid to say that, just liked it\" | Consistent with \"Gifted\", and it doesn't claim the product was bought or the post was independent of the gift. Fine. |\n\n**Other checks:**\n- **Numbers, superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Banned voice words and slop patterns:** none. The tone is warm and plain.\n- **Hands-on claim:** it is backed by the creator having tried the product (gifted, so Tried).\n\n**Before it goes out:** Sam (marketing lead) needs to approve it, as for everything public. Nothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118063,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

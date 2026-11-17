@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "642340f50da86299670c855782a99bfccd633b9a06eca9d2a74bff787b5e95d2",
+ "result": "**Review of the peppermint product page copy**\n\nChecked against the brand policy:\n\n- **\"Certified organic by the Soil Association.\"** Exact wording from the claims allowlist. Fine.\n- **\"Just peppermint leaves, nothing else.\"** Ingredient fact, covered by product team checks. Fine.\n- **\"Cool, clean\"**: flavour description. Fine.\n- **\"gentle on your stomach after a big meal\"**: This is a health claim. It implies the tea aids digestion or soothes the stomach. Section 3 bans health claims of any kind. It needs to come out or be reworded to describe flavour only (for example, \"a fresh, cooling cup to finish a meal\").\n- Voice: plain and warm enough, no banned words, UK spelling is fine. The fragments are slightly clipped but acceptable.\n- No disclosure needed (own product page, no creator or affiliate link).\n\n**Verdict:** Do not publish as written. Fix the digestive claim, then it goes to Sam for approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0063077,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

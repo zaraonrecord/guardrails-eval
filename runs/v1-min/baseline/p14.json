@@ -1,10 +1,14 @@
 {
  "case": "p14",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the affiliate blog draft**\n\n**Needs changing**\n- **Missing affiliate disclosure.** \"You can find it here\" is presumably an affiliate link, but nothing tells the reader the author earns a commission. In the UK, the CMA and ASA require this to be clear and upfront, for example \"Ad\" or \"Affiliate link: I earn a commission if you buy\" at the top, before the reader reaches the link. A small note in the footer isn't enough.\n\n**Checked and fine**\n- \"Easiest to pause\" matches our backable claim that subscribers can pause or cancel any time. It's also framed as the author's own comparison. It's fine as long as the author really did try four subscriptions and compare them. I can't verify that, so please confirm it with the author. Don't present it as a factual ranking of competitors.\n- \"The tins are lovely\" is a subjective opinion about the product, so it's fine.\n- The draft has no invented stats, guarantees, health claims, green claims, or false urgency.\n\n**Suggested fix:** Add a disclosure at the start, for example: \"Ad: this post contains affiliate links, so I may earn a commission if you buy through them, at no extra cost to you.\"\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
- "cost_usd": 0.013792,
- "seconds": 13.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "01d268593b10d4f68a00966af5beefaf7dd8409bd05c636aadfd039b9a12ad92",
+ "result": "**Review of the draft (review blog, affiliate)**\n\n**Problem: no affiliate disclosure.** This is an affiliate post, and \"You can find it here\" is almost certainly a tracked link. UK rules (ASA/CAP code and CMA guidance) require a clear label that the content includes affiliate links or is commercial. It has to be prominent and placed up front, for example \"Ad\" or \"This post contains affiliate links, so I may earn a commission if you buy.\" Without it, the post is not ready to publish.\n\n**Checked and fine:**\n- \"Easiest to pause\" is the author's first-person opinion, and it matches the backed claim that subscribers can pause or cancel any time. It is a comparative opinion, so the author should only keep it if it reflects their real experience of the four subscriptions.\n- \"The tins are lovely\" is a subjective product opinion.\n- There are no invented stats, guarantees, health claims, green claims, or urgency tactics.\n\n**Suggested fix:** add a disclosure at the very start, for example: \"Ad: this post contains affiliate links. I earn a commission if you subscribe, at no extra cost to you.\" Then publish.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01256,
+ "seconds": 10.5,
  "models": [
   "claude-sonnet-5-5"
  ]

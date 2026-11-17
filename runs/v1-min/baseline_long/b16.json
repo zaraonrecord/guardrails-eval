@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a5f79ad5449be537974c137d8e27c169a75da77503569158520438ed40b59bdd",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly: 4.8 out of 5, over 1,200 reviews, on our website. The source is stated. Fine.\n\n2. \"Organic loose leaf and plastic-free bags, packed by hand in Bristol.\" \n   - \"Organic\": the brand is certified organic by the Soil Association, so this is covered.\n   - \"plastic-free bags\": approved (tea bags are plastic-free).\n   - \"packed by hand in Bristol\": approved (every tin is packed by hand in Bristol).\n   \n   One small observation: \"packed by hand\" covers tins specifically, and the sentence reads as covering the whole range, but the policy's claim is general enough that this isn't a misleading stretch. No change needed.\n\n**Tone and style:** Short, specific, no clichés, no hype words, no repetition. UK conventions are fine.\n\n**Labels, conditions:** No offer, delivery promise, guarantee, health, green or urgency claims are made. No ad label is needed on the brand's own landing page.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087525,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

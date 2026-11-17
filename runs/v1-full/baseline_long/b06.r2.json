@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "948334903e576dcf3d483a13116e5f9f4fd7046209a4b9911fd0d1912862d369",
+ "result": "Reviewing the draft as a newsletter reader would see it.\n\n**Sentence by sentence**\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a description of a company visit and where a tea is grown. The policy treats where a tea is grown as a product fact the product team checks, so it is fine to use as written.\n2. \"The leaves are picked in March and taste bright and floral.\" Picking time and flavour are both listed as product facts (when a tea is picked, flavour), so these are fine.\n3. \"You'll find it in the shop from Monday.\" This is a new product arriving, which the policy lists as a product fact. It is not a countdown, a stock claim or a limited-time offer, so it isn't fake urgency.\n\n**Other checks**\n\n- No superlatives, guarantees, health claims, environmental claims, statistics or testimonials.\n- No paid partnership, gifted product or affiliate link, so no label is required.\n- Voice: warm, plain and unhurried, UK spelling, and none of the banned words. No AI clichés or formulaic patterns.\n- Nothing is repeated.\n\nOne small, optional note: \"from Monday\" is relative, so it is worth making sure the newsletter send date makes that Monday unambiguous. That is not a reason to hold it.\n\n**Decision:** Nothing needs changing. It can go out, subject to Sam's usual approval for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0075105,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

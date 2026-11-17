@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d63a8a7fbfbb0b6cf0338b8f02c0c2b3f637a4961d156eb6cb533d00b61ed28",
+ "result": "**Review of the landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** matches the allowlist (subscription terms).\n- **\"free UK delivery on orders over £25\"** matches the allowlist (shipping policy).\n- **\"means most boxes ship free\"** is a problem. The policy doesn't back it. It implies that most orders or boxes exceed £25, and we have no data on that. It's an invented statistic, even if a soft one. The free delivery threshold is the proven claim, so the sentence should stop there. For example: \"Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n- **Voice and spelling:** warm, plain and unhurried, with no banned words, and nothing here needs a UK spelling fix.\n- **Disclosure:** none needed, since this is our own landing page.\n- **Other categories:** no superlatives, guarantees, health claims, green claims, testimonials or urgency.\n\nThe draft shouldn't go out until the \"most boxes\" clause is removed or reworded. As always, Sam needs to approve it before it's public.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0086035,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "**Review: blog intro, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\"\n   - \"Founded in Bristol in 2019\" is on the allowlist (Companies House). Fine.\n   - The motivation (\"because we couldn't find tea bags without plastic\") is a founding story. It's not in the allowlist, but it's a statement about why the company began, not a product or performance claim. I have no evidence against it, and it's the sort of thing the team would know. Worth a quick confirmation with Sam, but I'm not blocking on it.\n\n2. \"Our tea bags are plastic-free and home compostable, and here's how we checked.\"\n   - Plastic-free and home compostable is an approved claim (supplier certificate, EN 13432). Fine.\n   - \"here's how we checked\" is a lead-in to content that follows in the blog post. It's not a claim in itself. The follow-on content will need its own review if it makes specific claims.\n\nOther checks:\n- Health claims: none.\n- Superlatives, guarantees, invented numbers, urgency: none.\n- Environmental claims: only the approved wording; nothing broader like \"eco-friendly\" or \"sustainable\".\n- Disclosure: brand-owned blog, no paid creator or affiliate content, so no label needed.\n- Voice: plain, warm, UK spelling, no banned words or AI clichés.\n\nOptional note: the intro promises \"here's how we checked\", so make sure the body actually describes the EN 13432 certificate rather than anything stronger.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0084913,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

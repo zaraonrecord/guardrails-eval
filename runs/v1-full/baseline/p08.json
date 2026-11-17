@@ -1,10 +1,14 @@
 {
  "case": "p08",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the search ad**\n\n**Headline: \"Plastic-Free Tea Bags\"**\nFine. Matches the allowlisted claim that our tea bags are plastic-free.\n\n**Description, first sentence: \"Our tea bags are plastic-free and home compostable.\"**\nFine. This is the exact allowlisted wording (supplier certificate, EN 13432).\n\n**Description, second part: \"Best tea I've ever had\" - Emma, Leeds.**\nThis is a problem on two counts:\n- It is a testimonial that isn't in the policy. There is no record of Emma or her quote, so it has to be treated as invented. Testimonials can't go out unless they are real and documented, and the policy only allows what's on the claims list.\n- It contains \"best\", which is a superlative we can't prove. Even if Emma really said it, running it in an ad presents it as a claim about our product.\n\n**Voice and spelling:** No banned words, UK spelling is fine, and the tone is plain.\n\n**Fix:** Remove the testimonial. If you want something in that slot, use an allowlisted claim, for example \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" or \"Free UK delivery on orders over £25\". If Emma's quote is real, it would need written permission and a sign-off from Sam, and the \"best\" wording would still need to go.\n\n**Approval:** Everything public needs Sam's approval, so this needs his sign-off after the edit.\n\nNot ready to publish.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
- "cost_usd": 0.010028099999999998,
- "seconds": 9.1,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fca1ece961b618e30d14cfafdf5b34bd3e8621993ad0cca1b6e36c4f9206b438",
+ "result": "**Review of search ad draft**\n\n**Passes**\n- \"Our tea bags are plastic-free and home compostable\" matches the allowlist exactly (EN 13432 supplier certificate).\n- The headline \"Plastic-Free Tea Bags\" is consistent with that claim.\n- UK spelling and voice are fine; no banned words.\n\n**Problems**\n\n1. **\"Best tea I've ever had\" - Emma, Leeds.** This is a testimonial with no source in the policy. Testimonials can't be invented, and nothing here shows it's a real, documented customer review. It also contains the superlative \"best\", which we can't prove. A customer quote doesn't exempt us from that rule when we use it in our own ad. Remove it. If Emma is a real customer and the quote is genuine, it needs written proof and Sam's sign-off, and it would need rewording without the superlative (or a different real quote).\n\n2. **Approval.** Everything public needs Sam's approval, so this needs that sign-off regardless.\n\n**Suggested fix**\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Certified organic by the Soil Association.\n\n(The organic claim is on the allowlist and can be added if you want to fill the space. Use its exact wording.)\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0075583,
+ "seconds": 9.0,
  "models": [
   "claude-sonnet-5-5"
  ]

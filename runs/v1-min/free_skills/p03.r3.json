@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a0bee7868a9e0618b218852927db6c1ca8d17a1797adba9119412db2ca2b88df",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea that stands up to milk\" | Product/flavour fact, fine as written |\n| \"boosts your immunity through winter\" | Unsupported. Health claim, not on allowlist, and likely to breach UK advertising rules (CAP/ASA, and the UK nutrition and health claims register) for a food product |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin, makes around 40 cups\" | Size and brewing fact, fine as written (\"around\" keeps it soft) |\n\n**Slop check:** No ban-list words, no structural violations. The opening is a product name, which is acceptable on a product page.\n\n**Problem:** \"boosts your immunity through winter\" is a health claim with no proof. It should be removed. A compliant replacement would be something like \"a warming cup for winter mornings\", which is a flavour/mood description rather than a health benefit.\n\n**Suggested revision:**\nAssam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069152,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

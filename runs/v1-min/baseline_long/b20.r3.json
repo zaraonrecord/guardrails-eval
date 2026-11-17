@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b47cfbe173d4859ac213fe198633c038cb2e1faa872a4b668c53f2f068240c24",
+ "result": "I checked each sentence against the brand policy.\n\n- **Headline \"Tea Subscription UK\":** descriptive, makes no claim. Fine.\n- **\"Monthly loose leaf tea.\":** a product fact (loose leaf, monthly subscription). Fine.\n- **\"Subscribers can pause or cancel any time.\":** on the approved claims list. Fine.\n- **\"Free UK delivery on orders over £25.\":** matches the approved claim, and the £25 threshold sits right beside it. Fine.\n\nThere are no superlatives, stats, health or green claims, urgency, guarantees or testimonials. No ad label is needed beyond the search ad format itself, and the copy has no AI clichés. It is short and plain.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0054605,
+ "seconds": 6.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

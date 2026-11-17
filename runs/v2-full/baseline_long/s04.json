@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1fed23930234927385dc92c6d2dd9bfedba60c8c2499e0c2b9f08203d81983ba",
+ "result": "**Verdict: hold. One claim needs to change before this goes out.**\n\n**Problem**\n- **\"has become Bristol's favourite tea\"** is a superlative with no evidence behind it. The brand has no data showing it is the most popular or preferred tea in Bristol, and the policy rules out \"the UK's favourite\" style claims. Cut it. A fix that keeps the sentence flowing: \"Pebblebrook was founded in Bristol in 2019.\"\n\n**Checked and fine**\n- \"founded in Bristol in 2019\" is on the approved claims list (Companies House).\n- \"a small team of six\" is a product-team fact (team size), so it is fine as written.\n- \"every tin is packed by hand in Bristol\" is on the approved claims list (Operations).\n- Tone is plain and warm, with UK spelling and none of the banned words.\n\n**Optional note, not blocking**\n- \"We buy from gardens we've visited\" isn't on the claims list. It reads as a sourcing description, so I've left it unflagged. Sam may want to confirm it's true, since it is a statement about how the company works.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0149267,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

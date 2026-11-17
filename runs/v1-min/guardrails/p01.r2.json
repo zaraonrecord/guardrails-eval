@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8f4e6d8cde79b7ab2d163aebb0323dd0071516382b71f996e7a4c8e122e2f9f2",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"The UK's best loose leaf tea\": unproven superlative. Not on the policy list and no source given. Remove.\n   - \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\": on the policy list. But it appears twice, which is redundant.\n   - \"certified organic by the Soil Association\": on the policy list. Note the policy says *we* are certified organic. Fine as written.\n   - \"Free UK delivery on orders over £25\": on the policy list.\n\n2. **Regulated claims:** No health, money, legal, children or price-promotion issues. \"Free delivery over £25\" is a standing, true condition, not a countdown. \"Best\" is an environmental/health non-issue but is covered above as a superlative.\n\n3. **House style:** The repetition (\"packed by hand in Bristol\" twice in three sentences) reads as padding. Fix by merging.\n\n4. **Disclosure:** Own-brand hero copy, so no ad, affiliate or partnership label is needed. No AI-generated imagery is mentioned.\n\n**Fixed (suggested rewrite)**\n\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nChanges:\n- Removed \"The UK's best\" (unproven superlative).\n- Removed the duplicated \"packed by hand in Bristol\" line.\n- \"Our tea is certified organic\" is kept in substance. I changed it to \"Every tin is certified organic\", which slightly extends the claim, so for strict accuracy use \"Our tea is certified organic by the Soil Association.\" Use that wording.\n\n**Final recommended copy**\n\n> Loose leaf tea, packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision:** None, other than confirming you accept dropping \"best\". If the team wants a \"best\" line, it needs a source, such as an award or a review ranking, added to the policy.\n\n**Approver:** The policy names no approver, so please confirm a named person's explicit yes to the final copy above. Nothing is approved yet, and I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013319300000000001,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

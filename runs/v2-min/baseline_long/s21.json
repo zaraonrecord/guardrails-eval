@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "013081c75201ef6547831ffcc7165a05301eec06feab98763451ddbd81c4e38e",
+ "result": "**Review of search ad draft**\n\n1. **\"Plastic-Free Tea Bags\" (headline):** Approved claim. Fine.\n\n2. **\"Our tea bags are plastic-free and home compostable.\"** Approved claim in the brand policy. Fine.\n\n3. **\"Recommended by nutritionists.\"** Problem. This is an expert endorsement claim, and it is not in the brand's approved list. No documented endorsement from verifiable nutritionists is visible. It also edges toward a health implication for a food/drink product. Short search copy still needs evidence. Remove it, or replace it with an approved claim (e.g. \"Certified organic by the Soil Association\" or \"Free UK delivery on orders over £25\").\n\n4. **Style:** Short and plain, no clichés. No issues.\n\n**Decision:** Hold. Remove the nutritionist line and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007820500000000001,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

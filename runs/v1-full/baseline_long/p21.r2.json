@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e066b4d1351f9cfa9fb01f6a29ec8d8d580291009fd4acffc2fc2d7e4ea4d9e3",
+ "result": "**Review of Instagram draft (own account)**\n\n**Problem: \"made with zero waste from farm to cup\"**\nThis is an environmental claim. The policy lists \"zero waste\" as a claim we never make, and the only approved environmental claims are the Soil Association organic certification and the plastic-free, home compostable tea bags (EN 13432). A whole-supply-chain \"farm to cup\" zero waste claim is broad and has no evidence behind it. Fix: remove it. Describe the tins instead, for example \"New winter tins have just landed.\"\n\n**What's fine**\n- \"Our tea bags are plastic-free and home compostable\" matches the approved claim word for word.\n- \"plastic-free tea bags\" is also approved.\n- Tin colour and lettering are product description, checked by the product team.\n- Own account, so no \"Ad\" label is needed. No affiliate links, urgency, health claims, superlatives or testimonials.\n- No banned words from the voice list. UK spelling is fine.\n\n**Optional polish**\nThe plastic-free, compostable point is stated twice in three short sentences (\"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). Cut one. Also, the tone is a little list-like; something warmer and unhurried would suit the brand.\n\n**Decision:** Hold until the zero waste claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077059,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

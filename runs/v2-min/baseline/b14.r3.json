@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "873e2fe6281c7b403d4dfff3eaddd342d7be46453c775dd320d24909747be3e1",
+ "result": "I checked the draft against the brand policy and the disclosure expectations for a gifted creator post.\n\n**Disclosure:** The post opens with \"Gifted |\", which clearly says the product was a gift. It's up front and easy to see, so it works as a label. Many UK guidelines (ASA/CMA) prefer \"#ad\" or \"Ad – gifted\" wording, since a gifted item with a brand relationship counts as advertising. \"Gifted\" on its own is borderline but generally understood, and the post also says \"Pebblebrook sent me their winter sampler,\" which makes the relationship plain. I'd suggest \"#ad\" or \"Ad, gifted\" as a safer label, but I'm not treating it as a blocker.\n\n**Claims:** There are no statistics, superlatives, guarantees, health claims, green claims, or urgency. \"Lovely with oat milk\" is a personal opinion about flavour, and product facts such as the rooibos chai and the winter sampler are fine as written.\n\n**Testimonial:** This is the creator's own first-person experience, not an invented quote. \"Not paid to say that, just liked it\" is truthful given it was gifted, not paid. One caution: if the creator actually received any payment or contractual terms beyond the free product, that line would be misleading, so confirm it's accurate.\n\n**Tone:** The copy reads naturally and doesn't feel like generic AI filler.\n\n**Verdict:** It's fine to publish. The optional improvement is to switch the label to \"Ad – gifted\" for ASA clarity.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0075377,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

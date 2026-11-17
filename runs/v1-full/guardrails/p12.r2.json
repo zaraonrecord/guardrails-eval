@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0c8d7a0ae03892cdb35de7f9726fd5da56536c54e7e6309c02605110a7f8af90",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post about Pebblebrook's Assam, channel unspecified, date and audience not given.\n\n**Checks**\n- **Claims:** \"packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". The Assam mention is a product fact. \"Ten minutes away from my phone\" is the creator's own habit, not a brand claim. Pass.\n- **Regulated claims:** nothing on health, money, the environment, children or prices. \"Afternoon reset\" is lifestyle wording, not a wellness claim. Pass.\n- **House style:** warm, plain and unhurried, with no banned words and no AI tells. Pass.\n- **Disclosure:** **Fail.** This is a paid partnership, and section 4 requires the post to start with \"Ad\" before anything else. The draft has no label. Without one, it reads as an organic personal recommendation, which is a problem under UK advertising rules, and the brand is exposed as well as the creator.\n\n**Fixed:** nothing yet. I haven't changed the creator's text.\n\n**Needs a decision:** add the label so the post opens like this:\n\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nAlso use the platform's paid-partnership tool if the channel has one. Because the label changes the content, this version needs a fresh pass before approval.\n\n**Approver:** Sam (marketing lead), who must say yes to this exact final text. No approval has been given, so this is not cleared to publish.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114655,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

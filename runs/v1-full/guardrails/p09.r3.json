@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "dba2dd366aa7ef9a3b74e42ce76901fb97a831a9a911af541a4d28db1d92a753",
+ "result": "**Publish gate report: Chamomile and Lemon Balm product page**\n\n**Going out:** Product page copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"reduces anxiety\" | Health claim. Banned by policy section 3. Remove. |\n| \"helps you sleep\" | Health claim. Banned (health claims of any kind). Remove. |\n| \"Certified organic by the Soil Association\" | On the policy list, exact wording. OK. |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is on the policy list. The count of 20 is a product fact (cup counts), fine as written. OK. |\n| \"gentle, honeyed caffeine-free\" | Flavour and ingredient description, product fact. OK. |\n\n**Regulated claims:** \"reduces anxiety\" and \"helps you sleep\" are the risky lines. Both imply the tea treats a health condition or outcome, which is what advertising rules on health claims target. Safer version keeps the flavour and the evening-cup mood without promising an effect.\n\n**House style:** No banned words. Voice is fairly warm and plain. Clean after the health fixes. Score about 88 before the fix, and the same after, since the rewrite only removes the claims.\n\n**Disclosure:** Own product page, no partnership, affiliate link or gifted product. Nothing needed.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for a quiet cup at the end of the day. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n- Removed \"reduces anxiety and helps you sleep\".\n- Added \"a quiet cup at the end of the day\" as a mood description, with no effect promised.\n\n**Needs a decision:** None beyond accepting the rewrite. The original draft should not go out as written.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the revised text above before publishing. No approval has been recorded, and nothing has been published.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105149,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

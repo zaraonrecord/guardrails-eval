@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0c8d7a0ae03892cdb35de7f9726fd5da56536c54e7e6309c02605110a7f8af90",
+ "result": "## Publish gate report\n\n**Going out:** Creator post (paid), promoting Pebblebrook Assam tea. UK audience. No date given.\n\n**Checks**\n- **Claims:** \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". Assam and the afternoon-pot ritual are product facts or personal experience, so they're fine. There are no stats, superlatives, guarantees, urgency or testimonials I'd have to invent.\n- **Regulated claims:** No health, money, environmental, children or price content. \"Reset\" and \"ten minutes away from my phone\" describe a habit and don't claim a wellbeing benefit. Pass.\n- **House style:** No banned words, and it reads warm, plain and unhurried. I found no AI tells. Pass.\n- **Disclosure:** **Fails.** This is a paid creator post, and the policy requires it to start with \"Ad\" before anything else. The draft has no label.\n\n**Fixed:** Nothing changed in the draft itself, since the label belongs to the creator's post. The corrected version would be:\n\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nThe creator should also use the platform's paid-partnership tool if it has one.\n\n**Needs a decision:** Confirm the creator will add \"Ad\" as the very first word. I suggest yes, and a fresh check of the final text before it goes live.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and the post shouldn't go out until Sam says yes to the exact final text with the label added.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111375,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

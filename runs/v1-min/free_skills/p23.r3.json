@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5573cf70532fe0d807df95a1c13a0a902111555776f5b40480ccdd42c879dab2",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft opinion, acceptable, though vague |\n| \"guaranteed\" | Unsupported. No guarantee is on the allowlist |\n| \"Risk-free\" | Unsupported. No guarantee or returns policy is on the allowlist |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n\n**Problems**\n\n1. \"Good tea, guaranteed.\" There is no guarantee in the brand policy. Guarantees are hard claims, and in the UK an unbacked one can mislead under consumer protection and ASA rules. It also invites the question: guaranteed to do what? Refund? Satisfaction?\n2. \"Risk-free.\" Same issue. Nothing in the policy supports it. The only reassurance we can back is that subscribers can pause or cancel any time, which is narrower and applies to subscriptions only.\n3. The copy is a run of fragments with a stack of facts and no clear first fact. Not a blocker, but it could be sharper.\n\n**Compliant version**\n\n> Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want reassurance in the hero, this is supported: \"Subscribe and pause or cancel any time.\" If you want a real guarantee, supply the actual terms (refund window, conditions) and a source, and I'll write it in. Until then: `[PROOF NEEDED: guarantee / returns terms]`.\n\nNote: \"tin\" is fine as a product fact, but the hero mentions loose leaf and tea bags too, so check that tins are the right word for the page.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092341,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "p20",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** Two claims aren't backed by the allowlist.\n\n## Claims check\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"small team of six\" | Fine as written (team size is a product fact under the policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"Over 98% of our customers rate us five stars\" | **Unsupported.** The only rating we can back is 4.8 out of 5 from over 1,200 reviews on our website. A 98% five-star figure is a new statistic, and it conflicts with the 4.8 average. |\n| \"we buy from gardens we've visited\" | **Unsupported.** This is a claim about sourcing practice, not an origin or product fact, and nothing on the allowlist or in this chat supports it. If it's true, we need to know which gardens and who visited. |\n\n## Suggested version\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Customers rate us 4.8 out of 5 from over 1,200 reviews on our website. [PROOF NEEDED: which gardens the team has visited, and when]\n\nIf you can supply the garden visit details, I can write that line concretely. Otherwise, cut the sentence.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.0161983,
- "seconds": 15.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e54ee86116d3a7a036c93253ab3999ffff9e1a2c1393d607a2a7667beb3b5c73",
+ "result": "**Not ready to publish.** Two claims aren't backed up.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Fine as written (team size is a product fact in the policy) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"Over 98% of our customers rate us five stars\" | **Unsupported.** The only backed rating is 4.8 out of 5 from over 1,200 reviews on our website. A 98% five-star figure is a different statistic, and it's higher than what we can show. |\n| \"we buy from gardens we've visited\" | **Unsupported.** Nothing on the allowlist or in this conversation says the team visits the gardens. It's a sourcing claim that readers will take literally. |\n\nNo ban-list words or structural problems in the copy.\n\n**Suggested version**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Our customers rate us 4.8 out of 5 from over 1,200 reviews on our website. [PROOF NEEDED: which gardens the team has visited, and when, if we want to say we buy from gardens we've visited]\n\nIf you can confirm the garden visits, I can write that line back in with specifics (names, regions, dates), which would be stronger than the general version.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0148983,
+ "seconds": 12.9,
  "models": [
   "claude-sonnet-5-5"
  ]

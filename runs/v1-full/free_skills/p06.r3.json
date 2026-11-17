@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f4fea53780ac901fdd388f19dc4d66d587f9e037fc3e3c4a589859001af56405",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Founded in Bristol in 2019) |\n| \"couldn't find tea bags without plastic in them\" | Origin story, not on the allowlist. It's a narrative statement about the founders' motive, not a product fact or a number. I'd confirm with Sam that it's accurate, but I'm not flagging it as a blocker. |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (EN 13432 supplier certificate) |\n| \"our whole business is carbon neutral\" | **Unsupported.** Policy section 3 bans \"carbon neutral\". Nothing in section 2 backs it. |\n| \"Here's how we checked.\" | Promises evidence for the carbon claim that doesn't exist. It sets up a proof the post can't deliver, so it needs to go with the claim. |\n\n**Slop check:** No banned vocabulary. The closing line is a small teaser rather than a fact, but it's only a problem because of what it refers to.\n\n**Suggested rewrite**\n\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, certified to EN 13432.\n\nOnly add the certification detail if the product team is happy to cite the standard publicly. The allowlist records it as proof, not as customer-facing wording. If you want a hook for the rest of the post, something like \"Here's what's in them\" works, as long as the post then states only product facts.\n\nNeeds Sam's approval before publishing, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107785,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

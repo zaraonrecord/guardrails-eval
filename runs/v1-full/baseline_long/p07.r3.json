@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0fd32a649c221425cbd3da848d64e38807eb020d007c508dce30e90bda9d571b",
+ "result": "**Review: landing hero**\n\n**Problems that stop publication**\n\n1. **\"you'll love it or it's free\"** is a guarantee. Section 3 of the brand policy names this exact phrase as one we never make, and states we have no such offer. It is a binding-sounding promise with no terms behind it. Cut it.\n\n2. **\"means most boxes ship free\"** is an unsupported claim. The approved wording is \"Free UK delivery on orders over £25\". Saying *most boxes* qualify is a claim about customers' order values, and nothing in the policy backs it. It also reads as a vague statistic. Fix: use the approved line as written, \"Free UK delivery on orders over £25.\"\n\n**Checked and fine**\n- \"Subscribers can pause or cancel any time\" matches the approved subscription terms.\n- \"free UK delivery on orders over £25\" matches the shipping policy, though the threshold should stay attached to it, as it is here.\n- No banned words, and no health, green or urgency claims.\n\n**Optional polish**\n- \"easy to stop and start\" is a loose paraphrase of the approved pause/cancel claim. It is probably fine, but \"pause or cancel any time\" already says it, so the opening line repeats the second sentence.\n\n**Suggested rewrite:** \"Tea on your terms. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011881200000000001,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

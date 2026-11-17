@@ -1,10 +1,14 @@
 {
  "case": "b22",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** Instagram post on the brand's own account, with new winter tins and the plastic-free tea bags. Timing wasn't given.\n\n**Checks**\n- **Claims:** Pass. \"Plastic-free\" and \"home compostable\" tea bags are both on the policy allowlist. The new tins, deep green with gold lettering, and the winter arrival are product facts, which are fine as written.\n- **Regulated claims:** Pass. The \"plastic-free\" and \"home compostable\" environmental claims are narrow and specific, and the policy backs them. There are no health, money, price, urgency or children's claims.\n- **House style:** Pass. The tone is plain and there are no AI tells or banned words. The only weakness is that \"plastic-free tea bags\" appears twice in three sentences. That's optional to tighten, not a blocker.\n- **Disclosure:** Pass. It's the brand's own account promoting its own product, with no paid partner, affiliate link, gifted item or AI-generated imagery mentioned. If the tin photo is AI-generated, it would need a label.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:**\n- Optional tightening: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n- Confirm the image is a real photo of the tins, not AI-generated.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact text. I have no tools here, so I haven't recorded an approval. Nothing is published until you confirm.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.013297300000000001,
- "seconds": 12.2,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c288b2b44a042a32f3a7e639a5a2f198ebc969fabe61051497eaa0235b95550b",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post on Pebblebrook's own account, UK audience, about the new winter tins.\n\n**Claims:** Passed.\n- \"New tins just landed for winter\" and \"Deep green, gold lettering\" are product facts (new arrivals, appearance), which are fine as written.\n- \"plastic-free tea bags\" and \"home compostable\" are both on the policy's allowlist.\n- No stats, rankings, guarantees, testimonials or urgency.\n\n**Regulated claims:** Passed. The environmental wording is specific (\"plastic-free\", \"home compostable\") and backed by the policy, not a broad \"eco\" or \"green\" claim.\n\n**House style:** Passed. The only weakness is that \"plastic-free tea bags\" appears twice in three sentences. That's an optional tidy-up, not a blocker. If you want it tighter: *\"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"*\n\n**Disclosure:** Passed. It's the brand's own product on its own account, with no paid partnership, affiliate link, gifted item or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy doesn't name an approver, so the yes needs to come from you. Please confirm you approve this exact text. I have no tools in this session, so I can't record the approval or publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0136633,
+ "seconds": 12.0,
  "models": [
   "claude-sonnet-5-5"
  ]

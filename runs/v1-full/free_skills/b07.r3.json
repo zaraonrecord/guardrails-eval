@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7bfff1efa15f453de637175f19934057c4c5ff74daeb8f807975acf3fda86a85",
+ "result": "**Verdict: fine to publish, with two notes for Sam.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Founded in Bristol in 2019, Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording (supplier certificate, EN 13432) |\n| \"we couldn't find tea bags without plastic in them\" | Not on the allowlist. It's a founding-story motive, not a number, comparison or regulated claim, so I haven't blocked it. |\n| \"here's how we checked\" | A promise about the rest of the post, not a claim in itself |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, urgency, invented numbers or testimonials:** none.\n- **Green claims:** the compostability claim stays within the certified wording. It doesn't say \"eco-friendly\" or \"sustainable\".\n- **Banned words and structures:** none. The voice is plain and warm, in UK spelling.\n- **Disclosure:** none needed. This is our own blog, with no partnership or affiliate link.\n\n**Notes**\n1. Please confirm that the founding story is accurate, since it isn't in the policy. If it's loose, drop it and keep the 2019 Bristol line.\n2. \"Here's how we checked\" sets up the rest of the post. The body should point to the EN 13432 supplier certificate and shouldn't add any claims beyond \"plastic-free and home compostable\". Avoid wording like \"100% biodegradable\" or \"good for the planet\". Sam approves everything public, so the full post still needs his sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013021099999999999,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

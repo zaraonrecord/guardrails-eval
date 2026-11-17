@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1c9f2139f383c92476f7a0ae0409c2439124ed745f93a87e76767e26edfc9713",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post from the Pebblebrook Tea Co. account, text only as drafted. No schedule or audience was given.\n\n**Checks**\n- **Claims:** Passed. \"Plastic-free and home compostable\" matches the policy row word for word (supplier certificate, EN 13432). The tin colours, gold lettering and new winter tins count as product facts, which the policy says are fine as written. There are no stats, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** Passed. The only environmental claim is the one the policy allows, with its specifics. There are no health, price or offer claims.\n- **House style:** Passed, roughly 85 out of 100. The tone is warm, plain and unhurried, and it uses none of the banned words or AI tells. The one weakness is that \"plastic-free\" appears twice in three short sentences. I left the copy as written, but you could trim it to: \"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n- **Disclosure:** Passed. It's a post from our own account with no creator, affiliate link, gifted product or AI-generated content. Per section 4 of the policy, no extra label is needed.\n\n**Fixed:** Nothing. I changed no wording.\n\n**Needs a decision:** Nothing is blocking. The optional trim above is for you to take or leave.\n\n**Approver:** Sam (marketing lead) must approve this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0112354,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

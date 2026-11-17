@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c585246020243e24e3820130aa8f86fa6193964ac8ff86426e7993424b1e0bbd",
+ "result": "**Publish gate report**\n\n**Going out:** Transactional subscription dispatch email to Priya, by email.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees or testimonials. \"Pause or cancel any time\" is on the policy's claims list. \"Left Bristol this morning\" is an order-status fact, so confirm it's true for this send. The two teas are product facts, which are fine as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices.\n- **House style:** The copy is short, plain and specific. There are no stock openers, intensifiers or slogan closers. No rewrite is needed.\n- **Disclosure:** This is a service message with no ad, sponsorship, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing.\n\n**Needs a decision:** One thing to confirm. Today is 17 November, but the subject says \"October tins\" and the body says \"This month\". If this is a late October box, that's fine. If it's the November box, the subject should say so. I'd check the send data before it goes.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy. Once you've given it, record it in your terminal with `approve.py --by \"Your Name\"`. I won't record it for you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011096100000000001,
+ "seconds": 18.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

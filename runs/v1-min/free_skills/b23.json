@@ -1,10 +1,14 @@
 {
  "case": "b23",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Rooibos Chai product page**\n\nClaims list:\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredients), allowed as written |\n| Cinnamon, cardamom, ginger, black pepper | Ingredients, allowed |\n| \"Lovely with milk\" | Serving and flavour suggestion, not a measurable claim |\n| 100g tin | Size, allowed |\n\nOther checks:\n- **Stats, testimonials, superlatives, guarantees:** none.\n- **Health or green claims:** none. \"Caffeine-free\" describes the ingredient. It makes no benefit claim such as better sleep or calming.\n- **Slop and structure:** no banned words, no exclamation points, no rhetorical opener, no filler. The opening gives the product and its key fact.\n- **Urgency or disclosure:** none. This is the brand's own product page, so affiliate and review labelling doesn't apply.\n\nNothing needs changing. It's short but accurate, and every statement is a product fact the brand can stand behind.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0103343,
- "seconds": 10.5,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a07a53d1c089855be4e19b52d3eaf3ed108c36c3d7f793c0a83120411a94517f",
+ "result": "**Review: Rooibos Chai (product page)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredient). Allowed under the brand policy. |\n| Cinnamon, cardamom, ginger and black pepper | Ingredients. Allowed. |\n| \"Lovely with milk\" | Serving suggestion and taste opinion, not a measurable claim. Fine. |\n| 100g tin | Size. Allowed. |\n\n**Other checks**\n- **Statistics, testimonials, superlatives, guarantees:** none.\n- **Health, green or regulated claims:** none. \"Caffeine-free\" describes the product and makes no health benefit claim.\n- **Fake urgency:** none.\n- **Slop-guard:** no banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener. The opening names the product and its key fact.\n- **Review rules:** this is a product page, not a review, so no ownership labels or affiliate disclosures are needed.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010952299999999998,
+ "seconds": 8.9,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,10 +1,14 @@
 {
  "case": "p15",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted |\n| The finest organic loose leaf | \"Finest\" is an unsupported superlative. \"Organic\" is backed by the Soil Association certification. |\n| eco-friendly bags | Unsupported and vague. The allowlist backs \"plastic-free\" and \"home compostable\", not \"eco-friendly\". |\n| packed by hand in Bristol | Allowlisted for tins. The sentence also seems to cover the bags, which the allowlist doesn't mention. |\n\n**Fixes**\n- Cut \"finest\". Nothing on the allowlist supports a comparison, so state the certification instead.\n- Replace \"eco-friendly\" with the concrete facts: plastic-free and home compostable.\n- Make clear the hand-packing applies to the tins, or confirm it also applies to the bags.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Soil Association certified organic loose leaf in tins packed by hand in Bristol, plus plastic-free, home compostable tea bags.\"\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.0150883,
- "seconds": 11.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cbe92c85c5f1ec24d02914ab8f1f7cb66bdc9687cf415d5640fa47a84b6b31aa",
+ "result": "**Not ready to publish.** Two changes are needed.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted |\n| \"The finest\" organic loose leaf | **Unsupported superlative.** \"Finest\" has no basis and fails the \"compared to what?\" test. |\n| Organic | Allowlisted (certified organic by the Soil Association). Naming the certifier would be stronger. |\n| \"Eco-friendly\" bags | **Unsupported vague green claim.** The allowlist backs \"plastic-free\" and \"home compostable\", not \"eco-friendly\". |\n| Packed by hand in Bristol | Allowlisted for tins. See the note below. |\n\n**Note:** The allowlist says every *tin* is packed by hand. The sentence reads as if the bags are hand-packed too. Make sure it's only describing the tins, or reword it.\n\n**Suggested rewrite**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Soil Association certified organic loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014370299999999999,
+ "seconds": 12.1,
  "models": [
   "claude-sonnet-5-5"
  ]

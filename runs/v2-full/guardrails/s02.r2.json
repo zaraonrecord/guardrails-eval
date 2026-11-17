@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d5b30157082b792e7be82d4e63b7ed3e43a9ac8f15079e2ad2d6bdb1719a0a55",
+ "result": "# Publish gate report\n\n**Going out:** landing hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Checks run on the final text**\n\n| Claim | Status |\n|---|---|\n| \"Most subscribers stay with us for over a year.\" | **Unproven.** It's a retention statistic that isn't in the policy and wasn't sourced in this chat. |\n| \"Subscribers can pause or cancel any time\" | OK. It's on the policy list (subscription terms). |\n| \"free UK delivery on orders over £25\" | OK. It's on the policy list (shipping policy). |\n| \"means most boxes ship free\" | **Unproven.** The £25 threshold is real, but \"most boxes\" claims a share of orders that nobody has measured. |\n\n- **Regulated claims:** the copy touches pricing and delivery conditions. The free-delivery line states its condition (over £25), so it's fine. There are no health, green or urgency claims.\n- **House style:** the voice is warm, plain and unhurried, with no banned words and no AI tells. After the fixes it should still score above 80.\n- **Disclosure:** this is the brand's own page, so no label is needed.\n\n**Fixed:** nothing yet. I'd rather not invent replacement facts.\n\n**Needs a decision**\n1. Cut \"Most subscribers stay with us for over a year.\" Or, if the retention figure is real, send me the source (a subscription data export with the date) and Sam can add it to the policy.\n2. Cut \"means most boxes ship free\". The sentence works without it.\n\n**Suggested copy:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n**Approver:** Sam (marketing lead). Nothing should publish until Sam says yes to the final text. Any edit after that means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014235500000000002,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

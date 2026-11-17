@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c288b2b44a042a32f3a7e639a5a2f198ebc969fabe61051497eaa0235b95550b",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post on the brand's own account, organic, announcing the winter tins.\n\n**Checks**\n- **Claims:** Passes. \"Plastic-free\" and \"home compostable\" tea bags are both on the policy's provable list. The tin colours, gold lettering and new arrival are product facts, which are fine as written. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Passes. The environmental wording is specific (\"plastic-free\", \"home compostable\") rather than a broad \"eco\" or \"green\" claim, and the policy backs both.\n- **House style:** Passes, with one optional tweak. \"Plastic-free tea bags\" appears twice in three short sentences. It doesn't break any rule, but it reads as repetition.\n- **Disclosure:** Passes. This is the brand's own organic post with no paid partner, affiliate link, gifted product or realistic AI imagery, so no label is needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Optional tighter version, with the same facts and no new claims:\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final text before it is posted. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010039200000000002,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

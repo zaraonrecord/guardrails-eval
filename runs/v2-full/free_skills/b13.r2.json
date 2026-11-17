@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8545157671f07a1ec71534073cb61868a4a5d78b30f42337ffa5437f808284d2",
+ "result": "**Verdict: clear to publish, subject to Sam's sign-off.**\n\n**Disclosure:** The post opens with \"Ad\", which is the required wording for a paid partnership, and nothing comes before it.\n\n**Claims list:**\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, covered by the product team's checks |\n| \"ten minutes away from my phone\" | The creator's own routine, not a product claim |\n\n**Other checks:**\n- **Superlatives, guarantees, urgency:** none.\n- **Health or wellbeing claims:** none. \"Reset\" describes a break in the creator's day and doesn't promise any effect from the tea.\n- **Green claims, stats, testimonials:** none.\n- **Voice:** none of the banned words appear. It is warm, plain and unhurried, and uses no em-dash sandwiches or exclamation points. The spelling is UK-compatible.\n- **Hands-on experience:** the creator describes drinking the tea as part of their routine. For a paid partnership that is reasonable, but check that they have actually received and used the Assam.\n\n**Before it goes out:** Sam (marketing lead) approves everything public, so get that sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0118569,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

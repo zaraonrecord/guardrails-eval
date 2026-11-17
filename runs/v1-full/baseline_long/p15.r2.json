@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "383f7d672a65fb0d447d2a030b1a0142787988cb5845fd17e63896b264284f2c",
+ "result": "**Review of landing hero draft**\n\nSentence by sentence:\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Matches the approved claim word for word (review export, October 2026). Fine.\n\n2. \"The finest organic loose leaf and eco-friendly bags, packed by hand in Bristol.\"\n   - \"The finest\" is a superlative the policy lists as never allowed, and there's no evidence behind it. Fix: drop it, e.g. \"Organic loose leaf tea...\"\n   - \"organic\" on its own is covered only through the approved wording \"Certified organic by the Soil Association\". Using \"organic\" here is consistent with that, but the cleaner version uses the certified wording.\n   - \"eco-friendly bags\" is a general environmental claim, which the policy bans. The approved wording is \"plastic-free and home compostable\" (EN 13432 certificate). Fix: \"plastic-free, home compostable tea bags\".\n   - \"packed by hand in Bristol\" is close to the approved \"Every tin is packed by hand in Bristol\". It's fine for tins; since it follows bags and loose leaf, it's best to say \"every tin\".\n\nTone: the copy is plain enough, with no banned words. It is a bit clipped and reads as a list of claims rather than a warm, unhurried line, which is optional polish.\n\nSuggested rewrite: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nDecision: hold. The superlative and the eco-friendly claim need to change before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"The finest\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0089468,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

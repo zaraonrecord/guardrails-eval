@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d7960af587819d8385371ad3ff0f060708eaa0f5a282a5017c15370f6ef67bcb",
+ "result": "**Claims list**\n\n- \"Our Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients). Fine as written.\n- \"Rated 4.8 out of 5\": allowlisted.\n- \"from over 2,000 reviews\": unsupported. The allowlist says over 1,200 reviews. 2,000 is an inflated review count.\n- \"on our website\": allowlisted, matches the source of the rating.\n\n**Slop and structure check:** No ban-list words, no exclamation points, no rhetorical opener, no em-dashes. The opening \"Rainy Sunday, second pot.\" is a scene-setter rather than a fact, but it is a fine tone choice for an own-account Instagram post and not a blocker.\n\n**Disclosure:** Own brand account, no affiliate links, no sponsorship, no product review of third-party goods. Nothing to declare.\n\n**Fix:** Change the review count to the backed figure:\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nDo not publish the draft as written. With the count corrected it is clear to go.\n\n```json\n{\"issues\": [{\"quote\": \"over 2,000 reviews\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007045300000000001,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

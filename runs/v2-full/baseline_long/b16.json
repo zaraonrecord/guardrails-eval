@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6ac702f9a6187e48707ecc3fec4b68437b633a53fdc92849d36fa90e04b6e071",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim word for word (review platform export, October 2026). It is fine.\n\n**Sentence 2:** \"Organic loose leaf and plastic-free bags, packed by hand in Bristol.\"\n- \"Organic\": the approved claim is \"Certified organic by the Soil Association\" (certificate on file, renewed 2026). Plain \"organic\" is a shortened form of that claim and is supported by the certificate, so it is not an unsupported claim. Naming the certifier would be tidier but isn't required.\n- \"plastic-free bags\": the approved claim is that the tea bags are plastic-free and home compostable. Plastic-free alone is supported.\n- \"packed by hand in Bristol\": the approved claim is \"Every tin is packed by hand in Bristol\". This is fine. It is about tins, while the copy sits next to loose leaf and bags, but packing by hand in Bristol is the stated operation and I see no misleading stretch.\n\n**Other checks:**\n- No health claims, superlatives, guarantees, urgency or green claims beyond those allowed.\n- No banned words or AI clichés. The tone is plain and warm enough for a hero line, and the spelling is UK.\n- No creator, affiliate or paid partnership element, so no label is needed.\n- Nothing is invented.\n\nNothing needs changing. Per the policy, Sam still approves all public content, so it should go to Sam for sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081485,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b12",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: clear to publish.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, fine as written |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| \"a peppermint for after lunch\" | Serving suggestion, not a health or digestion claim |\n\n**Slop check:** No ban-list words, no em-dashes, no exclamation points, no rhetorical-question opener, no fake urgency. The first sentence is concrete, and no adjectives need a \"compared to what?\" test.\n\n**Other checks**\n- No invented stats, testimonials, superlatives or guarantees.\n- No health, money or green claims.\n- It's your own account, so no affiliate or sponsorship disclosure is needed.\n- Before it goes live, confirm the landing page also states the free delivery over £25 offer, since an ad shouldn't make a claim the page doesn't.\n- No character limit was given, so I haven't counted characters. Check the platform's limit for your placement.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0107163,
- "seconds": 9.8,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4db080b8506e453b27ad21ff378f13e2ca0593d5036801c551afb9593abdfe12",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| Three teas: Builder's, Earl Grey, peppermint | Product facts, fine as written |\n| \"for after lunch\" | Usage suggestion, not a health claim (no digestion or wellness benefit stated) |\n\n**Slop-guard check**\n- Ban-list words: none.\n- Em-dash sandwiches: none.\n- Exclamation points: none.\n- Rhetorical-question opener: none.\n- \"Not just X, it's Y\": none.\n- Abstract-noun triads: none.\n- Fake urgency: none.\n- Opening sentence: \"Three teas for your desk drawer\" leads with a concrete fact. Fine.\n\n**Ad checks**\n- Landing page: the free delivery claim must also appear on the landing page. It is on the brand's allowlist, so this should hold, but confirm before launch.\n- Platform policy: nothing health-related, financial or personal-attribute-based.\n- Character limit: none given, so none checked.\n\n**Reviews rules:** Not a review, so the labelling rules don't apply. No affiliate or sponsorship content.\n\n**Verdict:** Nothing needs changing. Publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008814299999999999,
+ "seconds": 8.4,
  "models": [
   "claude-sonnet-5-5"
  ]

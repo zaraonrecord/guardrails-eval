@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cab0ea9eb62e564eb51a8e3502bf3fd2a60d1d434836d880d8801b6558920f4f",
+ "result": "**Review: landing hero**\n\nClaim-by-claim:\n\n- \"Good tea, guaranteed.\" This is a guarantee with no terms. The brand policy covers pausing or cancelling subscriptions, but nothing about a satisfaction or money-back guarantee. A reader could reasonably rely on it as a promise of refund or replacement, and the conditions aren't stated. Flag.\n- \"Risk-free.\" This is an implied guarantee too, and also unsupported. It suggests no cost or downside if you don't like the tea, which the approved claims don't back. Flag.\n- \"Certified organic by the Soil Association\": approved.\n- \"packed by hand in Bristol\": approved (\"every tin is packed by hand in Bristol\").\n- \"free UK delivery on orders over £25\": approved, and the threshold is stated.\n\nStyle: the copy is short and plain, with no clichés. \"Good tea\" is mild description and fine.\n\n**Fix:** Remove \"guaranteed\" and \"Risk-free\", or, if the business does offer a returns or satisfaction guarantee, get the real terms confirmed and state the main conditions next to the claim. Otherwise something like \"Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25\" works as is. Subscription copy could add \"pause or cancel any time\", which is approved.\n\nHold until the guarantee wording is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080303,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

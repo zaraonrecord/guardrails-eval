@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ec130ad174f51d56fd0e63817ab8bbf71beab06cc220ecb70bba764c68b7840e",
+ "result": "**Review: ready to publish as written.**\n\n**Disclosure:** The post opens with \"Ad |\", which is clear and up front for a paid creator post. Nothing is hidden in a footer.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Pebblebrook's Assam (a pot of it) | Product fact, fine as written |\n| \"Tins are packed by hand in Bristol\" | Allowlisted |\n| \"Ten minutes away from my phone\" | The creator's own routine, not a product claim |\n| \"Which I love\" | Personal opinion, no factual claim |\n\n**Other checks**\n- No invented stats, testimonials, superlatives, guarantees or fake urgency.\n- No health claims. The phone-free break is a personal habit and the post doesn't say tea or the break does anything for you.\n- No banned vocabulary or structural slop. There are no em-dashes, no exclamation points and no rhetorical opener, and the first sentence is concrete.\n\n**One thing to confirm:** \"My afternoon reset is a pot of Pebblebrook's Assam\" is a first-person usage claim. Make sure the creator really drinks this tea (owned, or tried properly) and isn't writing it purely from the brief. If they do, nothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012886700000000001,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

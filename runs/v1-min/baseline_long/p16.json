@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "51db22841802a013a99f4a2726d06e7fa2d2a9a1efe6e61fdf6b3948c931fb62",
+ "result": "**Verdict: OK to publish.** I have a few optional notes.\n\n**Claims**\n- \"Black tea, orange peel, cinnamon and a little clove\" is a product fact, which the policy allows as written.\n- \"Today only: 30% off, ends at midnight\" is an offer, not a claim about the product or company. It isn't in the policy's list, but nothing in the draft contradicts the policy. There is no struck-through price or \"was/now\" comparison, so reference-pricing rules don't apply. The urgency is only a problem if the offer actually continues past midnight or reruns tomorrow. I can't see anything suggesting that, so I'm not flagging it. Please confirm the sale really ends tonight.\n\n**Labels and compliance**\n- This is the brand's own newsletter, so no \"Ad\" label is needed.\n- There are no health, green, guarantee, testimonial or superlative claims.\n\n**Style (optional polish)**\n- \"the Christmas blend is back\" and \"It's back in the shop\" repeat the same point. You could cut one, for example: \"The Christmas blend is back in the shop.\"\n- The draft doesn't say what the 30% applies to (just this blend or the whole shop) or whether there are exclusions. Offer conditions should sit near the offer, so a few words would help, such as \"30% off the Christmas blend.\"\n- The tone is plain and specific, with no AI clichés.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0144865,
+ "seconds": 16.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

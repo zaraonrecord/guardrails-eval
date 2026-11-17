@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "cbdc5370937e4d3488b4279a37cf6c437f93a6e469b6cb0bd472a1ef4070140e",
+ "result": "**Review of the Assam Breakfast product page copy**\n\nGoing sentence by sentence:\n\n1. \"A malty, full-bodied black tea\" is product description (flavour), which the product team checks and is fine as written.\n2. \"noticeably smoother than supermarket tea bags\" is a comparison against a whole category. It is an unnamed comparison with no like-for-like evidence in the claims allowlist, and it is also a results-style claim (\"noticeably\"). It needs proof or removal.\n3. \"Certified organic by the Soil Association.\" This matches the approved claim exactly (certificate on file, renewed 2026). Fine.\n4. \"100g tin, makes around 40 cups.\" Tin size and cup count are product facts, fine as written.\n\nOther checks: no health claims, no green claims, no guarantees, no urgency, no banned words, UK spelling is consistent, and no label is needed on a brand-owned product page. The voice is plain and warm enough.\n\n**Decision: hold.** One fix is needed. Either remove the comparison (\"A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\") or have the team supply evidence for the smoothness comparison, in which case it should name what it was compared against and how.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009290699999999999,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

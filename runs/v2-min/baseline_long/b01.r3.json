@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c87f5e2ccbc0d072a40b57aa604f4ed40f9fd7fd14a08f74539c8f58737d995a",
+ "result": "**Review: landing hero**\n\nClaims check against the brand policy:\n\n- \"packed by hand in Bristol\": approved (\"every tin is packed by hand in Bristol\").\n- \"certified organic by the Soil Association\": approved.\n- \"Free UK delivery on orders over £25\": approved, and the threshold is stated next to the claim.\n- \"Loose leaf tea\": product fact, fine.\n\nNo health, green, superlative, urgency, guarantee or testimonial issues. No paid or affiliate content, so no label is needed on the brand's own site.\n\nStyle: the \"packed by hand in Bristol\" point is made twice in two sentences (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). This is a repetition problem. The copy is otherwise plain and free of AI clichés, but the duplication reads as a drafting error on a hero, and it should be fixed before publishing.\n\nSuggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068633999999999995,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "8381ffaaa1ff8eb6309cd4dfac26e767169ef2a6b01601ff915ca4440f41d2b2",
+ "result": "# Publish gate report: Rooibos Chai product page\n\n**Going out:** Product page copy for Rooibos Chai, 100g tin, on the Pebblebrook site (UK). No date or audience was given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | OK. Ingredient and product fact, fine as written per policy. |\n| Lovely with milk | OK. Flavour and serving suggestion. |\n| 100g tin | OK. Size is a product fact. |\n| **Was £12, now £8** | **Unproven.** A reference-price claim isn't on the policy list or sourced in this chat. |\n\n**Regulated claims (prices and offers):** The \"Was £12\" figure is a reference price. It has to be a price the tin was genuinely sold at, recently and for a meaningful period. Otherwise the page could mislead UK shoppers about the saving, which regulators challenge. The draft doesn't say whether the offer ends, which is fine. Don't add a countdown or \"limited stock\" line unless it's literally true.\n\n**House style:** Clean, short and specific, with no banned words or AI tells. No changes needed.\n\n**Disclosure:** This is the brand's own product page. There are no ads, affiliates, gifted items or AI-generated imagery in the copy, so no label is needed.\n\n**Fixed:** Nothing. The only problem is a factual one I can't resolve myself.\n\n**Needs a decision**\n- **Was £12 / now £8:** Can you confirm the tin was actually sold at £12 on the site for a meaningful recent period, and share the price history?\n  - **My suggestion:** If you can't confirm it, publish as \"100g tin. £8.\" and drop the \"Was\" price.\n  - **If you can confirm it:** Keep it and add the proof to the evidence log.\n\n**Suggested evidence-log row (not written, no file access in this session):**\n`2026-11-17 | Rooibos Chai product page | \"Was £12, now £8\" | PROOF NEEDED | price history for the 100g tin`\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you, or whoever you name, on the final wording. Nothing should go live until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0173973,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

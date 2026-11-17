@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e10d83e3393acec11a1e5381b5c9621858e2f71834c0f225e2cade85dfd9c251",
+ "result": "I read the draft as a product page description and checked each sentence against the brand policy.\n\n- **\"Chamomile and Lemon Balm.\"** This is the product name, so it needs no review.\n- **\"A gentle, honeyed caffeine-free blend for the evening.\"** This describes flavour, ingredients and when to drink it. It doesn't claim any effect on the body such as sleep, calm or relaxation, so it isn't a health claim. \"Caffeine-free\" is a product fact the product team checks.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate is on file and renewed for 2026.\n- **\"20 plastic-free tea bags.\"** The plastic-free claim is in the approved list, and the bag count is a product fact.\n\nThere are no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims beyond the approved wording. The product page doesn't need an ad or affiliate label. The copy is short and plain, uses UK spelling, and contains none of the banned words or AI clichés. It fits the warm, plain, unhurried voice.\n\nNothing needs changing. As with all public content, Sam still has to approve it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009283,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

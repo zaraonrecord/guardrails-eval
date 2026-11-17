@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d64b22d0263c06ec82630bce9c2e66466c42a1a2d354037fc975f0b1aa2cabf",
+ "result": "**Review: creator post (gifted)**\n\n**Disclosure:** The post opens with \"Gifted\", before anything else, as section 4 requires. It also says plainly that the product was sent and that the creator wasn't paid. Both statements fit a gifted product.\n\n**Claims check:**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook sent me their winter sampler\" | Fact about the gift, matches the \"Gifted\" label |\n| \"The rooibos chai is lovely with oat milk\" | The creator's own opinion after trying it, not a brand claim |\n| \"Not paid to say that, just liked it\" | Consistent with a gifted, unpaid arrangement |\n\nThere are no numbers, superlatives, guarantees, health claims, environmental claims, testimonials or urgency. No banned words or structures appear, and the tone is warm and plain.\n\n**Two things to confirm before it goes out:**\n- Check with the product team that the rooibos chai is actually in the winter sampler.\n- Sam (marketing lead) approves everything public, so get a sign-off.\n\nNeither of these requires a change to the wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010380300000000002,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

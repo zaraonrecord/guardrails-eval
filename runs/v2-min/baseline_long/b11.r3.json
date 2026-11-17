@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "261a8b062283636d1afab2361fa40c5c76fdc933fe8b05eec4520683d55e31df",
+ "result": "**Review: \"A new green tea\" email**\n\nChannel: email, brand-owned, so no \"Ad\" label is needed.\n\n**Claims:** The draft makes no claims about results, health, the environment, ratings, prices or offers. \"We've added a Japanese sencha to the shop\" is a new-arrival product fact, and \"grassy and a little sweet\" with \"around 70 degrees\" are flavour and brewing facts. All are fine as written under the brand policy.\n\n**Subject line:** \"A new green tea\" accurately describes what's inside. It isn't misleading.\n\n**Tone and style:** It's short, specific and plain, with no clichés, hype or padding. It reads like a person wrote it. The \"Pebblebrook team\" sign-off is fine.\n\n**Optional polish (not blocking):** \"70 degrees\" could be \"70°C\" for clarity, though a UK tea drinker will read it correctly. A link to the product would help the reader, but nothing is wrong without it.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061920000000000005,
+ "seconds": 6.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "647bacb408c7d39b392c66198c61c8db47739ba97d7ae57877366eaea02bbcec",
+ "result": "**Not ready to publish.** One claim is unsupported.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (Soil Association certified, loose leaf is a product fact) |\n| \"Loved by 50,000 tea drinkers\" | **Unsupported.** Nothing on the allowlist gives a customer count. The only social proof we can back is 4.8 out of 5 from over 1,200 reviews on our website. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Fix:** Remove \"Loved by 50,000 tea drinkers\". If you want social proof, use the backed figure instead, and say where it comes from. If 50,000 is a real number, send me the source and I'll use it.\n\n**Compliant version**\n\nHeadline: Organic Loose Leaf Tea\nDescription: Certified organic by the Soil Association. Free UK delivery over £25.\n\n(Description is 69 characters.)\n\n**Other notes**\n- The original description is 109 characters. You gave no limit, but search ad descriptions are commonly capped at 90, so check against your platform's limit.\n- Make sure the landing page also states the organic certification and the free delivery threshold, since the ad shouldn't claim anything the page doesn't.\n- If you add the review rating, the landing page should show it too.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0193123,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

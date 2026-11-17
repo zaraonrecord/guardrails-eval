@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "049eb68401a0f26769da318d9e3b9db5b24ae478e620ac3426b5d003e79c6823",
+ "result": "**Review: October tins email**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-status fact from fulfilment, not a marketing claim. Allowlist supports hand-packing in Bristol. Needs to be true for this order. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written |\n| \"you can pause or cancel any time from your account\" | Allowlisted (subscribers can pause or cancel any time) |\n\n**Claims-guard:** No invented stats, testimonials, superlatives, guarantees, or regulated claims. No ad-platform policy issues.\n\n**Slop-guard:** No banned vocabulary, no em-dashes, no exclamation points, no rhetorical opener, no fake urgency. The first sentence carries the useful fact. Passes.\n\n**Honest-review rules:** Not a review, no affiliate or sponsored content. Not applicable.\n\n**One thing to confirm before sending (not a copy problem):** The subject says \"October tins\" and the body says \"this month\", but today is 17 November. If this goes out now, the month is wrong. If it's a scheduled send for the October shipment, ignore this. Also confirm that the \"left Bristol this morning\" line is only triggered when the dispatch has actually happened.\n\nNothing in the copy itself needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012633100000000001,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

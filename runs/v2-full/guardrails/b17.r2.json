@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6e66a473d6f3b51339270b1fa41218d2ff3e55d6219ba8f8597fb428615c2608",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter, \"the Christmas blend is back\" announcement, to the subscriber list. No send time was given.\n\n**Checks**\n- **Claims:** There are no numbers, rankings, guarantees, testimonials or comparisons. The ingredients (black tea, orange peel, cinnamon, clove) and the return of the blend are product facts, which the product team has already cleared.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. \"From today\" simply says when the blend is available. It isn't a countdown, a \"today only\" line or a stock warning, so it isn't fake urgency.\n- **House style:** About 95/100. It is warm, plain and unhurried, with no banned words and no AI tells. I'd change nothing.\n- **Disclosure:** This is the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. The draft passes as written.\n\n**Needs a decision:** Nothing is unresolved. One small check: \"from today\" is only true if the blend is actually live in the shop when the email lands. If the send is scheduled for another day, change it to match.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, and nothing should be sent or scheduled until Sam says yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0102166,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

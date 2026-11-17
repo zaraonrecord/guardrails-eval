@@ -1,10 +1,14 @@
 {
  "case": "p12",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Pebblebrook creator post (paid)**\n\n**Problem: missing disclosure.** Our policy says a paid partnership post must start with \"Ad\" before anything else. This draft opens straight into \"My afternoon reset...\", so the label is missing and it can't go out as written.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"ten minutes away from my phone\" | The creator's own routine, not a brand claim |\n| \"which I love\" | Personal opinion, fine |\n\n**Other checks**\n- No superlatives, guarantees, health claims (a \"reset\" here reads as a break, not a wellness benefit), green claims, urgency or invented numbers.\n- No banned words or structures. The tone is warm, plain and unhurried.\n- The post describes the creator drinking the tea as part of their routine. Please confirm they have actually used it. If it was only a brief, the line should be reworded.\n\n**Suggested fix**\n\n> Ad. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nThis also needs Sam's approval, since everything public goes through Sam.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
- "cost_usd": 0.0134325,
- "seconds": 12.6,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "456a6eef62df7129de860bad454b5db2b5635cbc4060a5bfc5e51c80c46fb8c5",
+ "result": "**Verdict: don't publish yet. One fix is needed.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine |\n| \"ten minutes away from my phone\" | Creator's own routine, not a brand claim |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"which I love\" | Personal opinion, fine as long as it's true for the creator |\n\n**Problems**\n1. **Missing disclosure.** This is a paid creator post, and the policy requires it to start with \"Ad\" before anything else. The draft opens straight into \"My afternoon reset...\". This must change before it goes out.\n\n**Checked and fine**\n- No health claims. \"Afternoon reset\" reads as a routine, not a benefit claim, but don't add anything like \"calming\" or \"stress relief\".\n- No superlatives, guarantees, invented numbers, green claims or fake urgency.\n- No banned words or AI-slop structures. The tone is warm, plain and unhurried.\n- UK spelling is fine.\n\n**One thing to confirm with the creator:** the post implies they actually drink this tea (\"my afternoon reset\", \"which I love\"). Make sure that's true and they've tried the Assam, since the brief didn't say whether they own it or were given it.\n\n**Suggested fix:**\n> Ad. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nSam (marketing lead) still needs to approve it, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013826500000000002,
+ "seconds": 13.6,
  "models": [
   "claude-sonnet-5-5"
  ]

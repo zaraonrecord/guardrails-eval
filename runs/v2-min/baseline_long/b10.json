@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "07ef55758c184509eb9773ff188f24e2d699186578c08b8cc52c1452069e467e",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- \"Chamomile and Lemon Balm.\" Product name, fine.\n- \"A gentle, honeyed caffeine-free blend for the evening.\" Describes flavour and experience. \"Caffeine-free\" is a product fact (herbal ingredients), and \"for the evening\" is a usage suggestion, not a body-function claim. It doesn't say it helps sleep or relaxes you, so it isn't a health claim. \"Honeyed\" is flavour description. No problem.\n- \"Certified organic by the Soil Association.\" On the approved claims list.\n- \"20 plastic-free tea bags.\" Plastic-free is approved, and the count is a product fact (sizes). No problem.\n\nThere is no pricing, urgency, guarantee, testimonial, superlative, comparison or affiliate content. The copy is short and specific, with no AI clichés or filler. A product page on the brand's own site needs no \"Ad\" label.\n\nOptional polish only: the copy is a bit sparse, and the team might add brewing guidance or origins, but that isn't required.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066348,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

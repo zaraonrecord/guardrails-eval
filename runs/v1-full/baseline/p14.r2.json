@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "668726d30fa84e27a600668f042ad83cb696f65dd9a69574970b20bf736fc9ed",
+ "result": "**Result: don't publish yet. One fix is needed.**\n\n**Needs changing**\n- **Missing affiliate disclosure.** This is an affiliate review blog, and the draft has a link (\"You can find it here\") with no \"Affiliate link\" label beside it. Policy section 4 requires that wording next to the link. If the reviewer was also paid or gifted the subscription, the post must open with \"Ad\" or \"Gifted\" before anything else. Please confirm with the reviewer whether either applies.\n\n**Checked and fine**\n- \"Easiest to pause\" fits our claim that subscribers can pause or cancel any time. It is the reviewer's own comparison among four services, not a claim we're making. It's worth a quick look from Sam, but I haven't flagged it as a superlative.\n- \"The tins are lovely\" is opinion, not a factual claim.\n- There are no health, environmental, guarantee, urgency or invented-number claims.\n- The voice is plain and warm, with no banned words.\n\n**Before it goes out:** Sam needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010241499999999999,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

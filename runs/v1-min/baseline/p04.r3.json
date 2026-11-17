@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa98e2559972592fa33da0fe7bc2e6897090863766cecf0bbd8ddbd7c85fe12a",
+ "result": "**Review**\n\n- **\"In today's fast-paced world, a rainy Sunday pot is everything.\"** This is a stock filler opener that could open any brand's post, and it adds nothing about Pebblebrook. It should be cut or rewritten, for example by starting straight on the rainy Sunday pot.\n- **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is a product fact about ingredients, so it's fine as written.\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the claims allowlist exactly and names where the reviews come from, so it's fine.\n- **Disclosure:** This is the brand's own account and there's no paid partnership or gifted content, so no label is needed.\n- **Other checks:** There are no health, green, guarantee, urgency or testimonial claims, and no unsupported superlatives or stats.\n\nThe only change needed is the opening line. Once it's rewritten, the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007058,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

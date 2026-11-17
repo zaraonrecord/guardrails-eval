@@ -1,10 +1,14 @@
 {
  "case": "p06",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of blog intro**\n\nChecked against the brand policy:\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: matches the allowlist (Founded in Bristol in 2019). Fine.\n- **\"because we couldn't find tea bags without plastic in them\"**: this is a founding-story motivation, not a listed claim. It isn't a prohibited type of claim, but Sam should confirm it's accurate, as it's an origin story rather than a checked product fact.\n- **\"Our tea bags are plastic-free and home compostable\"**: exact allowlist wording. Fine.\n- **\"our whole business is carbon neutral\"**: not allowed. Policy section 3 bans \"carbon neutral\", and there is no proof on file. Remove it.\n- **\"Here's how we checked.\"**: this promises a explanation or evidence that the copy doesn't deliver. Since it follows the carbon neutral claim, it implies verification we can't back up. It should be cut or rewritten to point to the real proof (the EN 13432 supplier certificate) once the carbon neutral line is gone.\n\nApproval: everything public needs Sam's sign-off.\n\nRecommended rewrite:\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, and they're certified to EN 13432.\"\n\n(The certification detail comes from the supplier certificate on file; Sam may want to confirm the wording.)\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.009748099999999999,
- "seconds": 9.3,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "65104a315f2772c323bbd8d0b035e99eb3c9845a7465d31d3d00a601032657d0",
+ "result": "**Review of blog intro**\n\nChecked against the brand policy:\n\n- \"We started Pebblebrook in Bristol in 2019\": matches the allowlist (Founded in Bristol in 2019).\n- \"Our tea bags are plastic-free and home compostable\": matches the allowlist exactly.\n- \"because we couldn't find tea bags without plastic in them\": an origin story, not a claim on the allowlist or a prohibited type. It's a statement of motive, so I'm not flagging it, though Sam may want to confirm it's accurate.\n- \"our whole business is carbon neutral\": not allowed. \"Carbon neutral\" is on the never-make list, and there's no proof in section 2.\n- \"Here's how we checked.\": this promises evidence or a method for the carbon neutral claim, which doesn't exist. It should go or be rewritten once the carbon claim is removed, since it would lead into nothing we can back up.\n\n**Suggested fix:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. Here's how we make them.\" (only if the following post actually covers that). Needs Sam's approval before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007096,
+ "seconds": 8.7,
  "models": [
   "claude-sonnet-5-5"
  ]

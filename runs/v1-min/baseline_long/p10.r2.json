@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3a578d4585c3df0e63dc42163f31e5301962e5f4269c5b20c95c92ebdc0d2644",
+ "result": "**Review of the sencha announcement email**\n\n**Claims:** The draft makes no claims that need evidence. The new sencha, its flavour (\"Grassy and a little sweet\") and the brewing advice (around 70 degrees) are product facts and fine as written. There are no numbers, health claims, green claims, guarantees, urgency or superlatives. It's brand-owned email, so no ad label is needed. The subject line matches the content.\n\n**Style:** \"It's not just tea, it's a ritual.\" is the formulaic \"not just X, it's Y\" construction. It's generic hype that says nothing specific about this tea, and it sounds machine-written. The rest of the email is plain and specific, so the line stands out. Cut it, or replace it with something concrete about the sencha, such as where it's from or what it tastes like in the cup.\n\n**Optional polish:** \"70 degrees\" could read \"70°C\" so there's no ambiguity for readers.\n\n**Decision:** Hold until the cliché line is fixed. Everything else is fine.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083913,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

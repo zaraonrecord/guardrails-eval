@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1fa893e889b2ba5ee6a89f99b4eccc5db794efee6ac07468d3f8a87805b3a4f5",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero, UK audience, no date given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | On the policy list |\n| \"free UK delivery on orders over £25\" | On the policy list |\n| \"most boxes ship free\" | **Unproven.** Nothing in the policy or this chat says most orders pass £25. It is an implied statistic about order values. |\n\n**Regulated claims (prices and offers):** the free delivery condition (over £25) is stated, so that part is fine. \"Most boxes ship free\" would blur it, because it suggests free delivery is the norm.\n\n**Disclosure:** not needed. This is the brand's own page, with no ad, sponsor, affiliate link or AI-labelled content.\n\n**House style:** no banned words or AI tells that I can see. The copy is short and plain. It would score above 80, and I changed nothing for style.\n\n**Fixed (suggested rewrite):**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nI cut \"means most boxes ship free\". The rewrite keeps the selling point and uses only what the policy backs.\n\n**Needs a decision:**\n- If you have real data showing most orders exceed £25, share it and I can add it to the policy and restore the line. I suggest leaving it out.\n- The policy names no approver for this type of content, so I need an explicit yes to the exact rewritten copy from you or whoever owns the landing page. Nothing is approved yet, and I haven't recorded an approval.\n\n**Evidence log rows (paste into `.guardrails/evidence.md`):**\n- 2026-11-17 | Landing hero | Subscribers can pause or cancel any time | On policy list | Brand policy\n- 2026-11-17 | Landing hero | Free UK delivery on orders over £25 | On policy list | Brand policy\n- 2026-11-17 | Landing hero | Most boxes ship free | Unproven, removed | None\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015629300000000002,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

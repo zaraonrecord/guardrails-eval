@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d4f68be057247431cb4b1a048d1adfc9278ab5aa2414724cb4c557f4af3b2c85",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\nGoing sentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name, fine.\n2. \"A gentle, honeyed caffeine-free blend\" Description of flavour and ingredients. Fine as product fact. (Honeyed is a flavour descriptor; if the blend contains no honey, it's worth confirming it isn't read as an ingredient, but this is minor.)\n3. \"to help you wind down and sleep better.\" This is the problem. \"Sleep better\" is an effect on the body, a health/wellbeing claim, and it isn't in the brand's approved claims. \"Wind down\" on its own is borderline experiential, but paired with \"sleep better\" it promises an outcome. Fix: describe the experience, e.g. \"A gentle, honeyed caffeine-free blend, a calming cup for the evening.\"\n4. \"Certified organic by the Soil Association.\" Approved claim.\n5. \"20 plastic-free tea bags.\" Plastic-free is approved, and count is product fact.\n\nTone: the copy is short and specific, with no clichés.\n\nDecision: hold until the sleep claim is reworded.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0070755,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

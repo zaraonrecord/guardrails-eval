@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "**Verdict: fine to publish.** Sam still needs to approve it, as for all public content.\n\n**Channel:** Instagram, brand's own account. No \"Ad\" label is needed.\n\n**Sentence by sentence:**\n- \"New tins just landed for winter.\" This is a product fact (new products arriving). It isn't false urgency, because it announces an arrival and doesn't push people to act.\n- \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" This is a product description. The plastic-free claim is on the allowlist.\n- \"Our tea bags are plastic-free and home compostable.\" This matches the approved wording exactly, backed by the EN 13432 supplier certificate.\n\n**Other checks:**\n- There are no superlatives, guarantees, health claims, invented numbers, testimonials or broad environmental claims.\n- None of the brand's banned words appear, and the tone is plain and warm.\n- Spelling is consistent with UK English.\n\n**Optional polish (not a blocker):** \"plastic-free\" appears twice in three short sentences, so the last sentence repeats the point made in the second. You could cut one, for example by ending on \"…and the same tea bags inside, plastic-free and home compostable.\" The copy is accurate as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010620600000000001,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

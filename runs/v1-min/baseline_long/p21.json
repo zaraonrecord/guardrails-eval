@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "df0a7f3a6752a1a649749fbe957eb16622742dc7d0b8f7aeddc35b9956874640",
+ "result": "**Review: Instagram post (own account)**\n\nSentence by sentence:\n\n1. \"New tins just landed for winter\" is a product fact (new arrivals). Fine.\n\n2. \"made with zero waste from farm to cup\" is a problem. It is a broad environmental claim covering the whole life of the product. The brand's allowlist only covers plastic-free, home compostable tea bags and Soil Association organic certification. Nothing supports \"zero waste\" across farming, production, packaging, shipping and use. Fix: remove it, or replace it with the supported claim (e.g. \"our tea bags are plastic-free and home compostable\").\n\n3. \"Deep green, gold lettering, and the same plastic-free tea bags inside\" is product description, and the plastic-free tea bag claim is approved. Fine.\n\n4. \"Our tea bags are plastic-free and home compostable.\" is approved and accurate. However, it repeats the previous sentence's plastic-free point, so there's minor redundancy. Tightening is optional, but the repetition would resolve itself once the zero waste line is fixed.\n\nNo ad label is needed, since this is the brand's own account and not a paid placement. No urgency, health, price or testimonial issues. No AI clichés that need cutting.\n\n**Decision:** Hold. The \"zero waste from farm to cup\" claim is unsupported and must be removed or replaced before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009594499999999999,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

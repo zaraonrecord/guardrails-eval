@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b8c4a748651b66e566c2eb9c72143f5ce3dc2a8dda2f463d2ad3484d19f9cf5",
+ "result": "**Review: search ad**\n\nGoing sentence by sentence:\n\n- **\"Plastic-Free Tea Bags\"** (headline): The brand policy lists plastic-free tea bags as an approved claim. It describes the product and is short and specific.\n- **\"Our tea bags are plastic-free and home compostable.\"** Both parts are on the approved claims list (\"tea bags are plastic-free and home compostable\"). The claim is specific to the tea bags and doesn't stretch to the tin, outer packaging or the whole business, so it isn't a vague or over-extended green claim.\n- **\"Founded in Bristol in 2019.\"** This matches the approved company fact exactly.\n\nOther checks:\n- No superlatives, statistics, health claims, guarantees, urgency or pricing/offer terms.\n- No testimonial or creator content, so no ad-label or affiliate disclosure issue. It is a standard search ad.\n- Style: plain and factual, no clichés or filler. The headline and description repeat \"plastic-free tea bags\" slightly, but that is normal for search ads, where the headline keyword is echoed, and not worth changing.\n- UK English isn't tested by any word here, and nothing conflicts.\n\nEvery claim is on the brand's allowlist and nothing is missing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071059,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

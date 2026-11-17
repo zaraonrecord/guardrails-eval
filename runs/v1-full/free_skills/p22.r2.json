@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9f6415a7f4e1868e475ca82a1b3e31bc8310d815ae94eb022f3ffd5be8e8dd06",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact, fine as written |\n| Lovely with milk | Flavour/serving suggestion, fine |\n| 100g tin | Product fact, fine |\n| \"It cured my bloating in a week\" - verified buyer | **Unsupported, must go** |\n\n**Problems**\n\n1. **Health claim.** \"Cured my bloating\" is a cure claim about a medical symptom. Section 3 bans health claims of any kind, and it would also likely trip UK advertising rules (CAP/ASA), even when it's a customer's words. A quoted testimonial is still the brand publishing the claim.\n2. **Testimonial with no proof.** Nothing in the policy or this conversation supplies this review, and I can't verify the \"verified buyer\" label. Even without the health claim, I'd need the source review and permission to use it before it appears on the page. If it's a real review, it can't be used in this form.\n\nEverything else (ingredients, \"caffeine-free\", \"lovely with milk\", the 100g tin) is covered by the product-facts allowance. The style is clean: no banned words, no slop constructions, UK spelling.\n\n**Compliant version**\n\n> Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\nIf you want social proof here, use the sitewide wording from the policy: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Alternatively, supply a real review that makes no health claim, with its source, and I'll add it. Sam needs to approve the final copy before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012962000000000001,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

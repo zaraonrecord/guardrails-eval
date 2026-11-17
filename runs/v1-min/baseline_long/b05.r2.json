@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "be11292fde25841cdcadf37d8e1ececcf6da90e4a5bb950cbe73f5af44baa89a",
+ "result": "**Review: Instagram post (own account)**\n\nReading it as a follower: a short, personal-sounding post about Earl Grey, with one social-proof line.\n\n**Claims check**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly, including the source (our website). Fine.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is a product fact (ingredients), which the policy says is fine as written.\n- \"Rainy Sunday, second pot.\" Mood and description, not a claim.\n\n**Labels:** It's the brand's own account and there's no paid creator, gifting or affiliate element, so no \"Ad\" label is needed.\n\n**Health, green, urgency, guarantees, superlatives:** None present.\n\n**Style:** It sounds like a real person wrote it. No clichés, no filler, no repetition. The rating line is a little abrupt after the cosy opening, but that's optional polish, not a reason to hold it.\n\n**Decision:** Nothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083225,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

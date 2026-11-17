@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "eada6523c7c3d98773273f2539272a74533ca782ccdf0b0c3d34e91bab272bfd",
+ "result": "# Publish gate report\n\n**Going out:** Search ad, headline \"Plastic-Free Tea Bags\", description with plastic-free/compostable claim and a nutritionist endorsement. UK audience.\n\n## Checks\n\n**Claims**\n- \"Our tea bags are plastic-free and home compostable\": on the policy list. Pass.\n- \"Plastic-Free Tea Bags\": same policy row. Pass.\n- \"Recommended by nutritionists\": not on the policy list and no source given in this chat. It is also an implied endorsement by health professionals, and I can't see who recommended it, how many, or any permission. Unproven, so it has to come out.\n\n**Regulated claims (health, environment)**\n- \"Recommended by nutritionists\" is a health-adjacent endorsement. In the UK, health-professional endorsements in ads draw scrutiny, and a vague \"nutritionists\" claim with no named person or evidence is the kind that gets challenged. Remove it, or replace it with a specific, sourced, permissioned quote.\n- The environmental claim is specific (plastic-free, home compostable) and backed by the policy. Pass.\n\n**House style:** Plain and clear. No banned words or AI tells. Pass once the endorsement is removed.\n\n**Disclosure:** A search ad is labelled as an ad by the platform itself. No creator, affiliate or AI content involved. Pass.\n\n## Fixed\n- Removed \"Recommended by nutritionists.\"\n\n**Suggested final copy:**\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable.\n(Optionally add a policy-backed line: \"Free UK delivery on orders over £25.\")\n\n## Needs a decision\n- If the nutritionist claim is real, send the source (who, when, permission to use their name or title) and it can be added to the policy and re-checked.\n\n## Approver\nThe policy names no approver, so approval must come from you. As submitted the draft is not cleared, and nothing has been recorded as approved. Once you've seen the revised copy, tell me explicitly that you approve that exact text and I'll proceed.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119693,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

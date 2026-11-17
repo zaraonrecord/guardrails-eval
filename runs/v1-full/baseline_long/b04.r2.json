@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "781a36087420d5ea728f4464701d0b44bc24bb525989664c0d66fb1ae26f9da7",
+ "result": "I checked each sentence of the draft against the brand policy.\n\n- \"Assam Breakfast.\" is the product name.\n- \"A malty, full-bodied black tea that stands up to milk.\" is flavour and brewing description, which counts as a product fact and is fine.\n- \"Certified organic by the Soil Association.\" matches the approved claim word for word (certificate on file, renewed 2026).\n- \"100g tin, makes around 40 cups.\" covers tin size and cup count, which the product team checks and which are fine as written.\n\nThere are no superlatives, guarantees, health claims, green claims, invented numbers, urgency or testimonials. It's a product page, so no ad or affiliate label is needed. The voice is plain and warm, there are no banned words, and the spelling is UK-consistent.\n\nNothing needs changing. It still needs Sam's sign-off, since he approves everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0057905000000000005,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

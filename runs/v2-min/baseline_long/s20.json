@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "37820376b53be239bbf70085f23253febf75f6a8cecb56d112a7678805a9ef44",
+ "result": "**Review of the email: \"How to brew loose leaf without a teapot\"**\n\n**Channel:** Email to a subscriber, sent from the brand. No \"Ad\" label is needed on the brand's own email.\n\n**Claims check:**\n- \"A mug, a small sieve and four minutes is enough for black tea\" and \"Green tea likes it shorter and cooler\" are brewing facts. The policy allows these as written.\n- The subject line matches the content, so it isn't misleading.\n- There are no numbers, health claims, green claims, guarantees, urgency, testimonials or superlatives.\n\n**Style check:**\n- \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is generic filler. It uses the stock \"whether you're X or Y\" formula and the vague \"there's a cup for everyone\". It says nothing about brewing and could be on any brand's email. It also breaks up an otherwise specific, plain-spoken piece. Cut it, or replace it with something concrete, such as a tip on water temperature for green tea or a pointer to a specific tea.\n\nEverything else is fine. The email should be held only for that one sentence, and the fix is quick.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119585,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

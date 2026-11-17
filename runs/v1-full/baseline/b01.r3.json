@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "52a35442096ba98038174220e33edf974ba19e6ba86dc24283142ed2b2eaebf1",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Claims:** All three match the allowlist.\n  - \"Every tin is packed by hand in Bristol\" is word for word.\n  - \"certified organic by the Soil Association\" matches the claim, which has a certificate on file renewed for 2026.\n  - \"Free UK delivery on orders over £25\" is word for word.\n- **Never-claims:** There are no superlatives, guarantees, health claims, broad environmental claims, invented numbers or false urgency.\n- **Disclosure:** None is needed. This is our own landing page, not a creator post or an affiliate link.\n- **Voice:** It is plain and warm, uses no banned words, and the spelling is UK.\n\nOne optional edit: \"packed by hand in Bristol\" appears twice in three short sentences. Cutting the first mention, or rewording it to something like \"Loose leaf tea, from our Bristol kitchen\", would read more smoothly. This is a style point and doesn't block publication. Sam still approves all public content, so it should go to Sam for sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009512999999999999,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

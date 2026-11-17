@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e6cf913174cbe450b2289e3b59d85af84eba2c5107317e068a61155ea3c4841d",
+ "result": "**Review: landing hero**\n\nNothing in this draft needs changing before it goes out.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Good tea, no fuss\" | Subjective tone line, not a factual claim. No superlative, comparison or guarantee. |\n\n**Slop check**\n- There are no banned words, em-dashes, exclamation points, rhetorical-question openers or \"not just X, it's Y\" constructions.\n- It contains no fake urgency, invented stats or testimonials.\n- The opener, \"Good tea, no fuss.\", is a short tagline rather than the most useful fact. That is a style preference, not a rule failure, and it works as a hero line.\n\n**Optional note**\n- The allowlist backs \"packed by hand\" for tins specifically. If the page also sells tea bags, check that they're packed by hand too, or say \"every tin\" to match the allowlist exactly. This doesn't block publication.\n\n**Regulated territory and disclosures**\n- There are no health, green or money claims, and no affiliate or sponsorship content, so no disclosure is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011091399999999998,
+ "seconds": 20.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

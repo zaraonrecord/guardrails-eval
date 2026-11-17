@@ -1,10 +1,14 @@
 {
  "case": "b10",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Pebblebrook Tea Co. product page, Chamomile and Lemon Balm**\n\n| Claim in the draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"20 plastic-free tea bags\" | \"Plastic-free tea bags\" is allowlisted. The count of 20 is a product fact (cup counts). |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm are both naturally caffeine-free. |\n| \"gentle, honeyed\" | Flavour description, a product fact |\n| \"for the evening\" | Occasion suggestion, not a health claim. It doesn't say the tea relaxes you, helps sleep or reduces anything. |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, invented numbers or testimonials:** none.\n- **Health claims:** none. Keep it that way if anyone later adds \"calming\" or \"helps you sleep\", because both would be health claims.\n- **Environmental claims:** only \"plastic-free\", which is allowlisted. There's no \"eco-friendly\" or \"sustainable\".\n- **Banned words and voice:** no banned words, no em-dash sandwiches, no rhetorical opener, no exclamation points. The tone is plain and unhurried, and it uses UK spelling.\n- **Disclosures:** none needed. This is our own product page, with no partnership, gifting or affiliate link.\n\n**Before it goes out:** under the brand policy, Sam (marketing lead) approves everything public, so this needs his sign-off. That's a process step, not a change to the copy.\n\nNothing needs changing in the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0149285,
- "seconds": 12.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9ddac3ad741d6d21fb206b4c6d073a79f09a75365b4d53f05619290426da2834",
+ "result": "**Review: Chamomile and Lemon Balm product page**\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" (ingredients) | Product fact, fine |\n| \"gentle, honeyed\" | Flavour description, product fact, fine |\n| \"caffeine-free\" | Ingredient fact, fine. It says what the blend doesn't contain and makes no health promise. |\n| \"for the evening\" | Usage suggestion. It doesn't mention sleep, relaxing or calming, so it isn't a health claim. |\n| \"Certified organic by the Soil Association\" | On the allowlist, exact wording |\n| \"20 plastic-free tea bags\" | \"Plastic-free tea bags\" is on the allowlist, and the count is a product fact |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, testimonials, invented numbers:** none.\n- **Environmental claims:** only \"plastic-free\", which is within section 2.\n- **Banned words and structures:** none. The voice is plain and unhurried, with UK spelling.\n- **Disclosure:** this is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\nNothing needs changing. Per the policy, Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011374800000000001,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

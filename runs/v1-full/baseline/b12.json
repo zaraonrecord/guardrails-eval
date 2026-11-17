@@ -1,10 +1,14 @@
 {
  "case": "b12",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy line by line.\n\n- **Free UK delivery on orders over £25**: matches the allowlist wording exactly.\n- **Product facts** (Builder's, Earl Grey, peppermint): product team facts, fine to use as written.\n- **Health claims**: \"a peppermint for after lunch\" is a serving suggestion, not a claim about digestion or health. Fine.\n- **Superlatives, guarantees, invented numbers, urgency, green claims**: none present.\n- **Banned words**: none. The tone is warm, plain and unhurried. UK spelling is fine (\"Builder's\", \"flavour\" not used).\n- **Disclosure**: it's a paid social ad from our own account, so the platform marks it and no extra label is needed.\n- **Approval**: Sam (marketing lead) still needs to sign off, as with all public content.\n\nNo issues found.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0073481,
- "seconds": 7.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "0b250b44300ef2f910633a8668195cc7fdbbfc0f1de766c6c21d512f7976b1d6",
+ "result": "I checked the draft against the brand policy line by line.\n\n- **Free UK delivery on orders over £25**: matches the allowlist wording exactly.\n- **Product facts** (Builder's, Earl Grey, peppermint, \"for after lunch\"): these are product details and fine as written. \"For your desk drawer\" is a usage suggestion, not a claim.\n- **Superlatives, guarantees, health claims, green claims, invented numbers, urgency**: none present. \"A peppermint for after lunch\" does not make a digestive or health claim.\n- **Disclosure**: it's a paid social ad from our own account, so the platform marks it and no extra label is needed.\n- **Voice**: warm, plain and short. No banned words. UK spelling is fine.\n- **Approval**: all public content needs sign-off from Sam (marketing lead) before it goes out.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055155,
+ "seconds": 8.1,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "781a36087420d5ea728f4464701d0b44bc24bb525989664c0d66fb1ae26f9da7",
+ "result": "**Review: Assam Breakfast product page**\n\nGoing sentence by sentence:\n\n- \"A malty, full-bodied black tea that stands up to milk.\" Product description and flavour. Product facts are fine as written.\n- \"Certified organic by the Soil Association.\" Exact wording from the claims allowlist (certificate on file, renewed 2026). Fine.\n- \"100g tin, makes around 40 cups.\" Tin size and cup count are product facts checked by the product team. Fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, environmental claims, invented numbers or urgency.\n- No banned words or AI clichés. The tone is plain and warm enough, and the spelling is consistent with UK English.\n- A product page on the brand's own site needs no ad label, and there is no affiliate link or creator content.\n- Nothing is missing that a qualifier would need to sit next to.\n\nOptional polish only: the copy is short, but that is not a problem.\n\nNothing needs changing. It can go to Sam for the usual approval and then be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063825,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

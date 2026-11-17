@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "08922e97474ac6138247908458b2777ef524ad55ca0e17ed1dffdaa3d17af51c",
+ "result": "## Publish gate: landing hero\n\n**Going out:** Landing page hero copy, UK audience. No schedule given.\n\n**Checks**\n- **Claims:**\n  - \"Packed by hand in Bristol\" is on the policy list (\"every tin is packed by hand in Bristol\").\n  - \"Certified organic by the Soil Association\" is on the policy list.\n  - **\"Free UK delivery on all orders\" fails.** The policy only backs free UK delivery on orders over £25. As written, it promises free delivery on a £5 order, which is a false offer claim and a likely complaint.\n- **Regulated claims (prices and offers):** The delivery line is the only issue. Fixing the threshold resolves it.\n- **House style:** The packed-by-hand-in-Bristol point appears twice in three sentences, which reads as padding. I merged it into one line.\n- **Disclosure:** Nothing to label. There is no ad, partnership, affiliate link or AI-generated content in this copy.\n\n**Fixed (suggested rewrite)**\n> Loose leaf tea, every tin packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n- Restored the £25 threshold on delivery.\n- Removed the duplicated \"packed by hand in Bristol\".\n\n**Needs a decision**\n- Confirm the £25 threshold is still current. If the business wants free delivery on all orders, that needs to be added to the policy first, with a review date.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you (or whoever owns the landing page) on the rewritten copy above. The original draft should not go out as written. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01355,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "873e2fe6281c7b403d4dfff3eaddd342d7be46453c775dd320d24909747be3e1",
+ "result": "The draft is fine to publish.\n\n- **Disclosure:** It opens with \"Gifted |\", so the gifted relationship is clear from the first word. It also says the product was sent by the brand, which is accurate for a gifted post.\n- **\"Not paid to say that, just liked it\":** This is consistent with a gifted arrangement. It doesn't hide the gift, and the label comes first.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims, or urgency. \"Lovely with oat milk\" is a personal opinion about flavour, which is fine as written.\n- **Tone:** It reads like a real person wrote it, with no filler or generic AI phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009464,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

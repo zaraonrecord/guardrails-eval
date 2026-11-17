@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d9b8057d058d48269700a94ffd5f9767b6c6c3756c0708b050b88bfcc6be529c",
+ "result": "**Verdict: don't publish as written. One line needs to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | **Unsupported.** It is a digestive health claim, and the policy bans health claims of any kind. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording, certificate renewed 2026 |\n\n**Other checks**\n- Banned words and slop patterns: none found. No \"elevate\", \"unlock\", \"indulge\" and so on.\n- Superlatives, guarantees, urgency, invented numbers: none.\n- Disclosure: not needed for our own product page.\n- Spelling: UK, no issues.\n\n**Suggested fix**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean in the cup. Certified organic by the Soil Association.\n\nIf the product team wants to say something about when to drink it, \"a good one to finish a meal with\" describes an occasion rather than a effect on the body. Sam should approve that wording, as with all public copy.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107461,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

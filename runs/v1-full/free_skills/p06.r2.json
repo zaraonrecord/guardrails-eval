@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f4fea53780ac901fdd388f19dc4d66d587f9e037fc3e3c4a589859001af56405",
+ "result": "**Review: blog intro for Pebblebrook Tea Co.**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (EN 13432 certificate) |\n| \"because we couldn't find tea bags without plastic in them\" | Not on the allowlist. It's a founding-motive story, so confirm with Sam that it's accurate. |\n| \"our whole business is carbon neutral\" | **Unsupported.** Policy section 3 bans \"carbon neutral\", and section 2 has no proof for it. |\n| \"Here's how we checked.\" | Promises evidence for the carbon claim. It has to go with that claim, because there is nothing to show. |\n\n**Fix:** Cut \"and our whole business is carbon neutral\" and \"Here's how we checked.\" If the post needs a follow-on, use something we can prove, like the EN 13432 certificate or the hand-packing in Bristol. If the team really wants a carbon claim, it needs documented proof and a policy update first.\n\n**Suggested rewrite:**\n\"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, certified to EN 13432. Here's what that means for your bin.\"\n\nThe rewrite assumes the founding story is confirmed. The draft also needs Sam's approval before publication, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0145305,
+ "seconds": 17.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

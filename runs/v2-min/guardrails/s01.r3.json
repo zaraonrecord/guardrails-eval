@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c23de1309a3c67c43dccd86be480ea9e1bdc0a6c1d362a43ae9bb550739d900b",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, own account, Pebblebrook Tea Co. (UK audience).\n\n**Claims check**\n- \"Earl Grey uses real bergamot oil and a little cornflower\": product fact (ingredients), fine as written.\n- \"Rated 4.8 out of 5 from over 2,000 reviews on our website\": the policy allows 4.8 out of 5 from **over 1,200** reviews. 2,000 is not backed by the policy or by anything sourced in this chat. Unproven, so it needs to be corrected.\n\n**Regulated claims:** nothing touching health, money, green, children or pricing. Not applicable.\n\n**House style:** Short and conversational, no banned words or AI tells that I can see. No change needed (the policy has no voice section beyond this, so I can't score it formally).\n\n**Disclosure:** It's the brand's own post about its own product, so no ad, affiliate, gifted or AI label is needed.\n\n**Fixed (suggested wording):**\n- Changed \"over 2,000 reviews\" to \"over 1,200 reviews\".\n\nCorrected copy:\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nIf you do have a current review count that supports 2,000, tell me the source and the policy row should be updated before we use it.\n\n**Needs a decision:** Confirm you're happy with the corrected figure. The policy names no specific approver for organic social posts, so you need to give an explicit yes to the exact corrected copy. Nothing is approved or recorded yet, and I haven't published anything.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0089263,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

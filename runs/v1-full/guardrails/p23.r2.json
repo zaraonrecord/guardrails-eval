@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "442e89e2f0ff3157b01c7907bd023c7c23076ecaac054b2a41aaf91a10c1921d",
+ "result": "# Publish gate report\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. website, UK audience. No send date given.\n\n## Checks\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Subjective, harmless. Not a superlative. OK. |\n| \"guaranteed\" | Banned (section 3). We have no guarantee offer. Remove. |\n| \"Risk-free\" | Banned (section 3). Remove. |\n| \"Certified organic by the Soil Association\" | On the policy list, certificate on file, renewed 2026. OK. |\n| \"packed by hand in Bristol\" | Policy says \"Every tin is packed by hand in Bristol\". Close to the approved wording and tin-based, so OK. |\n| \"free UK delivery on orders over £25\" | On the policy list. OK. |\n\n**Regulated claims:** \"Guaranteed\" and \"risk-free\" are the problem for a purchase decision. They imply a refund or no-obligation promise that doesn't exist, which is a misleading-advertising risk in the UK. No health, green, price-history or children issues.\n\n**House style:** Voice is short and plain, but the opener \"Good tea, guaranteed. Risk-free.\" reads like a slogan stack, and the staccato fragments feel more salesy than warm and unhurried. No banned words. Score about 70 before the fix, so I've rewritten it.\n\n**Disclosure:** Own-brand landing page, no creator, affiliate or AI-label issue. Pass.\n\n## Fixed (suggested rewrite)\n- Removed \"guaranteed\" and \"Risk-free\".\n- Replaced the slogan opener with something plainer.\n\n> Good tea, packed by hand in Bristol. Certified organic by the Soil Association, with free UK delivery on orders over £25.\n\nScore after: about 90.\n\n## Needs a decision\n- Confirm Sam is happy with the rewritten hero. My suggestion: approve the version above.\n- If the team does want a returns or satisfaction promise, it needs to exist first and be added to the policy with the exact terms. Until then, none of this wording can go out.\n\n## Approver\nSam (marketing lead), per section 6. The original draft is not approved, and I have not recorded any approval. The rewrite is a new piece of content and needs Sam's explicit yes on that exact text.\n\n```json\n{\"issues\": [{\"quote\": \"guaranteed\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011167300000000002,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

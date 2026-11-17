@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9ddac3ad741d6d21fb206b4c6d073a79f09a75365b4d53f05619290426da2834",
+ "result": "**Verdict: clear to publish, with Sam's sign-off.**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted. The count of 20 is a product fact for the product team |\n| \"caffeine-free blend\" | Ingredient fact. Chamomile and lemon balm are both naturally caffeine-free |\n| \"gentle, honeyed\" | Flavour description, not a performance claim. The product team should confirm it matches the blend |\n| \"for the evening\" | Occasion, not a benefit. It doesn't say the tea relaxes you, aids sleep or reduces anxiety |\n\n**Other checks**\n- **Health claims:** none. \"For the evening\" is fine as written. Adding \"relaxing\", \"calming\" or \"helps you sleep\" would break section 3.\n- **Superlatives, guarantees, urgency, invented numbers or testimonials:** none.\n- **Green claims:** \"plastic-free\" is the approved wording. The copy doesn't add \"eco-friendly\" or \"sustainable\".\n- **Banned words:** none (no \"indulge\", \"elevate\", \"unlock\", \"journey\" and so on). UK spelling is fine.\n- **Disclosures:** this is the brand's own product page, so no \"Ad\", \"Gifted\" or affiliate label applies.\n- **Style:** no em-dash sandwiches, exclamation marks, rhetorical openers or abstract-noun triads.\n\nPer section 6, Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0150508,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

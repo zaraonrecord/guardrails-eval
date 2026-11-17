@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e3faf8df8c2c19903787a96d09f05053377592469f864380352d4765aa7606e1",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported by the Soil Association certification. Loose leaf is a product fact. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- No superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency.\n- No banned voice words, no slop structures, UK market only.\n- Platform policy: nothing likely to trip ad policies.\n- Length: the headline is 22 characters and the description is 79. You gave no limit, but both fit standard search ad limits (30 and 90).\n- The landing page should also state the Soil Association certification and the free delivery threshold, since the ad can't claim anything the page doesn't.\n- Per the brand policy, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010893499999999999,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

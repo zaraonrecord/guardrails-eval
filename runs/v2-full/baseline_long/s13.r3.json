@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a2b2c97058c618b622304370129ae1f83fe1279c079bc77df6457c71b985e7ca",
+ "result": "**Review of the paid creator post**\n\n**Channel:** Paid creator post, so the disclosure rules in section 4 of the brand policy apply.\n\n**Problem: the ad label is missing from the start of the post**\n- The policy says a paid creator post must start with \"Ad\" before anything else. This draft opens with \"My afternoon reset is a pot of Pebblebrook's Assam…\".\n- The only disclosure is \"#ad\", sixth of seven hashtags at the very end of the caption. That is exactly the buried, mixed-in-with-other-tags placement the checklist says is not clear enough.\n- **Fix:** Start the caption with \"Ad\" (for example, \"Ad: My afternoon reset is…\"). The \"#ad\" at the end can stay or go.\n\n**Checked and fine**\n- \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\".\n- \"which I love\" is clearly personal opinion.\n- \"afternoon reset\" and \"ten minutes away from my phone\" describe an experience, not an effect on the body, so they are not health claims.\n- \"#selfcare\" and \"#slowliving\" are lifestyle tags. I'd leave them, but avoid adding any wellbeing-effect wording around them.\n- No stats, superlatives, guarantees, green claims or urgency. The tone is warm and plain, and none of the banned words appear.\n\n**Decision:** Hold until the \"Ad\" label is moved to the opening of the post. Nothing else needs changing. Sam approves all public content.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010935400000000001,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

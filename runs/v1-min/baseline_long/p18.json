@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f4bc88f503bea62444b3a2347f614e800656f83161610d423d563d0be60c8e7d",
+ "result": "**Review of email: \"How to brew loose leaf without a teapot\"**\n\n**Claims check:** No statistics, health claims, green claims, guarantees, urgency, testimonials or superlatives. The brewing facts (mug, small sieve, four minutes for black tea, green tea shorter and cooler) are product/brewing facts, which the policy allows as written.\n\n**Labels:** This is a brand-owned email with no paid placement or affiliate links, so no ad label is needed.\n\n**Style:** \"Unlock your tea journey.\" is a generic, machine-sounding cliché (the \"journey\" formula and \"unlock\" hype). It also sits oddly against the practical tone of the rest. \"You don't need any kit.\" is fine. Suggested fix: cut the line, or replace it with something specific, e.g. \"Brewing loose leaf is easier than it looks.\"\n\n**Minor optional polish:** The sign-off is a bit abrupt, and there's no call to action or link, but neither is a problem.\n\n**Decision:** Hold until the \"Unlock your tea journey.\" line is cut or rewritten.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087245,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

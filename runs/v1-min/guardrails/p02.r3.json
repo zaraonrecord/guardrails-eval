@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "40ac21be874eddcc0653cabafcbd1f0ff1837aa7958217a4d4ad700de7409fbe",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline + description), UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported by Soil Association certification; loose leaf is a product fact. OK |\n| \"Loved by 50,000 tea drinkers\" | **Unproven.** Not on the policy list. The only audience figure is 4.8/5 from 1,200+ reviews. \"Loved by\" is also a superlative-style popularity claim. |\n| \"Certified organic by the Soil Association\" | On policy list. OK |\n| \"Free UK delivery on orders over £25\" | On policy list. OK |\n\n**Regulated claims:** Touches price/offer (free delivery threshold). It matches the policy and is stated with its condition, so it passes. No health, green or urgency wording.\n\n**House style:** No banned words or AI tells visible. Short and plain. Passes.\n\n**Disclosure:** A search ad is the brand's own ad on a platform that labels it as an ad itself. No creator, affiliate or AI-content issue. Passes.\n\n**Fixed (suggested edit)**\n- Removed the unsupported \"50,000\" figure and replaced it with a provable claim:\n\n> Headline: Organic Loose Leaf Tea | Description: Rated 4.8/5 from over 1,200 reviews. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nAlternatively, if 50,000 is real (e.g. customer count), send me the source and it can be added to the policy before use.\n\n**Needs a decision**\n- Confirm whether the 50,000 figure has a source. Without one, use the edited version above.\n- The landing page must also back up the claims (organic certification, review rating, delivery threshold).\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to the exact final text above. Nothing is approved yet, and I have not recorded any approval.\n\n**Verdict:** Do not publish the draft as written.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099139,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

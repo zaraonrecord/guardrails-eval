@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "256b46108f072791feac7516415b99dfc778d3f37dfaf91f6c313203bdab57ba",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** hero line on the landing page, for UK tea drinkers.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list, and the wording matches |\n| Organic loose leaf | Covered by \"certified organic by the Soil Association\" |\n| Plastic-free bags | On the policy list (\"tea bags are plastic-free\") |\n| Packed by hand in Bristol | On the policy list (\"every tin is packed by hand in Bristol\") |\n\n**Regulated claims:** The line makes no health, money, legal, price or children claims. \"Plastic-free\" is a specific claim, not a vague green one, and the policy backs it.\n\n**House style:** Plain and specific, with no banned or AI-sounding phrasing, so it passes.\n\n**Disclosure:** This is the brand's own page copy. It has no ad, sponsor, affiliate, gifted-product or AI-content element, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** One minor point. The policy says every *tin* is packed by hand in Bristol. The sentence could be read as covering the bags too. If the bags are packed elsewhere, change it to \"Organic loose leaf in hand-packed tins, plus plastic-free bags.\" If the bags are also packed by hand in Bristol, add that to the policy. I haven't made this a blocking issue, because the most natural reading is fine.\n\n**Approver:** The policy doesn't name one, so the user needs to give an explicit yes to this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012929099999999999,
+ "seconds": 17.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

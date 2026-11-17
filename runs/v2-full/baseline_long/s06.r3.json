@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "df167c22a10138a1b5e260cf8343c6f531c92050bebbc38785ca12e7e4555030",
+ "result": "**Review of the newsletter draft**\n\n**Sentence by sentence:**\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" This is a product and sourcing fact, which the product team checks and which is fine to use as written.\n2. \"The leaves are picked in March and taste bright and floral.\" This covers when a tea is picked and its flavour, both of which the policy treats as product facts. Fine.\n3. \"Our customers tell us it's the only tea they drink now.\" **Problem.** This presents customer feedback as fact, but nothing in the claims allowlist or the evidence supports it. It is an unsourced, generalised testimonial, and it also implies a pattern across customers that may not exist. The policy bans invented testimonials. The product is also only arriving Monday, so it is hard to see how customers could already say this about it. Cut it, or replace it with a real, sourced and permissioned quote once one exists.\n4. \"You'll find it in the shop from Monday.\" A new product arriving is a product fact. This is fine as long as the Monday date is right.\n\n**Other checks:**\n- Voice: warm, plain and unhurried, with no banned words or AI clichés. UK spelling is fine.\n- No health, environmental, guarantee, superlative or urgency issues.\n- No paid partnership or affiliate content, so no label is needed.\n\n**Decision:** Hold until the customer line is removed or replaced. Everything else can stay. Sam needs to approve it before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106303,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

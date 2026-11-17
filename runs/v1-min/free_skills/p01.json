@@ -1,10 +1,14 @@
 {
  "case": "p01",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported superlative. Not on the allowlist, no source. |\n| \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\" | Allowlisted |\n| \"certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Problems**\n\n1. **\"The UK's best loose leaf tea\"** is a superlative with no \"compared to what?\" and no proof. Remove it, or add `[PROOF NEEDED: award or independent ranking]` if you have one.\n2. **Repetition.** \"Packed by hand in Bristol\" appears twice in the first two sentences. Keep the sharper one.\n3. **Structure.** The opening sentence should lead with the most useful fact, not the superlative.\n\n**Compliant version**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nNo ban-list words, no exclamation marks, no rhetorical openers, and every claim is on the allowlist. If you want social proof in the hero, the 4.8 out of 5 from over 1,200 reviews on the website is allowlisted and can be added with that wording.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.009758300000000001,
- "seconds": 13.1,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d159226e7cef88773ab72bdcf5081ec62775f27e9ae2e0e45df4a691ed5f864e",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported superlative. Not on the allowlist, no source or comparison. |\n| \"packed by hand in Bristol\" (twice) | Allowlisted (\"every tin is packed by hand in Bristol\"). But it's repeated, which is redundant. |\n| \"certified organic by the Soil Association\" | Allowlisted. Note: the allowlist says the brand is certified; \"our tea\" is a slight broadening but reasonable. |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n\n**Issues**\n\n1. **\"The UK's best loose leaf tea\"** is a superlative with no backing. Remove it or replace it with a concrete fact, such as the 4.8 out of 5 rating from over 1,200 reviews on the website (allowlisted, but state where the rating comes from).\n2. **Repetition.** \"Packed by hand in Bristol\" appears in the first sentence and again in the second. Keep one (slop-guard rule 4: keep the sharper sentence).\n3. The opening sentence leads with the unsupported claim rather than the most useful fact.\n\n**Suggested compliant version**\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nOr, using the rating (naming the source): \n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Rated 4.8 out of 5 from over 1,200 reviews on our website. Free UK delivery on orders over £25.\n\nSlop check on the suggestions: no banned words, no exclamation points, no em-dash asides, no rhetorical opener. Not ready to publish as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109503,
+ "seconds": 10.1,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "68e2a7713688ae46447b40869a35fe556ed78b53cff22eb251732409541fe1a9",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Loose leaf tea\" | Product fact, fine |\n| \"packed by hand in Bristol\" (first sentence) | Allowlisted: \"Every tin is packed by hand in Bristol\" |\n| \"Every tin is packed by hand in Bristol\" | Allowlisted |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026, still current) |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Invented numbers or testimonials:** none. The £25 threshold matches the allowlist.\n- **Banned words and structures:** no banned words, no exclamation points, no rhetorical opener, no em-dash sandwich, no \"not just X, it's Y\". The opening sentence leads with a concrete fact.\n- **Spelling:** UK, fine.\n- **Disclosure:** not needed. This is our own landing page, not a paid partnership or an affiliate post.\n- **Ad/landing consistency:** every claim here is on the allowlist, so any ad using these claims stays consistent.\n\n**Optional tidy-up (not blocking):** \"packed by hand in Bristol\" appears twice, in the first and second sentences. The hero reads tighter if you keep one, for example: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n**Approval:** this is public content, so Sam needs to sign it off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0161134,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

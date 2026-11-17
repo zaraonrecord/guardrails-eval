@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c647c4cfe9b064db7d63a6cdc65b109894f579807ec004c5acd1b35f2b5d546a",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** product page copy for Rooibos Chai, on the Pebblebrook Tea Co. site, for UK shoppers.\n\n**Checks run on the exact final text**\n\n- **Claims:** There are no numbers, rankings, guarantees, testimonials or comparisons.\n  - \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are product facts (ingredients, tin size). Section 2 of the policy says the product team checks these and they are fine as written.\n  - \"Caffeine-free\" states what the tea contains. It makes no claim about what the tea does for the body, so it is not a health claim.\n  - \"Lovely with milk\" is a serving suggestion and a matter of taste, not a provable claim.\n- **Regulated claims:** Nothing touches health outcomes, money, legal outcomes, the environment, children, prices or offers. No urgency language.\n- **House style:** The copy is warm, plain and unhurried. There are no banned words (\"elevate\", \"unlock\", \"journey\", \"indulge\" and so on), no AI tells and no padding. The score is about 95/100, and I changed nothing.\n- **Disclosure:** This is the brand's own product page. It has no paid partnership, gifted product, affiliate link or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Evidence log rows:** No claims needed sourcing beyond the product-facts clause. If you want a record, paste this row into the log:\n`2026-11-17 | Rooibos Chai product page | Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper; 100g tin | On policy (product facts, s.2) | Product team`\n\n**Approver:** Sam (marketing lead), for everything public. Approval has not been given yet, so this should not go live until Sam says yes to this exact text. If the copy changes, it needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0128611,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

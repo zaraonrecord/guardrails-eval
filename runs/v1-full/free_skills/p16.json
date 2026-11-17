@@ -1,10 +1,14 @@
 {
  "case": "p16",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: don't publish yet. One sentence needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new products arriving), fine |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, product team fact, fine |\n| \"It's back in the shop\" | Fine, but it repeats the first sentence |\n| \"Today only: 30% off, ends at midnight.\" | **Unsupported.** The policy has no 30% offer and no real offer with an end date. The \"today only\" and \"ends at midnight\" wording is exactly the fake urgency section 3 bans. |\n\n**Other checks**\n- No banned words, no health or green claims, no superlatives, no guarantees, no invented stats or testimonials.\n- No disclosure needed. This is our own newsletter, not a paid partnership or affiliate post.\n- UK spelling is fine, and the tone is plain and unhurried.\n- The newsletter is public content, so it needs Sam's approval.\n\n**Suggested rewrite**\n\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n\nThis drops the repeated \"back\" and the countdown offer. If the 30% discount is real, send Sam the actual start and end dates and get it added to the policy. Then it can go in with its real end date and no \"today only\" pressure. Until then, use `[PROOF NEEDED: confirmed offer terms and end date]` as a placeholder.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
- "cost_usd": 0.013846500000000001,
- "seconds": 12.6,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17b577ea60ce19f77db049941819eb37f719761fa676dfe11744564d6fde2c1e",
+ "result": "**Not ready to publish.** One problem stops it.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Christmas blend is back, and its ingredients (black tea, orange peel, cinnamon, clove) | Product fact, fine as written |\n| \"Today only: 30% off, ends at midnight\" | **Unsupported** |\n\n**The problem:** the brand policy says there is no running offer, countdown or end date, and bars \"today only\" urgency unless a real offer with an end date is listed in the policy. The 30% discount isn't there either. If it's real, someone needs to add it to the policy with its end date. If it isn't, the line would tell subscribers about a discount that doesn't exist.\n\n**Smaller edit (not blocking):** \"the Christmas blend is back\" and \"It's back in the shop\" say the same thing. Keep one.\n\n**Suggested compliant version:**\n> Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\n\nSam needs to approve it before it goes out, as with all public content. If the 30% offer is real, send me the terms and end date and I'll put it back in.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0136405,
+ "seconds": 12.7,
  "models": [
   "claude-sonnet-5-5"
  ]

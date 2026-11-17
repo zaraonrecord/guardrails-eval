@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2158d4032890048bd8a0a1b79c3a00e10757663c7c20cc0284b81ffe323b9e69",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted. The wording matches the policy, including \"on our website\". |\n| Organic loose leaf | Allowlisted (certified organic by the Soil Association). |\n| Plastic-free bags | Allowlisted (plastic-free, home compostable). |\n| Packed by hand in Bristol | Allowlisted. The policy says \"every tin is packed by hand in Bristol\". |\n\n**Slop-guard check:** No banned words, no em-dashes, no exclamation points, no rhetorical opener, no fake urgency. The first sentence leads with a concrete fact, so it passes.\n\n**Platform and regulatory check:** There are no health, money or legal claims. The green claim (\"plastic-free\") is on the allowlist and specific. There are no superlatives, guarantees or invented testimonials.\n\n**Notes, not blockers:**\n- \"Packed by hand in Bristol\" is backed for tins. If the plastic-free bags ship in boxes or pouches rather than tins, check that the same hand-packing claim holds for them.\n- \"Organic\" is backed by the Soil Association certification. Check that it covers every product in the range, including the bags, if the line is read as \"organic bags\" too.\n- The landing page should make the same claims as any ads that point to it.\n\nNothing here needs changing, so the draft can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012030100000000002,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "4101ef3d7717381edf7468d64b3722ad34f47a2b4b7bda55f6eb6fd31e68e8e8",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline plus description) for Pebblebrook Tea Co., aimed at UK tea drinkers.\n\n**Checks**\n- **Claims:** Both claims match the policy allowlist, so nothing is unproven.\n  - \"Certified organic by the Soil Association\" is on the list.\n  - \"Free UK delivery on orders over £25\" is on the list, with the £25 threshold stated and nothing dropped.\n  - The headline \"Organic Loose Leaf Tea\" is covered by the certification, and loose leaf is a product fact.\n- **Regulated claims:** The \"organic\" wording is backed by a named certifier, and no broad green claims appear (\"sustainable\", \"eco\"). There are no health, money, price-comparison or urgency claims. Pass.\n- **House style:** The copy is plain and specific, with no banned words or AI tells. Pass. The policy gives no voice words, so I could only check for tells, not match the brand voice.\n- **Disclosure:** The ad platform labels search ads as \"Ad\" itself. The draft has no creator, affiliate, gifted or AI-generated content, so nothing extra is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Make sure the landing page backs up both claims. An ad can't claim more than the page it links to, and I can't see the page. Please confirm it shows the Soil Association certification and the free-delivery threshold.\n- Confirm the Soil Association certificate is current.\n\n**Approver:** The policy names no approver, so you're the approver. I need an explicit yes to this exact copy before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010938300000000001,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

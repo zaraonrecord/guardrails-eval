@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b83d910a4eb2edbd60a852fcf90411d35a229157bd843e8ca3dbb06cf6b33109",
+ "result": "**Review: Pebblebrook peppermint product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written. |\n| \"Cool and clean after a big meal.\" | Flavour and sensation description, not a health claim. It doesn't say the tea aids digestion, settles the stomach, or does anything to the body. |\n| \"Certified organic by the Soil Association.\" | Matches the allowlist wording exactly (certificate on file, renewed 2026). |\n\n**Other checks**\n- Superlatives, guarantees, invented numbers, testimonials and fake urgency: none.\n- Environmental claims: none.\n- Banned words and structures: none. The voice is plain and unhurried, and the spelling is UK.\n- Disclosures: not needed. This is our own product page, with no affiliate link, gift or paid partnership.\n\n**Notes**\n- Keep \"after a big meal\" as a taste description. If anyone edits it to say the tea \"aids digestion\" or \"settles your stomach\", that becomes a health claim and must be blocked.\n- Per policy, Sam (marketing lead) still needs to approve this before it goes live.\n\nNo changes are needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103632,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

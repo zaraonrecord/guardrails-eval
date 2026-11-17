@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9c80263c0588a6c95b4273756336ec1e468fa9e24c24c5f28191a00a41db8df8",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: this matches the allowlist (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\"**: this is a green claim, but the policy explicitly backs it, and it is worded the same way as the allowlist, with no broader claims such as \"eco-friendly\" or \"zero waste\".\n- **\"because we couldn't find tea bags without plastic in them\"**: this is a founding-story motive, not a statistic or a product claim, so it is fine as written.\n- **\"here's how we checked\"**: this sets up the rest of the post. Make sure the body explains the checking process accurately and doesn't add claims beyond the allowlist, such as a named third-party test or certification.\n\nNo invented stats, superlatives, guarantees, testimonials, health claims, false urgency or filler phrasing. There is no sponsored or affiliate content, so no disclosure is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080385,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

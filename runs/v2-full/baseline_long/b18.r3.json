@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ceba29ddd13f0f87cc6a734776d345b29bc6edab15d590ffc41d931afac9d015",
+ "result": "**Review of the product page draft (Peppermint)**\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact. The policy says the product team checks these and they're fine to use as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels, not an effect on the body. It doesn't say the tea aids digestion or settles the stomach, so it isn't a health claim. If someone later changed it to \"helps digestion\" or \"settles your stomach\", it would be one.\n- **\"Certified organic by the Soil Association.\"** This matches the approved claim word for word, and the certificate is on file and renewed for 2026.\n- **Voice and style:** The copy is short, plain and warm, with no banned words or AI clichés. It uses UK spelling, and nothing is repeated.\n- **Other checks:** There are no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims. As a brand-owned product page, it needs no ad label.\n\nNothing needs changing, so the draft can go to Sam for the usual approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008441399999999998,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

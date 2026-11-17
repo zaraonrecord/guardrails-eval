@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "09bbcec582058e261ddf1d5ffa244c46156d18b8eb5638fc2ea6d1b81717e394",
+ "result": "I need to correct the JSON in my last reply. I found no problems, so `publish` should have been `true`. Sam's sign-off is a normal step before anything goes live and isn't a reason to change the draft.\n\nThe review itself stands:\n- \"Organic Loose Leaf Tea\" is supported by the Soil Association certificate and our product range.\n- \"Certified organic by the Soil Association\" and \"Free UK delivery on orders over £25\" both match the allowlist wording exactly.\n- There are no superlatives, guarantees, health or environmental claims, invented numbers, false urgency or banned words.\n- No disclosure label is needed for our own search ad.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008633100000000001,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

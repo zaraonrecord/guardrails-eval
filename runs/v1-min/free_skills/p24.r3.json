@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "983098f34c274ad17da9ea16dabba582cabf7c6608b5f0a90f3fe704e4776d7b",
+ "result": "**Review result: one fix needed before this goes out.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact. Consistent with tins packed by hand in Bristol. Confirm it's true for this shipment. |\n| \"smoky lapsang and a soft white peony\" | Product facts, fine as written. |\n| \"pause or cancel any time\" | Allowlisted. |\n\nNo invented stats, testimonials, superlatives, guarantees, health or green claims, or fake urgency.\n\n**Slop check**\n- \"Elevate your mornings\" uses a banned word (\"elevate\") and is a vague abstract claim. Cut it and let the teas carry the sentence.\n\n**Suggested rewrite**\n\n> Hi Priya,\n>\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n>\n> The Pebblebrook team\n\n**One thing to verify:** the subject says \"October tins\" and \"this month\", but today is 17 November. If this is going out now, the month reference is wrong. If it's a scheduled or resent October email, ignore this.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011165999999999999,
+ "seconds": 17.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

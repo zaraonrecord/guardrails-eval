@@ -1,10 +1,14 @@
 {
  "case": "b21",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"founded in Bristol in 2019\"** is on the claims allowlist.\n- **\"a small team of six\"**: team size is a product fact the policy says is fine as written.\n- **\"every tin is packed by hand in Bristol\"** is on the claims allowlist.\n- **\"We buy from gardens we've visited\"** falls under origins, which the policy also allows as written. It makes no certification, health, environmental or superlative claim. Someone on the team should still confirm it is true, since I can't verify it from here.\n\nThe copy has no invented statistics, superlatives, guarantees, testimonials, health or green claims, or false urgency, and it doesn't read as filler. No disclosure is needed for an about page like this.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.009867999999999998,
- "seconds": 9.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "35c42ac9836535620559a01b6b10628aff4a16ecec0a9ce1a80e9a15075c906e",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the allowlist.\n- **\"We're a small team of six.\"** Team size is listed as fine as written.\n- **\"Every tin is packed by hand in Bristol.\"** This matches the allowlist.\n- **\"We buy from gardens we've visited.\"** This is a sourcing and origins statement, which the policy treats as fine as written. It's a factual claim about the team's own practice, so it's worth confirming with whoever handles sourcing that it's true of all the gardens. It isn't a policy problem.\n\nThe draft has no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or testimonials. It doesn't read as filler copy, and nothing in it needs a disclosure.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.01026,
+ "seconds": 8.3,
  "models": [
   "claude-sonnet-5-5"
  ]

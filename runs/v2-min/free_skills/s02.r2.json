@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "5f11cc87d31393f3c5e27eb19de3d492116e1e466071bd3fe77722a468fa08f1",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea that's easy to stop and start\" | Soft claim, supported by the pause/cancel policy. OK. |\n| \"Most subscribers stay with us for over a year\" | Unsupported. Not on the allowlist, no source in this chat. Invented retention stat. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n| \"means most boxes ship free\" | Unsupported. Implies a statistic about order values that we have no data for. It also doesn't follow from the threshold. |\n\n**Other notes**\n- Slop-guard: no banned words, no em-dashes, no exclamation marks. The opening sentence is vague, not the most useful fact. The draft would be sharper if it led with the pause/cancel policy.\n- The sentence \"Subscribers can pause or cancel any time, and free UK delivery... means most boxes ship free\" runs two ideas together and the second half is a non-sequitur.\n\n**Suggested rewrite**\n\nPause or cancel your tea subscription any time. Orders over £25 get free UK delivery. [PROOF NEEDED: subscriber retention figure, if you want to say how long people stay]\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095243,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

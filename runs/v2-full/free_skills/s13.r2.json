@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c04852533f8424dc36e7b6cc9530e9bd87b750b068ed6ad66ba0110de085c862",
+ "result": "**Not ready to publish. One fix is needed.**\n\n**Missing disclosure.** This is a paid creator post, and the policy says it must start with \"Ad\" before anything else. The only marker is `#ad`, buried mid-list in the hashtags at the end. That doesn't meet the rule. Open the post with \"Ad\" (e.g. \"Ad: My afternoon reset is...\") and the hashtag can stay or go.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (Operations) |\n| Pebblebrook's Assam | Product fact, fine |\n| \"ten minutes away from my phone\" | The creator's own routine, not a brand claim |\n| \"which I love\" | Personal opinion, fine |\n\nNo invented stats, superlatives, guarantees, health claims, green claims or fake urgency. No banned voice words. The tone is warm, plain and unhurried.\n\n**Judgment call, not blocking:** `#selfcare` is a wellness-adjacent tag. It isn't a health claim, but if Sam wants to stay clear of anything that implies a wellbeing benefit, drop it.\n\n**Hands-on experience:** The post implies the creator drinks this tea regularly. I can't verify that, so confirm with the creator that they have actually used it (Owned or Tried) before it goes out.\n\nSam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014514500000000001,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

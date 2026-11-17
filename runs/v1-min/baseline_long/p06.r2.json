@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5a1119bd2af9e956c64e5379d6b3a3f1394b9eaf354629efe03e7f98a6f1a301",
+ "result": "**Review: blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" Founding in Bristol in 2019 is approved. The origin motive is a story about the company, not a claim that needs separate evidence. Fine.\n\n2. \"Our tea bags are plastic-free and home compostable\" is on the approved list. Fine.\n\n3. \"and our whole business is carbon neutral.\" This is not on the allowlist. It is an environmental claim about the entire business, which needs full, current evidence and an explanation of how it was achieved (offsetting, scope, etc.). The brand's approved claims cover only the tea bags being plastic-free and compostable. Stretching that to the whole business is exactly the kind of overreach to stop. Flag it.\n\n4. \"Here's how we checked.\" This sets up an explanation of how the carbon neutral claim was verified. Since the claim is unsupported, the promise of proof is hollow, and nothing in the draft actually shows how it was checked. It also reads as a teaser that depends on the unsupported claim. Remove or rework it with the claim. I'd note it as a dependent problem rather than a separate one, so I'm not listing it separately in the JSON.\n\n**Fix:** Remove \"carbon neutral\" unless the team can produce current, documented evidence and explain it. A safe version: \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. Here's how we make them.\" (Adjust the last line to match what the post actually covers.)\n\n**Decision:** Hold. One unsupported environmental claim.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107685,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

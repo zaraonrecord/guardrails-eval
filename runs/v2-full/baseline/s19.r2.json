@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "37024c46fa5b3151928d37c548b86f16a30e930d98ce5cad3bb40cb1813e2461",
+ "result": "**Not ready to publish.** One phrase needs to change.\n\n**Problem**\n- **\"fully sustainable bags\"** is a general environmental claim. Policy section 3 bans \"sustainable\" without specifics, and \"fully\" makes it stronger. The backed claim is that the tea bags are plastic-free and home compostable (EN 13432 certificate). Use that wording instead.\n\n**Checked and fine**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly.\n- \"Organic loose leaf\" is consistent with the Soil Association certification. \"Certified organic by the Soil Association\" would be stronger and exactly on-policy.\n- The tone is warm and plain, there are no banned words, and the spelling is UK.\n\n**Suggested fix**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\n**Note:** the allowlist says \"Every tin is packed by hand in Bristol.\" The draft's \"packed by hand in Bristol\" sits after the bags as well as the loose leaf. If the bags aren't packed by hand there, say \"Every tin is packed by hand in Bristol\" instead. As always, Sam needs to approve before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013026099999999999,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

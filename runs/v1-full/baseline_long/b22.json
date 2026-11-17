@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "03bdd2bd935cd3fa38bf21b2e006b7b74e0fbdbf1f3ef9d5ee5057d38956e5ab",
+ "result": "I checked the draft sentence by sentence against the brand policy.\n\n- \"New tins just landed for winter.\" This is a product fact (new products arriving), which the product team checks and which is fine as written. It is also not false urgency.\n- \"Deep green, gold lettering, and the same plastic-free tea bags inside.\" This is description of the tin. The plastic-free point is on the allowlist.\n- \"Our tea bags are plastic-free and home compostable.\" This matches the approved claim word for word, backed by the EN 13432 supplier certificate.\n\nChannel: this is the brand's own Instagram account, so no \"Ad\" label is needed. There is no creator, gifted item or affiliate link.\n\nStyle: the tone is warm, plain and unhurried. It uses no banned words and no AI clichés, and the spelling is fine for UK English. One optional polish note: \"plastic-free tea bags\" appears twice in three short sentences, so the repetition could be trimmed (for example, drop \"and the same plastic-free tea bags inside\" or cut the last sentence). That is not a reason to hold it.\n\nNo unsupported claims, health claims, green claims beyond the allowlist, guarantees, urgency or missing labels. Approver per policy is Sam, so it needs his sign-off as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008974699999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2b8c4a748651b66e566c2eb9c72143f5ce3dc2a8dda2f463d2ad3484d19f9cf5",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nGoing sentence by sentence:\n\n- **\"Plastic-Free Tea Bags\"** (headline): Description of the product. The brand policy lists plastic-free tea bags as a claim it can back up. Fine.\n- **\"Our tea bags are plastic-free and home compostable.\"** Both claims are on the approved list word for word. Fine.\n- **\"Founded in Bristol in 2019.\"** Matches the approved company fact exactly. Fine.\n\n**Other checks:**\n- Green claims: specific, limited to the tea bags (not stretched to packaging or the whole business), and approved. No vague terms like \"eco-friendly\".\n- No superlatives, statistics, health claims, guarantees, testimonials, urgency or pricing.\n- Ad labelling: a search ad is recognisable as a paid placement by the platform, and there is no creator or affiliate element.\n- Style: plain and specific, with no clichés or filler.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062859000000000005,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

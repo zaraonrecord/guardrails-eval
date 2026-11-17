@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "94aefc997f1c2ccfb2c44cbb99f4a386da52c93a942818e8b8940a71ff1c83d9",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording |\n| \"Brewed with care\" | Not a provable claim. Customers brew the tea, not us. |\n| \"Delivered with a smile\" | Not a provable claim. Couriers deliver, not us. |\n\nThere are no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or testimonials. No disclosure is needed, since this is our own landing page. No banned brand words appear.\n\n**Problem: the opening line**\n\n\"Brewed with care. Packed with love. Delivered with a smile.\" is a generic triad of warm abstractions. It says nothing concrete, and it fails the \"compared to what?\" test. \"Packed with love\" also repeats the later, concrete \"packed by hand in Bristol\", and \"Brewed\" and \"Delivered\" describe steps the brand doesn't control. It doesn't match the \"plain\" part of the voice, and the hero's first sentence should carry the most useful fact.\n\n**Suggested rewrite (all allowlisted facts)**\n\n> Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want to keep the warmth, \"Packed by hand in Bristol\" already does it without the filler.\n\n**Approval:** Sam needs to sign off before this goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.017758500000000003,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

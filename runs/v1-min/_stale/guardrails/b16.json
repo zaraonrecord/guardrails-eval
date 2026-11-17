@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, UK audience, no date given.\n\n**Checks**\n- **Claims:** all supported by the policy list.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word, including the \"on our website\" qualifier.\n  - \"Organic\" matches \"certified organic by the Soil Association\".\n  - \"Plastic-free bags\" matches \"tea bags are plastic-free\".\n  - \"Packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\".\n- **Regulated claims:** \"organic\" and \"plastic-free\" are environment-adjacent, but both are specific and on the allowlist. There are no broad \"eco\" or \"sustainable\" claims, and no health, money, price or urgency wording.\n- **House style:** the copy is plain and specific, with no AI tells, stock openers or banned-word patterns. No changes needed.\n- **Disclosure:** this is the brand's own page, so there is no ad, affiliate, sponsor, gifted-product or AI-label issue.\n\n**Fixed:** nothing.\n\n**Needs a decision (optional):** the policy says \"every *tin*\" is packed by hand, while the draft applies it to both loose leaf and bags. If the bags don't ship in hand-packed tins, you could reword to \"Loose leaf tins packed by hand in Bristol\". If they do, leave it as is.\n\n**Approver:** the policy names no approver, so you are the approver. Please give an explicit yes to this exact wording. Nothing has been recorded or published on your behalf.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0160873,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

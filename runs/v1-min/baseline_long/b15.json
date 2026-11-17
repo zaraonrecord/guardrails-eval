@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "This draft can go out. I checked each sentence against the checklist and the brand policy.\n\n- **\"I've tried four tea subscriptions this year.\"** This is the reviewer's own experience, not a brand claim. It's a first-person statement, so there's nothing for the brand to prove.\n- **\"Pebblebrook's was the easiest to pause\"**: This is clearly the reviewer's personal opinion, not a brand-stated superlative. It also fits the approved claim that subscribers can pause or cancel any time.\n- **\"the tins are lovely\"**: This is opinion and description, and the brand does pack in tins.\n- **\"You can find it here (Affiliate link).\"** The disclosure is in plain words and sits right beside the link, so the reader sees it before clicking. It would be a little stronger at the very start of the post, but at this length it is clear enough. That is optional polish, not a blocker.\n- **Health, green, price, urgency, guarantee and statistic claims**: None appear.\n- **Style**: The copy is short and in a personal voice, with no clichés or filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012688500000000002,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

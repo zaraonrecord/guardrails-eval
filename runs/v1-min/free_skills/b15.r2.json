@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8dd6f442dfe736b5ba4617d29ddad9c92a8d62f230291779bb52d3adcf4b5edd",
+ "result": "**Review: not ready to publish**\n\n**Product label (Owned / Tried / Wishlist):** The draft doesn't say which one applies to Pebblebrook. I can't assume ownership. \"I've tried four tea subscriptions this year\", \"easiest to pause\" and \"the tins are lovely\" are all hands-on claims. They only stand if the writer owns or has tried the subscription, and the post should say how and for how long. If it's a wishlist item, those claims have to go.\n\n**Affiliate disclosure:** \"(Affiliate link)\" sits after the link, in a bracket at the end. It needs to be in plain words at the top of the post, before the first link, e.g. \"This post contains affiliate links. If you buy through them, I may earn a commission.\"\n\n**\"Easiest to pause\":** This is a comparison against three other subscriptions, and nothing in the post backs it up. The brand can only say subscribers can pause or cancel any time. Either explain what you actually did and how many steps it took, or reword it as \"you can pause any time\".\n\n**\"Tins are lovely\":** This is fine as opinion if the label is Owned or Tried. It would be stronger with something concrete, such as what the tin is like and how you use it.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Tried four subscriptions this year | Writer's own experience, unverified here |\n| Easiest to pause | Unsupported comparative |\n| Tins are lovely | Opinion, needs Owned or Tried label |\n| Pause any time | Allowlisted, though the draft doesn't say it that way |\n\n**Suggested fix:** Add the affiliate line at the top, state the label and how long you've had it, and replace \"easiest to pause\" with a concrete description of the pause process.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"You can find it here (Affiliate link).\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0170084,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

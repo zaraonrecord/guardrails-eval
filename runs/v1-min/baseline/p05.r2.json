@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6ffadfa30a820043a69cc3f50c1ec92015de6d22117dc8af7ea6046124bb03c5",
+ "result": "**Review of the newsletter draft**\n\n- **Origin and flavour:** The Darjeeling garden visit, the March picking and the \"bright and floral\" taste are product facts, which are fine as written.\n- **Launch timing:** \"In the shop from Monday\" is a new-arrival fact, so it's fine.\n- **Scarcity and urgency:** \"Only 40 tins are left, so be quick\" is not on the claims allowlist, and nothing shows the stock figure is real or current. The tea isn't on sale until Monday, so the count is hard to verify now. The \"be quick\" push adds pressure on top of an unverified number. I'd cut it, or replace it with a plain statement such as \"a limited first batch\" once the stock figure is confirmed.\n- **Other checks:** I found no invented stats, superlatives, guarantees, testimonials, health claims or green claims. The copy is also specific rather than generic, so it doesn't read as filler.\n\nDon't publish as is. Remove or substantiate the scarcity line first.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009143199999999999,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

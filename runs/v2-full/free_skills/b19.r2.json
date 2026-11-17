@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "515783309eb1bbd6514439434907e660b47a96a69eb1d41ef36aa69104d8458c",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, which the product team checks and policy allows as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, allowed |\n| \"You don't need any kit\" | Practical advice, not a marketing claim |\n\n**Other checks**\n- **Numbers and proof:** The only number is the four-minute brew time. There are no stats, ratings, testimonials, customer counts or review figures.\n- **Superlatives, guarantees, urgency:** None.\n- **Health, environmental or regulated claims:** None.\n- **Disclosures:** None needed. This is our own email, with no partnership, gifted product or affiliate link.\n- **Banned words and slop:** No banned words, em-dash sandwiches, exclamation points, rhetorical-question openers, \"not just X, it's Y\" constructions or abstract-noun triads. The voice is warm, plain and unhurried, and the spelling is UK-neutral.\n- **Opening:** The first line is a little soft, but it gets to the useful fact in the next sentence. This is optional polish, not a blocker.\n\n**Before it goes out:** Sam (marketing lead) needs to approve everything public, so get his sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0110827,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

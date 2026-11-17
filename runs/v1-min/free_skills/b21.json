@@ -1,10 +1,14 @@
 {
  "case": "b21",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Allowed: team size is a product/company fact in the brand policy |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** \"We buy from gardens we've visited\" is a sourcing-practice claim, not on the allowlist. It says every supplier has been visited in person, which is a strong, checkable claim, and nobody has supplied a source for it. It is different from a plain origin fact such as \"this tea is from Darjeeling\". It could be read as a trust or ethical-sourcing claim, and if it isn't literally true for all suppliers it is misleading.\n\n**Fix:** Either confirm and supply the proof (which gardens, who visited, and whether it applies to all suppliers), or replace it with `[PROOF NEEDED: which gardens the team has visited, and whether this covers all suppliers]`. If only some gardens have been visited, say that and name them, for example \"We've visited [named gardens] in [region].\"\n\n**Style check:** No banned vocabulary, no exclamation points, no em-dash asides, and the opening sentence leads with a fact. Nothing to change there.\n\n**Verdict:** Don't publish until the gardens line is sourced or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.0134863,
- "seconds": 13.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6c1617c2f25973c7a4e99761fc1d31f141bec8a2543b25fcbdc980afa6aa09fb",
+ "result": "**Review: about page draft**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Allowed: team size is a product fact in the brand policy |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited\" | Sourcing/origins statement, covered by the policy's origins allowance |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical openers, no fake urgency. The opening sentence leads with a concrete fact.\n\n**Other checks:** No superlatives, guarantees, testimonials, health or green claims, and no affiliate or sponsorship content, so no disclosure is needed.\n\n**One note, not a blocker:** \"gardens we've visited\" reads as all of your suppliers. Before it goes out, confirm someone on the team has actually visited every garden you buy from. If only some, change it to \"many of the gardens we buy from, we've visited.\"\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012642299999999999,
+ "seconds": 10.8,
  "models": [
   "claude-sonnet-5-5"
  ]

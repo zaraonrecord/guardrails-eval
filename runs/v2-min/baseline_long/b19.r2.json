@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732a51d0db7116f9057622d8ac419490587351799b323db0b9f4e5710c8f349e",
+ "result": "I read the draft as Ana would see it in an email.\n\n**Claims:** The email makes no claims about the brand, no numbers, no health, green or superlative statements, no offers and no urgency. The brewing advice (\"A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\") is product and brewing information, which the policy allows as written.\n\n**Disclosure:** This is the brand's own email to a subscriber or customer, so no \"Ad\" label is needed.\n\n**Style:** It is short, specific and plain. There are no AI clichés, hype words or formulaic structure. The subject line matches the content. \"You don't need any kit\" is natural UK English.\n\n**Optional polish (not blocking):** It gives no timing for green tea, and there's no link or call to action. Both are choices for the team, not problems.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005800700000000001,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

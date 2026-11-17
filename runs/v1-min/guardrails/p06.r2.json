@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9cab8322e961c44cff491bc556712598ca2fa002839fcdfd1ba860cc24dc89a9",
+ "result": "# Publish gate report: blog intro\n\n**Going out:** Blog intro on the Pebblebrook site, UK audience. No publish time was given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | On the policy list (founded in Bristol in 2019) |\n| Tea bags are plastic-free and home compostable | On the policy list |\n| \"Couldn't find tea bags without plastic\" | Origin story, not a measurable claim. OK as written |\n| \"Our whole business is carbon neutral\" | **Unproven.** Not on the policy list and no source given in this chat |\n| \"Here's how we checked.\" | Promises evidence for the carbon neutral claim, and none exists yet |\n\n**Regulated claims check:** \"Carbon neutral\" is an environmental claim, and UK regulators (the ASA and the CMA) challenge broad claims like this often. \"Whole business\" is wider than a claim about a product or a single process, so it needs strong evidence covering the full scope, plus a stated method for offsets or reductions. The policy has no carbon neutral row, so I can't pass it.\n\n**House style:** No banned words or obvious AI tells in the text. \"Here's how we checked.\" is a teaser that leads into nothing, and it would have to go with the carbon claim.\n\n**Disclosure:** Not an ad, sponsorship or affiliate piece, and nothing here suggests AI-generated imagery or text that needs a label. Pass.\n\n**Fixed:** Nothing changed yet. I won't invent evidence for the carbon claim, and the fix changes the copy's meaning, so it's your call.\n\n**Needs a decision**\n1. **Carbon neutral:** My suggestion is to cut it. Suggested version:\n   > We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable.\n\n   If you do want to keep the claim, send the certification or calculation behind it, with its scope, date and method, and have it added to the policy's claims list. Then I'll re-check it, and the wording will probably need narrowing to what the evidence covers.\n2. **\"Here's how we checked.\":** Remove it with the carbon claim. If you want it to introduce a real explanation of how you verified the compostability, I need that content first.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the final wording. Approval of this draft doesn't carry over to the revised one. I haven't recorded any approval, and the draft is not cleared to publish.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014857200000000003,
+ "seconds": 16.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

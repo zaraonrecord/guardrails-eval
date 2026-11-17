@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "afbc31182eba9d842317620654547f96b62199aba0cbce8b9651dc92e1eaa9ae",
+ "result": "**Review of the landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** matches the allowlist.\n- **\"free UK delivery on orders over £25\"** matches the allowlist.\n- **\"means most boxes ship free\"** is the problem. Nothing in the brand policy says what share of orders clears £25. The wording implies a statistic about order values that we can't back up. Whether most orders qualify depends on actual basket data, and the claim is also loosely phrased (\"boxes\" when the policy mentions tins and tea bags). Either remove it or replace it with the plain, supported fact, for example: \"Free UK delivery on orders over £25.\"\n\nSuggested fix: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free on UK orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007301299999999998,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

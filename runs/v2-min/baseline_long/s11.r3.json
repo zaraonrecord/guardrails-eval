@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3e9b1f6bd5f2560afc9d502c2aab6ffa4c0f186a0c73bac82bc5fdfdf85975f0",
+ "result": "**Review: social ad (own account)**\n\n- **Claims:** \"Free UK delivery on orders over £25\" is on the approved list and matches the threshold exactly.\n- **Product description:** \"Builder's, Earl Grey and a peppermint for after lunch\" is product description and fine as written.\n- **Scarcity wording:** \"while stocks last\" is a stock-scarcity phrase. The brand policy approves free delivery over £25 with no stock condition, and nothing shows that stock is limited or that the offer ends when stock runs out. It reads as pressure to buy now and could mislead, because the free delivery offer is a standing term. **Fix:** delete \"while stocks last\".\n- **Label:** this is the brand's own account, so no \"Ad\" label is needed.\n- **Tone:** the copy is specific and has a clear voice. I found no clichés or filler.\n\n**Decision:** hold until \"while stocks last\" is removed. Once that's fixed, it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0081265,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

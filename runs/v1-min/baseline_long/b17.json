@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "698a5e822813ccc253ff34155d3e0846172708dac7799237425a43826bb70c0b",
+ "result": "I read the draft as a subscriber would, sentence by sentence.\n\n- \"the Christmas blend is back\": a product fact about a new arrival or return, which the policy allows as written.\n- \"Black tea, orange peel, cinnamon and a little clove.\": ingredients, also fine as written.\n- \"It's back in the shop from today.\": an availability statement, not a scarcity or urgency claim. There is no \"limited stock\" or \"while it lasts\" wording. It needs to be true on the send date, which is a factual check for the team rather than a copy problem.\n\nThere are no statistics, superlatives, health claims, green claims, guarantees, testimonials, or paid or affiliate content. The tone is plain and specific, with no AI clichés or hype. It's short, but that suits a \"quick one\" newsletter, and it contains no promises that need terms.\n\nThe only thing to confirm is that the blend is actually on sale today. Otherwise it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077705000000000005,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

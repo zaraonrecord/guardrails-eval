@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "5f11cc87d31393f3c5e27eb19de3d492116e1e466071bd3fe77722a468fa08f1",
+ "result": "**Not ready to publish.** Two claims aren't on the allowlist and have no source in this chat.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Tea that's easy to stop and start.\" | Soft wording that rests on the pause/cancel policy. OK. |\n| \"Most subscribers stay with us for over a year.\" | **Unsupported.** This is a retention statistic, and none is on the allowlist or was supplied. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n| \"means most boxes ship free\" | **Unsupported.** It implies most orders exceed £25, which is an order-value statistic we don't have. The allowlist only backs the £25 threshold. |\n\nThere are no ban-list words or structural problems. The opening line is a bit vague, but it isn't a compliance issue.\n\n**Suggested compliant version**\n\n> Tea that's easy to stop and start. Pause or cancel your subscription any time. Delivery is free across the UK on orders over £25. [PROOF NEEDED: subscriber retention figure, if you want a \"stay with us\" claim]\n\nIf you can supply a sourced retention figure, we can restore the claim with the exact number. The \"most boxes ship free\" line should go entirely unless you have data on order values.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010463200000000002,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

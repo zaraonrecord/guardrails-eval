@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c5b54db1f33c777e85e671aa1e9e530236ea18e3cd25a6bc21a365e550b0845c",
+ "result": "**Review: social ad (own account)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer\" | Product/offer framing, no factual claim |\n| \"Builder's, Earl Grey and a peppermint for after lunch\" | Product facts, fine as written. \"After lunch\" is a serving suggestion, not a digestion or health claim. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording matches the shipping policy |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials:** none.\n- **Health claims:** none. The peppermint line doesn't say it aids digestion or anything similar.\n- **Green claims:** none.\n- **Urgency:** none.\n- **Disclosure:** none required. Paid social from our own account is marked by the platform.\n- **Voice:** warm, plain, unhurried. No banned words, no em-dashes, no exclamation marks, no rhetorical opener.\n- **UK spelling:** nothing to flag.\n\n**Before it goes out**\n- Make sure the landing page also states the free delivery over £25 offer.\n- Sam needs to approve it, as with all public content.\n- No character limit was given, so I haven't counted against one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009439900000000001,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

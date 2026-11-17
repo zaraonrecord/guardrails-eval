@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "06dbded4abe38b0e5c40c407b156615cd1249631e279401a326ecf6b4578e891",
+ "result": "**Review: Chamomile and Lemon Balm product page**\n\n**Problems**\n\n1. **\"reduces anxiety and helps you sleep\"**: This is a health claim. Reducing anxiety and aiding sleep are effects on the body and mind, and nothing in the brand policy authorises them. Fix: describe the experience instead, e.g. \"a calming blend for your evening cup\" or \"a gentle blend to wind down with\".\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\": on the approved claims list.\n- \"20 plastic-free tea bags\": plastic-free is approved, and pack size is a product fact.\n- \"caffeine-free\": a product fact about ingredients, fine as written.\n- \"gentle, honeyed\": flavour description, fine.\n- No clichés, urgency, superlatives or pricing issues.\n\n**Decision:** Hold. Once the health claim is replaced with a description of the experience, the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008254500000000001,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

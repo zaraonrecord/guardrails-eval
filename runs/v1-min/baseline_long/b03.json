@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "Review of the search ad (headline and description):\n\n- \"Organic Loose Leaf Tea\": the brand sells loose leaf tea and is certified organic by the Soil Association, so this is supported.\n- \"Certified organic by the Soil Association.\": on the approved claims list.\n- \"Free UK delivery on orders over £25.\": on the approved claims list, and the £25 threshold is stated right next to the offer, as it should be.\n\nThere are no superlatives, health claims, green claims, guarantees, urgency or scarcity wording, invented numbers, or testimonials. The copy is plain and specific, with no AI clichés or filler. Nothing needs an \"Ad\" label beyond the search platform's own ad marking, since this is a brand-run search ad.\n\nOne optional note: \"Organic Loose Leaf Tea\" and \"Certified organic\" repeat the idea of organic, but that is normal for a short search ad and doesn't need changing.\n\nVerdict: it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078785,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

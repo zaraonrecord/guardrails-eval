@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "eacf5e40b66681e7dbdaa724d31e0324d2cc9c1e7ef3ed5475e189c6957ab1f1",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": matches the approved claim exactly, and the source (our website) is stated. Fine.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower\": ingredient fact, allowed as written.\n- \"a rainy Sunday pot is everything\": mood/lifestyle language, not a claim.\n\n**Labels:** Brand-owned account, no paid placement or creator involved, so no \"Ad\" label needed.\n\n**Style**\n- \"In today's fast-paced world\" is a stock AI-style opener. It says nothing specific and has no connection to the rest of the post. Cut it. Per the checklist, formulaic filler like this means the draft should be held until fixed.\n- The post is short, so there's no repetition problem. \"Is everything\" is slightly vague but acceptable as voice.\n\n**Suggested fix:** Start with the rainy Sunday itself, e.g. \"A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n**Decision:** Hold until the opening cliché is replaced. Everything else can stay.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094785,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

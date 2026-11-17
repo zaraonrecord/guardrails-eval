@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc041685bda32ad27b9b49ea6041be92542b4668dd0e680d5cbaf16906cfeedb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem:** \"most boxes ship free\" implies that most orders or subscriptions exceed £25. Nothing in the policy backs that up. I have no order-value data or subscription prices, so this is an invented proportion. It also says \"boxes\" when the policy describes tins and tea bags, so the wording may not match the product.\n\n**Suggested fix:** state the delivery fact as written and drop the inference:\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf the team can show that most subscriptions are over £25, that figure and its source would need to be added to the allowlist first.\n\n**Other checks:**\n- No banned voice words, no health, green or urgency claims, and no superlatives or guarantees.\n- No disclosure is needed, since this is our own landing page.\n- UK spelling is fine.\n- Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109639,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

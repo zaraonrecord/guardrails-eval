@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "04237fceb3f2f219462023db2cc1ae41af85c508a891e1c15884c8fa194bc9c8",
+ "result": "**Copy check: clear to publish**\n\nClaims list:\n\n| Claim | Status |\n|---|---|\n| \"Rainy Sunday, second pot.\" | Not a claim. Mood-setting. |\n| \"Our Earl Grey uses real bergamot oil and a little cornflower.\" | Product fact (ingredients), fine as written. |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" | Allowlisted. It matches the policy wording, including the source (\"on our website\"). |\n\nOther checks:\n- **Ban list and structure:** no banned words, no exclamation points, no rhetorical-question opener, no em-dash sandwiches, no \"not just X, it's Y\".\n- **Superlatives, guarantees, urgency:** none.\n- **Testimonials or customer names:** none.\n- **Regulated territory:** no health, money, legal or environmental claims.\n- **Disclosure:** this is the brand's own account, with no affiliate links, gifted products or sponsorship, so nothing needs declaring.\n- **Opening line:** \"Rainy Sunday, second pot.\" is scene-setting rather than a fact. That suits an Instagram caption and doesn't need changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009449299999999999,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "I checked each sentence against the claims allowlist and the checklist.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: This matches the approved claim \"Founded in Bristol in 2019\" (Companies House).\n- **\"because we couldn't find tea bags without plastic in them\"**: This is a founder-story reason, not a product or performance claim. It doesn't contradict anything in the policy.\n- **\"Our tea bags are plastic-free and home compostable\"**: This matches the approved claim, backed by the EN 13432 supplier certificate. It stays specific to the tea bags and doesn't stretch to tins or other packaging.\n- **\"here's how we checked\"**: This is a lead-in to the rest of the post. The blog body isn't in front of me, so that part needs its own review. The intro itself makes no extra claim.\n\n**Other checks**\n- **Health claims, superlatives, guarantees, urgency, invented numbers:** none present.\n- **Labels:** this is a brand-owned blog, so no \"Ad\" label is needed, and there are no affiliate links or creator content.\n- **Voice:** it's warm, plain and unhurried. It uses no banned words and no AI clichés. The spelling raises no UK-English issue.\n\nNothing needs changing, so it can go to Sam for the usual sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087593,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

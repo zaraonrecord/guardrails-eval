@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7bee168436f0c531442694ac58c7734424f4afddb7e69d11862c277f613859fb",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea\" | Product fact, fine (loose leaf, monthly subscription) |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- No invented stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency.\n- No banned vocabulary or structural slop. No exclamation points, rhetorical-question opener, or em-dash asides.\n- Nothing here trips ad platform policy.\n\n**Notes (not blockers)**\n- Make sure the landing page also states the pause/cancel terms and the £25 free-delivery threshold, since an ad shouldn't make a claim the page doesn't.\n- No character limit was given, so I haven't enforced one. The description is 102 characters by my count. If this is going into Google Search, which typically caps descriptions at 90, it will need trimming. One option is dropping \"Monthly loose leaf tea.\" or shortening the delivery line.\n\nThe copy is compliant and can go out, subject to the landing page matching and the length check for your platform.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0130323,
+ "seconds": 18.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

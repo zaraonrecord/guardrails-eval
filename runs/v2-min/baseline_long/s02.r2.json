@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d83795b001427fc08388b4d6f008b32d3cf01d7031c501c2df41a1f08a76362b",
+ "result": "Review of the landing hero draft:\n\n**Sentence by sentence**\n\n1. \"Tea that's easy to stop and start.\" This is description and supported by the pause/cancel policy. Fine.\n\n2. \"Most subscribers stay with us for over a year.\" This is a retention statistic. It is not in the brand's approved claims, and there is no evidence shown. Treat it as an unsupported, invented stat. Fix: remove it, or supply the retention data and its source and date before using it.\n\n3. \"Subscribers can pause or cancel any time\" is approved.\n\n4. \"free UK delivery on orders over £25 means most boxes ship free.\" The free delivery threshold is approved. But \"most boxes ship free\" is an extra claim about order values that isn't backed by anything. It implies most orders exceed £25, which we have no data on. Fix: drop \"means most boxes ship free\" and state the threshold plainly: \"Free UK delivery on orders over £25.\"\n\n**Style:** The copy is short and fairly plain. The first line is OK. No clichés.\n\n**Decision:** Hold. Two unsupported claims need fixing before it goes out.\n\nSuggested rewrite: \"Tea that's easy to stop and start. Pause or cancel your subscription any time, and get free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0076034,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

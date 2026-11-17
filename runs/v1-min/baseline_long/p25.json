@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "199f056af2edfb2050ea6f6f81c15a357523a640ec7d2393798a2a5699709022",
+ "result": "**Review of the Instagram draft (own account)**\n\nSentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Mood and description. Fine.\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product ingredient fact, which the policy allows as written. Fine.\n3. \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" This is a number, and it doesn't match the approved claim. The brand can back up \"rated 4.8 out of 5 from over 1,200 reviews on our website\". Both the rating (4.9 vs 4.8) and the review count (over 5,000 vs over 1,200) are inflated against the approved figures. That is an unsupported statistic.\n\nLabels: it's the brand's own account, so no \"Ad\" label is needed. Tone: short and natural, with no clichés.\n\n**Fix:** Change the last sentence to \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Or drop it. Once corrected, the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087485,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

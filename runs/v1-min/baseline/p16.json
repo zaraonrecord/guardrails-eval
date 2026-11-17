@@ -1,10 +1,14 @@
 {
  "case": "p16",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the newsletter draft**\n\n**Fine as written**\n- \"The Christmas blend is back. Black tea, orange peel, cinnamon and a little clove.\" These are product facts (ingredients, new arrival), which the policy allows.\n- \"It's back in the shop.\" This is fine, though it repeats \"is back\" from the first sentence. It's a small style point and doesn't block publication.\n\n**Needs checking or changing**\n- \"Today only: 30% off, ends at midnight.\" Nothing in the brand policy or claims allowlist covers a 30% discount or a midnight deadline. If this is a genuine one-day promotion with a real cut-off, it's fine, but I can't confirm that from what I have. If the offer will actually run longer, or the deadline will be extended or repeated, the countdown is false urgency and could breach UK consumer rules on misleading pricing and promotions. Before this goes out, confirm:\n  - the 30% discount is approved and applies to the Christmas blend (or state what it applies to);\n  - the offer genuinely ends at midnight tonight (17 November 2026) and won't be extended;\n  - the draft says which products are included and any exclusions, such as whether it covers subscriptions.\n\nBecause the offer and deadline aren't backed by the allowlist, I'm holding this until they're verified.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
- "cost_usd": 0.012896,
- "seconds": 10.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "178437d0ac3b2b4ec212fee6bf5fc378ea08c1f52628f2c24d0d2ad244d21395",
+ "result": "**Review of the newsletter draft**\n\n- **Product facts:** \"Black tea, orange peel, cinnamon and a little clove\" and \"the Christmas blend is back\" are product facts and new arrivals, so they're fine as written.\n- **Offer and deadline:** \"Today only: 30% off, ends at midnight.\" Neither the 30% discount nor the one-day deadline is in the brand policy's list of claims we can back up. I can't confirm there's a real promotion with a hard cut-off. If the discount isn't genuinely ending tonight, this is fake urgency, and in the UK it risks being a misleading time-limited offer. Before it goes out, someone needs to confirm that the 30% is live and that it really ends at midnight, and the email should state the end date and time. If that can't be confirmed, remove the deadline wording.\n- **Minor wording:** \"back\" and \"back in the shop\" say the same thing twice. This is a style point, not a blocker.\n- **Other checks:** There are no invented stats, superlatives, guarantees, testimonials, health claims or green claims.\n\nVerdict: hold until the offer is verified.\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013294,
+ "seconds": 11.7,
  "models": [
   "claude-sonnet-5-5"
  ]

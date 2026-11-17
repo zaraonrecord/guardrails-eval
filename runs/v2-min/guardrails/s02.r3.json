@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "800959cd4d42d26eb7506287928c4786d996ca3d98d6d849639f830853f9b6c4",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy, Pebblebrook Tea Co., UK audience.\n\n### Checks\n\n**Claims**\n\n| Claim | Status |\n|---|---|\n| \"Most subscribers stay with us for over a year.\" | **Unproven.** It isn't on the policy list or sourced in this chat. It's a retention statistic and has to come out or be backed. |\n| \"Subscribers can pause or cancel any time\" | On the policy list. |\n| \"free UK delivery on orders over £25\" | On the policy list. |\n| \"means most boxes ship free\" | **Unproven.** The policy backs the £25 threshold, not how many orders clear it. It's an implied statistic about order values. |\n\n**Regulated claims:** The free delivery offer carries a condition (over £25), and the draft states it. The \"most boxes ship free\" line stretches that offer beyond what we can show, so it goes.\n\n**House style:** Reads plainly and fits the brand. I found no banned words or AI tells. The opener \"easy to stop and start\" is fine.\n\n**Disclosure:** The copy is on the brand's own page, with no sponsor, affiliate or AI-label issue. Nothing is needed.\n\n### Fixed\n- Removed \"Most subscribers stay with us for over a year.\" There is no source. If you have retention data, send it and I'll add it to the evidence log and policy.\n- Removed \"means most boxes ship free.\" The policy doesn't support it.\n\n### Suggested copy\n> Tea that's easy to stop and start. Pause or cancel your subscription any time, and enjoy free UK delivery on orders over £25.\n\n### Needs a decision\n1. Do you have a source for the retention claim, such as a dated internal report? If so, share it and I'll reinstate a precise version (for example, a stated percentage and time window).\n2. The policy names no approver. Who will approve the final copy? I need a named person's explicit yes on this exact text before it goes live.\n\n**Approver:** not named in the policy. Please confirm who it is.\n\nThe original draft shouldn't be published as written.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0144513,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

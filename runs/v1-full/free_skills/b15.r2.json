@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c957ff580c5ce5c02b2cccb5301d984a48ef8dbbf607e54439921344781577a2",
+ "result": "**Not ready to publish.** Three things need fixing or confirming.\n\n**Product label (needs your answer)**\n- Pebblebrook isn't labelled as Owned, Tried or Wishlist. The draft makes hands-on claims (\"I've tried four tea subscriptions\", \"easiest to pause\", \"the tins are lovely\"), and I can't assume you've used it.\n- If you've actually used it, say how and for how long. If you haven't, the hands-on lines have to go.\n- Is this a gifted or paid product? If so, the post must start with \"Gifted\" or \"Ad\" before anything else.\n\n| Product | Label | Hands-on claims |\n|---|---|---|\n| Pebblebrook subscription | **Not given** | \"easiest to pause\", \"the tins are lovely\" (held until confirmed) |\n\n**Affiliate disclosure is in the wrong place**\n- \"(Affiliate link)\" sits next to the link, which meets our brand wording. But the review rules also require a plain-words declaration at the top of the post, before the first link. The draft opens straight into the review with none.\n- Suggested opener: \"This post contains an affiliate link, which means I may earn a commission if you subscribe.\"\n\n**\"Easiest to pause\" is a superlative**\n- It ranks Pebblebrook against three other subscriptions you haven't named, and we don't make superlatives we can't prove.\n- It's only usable as your own opinion if you really tried all of them, and even then it's best stated factually.\n- Compliant version: \"Subscribers can pause or cancel any time, and I found pausing straightforward.\" This works only if it's true.\n\n**Claims check**\n- \"Four tea subscriptions this year\": unverifiable personal experience. Keep it only if true.\n- \"Tins are lovely\": opinion, fine if Owned or Tried.\n- \"Easiest to pause\": cut or rewrite as above.\n- No invented stats, health, green or urgency claims, and no banned words.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018544599999999998,
+ "seconds": 17.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "050327f34faf102e4fc73c2d88731c4a9617643e2876f7b11a6fd4d64377b884",
+ "result": "I found nothing that needs changing before this goes out.\n\n- **Origin and visit:** The Darjeeling garden and the team visit fall under product origins and team facts, which the policy allows as written.\n- **Picking and flavour:** \"Picked in March\" and \"bright and floral\" are product facts about harvest and flavour, so they are fine. They are descriptive, not superlatives or health claims.\n- **Availability:** \"In the shop from Monday\" is a new-arrival announcement. It gives a real date and applies no pressure such as scarcity or a countdown, so it isn't fake urgency.\n- **Other risk areas:** There are no invented stats, guarantees, testimonials, health or green claims, or missing disclosures.\n\nOne practical check outside the copy: confirm that \"Monday\" matches the actual launch date and the newsletter send day, so the wording isn't ambiguous.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070157,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

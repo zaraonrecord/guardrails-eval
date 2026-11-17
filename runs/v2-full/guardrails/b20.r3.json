@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "035274b588017db4d56c5da0357ba049d78919f970a2c406bc874d7b7a94492c",
+ "result": "## Publish gate report\n\n**Going out:** Google-style search ad (headline + description), UK, to people searching for tea subscriptions. No schedule was given.\n\n**Checks**\n- **Claims:** Both claims match the policy list word for word.\n  - \"Subscribers can pause or cancel any time\" matches the subscription terms row.\n  - \"Free UK delivery on orders over £25\" matches the shipping policy row.\n  - \"Monthly loose leaf tea\" is a product fact, fine as written.\n  - There are no stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** Nothing on health, environment, children or price claims. The delivery offer has a clear threshold and no fake deadline. Pass.\n- **House style:** The tone is plain and matches the brand voice. It has no banned words and no AI tells. Score is about 90 out of 100, and no rewrite was needed.\n- **Disclosure:** This is a paid ad from our own account, and the platform marks it as an ad. The policy requires no extra label. Pass.\n\n**Fixed:** Nothing. I made no changes.\n\n**Needs a decision:** One practical point, not a policy issue. The description is about 102 characters. Google search ad descriptions are usually capped at 90, so the platform may reject it. If it does, the shorter version below keeps both policy-approved claims. Any edit means a fresh check and approval for the new wording.\n> Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\n\nThat version has not been checked or approved. The first claim is also reworded from the policy's \"Subscribers can pause or cancel any time\", so please confirm it is acceptable.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam gives an explicit yes to this exact wording. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013889499999999999,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

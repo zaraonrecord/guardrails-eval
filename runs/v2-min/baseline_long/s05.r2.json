@@ -1,0 +1,15 @@
+{
+ "case": "s05",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "732816593fdef031d2f55da07ab9ee683f1fae7c52e68678a4a69da72c69ab2f",
+ "result": "**Review of the search ad (headline and description)**\n\n- **\"Tea Subscription UK\"**: Descriptive keyword headline. No problem.\n- **\"Monthly loose leaf tea.\"**: Product fact, which the policy allows as written.\n- **\"If your box isn't right, we'll make it right.\"**: This is a soft, implied guarantee. A customer could reasonably read it as a promise of a replacement or refund. The brand policy approves no returns, remedy or satisfaction promise, and the ad gives no terms (what \"right\" means, the time limit, refund or replacement). Short search copy is no excuse for leaving this out. Either remove it or replace it with an approved claim, such as \"Pause or cancel any time.\" If the business does stand behind a remedy, add the real terms and get the policy updated first.\n- **\"Free UK delivery on orders over £25.\"**: This matches the approved claim exactly, and the threshold is stated next to it. No problem.\n\nNo style clichés, health, green, urgency or superlative issues. The one blocker is the unbacked promise, so the ad should be held until it is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0079405,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

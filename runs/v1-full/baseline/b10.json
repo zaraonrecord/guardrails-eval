@@ -1,10 +1,14 @@
 {
  "case": "b10",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims allowlist:** \"Certified organic by the Soil Association\" matches the approved wording exactly. \"Plastic-free tea bags\" is covered by the plastic-free claim, and the draft doesn't add anything beyond it.\n- **Product facts:** \"Caffeine-free\", \"honeyed\", the ingredients and the \"20\" bag count are product-team facts and fine to use as written.\n- **Health claims:** \"Gentle\" and \"for the evening\" describe taste and when to drink it. The draft says nothing about sleep, calm, relaxation or any other effect on the body.\n- **Superlatives, guarantees, stats, urgency and testimonials:** none are present.\n- **Environmental claims:** there are no general \"eco-friendly\" or \"sustainable\" claims.\n- **Voice:** it is plain, warm and short. It uses no banned words or phrases, and the spelling is UK.\n- **Disclosures:** none are needed, because this is our own product page and not a creator post or affiliate link.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0106301,
- "seconds": 9.2,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "84e94cf254c1e9f4c374204109136d8021d650c1fcd779cad2bac3621815d6e4",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Certified organic by the Soil Association\" matches the allowlist wording exactly. \"Plastic-free tea bags\" is also on the allowlist. I didn't add \"home compostable\", and it isn't needed here.\n- **Product facts:** The blend name, \"caffeine-free\", \"honeyed\" and \"20 tea bags\" are product facts the product team checks, so they're fine as written.\n- **Health claims:** \"For the evening\" only suggests when to drink it. It doesn't say the tea helps with sleep, relaxation or calm, so it stays on the right side of the line. Don't add wording like \"soothing\" or \"helps you unwind\" without checking it against the policy.\n- **Other banned content:** There are no superlatives, guarantees, invented numbers, testimonials, urgency or environmental claims beyond section 2.\n- **Voice and spelling:** The tone is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- **Disclosures:** None are needed on our own product page.\n\nPer section 6, Sam still needs to approve this before it goes live, as with everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009194399999999998,
+ "seconds": 9.5,
  "models": [
   "claude-sonnet-5-5"
  ]

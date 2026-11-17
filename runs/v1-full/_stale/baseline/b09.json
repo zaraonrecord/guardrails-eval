@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\"** (headline): matches the allowlisted claim that the tea bags are plastic-free. The headline leaves out \"home compostable\", but it doesn't overstate anything.\n- **\"Our tea bags are plastic-free and home compostable.\"**: exact wording from the claims table, backed by the supplier certificate (EN 13432).\n- **\"Founded in Bristol in 2019.\"**: exact wording from the claims table, backed by Companies House.\n- **Voice**: plain and warm enough for a search ad, with no banned words, no superlatives, no guarantees, no health claims, no urgency and no invented numbers. There is no UK spelling issue.\n- **Disclosure**: this is a search ad from our own account, so no \"Ad\" or \"Gifted\" label applies.\n- **Approval**: all public content needs Sam's sign-off (marketing lead) before it goes live.\n\nI found nothing that needs changing. It can go to Sam for approval and then be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078741,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

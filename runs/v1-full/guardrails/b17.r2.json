@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6e66a473d6f3b51339270b1fa41218d2ff3e55d6219ba8f8597fb428615c2608",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter announcing the Christmas blend is back in the shop, sent to the subscriber list. No send time was given.\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or superlatives. The ingredients (black tea, orange peel, cinnamon, clove) and the \"back in the shop from today\" availability are product facts, which the policy allows as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. The blend has no health or \"festive wellbeing\" angle.\n- **Urgency:** \"From today\" says when the blend is available. It has no countdown, scarcity or deadline, so it is not fake urgency.\n- **House style:** The copy is warm, plain and unhurried. It has no banned words, no AI tells and uses UK spelling. I'd score it about 92 and made no rewrites.\n- **Disclosure:** This is our own newsletter with no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. The draft is clean as written.\n\n**Needs a decision:** Nothing is unresolved. One check for the team: \"back in the shop from today\" is only true if the blend is live on the site when the newsletter sends. If the send time or the launch might slip, change it to the real date.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text. If the wording changes, it needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009598599999999999,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

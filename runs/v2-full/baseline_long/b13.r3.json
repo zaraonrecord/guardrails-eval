@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9f5f1cd697400e4fc241b009c8dfbf09a9997536a03d388c88dbc492e66a04d0",
+ "result": "**Review of the paid creator post**\n\n- **Label:** The post opens with \"Ad\", before anything else, as the brand policy requires for paid partnerships. The label is clear and prominent.\n- **Claims:** \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol\". \"Assam\" is a product fact, and \"which I love\" is clearly personal opinion.\n- **Health:** \"My afternoon reset\" and \"ten minutes away from my phone\" describe an experience and a routine. They don't claim any effect on the body.\n- **Numbers, superlatives, guarantees, urgency, green claims:** None appear.\n- **Voice:** The tone is warm, plain and unhurried. It uses none of the banned words, such as \"elevate\", \"unlock\", \"journey\" or \"indulge\", and has no AI clichés. The spelling is consistent with UK English.\n\nNothing needs changing, so the post can go out. Under the brand's approval table, Sam still signs off on all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080171,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1ef7c9e2a3e9245123d7922db95b8671141abb9bdfa7d82fb5974b2998060870",
+ "result": "**Hold: one unsupported claim.**\n\n**Problem**\n- \"As always, it ships within 24 hours of your order.\" This is a service promise (dispatch speed), and it isn't on the brand's approved claims list. The policy covers free UK delivery over £25 and pause/cancel any time, but nothing about dispatch times. \"As always\" also presents it as a standing guarantee. Remove it, or publish it only once the team can show it is the real, consistent dispatch standard. A safe replacement is simply \"Your subscription box left Bristol this morning.\"\n\n**Checked and fine**\n- \"left Bristol this morning\" is an operational statement consistent with the Bristol base.\n- \"you can pause or cancel any time from your account\" matches the approved subscription claim.\n- \"a smoky lapsang and a soft white peony\" is product description.\n- The tone is plain and specific, with no clichés or hype. It's a brand-owned transactional email, so no ad label is needed.\n\n**Check before sending (not flagged)**\n- The subject says \"October tins\" and \"This month\", but today is 17 November. If this is a November dispatch, the subject is stale and misleading. Confirm the month.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012548499999999999,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

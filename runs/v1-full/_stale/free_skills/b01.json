@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: no claims problems. It can go out once Sam approves it, since all public content needs his sign-off.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"packed by hand in Bristol\" (both mentions) | Allowlisted: \"Every tin is packed by hand in Bristol\" |\n| \"certified organic by the Soil Association\" | Allowlisted: certificate on file, renewed 2026 |\n| \"Free UK delivery on orders over £25\" | Allowlisted: shipping policy |\n\n**Other checks**\n- Superlatives, guarantees, health claims, green claims, invented numbers, testimonials and fake urgency: none.\n- Banned words (elevate, unlock, journey, indulge, etc.) and structures (em-dash asides, exclamation points, rhetorical openers, \"not just X, it's Y\"): none.\n- Disclosure: not needed for our own landing page.\n- Spelling: UK, no issues.\n\n**One optional edit, not a blocker:** \"packed by hand in Bristol\" appears twice in three sentences. Slop-guard rule 4 says to keep the sharper one. A tighter version using only allowlisted claims:\n\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nHere \"Every tin\" replaces \"our tea\" so the organic claim stays close to the allowlist wording. If you'd rather keep the original wording, it's still compliant.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.030719999999999997,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6648003fb820da800778906640ee0443561907c6938234efd35948b6ddcca9cc",
+ "result": "**Publish gate report: newsletter, Pebblebrook Tea Co. (UK)**\n\n**Going out:** a newsletter item announcing the Darjeeling first flush, in the shop from Monday.\n\n**Checks**\n- **Claims:** One problem.\n  - \"Our customers tell us it's the only tea they drink now\" is an unsourced customer testimonial. It isn't on the policy's claims list, nothing in this chat sources it, and there's no record of customer permission. It also works as an \"only tea\" superlative. It has to be removed, or the user has to supply the real quote and permission.\n  - The garden visit, March picking, bright and floral taste, and \"in the shop from Monday\" are product facts or new arrivals, which the policy allows as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. No issues.\n- **House style:** The copy is plain and specific, with no banned words or obvious AI tells. No issues.\n- **Disclosure:** It's the brand's own product in its own newsletter, with no sponsor, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing changed yet. This is the suggested replacement, pending your decision:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n**Needs a decision:**\n1. Drop the customer line (my suggestion), or provide a real, attributable customer quote with their permission on record.\n2. Confirm \"from Monday\" is the actual launch date.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on the final text. Once you approve it, I can retry the send.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013391300000000002,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

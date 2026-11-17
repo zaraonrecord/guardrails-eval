@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "87979776fbe7f1a2bd288b4e9cb4d4a2e493d7444bd6e65f8854dc88e75363c2",
+ "result": "**Review of the sencha email**\n\nRead as Tom would: a short product announcement email. The subject line is accurate and not misleading. Sender details are just the team sign-off, which is fine.\n\nSentence by sentence:\n\n- \"We've added a Japanese sencha to the shop.\" New arrival and product fact. Allowed.\n- \"It's grassy, a little sweet\" is flavour description. Allowed.\n- \"packed with antioxidants\" is a soft health/nutrition claim. The policy doesn't list it as approved, and the checklist treats softer wellbeing claims as needing authorisation or evidence. It's also a bit of hype (\"packed with\"). Fix: cut it, or replace with flavour description, e.g. \"grassy, a little sweet, with a clean finish.\"\n- \"best brewed cooler than you think, around 70 degrees\" is a brewing fact. Allowed. Minor polish: \"70°C\" would be clearer than \"70 degrees.\"\n\nStyle: short and in a human voice, with no AI clichés. No urgency, guarantees, comparisons, reviews or disclosure issues. Only one problem needs fixing.\n\n**Decision:** Hold until the antioxidant claim is removed or reworded. After that, it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0071829,
+ "seconds": 19.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

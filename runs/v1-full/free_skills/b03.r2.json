@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e3faf8df8c2c19903787a96d09f05053377592469f864380352d4765aa7606e1",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Product fact (loose leaf) plus organic, which is backed by the Soil Association certification. Allowlisted. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. Certificate renewed 2026. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording. Shipping policy. |\n\n**Other checks**\n- Superlatives, guarantees, health claims, green claims, urgency, invented numbers: none.\n- Banned words (elevate, unlock, journey, etc.): none. No exclamation marks, rhetorical openers, or em-dashes.\n- Disclosure: this is a paid social/search ad from the brand's own account, so no \"Ad\" label is needed in the copy itself.\n- Landing page consistency: the ad makes the organic certification and free delivery claims, so the landing page must also state both. I can't verify the page from here, so confirm that before it goes live.\n- Character limits: none given. For reference, the headline is 24 characters and the description is 85 characters. Google RSA limits are 30 for headlines and 90 for descriptions, so both fit if that's the format.\n- Approval: Sam (marketing lead) needs to sign off on everything public.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007405500000000001,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

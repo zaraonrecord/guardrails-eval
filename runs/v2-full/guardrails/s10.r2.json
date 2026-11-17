@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "da38f0664c8b5d00cb02f72ba058493ac005cd552ec1dc33f8d1255d1a0ad6b2",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post, Pebblebrook's own account. Timing wasn't given.\n\n**Checks**\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" matches the policy row exactly (EN 13432 certificate). The tin colours, gold lettering and winter arrival are product facts, so they're fine. **\"planet-friendly packaging\"** is not on the list. Section 3 bans environmental claims beyond section 2, and nothing in the policy supports a broad claim about the tins' packaging.\n- **Regulated claims (environment):** \"planet-friendly\" is the kind of vague green claim regulators challenge most. It needs to be removed or replaced with a specific, evidenced fact. We have none for the tin or outer packaging.\n- **House style:** There are no banned words and the tone is warm and plain. \"Plastic-free\" appears twice in quick succession, which reads as padding. Score about 80 before, about 92 after the fix.\n- **Disclosure:** Not needed. It's our own account, with no creator, affiliate link or gifted product.\n\n**Fixed (suggested wording)**\n- Removed \"planet-friendly packaging\".\n- Merged the repeated plastic-free line.\n\n> New tins just landed for winter. Deep green with gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\n\n**Needs a decision**\n- If the team has evidence for a specific claim about the tin (for example, it's recyclable), send me the source and I'll add it. Otherwise I'd leave it out.\n\n**Approver:** Sam (marketing lead). No approval has been recorded for this content. The original draft shouldn't go out as written, and the revised version needs Sam's explicit yes before publishing.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | IG winter tins | Our tea bags are plastic-free and home compostable | On policy list | Supplier certificate (EN 13432) |\n| 2026-11-17 | IG winter tins | planet-friendly packaging | Unproven, removed | None |\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0168315,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

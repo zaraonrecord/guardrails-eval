@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "dc2cf7f42fa36d2b958e139ee25b5dc964aee059b536642a25cb4866c87067fb",
+ "result": "The draft is clean, so it can go out as written.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | New arrival, allowed as written under product facts |\n| \"grassy and a little sweet\" | Flavour description, allowed |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, allowed. \"Best brewed\" is advice, not a superlative about the product. |\n\n**Other checks**\n- **Numbers and proof:** there are no statistics, review counts, testimonials, customer names, awards or guarantees.\n- **Regulated territory:** there are no health, environmental or money claims.\n- **Urgency:** there is no fake urgency or scarcity.\n- **Slop:** no banned words, no rhetorical-question opener, no exclamation points, no em-dashes, and no \"not just X, it's Y\" construction. The first sentence gives the useful fact.\n- **Disclosure:** there are no affiliate links, sponsorships or gifted products.\n\nOne optional tweak: \"70 degrees\" could read as \"70°C\" for clarity, though UK readers will understand it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0112123,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

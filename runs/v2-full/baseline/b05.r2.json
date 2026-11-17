@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8669edf4d73fbb55de436107dd36bf306f70b0e56d699352aa7ae8c550faeb2f",
+ "result": "Review of the draft:\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly (proof: review platform export, October 2026). Fine.\n- **Earl Grey line:** \"real bergamot oil and a little cornflower\" is an ingredient fact, which the product team checks and which is fine to use as written.\n- **Health, green, urgency, superlative, guarantee claims:** none present.\n- **Banned words:** none. The voice is warm, plain and unhurried. UK spelling is fine (no conflicting spellings).\n- **Disclosure:** this is our own account's organic post, so no \"Ad\" or \"Gifted\" label is needed. No affiliate link.\n- **Approval:** per policy, Sam (marketing lead) approves everything public, so it still needs Sam's sign-off before it goes live.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056671000000000004,
+ "seconds": 6.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

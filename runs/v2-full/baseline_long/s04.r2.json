@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1fed23930234927385dc92c6d2dd9bfedba60c8c2499e0c2b9f08203d81983ba",
+ "result": "**Review: about page draft**\n\nSentence by sentence:\n\n1. \"Pebblebrook was founded in Bristol in 2019\" – approved claim (Companies House). Fine.\n\n2. \"has become Bristol's favourite tea\" – a superlative/popularity claim with no evidence. The policy bans unprovable superlatives (\"the UK's favourite\" is named explicitly; this is the same thing at city level). Remove it. Fix: end the sentence after \"2019\", or say something factual such as \"and we sell loose leaf tea and plastic-free tea bags.\"\n\n3. \"We're a small team of six\" – team size is a product-team-checked fact and fine to use as written.\n\n4. \"every tin is packed by hand in Bristol\" – approved claim, exact wording. Fine.\n\n5. \"We buy from gardens we've visited.\" – this is a claim about sourcing practice and the company's own conduct. It is not in the approved list, and it isn't clearly covered by \"where a tea is grown and when it's picked\", which concerns product facts about origin, not the brand's visiting or buying practices. I can't see evidence that every garden has been visited. I'm flagging it as unsupported until the team confirms it (for example with a list of visited gardens), or it should be limited to specific gardens the team has actually visited.\n\nTone: warm and plain, UK spelling, no banned words. No labels needed on an about page on the brand's own site.\n\nDecision: hold. Remove the \"Bristol's favourite tea\" claim and get evidence for, or reword, the garden-visits claim.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085438,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

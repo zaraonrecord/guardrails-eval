@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "499dce71413ded83d0646a70f20ef56866270ad4c46741c26e1d3c11712a1c79",
+ "result": "**Review of the affiliate review blog draft**\n\nClaim by claim:\n\n- \"I've tried four tea subscriptions this year.\" Personal experience from the author. Opinion/anecdote, not a brand claim. Fine.\n- \"Pebblebrook's was the easiest to pause\" Personal, comparative opinion from the reviewer. It's framed as the reviewer's own experience, and the brand's policy supports that subscribers can pause or cancel any time. Acceptable as opinion.\n- \"the tins are lovely\" Opinion. Fine.\n- \"You can find it here.\" This is an affiliate link with no disclosure. Policy requires \"Affiliate link\" next to the link, and the general checklist says the disclosure must be seen before clicking, at the top or beside the link. Nothing is present. This must be fixed.\n\nStyle: short, plain, warm. No banned words. UK spelling not at issue.\n\nFix: add \"Affiliate link\" next to \"here\" (e.g. \"You can find it here (Affiliate link).\"), and preferably a disclosure at the top of the post, such as \"This post contains an affiliate link.\" If the author received the subscription free or was paid, the post must also open with \"Gifted\" or \"Ad\" as the policy requires; worth confirming with Sam.\n\nAlso, per policy, everything public needs Sam's approval.\n\nDecision: hold until the affiliate disclosure is added.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0096667,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

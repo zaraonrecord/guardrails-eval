@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0ffcfda7ded756d5ec6c4d7ddee28cb154922d7413c41871b7312d29b03183a4",
+ "result": "## Publish gate report\n\n**Going out:** Email, subject \"A new green tea\", to Tom (and presumably the list), announcing the new Japanese sencha. Send time wasn't given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The sencha's arrival, its flavour (\"grassy and a little sweet\") and the brewing temperature are product facts, which the policy allows as written. Nothing is added to the evidence log.\n- **Regulated claims:** There is nothing on health, money, legal outcomes, the environment, children or prices. No health benefits are claimed for green tea, and there is no urgency or stock language.\n- **House style:** The copy is plain, specific and short, with no stock openers, intensifiers, reversals or slogan closers. I changed nothing. The policy has no voice section, so I checked for AI tells and clarity only.\n- **Disclosure:** This is the brand's own email about its own product, so no ad, sponsor, affiliate, gifted-product or AI label applies.\n\n**Fixed:** Nothing. The draft passes as written.\n\n**Needs a decision (optional):** \"around 70 degrees\" is clear to a UK reader, but \"70°C\" would remove any doubt. This is a suggestion and doesn't block sending.\n\n**Approver:** The policy names no approver, so I need an explicit yes to this exact text from you, or from whoever you nominate, before it is sent. I haven't recorded any approval. Once you confirm, record it with the approve step using your own name, and then send. Any change to the copy after approval needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0109028,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

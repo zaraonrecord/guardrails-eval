@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6e66a473d6f3b51339270b1fa41218d2ff3e55d6219ba8f8597fb428615c2608",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter, Christmas blend back-in-stock announcement, available from today (17 Nov 2026), to the subscriber list.\n\n**Checks**\n- **Claims:** The draft makes no stats, rankings, guarantees, testimonials or comparisons. The ingredients (black tea, orange peel, cinnamon, clove) and the relaunch are product facts the product team has already checked, so they're fine as written. \"Back in the shop from today\" is a plain availability statement, not a countdown or a \"only X left\" line.\n- **Regulated claims:** No health, money, legal, environmental, children or pricing content. Nothing to flag.\n- **House style:** Warm, plain and unhurried, with UK-friendly wording. It uses none of the banned words and has no AI tells. Score is about 95, so no rewrite is needed.\n- **Disclosure:** This is the brand's own newsletter, with no sponsors, affiliate links, gifted products or AI-generated imagery. No label is needed.\n\n**Fixed:** Nothing. No changes were made.\n\n**Needs a decision:** Nothing unresolved. Please confirm \"from today\" matches the day it's sent, since the line would be wrong if the send is scheduled for later.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text. Once Sam has said yes, record it with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Christmas blend newsletter\"`\nThe approval lasts 15 minutes and covers one send.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107686,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

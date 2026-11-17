@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1de2264b55be4863d38bfbe158f14078ef2f07b3320942f120c08ba23a9a7bb9",
+ "result": "**Review: gifted creator post, Pebblebrook winter sampler**\n\n**Claims check:** The draft says the rooibos chai is \"lovely with oat milk.\" That is a personal opinion and a serving suggestion, not a factual claim. No numbers, health claims, superlatives, green claims, urgency or guarantees appear.\n\n**Disclosure:** This is the problem. The post was gifted (\"Thanks to the team for sending it over!\"), so it needs a clear, upfront label such as \"Ad\" or \"Ad – gifted\". The only acknowledgement is a thank-you at the end, which is not a prominent label and comes after the content. A reader would not know about the commercial relationship before engaging.\n\n**Style:** Short, natural and in a personal voice. No clichés or filler.\n\n**Fix:** Add a clear label at the start, for example: \"Ad | Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n**Decision:** Hold until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067735,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

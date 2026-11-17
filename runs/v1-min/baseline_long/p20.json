@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d7c4b418540f5538bb4007ead020642463bc828057393ec868716561a4a0db5a",
+ "result": "**Review: about page draft**\n\nSentence by sentence:\n\n1. \"Pebblebrook was founded in Bristol in 2019.\" Approved claim. Fine.\n2. \"We're a small team of six\" Team size is a product fact allowed as written. Fine.\n3. \"every tin is packed by hand in Bristol.\" Approved claim. Fine.\n4. \"Over 98% of our customers rate us five stars\" This is not in the approved claims. The approved rating is 4.8 out of 5 from over 1,200 reviews on our website. A 98% five-star figure is a different statistic, and it's mathematically hard to square with a 4.8 average (98% five-stars would give an average near 5.0). It's an invented/unsupported number. Fix: use \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n5. \"we buy from gardens we've visited.\" Sourcing/origin could count as a product fact, but \"gardens we've visited\" is a specific claim about the company's practices (visiting suppliers) that isn't in the policy. I can't verify it from what's provided. It is a company-practice claim, so I'd treat it as unsupported unless the team can confirm they have visited every garden they buy from. Fix: confirm and state specifically (e.g. which gardens/regions), or remove.\n\nStyle: the copy is plain and specific, with no clichés.\n\nDecision: hold. Fix the 98% figure and verify the garden-visit claim.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101805,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

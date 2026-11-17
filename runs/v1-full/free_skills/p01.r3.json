@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "54ee9dd81ea5947b39beed26f79e6a9c74f8e7296a1f2b76a1e91a6c895a3ece",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unsupported. Superlative the policy bans (\"best\"). |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026). |\n| \"Free UK delivery on orders over £25\" | Allowlisted. |\n\n**Other problems**\n- The packed-by-hand claim appears twice in three sentences. Redundant, so cut one (the sharper one is the second).\n- No ban-list words or structural slop found otherwise.\n\n**Suggested rewrite**\n\nLoose leaf tea from Bristol, with every tin packed by hand and certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThe landing page and any ad using this copy should make the same claims, and all are on the allowlist. Sam needs to approve before publishing.\n\n**Verdict:** Do not publish as is. Remove \"The UK's best\".\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067258000000000005,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

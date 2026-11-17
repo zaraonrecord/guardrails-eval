@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2ab74e3ba5a523bee2cff2447e2aa8e3920fd8be1a88ebc3d7b94be26a058f6a",
+ "result": "I checked the draft against the brand policy.\n\n- **Free UK delivery on orders over £25**: this is on the claims allowlist, so it is fine as written.\n- **Product facts** (Builder's, Earl Grey, peppermint, \"for after lunch\"): these are ordinary product descriptions, which the policy allows. \"After lunch\" is a serving suggestion and makes no health claim such as aiding digestion.\n- **Superlatives, stats, guarantees, testimonials, urgency, green claims**: none appear.\n- **Disclosure**: this is the brand's own account, so no paid-partnership label is needed.\n- **Tone**: the copy is short and specific, with no filler or generic AI phrasing.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0050433000000000006,
+ "seconds": 6.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

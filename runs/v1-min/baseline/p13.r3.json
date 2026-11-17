@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2560161cb35107bd47cccb28437a761513cb2ff12ee649ca037f1a5a686a3db5",
+ "result": "**Review of the creator post (gifted)**\n\n**Disclosure:** The draft says Pebblebrook \"sent me\" the sampler, but it has no clear label such as \"#gifted\" or \"Gifted:\" at the start. UK rules (CMA and ASA) expect gifted items to be labelled clearly and up front, and a plain mention inside the sentence can be missed. The line \"Not paid to say that\" could also leave the impression that there was no incentive at all, when a free product is a benefit. I'd add a clear \"Gifted\" label at the opening and reword that line, for example \"I wasn't paid, but the sampler was gifted.\"\n\n**Claims:**\n- \"The rooibos chai is lovely with oat milk\" is a personal opinion about flavour, which is fine.\n- There are no stats, superlatives, guarantees, health claims, green claims, or urgency.\n- It doesn't read as AI-generated.\n\n**Suggested revision:** \"#Gifted. Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. I wasn't paid to say that, I just liked it.\"\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0113772,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

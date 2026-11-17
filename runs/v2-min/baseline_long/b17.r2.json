@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "698a5e822813ccc253ff34155d3e0846172708dac7799237425a43826bb70c0b",
+ "result": "**Review of newsletter draft**\n\nRead as a subscriber: a short product announcement. Sentence by sentence:\n\n- \"the Christmas blend is back\": description of a product's return. New arrivals and product facts are fine as written.\n- \"Black tea, orange peel, cinnamon and a little clove.\": ingredients, a product fact. Fine.\n- \"It's back in the shop from today.\": availability statement, not a scarcity or deadline claim. No \"limited\" or \"while stocks last\" language.\n\nChecks:\n- Claims and numbers: none beyond product facts.\n- Superlatives, comparisons, health, green claims: none.\n- Guarantees, testimonials, urgency: none.\n- Ad labelling: this is the brand's own newsletter, so no \"Ad\" label is needed.\n- Pricing/offers: none mentioned.\n- Style: plain, specific, no clichés or filler. Sounds like a person wrote it.\n\nNothing needs changing. Optional polish only: a link to the product page would help readers, but it isn't required.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006279600000000001,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

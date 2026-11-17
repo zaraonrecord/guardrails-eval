@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8ea28ec1e80c89df7c126fcece22c32d68457b6217496c27a6a89ccdea63c9a0",
+ "result": "Review of the draft (email, transactional/subscriber update):\n\n**Claims check**\n- \"left Bristol this morning\": consistent with the brand being Bristol-based and packing in Bristol. It's an operational statement about this shipment; fine.\n- \"smoky lapsang and a soft white peony\": product facts and flavour descriptions, allowed as written.\n- \"you can pause or cancel any time from your account\": matches the approved claim that subscribers can pause or cancel any time.\n- Subject \"Your October tins are on the way\": matches the content (a subscription box with tins). One thing to note: today's date is 17 November, so \"October\" may be stale if this is going out now. That is a factual/timing point rather than a policy breach, but worth confirming the month is correct before sending. It doesn't change the verdict on the copy itself, as I can't tell when the send is scheduled.\n\n**Other checks**\n- No health, green, superlative, guarantee, urgency, testimonial or statistic claims.\n- No ad/affiliate disclosure needed: it's the brand's own email to a subscriber.\n- Style: short, specific and in a human voice; no AI clichés or filler.\n- Personalisation \"Hi Priya\": fine, assuming the merge field is populated correctly.\n\n**Decision:** Nothing in the copy needs changing under the checklist or brand policy. Optional: confirm the \"October\" month matches the send date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074693,
+ "seconds": 16.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

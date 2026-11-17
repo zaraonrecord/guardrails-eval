@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "be11292fde25841cdcadf37d8e1ececcf6da90e4a5bb950cbe73f5af44baa89a",
+ "result": "**Review: Instagram post (own account)**\n\n**Read-through:** A short, personal post on the brand's own channel, so no \"Ad\" label is needed.\n\n**Claims check:**\n- \"Rainy Sunday, second pot.\" Mood and description, fine.\n- \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Product fact about ingredients, which the policy allows as written.\n- \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Matches the approved claim exactly, including the source (our website).\n\n**Missing items:** None. No guarantees, health claims, green claims, urgency, comparisons or testimonials.\n\n**Style:** The voice is specific and natural. No clichés, filler or formulaic patterns. Spelling is consistent with UK usage.\n\n**Decision:** Nothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0057635,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

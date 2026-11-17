@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "3a6ae59c94af779e57fd96a13ca9f8be4bea89871bebe040020b0ad45d713d77",
+ "result": "**Publish gate report**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", UK audience.\n\n**Checks**\n1. **Claims:**\n   - \"plastic-free and home compostable\" is on the policy allowlist (tea bags are plastic-free and home compostable). Pass.\n   - \"Founded in Bristol in 2019\" is on the allowlist. Pass.\n   - No stats, testimonials, rankings, guarantees or competitor comparisons.\n2. **Regulated claims (environment):** \"Plastic-free\" and \"home compostable\" are environmental claims, but they are specific and match the policy's backed claims, not vague \"eco\" or \"green\" wording. Pass. The landing page should still back both up (e.g. the compostability certification or the basis for the claim), since an ad can't claim more than its page does. I can't see the page, so that's worth a quick check by whoever approves.\n3. **House style:** Plain and specific, no banned words or AI tells. Pass. The policy's voice section wasn't provided, so I couldn't score it against voice words.\n4. **Disclosure:** This is a brand's own search ad on a search platform, which labels it as an ad itself. No creators, affiliates, gifted products or AI-generated imagery. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** None. Optional: confirm the landing page carries the plastic-free and home compostable evidence.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you (or whoever owns this ad) on this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008324699999999999,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

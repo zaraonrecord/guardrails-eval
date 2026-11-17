@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "da38f0664c8b5d00cb02f72ba058493ac005cd552ec1dc33f8d1255d1a0ad6b2",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Instagram post from Pebblebrook's own account, winter tin announcement.\n\n**Checks**\n\n1. **Claims**\n   - \"New tins just landed for winter\", \"Deep green, gold lettering\": product facts, fine.\n   - \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": on the allowlist (EN 13432 certificate).\n   - **\"planet-friendly packaging\"**: a vague environmental claim. The policy only permits the plastic-free/home compostable claim for tea bags. Nothing backs the tins or outer packaging as \"planet-friendly\". Unproven, so it must go.\n\n2. **Regulated claims (environment):** \"planet-friendly\" is a broad green claim, which is what regulators challenge most. Safer: drop it, or state only what's proven (\"plastic-free tea bags inside, home compostable\"). No tin material or recyclability evidence is in the policy, so I won't add any.\n\n3. **House style:** No banned words. Voice is warm and plain. Minor issue: the plastic-free claim is stated twice in three short sentences, which reads repetitive. Score before about 75, after about 90.\n\n4. **Disclosure:** Own-account organic post, no partnership, affiliate link or gifted product. No label needed.\n\n**Fixed (suggested rewrite):**\n> New tins just landed for winter. Deep green, with gold lettering. Inside, the same plastic-free tea bags, home compostable.\n\nChanges:\n- Removed \"planet-friendly packaging\".\n- Merged the duplicated plastic-free claim into one line.\n\n**Needs a decision:** If the team wants to say something about the tins themselves (material, recyclable), supply the evidence and add it to the policy first. My suggestion: leave it out.\n\n**Approver:** Sam (marketing lead). Not approved yet. Please ask Sam for an explicit yes on the revised wording above. I haven't recorded any approval, and the original draft shouldn't go out.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010044299999999999,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

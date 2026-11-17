@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3336c73c4f3c17ce294175e71f98f3c1b0e54a64b6d60248e31b05ab3f918970",
+ "result": "**Verdict: don't publish yet.** One line needs to change.\n\n**Problem**\n- **\"only 40 tins are left, so be quick\"** is scarcity urgency. Section 3 bans \"only X left\" unless it is a real offer with an end date in the policy, and there is none. The stock figure isn't on the claims allowlist either. \"Be quick\" also goes against our unhurried voice. Cut the sentence, or replace it with something plain such as \"You'll find it in the shop from Monday.\"\n\n**Fine as written**\n- The Darjeeling garden, the March picking, the \"bright and floral\" flavour and the Monday arrival are product facts the product team checks, so they can stay.\n- There are no banned words, health claims, green claims, superlatives or invented numbers beyond the stock count above.\n- The spelling is UK, and the tone is otherwise warm and plain.\n\n**Before it goes out:** Sam needs to approve the revised version, since he approves everything public.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080074,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

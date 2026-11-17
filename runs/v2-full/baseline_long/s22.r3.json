@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9c8460d0809684aba05f54f79a8f4c8603ccc116e19afc2dc3393e29884d7b15",
+ "result": "**Review of landing hero draft**\n\nSentence by sentence:\n\n1. \"Loose leaf tea, packed by hand in Bristol.\" Matches the approved claim \"Every tin is packed by hand in Bristol\" (and loose leaf is a product fact). Fine.\n\n2. \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\" Both are on the allowlist. The wording is slightly different from \"Certified organic by the Soil Association\", but the meaning is the same and the certificate is on file (renewed 2026). Fine.\n\n3. \"Free UK delivery on all orders.\" The approved claim is \"Free UK delivery on orders over £25\". Saying \"all orders\" drops the threshold and overstates the shipping terms. This is a pricing/offer claim that doesn't match the policy.\n\nOther notes:\n- Repetition: \"packed by hand in Bristol\" appears twice in two consecutive sentences. Cut the first or the second. Optional on its own, but worth fixing while the delivery line is being corrected.\n- No banned words, no health, green, superlative, guarantee or urgency language. No ad or affiliate label is needed on the brand's own landing page.\n\n**Decision: hold.** The delivery claim must be corrected to \"Free UK delivery on orders over £25.\"\n\nSuggested rewrite:\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008147399999999999,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

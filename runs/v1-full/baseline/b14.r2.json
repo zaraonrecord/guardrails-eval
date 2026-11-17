@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b2091a61214512ae5706c66eeb1b0c3991990cae6bd029a958708b6e14e8cd1e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", which is the required wording for a free product and comes before anything else.\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency. \"Lovely with oat milk\" is the creator's own opinion of the tea, not a brand claim.\n- **Product facts:** The winter sampler and the rooibos chai are product facts, which the product team checks and which are fine as written.\n- **\"Not paid to say that\":** This fits a gifted post, as long as the creator really isn't being paid. If money is involved, the label would have to be \"Ad\" instead.\n- **Voice:** The tone is warm and plain, there are no banned words, and the spelling is fine.\n\nEverything public needs Sam's approval, so the post should still go to Sam for sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007371899999999999,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

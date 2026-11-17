@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4f28a0f3868cdeae722415b70dc566815b3e49f3b6e81ee518932b5966a1fa2d",
+ "result": "**Not ready to publish.** The second sentence makes health claims, which the brand policy bans outright.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product fact, fine |\n| gentle, honeyed, caffeine-free blend | Flavour and ingredient facts, fine as product-team facts |\n| reduces anxiety | **Unsupported.** Health claim (policy section 3: \"reduces anxiety\") |\n| helps you sleep | **Unsupported.** Health claim of the same kind |\n| Certified organic by the Soil Association | Allowlisted, exact wording |\n| 20 plastic-free tea bags | Plastic-free is allowlisted. The count is a product fact. |\n\n**Other checks**\n- No superlatives, guarantees, invented numbers, fake urgency or testimonials.\n- No banned voice words or slop structures, and the spelling is UK.\n- No partnership or affiliate wording is needed on our own product page.\n- Ad platforms and the ASA would likely flag the anxiety and sleep wording too, so the risk goes beyond internal policy.\n\n**Compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nIf you want a calm mood without a health claim, describe the taste and the occasion instead, for example \"a soft, honeyed cup for the end of the day.\" That is a flavour and usage description, not a benefit. As with all public content, it needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015866500000000002,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "911819d13cb059eea3720f66cb179391e2575c914a143859a176bde8c8ad360b",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"planet-friendly packaging\"**\nThis is a general environmental claim. The policy allows only the specific, backed claim that our tea bags are plastic-free and home compostable (EN 13432 certificate). Nothing on file supports \"planet-friendly\" for the tins or any packaging. Cut it, or replace it with a specific fact the product team has confirmed about the tins.\n\n**Checked and fine:**\n- \"New tins just landed for winter\" is a new-product announcement, which the product team covers. It isn't fake urgency.\n- \"Deep green, gold lettering\" is a product fact.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" match the allowlist wording exactly.\n- No banned words, no superlatives, guarantees, health claims or invented numbers. The spelling is UK-compatible.\n- No disclosure is needed, since this is a paid-free post on our own account.\n\n**Style note (not a blocker):** The draft says \"plastic-free tea bags\" twice in quick succession. Consider trimming the first mention to keep it unhurried and plain.\n\n**Approval:** Everything public needs Sam's sign-off once the edit is made.\n\nSuggested fix: \"New tins just landed for winter. Deep green with gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094481,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

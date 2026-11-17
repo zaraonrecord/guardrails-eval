@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** a creator post (gifted product), on the creator's channel. The date and audience weren't given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or health claims. \"Lovely with oat milk\" is the creator's own opinion of a product, not a brand claim. The winter sampler and rooibos chai are product facts, which the policy treats as fine as written.\n- **Regulated claims:** Nothing touches health, money, environment, children or pricing. There is no urgency language.\n- **House style:** The tone is warm, plain and unhurried. It has no banned words and no AI tells. It's the creator's own voice, so I wouldn't rewrite it.\n- **Disclosure:** Section 4 requires a gifted post to start with \"Gifted\" before anything else, and this one does. One optional point: \"Not paid to say that\" is true, but the free product is still a benefit. The \"Gifted\" label stays upfront, so I'd leave it. If Sam wants to be cautious, the line could become \"Gifted, but all opinions are mine.\"\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing blocking. The \"Not paid\" line is optional, as described above. My suggestion is to leave it as is.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and this exact text needs Sam's explicit yes before it goes out. Any edits mean a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0143635,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6df44a6d45a6a5970cd1fae5b1b104f8e13bee164ca7a29a300a7195b6a5f044",
+ "result": "**Review summary**\n\nThe brewing content is plain and useful, and the practical facts (mug, sieve, four minutes for black tea, shorter and cooler for green) are product/brewing guidance the product team covers. No claims, numbers, health or environmental statements, urgency, or guarantees appear. Email subject is accurate to the content.\n\n**Problem:** \"Unlock your tea journey.\"\n- Both \"unlock\" and \"journey\" are on the brand's banned word list (section 5). It's also generic filler that doesn't fit the warm, plain, unhurried voice. Suggested fix: cut it, or replace with something plain such as \"You don't need a teapot to make a good cup of loose leaf.\"\n\nMinor, optional: \"You don't need any kit\" is fine, though \"any kit\" reads slightly clipped. The sign-off is fine.\n\nBecause of the banned words, this should be fixed before it goes out. Sam (marketing lead) approves all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083267,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

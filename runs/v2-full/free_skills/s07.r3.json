@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a4842771cb2cd5e106f8fcd33b3d9bc829b48d5c7429c9ebc65c4b74ec339c8a",
+ "result": "**Verdict: don't publish yet. One claim has to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product name, fine |\n| gentle, honeyed, caffeine-free blend | Product facts (flavour, ingredients), fine |\n| to help you wind down and sleep better | **Unsupported.** This is a health claim, and the policy bans health claims of any kind. \"Sleep better\" promises a health benefit we can't back up. |\n| Certified organic by the Soil Association | Allowlisted, exact wording |\n| 20 plastic-free tea bags | Count is a product fact. \"Plastic-free\" is allowlisted. |\n\n**Voice and slop check:** No banned words, no urgency, no invented numbers. The copy is plain and warm, which suits the brand.\n\n**Fix:** Remove the sleep claim and describe the drink instead. For example:\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for a quiet cup in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"A quiet cup in the evening\" describes when you might drink it and promises no effect. Check that it fits how the product team positions the tea.\n\nAs with all public content, Sam needs to approve the revised version.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110995,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" (headline) | Allowlisted (\"plastic-free\") |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (EN 13432 supplier certificate) |\n| \"Best tea I've ever had\" - Emma, Leeds | Unsupported. Not on the allowlist, no source supplied. |\n\n**Problems**\n\n1. **Testimonial.** \"Best tea I've ever had\" - Emma, Leeds has no source in the policy or this conversation. Policy section 3 bans invented testimonials, and I can't treat a named customer quote as real without proof. It also carries a superlative (\"best\") that the brand never makes. Remove it. If Emma is a real customer who gave written permission, supply the source and her approved wording, though the \"best\" phrasing would still conflict with the superlatives rule, so a different quote would be safer.\n2. **Landing page consistency.** Any ad claim must also appear on the landing page. The plastic-free and compostable claims are fine, but check the landing page says the same.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nI did not count characters because no limit was given. Search ad headlines are typically capped at 30 characters, and \"Plastic-Free Tea Bags\" is 21, so it fits. The description is 76 characters, within the usual 90 limit. Please confirm against your actual limits.\n\nOptional addition if you want social proof: \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" is allowlisted, though the full wording is long for a description.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112465,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

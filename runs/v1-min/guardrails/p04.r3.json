@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5be8267852e2c44739aaf210535c51ce3aef3fc2db701e711063f969f53cee7a",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post, own account, UK audience.\n\n**Checks**\n\n1. **Claims:**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" is on the policy list and matches it exactly. Fine. I can't see its review date, so someone should confirm it's still current.\n   - \"real bergamot oil and a little cornflower\" is a product fact (ingredients), allowed as written.\n   - Nothing else is a claim.\n\n2. **Regulated claims:** Nothing on health, money, legal, environment, children or pricing. Pass.\n\n3. **House style:** \"In today's fast-paced world\" is a stock AI opener. It's also padding, since the post is about a rainy Sunday pot. \"Is everything\" is a vague intensifier. Suggested rewrite below.\n\n4. **Disclosure:** Own-account organic post about the brand's own product, with no paid partnership, affiliate link, gift or AI imagery mentioned. No label is needed. If the post uses AI-generated imagery of realistic people or scenes, add \"Made with AI\".\n\n**Fixed (suggested copy)**\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n- Removed the stock opener \"In today's fast-paced world\".\n- Replaced \"is everything\" with a concrete line.\n- Facts untouched.\n\n**Needs a decision**\n- Confirm the 4.8/1,200 figure is still current (review date).\n- Confirm whether the image is AI-generated.\n\n**Approver:** The policy names no approver, so you'd need to give an explicit yes to this exact final copy. I haven't recorded any approval, and nothing should go out until you've given it. Because the original draft has an AI tell, I've set publish to false until the revised copy is approved.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095874,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

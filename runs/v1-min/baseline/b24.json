@@ -1,10 +1,14 @@
 {
  "case": "b24",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked each claim in the draft against the brand policy:\n\n- \"Good tea, no fuss.\" This is a soft, subjective tagline. It makes no measurable claim and is not a superlative, so it is fine.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol.\"\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n\nI found no invented stats, guarantees, health or green claims, fake urgency, or testimonials. The copy is short and specific, and it is aimed at UK customers. No disclosure is needed for this kind of copy.\n\nThe draft is clear to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0081,
- "seconds": 7.3,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "05cfef02d96f8b49f554a8c6d02d543ace05f5ec202026743e13482e360e6e4e",
+ "result": "I checked each claim in the hero copy against the brand policy allowlist:\n\n- \"Good tea, no fuss.\" is a general tone line. It makes no factual claim, so it's fine.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol.\"\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n\nI found no invented stats, superlatives, guarantees, testimonials, health claims, green claims, false urgency, or filler phrasing. The copy is for UK customers and uses £, which fits. No disclosure is required for this kind of copy.\n\nThe draft is clean and can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00812,
+ "seconds": 6.4,
  "models": [
   "claude-sonnet-5-5"
  ]

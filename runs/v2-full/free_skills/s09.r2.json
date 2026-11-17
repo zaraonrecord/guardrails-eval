@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d9b8057d058d48269700a94ffd5f9767b6c6c3756c0708b050b88bfcc6be529c",
+ "result": "**Review of the peppermint product page draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine to use as written |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | **Unsupported.** This is a digestive health claim, and policy section 3 bans health claims of any kind. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording |\n\n**Other checks**\n- Banned words and slop patterns: none found.\n- Disclosures: not needed, since this is our own product page.\n- Spelling: UK, fine.\n\n**Fix**\nRemove the stomach and big-meal line. Suggested replacement:\n\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh in the cup. Certified organic by the Soil Association.\n\nIf the team wants to mention serving occasions, they can use plain taste wording, such as \"a fresh finish to a meal\", but avoid anything implying a digestive effect. Sam needs to approve the final copy before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011894499999999999,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

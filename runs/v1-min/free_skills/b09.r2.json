@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b15fbecb9f6745174369d4def13ea295fefc6df526c6fee0115cc19c210f6de5",
+ "result": "**Claims list**\n- \"Plastic-Free Tea Bags\": allowlisted (tea bags are plastic-free).\n- \"Our tea bags are plastic-free and home compostable\": allowlisted.\n- \"Founded in Bristol in 2019\": allowlisted.\n\n**Other checks**\n- Claims guard: no numbers beyond the founding year (allowlisted), no superlatives, guarantees, social proof or regulated claims. The environmental claims (plastic-free, home compostable) are specific and on the brand's approved list, so they are fine.\n- Slop guard: no banned words, no exclamation points, no rhetorical opener, no em-dash sandwich. The first sentence leads with a concrete fact.\n- Honest review rules: not a review or product roundup, so no labels or affiliate disclosures apply.\n- Search ad format: no character limits were given, so I haven't counted. Headline is 22 characters and the description is 72 characters, for reference. Standard RSA limits (30 headline, 90 description) would be met.\n- Landing page consistency: make sure the landing page also states the plastic-free, home compostable and Bristol 2019 claims, as the ad shouldn't claim anything the page doesn't.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0068797,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

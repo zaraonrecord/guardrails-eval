@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e01092319ca36a0c53f856d8bcf7dc52017a380e591a8eb9843c19f3e0b4eaf4",
+ "result": "**Not ready to publish.** Two claims have to go.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Ad\" label at the start | Disclosure present and upfront. Fine for a paid creator post. |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine. |\n| \"ten minutes away from my phone\" | Personal habit, not a brand claim. |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted. |\n| \"the best tea in Britain\" | **Unsupported superlative.** Nothing on the allowlist backs it, and it fails the \"compared to what?\" test. |\n| \"a proven immunity booster\" | **Unsupported health claim.** Nothing on the allowlist supports it, and \"proven\" makes it a hard claim. Health claims on tea are also likely to breach UK advertising rules (ASA/CAP, and the GB nutrition and health claims register) and platform policies. |\n\n**One thing to confirm:** the draft implies the creator drinks this tea regularly (\"my afternoon reset\"). Please confirm whether they own it, have tried it, or are working from the brief. If they haven't used it, that line needs to change.\n\n**Compliant version**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nIf you want a stronger close, I can add something from the allowlist, such as the Soil Association organic certification, or the 4.8 out of 5 rating from over 1,200 reviews on their website, with the source stated.\n\n```json\n{\"issues\": [{\"quote\": \"the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014971199999999999,
+ "seconds": 17.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

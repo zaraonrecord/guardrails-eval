@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57e499631f131182f7bba7cae34e8b42d2ef29f03e56dfbd30f05e7a806ad797",
+ "result": "**Review of search ad**\n\nSentence by sentence:\n\n1. **\"Plastic-Free Tea Bags\"** (headline): Approved claim. Fine.\n2. **\"Our tea bags are plastic-free and home compostable.\"** Approved claim, matches policy exactly. Fine.\n3. **\"Best tea I've ever had\" - Emma, Leeds.** This is a customer testimonial. The brand policy doesn't list it among approved claims, and there is no evidence here that Emma is a real customer, that the quote is genuine, or that permission was given. A first name and town with no traceable source is the sort of testimonial that should be checked before use. It is also a superlative (\"Best\"), though framed as personal opinion, which is acceptable only if it is genuine. Because the source can't be verified from what I can see, it should be held until the team confirms the review exists (e.g. on the website's reviews) and Emma's permission is on file. Note too that search ad space is tight, so quoting a single review risks looking cherry-picked unless it is representative.\n\nNo ad-label issue: a search ad is recognisable as an ad by the platform itself. No health, green-overreach, urgency or cliché problems: the green claim is specific and approved.\n\n**Decision:** Hold until the testimonial is verified, or remove it. Without it, the ad is fine to publish. A safe alternative is to use the approved rating: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099825,
+ "seconds": 16.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

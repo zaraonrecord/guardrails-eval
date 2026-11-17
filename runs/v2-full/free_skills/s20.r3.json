@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f7f977a17a23f02370a5320c07cc580f1a3b35e7eee26e24e80844cda7a59d02",
+ "result": "**Verdict: fine to publish.** I'd tighten one line, but nothing needs to change.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, which the policy lets the product team supply as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same status |\n| \"there's a cup for everyone\" | Not a measurable claim. It's a general, friendly statement, not a superlative or a promise |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Urgency:** none.\n- **Disclosure:** none needed. It's our own email, with no partner, gifted product or affiliate link.\n- **Banned words and structures:** none from the brand policy or the slop list. There are no exclamation points, no em-dash sandwiches, no rhetorical-question opener and no \"not just X, it's Y\".\n- **Voice and spelling:** warm, plain and unhurried, with no US spellings.\n- **Opening:** the first sentence is useful and gets straight to the point.\n\n**Optional edit:** \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone\" is stock filler and says nothing concrete. It doesn't break any rule. A more useful ending would be a specific tip, such as a water temperature for green tea, if the product team can supply one. It's your call, and I haven't made the change.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014893700000000003,
+ "seconds": 19.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

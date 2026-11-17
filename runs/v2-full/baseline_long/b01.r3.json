@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "be1c53d7ad46505dd19cf390f50b8f48e23c292cb93389b21cb4c0238d321240",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- \"Loose leaf tea, packed by hand in Bristol.\" and \"Every tin is packed by hand in Bristol\": both match the approved claim \"Every tin is packed by hand in Bristol\". Loose leaf is a product fact.\n- \"certified organic by the Soil Association\": approved, certificate on file, renewed 2026.\n- \"Free UK delivery on orders over £25\": approved, exact wording, with the threshold stated.\n\nNo unsupported claims, health claims, green claims, urgency, guarantees or superlatives. No label is needed on a brand-owned landing hero. No banned words appear.\n\nOne note on style: the draft says \"packed by hand in Bristol\" twice in three short sentences (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). The checklist flags repetition in short copy. It is not a rule break, but it reads clumsily and should be fixed before publishing. Suggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nBecause the repetition is a real flaw in a three-sentence piece and the checklist says to hold copy with repeated points, I'm holding it for the quick edit.\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007725599999999999,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

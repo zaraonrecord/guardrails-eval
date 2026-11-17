@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4b3b0aef962467d26b0da7c0011832a176ca59e8a2e1744bc8d8467459aa084e",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), the \"lovely with milk\" serving suggestion and the 100g tin size are all product facts, which are fine as written.\n- **Caffeine-free:** This is a factual description of rooibos, not a health claim.\n- **Health, green and organic claims:** There are none. The draft makes no wellness, compostable, plastic-free or organic claims that would need backing.\n- **Stats, superlatives, guarantees and testimonials:** None are present.\n- **Urgency:** \"Was £12, now £8\" has no deadline, countdown or scarcity language, so it isn't fake urgency.\n- **Tone:** The copy is short and plain, with no filler.\n\n**One non-blocking note:** The policy doesn't cover pricing, so I can't verify the was-price. Under UK pricing rules, £12 should be a genuine recent price that the tin was actually sold at. Please confirm that before publishing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015572,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

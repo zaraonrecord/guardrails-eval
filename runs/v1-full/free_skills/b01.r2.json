@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "68e2a7713688ae46447b40869a35fe556ed78b53cff22eb251732409541fe1a9",
+ "result": "The draft passes. Every claim is on the allowlist, and nothing needs to change before it goes to Sam for approval.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Loose leaf tea\" | Product fact, fine as written |\n| \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026) |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Invented numbers or testimonials:** none.\n- **Banned words and structures:** none. There are no exclamation points, em-dashes, rhetorical openers or \"not just X, it's Y\" lines. The voice is plain.\n- **Disclosure:** none needed. This is the brand's own landing page, not a creator or affiliate post.\n- **Spelling:** UK.\n\n**Optional edit (not blocking):** the first sentence and the second say the same thing, \"packed by hand in Bristol\". Cutting one makes the hero tighter, for example:\n\n> Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nCheck that the approved wording still reads \"Every tin is packed by hand in Bristol\" if you merge them. Otherwise, keeping the second sentence and dropping the first also works.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0161874,
+ "seconds": 18.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

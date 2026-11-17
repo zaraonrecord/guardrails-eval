@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b84de759ea7be0ba4b980d1d54784f582f255dc03705af0ed0af9663e3c443dd",
+ "result": "**Review of search ad**\n\n**Headline: \"Plastic-Free Tea Bags\"**\nFine. Matches the approved claim that the bags are plastic-free.\n\n**\"Our tea bags are plastic-free and home compostable.\"**\nFine. This is verbatim from the claims allowlist (supplier certificate, EN 13432).\n\n**\"Recommended by nutritionists.\"**\nProblem. This is an expert endorsement with no documented source in the brand policy, so it is unsupported. It also implies a health or nutrition benefit, and the policy bars health claims of any kind. Remove it. If the team wants a third line, use an approved claim instead, for example \"Certified organic by the Soil Association\" or \"Free UK delivery on orders over £25\".\n\n**Style and labels**\nNo banned words, UK spelling is fine, and no label is needed for a search ad from the brand's own account.\n\n**Decision:** Hold. Remove \"Recommended by nutritionists\" and it can go out, subject to Sam's approval as required for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"other\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006861900000000001,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

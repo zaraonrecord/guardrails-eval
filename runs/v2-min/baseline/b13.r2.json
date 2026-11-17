@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7af0f375abe3845a7f341ad12f2cf0d836febedaccb08b82a54bb820f64fd410",
+ "result": "I found nothing that needs changing, so this can go out as written.\n\n- **Disclosure:** The post opens with \"Ad |\", which is clear and upfront for a paid creator post in the UK.\n- **Claims:** \"Packed by hand in Bristol\" is on the brand's allowlist. Assam is a product fact, so it's fine as written.\n- **Health claims:** \"Ten minutes away from my phone\" is a personal habit. It makes no wellness or relaxation promise about the tea.\n- **Testimonial:** \"Which I love\" is the creator's own opinion about a fact we can back up. It isn't an invented quote or statistic.\n- **Other risks:** There are no superlatives, guarantees, green claims, urgency or invented numbers, and the copy doesn't read as generic AI filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006594299999999999,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

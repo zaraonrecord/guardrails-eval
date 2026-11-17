@@ -1,10 +1,14 @@
 {
  "case": "b09",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\"** (headline): matches the allowlisted claim that the tea bags are plastic-free. The headline leaves out \"home compostable\", but it doesn't overstate anything.\n- **\"Our tea bags are plastic-free and home compostable.\"**: exact wording from the claims table, backed by the supplier certificate (EN 13432).\n- **\"Founded in Bristol in 2019.\"**: exact wording from the claims table, backed by Companies House.\n- **Voice**: plain and warm enough for a search ad, with no banned words, no superlatives, no guarantees, no health claims, no urgency and no invented numbers. There is no UK spelling issue.\n- **Disclosure**: this is a search ad from our own account, so no \"Ad\" or \"Gifted\" label applies.\n- **Approval**: all public content needs Sam's sign-off (marketing lead) before it goes live.\n\nI found nothing that needs changing. It can go to Sam for approval and then be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0078741,
- "seconds": 9.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a6ba59913d2f449f84df15b92f142d6283e3fffca47391d44f8c76f70cdafb17",
+ "result": "I checked the draft against the brand policy.\n\n**Claims**\n- \"Our tea bags are plastic-free and home compostable\" matches the allowlist word for word (supplier certificate, EN 13432).\n- \"Founded in Bristol in 2019\" matches the allowlist word for word (Companies House).\n- The headline \"Plastic-Free Tea Bags\" is a shortened form of the plastic-free claim, which is backed by the same certificate. It's a product fact, not a broader environmental claim.\n\n**Things I looked for and didn't find**\n- No superlatives, guarantees, health claims, invented numbers, testimonials or false urgency.\n- No banned words, and the tone is plain.\n- No disclosure is needed. This is a paid search ad from our own account, not a creator partnership or affiliate link.\n- No UK spelling issues.\n\n**Approval**\nUnder section 6, Sam (marketing lead) approves everything public, so this still needs Sam's sign-off before it goes live. That is a process step and not a change to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0059815,
+ "seconds": 9.1,
  "models": [
   "claude-sonnet-5-5"
  ]

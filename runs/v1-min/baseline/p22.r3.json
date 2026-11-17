@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6948204e874c10c2df974d563616d999e2a4676b28f51c67db1901dce89ec323",
+ "result": "**Review of the Rooibos Chai product page draft**\n\nProblems found:\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim (curing a medical symptom) and it is a testimonial we can't verify from the brand policy. The policy doesn't list any customer quotes as backed, so there's no evidence it's a real, attributable review. Marketing in the UK can't claim a food or drink cures or treats a condition. Remove it. It would also need the reviewer's consent and a source if it were kept in a non-health form.\n\n2. Everything else is fine as written: caffeine-free rooibos, the spice list, \"lovely with milk\" (flavour/serving suggestion) and the 100g tin size are product facts.\n\nSuggested version: \"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\"\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00971,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

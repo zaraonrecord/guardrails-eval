@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "847e136286e6738ca7f6f5afa1b5a2d8eb912ba58475a042d7f951b5eec0ad31",
+ "result": "I read the draft sentence by sentence against the checklist and the brand policy.\n\n**Claims:** The brewing guidance (a mug, a small sieve, four minutes for black tea, green tea shorter and cooler) counts as brewing guidance, which the policy says the product team checks and is fine to use as written. There are no numbers beyond that, no superlatives, no guarantees, no health or environmental claims, no urgency, no testimonials.\n\n**Labels:** It's the brand's own email, so no ad label is needed. No affiliate links or creators involved.\n\n**Subject line:** It matches the content and doesn't mislead.\n\n**Voice:** The tone is warm, plain and unhurried, and the spelling is UK-neutral. None of the banned words appear. One line is filler, though: \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" It's the stock \"whether you're X or Y\" formula, it says nothing specific, and it sits oddly after the concrete brewing advice. The checklist says to hold formulaic copy that the brand's voice wouldn't use, so I'd cut it. The email works better ending on the green tea line.\n\n**Other:** \"You don't need any kit\" is fine as a general statement about brewing. The sign-off is plain and fine.\n\n**Decision:** Hold until that one sentence is cut or rewritten (for example, replace it with a specific tip such as how long to leave green tea).\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0081279,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

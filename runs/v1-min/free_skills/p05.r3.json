@@ -1,0 +1,15 @@
+{
+ "case": "p05",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "92bd9de7967c2102097c570502b30e24dee81e85c93a3393d2514dd9ffb8fe89",
+ "result": "**Review: newsletter draft (first flush from Darjeeling)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Visited the Darjeeling garden that grows our first flush | Product origin and team activity, fine as written |\n| Leaves picked in March | Product fact, fine |\n| Taste bright and floral | Flavour description, fine |\n| In the shop from Monday | New arrival, fine |\n| \"only 40 tins are left, so be quick\" | **Unsupported.** The stock figure isn't on the allowlist or sourced in this chat, and it is used to create urgency |\n\n**Problem**\n- The \"40 tins\" line is scarcity language that hasn't been verified. It's also odd on its face: the tea isn't on sale until Monday, so it's unclear what \"left\" refers to. If 40 tins is the real, confirmed first-batch stock, say so plainly, for example \"We have 40 tins in the first batch\" with the number checked against actual inventory. Otherwise cut the line, along with \"so be quick\".\n\n**Suggested compliant version**\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday. [PROOF NEEDED: confirmed first-batch stock number, if you want to mention limited quantity]\n\nNo ban-list words, no exclamation points, no health, green or money claims, and no disclosure needs for this copy.\n\n```json\n{\"issues\": [{\"quote\": \"but only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110116,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

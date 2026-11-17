@@ -1,0 +1,15 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a63819af9602df25522d8b9549b070356a50e17c8b4cc0822e19934fd5bd7260",
+ "result": "Review of the Assam Breakfast product page draft:\n\n**Problem: \"noticeably smoother than supermarket tea bags\"**\nThis is a comparative claim that isn't on the claims allowlist. We have no proof or testing behind it, and it implicitly puts us ahead of competitors. It works like an unprovable superlative, so it should be removed or replaced with a plain description of the taste (for example, \"malty, full-bodied and smooth\" if the product team confirms the flavour note).\n\n**Fine as written:**\n- \"A malty, full-bodied black tea\" is a flavour description, which the product team checks.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- \"100g tin, makes around 40 cups\" is a product fact (tin size and cup count).\n- Voice is plain and warm enough, with no banned words, and there are no health, green, urgency or guarantee claims.\n\n**Suggested rewrite:**\n\"Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\"\n\nSam needs to approve it before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0086541,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

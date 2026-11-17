@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b099ec8956defd9ddf668778f2d475a3a76305ea239fb6c3c78842dc5119459b",
+ "result": "**Publish gate report**\n\n**Going out:** newsletter to UK subscribers, a Darjeeling first flush announcement. The send date isn't given, so the \"from Monday\" line depends on it.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees, testimonials or comparisons. The garden visit, the March picking, the flavour notes and the arrival date are product facts (origins, flavour, new arrivals), which the policy allows as written.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices. \"First flush\" is a plain harvest term, not a green or quality claim.\n- **House style:** The copy is short and concrete. It has no stock openers, empty intensifiers, slogan closers or banned phrasing. I didn't have the policy's voice section, so this is a general read rather than a score against your voice words.\n- **Disclosure:** This is the brand's own product and there are no affiliate links, sponsors, gifted items or AI-generated imagery, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Confirm that \"from Monday\" points to the right date given when this sends. If the newsletter goes out on or after that Monday, the line will be stale.\n- The policy doesn't name an approver for newsletters, so I'm treating you as the approver. I haven't recorded an approval. Please give an explicit yes to this exact text before it's sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094351,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

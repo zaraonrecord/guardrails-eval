@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "69bb98206bd78e30eeb8193284d347f8415b0f8eaf3b6c0972c7c3de5c0d127d",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter, Christmas blend is back in stock. Audience: subscribers (UK).\n\n**Checks**\n- **Claims:** The ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" are product facts, which the policy says are fine as written. \"Selling fast\" is not on the claims list and nobody has given a source for it. It implies scarcity and demand we can't show, and the policy bars urgency that isn't backed by a real offer.\n- **Regulated claims:** Nothing on health, money, environment, children or prices. Pass.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. Score about 95 out of 100. Pass.\n- **Disclosure:** This is our own newsletter, with no sponsor, affiliate link or gifted product, so no label is needed. Pass.\n\n**Fixed:** Nothing changed yet, because I'd rather you confirm the cut than have it made silently.\n\n**Needs a decision:** Remove \"and selling fast\". Suggested final copy:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\nIf \"selling fast\" is actually true, send me the sales data and we can add it to the policy and keep it. Even then, I'd suggest wording that states the fact rather than hinting at scarcity.\n\n**Approver:** Sam (marketing lead). Sam needs to give an explicit yes to the final wording above before it is sent. The draft as written isn't approved to go out.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012689500000000001,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

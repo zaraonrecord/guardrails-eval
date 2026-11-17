@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "44a6cd1405fac7d75f382670262563e5bb50c4c33f98a5ae1c504a982d8ec617",
+ "result": "**Not ready to publish.** One thing needs to change.\n\n**Problem: missing disclosure.** Pebblebrook's policy says a gifted post must start with \"Gifted\", before anything else. The draft opens with \"Pebblebrook sent me their winter sampler\", so a reader only learns about the gift from the sentence itself, not from a label. The honest-review rules also require a gifted product to be labelled where it first appears.\n\n**Claims and product check**\n| Item | Label / type | Status |\n|---|---|---|\n| Winter sampler (rooibos chai) | Gifted, tried | The hands-on claim (\"lovely with oat milk\") is the creator's own opinion, so it's allowed. |\n| \"Not paid to say that, just liked it\" | Opinion / disclosure | Fine once \"Gifted\" leads the post. On its own it plays down the gift, so it shouldn't stand in for the label. |\n\nThere are no stats, superlatives, guarantees, health claims, green claims, urgency or banned words. The spelling and tone fit the brand voice.\n\n**Suggested fix**\n> Gifted. Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.\n\nSince all public content needs Sam's approval, he should sign off on the corrected version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013572500000000001,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

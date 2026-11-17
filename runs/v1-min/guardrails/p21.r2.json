@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ec49247ae8e85699221cf8d424fa4925a914a0894f0e9f45e3c697e3a020fac5",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Organic Instagram post on the brand's own account, announcing new winter tins.\n\n**Checks**\n\n1. **Claims:**\n   - \"made with zero waste from farm to cup\" is not on the policy list. The policy backs only \"plastic-free and home compostable\" for tea bags. A supply-chain-wide zero-waste claim is unproven. Remove it or replace it with `[PROOF NEEDED: audited evidence of zero waste across sourcing, production, packaging and use]`.\n   - \"plastic-free tea bags\" and \"plastic-free and home compostable\": both are on the policy list. But the post says the plastic-free point twice, which is redundant (see style).\n   - \"New tins just landed for winter\", \"Deep green, gold lettering\": product facts, fine as written.\n\n2. **Regulated claims (environment):** \"zero waste from farm to cup\" is a broad, absolute green claim, the kind regulators (UK CMA/ASA Green Claims Code) challenge most. It needs to be removed or narrowed to what's provable.\n\n3. **House style:** The policy has no voice section, so I can't score it fully. The repetition (\"plastic-free tea bags\" followed by \"Our tea bags are plastic-free and home compostable\") reads as padding. Tightening it is easy.\n\n4. **Disclosure:** Own-account organic post with no paid partnership, affiliate link, gifted product or AI imagery mentioned. No label needed. If the tin images are AI-generated, tell me and I'll check labelling.\n\n**Fixed (suggested rewrite)**\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\n- Removed the unproven \"zero waste from farm to cup\" claim.\n- Merged the duplicate plastic-free sentences.\n\n**Needs a decision**\n- If the team can prove the zero-waste claim, add the evidence to the brand policy and I'll reinstate a narrowed version. My suggestion: leave it out.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you to the exact rewritten text above before it is published. Nothing has been approved yet, and I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010654499999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

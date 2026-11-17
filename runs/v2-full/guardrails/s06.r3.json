@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0449448bbbf8a382f56e9b86fa54525a25bf27ccc1d683ba59a558167a761ef8",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, Pebblebrook Tea Co. subscribers, new first flush Darjeeling announcement.\n\n**Checks**\n- **Claims:**\n  - \"the garden in Darjeeling that grows our first flush\", \"picked in March\", \"bright and floral\" and \"in the shop from Monday\" are product facts (origin, picking time, flavour, new arrivals). The policy clears these as written.\n  - \"Our customers tell us it's the only tea they drink now\" is a customer testimonial with no source in this chat and no permission on record. It's also a sweeping claim (the *only* tea they drink) that isn't on the allowlist. It has to go.\n- **Regulated claims:** nothing touching health, money, environment, children or prices. Pass.\n- **House style:** warm, plain and unhurried, with no banned words or AI tells. Pass (about 92/100). Removing the testimonial makes it tighter.\n- **Disclosure:** it's the brand's own newsletter with no sponsors, affiliates or gifted products. Pass.\n\n**Fixed**\n- Removed the unsourced customer line. Everything else is unchanged.\n\n**Suggested copy**\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n**Needs a decision**\n- If you do have customers who said this, send me the actual quotes and proof of their permission. I can then reinstate them, attributed and worded as they said it. My suggestion is to publish without the line.\n\n**Approver:** Sam (marketing lead). Nothing has been approved yet. Once Sam says yes to the revised copy above, it can go. The original draft shouldn't be sent as written.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011679100000000001,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

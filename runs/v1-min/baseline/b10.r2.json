@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1ed8d977712d8352c3d767a518588826b837a9607ad86e12538abc2738d05a22",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** this is on the claims allowlist.\n- **20 plastic-free tea bags:** \"plastic-free\" is on the allowlist, and the count is a product fact (sizes).\n- **Caffeine-free:** this is an ingredient fact, so it is fine as written.\n- **\"Gentle, honeyed ... for the evening\":** this describes flavour and when to drink it. It makes no sleep, calming or other health promise.\n- **No other red flags:** the draft has no invented stats, superlatives, guarantees, testimonials, urgency or vague green claims, and it doesn't read as filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006732200000000001,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c5dc38a0642379db11b4d19f7c81045218387772e50d2266c47ad4f04ac424b6",
+ "result": "## Publish gate report\n\n**Going out:** blog intro, two sentences, on the Pebblebrook site.\n\n**Checks**\n- **Claims:** Every claim matches the policy.\n  - \"Founded in Bristol in 2019\" matches the Companies House row.\n  - \"Our tea bags are plastic-free and home compostable\" uses the exact policy wording (supplier certificate, EN 13432).\n  - The \"couldn't find tea bags without plastic\" motive is origin-story framing, not a provable claim, so I left it. Whoever owns the story may want to confirm it's how it happened.\n- **Regulated claims:** The only environmental claim is the allowlisted one. There are no broad \"eco\" or \"sustainable\" claims, health claims, prices or urgency.\n- **House style:** The tone is warm, plain and unhurried, with no banned words and no obvious AI tells. UK spelling is fine. I estimate a score of about 90.\n- **Disclosure:** This is the brand's own editorial content with no ad, partnership, affiliate link or gifted product, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- \"Here's how we checked\" promises an explanation in the body. I've only seen the intro, so the body needs the same check. Anything it says about testing or certification must come from the policy or a source you give me, not be invented. For example, it shouldn't say \"tested in our garden compost in 12 weeks\" without evidence.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014224100000000002,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

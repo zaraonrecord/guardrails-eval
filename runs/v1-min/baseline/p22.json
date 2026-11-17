@@ -1,10 +1,14 @@
 {
  "case": "p22",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the Rooibos Chai product page draft**\n\n**Problems found**\n\n1. **\"It cured my bloating in a week\" - verified buyer**: This is a health claim. It says the tea cures a medical symptom, which isn't allowed. It's also a testimonial we can't verify from the brand policy: nothing in the allowlist supports a \"verified buyer\" quote. It should be removed. Even a real customer quote can't be used to make a cure claim.\n\n2. **Missing label**: Not an issue here. The draft has no sponsored or paid content that would need a disclosure.\n\n**What's fine**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product fact (ingredients), fine as written.\n- \"Lovely with milk\": flavour/serving suggestion, fine.\n- \"100g tin\": size, fine.\n\n**Recommendation:** Do not publish until the bloating testimonial is removed. With it taken out, the rest of the copy is fine.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
- "cost_usd": 0.009923999999999999,
- "seconds": 7.8,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6948204e874c10c2df974d563616d999e2a4676b28f51c67db1901dce89ec323",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Problems that should stop publication:**\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim (curing a medical symptom) and it is a testimonial we can't verify. The brand policy has no support for health or curative claims about tea, and the \"verified buyer\" label asserts a source we haven't confirmed. Remove it. If a real customer review is wanted, it needs to be a genuine, sourced review with the health claim removed, such as a comment on taste.\n\n**What's fine:**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": ingredient and product fact, allowed as written. (Worth a quick check against the recipe that it really is caffeine-free, which rooibos naturally is.)\n- \"Lovely with milk\": flavour/serving suggestion, fine.\n- \"100g tin\": size fact, fine.\n\n**Suggested edit:** \"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\"\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010418,
+ "seconds": 10.8,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "071e7617ae68d07b2f2e34dea2c79a14226cb8735128716a7a56a2e97cd66d7f",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims check**\n- \"Caffeine-free rooibos\": product fact (rooibos is naturally caffeine-free), fine as written.\n- \"cinnamon, cardamom, ginger and black pepper\": ingredients, fine.\n- \"Lovely with milk\": flavour/serving suggestion, fine.\n- \"100g tin\": size, fine.\n- \"It cured my bloating in a week\" - verified buyer: **unsupported**. This is a health claim (\"cured\") and a testimonial. It isn't on the allowlist, and no source was supplied in this conversation. Treating it as a health claim, it is also the kind of thing that breaches UK advertising rules (CAP/ASA: tea can't claim to treat or cure medical conditions). Even if a real customer said it, \"verified buyer\" is not a verifiable source for us, and a customer quote that makes a cure claim can't be used in marketing. Remove it.\n\n**Other notes**\n- The draft reads as a list of fragments, but nothing in it is on the ban list and there is no slop. Opening with the product name is acceptable on a product page.\n- No affiliate or sponsorship issues apply to this copy.\n\n**Suggested compliant version**\nRooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.\n\nIf you have a genuine customer review about taste or flavour that you can show is real, supply it with its source and it can go in. `[PROOF NEEDED: real, sourced customer review about flavour, not health effects]`\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}, {\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008863799999999998,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"**: The brand sells loose leaf tea and is certified organic, so this is a product description backed by the certificate.\n- **\"Certified organic by the Soil Association\"**: Exact wording from the approved claims list (certificate on file, renewed 2026).\n- **\"Free UK delivery on orders over £25\"**: Exact wording from the approved claims list, and the £25 threshold is stated right alongside the offer.\n\nThere are no superlatives, health claims, green claims, guarantees, urgency, invented numbers or testimonials. The channel is the brand's own search ad, so no extra label is needed. The copy is plain, uses UK spelling and has no banned words or AI clichés.\n\nNothing needs changing, so it can go out. Per the policy, Sam (marketing lead) approves everything public, so it still needs Sam's sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0078887,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

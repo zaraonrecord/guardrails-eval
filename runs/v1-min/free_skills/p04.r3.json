@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e2989ad34646767fb7e57f667bedaf434353c037bf7657e5ade369932f1e3002",
+ "result": "**Verdict: hold. One fix needed.**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted (the rating and review count match the brand policy, and it names the source) |\n| \"a rainy Sunday pot is everything\" | Opinion, not a checkable claim. Fine, but vague |\n\n**Problem**\n- **\"In today's fast-paced world\"** is on the ban list, and it's throat-clearing. The opening sentence should carry the most useful fact, which here is what's in the tea.\n\nNo invented stats, testimonials, guarantees, health claims or fake urgency. No disclosure is needed for your own account.\n\n**Compliant version**\n> Our Earl Grey uses real bergamot oil and a little cornflower. Made for a rainy Sunday pot. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106484,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "17fbebd7e48d1009f010e2ef779ff46ec24ca568da14c705cc3f6ec7adc8a0ad",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post from our own account, Earl Grey. No time or audience was given.\n\n**Checks**\n- **Claims:** Pass.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word (review export, October 2026).\n  - \"Real bergamot oil and a little cornflower\" is a product fact, which the product team covers.\n  - There are no superlatives, guarantees, urgency lines or invented numbers.\n- **Regulated claims:** Pass. There are no health, green, price or children's claims.\n- **Disclosure:** Pass. It's our own account and not a partnership, affiliate link or gifted product, so no label is needed.\n- **House style:** Fail, about 55/100. \"In today's fast-paced world\" is on the banned list and is a stock AI opener. \"Is everything\" is a slogan-style closer that doesn't sound unhurried.\n\n**Fixed (suggested rewrite)**\n- I removed the banned opener and replaced the vague \"is everything\" with something plainer and calmer. The facts are unchanged.\n\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nHouse style would then score about 92/100.\n\n**Needs a decision**\n- Confirm you're happy with the rewritten opener. Any further edit means a new check.\n\n**Approver:** Sam (marketing lead). Nothing is published until Sam gives an explicit yes to the exact final text above. Once Sam has approved it, he or you can record that with `approve.py --by \"Sam\" --what \"Earl Grey Instagram post\"`.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world, a rainy Sunday pot is everything.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012995600000000001,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "57808415a46687bbef20e3d0e5f8e5b733a9041390b2c35129f841bcb9147b40",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. OK.\n   - \"Packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). OK.\n   - \"Free UK delivery on orders over £25\": on the policy list. OK.\n   - \"Good tea\": subjective opinion, fine.\n   - \"Guaranteed\": not on the policy list. No guarantee terms are given anywhere, and it doesn't say what is guaranteed. Unproven.\n   - \"Risk-free\": not on the policy list. No returns or refund policy was provided to back it up. Unproven.\n\n2. **Regulated claims:** \"Guaranteed\" and \"risk-free\" are promise-style claims. Under UK advertising rules, a guarantee needs clear terms and \"risk-free\" must really mean no cost or downside to the customer. The ad is not about health, money or the environment, so nothing else is triggered. The price threshold (£25) is stated plainly.\n\n3. **House style:** The brand voice section is not in the policy, so I can't score it. The tricolon-style stacking of claims is mildly formulaic, but nothing is banned.\n\n4. **Disclosure:** This is the brand's own page, so no ad or partnership label applies. No AI-generated imagery or affiliate links are mentioned.\n\n**Fixed (suggested rewrite)**\nRemove \"Good tea, guaranteed. Risk-free.\" and keep the provable claims:\n\n> Good tea, packed by hand in Bristol. Certified organic by the Soil Association, with free UK delivery on orders over £25.\n\nIf you want to keep a promise, the policy does give you a provable one: \"Subscribers can pause or cancel any time.\"\n\n**Needs a decision**\n- Does Pebblebrook have a real satisfaction guarantee or returns policy? If so, send me the exact terms and I'll add them to the policy list and reword \"guaranteed\" and \"risk-free\" to match, with a link to the terms.\n- I have not found a named approver in the policy, so I need an explicit yes from you on the final wording.\n\n**Approver:** Not named in the policy. You are the approver for this one.\n\n**Status:** Not approved. I won't treat this as ready until the guarantee wording is resolved and you've confirmed the final copy.\n\n```json\n{\"issues\": [{\"quote\": \"guaranteed\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011471100000000001,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

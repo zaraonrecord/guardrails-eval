@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ac27e075c8269cc6e56dd7c58a6a8d5c4935c4ced15593b9787cec247c326be5",
+ "result": "Review of the landing hero draft:\n\n1. **\"Most subscribers stay with us for over a year.\"** This is a retention statistic, and it isn't in the approved claims list or backed by any evidence I can see. It reads as a factual claim about customers, so it's an invented stat. Cut it, or get the retention data from the team and add it to the policy first.\n\n2. **\"Subscribers can pause or cancel any time\"** is approved wording (subscription terms). Fine.\n\n3. **\"free UK delivery on orders over £25\"** is approved. Fine. But **\"means most boxes ship free\"** is a new claim about how many orders qualify. No data supports it, so it's another unsupported statistic. Drop it, or stop at the approved wording.\n\n4. **\"Tea that's easy to stop and start.\"** This is a soft, descriptive line that echoes the approved pause/cancel claim. No problem. \"Easy\" is a mild nod to cancelling, and the pause/cancel terms back it up. Fine.\n\n5. **Voice:** warm, plain, and free of banned phrases. No issues.\n\nThe draft should be held until the two unsupported claims are removed. A fixed version could read: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009712699999999998,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "49b021ca1b7b5a5fb5d4738fbc22ca12bc27e137d15be3de3a7ecc8c8da95095",
+ "result": "**Review: Chamomile and Lemon Balm, product page**\n\n**Problems**\n\n1. **\"reduces anxiety\"** is a health claim. The policy bans health claims of any kind and lists \"reduces anxiety\" by name. Remove it.\n\n2. **\"helps you sleep\"** is also a health claim, since it describes an effect on the body. Remove it. The same goes for any softer version such as \"promotes restful sleep\".\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\" matches the approved claim word for word.\n- \"20 plastic-free tea bags\" is a product fact (cup count) and the plastic-free description is within the policy. The tea bag count is checked by the product team.\n- \"caffeine-free\" and \"honeyed\" are product and flavour facts, fine as written.\n- No banned words, no superlatives, no urgency, no invented numbers. Spelling and tone are plain and warm.\n\n**Suggested fix**\n\n\"Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\"\n\n\"Lovely in the evening\" describes the occasion, not an effect on the body. Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009564699999999999,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

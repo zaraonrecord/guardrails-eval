@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "043bfe9ba9ebee4e566fd54533c686fd611f868c7b0300b170c898784661403e",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Good tea, no fuss.\" This is description and tone, not a claim. It's plain and doesn't lean on any of the filler phrases.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"packed by hand in Bristol\" matches the approved claim that every tin is packed by hand in Bristol.\n- \"free UK delivery on orders over £25\" matches the approved claim, and the £25 threshold is stated right beside the offer.\n\nThere are no unsupported numbers, superlatives, health or green claims, guarantees, urgency, testimonials or ad-label issues. The channel is the brand's own landing page, so no \"Ad\" label is needed. The copy is short, specific and reads like a person wrote it.\n\nCleared to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073725,
+ "seconds": 6.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

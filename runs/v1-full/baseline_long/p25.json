@@ -1,0 +1,15 @@
+{
+ "case": "p25",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "76003b67f0f6dcf25bb200d20076e394b6ba34f556357d9220890c344e774e5e",
+ "result": "**Review of Instagram draft (own account)**\n\nSentence by sentence:\n\n1. \"Rainy Sunday, second pot.\" Description and mood. Fine, and the voice is warm and unhurried.\n\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" Ingredient fact, which the product team checks and which is fine to use as written.\n\n3. \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\" This does not match the approved claim. The approved wording is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" (export, October 2026). Both the rating (4.9 vs 4.8) and the review count (5,000 vs 1,200) are inflated, and there is no evidence for the new figures. This is an invented stat.\n\nOther checks: no health claims, no superlatives, no guarantees, no green claims, no false urgency, no banned words. Own-account organic post, so no \"Ad\" label is needed. No spelling issues.\n\n**Decision:** Hold. Fix by restoring the approved line: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" (or drop the rating line). Everything else can stay.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009300699999999999,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f8f636519995c1f68ae5f9ae31bb112709257daf7fb4d69c4b9b0fe0125a46dc",
+ "result": "**Review of the about page draft (Pebblebrook Tea Co.)**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Team size is a product fact the product team checks, so it is fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported.** It isn't on the allowlist, and nothing in this chat sources it. |\n\n**The problem:** \"We buy from gardens we've visited\" is a factual sourcing claim. It says visits have happened, and the policy gives no proof of that. It also sounds like a stronger claim than the policy's \"where a tea is grown\" facts, which cover origin, not visits. If it's true, someone needs to confirm it. Does it cover every garden, or only some? Who visited, and roughly when? Until then it should be replaced or marked:\n\n> We buy from gardens we've visited. [PROOF NEEDED: confirmation that the team has visited the gardens, and whether this covers all of them or only some]\n\nIf it can't be confirmed, cut it. A safe alternative is a plain origin statement from the product team, such as which region a specific tea is grown in.\n\n**Other checks:**\n- No superlatives, guarantees, health claims, green claims, urgency or invented numbers.\n- No banned voice words, no em-dash sandwiches, no exclamation marks. The tone is plain and warm.\n- No disclosure is needed on an own-brand about page.\n- Per the approvals table, Sam needs to sign off before it goes live.\n\nThe rest of the copy can stay as is. Hold publication until the garden-visit line is confirmed or removed.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125862,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

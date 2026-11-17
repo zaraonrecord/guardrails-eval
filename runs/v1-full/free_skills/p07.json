@@ -1,10 +1,14 @@
 {
  "case": "p07",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** Two problems, both fixable.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | **Unsupported.** This is a guarantee, and section 3 says we have no such offer. Remove it. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"means most boxes ship free\" | **Unsupported.** We have no data on what share of orders clear £25, so \"most\" is an invented statistic. It also says \"boxes\", but we sell tins and tea bags. Remove it. |\n| \"Tea that's easy to stop and start\" | Fine as a soft restatement of pause/cancel. It's vague, though, and the sentence is clearer if it names the actual thing. |\n\n**Other checks**\n- No banned voice words, no health or green claims, no fake urgency, no testimonials.\n- No disclosure is needed, since this is our own landing page.\n- Spelling is UK.\n- As with all public content, Sam needs to approve it.\n\n**Compliant version**\n\n> Tea you can pause or cancel any time. Free UK delivery on orders over £25.\n\nIf you want to say more about the subscription, I can build on product facts such as tin sizes, cup counts or where each tea is grown. A line like \"most boxes ship free\" would need an actual figure from the team, and I'd mark it `[PROOF NEEDED: share of orders over £25]` until then.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.0141025,
- "seconds": 12.1,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "36deb4e6cea91ab33651a9da5cf1bc4354e77d85b41aab918b6afe5c1279aa63",
+ "result": "**Not ready to publish.** Two problems.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | **Unsupported.** This is a guarantee, and we have no such offer (policy §3). |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"most boxes ship free\" | **Unsupported.** It implies most orders pass £25, and we have no data on that. It is an invented stat in effect. |\n| \"easy to stop and start\" | A soft paraphrase of pause/cancel. Acceptable, but vague. |\n\n**Fixes**\n- Cut the \"love it or it's free\" line entirely. Don't soften it to something like \"try it risk-free\", which is also banned.\n- Drop \"most boxes ship free\". State the threshold and let the reader judge.\n\n**Suggested compliant version**\n\n> Loose leaf tea and plastic-free tea bags, delivered when you want them. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.\n\nClaims in the rewrite: plastic-free tea bags (allowlisted), pause or cancel (allowlisted), free delivery over £25 (allowlisted). It uses UK spelling and none of the banned voice words.\n\nSam needs to approve the final copy, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014992499999999999,
+ "seconds": 11.8,
  "models": [
   "claude-sonnet-5-5"
  ]

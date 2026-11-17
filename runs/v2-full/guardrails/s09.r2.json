@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d4f57f678b383db2c8ec7bc95a72c5e722302af99c388a1754064815517f9b56",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Going out:** product page copy for the peppermint tea, Pebblebrook Tea Co. website.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). Fine.\n   - \"Just peppermint leaves, nothing else\": this is an ingredient fact, which the product team checks and is fine as written.\n   - \"gentle on your stomach after a big meal\": a digestive benefit claim. It isn't on the allowlist and implies a health effect. Unproven.\n\n2. **Regulated claims (health)**\n   - \"gentle on your stomach after a big meal\" suggests the tea soothes or aids digestion. Policy section 3 bans health claims of any kind. Safer version: describe the taste only, e.g. \"Cool, clean and fresh, a lovely cup to finish a meal.\" That keeps the selling point (a post-meal cup) without implying a digestive effect.\n\n3. **House style**\n   - Voice: short, plain sentences. Warm and unhurried enough. No banned words. No AI tells, apart from a slightly tidy \"Cool, clean and...\" run, which is acceptable here.\n   - Score roughly 88 before the change; the rewrite keeps it there.\n\n4. **Disclosure**\n   - Own product page, no paid partnership, gifted item or affiliate link. Nothing needed.\n\n**Fixed (suggested rewrite)**\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh, a lovely cup to finish a meal. Certified organic by the Soil Association.\n\n**Needs a decision**\n- Confirm you're happy with the rewrite, which drops the stomach claim. My suggestion is yes.\n\n**Approver:** Sam (marketing lead), as the policy lists for everything public.\n\n**Status:** Not approved. The original draft should not go out as written. Once Sam has approved the final wording, record it and I'll retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011861499999999999,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

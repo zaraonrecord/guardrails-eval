@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1fa893e889b2ba5ee6a89f99b4eccc5db794efee6ac07468d3f8a87805b3a4f5",
+ "result": "## Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n- **Claims:** One problem.\n  - \"Subscribers can pause or cancel any time\" is on the policy list.\n  - \"Free UK delivery on orders over £25\" is on the policy list.\n  - \"Means most boxes ship free\" is not on the list. It implies a share of orders (most) that clears the £25 threshold, and nothing in the policy or this chat supports that. Boxes under £25 wouldn't ship free, so the line could mislead.\n- **Regulated claims:** This touches prices and offers. The delivery offer is accurate as stated, with the £25 condition shown. The \"most boxes ship free\" line is the only risk.\n- **House style:** The policy gives no voice rules or banned words, so I checked for AI tells only. The copy is plain and has no stock openers, so nothing needs changing there. \"Easy to stop and start\" is fine.\n- **Disclosure:** Not needed. This is the brand's own page, with no ad, sponsorship, affiliate link or AI-content label involved.\n\n**Fixed (suggested edit, since I can't publish):**\n- Remove \"means most boxes ship free\".\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n**Needs a decision:**\n- If the team has data showing most orders or subscription boxes exceed £25, add it to the policy as a sourced claim and the original line can stay. I'd suggest the edited version above.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on the exact final copy above before it goes live. Nothing has been approved or recorded.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116147,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

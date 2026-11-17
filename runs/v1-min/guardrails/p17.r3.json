@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a1843593b4689cc75f7562dde5c727c5fdba695bf2d5c0aebedc42006d15acb9",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Going out:** Product page copy for the peppermint tea, UK, Pebblebrook Tea Co.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour/sensory description, fine |\n| \"a natural detox that aids weight loss\" | Unproven, not on the policy list |\n| \"Certified organic by the Soil Association\" | On the policy list, fine |\n\n**Regulated claims (health)**\n- \"a natural detox that aids weight loss\" is a health and weight-loss claim. \"Detox\" is a vague claim regulators in the UK routinely challenge, and \"aids weight loss\" is a specific health claim that would need authorised-claim wording and evidence. Neither is in the policy or sourced in this chat.\n- Safer version: drop the line entirely. The selling point survives as flavour: \"Cool and clean after a big meal.\"\n\n**House style:** Short, plain and concrete. Passes. Nothing to rewrite beyond the claim.\n\n**Disclosure:** No ad, affiliate, gifted or AI-label triggers in this copy. Pass.\n\n**Fixed (suggested rewrite):**\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\n**Needs a decision**\n- Remove \"a natural detox that aids weight loss\". My suggestion is to remove it. If the team wants any wellness claim, it needs a source and sign-off from whoever the policy names for health claims.\n- The policy names no approver, so I'll need an explicit yes from you on the exact final wording before this goes live.\n\n**Status:** The draft as submitted should not be published. The revised version can go once you approve it.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094534,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

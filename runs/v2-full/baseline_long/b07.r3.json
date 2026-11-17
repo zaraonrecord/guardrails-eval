@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "I checked each sentence against the brand policy.\n\n- \"We started Pebblebrook in Bristol in 2019\": matches the approved claim \"Founded in Bristol in 2019\" (Companies House). Fine.\n- \"because we couldn't find tea bags without plastic in them\": this is a statement of the founding motivation, not a product claim or statistic. It's the brand's own story, not something the policy restricts. Fine.\n- \"Our tea bags are plastic-free and home compostable\": exact approved wording (supplier certificate, EN 13432). Fine.\n- \"here's how we checked\": a lead-in to the blog body. It promises content that isn't in this intro, so the body should be reviewed separately, but nothing in it is a problem here.\n\nOther checks: no superlatives, guarantees, health claims, invented numbers, urgency, or testimonials. No paid or affiliate relationship is indicated, so no label is needed. Voice is plain and warm, with no banned words or AI clichés. UK spelling is consistent (no spelling issues in the short text).\n\nOne optional note: since the intro says \"here's how we checked\", make sure the body backs that up with the EN 13432 certificate details and doesn't stretch the claim to the tins or other packaging.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070872999999999995,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

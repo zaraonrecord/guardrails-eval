@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review notes**\n\n- **\"In today's fast-paced world\"** is a stock opener that says nothing about the product or the Sunday-pot moment. It reads as generic filler, so cut it or replace it with something specific. For example, start straight in with \"A rainy Sunday pot is everything.\"\n- **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is a product fact on the allowlist, so it's fine.\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved claim exactly, including the source (our website), so it's fine.\n- No disclosure is needed for a brand's own Instagram account. There are no health, green, urgency, guarantee, or superlative claims.\n\nFix the opener and it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010022,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

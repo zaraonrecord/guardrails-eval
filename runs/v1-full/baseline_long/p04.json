@@ -1,0 +1,15 @@
+{
+ "case": "p04",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e44397e8ade7d89702f7283ddd0c43378562e81002119e6355d0a067421bcce4",
+ "result": "**Review notes**\n\nChannel: Instagram, own brand account. No \"Ad\" label needed.\n\nSentence by sentence:\n\n1. \"In today's fast-paced world, a rainy Sunday pot is everything.\" The opener \"In today's fast-paced world\" is on the brand's banned phrase list and is a stock AI-style opener. \"is everything\" is also vague hype. Fix: cut the opener, e.g. \"A rainy Sunday calls for a proper pot of tea.\"\n\n2. \"Our Earl Grey uses real bergamot oil and a little cornflower.\" This is an ingredient fact, which the product team checks and which is fine to use as written. No issue.\n\n3. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly (review platform export, October 2026). No issue.\n\nNo health, green, urgency, guarantee or superlative claims. UK spelling is fine.\n\nDecision: hold until the banned opener is removed.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world, a rainy Sunday pot is everything.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085527,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

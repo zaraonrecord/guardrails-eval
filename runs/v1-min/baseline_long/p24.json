@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b081d924c786535a6a0e0a4face0134c412d8b5ff027c08fa2a987023697bb1b",
+ "result": "**Review: October subscription dispatch email**\n\n**Claims check**\n- \"left Bristol this morning\": consistent with the Bristol hand-packing claim. This is an order-status fact for the sender to confirm, not a marketing claim.\n- \"a smoky lapsang and a soft white peony\": product description, fine.\n- \"you can pause or cancel any time from your account\": on the approved list.\n- No health, green, price, urgency or testimonial claims. No ad label is needed on a brand-owned transactional email.\n\n**Style**\n- \"Elevate your mornings\" is generic filler, in the same family as \"take it to the next level\". It doesn't fit a short, personal dispatch note and should be cut. Something plain like \"This month it's a smoky lapsang and a soft white peony\" works without it.\n\n**Note for the team (not a blocker)**\n- The subject says \"October tins\" and the body says \"this month\". If this goes out in November, the month is wrong. Please confirm the send date matches.\n\nThe email needs one edit before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0129865,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

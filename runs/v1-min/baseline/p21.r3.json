@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3f088e73fc123894c5e0e726f2cec4ec1d28b7c9663bbde12b7b9ff1fed7d92b",
+ "result": "**Review findings**\n\n1. **\"made with zero waste from farm to cup\"**: This is an absolute environmental claim. The policy backs only organic certification, plastic-free and home compostable tea bags, and hand-packing in Bristol. Nothing supports \"zero waste\" across the supply chain, so it's an unsubstantiated green claim. Remove it or replace it with a backed claim (e.g. \"tea bags are plastic-free and home compostable\").\n\n2. **\"Our tea bags are plastic-free and home compostable.\"** This is on the allowlist, so it's fine. It's also repetitive next to \"the same plastic-free tea bags inside\" (minor style point, not a blocker). Consider trimming one of the two.\n\n3. \"New tins just landed for winter\" is a new arrival, and the design details (deep green, gold lettering) are product facts, so both are fine as written. It isn't fake urgency.\n\n**Verdict:** Don't publish until the \"zero waste\" claim is removed or changed.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009398,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

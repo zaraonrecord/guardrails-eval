@@ -1,0 +1,15 @@
+{
+ "case": "p03",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e756cc3528eee5c319f37a34364b5e268795e49672982ab4074d62a4ba71d022",
+ "result": "**Review of the Assam Breakfast product page draft**\n\n**Problem found**\n\n1. **\"boosts your immunity through winter\"** is a health claim. Tea is a food product, and the brand policy doesn't list any health or immunity claims among the claims we can back up. In the UK, health claims on food need to be authorised, and \"boosts immunity\" is not something we can substantiate. Remove it, or replace it with a flavour or occasion statement such as \"a warming cup for winter mornings\".\n\n**Checked and fine**\n\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"malty, full-bodied black tea that stands up to milk\" is flavour description, which is fine as written.\n- \"100g tin, makes around 40 cups\" is a product fact (size and brewing), which is fine. \"Around\" keeps it appropriately hedged.\n- No superlatives, invented stats, guarantees, fake testimonials, urgency, or green claims.\n\n**Suggested revision**\n\n> Assam Breakfast. A malty, full-bodied black tea that stands up to milk, a warming cup for winter mornings. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nDon't publish until the immunity claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0068968,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

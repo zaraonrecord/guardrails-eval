@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "879e37859ff556e4f2e7706aea1dd4d45d8fddaa4f904170a74278ede2712320",
+ "result": "I checked the draft against the brand policy and the claim categories.\n\n- **Product facts:** Ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), \"lovely with milk\" (a flavour/serving note), and the 100g tin size are all product facts, which the policy allows as written.\n- **Caffeine-free:** This describes the product's composition. Rooibos is naturally caffeine-free, so it is a factual product statement rather than a health claim.\n- **Statistics, superlatives, guarantees, testimonials, urgency:** None are present.\n- **Green or health claims:** None are present.\n- **Disclosures:** A product page needs no label or disclosure here.\n- **Tone:** The copy is short and plain, with no filler or AI-sounding phrasing.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0053095,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

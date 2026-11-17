@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d2d6354acaebdfca513306beff2f54636f8acaa7381e99a4df850d5ed864b3d3",
+ "result": "**Review: social ad (own account)**\n\nReading it as a customer: a short, plain ad listing three teas and a delivery offer.\n\n**Sentence by sentence**\n\n- \"Three teas for your desk drawer.\" Description. Fine.\n- \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description and a suggestion of when to drink it. \"For after lunch\" is an occasion, not a claim about digestion or any effect on the body, so it isn't a health claim. Fine.\n- \"Free UK delivery on orders over £25.\" Matches the approved claim exactly, including the threshold and the UK scope.\n\n**Other checks**\n\n- Ad label: this is the brand's own account, so no \"Ad\" label is needed.\n- Numbers, superlatives, guarantees, testimonials, urgency, green claims: none present.\n- Style: the copy is specific, short and in a human voice. No clichés, filler or repetition. The three-item list is a literal list of three products, not rhythm for its own sake.\n\n**Optional polish (not blocking)**\n\n- \"a peppermint\" reads slightly oddly next to the other two names. \"A peppermint\" is fine, but \"peppermint\" alone or \"a peppermint tea\" would be a touch tidier. Your call.\n\n**Decision:** No changes needed. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071819,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

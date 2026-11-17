@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2fac34dcc1ebb02bb7d9b82594253a1472d9e97e0c1460a5f0c8ee251ff8e54e",
+ "result": "**Going out:** Creator post (gifted), Pebblebrook winter sampler, one short caption.\n\n**Checks**\n- **Claims:** There are no numbers, rankings, guarantees or testimonials to prove. \"Lovely with oat milk\" is the creator's own opinion. The winter sampler and rooibos chai are product facts, which the policy treats as fine as written.\n- **Regulated claims:** Nothing touches health, money, environment, children or prices.\n- **House style:** There are no banned words and no AI tells. The tone is warm, plain and unhurried.\n- **Disclosure:** The post opens with \"Gifted\", as section 4 requires for free product, and it comes before anything else. \"Not paid to say that\" is consistent with a gifted post and doesn't undercut the label. If the platform has a paid-partnership or branded-content tool, use it as well, but the policy doesn't require it.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing. One optional point: the closing line is true only if the creator got no payment beyond the sampler, so it's worth confirming that.\n\n**Approver:** Sam (marketing lead). The draft passes the checks, but I haven't recorded any approval. It should wait for Sam's explicit yes to this exact wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0106133,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

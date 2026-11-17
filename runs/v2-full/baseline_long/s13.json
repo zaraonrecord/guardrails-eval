@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a2b2c97058c618b622304370129ae1f83fe1279c079bc77df6457c71b985e7ca",
+ "result": "**Review of the paid creator post**\n\n**Disclosure (blocks publication):** The brand policy says a paid partnership post must start with \"Ad\" before anything else. This draft opens with \"My afternoon reset is a pot of...\" and the only label is \"#ad\", buried in the middle of a string of hashtags at the end. That is mixed in with other tags and not prominent or first, so readers won't see it before they engage. Fix: begin the post with \"Ad\" (for example \"Ad: My afternoon reset is...\") and keep or drop the hashtag.\n\n**Claims:**\n- \"Their tins are packed by hand in Bristol\" is on the approved claims list (\"Every tin is packed by hand in Bristol\"), so it's fine.\n- \"a pot of Pebblebrook's Assam\" is a product description, so it's fine.\n- \"My afternoon reset\" and \"ten minutes away from my phone\" describe the creator's own routine and experience, not an effect on the body, so they're fine. \"which I love\" is clearly personal opinion.\n- \"#selfcare\" and \"#slowliving\" are lifestyle tags, not health claims.\n\n**Voice:** The post is warm, plain and unhurried. It uses no banned words and no AI clichés, and the spelling is fine.\n\nOnly the disclosure needs changing. Once the post opens with \"Ad\", it can go out, subject to Sam's approval as the policy requires for everything public.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012088699999999999,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d71ca07a7c1496f2c0e65871a5437a00e08413e71208ed96e9c138af698f7bf1",
+ "result": "**Review**\n\nChannel: gifted creator post.\n\n- **Label:** Policy requires the post to start with \"Gifted\" for a free product, before anything else. It opens with \"Gifted |\", so that's correct and first.\n- **Claims:** \"The rooibos chai is lovely with oat milk\" is personal opinion about taste, not a factual or health claim. \"Not paid to say that, just liked it\" is a statement of the creator's own view, consistent with a gifted (unpaid) arrangement. The \"winter sampler\" is a product fact, which the product team covers. No numbers, superlatives, guarantees, health, green or urgency claims.\n- **Voice:** Short, plain, warm. No banned words or AI clichés. Spelling is fine.\n- **One check:** \"Not paid to say that\" is only true if the post really is gifted-only. Since the brief says gifted, that matches.\n\nNothing needs changing. It can go to Sam for the usual approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0079387,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

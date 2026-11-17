@@ -1,10 +1,14 @@
 {
  "case": "p23",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of landing hero draft**\n\nProblems:\n\n1. **\"Good tea, guaranteed.\"** Guarantees are never allowed under section 3, and we have no such offer. Remove it.\n2. **\"Risk-free.\"** Also a banned guarantee wording. Remove it.\n\nChecked and fine:\n- \"Certified organic by the Soil Association\" matches the allowlist exactly (certificate renewed 2026).\n- \"packed by hand in Bristol\": the allowlist wording is \"Every tin is packed by hand in Bristol\". The draft's shortened version says the same thing and is accurate, though you could use the exact wording to be safe.\n- \"free UK delivery on orders over £25\" matches the allowlist.\n- Voice: no banned words, UK spelling, tone is plain. It reads a little clipped, but nothing is off-brand.\n- No disclosure needed: this is our own landing page, not a creator or affiliate post.\n\nSuggested rewrite (still needs Sam's approval, as all public content does):\n\"Good tea, made simply. Certified organic by the Soil Association, every tin packed by hand in Bristol, and free UK delivery on orders over £25.\"\n\nNot ready to publish until the guarantee wording is removed and Sam signs off.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
- "cost_usd": 0.0090981,
- "seconds": 9.1,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e6eef96d3e5403d49b9d14d424668f0b038466858066b6ccd5f2e034807d8fce",
+ "result": "**Review of landing hero draft**\n\nProblems:\n\n1. **\"Good tea, guaranteed.\"** Guarantees are on the never-make list, and there's no such offer in the policy. Remove it.\n2. **\"Risk-free.\"** Also a banned guarantee claim. Remove it.\n\nWhat's fine:\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- \"packed by hand in Bristol\" is a paraphrase of \"Every tin is packed by hand in Bristol\". It's accurate, but using the exact wording would be safer.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n\nSuggested rewrite (still needs Sam's approval, as all public content does):\n\"Good tea, made simply. Certified organic by the Soil Association. Every tin is packed by hand in Bristol, with free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0060739,
+ "seconds": 7.7,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "668726d30fa84e27a600668f042ad83cb696f65dd9a69574970b20bf736fc9ed",
+ "result": "**Not ready to publish.** One thing needs fixing.\n\n**Missing affiliate disclosure.** The draft is for an affiliate review blog and ends with a link (\"You can find it here.\"), but nowhere does it say \"Affiliate link\". Policy section 4 requires that wording next to the link. The fix is to put \"Affiliate link\" right beside the link, for example \"You can find it here (Affiliate link).\" If the product was also gifted or the post is paid, it would need to open with \"Gifted\" or \"Ad\" too. I can't tell that from the draft, so please check with Sam.\n\n**Checked and fine:**\n- \"Easiest to pause\" is the reviewer's own first-person comparison, and it fits our claim that subscribers can pause or cancel any time. I wouldn't call it a banned superlative. If Sam wants to be cautious, \"easy to pause\" is safer.\n- \"The tins are lovely\" is opinion.\n- There are no health, green, guarantee, urgency or invented-number claims.\n- There are no banned words, and the voice is plain and warm.\n\nAs with all public content, it needs Sam's approval before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012269500000000003,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b922ce5a64937fb192a2f8cf8326c657dd663c884216dcab1ef9991dcb3a3181",
+ "result": "**Not ready to publish.** I checked each claim against the brand policy.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** Fine. It's on the allowlist (Companies House).\n- **\"We're a small team of six.\"** Fine. Team size is a product-team fact, so it's fine to use as written.\n- **\"Every tin is packed by hand in Bristol.\"** Fine. It matches the allowlist wording exactly.\n- **\"Over 98% of our customers rate us five stars.\"** This is an invented statistic. The only rating we can back up is \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" A 98% five-star figure isn't in our proof, and it's hard to square with a 4.8 average. Replace it with the approved rating line or remove it.\n- **\"we buy from gardens we've visited.\"** This sourcing claim isn't on the allowlist and has no proof on file. It's different from a product fact like where a tea is grown. Either get the product or operations team to confirm it and add it to the policy, or cut it. I'd hold it until someone confirms it.\n\nThe voice is warm and plain, uses UK spelling, and has no banned words. Sam (marketing lead) needs to approve the revised version before it goes live.\n\nSuggested rewrite, pending confirmation of the gardens line:\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0129575,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

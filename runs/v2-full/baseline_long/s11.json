@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a9e9bc985f316ce385a04dff71a5be57ca390c851da2fdf317992cf0a3632092",
+ "result": "**Review: social ad (own account)**\n\n**Claims and numbers:** \"Free UK delivery on orders over £25\" matches the approved wording and the shipping policy. The tea names and \"a peppermint for after lunch\" are product description and occasion, not a health claim (\"after lunch\" doesn't promise any effect on digestion).\n\n**Problem:**\n- **\"while stocks last\"** is a scarcity qualifier. The policy allows no urgency or stock language unless a real, dated offer exists, and none does. It also changes the approved claim by implying that free delivery is time- or stock-limited, when it's a standing policy. Nobody has shown that stock is actually running low. Cut it, so the line reads \"Free UK delivery on orders over £25.\"\n\n**Labels:** A paid social ad from the brand's own account is marked by the platform, so no extra label is needed.\n\n**Voice:** The copy is warm, plain and short, uses UK spelling, and has none of the banned phrases. No changes needed.\n\n**Decision:** Hold until \"while stocks last\" is removed. It is otherwise ready to go.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0117307,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

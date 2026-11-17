@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7a1698723d498bb284c084b53954dab4e441a17137b97c4e2708dc1a7306d5ae",
+ "result": "Review of the landing hero draft:\n\n**Sentence 1:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim exactly (4.8 out of 5, over 1,200 reviews, on our website). Fine.\n\n**Sentence 2:** \"The finest organic loose leaf and eco-friendly bags, packed by hand in Bristol.\"\n- \"The finest\" is a superlative claim of superiority with no objective, current evidence and no stated comparison. It is not on the allowlist. Flag it. Fix: drop it, e.g. \"Organic loose leaf tea...\"\n- \"organic\" is backed by Soil Association certification. Fine.\n- \"eco-friendly bags\" is a vague green claim. The approved claim is specific: tea bags are plastic-free and home compostable. Fix: \"plastic-free, home compostable tea bags\".\n- \"packed by hand in Bristol\" is approved (every tin is packed by hand in Bristol). Fine, though the bags are not tins, so keeping it tied to tins would be most accurate. Optional.\n\nTone is otherwise plain and not clichéd.\n\nThe draft should be held until the superlative and the vague green claim are fixed.\n\n```json\n{\"issues\": [{\"quote\": \"The finest\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092565,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

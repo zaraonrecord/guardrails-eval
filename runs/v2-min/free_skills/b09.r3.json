@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "b15fbecb9f6745174369d4def13ea295fefc6df526c6fee0115cc19c210f6de5",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n| \"Founded in Bristol in 2019\" | Allowlisted |\n\n**Other checks**\n- **Invented stats, testimonials, superlatives, guarantees, urgency:** none.\n- **Health or regulated claims:** none. The environmental claims are the two the brand can back up, and they are stated plainly with no \"eco-friendly\" or \"planet-saving\" overreach.\n- **Slop and structure:** no ban-list words, no exclamation points, no rhetorical opener, no em-dashes. The copy is specific and leads with a fact.\n- **Length:** the headline is 21 characters and the description is 79. Both fit typical search ad limits (30 and 90), though you gave no limit.\n- **Landing page match:** the ad makes the plastic-free, home compostable and Bristol 2019 claims, so the landing page should state the same. I can't see it, so please confirm before launch.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011325700000000001,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1557742a406d3689621063d878647d647cfde329fd0a9b21c5240c0ef589912c",
+ "result": "## Publish gate report\n\n**Going out:** Social ad on the brand's own account, UK audience. No date was given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy allowlist. The tea names and the peppermint \"after lunch\" line are product facts, so they're fine. **\"While stocks last\" is not on the list.** The free delivery offer isn't tied to stock, and nothing here shows stock is limited. It creates scarcity pressure we can't back up.\n- **Regulated claims:** The draft makes a price/offer claim and a scarcity claim. The delivery offer is fine. The scarcity wording is the problem.\n- **House style:** There are no obvious AI tells, banned words or inflated phrases. The tone is short and plain. I'd score it about 90 and wouldn't change it.\n- **Disclosure:** It's the brand's own account and the brand is clearly the advertiser. If it runs as a paid ad, use the platform's own \"Ad\" or sponsored label. No creator or affiliate relationship is involved, and there's no AI-generated content to label.\n\n**Fixed:** Nothing has been changed in the draft yet. Here is the suggested version:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- Remove \"while stocks last\". If stock really is limited, someone needs to confirm that, and the wording should say which products and how many.\n- The policy doesn't name an approver, so I need an explicit yes from you on the exact final text.\n\n**Approver:** You, as the user, because the policy names no one else. Once you've approved the revised text, I'll record it with your name.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014865300000000001,
+ "seconds": 19.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d8dd3f502a3e4fcb813e6c14f43f8b0006b34a67f5b3fd6e6e1843400ed21578",
+ "result": "I found nothing that needs changing.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the approved wording in the brand's claims table word for word. It is backed by the October 2026 review platform export.\n- **Ingredients:** \"Our Earl Grey uses real bergamot oil and a little cornflower\" is a product fact (ingredients), which the product team checks and the policy allows as written.\n- **Health, green, urgency, superlative and guarantee claims:** none appear. \"Rainy Sunday, second pot\" describes a mood and not an effect on the body.\n- **Disclosure:** this is the brand's own account, so no \"Ad\" or \"Gifted\" label is needed. It is not a creator post and has no affiliate link.\n- **Voice:** it is warm, plain and unhurried, with no banned words or AI clichés, and the spelling is UK-consistent.\n\nThe policy lists Sam (marketing lead) as approver for everything public, so Sam should give the final sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009796699999999998,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

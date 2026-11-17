@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "809ba0d13bb9a8d5a6420333227bcbea7103251d638522acb493cbb5c8de20fd",
+ "result": "**Review of the landing hero draft**\n\n**What passes**\n- \"Subscribers can pause or cancel any time\" matches the approved claim and the subscription terms.\n- \"free UK delivery on orders over £25\" matches the approved shipping claim, and the £25 threshold is stated.\n- \"Tea that's easy to stop and start\" is description. It is plain and warm, with no banned words or AI clichés, and it uses UK spelling.\n\n**What needs changing**\n- **\"means most boxes ship free\"**: This is an unsupported claim. It implies that most orders or subscription deliveries are over £25, and the brand has no data on that. The approved claim is only that delivery is free over £25. It also hints that subscription deliveries may qualify automatically, which isn't established. \"Boxes\" may also not match what Pebblebrook sells (tins and tea bags).\n  - **Fix:** Drop the \"most boxes\" part and state the approved claim, for example: \"Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nOnce that phrase is fixed, the copy is fine to go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094501,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

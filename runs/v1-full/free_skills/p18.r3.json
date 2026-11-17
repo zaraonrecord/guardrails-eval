@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "337d9f76e8a60e6388aadce74159aef2592a2368a39c5ac5ee8e8be58cd047d5",
+ "result": "**Review: \"How to brew loose leaf without a teapot\" (email)**\n\n**Claims check**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing guidance, covered as a product fact. OK.\n- \"Green tea likes it shorter and cooler\": brewing guidance. OK.\n- \"You don't need any kit\": not a regulated claim. OK, though the next sentence lists kit (a mug and a sieve), so it reads slightly off.\n- No stats, superlatives, guarantees, testimonials, health claims, green claims or urgency. No disclosure is needed, since this is our own email.\n\n**Voice problem**\n- \"Unlock your tea journey.\" uses two words banned by the brand policy (\"unlock\" and \"journey\"). It is also throat-clearing: it says nothing, and the useful fact comes after it. Cut it and open with the fact.\n\n**Suggested fix**\n> Hi Ana,\n>\n> You can brew loose leaf with a mug and a small sieve. Four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n**Before sending:** the policy says Sam must approve everything public, so the revised version needs his sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107557,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

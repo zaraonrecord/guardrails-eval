@@ -1,10 +1,14 @@
 {
  "case": "b24",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Good tea, no fuss\" | Soft opinion, no checkable claim. \"Good\" passes the compared-to-what test as a casual tone line, not a superlative |\n\n**Slop-guard check**\n- Ban-list words: none.\n- Structural: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triad, no fake urgency.\n- Opening sentence: \"Good tea, no fuss\" is short and a little vague, but it is a brand line, not throat-clearing. Acceptable for a hero. A more concrete opener is optional, not required.\n\n**Review rules:** Not a product review, so the label and affiliate rules don't apply.\n\n**Other points**\n- The three claims are all backed by the brand policy.\n- The landing page is the channel, so the \"ad must match landing page\" rule is satisfied by definition.\n- No platform-policy flags (no health, money or personal-attribute language).\n\nNothing needs changing. The draft is publishable as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0090463,
- "seconds": 9.7,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e6cf913174cbe450b2289e3b59d85af84eba2c5107317e068a61155ea3c4841d",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | Allowlisted |\n| Packed by hand in Bristol | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| Free UK delivery on orders over £25 | Allowlisted |\n| \"Good tea, no fuss\" | Soft opinion, not a measurable claim. No superlative or comparison. |\n\n**Slop check**\n- No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no fake urgency.\n- \"Good tea\" is a mild adjective, but it passes the \"compared to what?\" test well enough as a plain brand voice line and makes no comparative claim.\n- The opening sentence is throat-clearing rather than the most useful fact. This is a style preference, not a blocker. If you want to tighten it, lead with the organic certification.\n\n**Ad/landing consistency:** Not an ad, so no cross-check needed. The delivery threshold should match the checkout and delivery page, which is worth a quick check before publishing.\n\n**Review labels:** Not applicable, this is not a product review and no affiliate or sponsored content appears.\n\n**Verdict:** Every factual claim is on the allowlist and nothing needs to change. Safe to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090703,
+ "seconds": 10.3,
  "models": [
   "claude-sonnet-5-5"
  ]

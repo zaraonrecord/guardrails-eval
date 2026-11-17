@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9bfbb66ceec52bea27431d2e9da8ce641e1c2d383115fadef133672680f1d238",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", description about compostable bags and Bristol founding. Audience: UK searchers.\n\n**Checks**\n\n1. **Claims**\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list (supplier certificate EN 13432). Pass.\n   - \"Plastic-Free Tea Bags\" (headline): consistent with the same row. Pass.\n   - \"Founded in Bristol in 2019\": on the policy list (Companies House). Pass.\n   - Evidence log rows (to paste into the team log):\n     - 2026-11-17 | Search ad, plastic-free bags | Plastic-free and home compostable | On policy list | Supplier certificate EN 13432\n     - 2026-11-17 | Search ad, plastic-free bags | Founded in Bristol in 2019 | On policy list | Companies House\n\n2. **Regulated claims:** The environmental angle is the risky area, but the wording matches the policy row exactly and is specific (a standard is behind it, no general \"eco\" or \"sustainable\" claim). No health, money, price or children content. Pass. One note: the ad's landing page must back up the compostable claim too, since an ad can't claim more than its page. I can't see the page, so please confirm it.\n\n3. **House style:** No banned words, no AI tells, plain and warm enough for an ad. UK spelling fine. Score about 90. Pass.\n\n4. **Disclosure:** Own-account paid search ad. Policy section 4 says paid ads from our own account are marked by the platform, so no extra label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Only the landing-page check above. My suggested answer: confirm the page states the plastic-free and home compostable claim, then go.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam to this exact copy before it is published or scheduled. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009690899999999999,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

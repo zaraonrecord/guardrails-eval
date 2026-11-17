@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ec49247ae8e85699221cf8d424fa4925a914a0894f0e9f45e3c697e3a020fac5",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post, Pebblebrook's own account, new winter tins announcement. No approver is named in the policy, so the user needs to approve.\n\n### Checks\n\n**Claims**\n- \"made with zero waste from farm to cup\": not on the policy list and no source given. It's also an absolute environmental claim. **Unproven, remove.**\n- \"Our tea bags are plastic-free and home compostable\" / \"the same plastic-free tea bags inside\": on the policy list. **OK.**\n- \"New tins just landed for winter\", \"Deep green, gold lettering\": product facts, fine as written.\n\n**Regulated claims (environment)**\n- \"zero waste from farm to cup\" is a broad green claim covering the whole supply chain, which regulators (the ASA/CMA in the UK) challenge most. We can't evidence it, and tins, packing and shipping all generate some waste. Safer version keeps only what's provable: plastic-free, home-compostable tea bags.\n\n**House style**\n- Repeats itself: plastic-free tea bags are mentioned twice in three sentences. Tighten to one mention.\n- The \"zero waste\" line reads like a slogan. Removing it fixes this.\n\n**Disclosure**\n- Own-account brand post, no paid partnership, affiliate link, gifted product or AI imagery mentioned. Nothing to label. If the tin photo is AI-generated, it needs a \"Made with AI\" label.\n\n### Fixed (suggested rewrite)\n> New tins just landed for winter. Deep green with gold lettering, and inside, the same plastic-free, home compostable tea bags.\n\nChanges:\n- Removed \"made with zero waste from farm to cup\".\n- Merged the two duplicate plastic-free mentions.\n\n### Needs a decision\n- Do you have evidence for \"zero waste from farm to cup\" (e.g. a certification or audit)? If so, share it and we can add it to the policy. My suggestion is to drop it.\n- Please confirm the tin image is a real photo, not AI-generated.\n- Approval: please give an explicit yes to the rewritten text above. Nothing is approved yet, so I haven't recorded anything.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0103425,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "71f37d265236ebafb2c5ab1d297fc1b9f971b0451028b9f1aa011b63ef6bec4d",
+ "result": "**Review: newsletter, Christmas blend**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new or returning products), fine |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, product team checked, fine |\n| \"back in the shop from today\" | Availability fact, not a countdown or scarcity claim, fine |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims:** none.\n- **Invented numbers or testimonials:** none.\n- **Urgency:** \"from today\" says when it's available. It doesn't say \"only X left\" or \"today only\", so it isn't fake urgency.\n- **Voice and slop:** it's warm, plain and unhurried. There are no banned words, no em-dash asides, no exclamation points and no rhetorical-question opener. The opening \"Quick one this week\" is a little throat-clearing, but it's harmless and fits the voice.\n- **Disclosure:** this is our own newsletter, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Spelling:** nothing UK-specific is at issue.\n\n**Before sending:** policy says Sam (marketing lead) approves everything public, so get Sam's sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009611599999999998,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

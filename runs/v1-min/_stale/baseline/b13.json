@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n- **Disclosure:** It opens with \"Ad |\", which is clear and upfront for a paid creator post. Fine.\n- **Claims:** \"Tins are packed by hand in Bristol\" is on the allowlist. \"Assam\" is a product fact, so fine as written.\n- **Other checks:** No invented stats, superlatives, guarantees, health claims (the \"ten minutes away from my phone\" line is a lifestyle remark, not a wellness claim), green claims, fake urgency, or fake testimonial. The personal voice (\"which I love\") is a creator's opinion about a verified fact, not a fabricated customer quote. Nothing reads as generic AI filler.\n\nNo changes needed. Safe to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00828,
+ "seconds": 6.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

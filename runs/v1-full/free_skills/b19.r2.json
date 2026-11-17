@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "515783309eb1bbd6514439434907e660b47a96a69eb1d41ef36aa69104d8458c",
+ "result": "**Review result: clean. Nothing needs changing in the copy.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, covered as a product-team-checked fact |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same |\n| \"You don't need any kit\" | Practical advice, not a measurable claim |\n\n- **Numbers, superlatives, guarantees, testimonials, urgency:** none. The only figure is the four-minute brew time, which is brewing guidance.\n- **Health and environmental claims:** none.\n- **Required labels:** none needed. This is the brand's own email, not a paid partnership, gifted product or affiliate link.\n- **Voice and slop:** warm, plain and unhurried. No banned words, no rhetorical-question opener, no em-dashes, no exclamation points, and the first sentence gives useful information straight away. Spelling is UK-neutral.\n- **Honest-review rules:** not applicable, since this isn't a product review.\n\n**Before it goes out:** the policy says Sam (marketing lead) approves everything public, so this needs his sign-off. That's a process step, not a change to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0108147,
+ "seconds": 20.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: creator post (paid)**\n\n**Channel:** Paid creator post, so the ad label matters most.\n\n**Label:** The draft opens with \"Ad\", which is upfront and first. That meets the requirement. It's brief but clear.\n\n**Claims, sentence by sentence:**\n- \"My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone.\" This is personal experience and lifestyle description, not a health or effect claim. Fine.\n- \"Their tins are packed by hand in Bristol, which I love.\" \"Packed by hand in Bristol\" is on the brand's approved claims list (\"every tin is packed by hand in Bristol\"). \"Which I love\" is clearly personal opinion. Fine.\n\n**Product facts:** Assam as a product is within normal product facts.\n\n**Style:** It's short, specific and in a personal voice. No clichés, filler, or hype words. No urgency, guarantees, stats, superlatives, green claims or testimonials from others.\n\n**Decision:** Nothing here misleads or breaks policy. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006464900000000001,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

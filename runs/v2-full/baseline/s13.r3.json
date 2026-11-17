@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "42a729c92e106331d77b5d7e0c6331d25637e8ff8ecb7f08863e4153a6966f91",
+ "result": "**Review of the paid creator post**\n\n**Problem: the \"Ad\" label is in the wrong place.** Our policy says a paid creator post must start with \"Ad\" before anything else. This draft has \"#ad\" buried at the end of a long hashtag string, so it doesn't meet the rule. The post should open with \"Ad\" (for example, \"Ad: My afternoon reset is…\").\n\n**What's fine:**\n- \"Packed by hand in Bristol\" matches an approved claim (every tin is packed by hand in Bristol).\n- The Assam, the pot of tea and the ten minutes away from the phone are ordinary product and lifestyle details.\n- \"Which I love\" is the creator's own opinion, with no invented numbers, guarantees, superlatives or health claims.\n- \"#selfcare\" and \"#slowliving\" are general lifestyle tags and don't make a health claim.\n- The voice is warm, plain and unhurried, uses UK spelling, and has none of the banned words.\n\n**Before publishing:** move the disclosure to the very start of the post. As with all public content, Sam needs to approve it.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109701,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f758509460859b8032506853222154b4a9d27cdba2e097de2498e0830118675a",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Packed by hand in Bristol | On policy list (\"Every tin is packed by hand in Bristol\") |\n| Certified organic by the Soil Association | On policy list; certificate renewed 2026, current |\n| Free UK delivery on orders over £25 | On policy list (shipping policy) |\n\nAll three claims are allowed. No invented stats, superlatives, guarantees, health, green or urgency claims.\n\n**Regulated claims:** The free delivery claim carries its condition (over £25), so it's fine. Nothing touches health, money or the environment.\n\n**Disclosure:** This is the brand's own page, so no ad or partnership label is needed.\n\n**House style:** No banned words. The tone is warm and plain. One problem: \"packed by hand in Bristol\" appears twice, in the first sentence and again in the second. That reads as padding, a mild AI tell, and it weakens the hero line. Score is roughly 72 before the fix, which is under 80.\n\n**Fixed (suggested rewrite):**\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nWait: that changes the claim. The policy certifies \"our tea\", not \"every tin\" as organic, so I'd keep the original wording on that point:\n\n> Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nFacts are unchanged, the repetition is gone, and the score is about 90.\n\n**Needs a decision:** None, other than approving the rewrite above.\n\n**Approver:** Sam (marketing lead). Everything public needs Sam's explicit yes to this exact final wording. I haven't recorded any approval, and nothing should be published until Sam gives one. The original draft can go out only if Sam prefers it, but I recommend the tightened version.\n\nThe only problem is the repeated phrase, which is a style issue and not a compliance one. I've flagged it as `ai_slop` since it's padding.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0108724,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

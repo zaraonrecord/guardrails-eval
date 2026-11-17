@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "26266d974c00227ea9252f15610ccff62fbae004ac638fcc1a76fe8f952ff621",
+ "result": "## Publish gate report\n\n**Going out:** Peppermint tea product page copy, UK, no schedule given.\n\n**Checks**\n- **Claims:** \"Just peppermint leaves, nothing else\" is an ingredient fact, so it's fine as written. \"Certified organic by the Soil Association\" is on the policy list. \"Cool, clean\" describes flavour, so that's fine too. \"Gentle on your stomach after a big meal\" is not on the policy list and nothing in this chat sources it. It's unproven.\n- **Regulated claims:** The stomach line is a health claim. It implies a digestive benefit, and in the UK that kind of claim on a food or herbal product needs an authorised basis. Safer version: drop the benefit and keep the sensory selling point.\n- **House style:** The copy is short, plain and specific, with no AI tells or banned words. No changes needed.\n- **Disclosure:** This is the brand's own product on its own page. There's no ad, sponsorship, affiliate link or gifted product, and no AI labelling is needed.\n\n**Fixed:** Nothing has been changed in your draft. This is my suggested replacement:\n\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and refreshing. Certified organic by the Soil Association.\n\n**Needs a decision**\n- Confirm you're happy to remove the stomach claim. If you want to keep a digestive benefit, you'd need a documented, authorised basis for it, and someone who knows UK advertising rules should sign off.\n\n**Approver:** The policy doesn't name one, so you're the approver. I need an explicit yes to the exact final text above before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014813300000000001,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

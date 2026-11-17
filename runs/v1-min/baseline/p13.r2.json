@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2560161cb35107bd47cccb28437a761513cb2ff12ee649ca037f1a5a686a3db5",
+ "result": "**Verdict: fine to publish as written.**\n\n- **Disclosure:** The opening line, \"Pebblebrook sent me their winter sampler,\" says plainly and up front that the product was gifted. \"Not paid to say that, just liked it\" is consistent with a gifted arrangement, as long as it's true that there was no payment and no obligation to post. A \"#gifted\" tag would make it even clearer, but it isn't needed.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims or urgency. \"Lovely with oat milk\" is a personal opinion about flavour, which is fine.\n- **Tone:** It reads like a real person wrote it, with nothing generic or padded.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093052,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3ee33a80903ebc92f44367006c701664ed63a6b7c520d4ad5cf88d82580ca88c",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy for Pebblebrook Tea Co., UK audience, publish timing not given.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" is on the policy list (subscription terms).\n  - \"free UK delivery on orders over £25\" is on the policy list (shipping policy).\n  - \"means most boxes ship free\" is not on the list and has no source in this chat. It implies that most orders exceed £25, which is an unproven statement about order values. It also says \"boxes\", but the policy only mentions tins and tea bags.\n- **Regulated claims:** This touches prices and offers. The free-delivery wording is fine as written, but the \"most boxes\" line stretches it beyond the stated condition.\n- **House style:** The copy is warm, plain and unhurried, and uses no banned words or AI tells. The opening line is fine.\n- **Disclosure:** Not applicable. This is the brand's own page and carries no partnership, affiliate or AI-label requirement.\n\n**Fixed (suggested, not yet applied):** Remove \"means most boxes ship free\". Suggested final copy:\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n**Needs a decision:** If the team has real data that most orders qualify for free delivery, add it to the policy claims list with a source and a review date. Otherwise, use the version above.\n\n**Approver:** Sam (marketing lead). I have not recorded any approval. Sam needs to say yes to the exact final copy once the change is made.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012296900000000001,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

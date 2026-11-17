@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a805be712611c93c0bd6db6848318b14b0a6af7f710883d354ea78030e9d6560",
+ "result": "## Publish gate report\n\n**Going out:** Creator post, gifted product (Pebblebrook winter sampler), UK audience. Timing wasn't given.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees or testimonials attributed to the brand. \"Lovely with oat milk\" is the creator's own opinion, and the sampler and rooibos chai are product facts, which the policy allows as written.\n- **Regulated claims:** Nothing touches health, money, the environment, children or prices.\n- **House style:** The copy is short, plain and specific, with no AI tells or banned phrases. No changes needed.\n- **Disclosure:** \"Gifted\" is the first word, so it is upfront and obvious. \"Not paid to say that\" adds clarity, and that is fine as long as it's true.\n\n**Fixed:** Nothing.\n\n**Needs a decision**\n1. Confirm there was no obligation to post, no payment, and no brand approval or editorial control over the post. If any of those apply, the post becomes an ad under UK rules and should open with \"Ad\" or \"Paid partnership\" instead of \"Gifted\". My suggested answer is to keep \"Gifted\" if the sampler came with no strings.\n2. If the platform has a branded-content or paid-partnership tool, consider switching it on as well.\n\n**Approver:** The policy doesn't name an approver, so it falls to you. I need an explicit yes to this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.016319300000000002,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

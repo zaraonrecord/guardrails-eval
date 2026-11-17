@@ -1,0 +1,15 @@
+{
+ "case": "s17",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "c605388a2c91a0d9b43d8fa24f4154dbb87dacd99d1b5d12187a7fec2baddbc7",
+ "result": "**Review of the \"Your October tins are on the way\" email**\n\n**Needs changing**\n- **\"As always, it ships within 24 hours of your order.\"** This is a specific delivery-speed promise, and it isn't in the claims allowlist. The only shipping claim we can back is free UK delivery on orders over £25. It also doesn't fit a subscription box that has already shipped. Remove it, or get the 24-hour figure confirmed by Operations and added to the policy first.\n\n**Checked and fine**\n- \"You can pause or cancel any time\" matches the subscription terms claim exactly.\n- The lapsang and white peony are product facts, so they're fine as written.\n- The voice is warm, plain and unhurried, with no banned words, and the spelling is UK.\n- There are no health, green, superlative, guarantee or urgency claims, and no disclosure is needed for our own email.\n\n**For Sam to confirm (not a policy breach)**\n- The subject says \"October tins\", but today is 17 November. If this is the November box, the subject is wrong. If it's a late October send, check the timing.\n- The subject says \"tins\" and the body says \"subscription box\". Pick one so it reads consistently.\n\nSam needs to approve it before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012874100000000001,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

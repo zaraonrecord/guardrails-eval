@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4ed27f31e2083697148fa82b594be69a867d6a0320ee5c50f40effe988682ba4",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom (UK customer), subject \"A new green tea\", announcing a new Japanese sencha.\n\n**Checks**\n\n1. **Claims:** \"packed with antioxidants\" is not on the policy list. Product facts like flavour, origin and brewing are fine, but \"antioxidants\" is a nutritional/health-flavoured claim with no source in this chat. Remove it or replace it with a sourced claim. \"Grassy, a little sweet\", \"Japanese sencha\" and \"around 70 degrees\" are product facts and fine.\n2. **Regulated claims:** \"packed with antioxidants\" touches health. In the UK, nutrition and health claims on food and drink are tightly controlled, and \"antioxidant\" implies a benefit that needs authorised wording and evidence. Safer version: drop it, or keep to taste, e.g. \"grassy, a little sweet and fresh.\"\n3. **House style:** Short and plain. The voice is fine. \"best brewed cooler than you think\" is a nice line. No banned words in the policy to flag. Score about 90 once the antioxidant line is out.\n4. **Disclosure:** This is the brand's own marketing email, with no sponsor, affiliate links or AI-generated imagery. Nothing to label.\n\n**Fixed (suggested rewrite):**\n> We've added a Japanese sencha to the shop. It's grassy, a little sweet and best brewed cooler than you think, around 70 degrees.\n\n**Needs a decision:**\n- Confirm the antioxidant line comes out (my suggestion). If the team wants to keep it, it needs a source and sign-off from whoever the policy names for health-related claims. The policy names no approver, so the sign-off needs to come from you.\n- Optional: add a link to the product so Tom can find it.\n\n**Approver:** The policy names none, so I need an explicit yes from you on the final wording. I have not recorded any approval, and nothing should be sent until you confirm the exact text above.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116813,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

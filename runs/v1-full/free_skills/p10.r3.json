@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d2aaa403a3fbc96f8e431873fa2268900af2950384b89d3fa4efdd9faa93298",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": product fact (new product). OK.\n- \"Grassy and a little sweet\": flavour description, product fact. OK.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, product fact. OK. This is advice, not a superlative about the tea.\n- No numbers, comparisons, guarantees, testimonials, health claims, green claims or urgency. No disclosure is needed for our own email.\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" This is the \"it's not just X, it's Y\" construction, which the brand policy bans and the slop rules also forbid. It also adds nothing concrete. Cut it.\n\n**Suggested version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, and best brewed cooler than you think: around 70°C.\n\nThe Pebblebrook team\n\nI added the °C so it's clear the temperature is Celsius. That's optional. The email still needs Sam's approval before it goes out, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0102393,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

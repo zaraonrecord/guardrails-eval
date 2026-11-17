@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ca3d901ad7ec1fd8fcc12e9cf9cdce33b95197963506684922a09b7d771c3015",
+ "result": "**Not ready to publish.** Two claims have no support in the allowlist.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea that's easy to stop and start\" | Fine as a plain restatement of the pause/cancel terms |\n| \"Most subscribers stay with us for over a year\" | **Unsupported.** It is a retention statistic and nothing in the policy backs it. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"means most boxes ship free\" | **Unsupported.** It implies most orders exceed £25, which we have no data for. The free-delivery threshold is the only claim we can make. |\n\nNo health, green, superlative, guarantee or urgency claims. No banned voice words and no AI-tell structures. A hero on our own page needs no \"Ad\" or \"Gifted\" label.\n\n**Suggested replacement**\n\n> Tea you can pause or cancel any time. Free UK delivery on orders over £25.\n\nIf the retention figure is real, send me the source (e.g. a subscription data export with the date) and I can work it in. Sam still needs to approve the final copy before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011713399999999999,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

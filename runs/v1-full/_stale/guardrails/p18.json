@@ -1,0 +1,11 @@
+{
+ "case": "p18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** an email, \"How to brew loose leaf without a teapot\", to Ana. No send time was given.\n\n**Checks**\n- **Claims:** no stats, rankings, guarantees, testimonials or urgency. \"A mug, a small sieve and four minutes\" and \"green tea likes it shorter and cooler\" are brewing guidance, which the product team has cleared.\n- **Regulated claims:** no health, money, environmental, price or children's content.\n- **Disclosure:** nothing paid, gifted, affiliate or AI-labelled, so no label is needed.\n- **House style:** about 70/100. \"Unlock\" and \"journey\" are both on the banned list, and the line is also a stock marketing opener.\n\n**Fixed:** I replaced \"Unlock your tea journey.\" with \"Brewing loose leaf is easier than it looks.\" This keeps the voice warm, plain and unhurried, and adds no claims. The score after the rewrite is about 95.\n\nRevised copy:\n\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> Brewing loose leaf is easier than it looks. You don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n**Needs a decision:** nothing is unresolved. The draft shouldn't go out as written, because it contains banned words.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the revised copy above before it is sent or scheduled. Approval of the earlier draft doesn't count.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0149235,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

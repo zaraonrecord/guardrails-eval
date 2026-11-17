@@ -1,10 +1,14 @@
 {
  "case": "b18",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and sensation description. It makes no digestive or health promise, so it is fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials or review counts.\n- No health, money, legal or environmental claims. \"After a big meal\" describes when it tastes good, not a benefit to digestion. Don't extend it to \"aids digestion\" or \"settles your stomach\", as that would need proof and would likely trip platform policy.\n- Slop-guard: no banned words, no em-dash sandwiches, no exclamation points, no rhetorical openers, no abstract triads. The opening is a plain product name, and the copy is concrete.\n- Product-page consistency: the page needs nothing else to support these claims.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0111143,
- "seconds": 10.5,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "97617901e00753f2fea512d844e686357663e638308c15867f31bb0f2b0be317",
+ "result": "**Review: Peppermint product page copy**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and occasion description, not a claim |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Other checks**\n- **Ban list and structure:** No banned words, em-dash sandwiches, exclamation points, rhetorical openers or fake urgency. The first sentence names the product, and the copy is concrete and short.\n- **Health territory:** \"Cool and clean after a big meal\" reads as how the tea tastes and feels, not a digestive benefit. It would become a health claim if reworded to something like \"settles your stomach\" or \"aids digestion\", so keep it as is.\n- **Invented proof:** No statistics, testimonials, or review counts.\n- **Landing page consistency:** The organic claim is on the allowlist, so there is nothing to reconcile.\n\nNothing needs changing, so this is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011216299999999998,
+ "seconds": 10.3,
  "models": [
   "claude-sonnet-5-5"
  ]

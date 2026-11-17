@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "d4f57f678b383db2c8ec7bc95a72c5e722302af99c388a1754064815517f9b56",
+ "result": "## Publish gate report\n\n**Going out:** product page copy for the peppermint tea, on the website, UK.\n\n**Checks**\n- **Claims:** \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks, so it's fine. \"Certified organic by the Soil Association\" matches the policy row word for word (certificate on file, renewed 2026), so it's fine. \"Gentle on your stomach after a big meal\" is a digestive health benefit with no evidence, and the policy bans health claims of any kind. It has to go.\n- **Regulated claims:** the same line is the only problem. Tying a tea to digestive comfort is the kind of wording regulators challenge. Nothing here touches prices, money, the environment or children.\n- **House style:** the copy is warm, plain and unhurried, with no banned words or AI tells. No change needed beyond the fix below.\n- **Disclosure:** this is the brand's own product page, with no partnership, affiliate link or AI-labelled content, so no label is needed.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and refreshing. Certified organic by the Soil Association.\n\nI changed \"gentle on your stomach after a big meal\" to \"refreshing\", which describes the taste and makes no health claim. If you want to keep the after-dinner idea, \"a lovely cup to finish a meal\" works without implying a digestive benefit.\n\n**Needs a decision:** do you accept the rewrite, or do you have another health-free wording for that line?\n\n**Approver:** Sam (marketing lead), who approves everything public. Nothing should be published until Sam says yes to the final wording. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121151,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

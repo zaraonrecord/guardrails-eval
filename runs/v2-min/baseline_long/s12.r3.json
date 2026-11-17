@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "24f26f071c537223cb3ac6a994795b6392049687b73bd0933fe84fe53c93f511",
+ "result": "**Review of the newsletter draft**\n\n**Channel:** Newsletter, brand-owned, so no \"Ad\" label is needed.\n\n**Sentence by sentence:**\n- \"Quick one this week: the Christmas blend is back.\" This is description and a new-arrival fact, which the policy allows.\n- \"Black tea, orange peel, cinnamon and a little clove.\" These are ingredients, which the policy allows as written.\n- \"It's back in the shop from today\" is a new-arrival fact, so it's fine.\n- \"and selling fast\" is a problem. It is a scarcity and demand claim, and nothing in the brand's approved claims or the draft supports it. Unless the team can show current sales or stock figures that justify it, it creates false urgency and pressures readers to buy quickly. The fix is to cut it, or replace it with something factual such as \"It's back in the shop from today.\"\n\n**Style:** The copy is short, specific and sounds like a person wrote it. There are no clichés or filler. No health, green, price, guarantee or testimonial issues.\n\n**Decision:** Hold until \"selling fast\" is removed or backed with evidence.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0083381,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

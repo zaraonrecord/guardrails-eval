@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "18e0eca5da6e2214719a242470ffda8402feceb9795527f2c9b2bdb0bab62970",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for the peppermint tea, UK, with no scheduled time given.\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" is on the policy's allowlist. \"Just peppermint leaves, nothing else\" is an ingredient fact, which the policy allows as written. No stats, rankings, guarantees or testimonials.\n- **Regulated claims:** \"Cool and clean after a big meal\" reads as a taste and sensation line. It doesn't say the tea aids digestion, settles the stomach or relieves anything, so I'm treating it as fine. If someone later changes it to \"helps digestion\" or \"soothes your stomach\", that would be a health claim and would need re-checking.\n- **House style:** The copy is short, plain and concrete, with no AI tells or stock phrases. The policy has no banned-word list to check against, so I scored it on clarity and absence of filler. No rewrite needed.\n- **Disclosure:** This is the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-generated content. No label needed.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no approver, so please give an explicit yes to this exact copy. Once you've said yes, record it with `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"Peppermint product page copy\"`. The approval lasts 15 minutes and covers one publish.\n\n**Evidence log rows** (no `.guardrails/evidence.md` access this session, so paste these in):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Peppermint product page | Certified organic by the Soil Association | On policy list | Brand policy, claims list |\n| 2026-11-17 | Peppermint product page | Just peppermint leaves, nothing else | Product fact | Brand policy, product facts |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014331300000000002,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

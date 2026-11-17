@@ -1,0 +1,15 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b2091a61214512ae5706c66eeb1b0c3991990cae6bd029a958708b6e14e8cd1e",
+ "result": "I found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", as section 4 requires for free product. \"Not paid to say that\" is consistent with a gifted post.\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or fake urgency. The comment about the rooibos chai with oat milk is the creator's own opinion of a product, not a brand claim.\n- **Product facts:** The winter sampler and the rooibos chai are product details, which the product team checks and which are fine as written.\n- **Voice:** The tone is warm, plain and unhurried. None of the banned words appear, and the spelling is fine.\n\nUnder section 6, Sam still needs to approve everything public before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070859,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

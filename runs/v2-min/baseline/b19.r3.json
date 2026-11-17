@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fbe25db30360616f5fee3ad90ecaee020b7efaf6e0f3a0b97abf81f99e45a110",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. Brewing advice (mug, sieve, four minutes for black tea, shorter and cooler for green) counts as a product fact, which the policy allows as written.\n- **Tone:** It is short and plain, with no filler or generic AI phrasing.\n- **Disclosure:** It is a brand email from \"The Pebblebrook team\" with no promotion, offer or sponsorship that would need a label. I can't see an unsubscribe link or postal address, but that is probably added by the email platform's footer, so I haven't flagged it.\n- **Market fit:** Nothing conflicts with UK marketing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0051581,
+ "seconds": 6.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

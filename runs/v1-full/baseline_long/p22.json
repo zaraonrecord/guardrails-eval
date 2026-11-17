@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5852eb9145883f01b52aa7401eac394985cbae62f3533da7c5146de98e5ee616",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problem (must fix)**\n\n1. **\"It cured my bloating in a week\" - verified buyer**: This is a health claim. Brand policy bans health claims of any kind, and publishing a testimonial that says the product cured a condition makes the brand the one making the claim. \"Cured\" is also a results promise. The quote is also untraceable: there is no record of the source or permission in the policy's approved claims, so I can't confirm it's a real, documented review. Fix: remove the quote. If you want social proof, use a real review that describes taste or experience (e.g. the flavour or how it goes with milk) and that you can trace and have permission to use.\n\n**Checked and fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": ingredients and product facts are checked by the product team and fine as written.\n- \"Lovely with milk\": description or opinion of the experience, not a claim.\n- \"100g tin\": product fact.\n- No superlatives, guarantees, green claims, urgency or invented numbers.\n- Voice: short and plain, no banned words. UK spelling is not an issue here.\n\n**Verdict:** Hold. Remove the testimonial and it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093927,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

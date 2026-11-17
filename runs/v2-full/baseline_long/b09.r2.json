@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "be9f45fd156f6347092bb71daf6716d2809f2eb3775ff3d033d298760796e8c3",
+ "result": "**Review of the search ad**\n\nChannel: search ad. Short copy still needs every claim to be provable.\n\nSentence by sentence:\n\n- **\"Plastic-Free Tea Bags\"** (headline): Matches the approved claim \"Our tea bags are plastic-free and home compostable\" (supplier certificate, EN 13432). Fine.\n- **\"Our tea bags are plastic-free and home compostable.\"** Exact wording from the allowlist. Fine.\n- **\"Founded in Bristol in 2019.\"** Exact wording from the allowlist (Companies House). Fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, vague green claims, urgency, or invented numbers.\n- No ad label is needed: this is the brand's own paid search ad, not a creator or affiliate post.\n- Tone: plain and unhurried. No banned words or AI clichés. No spelling issues (UK conventions are not at stake here).\n\nNothing needs changing. The copy is ready to publish, subject to Sam's sign-off as the approver for all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064641,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2807feae88b1f7be6d2341007e9b846d9374883a1e2f1ca60c2d7c6bae9dd953",
+ "result": "**Publish gate report**\n\n**Going out:** product page copy for Chamomile and Lemon Balm, UK, Pebblebrook Tea Co.\n\n**Claims:**\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | On the policy list |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is on the policy list. The count is a product fact. |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm are both naturally caffeine-free. |\n| \"gentle, honeyed... for the evening\" | Flavour and use description. It makes no sleep or relaxation claim. |\n\n**Regulated claims:** No health, money, legal, environment, children or price claims. \"For the evening\" is not a sleep or calming benefit, so it's fine. Please don't add \"helps you sleep\" or \"calming\" later without a source.\n\n**House style:** Clean, specific and short. There are no AI tells, banned words or inflated adjectives. No rewrite is needed (score is roughly 90+).\n\n**Disclosure:** This is the brand's own product on its own page, so no ad, affiliate, sponsorship or AI label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you, or whoever owns the product page, for this exact text. I haven't recorded any approval. Because I have no tools here, the CMS write is also still to do.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0108636,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

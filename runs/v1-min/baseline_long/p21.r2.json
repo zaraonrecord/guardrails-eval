@@ -1,0 +1,15 @@
+{
+ "case": "p21",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "df0a7f3a6752a1a649749fbe957eb16622742dc7d0b8f7aeddc35b9956874640",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n- \"New tins just landed for winter\": product fact (new arrivals), fine.\n- \"made with zero waste from farm to cup\": this is a broad environmental claim covering the whole supply chain. It isn't in the approved claims, and there's no evidence of it. Zero waste from farm to cup is almost certainly unprovable (farming, processing, shipping and packaging all produce waste). It stretches the true tea bag claim to the whole product. Flag as a green claim. Fix: remove it.\n- \"Deep green, gold lettering\": description, fine.\n- \"the same plastic-free tea bags inside\": approved (plastic-free).\n- \"Our tea bags are plastic-free and home compostable.\": approved claim.\n\n**Other points**\n- Repetition: \"plastic-free tea bags\" appears in the second sentence, then again in the final sentence (\"Our tea bags are plastic-free and home compostable\"). The same point is made twice in a very short post. Suggest merging into one mention.\n- No ad label needed on the brand's own account.\n- No clichés beyond that; tone is fine.\n\n**Decision:** Hold. Remove the zero-waste claim and tighten the repeated tea bag line.\n\nSuggested rewrite: \"New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\"\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077897,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

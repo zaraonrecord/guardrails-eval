@@ -1,10 +1,14 @@
 {
  "case": "b05",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy line by line.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly. The proof is the October 2026 review export, which is current.\n- **Product facts:** The Earl Grey with real bergamot oil and a little cornflower is a product fact, and the product team checks those, so it's fine as written.\n- **Health, green, superlative, guarantee and urgency claims:** None appear.\n- **Voice:** \"Rainy Sunday, second pot.\" is warm, plain and unhurried. There are no banned words, and the spelling is UK.\n- **Disclosure:** This is a post from our own account, not a creator partnership or affiliate link, so no label is needed.\n- **Approval:** Sam (marketing lead) approves everything public, so it still needs their sign-off before it goes live.\n\nNothing needs changing in the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0076341000000000004,
- "seconds": 7.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "8669edf4d73fbb55de436107dd36bf306f70b0e56d699352aa7ae8c550faeb2f",
+ "result": "I checked the draft against the brand policy line by line.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly. The proof is the October 2026 review export, so it's current.\n- **Product facts:** The Earl Grey with real bergamot oil and a little cornflower is an ingredient fact, which the product team checks and which is fine to use as written.\n- **Superlatives, guarantees, health claims, green claims, urgency:** none present.\n- **Banned words:** none. The tone is warm, plain and unhurried, and the spelling is UK.\n- **Disclosure:** This is our own account's organic post, not a paid partnership, gifted product or affiliate link, so no label is needed.\n- **Approval:** Sam, as marketing lead, approves all public content, so it should go to Sam before it's posted.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056131,
+ "seconds": 7.5,
  "models": [
   "claude-sonnet-5-5"
  ]

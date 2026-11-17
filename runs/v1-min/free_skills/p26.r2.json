@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "e01092319ca36a0c53f856d8bcf7dc52017a380e591a8eb9843c19f3e0b4eaf4",
+ "result": "**Verdict: don't publish as written. The last sentence needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Ad\" label at the start | OK. The paid disclosure is up front. |\n| Pot of Pebblebrook's Assam | OK. Product fact. |\n| \"Tins are packed by hand in Bristol\" | Allowlisted. |\n| \"the best tea in Britain\" | Unsupported superlative. It fails the \"compared to what?\" test, and nothing on the allowlist backs it. |\n| \"a proven immunity booster\" | Unsupported health claim. \"Proven\" makes it a hard claim, and immunity claims for tea are regulated in the UK (the GB Nutrition and Health Claims register) and will trip platform policies. |\n\n**Other notes**\n- The draft implies the creator has used the tea (\"my afternoon reset\"). That's fine if true, but I'd confirm it's an Owned or Tried product, not one they haven't used.\n- \"Honestly\" adds nothing once the superlative is gone, so it should be cut.\n\n**Compliant version**\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nIf you want a stronger closer, I can add a backed claim, such as the Soil Association organic certification or the 4.8 out of 5 rating from over 1,200 reviews on their website. Say which and I'll work it in.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0138043,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

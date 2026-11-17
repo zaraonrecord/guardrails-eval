@@ -1,0 +1,15 @@
+{
+ "case": "s01",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0d8252efd427c8bedf11807bbb23c6ca5681ba71d5c8d5036ce1b8070ca368b6",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.8 out of 5 from over 2,000 reviews on our website\" | **Unsupported.** The allowlist says \"over 1,200 reviews\" (review platform export, October 2026). Nothing supports 2,000. |\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims or fake urgency.\n- No banned words or structures. The voice is warm, plain and unhurried.\n- No disclosure label is needed, because this is our own account and the platform marks it.\n- Sam still needs to approve it before it goes out, as with everything public.\n\n**Fix**\n\nThe rating line must use the allowlisted wording. Corrected draft:\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nIf the review count has genuinely passed 2,000, someone needs to supply a newer export before the higher figure can be used.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011804499999999999,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

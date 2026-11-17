@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy, line by line.\n\n- **\"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\"** This is a product fact (ingredients, flavour). The product team checks those, so it's fine as written. \"Caffeine-free\" describes the tea itself and doesn't make a health claim.\n- **\"Lovely with milk.\"** A plain serving suggestion in a warm voice. Nothing to change.\n- **\"100g tin.\"** A tin size, which is also a product fact.\n\nI found no superlatives, guarantees, health claims, environmental claims, invented numbers, false urgency or banned words. The spelling is fine for UK English. No paid partnership, gift or affiliate link is involved, so no label is needed. Sam still needs to approve it, since everything public goes through Sam.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0072001,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0ef017fae833cc3b21d5f3733a29dea07b63b0e120f1f0c525f7513a0438b4b9",
+ "result": "**Review: Rooibos Chai product page**\n\nGoing sentence by sentence:\n\n- \"Rooibos Chai.\" Product name. Fine.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" Ingredients and product facts. Policy says these are fine as written. Rooibos is naturally caffeine-free, so this is a factual product description, not a health claim.\n- \"Lovely with milk.\" Mild serving suggestion and opinion about taste. Fine.\n- \"100g tin.\" Size. Fine.\n\nOther checks:\n- No numbers, ratings, or superlatives.\n- No health, environmental, guarantee, urgency, or testimonial content.\n- No ad or affiliate relationship, and it's the brand's own product page, so no label is needed.\n- No clichés or filler. It's short and plain, and it sounds like a real product page.\n\nNothing needs changing. One optional note: if the tin should show the organic certification, that's an approved claim and could be added, but it isn't required.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0062561000000000005,
+ "seconds": 10.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

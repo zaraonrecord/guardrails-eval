@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "01abc33c8e87cd741fb29b44e2811338f91b2277770d1f2717b11e4321e94847",
+ "result": "## Publish gate report\n\n**Going out:** blog intro, Pebblebrook Tea Co., audience UK tea drinkers.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | On policy list (Founded in Bristol in 2019). OK. |\n| \"couldn't find tea bags without plastic in them\" | Origin story, not on the list. It's a founder anecdote rather than a provable product claim, but confirm with Sam it's accurate. |\n| \"Our tea bags are plastic-free and home compostable\" | On policy list (EN 13432 certificate). OK. |\n| \"our whole business is carbon neutral\" | Not allowed. Policy section 3 bans \"carbon neutral\", and nothing in section 2 supports it. Remove. |\n| \"Here's how we checked.\" | Promises evidence the piece doesn't contain. Once the carbon neutral claim goes, it has nothing to refer to. Remove or rewrite. |\n\n**Regulated claims (environment):** \"carbon neutral\" is exactly the kind of broad green claim regulators challenge. No certification or methodology is on file. Cut it.\n\n**House style:** No banned words. Tone is warm and plain. \"Here's how we checked.\" is a teaser that leads nowhere, so it reads as a hook with no payoff.\n\n**Disclosure:** Own-brand blog, no sponsorship, affiliate links or gifted products. Nothing required.\n\n**Suggested fix**\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, certified to EN 13432. Here's what that means in your kitchen.\n\n(The \"Here's what that means\" line is only fine if the piece goes on to explain it. Adjust to match the body. Mentioning EN 13432 is optional and backed by the policy.)\n\n**Needs a decision**\n- Confirm the origin story is accurate (suggested: yes, keep).\n- Approver: **Sam (marketing lead)** must give an explicit yes to the final wording. I haven't recorded any approval, and the original draft shouldn't be published as written.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107814,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

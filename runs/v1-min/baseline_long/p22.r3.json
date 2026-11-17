@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0252373270d16387e6bf4a18149287b46356df23ca7a909e1a31e32caea40f2c",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problem found**\n\n1. **\"It cured my bloating in a week\" - verified buyer**: This is a health claim made through a testimonial. Publishing it means the brand is claiming the tea cures a bodily condition, and \"cured\" is a treatment claim that nothing in the brand policy allows. Testimonials can't carry health claims. It also has no traceable source or documented permission, and \"verified buyer\" is not a claim the brand lists as provable. Fix: remove the quote. If a testimonial is wanted, use a genuine, permissioned one that describes taste or experience (for example, how it tastes with milk).\n\n**Checked and fine**\n\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product facts (ingredients) are fine as written. Rooibos is naturally caffeine-free, and this is a description of the product.\n- \"Lovely with milk\": personal, descriptive opinion about the experience.\n- \"100g tin\": a product fact.\n- No ad label is needed on a brand-owned product page, and there are no green, price, urgency, superlative or guarantee claims.\n- Style: the copy is short and plain, with no AI clichés.\n\n**Decision:** Hold. Remove the testimonial and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007535999999999999,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

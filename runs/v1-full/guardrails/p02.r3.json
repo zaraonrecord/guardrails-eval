@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "2084b5f16a7ea73ddc4b6d10e61545366062eafbffbb420fbf839d2682feb9ae",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline + description), Pebblebrook Tea Co., UK.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Product fact, fine. Organic is backed by the Soil Association certificate. |\n| \"Loved by 50,000 tea drinkers\" | **Unproven.** Not on the policy list. The only customer/review figure is 4.8/5 from over 1,200 reviews. Invented customer count (section 3 bans these). |\n| \"Certified organic by the Soil Association\" | On the policy list, exact wording. Certificate renewed 2026. |\n| \"Free UK delivery on orders over £25\" | On the policy list, exact wording. |\n\n**Regulated claims:** Nothing on health, money, environment, children, or prices beyond the allowed delivery threshold. \"Free\" carries its condition (over £25), which is good.\n\n**House style:** Plain and fine. \"Loved by\" is slightly gushing, but the real issue is the number. No banned words.\n\n**Disclosure:** Paid ad from our own account; the platform marks it, no extra label needed.\n\n**Fixed**\n- Removed \"Loved by 50,000 tea drinkers\". Suggested replacement, using the one provable figure: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" (Use the policy wording exactly, including \"on our website\".) Check the character count against the description limit.\n\n**Suggested revised copy**\nHeadline: Organic Loose Leaf Tea\nDescription: Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- If the 50,000 figure is real, send the source (for example a customer export with a date) so it can be added to the policy. Until then it stays out.\n- The review claim must also be backed on the landing page the ad links to.\n\n**Approver:** Sam (marketing lead). Not approved yet. Please get an explicit yes from Sam on the revised copy before it is published. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104781,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

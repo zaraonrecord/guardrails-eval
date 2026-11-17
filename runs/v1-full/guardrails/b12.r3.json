@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1043e44062a314136c3bd456f3dd3d121baac6647e9f5f01eefd301b098493bd",
+ "result": "## Publish gate report\n\n**Going out:** Social ad, own account, UK. The draft is unchanged: \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n**Claims:** One claim, and it's fine.\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | On the policy list (shipping policy), exact wording |\n\nThe three tea names and \"for after lunch\" are product and usage descriptions, not claims. \"After lunch\" doesn't imply a digestive or other health benefit.\n\n**Regulated claims:** The only item in scope is the delivery offer. It matches the policy wording and has no countdown, end date or stock pressure, so it's fine.\n\n**House style:** About 92/100.\n- Voice: warm, plain and unhurried.\n- Banned words: none.\n- AI tells: none. The three teas are a literal product list, not a rhetorical group of three.\n\n**Disclosure:** Paid social ad from our own account. The platform marks it, and the policy requires no extra label, so it passes.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved on content.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to this exact text before it's published or scheduled.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011066900000000001,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

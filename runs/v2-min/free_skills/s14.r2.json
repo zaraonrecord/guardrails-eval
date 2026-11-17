@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "58c17e893b780070147c080c0f8d7f8bde2afd16e3f21426a9c202840b3fe132",
+ "result": "**Verdict: don't publish yet. The gifted disclosure is missing.**\n\n**Problem**\n- **Disclosure:** The draft only says \"Thanks to the team for sending it over!\" at the end. That doesn't tell readers the product was gifted, and it comes after the endorsement. In the UK (ASA/CMA rules) and under the honest-review rules, a gifted product has to be labelled clearly where it first appears, not in a sign-off. Open with something like \"Gifted:\" or \"#ad, gifted by Pebblebrook Tea Co.\"\n\n**Product label and hands-on claims**\n\n| Product | Label | Hands-on claim |\n|---|---|---|\n| Rooibos chai (winter sampler) | Tried (gifted), **please confirm** | \"lovely with oat milk\" |\n\nYou haven't told me whether you actually tried it. \"Lovely with oat milk\" is a first-hand taste claim, so it's only OK if you've made it with oat milk and liked it. If you haven't tasted it yet, cut the claim.\n\n**Brand claims check**\n- Numbers, comparisons, guarantees, reviews, awards: none present.\n- Regulated territory (health, green): none present.\n- Product facts (rooibos chai, winter sampler): fine as written.\n- Slop-check: no banned words or structures. The exclamation point is in body copy, though, so I'd swap it for a full stop.\n\n**Suggested version**\n> Gifted by Pebblebrook Tea Co. The rooibos chai from their winter sampler is lovely with oat milk. Thanks to the team for sending it over.\n\n(Use this only if you've actually tried it with oat milk. Add how you made it or how long you've been drinking it if you want it to read as more than a passing remark.)\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0155023,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

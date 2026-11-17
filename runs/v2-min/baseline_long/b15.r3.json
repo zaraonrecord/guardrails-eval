@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "I read this as a reader of an affiliate review blog would, sentence by sentence.\n\n- **\"I've tried four tea subscriptions this year.\"** This is a first-person experience claim from the reviewer, not a brand claim. It's fine as long as it's true, and the reviewer is the one to confirm that.\n- **\"Pebblebrook's was the easiest to pause\"** is a personal comparison, framed as the reviewer's own experience of four services. It isn't a brand-made superiority claim. It is also consistent with the brand's approved claim that subscribers can pause or cancel any time.\n- **\"the tins are lovely\"** is opinion.\n- **\"You can find it here (Affiliate link).\"** The disclosure sits right beside the link, in plain words, so a reader sees it before clicking. It's brief, but it meets the requirement. Optionally, a line at the top such as \"This post contains an affiliate link\" would be stronger, but it isn't required.\n- **Style:** The voice is specific and plain, with no clichés or filler. There are no health, green, guarantee, urgency or statistic issues.\n\nNothing needs changing, so this can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104206,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

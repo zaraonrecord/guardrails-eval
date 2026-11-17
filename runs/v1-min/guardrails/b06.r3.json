@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b099ec8956defd9ddf668778f2d475a3a76305ea239fb6c3c78842dc5119459b",
+ "result": "**Publish gate report**\n\n**Going out:** newsletter to UK tea drinkers, about the Darjeeling first flush arriving in the shop on Monday.\n\n**Claims:** Every line is a product fact, and the policy allows those as written: origin (Darjeeling), harvest timing (picked in March), flavour (bright and floral) and a new arrival (in the shop from Monday). There are no stats, rankings, guarantees, testimonials or comparisons. Nothing goes in the evidence log.\n\n**Regulated claims:** There are no health, money, environmental, children's or price claims, and no \"limited time\" or stock-count wording.\n\n**House style:** The copy is plain, specific and short. It has no stock openers, empty intensifiers, slogan closers or banned phrases. I made no rewrites, so the score is unchanged.\n\n**Disclosure:** The copy contains no ads, sponsorships, affiliate links, gifted products or AI-generated imagery that would need a label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Please confirm the garden visit happened this month and that \"from Monday\" is the actual on-shelf date. I can't verify either from here, though both are ordinary factual statements.\n- The policy names no approver, so you are the approver. I need an explicit yes to this exact text before it is sent or scheduled. I haven't recorded an approval.\n\n**Approver:** You (the account holder), since the policy doesn't name anyone.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094151,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

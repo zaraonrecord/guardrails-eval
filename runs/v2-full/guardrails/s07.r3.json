@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8f7698b74e9819f23de89b880fbd456f8d3f338cf855ef586659e01f1c5bc4d3",
+ "result": "## Publish gate report\n\n**Going out:** product page copy for Chamomile and Lemon Balm tea, on the product page, UK audience.\n\n**Checks run**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). OK.\n   - \"20 plastic-free tea bags\": \"plastic-free\" is on the policy list, and the count is a product fact. OK.\n   - \"caffeine-free blend\" and \"honeyed\": ingredient and flavour facts, covered as product facts. OK. (Product team should confirm that \"honeyed\" describes flavour, not actual honey in the blend.)\n   - \"to help you wind down and sleep better\": a sleep benefit claim, not on the list. Removed.\n\n2. **Regulated claims**: \"help you wind down and sleep better\" is a health/wellbeing claim. The policy bans health claims of any kind. \"Sleep better\" promises a health outcome, and \"wind down\" suggests a relaxation effect. Both are benefit claims the policy doesn't cover.\n\n3. **House style**: Warm, plain, unhurried voice works. No banned words. No AI tells. The fragment opening is fine. Score about 90 once the sleep line is fixed.\n\n4. **Disclosure**: Own product page, no partnership, affiliate link or gifted product. No label needed.\n\n**Fixed (suggested rewrite)**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n- Removed \"to help you wind down and sleep better\".\n- Replaced with \"lovely in the evening\", a taste and occasion line that makes no health claim.\n\n**Needs a decision**\n- Confirm \"honeyed\" is a flavour description. My suggestion: keep it if the product team confirms.\n- Confirm \"caffeine-free\" with the product team. Chamomile and lemon balm are naturally caffeine-free, so this is likely fine.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam to the revised copy above before it goes out. The original draft should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105385,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

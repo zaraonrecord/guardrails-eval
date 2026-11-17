@@ -1,10 +1,14 @@
 {
  "case": "p20",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the about page draft**\n\n- **\"founded in Bristol in 2019\"**: matches the allowlist.\n- **\"a small team of six\"**: team size is a product fact that's fine as written.\n- **\"every tin is packed by hand in Bristol\"**: matches the allowlist.\n- **\"Over 98% of our customers rate us five stars\"**: this is a problem. The only rating we can back up is 4.8 out of 5 from over 1,200 reviews on our website. A 98% five-star figure is not supported and is an invented statistic. Replace it with \"rated 4.8 out of 5 from over 1,200 reviews on our website\".\n- **\"we buy from gardens we've visited\"**: I'm treating this as a sourcing/origin fact, which is allowed as written. Please confirm with the team that it's true before publishing.\n\nThe draft shouldn't go out until the 98% claim is replaced.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.011868,
- "seconds": 11.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3ae09e09891c66a147c0c0d9d3af26b2cac28f79012766d516977e5a347e5c17",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the allowlist, so it's fine.\n- **\"We're a small team of six\"** Team size counts as a product fact, so it's fine as written. Please confirm the number is current.\n- **\"every tin is packed by hand in Bristol\"** This is on the allowlist, so it's fine.\n- **\"Over 98% of our customers rate us five stars\"** This is the problem. The only backed rating claim is 4.8 out of 5 from over 1,200 reviews on our website. The 98% figure is an invented statistic with no support. It also covers \"customers\" rather than reviewers, which makes it broader than the data. Replace it with the approved claim: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **\"we buy from gardens we've visited\"** This reads as an origins and sourcing fact, which is allowed as written. Make sure the team can say it's true.\n\nOne change is needed before publishing, so I'm holding it.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012767999999999998,
+ "seconds": 12.3,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b81f12d538dd0018f0428ca047049f5233b871ecc6c35018b29c90314924de6",
+ "result": "**Not ready to publish.** One claim isn't backed by the allowlist.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel policy, fine |\n\n**Problem:** \"most boxes ship free\" is an implied statistic. Nothing in the policy says most orders or subscription boxes come to more than £25. If typical subscription boxes cost less than that, the line is misleading. It also says \"boxes\" when the policy talks about tins and tea bags, so the wording doesn't match the product.\n\n**Slop and structure check:** no ban-list words, no em-dash asides, no exclamation marks, no rhetorical opener. The opening sentence is a bit vague, but it's acceptable.\n\n**Compliant version:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf you can show that most orders really do pass £25, send the source and \"most orders ship free\" can go back in.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106897,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

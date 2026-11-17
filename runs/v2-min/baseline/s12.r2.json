@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d383b60b8198766ebf934fc5a1cc22459b0e53eb8894878dad99137be5c7a7b3",
+ "result": "**Review of the newsletter draft**\n\n- **\"the Christmas blend is back\"**: This is a new arrival or product fact, so it's fine.\n- **\"Black tea, orange peel, cinnamon and a little clove\"**: These are ingredients, which the policy allows as written. Please confirm the list matches the actual recipe.\n- **\"It's back in the shop from today\"**: This is a factual availability statement. It's fine as long as the blend really goes live today.\n- **\"selling fast\"**: I'd cut this. Nothing in the brand policy backs up a claim about sales pace or stock levels. It nudges readers to buy quickly without any evidence, which makes it manufactured urgency. If you have real stock or sales data, you could replace it with something specific and true. Otherwise, remove it.\n\nThere are no stats, superlatives, guarantees, health or green claims, testimonials or missing disclosures. The tone is plain and doesn't read as generic AI copy.\n\n**Suggested edit:** \"Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\"\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01226,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

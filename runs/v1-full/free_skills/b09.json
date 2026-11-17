@@ -1,10 +1,14 @@
 {
  "case": "b09",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted: \"Our tea bags are plastic-free and home compostable\" (supplier certificate, EN 13432) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019.\" | Allowlisted (Companies House) |\n\n**Other checks**\n- **Characters:** The headline is 21 characters and the description is 79. Both are within the usual search ad limits (30 and 90), but check them against the limits for your platform.\n- **Banned and slop words:** None found. There are no exclamation points, em-dashes, rhetorical openers or fake urgency.\n- **Superlatives, guarantees, health claims, invented numbers:** None.\n- **Environmental claims:** Only the two specific ones from section 2, using the approved wording.\n- **Disclosure:** Not needed. This is a paid ad from the brand's own account, and the platform marks it.\n- **Voice:** Plain and warm enough for a search ad, with UK spelling.\n\n**Before it goes out**\n- The landing page must also state that the bags are plastic-free and home compostable, and that the brand was founded in Bristol in 2019. I can't see the page, so please confirm.\n- Sam needs to approve it, since all public content goes through him.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0156865,
- "seconds": 14.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "11dec64e931bec9489e7822f4ccbdd0553a924ee43279555290f9ce973560077",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted: tea bags are plastic-free (EN 13432 supplier certificate) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019\" | Allowlisted (Companies House) |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, testimonials, invented numbers:** none.\n- **Health claims:** none.\n- **Environmental claims:** only the two in section 2, with the exact approved wording. No general \"eco-friendly\" or \"sustainable\".\n- **Banned words and structure:** none. No exclamation points, rhetorical-question opener, em-dash asides or abstract-noun triads. The voice is plain and fits the brand.\n- **Disclosure:** this is a paid ad from the brand's own account, so the platform marks it and no extra label is needed.\n- **Spelling:** nothing UK-specific is at issue.\n- **Length:** the headline is 21 characters and the description is 79. You gave no limits, but both fit standard search ad limits (30 and 90).\n\n**Before it goes live**\n- Make sure the landing page also says the tea bags are plastic-free and home compostable. Every claim in an ad has to appear on the page it links to.\n- Sam (marketing lead) needs to approve it, as with all public content.\n\nNeither of these requires changing the copy, so nothing blocks publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013317900000000002,
+ "seconds": 14.3,
  "models": [
   "claude-sonnet-5-5"
  ]

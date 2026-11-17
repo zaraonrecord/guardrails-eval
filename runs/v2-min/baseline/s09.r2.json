@@ -1,0 +1,15 @@
+{
+ "case": "s09",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "bf0bde7bc87507aa29a1886e450b010df5126d958b67b5447429c6402a7c1c3b",
+ "result": "Review of the draft:\n\n- \"Just peppermint leaves, nothing else.\" This is a product fact (ingredients), so it's fine as written.\n- \"Cool, clean\" is flavour description, which is fine.\n- \"gentle on your stomach after a big meal\" is an implied digestive health claim. It suggests the tea has a soothing or digestive benefit, and it is not on the claims allowlist. It should be removed or reworded to flavour only (for example, \"a refreshing finish to a big meal\" is still borderline, so something like \"cool, clean and refreshing\" is safest).\n- \"Certified organic by the Soil Association.\" This is on the allowlist, so it's fine.\n\nNo other issues: no invented stats, superlatives, guarantees, testimonials, urgency, or green claims.\n\nRecommendation: do not publish until the stomach claim is changed.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008852,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

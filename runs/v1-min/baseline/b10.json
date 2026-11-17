@@ -1,10 +1,14 @@
 {
  "case": "b10",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"20 plastic-free tea bags\"** matches the allowed claim that our tea bags are plastic-free. The count of 20 is a product fact (size).\n- **\"Caffeine-free\"** is an ingredient fact. Chamomile and lemon balm are naturally caffeine-free, and it isn't a health claim.\n- **\"Gentle, honeyed… for the evening\"** is flavour and occasion language. It doesn't promise sleep, relaxation or any other health benefit.\n- There are no invented stats, superlatives, guarantees, testimonials, urgency tactics or unsupported green claims. The copy also isn't generic filler.\n\nCheck before publishing that the product really is caffeine-free and that \"honeyed\" describes the taste rather than an added ingredient. Both are product facts you can confirm from the recipe.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011422000000000002,
- "seconds": 9.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "1ed8d977712d8352c3d767a518588826b837a9607ad86e12538abc2738d05a22",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** this is on the claims allowlist.\n- **20 plastic-free tea bags:** \"plastic-free\" is on the allowlist, and the count is a product fact (sizes).\n- **Caffeine-free, chamomile and lemon balm:** these are ingredient facts, which are fine as written.\n- **\"Gentle, honeyed... for the evening\":** this describes flavour and when to drink it. It makes no sleep, relaxation or calming claim, so it isn't a health claim.\n- **Other checks:** there are no invented stats, superlatives, guarantees, testimonials, urgency tactics or unsupported green claims. The copy is short and specific, with no filler phrasing. No disclosure is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010392,
+ "seconds": 8.1,
  "models": [
   "claude-sonnet-5-5"
  ]

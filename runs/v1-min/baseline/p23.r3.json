@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "cf8e5e8102fae27330b37dc2f16c1d98a169101c8b662cc563f26f43093dc365",
+ "result": "**Review of landing hero draft**\n\nChecked against the brand policy:\n\n- **\"Good tea, guaranteed.\"** The policy doesn't include any product or satisfaction guarantee. The only allowed assurance is that subscribers can pause or cancel any time. This is an unbacked guarantee.\n- **\"Risk-free.\"** Also an unbacked guarantee. There's no returns, refund or money-back policy in the allowlist, so it implies protection we can't confirm.\n- **\"Certified organic by the Soil Association\"**: on the allowlist. OK.\n- **\"packed by hand in Bristol\"**: on the allowlist (every tin is packed by hand in Bristol). OK.\n- **\"free UK delivery on orders over £25\"**: on the allowlist. OK.\n\nNo invented stats, superlatives, health claims, green claims, or urgency. The copy is short and not generic filler.\n\n**Suggested fix:** Remove \"Good tea, guaranteed. Risk-free.\" and replace with something backed, e.g. \"Loose leaf tea and plastic-free tea bags, certified organic by the Soil Association, packed by hand in Bristol. Free UK delivery on orders over £25.\" Or, if a guarantee or refund policy really exists, have it confirmed and added to the brand policy first.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007311699999999999,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1d831b140539525e55afd577b3206f8b5bc45052a150eab5ade1c8161efa3a42",
+ "result": "**Review of the newsletter draft**\n\n**Claims and numbers:** The product facts (black tea, orange peel, cinnamon, clove, the blend being back) are product-team facts and fine as written.\n\n**Urgency / offer:** \"Today only: 30% off, ends at midnight.\" The policy says there is no real offer with an end date, and \"today only\" is explicitly named as a thing we never say unless backed by a real offer in the policy. There isn't one, so this is false urgency. The 30% discount itself is also not supported by anything in the policy. Remove it, or get Sam to confirm a real offer and add it to the policy before it goes out.\n\n**Disclosure:** Brand-owned newsletter, so no label is needed.\n\n**Style:** \"Quick one this week\" is plain and fits the voice. \"It's back in the shop\" repeats \"the Christmas blend is back\" from the first sentence, so one of them should go. No banned words and spelling is fine.\n\n**Decision:** Hold. The \"today only\" offer and the 30% discount are not backed by the policy.\n\nSuggested fix: \"Quick one this week: the Christmas blend is back in the shop. Black tea, orange peel, cinnamon and a little clove.\"\n\n```json\n{\"issues\": [{\"quote\": \"Today only: 30% off, ends at midnight.\", \"type\": \"fake_urgency\"}, {\"quote\": \"It's back in the shop.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093787,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

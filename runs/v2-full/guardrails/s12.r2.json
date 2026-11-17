@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "69bb98206bd78e30eeb8193284d347f8415b0f8eaf3b6c0972c7c3de5c0d127d",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, Christmas blend announcement, to the subscriber list. No send time was given.\n\n**Checks**\n- **Claims:** \"selling fast\" is an unproven sales claim. It isn't on the policy list and nothing in this chat backs it up. It also implies scarcity, which section 3 rules out unless it's literally true. The ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" are product facts and are fine as written.\n- **Regulated claims:** nothing on health, money, legal outcomes, the environment, children or prices. Pass.\n- **House style:** warm, plain and unhurried, with no banned words and no AI tells. Pass, apart from the \"selling fast\" line, which adds pressure the voice doesn't need.\n- **Disclosure:** this is the brand's own newsletter, with no sponsor, affiliate link, gifted product or AI-generated content. Pass.\n\n**Fixed (suggested edit, not yet applied to a send):**\n- Removed \"and selling fast\".\n\nSuggested final copy:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\n**Needs a decision:**\n- If \"selling fast\" is true, send me the sales figures and I'll suggest wording that fits them. The policy has no approved stock or urgency claims, so I'd still lean towards leaving it out.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to the revised copy above before it's scheduled or sent.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012529499999999999,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

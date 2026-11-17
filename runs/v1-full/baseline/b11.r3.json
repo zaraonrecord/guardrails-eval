@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fc22f1b161a714ac6b975a4d4c4625b6a0c0fcb58860900e9ad206d4ca6c1d8e",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** The only claims are product facts (Japanese sencha, grassy and slightly sweet, brew at around 70 degrees, newly added to the shop). The product team has cleared these, and \"new products arriving\" is explicitly allowed.\n- **Superlatives, guarantees, health, green claims, invented numbers, urgency:** None present.\n- **Banned words:** None. The tone is warm, plain and unhurried.\n- **Spelling:** No US/UK conflicts.\n- **Disclosures:** This is our own email, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Approval:** Sam (marketing lead) needs to approve everything public, so the draft should go through Sam before it is sent. That is a process step, not a change to the copy.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0054696,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

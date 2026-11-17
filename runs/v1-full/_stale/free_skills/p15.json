@@ -1,0 +1,11 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish as is.** Two claims need to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, exact wording |\n| The finest | Unsupported. \"Finest\" is a banned superlative. |\n| organic loose leaf | Backed by the Soil Association certificate. Better to use the exact wording: \"Certified organic by the Soil Association\". |\n| eco-friendly bags | Unsupported. A general \"eco-friendly\" claim is banned. The backed claim is \"plastic-free and home compostable\". |\n| packed by hand in Bristol | Allowlisted as \"Every tin is packed by hand in Bristol\". Check that it's accurate for the tea bags too, since the allowlist only mentions tins. |\n\n**Other checks**\n- No banned voice words, urgency, guarantees, health claims or invented numbers.\n- No disclosure label is needed for our own landing page.\n- UK spelling is fine.\n\n**Suggested rewrite**\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association, with plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\nSam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0167725,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

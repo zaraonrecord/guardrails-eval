@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3f2ad7543a9fc1eaa9e4dde3db9aa1c4d958fb3a653da111eda0ba5673ce5af6",
+ "result": "I checked each sentence against the brand policy.\n\n- \"Tea Subscription UK\": a descriptive headline, no claim.\n- \"Monthly loose leaf tea.\": product description. The brand sells loose leaf tea by monthly subscription, so this is fine.\n- \"Subscribers can pause or cancel any time.\": matches the approved claim word for word (subscription terms).\n- \"Free UK delivery on orders over £25.\": matches the approved claim exactly, and the £25 threshold is stated beside it.\n\nThere are no superlatives, health claims, green claims, guarantees, invented numbers or urgency. No banned words or AI clichés appear, and the spelling is UK-compatible. A search ad from the brand's own account needs no extra label. The copy is plain and short, which suits the brand voice.\n\nNothing needs changing. Per the policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0079347,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "13718678e4d8d9cf43301f267b832f0eb19cf13c194c4a926f43479f843d5837",
+ "result": "**Claims check**\n- \"the Christmas blend is back\": product fact (new arrival/availability), fine.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients, fine.\n- \"It's back in the shop from today\": availability, fine. Not a scarcity or urgency claim.\n- No numbers, superlatives, guarantees, testimonials, health, green or regulated claims.\n\n**Slop check**\n- Zero ban-list words. No em-dashes, exclamation points, rhetorical-question opener, \"not just X, it's Y\" or abstract triads.\n- Opening sentence states the key fact (the blend is back). \"Quick one this week:\" is mild throat-clearing but not a violation.\n\n**Disclosure**\n- No affiliate links, sponsorship or product review. Nothing to label.\n\n**Minor note (optional, not blocking)**\n- \"Back in the shop\" and \"from today\" are fine, but if the newsletter has a link, adding it would help readers find the blend.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061294,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

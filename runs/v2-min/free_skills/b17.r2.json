@@ -1,0 +1,15 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "13718678e4d8d9cf43301f267b832f0eb19cf13c194c4a926f43479f843d5837",
+ "result": "**Review: newsletter draft (Christmas blend)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Allowed (new arrivals are fine as written) |\n| Black tea, orange peel, cinnamon, clove | Allowed (ingredients are product facts) |\n| Back in the shop from today | Allowed (availability fact, not scarcity or countdown language) |\n\n**Slop check**\n- Ban-list words: none.\n- Structural bans: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triads.\n- Fake urgency: none. \"From today\" states a date and doesn't pressure the reader.\n- Opening sentence: \"Quick one this week\" is a small lead-in, but the key fact follows in the same sentence, so it's fine.\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials, or health, money or green claims.\n- No review or affiliate content, so no disclosure is needed.\n\nOne optional tweak: if the blend is only available for a limited run, say so only if that's true and verifiable. Otherwise, it's good to go as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090234,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

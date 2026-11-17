@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "f7fa51fa3151b562987c67fb7b83a4150c41f6c47b1a61d1ec0d6c931bbca2f9",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which is fine as written.\n- **\"Cool and clean after a big meal.\"** This is a flavour description. It doesn't claim that the tea aids digestion or has any other health effect, so it's fine.\n- **\"Certified organic by the Soil Association.\"** This is on the allowlist.\n- No invented stats, superlatives, guarantees, testimonials, urgency, or green claims. Nothing here needs a disclosure.\n\nThe copy is short and plain, and it's ready to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077540000000000005,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

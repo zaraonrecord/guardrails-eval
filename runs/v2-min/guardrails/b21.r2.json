@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "de36e56e2a73961191bbb8fbb67e41a9608b7637456ba24e25a8e39e0ce9d019",
+ "result": "## Publish gate report\n\n**Going out:** About page copy, 3 sentences, UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list |\n| \"small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list |\n| \"We buy from gardens we've visited\" | Falls under origins/sourcing facts, fine as written |\n\n**Regulated claims:** Nothing on health, money, legal outcomes, environment, children or prices.\n\n**House style:** The policy has no voice section, so I scored against general standards. The copy is plain and specific, with no banned words or AI tells, and no rewrite is needed.\n\n**Disclosure:** Not an ad, sponsorship, affiliate or AI-labelled content. Nothing to label.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:**\n- Please confirm that the team really has visited the gardens it buys from. It's the only claim that rests on your word rather than the policy list. If it's true, leave it as is. If it isn't, cut the sentence.\n- The policy names no approver, so I need an explicit yes from you to this exact text before it goes live.\n\n**Approver:** None named in the policy, so you.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010767,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

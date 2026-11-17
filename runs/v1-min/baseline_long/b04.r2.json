@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6fb41861bf695f6e0649c11e760f98a9931113ebf99409bc92e0f694e6f6428c",
+ "result": "**Review: Assam Breakfast product page**\n\nRead as a shopper on a product page, then sentence by sentence:\n\n- \"Assam Breakfast.\" Product name, fine.\n- \"A malty, full-bodied black tea that stands up to milk.\" Flavour and brewing description. The brand policy treats product facts such as flavour and brewing as fine as written. \"Stands up to milk\" is a taste description, not a claim about results.\n- \"Certified organic by the Soil Association.\" On the approved claims list, word for word in substance.\n- \"100g tin, makes around 40 cups.\" Size and brewing facts are covered by the policy. \"Around\" keeps it appropriately loose.\n\nOther checks:\n- No health claims, green claims, superlatives, guarantees, stats, testimonials, urgency or pricing in the copy.\n- No ad or affiliate relationship is indicated, and this is the brand's own product page, so no label is needed.\n- Style: short, specific, plain. No clichés, filler or repetition. Spelling is consistent with UK English.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0083185,
+ "seconds": 6.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

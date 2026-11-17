@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "01abc33c8e87cd741fb29b44e2811338f91b2277770d1f2717b11e4321e94847",
+ "result": "**Publish gate report: blog intro**\n\n**Going out:** Blog intro, Pebblebrook Tea Co., audience UK tea drinkers.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | On policy list (Founded in Bristol in 2019, Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | On policy list (EN 13432 supplier certificate) |\n| \"our whole business is carbon neutral\" | **Unproven, and explicitly banned** (section 3: \"carbon neutral\") |\n| \"Here's how we checked.\" | Promises evidence we don't have. It implies a verification or audit that isn't in the policy or this chat. |\n\n**Regulated claims (environment):** \"Carbon neutral\" is a broad green claim of the sort regulators challenge most (in the UK, the CMA and ASA). It also covers the whole business, which is far wider than the compostable tea bag certificate. The policy forbids it, and there is no evidence in the policy or this chat. Remove it.\n\n**House style:** No banned words. Tone is warm and plain. \"Here's how we checked\" is a hook for content that doesn't exist, which reads as a teaser. It goes once the carbon claim does.\n\n**Disclosure:** Our own blog, no paid partnership, affiliate link or gifted product. No label needed.\n\n**Fixed (suggested rewrite)**\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, certified to the EN 13432 standard.\n\nNote: I added the EN 13432 reference because the policy backs it, but you can drop it if you'd rather keep the intro short.\n\n**Needs a decision**\n1. If the post body is meant to explain \"how we checked\", it needs to be about the compostable certification, not carbon neutrality. Suggested answer: rewrite the lead-in as \"Here's what that means.\" and make the body about the certificate.\n2. If the business has a real carbon-neutral certification, add it to the brand policy first with proof on file. Until then, it stays out.\n\n**Approver:** Sam (marketing lead). The draft as submitted is not approved and should not be published. Once Sam has said yes to the revised text, the approval can be recorded and the post published. A new check is needed if the wording changes after that.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011457400000000001,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

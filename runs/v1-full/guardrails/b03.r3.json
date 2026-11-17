@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "934bcfe4f91bb06bba177987b430152d5a949f38efd96fda141d473eb596ad39",
+ "result": "## Publish gate report\n\n**Going out:** Search ad for Pebblebrook Tea Co., UK. Headline: \"Organic Loose Leaf Tea\". Description: \"Certified organic by the Soil Association. Free UK delivery on orders over £25.\" No schedule or audience was given.\n\n**Checks**\n- **Claims:** Both description claims match the policy allowlist word for word. The Soil Association certification was renewed in 2026, so it is current. Free UK delivery over £25 is backed by the shipping policy. The headline's \"Organic\" follows from the certified-organic claim.\n- **Regulated claims:** Nothing on health, environment, money, children, or urgency. The £25 threshold is a delivery condition, not a price or discount claim.\n- **House style:** About 95/100. The copy is plain and factual, with no banned words and no AI tells. UK spelling is fine.\n- **Disclosure:** Paid social and search ads from our own account are labelled by the platform, so no extra label is needed. No partners, affiliates or AI-generated content are involved.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Confirm that the landing page also supports \"organic\" and the £25 free delivery threshold, since an ad can't claim more than its page backs up. My suggestion is to check this before launch.\n- Confirm that the organic certificate covers every loose leaf tea the ad could point to. If any product isn't covered, send the ad to a page showing only certified teas.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. This needs Sam's explicit yes to this exact copy before it goes live.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Search ad (Organic Loose Leaf Tea) | Organic Loose Leaf Tea | On policy list (derived from certified organic) | Soil Association certificate, renewed 2026 |\n| 2026-11-17 | Search ad (Organic Loose Leaf Tea) | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Search ad (Organic Loose Leaf Tea) | Free UK delivery on orders over £25 | On policy list | Shipping policy |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0142925,
+ "seconds": 18.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

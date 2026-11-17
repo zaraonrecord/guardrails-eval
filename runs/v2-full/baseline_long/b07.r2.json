@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "2629c8cf59c7c42357e3abf2957a3393825d3ca23a88e8681d555dfa97dcb75f",
+ "result": "This draft is fine to publish.\n\n- **\"We started Pebblebrook in Bristol in 2019\"** matches the approved claim \"Founded in Bristol in 2019\" (Companies House).\n- **\"Our tea bags are plastic-free and home compostable\"** matches the approved wording exactly (supplier certificate, EN 13432).\n- **\"because we couldn't find tea bags without plastic in them\"** is the founders' own reason for starting the company. It is a story, not a statistic, comparison or superlative, so it doesn't need separate evidence.\n- **\"here's how we checked\"** promises the rest of the post will show the checking. When the full post is written, it should stick to the EN 13432 certificate and avoid broader environmental claims such as \"eco-friendly\" or \"sustainable\".\n- **Disclosure:** this is the brand's own blog, so no \"Ad\" or \"Gifted\" label is needed, and it has no affiliate links.\n- **Voice and spelling:** the tone is warm and plain, with no banned words, no clichés and no health claims, guarantees or urgency. Nothing in it conflicts with UK spelling.\n\nUnder the policy, Sam still approves everything public, so the draft needs that sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097293,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

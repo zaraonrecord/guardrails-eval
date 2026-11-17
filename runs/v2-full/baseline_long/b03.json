@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "fd9c8da8641f3420da572e36e41f9a35cb1f951f5ec820504330c0f1b31674ad",
+ "result": "Review of the search ad draft:\n\n**Claims check**\n- \"Organic Loose Leaf Tea\": the brand sells loose leaf tea and is certified organic by the Soil Association, so the headline is supported.\n- \"Certified organic by the Soil Association\": exact wording on the approved claims list (certificate on file, renewed 2026).\n- \"Free UK delivery on orders over £25\": exact wording on the approved list (shipping policy). The threshold sits right next to the offer, so the condition is clear.\n\n**Other checks**\n- No superlatives, guarantees, health claims, environmental claims, invented numbers or urgency.\n- No ad label is needed: this is a search ad from the brand's own account, not a creator or affiliate post.\n- Voice: plain and factual, with none of the banned words or AI clichés. UK spelling is consistent.\n\nNothing needs changing. Per the policy, Sam (marketing lead) still approves everything public, so it should go through that sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0061617,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

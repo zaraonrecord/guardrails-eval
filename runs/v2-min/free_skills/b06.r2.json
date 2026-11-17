@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "d90adb1eafc55a2f75179719a8186371a5e518f898d4152e5bd740d46cc16eaa",
+ "result": "I checked the draft against the claims, slop and review rules, and it's clear to publish.\n\n**Claims list**\n- \"visited the garden in Darjeeling that grows our first flush\": product origin, which the brand policy allows as written.\n- \"picked in March\": product fact (origin and harvest), allowed.\n- \"taste bright and floral\": flavour description, allowed.\n- \"in the shop from Monday\": a new-arrival fact, not fake urgency. It has no countdown or scarcity wording.\n\n**Other checks**\n- **Statistics, testimonials, superlatives and guarantees:** none.\n- **Health, green or regulated claims:** none.\n- **Ban-list words and structural bans:** none. There are no em-dash sandwiches, exclamation points, rhetorical openers or abstract-noun triads.\n- **Opening sentence:** it leads with a concrete fact, the Darjeeling visit.\n- **Disclosures:** no affiliate links, sponsorship or review of third-party products, so none are needed.\n\nOne non-blocking suggestion: if \"Monday\" is ambiguous for a newsletter that may be read later in the week, add the date. That's a style choice, not a compliance issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091481,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

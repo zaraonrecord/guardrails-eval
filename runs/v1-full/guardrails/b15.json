@@ -1,10 +1,14 @@
 {
  "case": "b15",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "## Publish gate report\n\n**Going out:** Review blog post (affiliate), 3 short sentences, link at the end.\n\n**Checks**\n- **Claims:** Passes. \"Easiest to pause\" is the reviewer's own comparison, and it matches the policy claim that subscribers can pause or cancel any time. It makes no guarantee and gives no number. \"The tins are lovely\" is opinion. \"Four tea subscriptions this year\" is the author's own experience, not a brand claim. No invented stats, ratings or testimonials.\n- **Regulated claims:** Nothing on health, money, environment, children or pricing.\n- **House style:** Warm, plain and unhurried, with no banned words and no AI tells.\n- **Disclosure:** Passes. \"(Affiliate link)\" sits right beside the link, which is what section 4 requires. The post is only three sentences, so the label is seen before the reader acts on it.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Two optional points:\n- Confirm the author really did try four subscriptions. That's their claim, not ours.\n- If you want a more prominent label, \"Affiliate link\" could also open the post. The policy doesn't require it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say an explicit yes to this exact text before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0170695,
- "seconds": 15.8,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "9a6535f01f4fa31d5f4d211cb1a9eb84049e2d5e7d5508cf6a20e5716b5992fd",
+ "result": "**Publish gate report**\n\n**Going out:** a short affiliate review on the review blog, with a link to Pebblebrook's subscription.\n\n**Checks**\n- **Claims:** Nothing here is an invented number, rating, guarantee or testimonial. \"I've tried four tea subscriptions this year\" and \"the tins are lovely\" are the reviewer's own experience and opinion, not brand claims. \"Easiest to pause\" is a first-hand comparison. It is consistent with the policy row \"Subscribers can pause or cancel any time\" and doesn't claim \"best\" or \"number one\". No change needed.\n- **Regulated claims:** No health, money, environmental, children's or price content.\n- **House style:** No banned words and no AI tells. It reads plain and warm. The reviewer's voice is their own, so I haven't rewritten anything.\n- **Disclosure:** \"(Affiliate link)\" sits next to the link, as policy section 4 requires. The post is only three sentences, so the label is seen before anyone can click. If the post grows, I'd move a short \"Affiliate link\" note to the top as well, because UK rules expect upfront labelling. That's optional for this version.\n\n**Fixed:** nothing, as no changes were needed.\n\n**Needs a decision:** nothing unresolved.\n\n**Approver:** Sam (marketing lead). The checks pass, but I haven't recorded an approval. Sam needs to give an explicit yes to this exact text before it's published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0177136,
+ "seconds": 16.2,
  "models": [
   "claude-sonnet-5-5"
  ]

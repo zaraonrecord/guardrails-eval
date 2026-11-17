@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "de36e56e2a73961191bbb8fbb67e41a9608b7637456ba24e25a8e39e0ce9d019",
+ "result": "**Publish gate report: about page**\n\n**Going out:** the About page copy, three sentences, to UK readers. No date given.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list |\n| \"We buy from gardens we've visited\" | Falls under origins and sourcing, which the policy allows as written |\n\n**Regulated claims:** nothing touches health, money, legal outcomes, the environment, children or prices. No issues.\n\n**House style:** the copy is plain, specific and short. It has no banned words, no AI tells and no padding. Score is about 92, so no rewrite was needed.\n\n**Disclosure:** this is editorial brand copy with no ad, sponsorship, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** nothing, no changes made.\n\n**Needs a decision:** only a sanity check. The \"gardens we've visited\" line is a statement of fact about how you work, so confirm it's still true for every garden you buy from. If some sources haven't been visited, change it to \"many of the gardens we buy from\".\n\n**Approver:** the policy names no approver, so I need an explicit yes from you to this exact text. In Claude Code, record it yourself with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"About page copy\"`\n\nThe `publish` flag in the JSON below is `true` because the copy passes all four checks. It does not count as approval, and nothing goes live until you say yes.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012673,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

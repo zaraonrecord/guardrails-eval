@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "24f26f071c537223cb3ac6a994795b6392049687b73bd0933fe84fe53c93f511",
+ "result": "**Review: newsletter, Christmas blend**\n\n- **Product facts:** \"Black tea, orange peel, cinnamon and a little clove\" is an ingredient description, which the policy allows as written. \"Back in the shop from today\" is a new-arrival fact and is also fine.\n- **\"selling fast\":** This is an implied scarcity and demand claim. The brand policy doesn't list it, and nothing here shows sales or stock levels that support it. If it's decoration, it counts as false urgency. Cut it, or replace it with something factual such as the date it's available, or \"limited run\" only if that is true.\n- **Tone:** The copy is short and plain, with no clichés or hype. It needs no other changes.\n- **Labels and other claims:** There are no health, green, price, guarantee or review claims. The newsletter is the brand's own channel, so it needs no \"Ad\" label.\n\nFix \"selling fast\" and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0072841,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

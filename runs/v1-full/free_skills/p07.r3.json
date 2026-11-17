@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "36deb4e6cea91ab33651a9da5cf1bc4354e77d85b41aab918b6afe5c1279aa63",
+ "result": "**Not ready to publish.** Two claims fail the check.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | Unsupported. This is a guarantee, and the brand policy names this exact phrase as one we never make because there is no such offer. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"means most boxes ship free\" | Unsupported. It implies a share of orders that clear £25, and we have no data for that. The sentence is also circular, since the threshold doesn't tell us how many orders meet it. The products are tins and tea bags, not \"boxes\". |\n\n**Other notes**\n- No health, green, urgency or testimonial problems.\n- No banned voice words. The opening line \"Tea that's easy to stop and start\" is vague but harmless.\n- No disclosure is needed, because this is our own landing page.\n- Sam needs to approve it before it goes out.\n\n**Compliant version**\n\n> Tea you can pause or cancel any time. Subscribers can stop and start whenever they like, and delivery in the UK is free on orders over £25.\n\nNothing in this version goes beyond the allowlist.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011734999999999999,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "2158d4032890048bd8a0a1b79c3a00e10757663c7c20cc0284b81ffe323b9e69",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted (exact match) |\n| Organic loose leaf | Allowlisted: certified organic by the Soil Association. Note: the policy covers organic certification generally; \"organic loose leaf\" is fine as written. |\n| Plastic-free bags | Allowlisted: tea bags are plastic-free |\n| Packed by hand in Bristol | Allowlisted: every tin is packed by hand in Bristol |\n\n**Slop check:** No ban-list words, no em-dashes, no exclamation points, no rhetorical opener, no fake urgency. The opening sentence leads with a concrete fact.\n\n**Minor observations (not blocking):**\n- \"Packed by hand in Bristol\" is allowlisted for tins. The draft pairs it with loose leaf and bags generally. If bags are not packed in tins, consider \"every tin is packed by hand in Bristol\" to stay exact. This is a nuance, not a violation, since the policy's claim is about tins and the draft doesn't contradict it.\n- \"Organic\" on its own is covered by the Soil Association certification. If any product in the range isn't certified, the hero shouldn't imply the whole range is.\n- The landing hero is the page itself, so the \"ad claims must appear on the landing page\" rule is satisfied.\n\n**Verdict:** Every claim traces to the allowlist, and no invented stats, testimonials, superlatives, guarantees, or health/green overreach appear. Safe to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008062099999999999,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

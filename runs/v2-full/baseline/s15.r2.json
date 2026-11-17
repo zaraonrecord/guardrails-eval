@@ -1,0 +1,15 @@
+{
+ "case": "s15",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "9f4016193d764a96cd41dc6f61e55c2eec042cb7458eb9785bb5901c519a745b",
+ "result": "**Review of the affiliate blog draft**\n\n**Needs changing**\n- **Affiliate label:** Policy section 4 requires the words \"Affiliate link\" next to the link. The draft has a footnote (\"*I may earn a small commission.\") but never uses the required wording. The footnote is also separated from the link by an asterisk, and \"You can find it here\" doesn't show the link clearly. Add \"Affiliate link\" directly beside the link.\n\n**Checked and fine**\n- \"Easiest to pause\" is the reviewer's personal opinion and fits our claim that subscribers can pause or cancel any time. It's not a brand claim we're making. Sam may want to glance at it, since \"easiest\" is comparative.\n- \"The tins are lovely\" is opinion, with no health, green, guarantee or urgency claims.\n- \"Four tea subscriptions this year\" is the reviewer's own experience, not a brand statistic.\n- No banned words, and the spelling is UK-compatible.\n- Sam (marketing lead) still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0120761,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

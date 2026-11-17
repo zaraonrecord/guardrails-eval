@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "a6ba59913d2f449f84df15b92f142d6283e3fffca47391d44f8c76f70cdafb17",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Plastic-Free Tea Bags\"** (headline): The policy says our tea bags are plastic-free, so this is covered.\n- **\"Our tea bags are plastic-free and home compostable.\"**: This matches the allowlist wording exactly. The proof is the supplier certificate (EN 13432).\n- **\"Founded in Bristol in 2019.\"**: This matches the allowlist wording exactly. The proof is Companies House.\n\nThere are no superlatives, guarantees, health claims, invented numbers, fake urgency or testimonials. None of the banned words appear, and the spelling is UK-friendly. A paid search ad from our own account needs no extra label.\n\nOne process note: everything public needs Sam's approval before it goes live, so this should go to Sam for sign-off. That is a routine step and not a problem with the copy itself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055235,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

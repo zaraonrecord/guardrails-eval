@@ -1,0 +1,15 @@
+{
+ "case": "p26",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "c51c9c13edb0e35a97c736160bdbaef31a23b8c9de5beab250be331e40a80a19",
+ "result": "I checked the draft against the brand policy and found three problems.\n\n1. **\"Ad |\" label**: The disclosure is present, so that's fine. It is at the start and clear. No issue.\n\n2. **\"Their tins are packed by hand in Bristol\"**: This is on the allowlist (every tin is packed by hand in Bristol). Fine.\n\n3. **\"Honestly the best tea in Britain\"**: This is an unsubstantiated superlative. The policy gives us no basis for ranking Pebblebrook first in Britain. Change it to something personal, such as \"my favourite tea right now.\"\n\n4. **\"it's a proven immunity booster\"**: This is a health claim with no support. Tea can't be advertised as boosting immunity, and \"proven\" makes it worse. Remove it entirely.\n\nSo two things need to change, not three (my opening count was off). The rest of the copy, including the \"Ad\" label and the Bristol packing claim, is fine.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0061528,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

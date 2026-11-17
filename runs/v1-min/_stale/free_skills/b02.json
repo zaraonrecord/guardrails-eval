@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Pebblebrook subscription dispatch email**\n\n**Claims check**\n- \"left Bristol this morning\": a shipping status for this customer, and consistent with our Bristol packing. Fine, as long as the email is triggered by a real dispatch.\n- \"a smoky lapsang and a soft white peony\": product facts and flavour descriptions, which are fine as written.\n- \"you can pause or cancel any time from your account\": allowlisted (subscribers can pause or cancel any time).\n\n**Other checks**\n- No stats, superlatives, guarantees, testimonials, health claims or green claims.\n- No fake urgency and no disclosure issues. It's a transactional email with no affiliate or sponsored content.\n- No ban-list words, em-dash sandwiches, exclamation points, rhetorical openers or abstract triads. The first sentence carries the useful fact.\n\n**Non-blocking note:** the subject says \"October tins\", but today is 17 November. If this goes out now, check that the month matches the box being shipped. If the send is correctly timed to an October dispatch, ignore this.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0131883,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

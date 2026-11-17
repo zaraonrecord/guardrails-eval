@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7683d4150584da417168707ea4a02831dd73bb61f51ee1b384b6c6ff59208084",
+ "result": "**Review: social ad (own account)**\n\n**Sentence by sentence**\n\n1. \"Three teas for your desk drawer.\" Description. Fine.\n2. \"9 out of 10 customers reorder within a month.\" This is a statistic about customer behaviour. It isn't in the brand's approved claims (the approved figures are the 4.8/5 rating from over 1,200 reviews, and the other listed facts). No evidence is visible, so it is an unsupported, invented stat. It must be removed, or kept only if the team can produce the reorder data and confirm the exact figure and time period.\n3. \"Builder's, Earl Grey and a peppermint for after lunch.\" Product description. Fine. \"For after lunch\" describes an occasion, not a health effect.\n4. \"Free UK delivery on orders over £25.\" Matches the approved claim exactly, with the threshold stated. Fine.\n\n**Labels:** Own-account brand channel, so no \"Ad\" label is needed beyond it being recognisable as marketing. No affiliate or creator issues.\n\n**Style:** Short and specific, no clichés. No concerns.\n\n**Decision:** Hold. Remove the reorder statistic (or substantiate it with real data) and the rest can go out.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0072376,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

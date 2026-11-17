@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n**Problems**\n\n1. **\"9 out of 10 customers reorder within a month.\"** This is an invented statistic. It isn't in the claims allowlist, and the policy bans invented numbers, statistics and customer counts. Remove it, or replace it with a figure the team can back up with proof.\n\n**Fine as written**\n- \"Free UK delivery on orders over £25\" matches the allowlist wording exactly.\n- The three teas (Builder's, Earl Grey, peppermint) and \"for after lunch\" are product facts or plain description, so they're fine.\n- Voice is warm, plain and unhurried, with no banned words. UK spelling is fine.\n- A paid social ad from our own account is labelled by the platform, so no extra label is needed.\n\n**Verdict:** Don't publish until the reorder statistic is removed. Sam (marketing lead) approves everything public, so it should go to Sam after the fix.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0079621,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

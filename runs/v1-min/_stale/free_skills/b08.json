@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, acceptable |\n\n**Problem:** \"most boxes ship free\" is a quantity claim. The allowlist only supports the £25 threshold, not how many orders or subscription boxes clear it. If typical boxes are under £25, the line is misleading, and it's a delivery-pricing claim that could draw policy or consumer-law scrutiny in the UK. I'd cut it rather than invent a proportion. If you have the real share of orders over £25, supply it with a source and it can go back in.\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener. Clean.\n\n**Suggested compliant version:**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nThe first sentence is a little vague, but it's fine as a hero line since the next sentence makes it concrete.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0125403,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

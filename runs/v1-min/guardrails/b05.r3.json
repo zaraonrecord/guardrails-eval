@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "426f51e364850d6fa140a4d9dd59d4d339ec615f8aee0b3ca652336af581e4cc",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Organic post on the brand's own Instagram, UK audience, timing not specified.\n\n**Checks**\n\n1. **Claims:**\n   - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word, and the \"on our website\" qualifier is kept. Pass. (The policy gives no review date, so someone should confirm the rating is still current before it goes out.)\n   - \"real bergamot oil and a little cornflower\" is an ingredient fact, which the policy allows as written. Pass.\n2. **Regulated claims:** No health, money, legal, environmental, children or price claims. Pass.\n3. **House style:** The policy has no voice section, so I can't score against it. The copy is short, concrete and conversational, and it has no stock openers, no empty intensifiers and no slogan closer. No changes needed.\n4. **Disclosure:** The brand is posting about its own product on its own account. That is the brand's own content, with no paid partnership, affiliate link, gifted product or third-party endorsement. Nothing requires a label. The post has no realistic AI-generated imagery that I can see, but I haven't seen the attached image, so if it's AI-generated, check the policy's labelling rule.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:**\n- Confirm the 4.8 rating and review count are still current. The policy lists the claim but I can't verify it live.\n- Confirm the image isn't AI-generated, or is labelled if it is.\n\n**Approver:** The policy names no approver, so approval comes from you as the user. Please give an explicit yes to this exact text. Nothing should be published or scheduled until you have.\n\nSince no problems need changing in the copy, the JSON shows an empty list. Note that `publish` is true only for the content; the approval step above still applies.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091703,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

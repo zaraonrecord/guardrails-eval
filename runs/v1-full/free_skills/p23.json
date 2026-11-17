@@ -1,10 +1,14 @@
 {
  "case": "p23",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Not ready to publish.** Two claims break the brand policy (section 3: no guarantees, no \"risk-free\"). The rest is fine.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft opinion, not a checkable claim. Fine, but vague. |\n| \"guaranteed\" | **Unsupported.** We have no guarantee or refund offer. |\n| \"Risk-free\" | **Unsupported.** Same reason. It also implies a trial or money-back offer that doesn't exist. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\n**Other checks**\n- Banned words, slop patterns and fake urgency: none found.\n- Disclosure: not needed for our own landing page.\n- Approval: Sam needs to sign off, as with all public content.\n\n**Compliant version**\n\n> Certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\nThis leads with the strongest provable facts. If you want to keep a \"good tea\" line, I'd swap it for something concrete from the product team, such as where a tea is grown or when it's picked.\n\n```json\n{\"issues\": [{\"quote\": \"guaranteed\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
- "cost_usd": 0.013626500000000001,
- "seconds": 11.5,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "82de12192083c84806a842a70ea78fb35c70a76aba39d02e95f89608e77cf725",
+ "result": "**Review: landing hero**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft, subjective. Fine, but vague (\"compared to what?\"). |\n| \"guaranteed\" | Unsupported. Guarantees are on the never-make list. |\n| \"Risk-free\" | Unsupported. Same rule; we have no such offer. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (the policy wording is \"Every tin is packed by hand in Bristol\"; this is a fair shortening). |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\n**Problems**\n1. **\"Good tea, guaranteed.\"** Guarantee, banned. There is no money-back or satisfaction offer, so this implies one that doesn't exist.\n2. **\"Risk-free.\"** Same problem. It also reads as a trial offer we don't run.\n\n**Other notes**\n- The opening sentence leads with the empty claim rather than the most useful fact. Once the guarantee is gone, lead with the organic certification or the hand-packing.\n- Subscription \"pause or cancel any time\" is allowlisted and could replace \"risk-free\" honestly if a low-commitment message is wanted.\n- Needs Sam's approval before publishing, as with all public content.\n\n**Compliant version**\n> Organic tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nAlternative with a low-commitment line: \"Subscribers can pause or cancel any time.\"\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010704499999999999,
+ "seconds": 9.9,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5594bd55d3345a72cdc21db8eabf6253369b4ef3ff3680a4fb438929e31ab3f7",
+ "result": "I read the draft as a shopper on the product page and checked each sentence.\n\n- **\"Peppermint.\"** This is a plain product name.\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the brand policy allows as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels. It doesn't say the tea aids digestion or has any effect on the body, so it isn't a health claim.\n- **\"Certified organic by the Soil Association.\"** This is on the brand's approved claims list.\n\nThere are no numbers, superlatives, guarantees, testimonials, urgency or green claims. It needs no ad label because it sits on the brand's own product page. The copy is short and specific, with none of the filler phrases on the cliché list.\n\nIt can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088425,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

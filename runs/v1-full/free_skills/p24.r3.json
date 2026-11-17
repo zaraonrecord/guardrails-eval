@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f1e604798fd0b820c85473382f291c5e0c22cc5ba56c55ae790d6d0236247637",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact about this shipment. Fine if the send is triggered by the actual dispatch. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written. |\n| \"you can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"from your account\" | A small addition to the allowlisted wording. Fine if the account page offers it. |\n\nNo invented stats, superlatives, guarantees, testimonials, health claims, green claims or fake urgency. No disclosure is needed for a transactional email from our own account.\n\n**Problem that must change**\n- \"Elevate your mornings\" uses \"elevate\", which is banned in the brand voice rules and in the slop list. It also doesn't fit the warm, plain, unhurried voice. Cut the sentence or replace it with something plain, e.g. \"This month it's a smoky lapsang and a soft white peony.\"\n\n**Worth confirming before sending (not blocking on their own)**\n- The subject says \"October tins\", but today is 17 November. If this is a November box, fix the subject. If it's a late October box, the body's \"this month\" is wrong.\n- The subject says \"tins\" and the body says \"subscription box\". Pick one so it matches what the customer receives.\n\nApproval from Sam is still needed before anything public goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121682,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

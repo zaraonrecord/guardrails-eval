@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6948204e874c10c2df974d563616d999e2a4676b28f51c67db1901dce89ec323",
+ "result": "**Review of the Rooibos Chai product page draft**\n\nProblems found:\n\n1. **\"It cured my bloating in a week\" - verified buyer.** This is a health claim: it says the tea cures a medical condition, which is not on the claims allowlist and is not something a tea can be advertised as doing. It is also a testimonial that is not backed by anything we can see (no source, no review reference), so I can't confirm it is a real customer review. Remove it. If a genuine review is wanted, use one that sticks to taste or experience, without health outcomes.\n\nThings that are fine:\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product facts (ingredients), fine as written.\n- \"Lovely with milk\": flavour/serving suggestion, fine.\n- \"100g tin\": size, fine.\n\nNo other issues: no invented stats, superlatives, guarantees, green claims, fake urgency or missing disclosures.\n\nVerdict: do not publish until the bloating testimonial is removed.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009602000000000001,
+ "seconds": 18.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

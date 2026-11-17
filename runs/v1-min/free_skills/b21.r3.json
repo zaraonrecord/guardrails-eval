@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "6c1617c2f25973c7a4e99761fc1d31f141bec8a2543b25fcbdc980afa6aa09fb",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Allowed. Team size is a product/company fact the policy permits as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited\" | Sourcing/origin fact, which the policy permits as written |\n\n**Other checks**\n- No superlatives, guarantees, stats, testimonials, review counts, health claims, or green claims.\n- No ban-list words, em-dash sandwiches, exclamation points, or rhetorical openers.\n- The first sentence leads with a concrete fact.\n- No affiliate or sponsorship content, so no disclosure is needed.\n\nOne thing to confirm before publishing: that the team really is six people today and that someone from the team has visited every garden you buy from. \"Gardens we've visited\" would be untrue if even one supplier hasn't been visited. This is a fact-check for you, not a change to the copy.\n\nThe draft is clean and can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010688,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

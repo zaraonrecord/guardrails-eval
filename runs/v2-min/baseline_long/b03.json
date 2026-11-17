@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "cc954474808ba89075e29576c73aa0fd9ee4338b7bdd90baf6b28df2220b39f2",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nSentence by sentence:\n\n- **\"Organic Loose Leaf Tea\"**: Product description. Organic is backed by the Soil Association certification in the policy. Fine.\n- **\"Certified organic by the Soil Association.\"**: On the approved claims list. Fine.\n- **\"Free UK delivery on orders over £25.\"**: On the approved claims list, and the £25 threshold is stated right beside the claim, as required. Fine.\n\nOther checks:\n\n- No superlatives, statistics, health claims, green claims, guarantees, testimonials or urgency language.\n- No ad-label issue: this is a standard search ad, which is recognisable as marketing in itself.\n- Tone: plain and specific, with no clichés or filler.\n- Spelling and conventions are UK-appropriate.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005877499999999999,
+ "seconds": 5.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

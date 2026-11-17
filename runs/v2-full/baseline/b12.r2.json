@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "0b250b44300ef2f910633a8668195cc7fdbbfc0f1de766c6c21d512f7976b1d6",
+ "result": "I checked the draft against the brand policy.\n\n- **Delivery claim:** \"Free UK delivery on orders over £25\" matches the allowlist wording exactly.\n- **Product facts:** The three teas (Builder's, Earl Grey, peppermint) are product facts, which are fine as written.\n- **Health claims:** \"A peppermint for after lunch\" is a suggestion about when to drink it, not a digestive or health claim, so it passes.\n- **Superlatives, guarantees, urgency, stats, testimonials, green claims:** none present.\n- **Disclosure:** it's a paid social ad from our own account, which the platform labels, so no extra label is needed.\n- **Voice:** warm, plain and unhurried. No banned words. UK spelling is fine (\"Builder's\", \"flavour\" not used, nothing US-spelled).\n- **Approval:** per the policy, Sam (marketing lead) needs to sign off before it goes live, as with everything public.\n\nNo changes needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058295000000000005,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

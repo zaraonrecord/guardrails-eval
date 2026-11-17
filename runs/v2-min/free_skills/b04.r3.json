@@ -1,0 +1,15 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "98f03107e0c565aad22eb3b7f69ecd2252b66b36de139ba1bd56c4c57be76acd",
+ "result": "The draft is clean, so I'd publish it as written.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"malty, full-bodied black tea that stands up to milk\" | Product flavour description, fine as written |\n| \"100g tin\" | Product size, fine as written |\n| \"makes around 40 cups\" | Brewing fact, fine as written. \"Around\" keeps it soft rather than a hard promise. |\n\n**Other checks**\n- **Banned words and structures:** none. There are no exclamation points, rhetorical openers, em-dash asides or abstract-noun triads.\n- **Superlatives, guarantees, testimonials, urgency:** none.\n- **Health, green and money claims:** none. The organic claim is a certification the brand holds, not a health claim.\n- **Opening:** the product name, then a concrete description. It does its job without throat-clearing.\n- **Review labels and affiliate disclosure:** not applicable. This is the brand's own product page, not a review.\n\nOptional: if you want the \"around 40 cups\" figure to be airtight, confirm it matches your brewing guidance (for example, about 2.5g per cup). The brand policy treats brewing and sizes as safe, so this isn't blocking.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096041,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

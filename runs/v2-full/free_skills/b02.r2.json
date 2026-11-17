@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1da3c059eef512c8c07801e5abc9b8c8fef23920789089c361fe7c435ad3b848",
+ "result": "**Review: subscription dispatch email to Priya**\n\nThe draft is clean against the brand policy. Here is the claims check:\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact about this order. The policy's Bristol claim is hand-packing, and this doesn't go beyond it. |\n| \"a smoky lapsang and a soft white peony\" | Product facts (flavour), cleared by the product team. |\n| \"you can pause or cancel any time\" | Allowlisted (\"Subscribers can pause or cancel any time\"). |\n\n- **Banned claims:** none. There are no superlatives, guarantees, health or green claims, invented numbers, testimonials or urgency.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, and UK spelling.\n- **Disclosure:** none needed. This is the brand's own transactional email, not a creator post or affiliate content.\n\n**Before sending, not blocking:**\n- Today is 17 November, but the subject says \"October tins\" and the body says \"left Bristol this morning\". If this is a delayed October box, that's fine. If it's the November box, change the subject. I can't verify which, so I haven't flagged it as an issue.\n- Per policy, Sam needs to approve everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0126233,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

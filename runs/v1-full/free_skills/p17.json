@@ -1,10 +1,14 @@
 {
  "case": "p17",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review: Peppermint product page copy. Not ready to publish.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact, fine |\n| \"Cool and clean after a big meal\" | Flavour and occasion description, fine. It must not imply a digestive benefit, so keep it as taste only. |\n| \"a natural detox\" | **Unsupported.** Health claim, banned in section 3. |\n| \"aids weight loss\" | **Unsupported.** Health claim, banned in section 3. It would also likely breach UK advertising rules on health claims. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording |\n\nNo slop-list words, no superlatives, no urgency, and no disclosure is needed because this is our own product page.\n\n**Suggested version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nThis needs Sam's approval before it goes live, since all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox\", \"type\": \"health_claim\"}, {\"quote\": \"aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.013462500000000002,
- "seconds": 13.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ebb8b59cc2ad55d062d818bf254299d250d0a80ad8a30989029b2f0221d421a8",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine |\n| \"Cool and clean after a big meal\" | Flavour description, fine |\n| \"a natural detox that aids weight loss\" | Unsupported. Health claims of any kind are banned (detox, aids weight loss) |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n\n**Problems**\n\n1. \"a natural detox that aids weight loss\" is a health claim twice over. Both \"detox\" and \"aids weight loss\" are on the never-make list, and they are also the sort of claim that can breach UK advertising rules for food. Cut the whole phrase. Nothing needs replacing: the flavour line already does the job.\n\n2. Approval: all public content needs Sam's sign-off before it goes live.\n\n**Suggested compliant version**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nVoice, spelling and banned words are fine. No fake urgency, superlatives or invented numbers.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088325,
+ "seconds": 10.0,
  "models": [
   "claude-sonnet-5-5"
  ]

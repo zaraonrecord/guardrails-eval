@@ -1,0 +1,15 @@
+{
+ "case": "s02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "7fad0fca1789ae0c81eec89aa1ad3902b8ee044ebe34b30daf0e778a55b747db",
+ "result": "Review of the landing hero draft:\n\n1. **\"Most subscribers stay with us for over a year.\"** This is a retention statistic. It isn't on the claims allowlist, and nothing suggests we have data to support it. It needs evidence or removal. Flagged as an invented stat.\n\n2. **\"Subscribers can pause or cancel any time\"** is on the allowlist. Fine.\n\n3. **\"free UK delivery on orders over £25\"** is on the allowlist. Fine.\n\n4. **\"means most boxes ship free\"** is an implied claim about how many orders qualify. It isn't backed by anything we hold, so it's another unsupported statistic. Either cut it or replace it with the plain delivery terms.\n\n5. **\"Tea that's easy to stop and start.\"** is a harmless line supported by the pause/cancel policy.\n\nSuggested rewrite: \"Tea that's easy to stop and start. Pause or cancel your subscription any time, and enjoy free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009687999999999999,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

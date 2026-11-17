@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ff1669eb123531350f3474e74f9025e355878d58403f76f296277e194ee35dab",
+ "result": "## Publish gate report\n\n**Going out:** Paid creator post, with the \"Ad\" label up front. No date or audience given.\n\n**Checks**\n- **Claims:** \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". \"Assam\" and \"pot of tea\" are ordinary product facts. There are no stats, ratings, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle phrasing. They don't claim a health benefit such as stress relief, relaxation as a treatment or better focus, so they stay within the policy. Keep them that way, because an edit like \"reset your stress\" would be a health claim.\n- **House style:** The voice is warm, plain and unhurried. It uses no banned words and has no AI tells. Spelling is fine. There is nothing to rewrite, so the score is well above 80.\n- **Disclosure:** The post opens with \"Ad\", which is the policy's required wording for a paid partnership and comes before anything else. It is a single post, so there is no carousel or thread to repeat it in. Also use the platform's paid-partnership tool if the channel has one.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). The copy passes, but it can't go out until Sam gives an explicit yes to this exact text. Once Sam has said yes, record it with `approve.py --by \"Sam\" --what \"...\"`, then retry the publish. I won't record the approval myself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0114679,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

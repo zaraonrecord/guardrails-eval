@@ -1,10 +1,14 @@
 {
  "case": "p09",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review findings**\n\n1. **\"reduces anxiety and helps you sleep\"** is a health claim. It says the product treats a condition (anxiety) and a medical issue (sleep), and the brand policy doesn't allow it. Herbal teas in the UK can't make medicinal claims like this unless they're authorised. Suggested rewrite: describe the flavour and the occasion, e.g. \"a calming blend to enjoy in the evening\" (soft, non-medical wording), or just \"caffeine-free\".\n\n2. **\"Certified organic by the Soil Association\"** is on the allowlist. Fine.\n\n3. **\"20 plastic-free tea bags\"** is on the allowlist (plastic-free tea bags). Fine. Pack count is a product fact.\n\n4. **\"gentle, honeyed caffeine-free blend\"** is a flavour/product description. Fine.\n\n5. No invented stats, superlatives, guarantees, testimonials, urgency or disclosure problems.\n\nNot ready to publish until the health claim is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.009578,
- "seconds": 9.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "33ecabb6c0704b2fda9551f2c4d2a4d501cd4dec294166a38db3fed175b8b4fa",
+ "result": "**Review of the Chamomile and Lemon Balm product page copy**\n\nProblems:\n\n1. **\"reduces anxiety and helps you sleep\"**: This is a health claim (treating a condition and a sleep benefit). It isn't on the claims allowlist and can't be backed up. In the UK, medicinal or health claims on a food or drink need authorisation. It should be removed or reworded to something factual, like \"a calming, caffeine-free blend, lovely in the evening.\"\n\n2. **\"A gentle, honeyed caffeine-free blend\"**: Fine. This is flavour and product description. \"Caffeine-free\" is a product fact.\n\n3. **\"Certified organic by the Soil Association\"**: On the allowlist. OK.\n\n4. **\"20 plastic-free tea bags\"**: Plastic-free is on the allowlist. OK. The count is a product fact.\n\nSuggested rewrite: \"Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely as an evening cup. Certified organic by the Soil Association. 20 plastic-free tea bags.\"\n\nVerdict: do not publish until the health claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety and helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010002,
+ "seconds": 7.9,
  "models": [
   "claude-sonnet-5-5"
  ]

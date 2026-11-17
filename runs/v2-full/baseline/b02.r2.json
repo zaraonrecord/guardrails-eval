@@ -1,0 +1,15 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "13846367b074077b33b68d29ec224720f21da884bf543c9a3ef61328016d5089",
+ "result": "Nothing in this draft breaks the brand policy, so it can go out once Sam has approved it.\n\n- **Claims:** \"pause or cancel any time\" matches the allowlist wording (\"Subscribers can pause or cancel any time\"). The lapsang and white peony descriptions are product facts, which are fine as written. There are no superlatives, guarantees, health or environmental claims, invented numbers or fake urgency.\n- **Disclosures:** None are needed. This is our own email, not a creator post or an affiliate link.\n- **Voice:** It is warm, plain and unhurried, with no banned phrases and UK spelling.\n- **Approval:** Everything public needs Sam's sign-off.\n\nTwo things to check, neither of which is a policy breach:\n1. Today is 17 November, but the subject says \"October tins\" and the body says \"this month\". If this is a late send, the month reference may be wrong.\n2. The subject says \"tins\" while the body says \"subscription box\". Check that this is the wording you want.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088849,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

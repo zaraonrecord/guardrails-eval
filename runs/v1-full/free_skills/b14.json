@@ -1,10 +1,14 @@
 {
  "case": "b14",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: clear to publish, pending Sam's sign-off.**\n\n**Disclosure**\n- The post opens with \"Gifted\", which is the required wording for a free product, and it comes before anything else.\n- \"Not paid to say that, just liked it\" is consistent with a gifted product. The creator should only keep it if no fee was paid.\n\n**Products and hands-on claims**\n| Product | Label | Hands-on claim | Status |\n|---|---|---|---|\n| Winter sampler (rooibos chai) | Tried (gifted, drunk by the creator) | \"lovely with oat milk\" | Fine. It's a personal taste opinion from someone who used it. |\n\n**Claims list**\n- No numbers, ratings, review counts or comparisons.\n- No superlatives, guarantees or urgency.\n- No health, environmental or other regulated claims.\n- Product facts (\"winter sampler\", \"rooibos chai\") are the kind the product team has already checked.\n\n**Voice**\n- No banned words or phrases.\n- No slop structures.\n- The tone is warm, plain and unhurried.\n\n**Process**\n- Brand policy requires Sam (marketing lead) to approve all public content, so this still needs his approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.013284500000000001,
- "seconds": 11.6,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6d64b22d0263c06ec82630bce9c2e66466c42a1a2d354037fc975f0b1aa2cabf",
+ "result": "**Review: creator post (gifted)**\n\n**Disclosure:** The post opens with \"Gifted\", which is the required wording and comes before anything else. It also says plainly that the writer wasn't paid, which is consistent with a gifted product. Passes.\n\n**Claims list:**\n- \"Pebblebrook sent me their winter sampler\": a factual statement about receiving the product, and it matches the gifted label. Fine.\n- \"The rooibos chai is lovely with oat milk\": a personal opinion on a product the writer received and evidently tried. It makes no health, superlative, or comparative claim. Fine.\n- \"Not paid to say that, just liked it\": consistent with a gifted, not paid, arrangement. Fine.\n\n**Policy checks:**\n- Invented stats, testimonials, or review counts: none.\n- Superlatives or guarantees: none.\n- Health claims: none. Oat milk and rooibos are mentioned only as taste.\n- Environmental claims: none.\n- Fake urgency: none.\n- Banned words or AI-tell structures: none. The tone is warm and plain.\n- Spelling: nothing that conflicts with UK spelling.\n\n**Product label:** The draft reads as Tried, since it's a gifted sampler the writer has used. The hands-on claim is limited to one taste opinion, so it's proportionate.\n\n**Approval:** Per the brand policy, Sam (marketing lead) needs to approve all public content before it goes live. That's a process step, not a change to the copy.\n\nNothing in the draft needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113123,
+ "seconds": 15.3,
  "models": [
   "claude-sonnet-5-5"
  ]

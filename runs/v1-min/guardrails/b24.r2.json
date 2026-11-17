@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "aa6db6048ab7d6e812ce99025254172728775ce9a1ced7cddc11b4e3563adaff",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n| Claim | Status | Source |\n|---|---|---|\n| Certified organic by the Soil Association | On policy list | \"certified organic by the Soil Association\" |\n| Packed by hand in Bristol | On policy list | \"every tin is packed by hand in Bristol\" |\n| Free UK delivery on orders over £25 | On policy list | Matches exactly |\n\n**Regulated claims:** The organic claim is an environmental/certification claim, but it is specific, names the certifier and is on the policy list. Delivery is a price/offer claim, and the threshold is stated, with no end date or urgency. Nothing risky. One note: the certification should stay current, so whoever owns the policy should confirm the Soil Association certificate hasn't lapsed.\n\n**House style:** No banned words or AI tells. \"Good tea, no fuss\" is plain and short. It's a mild slogan-style opener, but it's concrete enough to follow with specifics. Score about 90.\n\n**Disclosure:** First-party brand copy on its own site, so no ad, affiliate, sponsorship or AI label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy doesn't name an approver, so I need an explicit yes from you on this exact text before it goes live. Once you've said yes, record it with `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"landing hero copy\"`. The approval lasts 15 minutes and covers one publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008660399999999999,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

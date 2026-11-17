@@ -1,10 +1,14 @@
 {
  "case": "p02",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the search ad**\n\n- **\"Loved by 50,000 tea drinkers\"**: The policy has no customer count. The only supported figure is the 4.8 out of 5 rating from over 1,200 reviews on our website. 50,000 is an invented number, and \"loved by\" implies a testimonial-style claim. Remove it, or replace it with the approved wording: \"Rated 4.8 out of 5 from over 1,200 reviews on our website\".\n- **\"Certified organic by the Soil Association\"**: Matches the allowlist exactly (certificate renewed 2026). Fine.\n- **\"Free UK delivery on orders over £25\"**: Matches the allowlist exactly. Fine.\n- **Headline \"Organic Loose Leaf Tea\"**: We sell loose leaf tea and the organic certification is on file. Fine.\n- Voice and spelling: plain, no banned words. Fine.\n- Search ads from our own account need no extra label.\n\nNeeds changing before publication: the 50,000 claim. Sam (marketing lead) approves everything public, so the corrected version should go to Sam.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
- "cost_usd": 0.008498099999999998,
- "seconds": 8.9,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "365b7b7023a972362fc7bb0018de77a4594d6bf90b690a758dafa545314c67a4",
+ "result": "**Review of the search ad**\n\nChecking each claim against the brand policy:\n\n- **\"Organic Loose Leaf Tea\"** (headline): Fine. Organic is backed by the Soil Association certificate, and loose leaf is what we sell.\n- **\"Loved by 50,000 tea drinkers.\"**: Problem. This is an invented customer count. The policy allows only \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", and there is no proof for 50,000 customers or fans. It also implies a popularity claim we can't back up.\n- **\"Certified organic by the Soil Association.\"**: Exact allowlisted wording, certificate renewed 2026. Fine.\n- **\"Free UK delivery on orders over £25.\"**: Exact allowlisted wording. Fine.\n- Voice and spelling: plain and UK-appropriate, with no banned words.\n- Disclosure: this is a paid ad from our own account, so no extra label is needed.\n\n**Suggested fix:** Replace the invented figure with the approved claim, for example: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\" Check that it fits the character limit for the description line. As with all public content, it needs Sam's approval before going live.\n\n**Verdict:** Do not publish until the 50,000 claim is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007632699999999999,
+ "seconds": 13.8,
  "models": [
   "claude-sonnet-5-5"
  ]

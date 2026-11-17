@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e7b10157fb3e7da6ca448baba9f010f3072a5b65b727af90f206c9804b038ac4",
+ "result": "**Publish gate report: Peppermint product page**\n\n**Going out:** Product page copy for the peppermint tea, on the Pebblebrook Tea Co. site.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written. |\n| \"Cool and clean after a big meal.\" | Describes taste and occasion, so it isn't a health claim. It would become one if extended to \"aids digestion\" or \"settles the stomach\", so keep it as is. |\n| \"Certified organic by the Soil Association.\" | On the policy list, exact wording. Certificate on file, renewed 2026. |\n\n**Regulated claims:** Nothing on health, money, environment, children or prices. The \"after a big meal\" line is the only one near the health boundary, and it stays on the right side of it.\n\n**House style:** Warm, plain and unhurried. No banned words, no AI tells (no stock openers, reversals or slogan closers). Score about 92/100, so no rewrite is needed.\n\n**Disclosure:** This is the brand's own product page with no sponsorship, affiliate link, gifted product or AI-realistic imagery, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead) must approve this exact copy before it goes live. I haven't recorded any approval. Once Sam says yes to this wording, he can run the approve step himself and we can retry the publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119602,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "23e28d4e9a3da9b9cea054903d081cf4ab3673f136ad159d90bf4176563c0616",
+ "result": "This draft can go out as written.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" sits directly beside the link in plain words, so the reader sees it before clicking. The whole piece is two sentences, so there is no long caption to bury it in. If the post grows, I'd move a disclosure to the top.\n- **\"I've tried four tea subscriptions this year.\"** This is the reviewer's own experience, not a brand claim. It's worth confirming it's true, but it isn't something the brand needs to prove.\n- **\"Pebblebrook's was the easiest to pause.\"** This is a personal opinion, clearly framed as the writer's experience, not a brand superlative. It is also consistent with the brand's provable claim that subscribers can pause or cancel any time.\n- **\"the tins are lovely.\"** This is a subjective opinion about the product's look and feel, and it makes no health, green or performance claim.\n- **Style:** The copy is short, specific and in a real voice, with no AI clichés or hype.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011680600000000003,
+ "seconds": 18.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

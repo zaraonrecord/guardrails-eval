@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "4755d2173c1a02525e76eeaf84e19e71af6ba953fb43edcf12ef72701ebeac9b",
+ "result": "## Publish gate report\n\n**Going out:** Email to Tom (subscriber list), announcing the new sencha. No send time was given.\n\n**Checks**\n- **Claims:** Nothing to log. \"Grassy and a little sweet\", \"around 70 degrees\" and the new sencha are product and brewing facts the product team covers. \"Green tea\" in the subject names the tea type and isn't an environmental claim.\n- **Regulated claims:** Clear. There are no health, money, environmental, price or urgency lines.\n- **Disclosure:** Clear. It's our own brand email, with no partnership, affiliate link or sponsor.\n- **House style:** Fails on one line. \"It's not just tea, it's a ritual\" is the banned \"it's not just X, it's Y\" construction, and it's also an AI-sounding slogan. Estimated score is about 70 before the fix and about 92 after.\n\n**Fixed (suggested rewrite)**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, and best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\nThe only change is that I cut the banned sentence. The facts and the rest of the wording are unchanged.\n\n**Needs a decision:** Nothing is unresolved. If you'd rather keep some of the warmth the cut line was reaching for, one option is \"It's a gentle one for a slow afternoon.\" That's my suggestion only and adds no claims.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam says yes to the rewritten version above, not to the original draft. Sam can then record approval with `!python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Sencha announcement email\"`.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011460300000000001,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "32f98de32f5801eac9aba138a01deff2ace3f96132de92ecf59bdfc8d4b1c4a1",
+ "result": "**Review: newsletter draft, Pebblebrook Tea Co.**\n\nThe draft is clean and can go out once Sam approves it.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Garden in Darjeeling grows our first flush | Product fact (where a tea is grown), fine as written |\n| Leaves are picked in March | Product fact (when it's picked), fine |\n| Tastes bright and floral | Product fact (flavour), fine |\n| In the shop from Monday | Product fact (new product arriving), fine. It's a launch date, not manufactured urgency. |\n| \"This month we visited the garden\" | Not a policy claim, but it is a factual statement about a trip. Confirm with the team that it happened this month. |\n\n**Other checks**\n- **Superlatives, guarantees, health and green claims:** none.\n- **Invented numbers or testimonials:** none.\n- **Urgency:** \"from Monday\" announces availability. It has no countdown, scarcity or \"only X left\".\n- **Disclosure:** the newsletter is our own content, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n- **Voice:** warm, plain and unhurried. None of the banned words appear, and there are no em-dash asides or exclamation marks. Spelling is UK-compatible.\n\n**Before sending:** Sam (marketing lead) approves everything public, so get sign-off. Also check that \"Monday\" resolves to the correct date for readers, since newsletters are often opened days later.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012138300000000001,
+ "seconds": 16.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- There are no invented stats, superlatives, guarantees, testimonials, health or green claims, or urgency language.\n- There are no ban-list words, exclamation points, rhetorical openers or em-dashes.\n- The copy is concrete, and the opening is a plain statement of what's sold.\n- The headline is 19 characters and the description is 102 including spaces. You gave no character limit, so I haven't flagged length. If this is a Google RSA, the description is over the usual 90-character cap and needs trimming. The easiest cut is \"Monthly loose leaf tea.\" if the headline already covers it.\n- Before it goes live, confirm the landing page also states the pause/cancel-any-time and free-delivery-over-£25 terms, since an ad shouldn't make claims the landing page doesn't.\n\nNothing needs changing, so it's clear to publish, subject to the landing page and length checks above.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.015448300000000002,
+ "seconds": 15.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

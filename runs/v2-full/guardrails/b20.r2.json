@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "035274b588017db4d56c5da0357ba049d78919f970a2c406bc874d7b7a94492c",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, headline \"Tea Subscription UK\", description with subscription and delivery claims. Audience: UK.\n\n**Checks**\n\n1. **Claims**\n   - \"Subscribers can pause or cancel any time\": on the policy list (Subscription terms). Pass.\n   - \"Free UK delivery on orders over £25\": on the policy list (Shipping policy). Pass, wording matches exactly.\n   - \"Monthly loose leaf tea\": product fact, fine as written.\n   - \"Tea Subscription UK\": descriptive keyword headline, no claim.\n   - Nothing invented, no superlatives, guarantees, urgency or testimonials.\n\n2. **Regulated claims:** No health, money, legal, environment, children or price-promotion issues. Free delivery has its £25 condition stated, so it isn't misleading.\n\n3. **House style:** Plain and unhurried enough for a search ad's character limits. No banned words, no AI tells. It's terse rather than warm, but that's the format. Score about 85. No rewrite needed.\n\n4. **Disclosure:** Paid ads from our own account are marked by the platform, so no extra label is needed (policy section 4). Pass.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing unresolved. One optional note: the headline is short, so there's room to add a second headline (for example \"Loose leaf tea, packed by hand in Bristol\", which is on the policy list) if the platform allows.\n\n**Approver:** Sam (marketing lead), as the policy requires for everything public.\n\n**Approval:** The content passes all four checks. It has not yet been published. Sam needs to give an explicit yes to this exact text. Once Sam has said yes, he can record it in his own terminal with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Search ad: Tea Subscription UK\"`\nThen I can retry the publish. The approval lasts 15 minutes and covers one publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0098495,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

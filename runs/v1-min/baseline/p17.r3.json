@@ -1,0 +1,15 @@
+{
+ "case": "p17",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "54468e76544d175d490db024b449449de5233c60f833530e3eb0154cb9cea09b",
+ "result": "**Review of the product page draft**\n\nChecks against the brand policy:\n\n- **\"Just peppermint leaves, nothing else.\"** Ingredient fact, fine as written.\n- **\"Cool and clean after a big meal\"**: a flavour/sensory description, fine.\n- **\"a natural detox that aids weight loss\"**: this is a health claim. Detox and weight loss benefits aren't on the allowlist and can't be substantiated. In the UK, ASA/CAP rules and the GB Nutrition and Health Claims Register don't authorise a detox or weight-loss claim for peppermint tea. It must be removed.\n- **\"Certified organic by the Soil Association.\"** On the allowlist, fine.\n\nSuggested rewrite: \"Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\"\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0057,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

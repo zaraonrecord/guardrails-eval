@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "422a0c37bd7477fb31552f1350e26aa4afb5554e9d5c79bcd24e38520cddf924",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Landing page hero copy for Pebblebrook Tea Co. (UK). No date or audience was given.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026) |\n| packed by hand in Bristol | On the policy list (\"Every tin is packed by hand in Bristol\") |\n| free UK delivery on orders over £25 | On the policy list (exact wording) |\n\nThe three claims are all backed. I found no invented stats, superlatives, guarantees, health or green claims, or false urgency.\n\n**Regulated claims:** Nothing touches health, money, legal outcomes, children or discounts. The organic claim is backed by a certificate on file. Pass.\n\n**Disclosure:** This is the brand's own page, so no ad, affiliate or gifted label is needed. Pass.\n\n**House style: about 68/100, so it needs a rewrite**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is a tidy group of three slogans, which is a classic AI tell. It's also generic and empty, and it isn't the plain, unhurried voice in the policy. \"Packed with love\" also repeats the real, more specific \"packed by hand\".\n- No banned words are present.\n\n**Fixed (suggested rewrite)**\n> Organic tea, certified by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\n\n- I cut the three-part slogan.\n- The facts are unchanged and use only the policy wording.\n- I added \"Organic tea\" as a plain lead-in, which the certified-organic claim supports.\n\n**Needs a decision:** If you want a warmer opener, supply a specific line, such as something about the tea itself. Product facts are fine to use as written. I haven't added anything.\n\n**Approver:** Sam (marketing lead). Approval has to be for the final rewritten text, not this draft. Nothing is published yet.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0167355,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

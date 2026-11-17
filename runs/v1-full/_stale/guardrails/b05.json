@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Instagram post on the Pebblebrook Tea Co. account, text only as drafted. Timing wasn't given.\n\n**Checks**\n- **Claims:** Passes.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. The proof is the October 2026 review export, which is current.\n  - \"real bergamot oil and a little cornflower\" is an ingredient fact, which the product team checks and the policy allows as written.\n  - \"Rainy Sunday, second pot\" is scene-setting and makes no claim.\n- **Regulated claims:** Nothing on health, money, legal outcomes, the environment, children, prices or urgency.\n- **House style:** Score about 92 out of 100. The tone is warm, plain and unhurried. It uses none of the banned words and has no AI tells such as stock openers, reversals or slogan closers. No rewrite needed.\n- **Disclosure:** Not needed. It is the brand's own organic post, with no partnership, affiliate link, gift or AI-generated content.\n\n**Fixed:** Nothing. The copy is unchanged.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead), who approves everything public. Nothing should be posted until Sam says yes to this exact text. I haven't recorded an approval.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | IG rainy Sunday post | Rated 4.8 out of 5 from over 1,200 reviews on our website | On policy list | Review platform export, Oct 2026 |\n| 2026-11-17 | IG rainy Sunday post | Earl Grey uses real bergamot oil and a little cornflower | Product fact | Product team, per policy section 2 |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0136655,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

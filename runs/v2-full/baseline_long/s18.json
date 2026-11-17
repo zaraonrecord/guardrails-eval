@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "68001ff6d7ae03f288baf6e4ac66966b967f481db740dad43df92ba48fbd2004",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims and product facts**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are product facts (ingredients, tin size), which the product team checks and which are fine as written.\n- \"Lovely with milk\" is plain description and a personal-taste style of phrase, not a health or superiority claim. Fine.\n\n**Pricing**\n- \"Was £12, now £8.\" is a reference-price claim, a 33% reduction. It only holds if £12 was genuinely charged for a reasonable period before the cut. The brand policy has no price history for this tin and no approved offer, and it says there are no current offers with an end date. I can't see evidence that £12 was the real prior price, so I'm treating it as unsupported. Before publishing, confirm the price history and keep a record of it. Otherwise show just the current price, £8.\n\n**Other checks**\n- No health claims, superlatives, guarantees, environmental claims, invented numbers or fake urgency.\n- No banned words, and the voice is warm, plain and short. UK spelling is fine.\n- No paid creator or affiliate content, so no label is needed.\n\n**Decision:** Hold until the \"Was £12\" price is verified, or remove the struck-through price. Everything else is fine.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011432699999999999,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

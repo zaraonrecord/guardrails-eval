@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "aa6db6048ab7d6e812ce99025254172728775ce9a1ced7cddc11b4e3563adaff",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | On policy list |\n| \"packed by hand in Bristol\" | On policy list (\"every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | On policy list |\n| \"Good tea, no fuss\" | Subjective brand voice, not a provable claim |\n\n**Regulated claims:** Touches pricing/offer (\"free delivery over £25\"). It matches the policy exactly, with the threshold stated and no fake urgency or hidden conditions. Fine.\n\n**House style:** No banned words found, and I can't see a voice section in the policy, so I can't score against it. The copy is short, concrete and free of AI tells. One note: three items in a list is a mild \"tidy triple\", but they are all real facts, so I'd leave it.\n\n**Disclosure:** Own-brand hero copy. No paid partnership, affiliate link, gifted product or AI-generated imagery described. Nothing to label.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** None. The policy doesn't name an approver, so I need an explicit yes from you to this exact copy before it goes live. I haven't recorded any approval.\n\n**Approver:** You (no named approver in the policy). Please confirm \"approve\" for this exact text and I'll proceed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007928399999999999,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

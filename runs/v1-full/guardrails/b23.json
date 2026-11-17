@@ -1,10 +1,14 @@
 {
  "case": "b23",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report**\n\n**Going out:** Product page copy for Rooibos Chai, on the Pebblebrook website.\n\n**Claims:** There are no statistics, rankings, guarantees, testimonials or urgency claims.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" is an ingredient fact. The policy lets the product team's ingredient facts stand as written. \"Caffeine-free\" describes the contents and makes no health claim. It's worth the product team confirming that the blend has no caffeine-containing ingredients.\n- \"Lovely with milk\" is a serving suggestion, not a claim.\n- \"100g tin\" is a tin size, which the product team covers.\n\n**Regulated claims:** Nothing touches health benefits, money, the environment, children or prices.\n\n**House style:** There are no banned words and no AI tells. It's plain and short, which fits the warm, plain, unhurried voice. The spelling is UK-compatible. Score about 90, so no rewrite.\n\n**Disclosure:** This is the brand's own product page, so no ad, gifted or affiliate label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead) must say yes to this exact copy before it goes live. I haven't recorded an approval, and I can't approve my own review. Once Sam confirms, it's clear to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.012369500000000002,
- "seconds": 14.2,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "c647c4cfe9b064db7d63a6cdc65b109894f579807ec004c5acd1b35f2b5d546a",
+ "result": "## Publish gate report\n\n**Going out:** Rooibos Chai product page copy (one line, 100g tin). Channel: product page.\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or awards. \"Caffeine-free\" describes the ingredients (rooibos, spices), so it is a product fact the product team covers, not a health claim. The ingredient list, \"Lovely with milk\" (a serving suggestion) and \"100g tin\" (tin size) are also product facts.\n- **Regulated claims:** There are no health, money, legal, environmental, children's or price claims. \"Caffeine-free\" is not framed as a benefit (no \"calming\" or \"better sleep\"), so it stays on the safe side.\n- **House style:** The copy is warm, plain and unhurried, with no banned words and no AI tells. Score: about 95/100. No rewrite needed.\n- **Disclosure:** This is our own product page, with no paid partnership, gifted product, affiliate link or AI-generated content. No label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. As a small check, the product team should confirm the blend contains no black tea, so \"caffeine-free\" holds. The ingredient list suggests it doesn't, since black pepper is a spice, not tea.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam says yes to this exact copy. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011839100000000002,
+ "seconds": 13.3,
  "models": [
   "claude-sonnet-5-5"
  ]

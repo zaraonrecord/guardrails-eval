@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "ec130ad174f51d56fd0e63817ab8bbf71beab06cc220ecb70bba764c68b7840e",
+ "result": "**Verdict: clear to publish.** No changes needed.\n\n**Disclosure:** The post opens with \"Ad |\", which labels it as paid up front, before any brand mention. That works for a UK creator post.\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| \"ten minutes away from my phone\" | The creator's own routine, not a product claim |\n| \"which I love\" | Personal opinion, not a measurable claim |\n\n**Other checks**\n- **Stats, superlatives, guarantees, testimonials:** none.\n- **Health, green and urgency claims:** none. The \"reset\" is a lifestyle phrase and doesn't promise a health or wellness effect.\n- **Slop and structure:** no banned words, no em-dash asides, no exclamation points, no rhetorical-question opener. The first sentence is concrete.\n\n**One thing to confirm before it goes out:** the copy implies the creator really drinks this Assam as a regular afternoon habit. The product's label (owned or tried) wasn't given. Make sure that is true. If they haven't actually used it, the first sentence should be rewritten.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0123527,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

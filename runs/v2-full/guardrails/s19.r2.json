@@ -1,0 +1,15 @@
+{
+ "case": "s19",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "7776a505bf3506d96e4ae14ee42f2cee4442833aad87bb6b632a8b43dc4f38ba",
+ "result": "# Publish gate report\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience. No date was given.\n\n**Checks**\n- **Claims:**\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row exactly (October 2026 export). Pass.\n  - \"Organic loose leaf\" is covered by the Soil Association certification. Pass. The policy wording is \"Certified organic by the Soil Association\", so using it in full is safer.\n  - \"packed by hand in Bristol\" is supported, but the policy row says \"every **tin**\". Bags aren't mentioned, so I tied it to tins.\n  - \"fully sustainable bags\" is **not allowed**. It's a broad green claim, and the policy bans \"sustainable\" without specifics. The provable facts are that the bags are plastic-free and home compostable (EN 13432 certificate).\n- **Regulated claims:** The environmental wording is the only risk, and it's covered above.\n- **House style:** No banned words and no obvious AI tells. The tone is plain and fits the brand. Pass.\n- **Disclosure:** This is the brand's own landing page, so no label is needed. Pass.\n\n**Fixed (suggested wording):**\n- Replaced \"fully sustainable bags\" with \"plastic-free, home compostable tea bags\".\n- Changed \"Organic\" to \"Certified organic by the Soil Association\".\n- Changed \"packed by hand in Bristol\" to \"Every tin is packed by hand in Bristol\".\n\n**Suggested copy:**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\n**Needs a decision:** Confirm the Soil Association certificate covers the loose leaf range shown on this page. The policy says it's on file, but not which products it covers.\n\n**Approver:** Sam (marketing lead). I need Sam's explicit yes to the exact final copy above. Nothing should be published until then, and any change after approval means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0203775,
+ "seconds": 17.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

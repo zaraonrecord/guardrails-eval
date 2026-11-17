@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4101ef3d7717381edf7468d64b3722ad34f47a2b4b7bda55f6eb6fd31e68e8e8",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Search ad (headline + description), UK audience. No send date given.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"Free UK delivery on orders over £25\": on the policy list. Pass.\n   - \"Organic Loose Leaf Tea\" (headline): consistent with the certified organic claim and a product fact (loose leaf). Pass.\n   - No stats, superlatives, guarantees, testimonials or urgency.\n\n2. **Regulated claims:** The ad touches the environment only through \"organic\", which is backed by a certification on the policy list. No broad green terms (\"eco\", \"sustainable\"). Pass. Price/offer: the delivery threshold is stated with its condition (over £25), so \"free\" isn't misleading. Pass.\n\n3. **House style:** Short, plain, no banned or AI-tell phrasing. The copy is terse but fits the search ad format. Pass.\n\n4. **Disclosure:** A search ad is labelled \"Ad\" or \"Sponsored\" by the platform itself, so no copy-level label is needed in the text. Pass. Make sure the ad is run through the platform's standard ad format so that label appears.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing unresolved. One note: the ad can't claim anything the landing page doesn't back up, so confirm the landing page shows the Soil Association certification and the £25 free delivery threshold.\n\n**Approver:** The policy names no approver, so the user (the account holder) needs to give an explicit yes to this exact copy. I haven't recorded any approval. In Claude Code, you can record it by running `python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Your Name\" --what \"Search ad: organic loose leaf tea\"` yourself, then retry the publish.\n\nThe copy is clean, so I'm marking it as OK to publish once you've approved it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096723,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

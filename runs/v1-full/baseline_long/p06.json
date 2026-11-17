@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "04aa84995373e641409a02d67f4ff39f731e2cd866494e8658fc1b4a61d197b1",
+ "result": "**Review: blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" The founding claim (Bristol, 2019) is on the allowlist. The \"because\" origin story is a company narrative, not on the list, but it's a statement of motive rather than a provable-number claim, so I'm not flagging it. Worth Sam confirming it's accurate.\n\n2. \"Our tea bags are plastic-free and home compostable\" is approved wording (EN 13432 supplier certificate).\n\n3. \"and our whole business is carbon neutral\" is a problem. The policy explicitly lists \"carbon neutral\" as a claim we never make, and nothing in section 2 supports it. It's also a whole-business claim, which is exactly the stretch the checklist warns about. Fix: delete it. If you want to say more, stick to approved facts, such as the plastic-free, home compostable tea bags or the Soil Association organic certification.\n\n4. \"Here's how we checked.\" This sets up an explanation of the carbon neutral claim, which doesn't exist. Once the claim goes, this line has nothing to refer to and should be cut or rewritten (for example, pointing to the compostability certificate).\n\nStyle: the voice is plain and warm, UK spelling, no banned words. No tone issues.\n\nDecision: hold. Remove the carbon neutral claim and the dangling \"Here's how we checked\", then it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010336699999999997,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "798ca12f3d20e800a77164135795b2fd4d58d665a9c1c1b4e097b02ba269b9de",
+ "result": "**Review of the October tins email**\n\nGoing through it sentence by sentence:\n\n- **Subject: \"Your October tins are on the way\"**: accurate description of a shipment, not misleading. Fine.\n- **\"Your subscription box left Bristol this morning.\"**: consistent with the Bristol packing operation. Fine.\n- **\"Elevate your mornings\"**: \"elevate\" is on the brand's banned word list. It is also a generic lifestyle phrase. Needs rewording.\n- **\"a smoky lapsang and a soft white peony\"**: product/flavour description, checked by the product team. Fine.\n- **\"you can pause or cancel any time from your account\"**: matches the approved claim \"Subscribers can pause or cancel any time\". Fine.\n- Sign-off and personalisation: no issues. UK spelling is fine. No health, green, urgency, guarantee or testimonial content. An email from the brand's own account needs no ad label.\n\n**Decision:** Hold. One fix is needed: remove \"Elevate your mornings\". Suggested rewrite: \"This month it's a smoky lapsang and a soft white peony, for slow mornings.\" (or simply drop the phrase).\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007076399999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

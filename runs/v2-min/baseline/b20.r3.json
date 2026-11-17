@@ -1,0 +1,15 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "6722cfe6b81536fc28e3a60007b562d2ad261563d60ad3fa3b6fe16d1a7ff6d4",
+ "result": "I checked each claim in the draft against the brand policy:\n\n- \"Tea Subscription UK\": a descriptive headline, consistent with what we sell and where we market. Fine.\n- \"Monthly loose leaf tea\": a product fact, and the monthly subscription is part of the offer. Fine.\n- \"Subscribers can pause or cancel any time\": on the allowlist. Fine.\n- \"Free UK delivery on orders over £25\": on the allowlist, with the same threshold. Fine.\n\nThe copy has no invented stats, superlatives, guarantees, testimonials, health claims, green claims, fake urgency or filler phrasing. Nothing here calls for a disclosure label, since it is a plain search ad with no sponsored or incentivised content. It is also short enough to fit typical search ad formats, though the platform's character limits are worth confirming at upload.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055339,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

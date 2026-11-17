@@ -1,0 +1,15 @@
+{
+ "case": "s12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "f10a658923422024199a7734ff97988928630fe3b0ff8ba04724e00361100ba1",
+ "result": "**Review: newsletter, Christmas blend**\n\nSentence by sentence:\n\n1. \"Quick one this week: the Christmas blend is back.\" Fine. New or returning product news is a product fact, and the tone is warm and plain.\n2. \"Black tea, orange peel, cinnamon and a little clove.\" Ingredients are product facts, fine as written.\n3. \"It's back in the shop from today\" Availability is a product fact (new products arriving), so this is fine. It's not a time-limited offer.\n4. \"and selling fast.\" This is the problem. It's a stock/demand claim that implies scarcity and pressure to buy. The policy has no sales data behind it, and it says urgency that isn't true is not allowed. Nothing in the brand's approved claims supports it. Fix: cut it, or replace it with something factual, such as \"Tins are available now.\"\n\nNo other issues: no health claims, superlatives, guarantees, invented numbers, or banned words. UK spelling isn't tested by anything here. No label is needed on an owned newsletter.\n\nDecision: hold until \"selling fast\" is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006782299999999999,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

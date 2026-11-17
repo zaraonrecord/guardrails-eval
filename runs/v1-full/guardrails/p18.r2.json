@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "35697f70681ebd7dd7f4508b741d5177da4fd85ab1ba4c9a6896dd98945d7b49",
+ "result": "**Publish gate report: email \"How to brew loose leaf without a teapot\"**\n\n**Going out:** Email to Ana (UK), subject \"How to brew loose leaf without a teapot\". Send time not given.\n\n**Checks**\n- **Claims:** No numbers, rankings, guarantees or testimonials. The brewing guidance (mug, sieve, four minutes for black tea, shorter and cooler for green) is product/brewing guidance, which the policy allows as written. Pass.\n- **Regulated claims:** No health, money, environment, price or urgency language. Pass.\n- **Disclosure:** Our own email, no sponsorship, affiliate link or partnership. Pass.\n- **House style:** Fails. \"Unlock\" and \"journey\" are both on the banned list, and \"Unlock your tea journey\" is a stock marketing opener. Tone is otherwise warm, plain and short. The sign-off \"The Pebblebrook team\" is fine.\n\n**Fixed (suggested rewrite)**\n- Replaced \"Unlock your tea journey.\" with a plain opener.\n\nSuggested copy:\n\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> You don't need any kit to brew loose leaf. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\nStyle score: before about 55 (two banned words, one AI-tell opener), after about 92.\n\n**Needs a decision**\n- Nothing unresolved beyond approving the rewritten copy. Please confirm the send time and audience.\n\n**Approver:** Sam (marketing lead) must approve the exact final copy above. The original draft should not be sent as written. No approval has been given yet, so I have not recorded one.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112015,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

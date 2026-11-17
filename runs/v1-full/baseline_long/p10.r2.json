@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba0a0a7ffbdd15d9cdf37b8bf0e95cc26e59b913fdec61b919eced4adf36da9c",
+ "result": "The draft has one problem, and it breaks the brand's voice rules.\n\n**Problem**\n- **\"It's not just tea, it's a ritual.\"** This is the \"it's not just X, it's Y\" construction, which the brand policy bans (section 5). It is also a formulaic, generic line that doesn't fit the warm, plain, unhurried voice. Fix: cut it, or say something plain about the tea, for example \"It's a lovely one for a quiet mid-afternoon cup.\"\n\n**Checked and fine**\n- **\"We've added a Japanese sencha to the shop.\"** New products arriving is a product fact the product team covers.\n- **\"Grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\"** This is flavour and brewing guidance, also covered. \"Best brewed\" here is brewing advice, not a superiority claim.\n- **Subject \"A new green tea.\"** \"Green\" names the tea type, not an environmental claim. The subject is accurate and not misleading.\n- **Claims, labels and urgency.** There are no health claims, numbers, guarantees, urgency or testimonials. An email from the brand's own channel needs no \"Ad\" label.\n- **Spelling and tone.** UK conventions are fine, and no other banned words appear.\n\nOnce the ritual line is replaced, it can go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099195,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

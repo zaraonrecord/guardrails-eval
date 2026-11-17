@@ -1,0 +1,15 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "63edf9d0c559297ce9d03912a2947d5735cf64715e09566b2495f0a26983d8cd",
+ "result": "**Claims list**\n\n- \"you'll love it or it's free\": a money-back/free guarantee. Not on the allowlist and not sourced in this chat. Unsupported.\n- \"Subscribers can pause or cancel any time\": allowlisted.\n- \"free UK delivery on orders over £25\": allowlisted.\n- \"means most boxes ship free\": an implied statistic about order sizes. Not allowlisted, no data supplied. Unsupported. It also doesn't follow: the free-delivery threshold says nothing about how many orders clear it.\n\n**Other checks**\n\n- Slop: no ban-list words. The opening \"Tea that's easy to stop and start\" is vague, and the first sentence doesn't lead with the most useful fact. Minor, but the rewrite can fix it.\n- Landing page consistency: the guarantee would need to be backed by an actual refund policy, which we don't have on record.\n- Platform/regulatory: a \"love it or it's free\" guarantee in the UK needs clear terms (what is refunded, how, time limit). Without them it risks being misleading.\n\n**Suggested compliant version**\n\n> Loose leaf tea and plastic-free tea bags, delivered monthly. Pause or cancel any time. Free UK delivery on orders over £25.\n\nIf you do have a satisfaction guarantee, send me the exact terms and I'll add it back, e.g. `[PROOF NEEDED: refund/guarantee terms]`.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008014799999999999,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

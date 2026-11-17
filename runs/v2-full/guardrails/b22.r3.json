@@ -1,0 +1,15 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1c9f2139f383c92476f7a0ae0409c2439124ed745f93a87e76767e26edfc9713",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Instagram post from Pebblebrook's own account, announcing new winter tins.\n\n**Checks**\n- **Claims:** \"Our tea bags are plastic-free and home compostable\" is on the policy list (supplier certificate, EN 13432). \"Plastic-free tea bags inside\" is the same claim, so it is covered. New products and tin design are product facts, fine as written. No stats, superlatives, guarantees, health or urgency claims.\n- **Regulated claims:** \"plastic-free and home compostable\" is an environmental claim, but it uses the exact approved wording with a certificate behind it. No broader green claims are added. Pass.\n- **House style:** No banned words. Voice is warm and plain. The one weakness is repetition: \"plastic-free tea bags\" appears twice in three sentences, which reads as padding. Score about 75 before the fix.\n- **Disclosure:** Own-account organic post, no partnership, affiliate link or gifted product. No label needed.\n\n**Fixed (suggested rewrite)**\n- Merged the duplicated plastic-free line into one sentence:\n\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nStyle score after the rewrite: about 90.\n\n**Needs a decision:** One small point. The policy wording is \"Our tea bags are plastic-free and home compostable\". The merged version uses \"plastic-free, home compostable tea bags\", which means the same thing. If Sam wants the exact policy wording kept, use the original second sentence instead and drop \"plastic-free\" from the first.\n\n**Approver:** Sam (marketing lead). I have not recorded an approval. Sam needs to say yes to the exact final text, then the approval can be recorded and the post published.\n\nThe only change is a style edit for repetition, not a compliance problem, so the original draft has no claims or disclosure issues that must stop it.\n\n```json\n{\"issues\": [{\"quote\": \"Our tea bags are plastic-free and home compostable.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098034,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

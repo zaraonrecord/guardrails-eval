@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "3a6c59f863097028937b0fa43f7bed241080398878e0861a90313c800dee2e3c",
+ "result": "**Review: landing hero**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"Good tea, no fuss\" | Soft descriptor, not a superlative, comparison or guarantee. Fine. |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none.\n- **Banned words and structures:** no banned vocabulary, no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no triad of abstract nouns.\n- **Voice:** warm, plain, unhurried. UK spelling is fine.\n- **Disclosure:** not needed. This is our own landing page, with no partnership, gifted product or affiliate link.\n\n**Optional note, not a blocker:** \"Packed by hand\" is true of tins, so if the hero sits near tea bags, check it doesn't imply bags are hand-packed. As written it's fine.\n\nPer policy, everything public needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0104556,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f1e604798fd0b820c85473382f291c5e0c22cc5ba56c55ae790d6d0236247637",
+ "result": "**Verdict: don't publish yet. One banned word needs to go, and one date needs checking.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific shipping fact. Confirm it's true for each send. Bristol packing is on the allowlist. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written. |\n| \"pause or cancel any time from your account\" | Allowlisted (subscription terms). |\n| \"Your October tins\" / \"this month\" | Today is 17 November 2026. Confirm the month is right. The subject also says \"tins\" while the body says \"subscription box\", so pick one. |\n\n**Problems**\n\n1. **\"Elevate your mornings\"** uses \"elevate\", which is banned by the brand policy and the slop rules. It's also filler. The sentence reads fine without it: \"This month it's a smoky lapsang and a soft white peony.\"\n2. **October vs. November.** If this goes out now, \"October tins\" and \"this month\" don't match the calendar. Fix the subject or confirm the send date.\n\nNo invented stats, guarantees, health or green claims, fake urgency, or testimonials. No disclosure is needed, since this is our own transactional email. Sam needs to approve it before it goes out, as with all public content.\n\n**Suggested body**\n\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}, {\"quote\": \"Your October tins are on the way\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016412500000000003,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

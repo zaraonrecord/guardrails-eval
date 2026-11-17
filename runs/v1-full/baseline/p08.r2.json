@@ -1,0 +1,15 @@
+{
+ "case": "p08",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "fca1ece961b618e30d14cfafdf5b34bd3e8621993ad0cca1b6e36c4f9206b438",
+ "result": "**Review of the search ad**\n\n**Passes:**\n- \"Plastic-Free Tea Bags\" and \"Our tea bags are plastic-free and home compostable\" match the allowlisted claim (supplier certificate, EN 13432).\n- UK spelling and tone are fine, with no banned words.\n\n**Problems:**\n1. **\"Best tea I've ever had\" - Emma, Leeds.** This is a testimonial with no source in the policy. Testimonials can't be invented, and nothing here shows it's real, so it should be treated as fabricated until the team can show it's a genuine customer review with permission. It also contains the superlative \"best\", which the policy bans, and quoting a customer doesn't exempt us from that. Remove it.\n\n**Suggested fix:**\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Certified organic by the Soil Association.\n\n(Or use the allowlisted review line: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\")\n\nSam needs to approve the revised version before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0069803,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

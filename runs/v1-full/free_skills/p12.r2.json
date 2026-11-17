@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "456a6eef62df7129de860bad454b5db2b5635cbc4060a5bfc5e51c80c46fb8c5",
+ "result": "**Verdict: don't publish yet. One fix is needed.**\n\n**Problem: missing disclosure.** This is a paid creator post, and brand policy section 4 says it must start with \"Ad\" before anything else. The draft opens straight into \"My afternoon reset...\", so there is no label at all. This also falls under advertising disclosure rules in the UK.\n\n**Fix:** Start the post with \"Ad\" (e.g. \"Ad: My afternoon reset is a pot of Pebblebrook's Assam...\").\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"ten minutes away from my phone\" | The creator's own routine, not a brand claim |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted: \"Every tin is packed by hand in Bristol\" |\n| \"which I love\" | Personal opinion, no factual claim |\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, invented numbers or fake urgency.\n- \"Afternoon reset\" is a lifestyle phrase, not a wellness or health claim. It's fine as written.\n- No banned words or structures from the voice policy. The tone is warm, plain and unhurried.\n- Under the honest-review rules, this reads as first-hand use. Confirm with the creator that they have actually used the tea (owned or tried). If it was only gifted and not yet tried, the \"My afternoon reset\" framing shouldn't stand.\n- Per section 6, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012050500000000002,
+ "seconds": 18.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

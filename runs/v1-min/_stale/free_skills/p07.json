@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | Unsupported. This is a money-back/free guarantee, not on the allowlist. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n| \"most boxes ship free\" | Unsupported. It implies a statistic about order values that we have no data for. The allowlist only says delivery is free over £25. |\n\n**Other notes**\n- The opening \"Tea that's easy to stop and start\" is vague and doesn't lead with the most useful fact. Not a blocker, but the pause/cancel fact is stronger as the opener.\n- The landing page makes the guarantee in the hero, so any ad repeating it would inherit the problem too.\n\n**Suggested compliant version**\n\"Pause or cancel your tea subscription any time. Delivery is free across the UK on orders over £25.\"\n\nIf you do offer a satisfaction guarantee, supply the terms and I'll add it: [PROOF NEEDED: guarantee terms and refund policy].\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008902299999999998,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

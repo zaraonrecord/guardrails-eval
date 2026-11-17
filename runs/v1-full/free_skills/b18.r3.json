@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "b83d910a4eb2edbd60a852fcf90411d35a229157bd843e8ca3dbb06cf6b33109",
+ "result": "**Review: Pebblebrook Tea Co. product page, peppermint**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal.\" | Flavour and occasion description, not a stated health benefit. See note below. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording (certificate renewed 2026) |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Environmental claims:** none beyond the allowlisted organic certification.\n- **Banned words and structures:** none. No \"elevate\", \"unlock\", \"indulge\", em-dash sandwiches, rhetorical openers or exclamation marks. The voice is warm, plain and unhurried, and the spelling is UK.\n- **Disclosure:** this is the brand's own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\n**Note:** \"Cool and clean after a big meal\" is fine as a description of how the tea tastes and when people drink it. Don't extend it to wording like \"aids digestion\", \"settles your stomach\" or \"soothes\", as that would be a health claim and is not allowed. Keep it as is.\n\n**Approval:** the policy requires Sam (marketing lead) to sign off on all public content, so get that before it goes live.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0109972,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

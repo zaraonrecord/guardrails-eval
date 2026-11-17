@@ -1,0 +1,15 @@
+{
+ "case": "b18",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "5594bd55d3345a72cdc21db8eabf6253369b4ef3ff3680a4fb438929e31ab3f7",
+ "result": "**Review of the Pebblebrook Tea Co. peppermint product page copy**\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, and the brand policy allows product facts as written.\n- **\"Cool and clean after a big meal.\"** This describes how the tea tastes and feels. It doesn't say the tea aids digestion, settles the stomach or has any effect on the body, so I read it as a sensory description and not a health claim. If the team later changes it to something like \"settles your stomach\" or \"aids digestion\", that would need to be held.\n- **\"Certified organic by the Soil Association.\"** This is on the brand's approved claims list.\n- **Labels and disclosures:** This is a brand-owned product page, so no ad label is needed. There are no offers, prices, guarantees, reviews or urgency claims that would need conditions or evidence.\n- **Style:** The copy is short, specific and plain. It has no clichés, filler or repetition, and the spelling is neutral for UK readers.\n\nNothing needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009698499999999999,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

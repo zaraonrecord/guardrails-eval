@@ -1,0 +1,15 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "af2864b3886031dfe6f8d2759118e63f9e2d5934c8a7f49ba198e9ab576836e9",
+ "result": "**Review**\n\n- **Disclosure:** The post is paid, and the only label is \"#ad\", sitting last in a string of seven hashtags. Under UK ASA/CAP rules, an ad label needs to be upfront and prominent. Here it's easy to miss, so it should open the post, for example \"Ad: paid partnership with Pebblebrook\" or \"#ad\" as the first words.\n- **Claims:** \"Packed by hand in Bristol\" is on the allowlist. The Assam and the ten-minute phone-free break are personal, product-level description, so they are fine as written. \"#selfcare\" and \"#slowliving\" are lifestyle tags and make no health claim.\n- **Tone:** The copy reads as natural and doesn't have the stock phrasing of AI-generated text.\n\nThe only change needed is to move the ad label to the start.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013007999999999999,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

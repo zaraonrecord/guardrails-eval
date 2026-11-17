@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f758509460859b8032506853222154b4a9d27cdba2e097de2498e0830118675a",
+ "result": "## Publish gate report: landing hero\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Checks**\n- **Claims:** All pass.\n  - \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\" (Operations).\n  - \"Certified organic by the Soil Association\" matches the policy row (certificate on file, renewed 2026, so it is current).\n  - \"Free UK delivery on orders over £25\" matches the policy row (shipping policy).\n  - \"Loose leaf tea\" is a product fact.\n- **Regulated claims:** There are no health, environmental, price-comparison, urgency or children's claims, and no superlatives or guarantees.\n- **House style:** No banned words, and the tone is plain and warm. The one flaw is that \"packed by hand in Bristol\" appears twice in three short sentences, which reads as padding. The score is about 85.\n- **Disclosure:** This is the brand's own page with no partnership, affiliate link or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing changed. I suggest an optional tightening that uses only approved claims:\n\n> Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision:** Whether to use the tightened version or keep the original. Either is fine on claims.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam gives an explicit yes to the exact final wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0141924,
+ "seconds": 18.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

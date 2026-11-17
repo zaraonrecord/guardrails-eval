@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8cc1ed9aacfeebe3ee164e3c763077820d1baa199872ac1d76e4c6e60dfdb37c",
+ "result": "**Review notes**\n\n- **\"Your subscription box left Bristol this morning\"**: consistent with the brand's Bristol roots and hand-packing. No problem.\n- **\"a smoky lapsang and a soft white peony\"**: product and flavour facts, fine as written.\n- **\"you can pause or cancel any time from your account\"**: on the claims allowlist.\n- **No stats, superlatives, guarantees, testimonials, health or green claims, or urgency.** The email has no sign-off problems and needs no disclosure.\n- **\"Elevate your mornings\"** is a generic filler phrase that doesn't fit the plain, specific tone of the rest of the email. It also sits awkwardly mid-sentence, with a colon that doesn't connect to what follows. Cut it, or replace it with something concrete about the teas.\n- **Date check (not flagged in the JSON):** the subject says \"October tins\" and the body says \"this month\", but today is 17 November 2026. If this is going out now, the month is stale. Please confirm the send date and the month label.\n\nThe draft needs the one edit above before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010123599999999998,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "b05",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Verdict: clear to publish, once Sam has signed off (the policy requires his approval for everything public).**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), cleared by the product team. Fine as written. |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording. Source is the October 2026 review export, so it's current. |\n| \"Rainy Sunday, second pot.\" | Scene-setting, no claim. |\n\n**Other checks**\n- **Superlatives, guarantees, health, environmental, urgency:** none present.\n- **Disclosure:** none needed. It's our own account, and the platform marks paid social.\n- **Voice and slop:** no banned words, no exclamation marks, no rhetorical opener, no \"not just X, it's Y\", no dashes. The tone is warm, plain and unhurried. UK spelling isn't tested here, but nothing conflicts with it.\n- **Claim consistency:** the rating line must stay worded exactly as listed. If the review count changes, update the line from a fresh export.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.011796499999999998,
- "seconds": 14.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "30461d446429bcf8b001c13dcbe6ea1654a1f66896a4c855cf7db7854b31f591",
+ "result": "**Review: Instagram post (own account)**\n\nNothing needs changing. The draft is clear to publish once Sam signs it off.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), cleared by the product team to use as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review platform export, October 2026) |\n| \"Rainy Sunday, second pot.\" | Mood line, no claim |\n\n**Other checks**\n- **Superlatives, guarantees, health, environmental claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. The only figures are the allowlisted rating and review count.\n- **Disclosure:** none needed. It's our own account, so there's no partnership, gift or affiliate link.\n- **Banned words and structures:** no banned words, no exclamation marks, no rhetorical question, no em-dash, no \"not just X, it's Y\".\n- **Voice:** warm, plain and unhurried, in UK spelling.\n- **Proof wording:** the rating line matches the allowlist word for word. Keep it that way if edited. The review count is from the October 2026 export, so if the figure is refreshed before posting, update the wording.\n\n**Approval:** all public content needs Sam (marketing lead) to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119295,
+ "seconds": 16.7,
  "models": [
   "claude-sonnet-5-5"
  ]

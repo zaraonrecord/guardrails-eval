@@ -1,0 +1,15 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f8f636519995c1f68ae5f9ae31bb112709257daf7fb4d69c4b9b0fe0125a46dc",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**Problem:** \"We buy from gardens we've visited\" is a sourcing claim. It isn't on the allowlist, and it goes beyond the permitted product facts about where a tea is grown and when it's picked. It says something about how the team works with growers, and nobody has confirmed it. Is it true of every garden, or only some? The claim reads as all of them.\n\n**Options:**\n- Remove the sentence.\n- Replace it with `[PROOF NEEDED: confirmation that the team has visited every garden it buys from, ideally with the list]`.\n- If the product team confirms it, the claim can stay, but it should then be added to the allowlist. Narrower wording, such as naming a specific garden the team has visited, would be safer.\n\n**Other checks:**\n- There are no superlatives, guarantees, health or green claims, urgency, or invented numbers.\n- The voice is plain and warm, with no banned words.\n- The opening sentence is a concrete fact.\n- No disclosure label is needed for an about page on the brand's own site.\n- Per the approval table, Sam needs to sign off on anything public.\n\n**Verdict:** Don't publish as is. Fix or remove the last sentence first.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012608200000000002,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

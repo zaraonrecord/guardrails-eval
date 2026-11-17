@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "043bfe9ba9ebee4e566fd54533c686fd611f868c7b0300b170c898784661403e",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n- \"Good tea, no fuss.\" Description/tone. \"Good\" is mild opinion, not a superiority claim. Fine.\n- \"Certified organic by the Soil Association\" is on the approved claims list. Fine.\n- \"packed by hand in Bristol\" matches \"every tin is packed by hand in Bristol\". Fine.\n- \"free UK delivery on orders over £25\" matches the approved claim and includes the threshold. Fine.\n\nOther checks:\n- No health, green, guarantee, urgency, testimonial or statistic claims.\n- No ad or affiliate label needed on a brand-owned landing page.\n- Style: short, specific, no AI clichés or filler. UK English is consistent.\n\nNothing needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0055396,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

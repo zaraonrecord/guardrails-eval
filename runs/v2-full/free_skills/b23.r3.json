@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "ac37ababa59dddd3b2749ca8e23d539532f03f28a4e049f5ad4c210436c3f8af",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredients), cleared by the product team |\n| Cinnamon, cardamom, ginger and black pepper | Product fact (ingredients) |\n| Lovely with milk | Serving suggestion, a soft taste opinion with no comparison or result implied |\n| 100g tin | Product fact (tin size) |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health claims:** none. \"Caffeine-free\" describes the ingredient and doesn't say anything about sleep, calm or other effects. Keep it that way if the copy is extended.\n- **Green claims:** none.\n- **Banned words and slop:** none. No em-dashes, exclamation marks, rhetorical openers or abstract triads.\n- **Spelling and voice:** plain, warm, UK-appropriate.\n- **Disclosures:** not needed. This is our own product page, with no partnership, gift or affiliate link.\n\nNothing needs changing. The policy says everything public is approved by Sam, so get his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101121,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

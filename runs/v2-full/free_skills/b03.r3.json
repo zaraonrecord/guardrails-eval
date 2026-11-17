@@ -1,0 +1,15 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e3faf8df8c2c19903787a96d09f05053377592469f864380352d4765aa7606e1",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted. It is backed by the Soil Association certificate (renewed 2026), and loose leaf is a product fact. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording. |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers:** none present.\n- **Voice and banned words:** none of the banned words appear. The copy is plain and UK-appropriate.\n- **Disclosure:** paid social ads from our own account are marked by the platform, so no extra label is needed. This is our own search ad, so nothing is missing.\n- **Character counts:** the headline is 22 characters. The description is 79 characters, with the two sentences of 42 and 36 plus a space. Both fit standard Google Ads limits of 30 for headlines and 90 for descriptions. You gave no limit, so check against the one your platform uses.\n\n**Before it goes live**\n- Confirm the landing page also states the organic certification and the free delivery threshold, since an ad shouldn't make a claim the page doesn't.\n- Sam (marketing lead) needs to approve it, as with all public content.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111555,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

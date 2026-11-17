@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "254166bff3bda567368d45fd2e87f31deb0f7b15bbd3159ceeeadbd8d6c7fa56",
+ "result": "**Review of the creator post (paid)**\n\n**Problem: missing disclosure.** The brand policy (section 4) says a paid creator post must start with \"Ad\" before anything else. This draft opens with \"My afternoon reset...\", so the label is missing. Add \"Ad\" as the very first word.\n\n**What I checked and found fine:**\n- **\"Their tins are packed by hand in Bristol\"**: this matches the allowlist claim \"Every tin is packed by hand in Bristol\" (Operations).\n- **Assam**: a product fact, fine to use.\n- **\"Ten minutes away from my phone\"**: a personal habit, with no health claim, such as reducing stress or anxiety.\n- **Superlatives, guarantees, statistics, testimonials, green claims and urgency**: none present.\n- **Voice**: warm, plain and unhurried. No banned words, and the spelling is UK.\n\n**Approval:** Sam (marketing lead) needs to sign off on everything public, so this still needs their approval after the fix.\n\n**Verdict:** Don't publish yet. Once \"Ad\" is added at the start, the copy is fine.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0085361,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

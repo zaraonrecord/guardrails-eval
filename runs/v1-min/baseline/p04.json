@@ -1,10 +1,14 @@
 {
  "case": "p04",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review notes**\n\n- **\"In today's fast-paced world\"** is a stock opener that says nothing about the product or the Sunday-pot moment. It reads as generic filler, so cut it or replace it with something specific. For example, start straight in with \"A rainy Sunday pot is everything.\"\n- **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is a product fact on the allowlist, so it's fine.\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved claim exactly, including the source (our website), so it's fine.\n- No disclosure is needed for a brand's own Instagram account. There are no health, green, urgency, guarantee, or superlative claims.\n\nFix the opener and it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
- "cost_usd": 0.010022,
- "seconds": 9.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "fa98e2559972592fa33da0fe7bc2e6897090863766cecf0bbd8ddbd7c85fe12a",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlist exactly, so it's fine.\n- **Earl Grey with real bergamot oil and a little cornflower.** This is a product fact (ingredients), so it's fine as written.\n- **\"rainy Sunday pot is everything\"** is casual, harmless lifestyle copy. It isn't a claim.\n- **\"In today's fast-paced world\"** is a stock filler opener that says nothing about the product. It's a classic AI-slop cliché and should be cut or replaced with something specific to Pebblebrook.\n- **Disclosure:** it's the brand's own account, with no paid partnership or gifted content, so no label is needed.\n- **Other checks:** there are no health claims, green claims, guarantees, fake urgency, invented stats, superlatives or testimonials.\n\nSuggested fix: drop the opener and start with the rainy Sunday line, for example \"A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010196,
+ "seconds": 9.1,
  "models": [
   "claude-sonnet-5-5"
  ]

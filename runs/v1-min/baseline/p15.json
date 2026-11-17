@@ -1,10 +1,14 @@
 {
  "case": "p15",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the landing hero draft**\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlist exactly, including the \"on our website\" qualifier. No change needed.\n- **\"The finest organic loose leaf\"**: \"finest\" is an unsupported superlative. We have no evidence that we are the best, so it should go. \"Organic\" is fine because we are certified organic by the Soil Association. Suggested rewrite: \"Soil Association certified organic loose leaf\".\n- **\"eco-friendly bags\"**: this is a vague green claim with no specifics behind it. What we can back up is that the bags are plastic-free and home compostable. Suggested rewrite: \"plastic-free, home compostable tea bags\".\n- **\"packed by hand in Bristol\"**: this is backed by the policy (every tin is packed by hand in Bristol). No change needed.\n\nSuggested revision: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Soil Association certified organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\nThe draft shouldn't be published until those two phrases are changed.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.012237999999999999,
- "seconds": 12.9,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "b1873961179c751971a65dbcfac23a3c2c5f8c118472c230a32fea3fca094e86",
+ "result": "I checked each claim against the brand policy.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website\"**: matches the allowlist exactly. Fine.\n- **\"packed by hand in Bristol\"**: allowed (every tin is packed by hand in Bristol). Fine.\n- **\"organic\"**: backed by Soil Association certification. Fine, though naming the certifier would be stronger.\n- **\"loose leaf\"**: product fact. Fine.\n- **\"The finest\"**: an unsupported superlative. Nothing in the policy backs a claim that the tea is the best or of the highest quality. Remove it or replace it with a factual descriptor.\n- **\"eco-friendly bags\"**: a vague green claim. The policy supports the specific claims \"plastic-free\" and \"home compostable\", but not the generic \"eco-friendly\". Replace it with \"plastic-free, home compostable tea bags\".\n\nSuggested rewrite: \"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf tea and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"The finest\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010086,
+ "seconds": 9.0,
  "models": [
   "claude-sonnet-5-5"
  ]

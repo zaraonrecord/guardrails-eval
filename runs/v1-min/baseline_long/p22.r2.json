@@ -1,0 +1,15 @@
+{
+ "case": "p22",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0252373270d16387e6bf4a18149287b46356df23ca7a909e1a31e32caea40f2c",
+ "result": "**Review: Rooibos Chai product page**\n\n**Problem: testimonial health claim**\n\"It cured my bloating in a week\" - verified buyer. This quote claims the product cures a condition and changes a body function. Publishing it makes the brand responsible for that claim, and it is not in the approved list. It also has no traceable source or permission shown, and \"verified buyer\" can't be confirmed from the draft. Remove it. A testimonial about taste or the experience (for example, how it goes with milk) would be fine if it is real and used with permission.\n\n**Checked and fine**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product facts, allowed as written.\n- \"Lovely with milk\": description or mild opinion, fine.\n- \"100g tin\": product fact, fine.\n- No superlatives, urgency, green claims, guarantees or invented numbers.\n- Style: short and plain, with no AI clichés.\n\n**Decision:** Hold. Remove the bloating testimonial, then it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"It cured my bloating in a week\\\" - verified buyer.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006697999999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

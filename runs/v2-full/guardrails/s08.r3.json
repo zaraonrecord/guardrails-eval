@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "b76c0dbf3881d44c4c6a2804a09a0947678a73e5e39ccf1cd00b6f8eda91858a",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom, subject \"A new green tea\", announcing a Japanese sencha.\n\n**Checks**\n\n1. **Claims:** \"packed with antioxidants\" is not on the policy list and has no source. It is also a health-adjacent claim (see below). The product facts (grassy, a little sweet, brew at around 70 degrees, new product arriving) are fine as written.\n2. **Regulated claims:** \"packed with antioxidants\" implies a health benefit. The policy bans health claims of any kind, and nutrient or antioxidant claims are risky in UK advertising. Remove it.\n3. **House style:** No banned words. The voice is warm, plain and unhurried. \"best brewed cooler than you think\" is a brewing tip, not a superlative claim, so it's fine. No AI tells.\n4. **Disclosure:** It's our own email, so no label is needed.\n\n**Fixed (suggested rewrite)**\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think, around 70 degrees.\n>\n> The Pebblebrook team\n\nChange: removed \"packed with antioxidants\".\n\n**Needs a decision:** None, other than approving the revised copy.\n\n**Approver:** Sam (marketing lead). Please get an explicit yes from Sam on the revised text above. Nothing should be sent until that is recorded, and the original draft should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008257899999999999,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

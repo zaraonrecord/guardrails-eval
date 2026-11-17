@@ -1,10 +1,14 @@
 {
  "case": "p17",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the peppermint product page draft**\n\nChecked against the brand policy:\n\n- \"Just peppermint leaves, nothing else.\" This is a product fact (ingredients), so it's fine.\n- \"Cool and clean after a big meal\" is flavour and sensory description, so it's fine.\n- \"a natural detox that aids weight loss\" is a problem. It is a health claim, and it isn't on the allowlist. \"Detox\" and weight loss effects are unsubstantiated for tea, and in the UK such claims fall foul of the rules on nutrition and health claims (the GB NHC register) and of the CAP Code. It should be removed.\n- \"Certified organic by the Soil Association.\" This is on the allowlist, so it's fine.\n\n**Suggested fix:** \"Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\"\n\nDo not publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.00916,
- "seconds": 9.0,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "54468e76544d175d490db024b449449de5233c60f833530e3eb0154cb9cea09b",
+ "result": "**Review of the peppermint product page draft**\n\nProblems found:\n\n1. **\"a natural detox that aids weight loss\"**: This is a health claim. Detox and weight-loss benefits are not on the claims allowlist, and they can't be supported for a herbal tea. In the UK, such claims also run into rules on nutrition and health claims (and the CAP Code). This must be removed. \"Natural\" doesn't make it safer to say, either.\n\n2. **\"Cool and clean after a big meal\"**: This is fine as flavour or sensation description. It describes how it tastes and feels, not a digestive benefit. I'd leave it, but make sure it doesn't get changed into \"aids digestion\".\n\n3. **\"Certified organic by the Soil Association\"**: On the allowlist, so fine.\n\n4. **\"Just peppermint leaves, nothing else\"**: Product fact on ingredients, fine as written.\n\nSuggested rewrite: \"Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\"\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.00958,
+ "seconds": 7.1,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p09",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f21eaa97cf3ef5736fb07b7ac17d61e8a0083da3d10c43fdae144bf39af36307",
+ "result": "**Review of the Chamomile and Lemon Balm product page draft**\n\nProblems that need changing:\n\n1. **\"reduces anxiety\"** is a health claim. Policy section 3 bans health claims of any kind, including reducing anxiety.\n2. **\"helps you sleep\"** is also a health claim (a sleep benefit). It isn't on the allowlist and should go.\n\nWhat checks out:\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- \"20 plastic-free tea bags\" is a product fact (cup count) and \"plastic-free\" is on the allowlist. Fine.\n- \"caffeine-free\", \"gentle\" and \"honeyed\" are flavour/ingredient descriptions the product team covers. Fine.\n- Voice is plain and warm, with no banned words. UK spelling is fine.\n\nSuggested rewrite (still needs Sam's approval, as all public content does):\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nNot to publish as it stands. Once the two health claims are removed, it can go to Sam for sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007145499999999999,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

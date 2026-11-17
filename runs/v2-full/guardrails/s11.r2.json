@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "6a815a42e40bae328f682f7f334bbdc160b0b35982698d3437b7769328fbdc1f",
+ "result": "## Publish gate report\n\n**Going out:** social ad, own account, UK audience.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy row word for word (shipping policy). The tea names and the after-lunch suggestion are product copy, not claims.\n- **Regulated claims:** it touches prices and offers. \"While stocks last\" is the problem. Our free delivery offer is a standing shipping policy with no stock limit, and the policy says we make no urgency claims that aren't literally true. The line implies scarcity we can't back up.\n- **House style:** warm, plain and unhurried, with no banned words and no AI tells. Score about 95, nothing to rewrite.\n- **Disclosure:** paid social from our own account is marked by the platform, so no extra label is needed.\n\n**Fixed (suggested, not yet applied to the live copy)**\n- Remove \"while stocks last\". Revised draft:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- Nothing, if you accept the cut. If someone wants real urgency, a real offer with an end date has to be added to the policy first.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval, and the revised wording needs Sam's explicit yes before it goes out. The original draft shouldn't be published as written.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012805500000000001,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

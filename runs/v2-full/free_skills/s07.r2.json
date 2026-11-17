@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "a4842771cb2cd5e106f8fcd33b3d9bc829b48d5c7429c9ebc65c4b74ec339c8a",
+ "result": "**Not ready to publish.** One claim has to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product fact, fine |\n| \"gentle, honeyed\" | Flavour description, fine |\n| \"caffeine-free\" | Ingredient fact, fine |\n| \"to help you wind down and sleep better\" | **Unsupported.** Health claim |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"20 plastic-free tea bags\" | Count is a product fact. \"Plastic-free\" is allowlisted |\n\n**Problem**\n\n\"Sleep better\" is a health claim, and the policy bans health claims of any kind. \"Help you wind down\" is softer, but it still implies a relaxation benefit, so I'd cut the whole benefit phrase rather than keep half of it. There is also a likely platform and regulatory risk with sleep claims on a food product.\n\n**Compliant version**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, easy to drink in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Easy to drink in the evening\" is a serving suggestion, not a benefit claim. If you'd rather not suggest a time of day, \"A gentle, honeyed, caffeine-free blend\" works on its own.\n\nEverything else passes: no banned words, no superlatives, no invented numbers, no urgency, UK spelling. A product page on our own site needs no disclosure label. Sam still needs to approve the final copy.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0148185,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

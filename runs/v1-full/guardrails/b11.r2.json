@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "7d9e0dc8af523e9f0dcd19e18bbe35c5f1fec9de72c50b5166bed739b044c996",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom, subject \"A new green tea\", announcing a Japanese sencha.\n\n**Claims check:** The copy makes no statistics, superlatives, guarantees, testimonials, or urgency claims. \"Grassy and a little sweet\" and the 70 degree brewing guidance are product facts, which the policy says the product team has checked and are fine as written. \"We've added a Japanese sencha to the shop\" is a new-product statement, also covered as a product fact.\n\n**Regulated claims:** No health, money, legal, environmental, children or price content.\n\n**House style:** Voice is warm, plain and unhurried. No banned words and no AI tells. Score about 92. Nothing to change.\n\n**Disclosure:** This is the brand's own email about its own product. No paid partnership, affiliate link, gift or AI-labelling trigger applies.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). The email is clean, but it can't go out until Sam gives an explicit yes to this exact content. I haven't recorded any approval, and I won't do so on Sam's behalf. Once Sam approves, the email can be sent.\n\nSince the draft itself has no issues, the `publish` flag reflects the content check; sending still waits on Sam's approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007513,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

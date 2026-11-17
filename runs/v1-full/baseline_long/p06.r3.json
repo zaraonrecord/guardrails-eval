@@ -1,0 +1,15 @@
+{
+ "case": "p06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "04aa84995373e641409a02d67f4ff39f731e2cd866494e8658fc1b4a61d197b1",
+ "result": "**Review: blog intro**\n\nSentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" Founding in Bristol in 2019 is on the allowlist. The motivation is a company story, not a measurable claim. Fine.\n\n2. \"Our tea bags are plastic-free and home compostable\" matches the allowlist wording (EN 13432 certificate). Fine.\n\n3. \"and our whole business is carbon neutral.\" This is not on the allowlist, and the policy explicitly forbids \"carbon neutral\". It is also a business-wide claim, which needs full, current evidence and an explanation of how it was reached. Nothing here supports it. Must be removed.\n\n4. \"Here's how we checked.\" This promises an explanation or evidence of the carbon neutral claim. With that claim gone, the line has nothing to refer to and would lead into an unsupported claim. It should be cut or rewritten to point at something that can be shown (for example, the plastic-free and compostable certification).\n\nTone: warm and plain, UK spelling, no banned words. No ad or affiliate label is needed for a brand-owned blog.\n\n**Suggested fix:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, and here's how we checked.\" (Only keep \"how we checked\" if the post goes on to explain the EN 13432 certification.)\n\n**Decision:** Hold until the carbon neutral claim is removed.\n\n```json\n{\"issues\": [{\"quote\": \"our whole business is carbon neutral\", \"type\": \"green_claim\"}, {\"quote\": \"Here's how we checked.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0105887,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

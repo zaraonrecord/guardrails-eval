@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "fcfac0181b3ad921a2abcfb86fdab2f1ec956d970be99526ada33c258f0ff227",
+ "result": "**Review: paid creator post, Pebblebrook Tea Co.**\n\n**Read as the audience:** A short, personal creator post. Two sentences, one product mention, one brand fact.\n\n**Sentence by sentence**\n\n1. \"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone.\"\n   - Label: \"Ad\" is the very first word, upfront and prominent, not buried among tags. That meets the paid-content requirement.\n   - \"afternoon reset\" is mood and lifestyle description, not an effect on the body. No health claim. \"Ten minutes away from my phone\" is the creator's personal routine.\n   - Assam is a product fact, fine as written.\n\n2. \"Their tins are packed by hand in Bristol, which I love.\"\n   - \"packed by hand in Bristol\" is on the approved claims list (\"every tin is packed by hand in Bristol\"). The \"which I love\" is clearly personal opinion.\n\n**What's missing:** Nothing required. No offer, price, delivery or subscription terms are mentioned, so no conditions need to sit nearby. No ratings, numbers, superlatives, green claims, guarantees or urgency.\n\n**Style:** It sounds like a real person: specific (Assam, ten minutes, phone), no filler phrases, no formulaic structure. No clichés from the avoid list.\n\n**Decision:** Every claim is approved, the ad label is clear and first, and there's nothing to change. Good to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0077889,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

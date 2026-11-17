@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "a07a53d1c089855be4e19b52d3eaf3ed108c36c3d7f793c0a83120411a94517f",
+ "result": "**Review: Rooibos Chai (product page)**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredients). Allowed as written. |\n| Cinnamon, cardamom, ginger, black pepper | Product fact (ingredients). Allowed. |\n| Lovely with milk | Taste opinion, not a verifiable claim. Fine. |\n| 100g tin | Product fact (size). Allowed. |\n\n**Other checks**\n- No invented stats, testimonials, superlatives, guarantees or fake urgency.\n- No health, green or regulated claims. \"Caffeine-free\" describes the ingredient, not a health benefit.\n- No banned vocabulary or structural slop. The opening is a plain product name, and the copy is short and concrete.\n- No affiliate, sponsorship or review-label issues, since this is our own product page.\n\nOne practical note, not a blocker: confirm the blend contains no black tea, so \"caffeine-free\" stays accurate. The \"black pepper\" is a spice, so it's fine.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101259,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

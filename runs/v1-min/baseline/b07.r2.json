@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "9c80263c0588a6c95b4273756336ec1e468fa9e24c24c5f28191a00a41db8df8",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"We started Pebblebrook in Bristol in 2019\":** matches the allowlist (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\":** matches the allowlist word for word. It is a green claim, but the brand can back it up.\n- **\"because we couldn't find tea bags without plastic in them\":** this is a founding-story motive, not a measurable or comparative claim, so it isn't a problem.\n- **\"here's how we checked\":** this promises a explanation of how the claim was verified. The body of the post should only describe checks that actually happened, and shouldn't introduce new claims such as certifications, test results or percentages unless they are on the allowlist or backed by evidence. That is a note for the rest of the post, not a change to this intro.\n\nThe intro has no invented stats, superlatives, guarantees, health claims, fake urgency or filler phrasing, and it needs no disclosure.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007804500000000001,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

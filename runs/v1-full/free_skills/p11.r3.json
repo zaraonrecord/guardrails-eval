@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "cc7a8a07831d67f38250c9cb7d77827aea8a8fac1d721b129601b737ecabd45e",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Three teas for your desk drawer\" | Product fact, fine |\n| \"9 out of 10 customers reorder within a month\" | **Unsupported.** Not on the allowlist, no source in this chat. Invented stat. |\n| \"Builder's, Earl Grey and a peppermint for after lunch\" | Product fact, fine |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording |\n\n**Other checks**\n- Voice: no banned words, no exclamation points, no rhetorical opener, UK spelling. Fine.\n- Disclosure: own-account paid social ad, platform marks it, no label needed.\n- Landing page rule: the reorder stat would also need to appear on the landing page, and it can't be backed up anyway.\n- Health: \"a peppermint for after lunch\" is a serving suggestion, not a health claim (no digestion or similar benefit stated). Fine.\n\n**Problem:** the \"9 out of 10 customers reorder within a month\" line has to go. Either cut it or replace it with an allowlisted claim, for example \"Rated 4.8 out of 5 from over 1,200 reviews on our website\", or mark it `[PROOF NEEDED: reorder rate data]` if the team wants to use a retention figure once someone can supply the source.\n\n**Suggested compliant version:**\nThree teas for your desk drawer: Builder's, Earl Grey and a peppermint for after lunch. Rated 4.8 out of 5 from over 1,200 reviews on our website. Free UK delivery on orders over £25.\n\nSam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008705599999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "1043e44062a314136c3bd456f3dd3d121baac6647e9f5f01eefd301b098493bd",
+ "result": "**Publish-gate report**\n\n**Going out:** Social ad, Pebblebrook's own account, UK audience. Date and time weren't given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy row word for word (shipping policy). The three teas and the \"after lunch\" suggestion are product facts the product team covers. There are no stats, rankings, guarantees or testimonials.\n- **Regulated claims:** Nothing on health, money, the environment, children or prices. \"Peppermint for after lunch\" is a serving suggestion, not a digestive or health claim. The delivery threshold is a standing policy, not a time-limited offer, so there is no urgency issue.\n- **House style:** It's warm, plain and unhurried, with UK spelling and no banned words. The list of three is literal (three actual teas), so I don't count it as an AI tell. Score is about 92/100, so no rewrite is needed.\n- **Disclosure:** This is a paid ad from our own account, which the platform marks, so the policy requires no extra label. No creator, gifted or affiliate element is involved.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead). The copy is clear to go, but it hasn't been approved yet. Please get an explicit yes from Sam on this exact text. Sam can record it in their own terminal with `approve.py --by \"Sam\"`. Any edit after approval means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010296900000000001,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

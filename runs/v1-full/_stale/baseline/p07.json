@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nProblems:\n\n1. **\"you'll love it or it's free\"** is a guarantee the brand doesn't offer. Policy section 3 names this exact phrase as one we never use. It must be removed.\n\n2. **\"most boxes ship free\"** is an unsupported claim. The allowlist only backs \"Free UK delivery on orders over £25\". We have no data on what share of orders clear £25, so \"most boxes\" is an invented statistic in effect. Cut it, or use the exact allowlisted wording and nothing more.\n\nWhat checks out:\n- \"Subscribers can pause or cancel any time\" matches the allowlist exactly.\n- \"free UK delivery on orders over £25\" matches the allowlist.\n- No banned words, UK spelling is fine, tone is mostly warm and plain.\n\nSuggested rewrite (for Sam's approval, as all public content needs it):\n\"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nNot ready to publish until the two changes above are made.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008578099999999998,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "426f51e364850d6fa140a4d9dd59d4d339ec615f8aee0b3ca652336af581e4cc",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post on Pebblebrook's own account, organic, no timing given.\n\n**Checks**\n- **Claims:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy's allowlist exactly: same score, same count, same place (our website). Nothing was rounded up or stripped of a qualifier. The Earl Grey ingredients (real bergamot oil, a little cornflower) are product facts, which the policy allows as written. I can't verify them against a recipe, so confirm they are right for the current blend.\n- **Regulated claims:** No health, money, legal, environmental, children's or price claims. Nothing to flag.\n- **House style:** The tone is short and warm, and I found no banned phrases or AI tells (no stock openers, reversals or slogan closers). The policy has no voice section, so I judged this on clarity and naturalness alone. I'd score it 90 or above and made no rewrites.\n- **Disclosure:** This is the brand's own product on its own account. It isn't an ad, sponsorship, affiliate link or gifted item, and it has no AI-generated imagery mentioned. No label is needed. If the post includes a realistic AI-generated image, it would need an AI label.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved. Please confirm the Earl Grey ingredients are current.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact text. I haven't recorded any approval. If you approve, run the approve step yourself or tell me to do so using your name, and the 15-minute window will cover one post.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011880300000000002,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

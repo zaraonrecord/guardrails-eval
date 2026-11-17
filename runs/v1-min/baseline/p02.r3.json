@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "0f22d897f13a656e75014ddc4632c709ae8d9da6e3c5329e61927ec3edada4b4",
+ "result": "I checked each claim against the brand policy.\n\n- **\"Organic Loose Leaf Tea\"**: Fine. Certified organic by the Soil Association is allowed, and loose leaf is a product we sell.\n- **\"Loved by 50,000 tea drinkers\"**: Problem. The policy only supports a 4.8 out of 5 rating from over 1,200 reviews. Nothing backs 50,000 customers or fans, so this is an invented statistic.\n- **\"Certified organic by the Soil Association\"**: Fine. It is on the allowlist.\n- **\"Free UK delivery on orders over £25\"**: Fine. It matches the policy exactly.\n\nSuggested fix: remove the 50,000 figure. If you want social proof, use \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0056285,
+ "seconds": 6.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

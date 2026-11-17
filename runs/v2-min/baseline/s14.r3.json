@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0301f1505a8f77d1643765df031a3da6471996a05316878fcfa59cc38c3a3d7c",
+ "result": "**Review of the creator post (gifted)**\n\n- **Disclosure:** This is the one problem. The post is gifted, but nothing at the start labels it as such. \"Thanks to the team for sending it over!\" hints at a gift but is not a clear disclosure. Under UK rules (ASA/CAP and the CMA), gifted content needs an upfront label such as \"#gifted\" or \"Gifted:\" at the start of the post, where readers will see it. Add the label before publishing.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims, or urgency. \"Lovely with oat milk\" is a personal opinion about flavour, and the rooibos chai and winter sampler are product facts that are fine as written.\n- **Tone:** The copy reads naturally and has no filler.\n\n**Suggested fix:** Start with \"Gifted:\" or \"#gifted\", for example: \"#Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011113999999999999,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

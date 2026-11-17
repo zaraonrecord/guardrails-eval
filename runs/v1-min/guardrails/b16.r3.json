@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "256b46108f072791feac7516415b99dfc778d3f37dfaf91f6c313203bdab57ba",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy for Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | On the policy list, and the wording matches, including \"on our website\" |\n| Organic | On the policy list (certified organic by the Soil Association) |\n| Plastic-free bags | On the policy list |\n| Packed by hand in Bristol | On the policy list |\n\n**Regulated claims:** The \"plastic-free\" line is a specific, allowlisted environmental claim, not a vague \"eco\" or \"green\" one. There are no health, money, price or urgency claims.\n\n**House style:** The copy is plain and concrete. It has no banned words, AI tells, stock openers or slogan closers.\n\n**Disclosure:** This is the brand's own page, with no sponsorship, affiliate links, gifted products or AI-generated material, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** One minor point. The policy says every *tin* is packed by hand, and the draft says \"packed by hand in Bristol\" after listing both loose leaf and bags. If the bags aren't hand-packed, you could tighten it to \"Organic loose leaf, hand-packed in Bristol, and plastic-free tea bags.\" My suggestion is to confirm with the team, but it doesn't block publishing.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0129191,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

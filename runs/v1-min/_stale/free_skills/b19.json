@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Pebblebrook email, \"How to brew loose leaf without a teapot\"**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact. Product facts, including brewing, are fine as written, so this is allowed.\n- \"Green tea likes it shorter and cooler\": brewing fact, also allowed.\n- No stats, superlatives, guarantees, testimonials, review counts, awards or regulated claims (health, money, legal, environmental).\n- No urgency or scarcity language.\n\n**Slop check**\n- Ban-list words: none.\n- Structural bans: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triads.\n- The opening sentence (\"You don't need any kit.\") is short and concrete, and the next sentence backs it up with specifics.\n\n**Disclosure**\n- No products are reviewed, no affiliate links and no sponsored items, so nothing needs a label.\n\nNothing needs changing. Optionally, you could add a link to your loose leaf range for a clear next step, but that's a content choice, not a compliance issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111623,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

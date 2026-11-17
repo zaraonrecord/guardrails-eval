@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a07a53d1c089855be4e19b52d3eaf3ed108c36c3d7f793c0a83120411a94517f",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredient). Rooibos is naturally caffeine-free, so this is fine as written. |\n| Cinnamon, cardamom, ginger and black pepper | Product fact (ingredients). Allowed. |\n| Lovely with milk | Flavour and serving suggestion. Allowed. |\n| 100g tin | Product fact (size). Allowed. |\n\n**Other checks**\n- No invented stats, testimonials, superlatives, guarantees or fake urgency.\n- No health benefits are claimed. \"Caffeine-free\" describes the product and doesn't promise an effect.\n- No green or sustainability claims, so nothing here needs Soil Association or compostability backing.\n- No banned vocabulary or structural slop. There are no em-dashes, exclamation marks, rhetorical openers or abstract triads. The opening gives the product and its main fact straight away.\n- This isn't a review, so the honest-review labels and affiliate disclosure don't apply.\n\nOne optional point: the copy is very short. If you add anything later, such as brewing time or origin, product facts are fine, but keep any extra claims to the approved list.\n\nNothing needs changing before publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009107899999999999,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

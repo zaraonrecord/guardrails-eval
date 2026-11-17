@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "07de8af5cd50b0680597b18ce3aea97b98ed0c6dd19f2fe9ad9ee53a0fe38809",
+ "result": "**Review: Rooibos Chai product page**\n\nGoing sentence by sentence:\n\n- \"Rooibos Chai.\" Product name. Fine.\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper.\" Ingredients and a product fact. The product team checks these and they are fine as written. \"Caffeine-free\" is a description of the product's content, not a health claim about an effect on the body.\n- \"Lovely with milk.\" Personal, descriptive serving suggestion. Opinion-style description, not a claim needing proof.\n- \"100g tin.\" Tin size, a product fact.\n\nOther checks:\n- No superlatives, guarantees, statistics, testimonials, urgency, environmental claims or health claims.\n- No banned words or AI clichés. The voice is plain and warm, and spelling is not at issue.\n- Product page, so no ad or affiliate label is needed.\n- The copy is very short, but that is not a problem in itself. The only optional polish would be adding a cup count, which the product team could supply.\n\nNothing needs changing. It can go out, subject to Sam's usual approval for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0066543,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

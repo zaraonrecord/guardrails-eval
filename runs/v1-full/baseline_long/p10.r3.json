@@ -1,0 +1,15 @@
+{
+ "case": "p10",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "ba0a0a7ffbdd15d9cdf37b8bf0e95cc26e59b913fdec61b919eced4adf36da9c",
+ "result": "**Review of the email (channel: email)**\n\n**Claims check:** The sencha being added, its flavour (\"Grassy and a little sweet\") and the brewing guidance (\"around 70 degrees\") are product facts the product team covers, so they're fine. \"Best brewed cooler\" is brewing advice, not a superlative claim about the brand. \"Green tea\" in the subject line refers to the tea type, not an environmental claim. There are no health claims, guarantees, invented numbers, urgency or testimonials. No ad or affiliate label is needed for the brand's own email.\n\n**Problem:**\n- \"It's not just tea, it's a ritual.\" This is the \"it's not just X, it's Y\" construction, which the brand policy bans. It's also a generic, formulaic line that doesn't fit the warm, plain, unhurried voice. Fix: cut it, or say something plain and specific, e.g. \"We've added a Japanese sencha to the shop. Grassy and a little sweet, and best brewed cooler than you think, around 70°C.\"\n\n**Optional polish:** Add \"°C\" so the brewing temperature is unambiguous. The subject line could name the tea (\"Japanese sencha is in the shop\") to be more specific.\n\nHold until the banned line is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009653499999999999,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

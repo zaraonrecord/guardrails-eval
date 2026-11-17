@@ -1,0 +1,15 @@
+{
+ "case": "b16",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "6ac702f9a6187e48707ecc3fec4b68437b633a53fdc92849d36fa90e04b6e071",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence against the brand policy:\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This matches the approved claim word for word (review platform export, October 2026). Fine.\n\n2. \"Organic loose leaf and plastic-free bags, packed by hand in Bristol.\"\n   - \"Organic\": the approved claim is \"Certified organic by the Soil Association\", with the certificate on file and renewed 2026. A plain \"Organic\" is a shortened form of that, and the certificate supports it. I'm not treating it as a problem. Adding \"certified by the Soil Association\" would be optional polish.\n   - \"plastic-free bags\": the policy supports \"Our tea bags are plastic-free and home compostable\", so plastic-free is backed. Fine.\n   - \"packed by hand in Bristol\": the approved claim is \"Every tin is packed by hand in Bristol\". This applies to tins, and the draft says it of the loose leaf and bags generally. It's a small shortening, though, and it matches the operations fact closely enough that I'm not flagging it.\n\n3. Tone and style: plain, warm, short, UK spelling. No banned words, no hype, no clichés.\n\n4. Labels: this is the brand's own landing page, so no \"Ad\" label is needed. No health, green, guarantee, urgency or superlative language.\n\nNothing needs changing. Optional polish only: consider \"Certified organic by the Soil Association\" for the exact approved wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0079265,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

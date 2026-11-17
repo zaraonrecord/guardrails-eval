@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "11dec64e931bec9489e7822f4ccbdd0553a924ee43279555290f9ce973560077",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted. Supplier certificate, EN 13432. |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording. |\n| \"Founded in Bristol in 2019.\" | Allowlisted. Companies House. |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims beyond section 2, invented numbers, fake urgency:** none present.\n- **Banned words and slop:** none. The copy is plain, specific and in the brand voice. No exclamation points, rhetorical openers or em-dashes.\n- **Disclosure:** none needed. This is the brand's own search ad, not a creator partnership or affiliate link.\n- **Character counts:** the headline is 21 characters and the description is 79. That fits the usual search limits of 30 for a headline and 90 for a description. You gave no limits, so check them against your ad format.\n- **Platform policy:** nothing likely to trip it.\n\n**Before it goes live**\n- The landing page needs to make the same plastic-free and home compostable claim, since an ad shouldn't claim more than the page. I can't see the page, so please confirm.\n- Sam needs to approve it, as for all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012217900000000002,
+ "seconds": 15.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "1043e44062a314136c3bd456f3dd3d121baac6647e9f5f01eefd301b098493bd",
+ "result": "## Publish gate report\n\n**Going out:** Social ad from Pebblebrook's own account, with copy promoting three teas (Builder's, Earl Grey, peppermint) and the free delivery offer. No date or audience was given.\n\n**Checks**\n- **Claims:** One claim, \"Free UK delivery on orders over £25\". It matches the policy row word for word (source: shipping policy). The three teas are product facts, which the product team checks and which are fine as written. No stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** Nothing touches health, money, legal outcomes, the environment, children or prices beyond the allowed delivery threshold. \"A peppermint for after lunch\" is a serving suggestion, not a digestive or health claim. If it were reworded to mention digestion or feeling better, it would need to come out.\n- **House style:** Warm, plain and unhurried. No banned words and no AI tells, and the list of three is just the three products. Score about 92/100, so no rewrite is needed.\n- **Disclosure:** Paid social ads from our own account are marked by the platform, so no extra label is needed (policy section 4).\n\n**Fixed:** Nothing. The copy is unchanged.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). Nothing has been approved yet, so the ad should not launch until Sam says yes to this exact copy. Any edit after approval means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0102309,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

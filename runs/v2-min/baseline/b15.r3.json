@@ -1,0 +1,15 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "f00ca10f93567a200ad7d768cfb4f3c5412f3be3dfb87772127dc6c72dcc40d5",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** \"(Affiliate link)\" sits right beside the link, so the commercial relationship is labelled where the reader will see it. A clearer label such as \"This post contains affiliate links, so I may earn a commission\" would be better practice for UK readers, but the current wording isn't a blocker.\n- **Pausing claim:** \"Easiest to pause\" is the reviewer's own opinion, and it is consistent with our backed claim that subscribers can pause or cancel any time. It makes no guarantee and no invented comparison figures.\n- **Tins:** \"Lovely\" is a subjective opinion about the product, not a factual claim.\n- **Reviewer experience:** \"I've tried four tea subscriptions this year\" is the blogger's own first-person experience. It isn't a fabricated customer quote and doesn't use stats or urgency.\n- **Other checks:** There are no health claims, green claims, invented stats, or guarantees, and the copy reads as natural rather than generic filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010202000000000001,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

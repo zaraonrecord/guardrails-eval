@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "9c80263c0588a6c95b4273756336ec1e468fa9e24c24c5f28191a00a41db8df8",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"We started Pebblebrook in Bristol in 2019\":** this matches the allowlist (founded in Bristol in 2019).\n- **\"Our tea bags are plastic-free and home compostable\":** this is an approved green claim, stated plainly with no extra \"eco-friendly\" or \"planet-saving\" language.\n- **\"because we couldn't find tea bags without plastic in them\":** this is a first-person origin story and doesn't make a statistic, superlative or guarantee.\n- **\"here's how we checked\":** this leads into the body of the post. When the full post is written, whatever it describes as checking needs to match how the claim is actually backed up, and it shouldn't add certifications or test results that aren't on the allowlist.\n- **Other categories:** the draft has no invented stats, superlatives, guarantees, testimonials, health claims, fake urgency or filler phrasing, and it needs no disclosure.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080005,
+ "seconds": 10.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

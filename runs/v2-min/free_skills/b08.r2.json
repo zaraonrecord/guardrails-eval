@@ -1,0 +1,15 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b81f12d538dd0018f0428ca047049f5233b871ecc6c35018b29c90314924de6",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem:** \"most boxes ship free\" is a quantity claim, and the allowlist doesn't back it. It says free delivery applies above £25, not that most orders pass that threshold. We have no order data in the policy or in this chat. It also leaves the impression that delivery is usually free, which could mislead customers whose baskets come in under £25. The word \"boxes\" is also off, since the policy describes tins and tea bags.\n\n**Slop and structure check:** no ban-list words, no em-dashes, no exclamation points, no rhetorical opener. The opening sentence is a little soft but acceptable.\n\n**Compliant version:**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and UK delivery is free on orders over £25.\n\nIf you want to say most orders ship free, send the order data and I'll add it with a source.\n\n```json\n{\"issues\": [{\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099957,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

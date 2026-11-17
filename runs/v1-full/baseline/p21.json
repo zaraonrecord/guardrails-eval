@@ -1,10 +1,14 @@
 {
  "case": "p21",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of the Instagram draft**\n\n**Problem: \"made with zero waste from farm to cup\"**\n\"Zero waste\" is an environmental claim beyond what the policy allows. The only approved environmental claim is that the tea bags are plastic-free and home compostable (EN 13432 certificate). Remove it or replace it with something from the allowlist or a checked product fact, such as where the tea is grown.\n\n**Fine as written:**\n- \"New tins just landed for winter\" is a new-product announcement, which counts as a product fact. It isn't fake urgency.\n- \"Deep green, gold lettering\" is a product description.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" match the allowlisted claim. The two sentences are repetitive, though, so consider trimming one.\n- Voice is warm and plain, with no banned words. There are no UK spelling issues. No disclosure is needed, since this is our own account and not a partnership or affiliate post.\n\n**Suggested edit:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nThis needs Sam's approval before it is published. Do not publish as is.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
- "cost_usd": 0.008976099999999999,
- "seconds": 9.0,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "3423cd3e7c49f9df0dbe12ebe8c2b1a8359cbde9dbfa0a5bd6cb56c74beaa002",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"made with zero waste from farm to cup\"**\n\"Zero waste\" is an environmental claim beyond what the policy allows. The only approved environmental wording is that the tea bags are plastic-free and home compostable. This line needs to come out. It also implies something about the whole supply chain that we have no proof for.\n\n**Fine as written:**\n- \"New tins just landed for winter\": new products arriving is a product fact, so it's fine.\n- \"Deep green, gold lettering\": product description, fine.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\": matches the approved claim wording exactly.\n\n**Minor note (not flagged):** The draft says plastic-free twice in three short sentences. It reads a little repetitive, so you might trim one mention, but that's an editing preference, not a policy issue.\n\n**Suggested fix:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nNeeds Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.006719299999999999,
+ "seconds": 8.4,
  "models": [
   "claude-sonnet-5-5"
  ]

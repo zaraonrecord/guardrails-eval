@@ -1,0 +1,11 @@
+{
+ "case": "p26",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n1. **\"Ad |\" label**: The post is labelled as an ad at the start, so disclosure is present and clear. Fine.\n\n2. **\"packed by hand in Bristol\"**: Backed by the allowlist. Fine.\n\n3. **\"Honestly the best tea in Britain\"**: An unsubstantiated superlative. We have no evidence or ranking to support it. Remove or soften to something like \"my favourite tea\".\n\n4. **\"it's a proven immunity booster\"**: A health claim, and an unsupported \"proven\" one. Tea can't be marketed with this claim, and nothing on the allowlist backs it. Remove it.\n\n5. The Assam, the afternoon reset and the ten minutes away from the phone are personal or product-fact content and are fine as written.\n\n**Recommendation**: Do not publish as is. Cut the \"best tea in Britain\" line (or change it to a personal opinion like \"my favourite\") and delete the immunity claim.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009659999999999998,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p12",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "27dfd0b93554c732cc17f740939c957386850d4745426d483e558eedacc86b4e",
+ "result": "**Review: paid creator post**\n\n**Claims:** \"Their tins are packed by hand in Bristol\" matches the approved claim \"Every tin is packed by hand in Bristol.\" Assam and the pot/tea description are product facts. \"Afternoon reset\" and \"ten minutes away from my phone\" are personal lifestyle description, not a health claim or an effect on the body. No stats, superlatives, guarantees, urgency or green claims.\n\n**Disclosure:** This is a paid creator post, and the policy requires it to start with \"Ad\" before anything else. The draft opens with \"My afternoon reset...\", so the label is missing. This is the one problem that stops publication. Fix: begin the post with \"Ad\" (e.g. \"Ad: My afternoon reset...\").\n\n**Style:** Warm, plain and unhurried, UK spelling, no banned words or AI clichés. Nothing to change.\n\n**Decision:** Hold until the \"Ad\" label is added at the very start. Once that is in, it is fine to go to Sam for approval.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0067526999999999995,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

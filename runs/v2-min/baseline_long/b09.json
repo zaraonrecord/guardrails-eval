@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2b8c4a748651b66e566c2eb9c72143f5ce3dc2a8dda2f463d2ad3484d19f9cf5",
+ "result": "**Review: search ad**\n\nReading sentence by sentence:\n\n- \"Plastic-Free Tea Bags\": matches the approved claim (tea bags are plastic-free). Fine.\n- \"Our tea bags are plastic-free and home compostable.\": both parts are on the claims allowlist. Fine.\n- \"Founded in Bristol in 2019.\": matches the approved company fact exactly. Fine.\n\nOther checks:\n- No statistics, superlatives, health claims, vague green terms, guarantees, urgency, testimonials, pricing or offers.\n- The green claim is specific and limited to the tea bags, which is what the brand can prove. It doesn't stretch to the tin or other packaging.\n- No clichés or filler. The copy is plain and factual, if a little dry, which suits a search ad.\n- UK English is not at issue; nothing in the text conflicts with it.\n- It's the brand's own search ad, so no sponsorship or affiliate label is needed beyond the normal ad format the platform applies.\n\nNothing needs changing. It can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063819,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

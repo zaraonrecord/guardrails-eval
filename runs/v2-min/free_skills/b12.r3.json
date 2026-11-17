@@ -1,0 +1,15 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4db080b8506e453b27ad21ff378f13e2ca0593d5036801c551afb9593abdfe12",
+ "result": "**Claims list**\n- \"Free UK delivery on orders over £25\": allowlisted (matches brand policy exactly).\n- \"Three teas\": product fact, fine.\n- \"Builder's, Earl Grey and a peppermint for after lunch\": product facts/usage suggestion, fine. \"For after lunch\" is a serving suggestion, not a health claim (no digestion or wellness benefit stated).\n\n**Slop-guard check**\n- Ban-list words: none.\n- Em-dash sandwiches: none.\n- Exclamation points: none.\n- Rhetorical-question opener: none.\n- \"Not just X, it's Y\": none.\n- Abstract-noun triads: none.\n- Fake urgency: none.\n- Opening sentence carries a concrete fact (three teas, where they go). Fine.\n\n**Review rules**\n- Not a product review, so no Owned/Tried/Wishlist labels needed. It is the brand's own ad, so no affiliate or sponsorship disclosure applies.\n\n**Ad checks**\n- Landing page consistency: the free delivery threshold must also appear on the landing page. Worth confirming, but it is on the brand's allowlist, so not a blocker.\n- Platform policy: nothing touching health, money or personal attributes.\n- No character limit was given, so nothing to count.\n\n**Verdict:** No unsupported claims, no slop, no missing disclosures. Fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074137000000000005,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

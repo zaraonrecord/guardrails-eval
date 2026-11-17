@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "948334903e576dcf3d483a13116e5f9f4fd7046209a4b9911fd0d1912862d369",
+ "result": "I read the draft as a newsletter reader would, then checked each sentence against the brand policy.\n\n- **\"This month we visited the garden in Darjeeling that grows our first flush.\"** This is a statement about the company and where its tea is grown. It is a product fact the policy allows as written.\n- **\"The leaves are picked in March and taste bright and floral.\"** The picking time and flavour are covered by the policy's product facts (where a tea is grown, when it's picked, flavour). \"Bright and floral\" is plain description, not a health or superiority claim.\n- **\"You'll find it in the shop from Monday.\"** New products arriving is listed as a product fact. This is a launch date, not a countdown, a scarcity claim or a \"today only\" push, so it isn't false urgency.\n\nOther checks:\n- **Claims and numbers:** there are no statistics, ratings, customer counts or testimonials.\n- **Superlatives, guarantees, health and green claims:** none appear.\n- **Disclosure:** this is the brand's own newsletter with no creator, gifted or affiliate content, so no label is needed.\n- **Voice:** it is warm, plain and unhurried. There are no banned words or AI clichés, and the spelling is consistent with UK English.\n\nOne optional note: \"from Monday\" is fine in a newsletter, but make sure the send date makes clear which Monday is meant. The copy doesn't need to change.\n\nSam still needs to approve it, as for everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009070499999999999,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

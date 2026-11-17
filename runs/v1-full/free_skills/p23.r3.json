@@ -1,0 +1,15 @@
+{
+ "case": "p23",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "82de12192083c84806a842a70ea78fb35c70a76aba39d02e95f89608e77cf725",
+ "result": "**Review of the landing hero draft**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"Good tea\" | Soft opinion, not a measurable claim. Fine, though vague. |\n| \"guaranteed\" | Unsupported. Guarantees are banned in the brand policy (section 3). |\n| \"Risk-free\" | Unsupported. Banned, and there is no such offer. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (policy wording: \"Every tin is packed by hand in Bristol\"). Fine as shortened, though \"every tin\" is the safer exact form. |\n| \"free UK delivery on orders over £25\" | Allowlisted. |\n\n**Problems**\n1. \"Good tea, guaranteed.\" We have no guarantee or refund offer, so this is a false promise. It also needs to be removed from any ad that points to this page.\n2. \"Risk-free.\" Same issue. Implies a trial or returns offer that doesn't exist.\n\n**Style:** The remaining copy is plain and fits the voice. The opener is a bit thin, since the most useful fact (organic, hand-packed) comes after the empty promises. Removing the guarantee lines fixes that.\n\n**Suggested compliant version**\n> Certified organic by the Soil Association. Every tin packed by hand in Bristol. Free UK delivery on orders over £25.\n\nApproval: Sam (marketing lead) needs to sign off on the final copy before it goes live.\n\n**Verdict:** Do not publish as is. Remove both guarantee phrases.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087543,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

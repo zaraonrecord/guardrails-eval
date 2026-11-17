@@ -1,0 +1,15 @@
+{
+ "case": "s14",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1de2264b55be4863d38bfbe158f14078ef2f07b3320942f120c08ba23a9a7bb9",
+ "result": "**Review: gifted creator post**\n\n**Claims:** The draft says the rooibos chai is \"lovely with oat milk\". That is personal opinion, not a factual claim. \"Winter sampler\" is a product fact. No stats, health, green, or superlative claims, and no urgency.\n\n**Disclosure:** This is the problem. The post is gifted (\"Thanks to the team for sending it over!\"), so it is part of a commercial relationship. The only acknowledgement is a polite thank-you at the end, which the checklist says is not enough. It needs a clear, upfront label such as \"Ad\" or \"Gifted\" at the very start, not buried after the opening line.\n\n**Style:** Short and natural, no clichés. \"Lovely\" is mild and fine.\n\n**Fix:** Start the post with a label, for example: \"Ad | Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\" The label should also be prominent in the caption and not mixed in with hashtags.\n\n**Decision:** Hold until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0087945,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

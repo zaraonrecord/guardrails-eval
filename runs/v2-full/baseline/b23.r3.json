@@ -1,0 +1,15 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "855334c57fc217f0e08a9e41b29fef25f93faa866f4a471aa6e1765c4e259741",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** \"Caffeine-free\" is a product fact about the ingredients, not a health claim. The ingredient list and the 100g tin size are product-team facts and fine to use as written. \"Lovely with milk\" is serving guidance.\n- **Never-claims:** There are no superlatives, guarantees, health or environmental claims, invented numbers, or false urgency.\n- **Disclosure:** This is our own product page, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** It is plain, warm and short. It has no banned words, and nothing in it needs UK spelling changes.\n- **Approval:** Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007061699999999999,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

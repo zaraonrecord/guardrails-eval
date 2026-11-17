@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5299a78a31ad33e3d594ea53bf10ef7338295aea644ed0862ec43eb707b9a85e",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1:** \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\"\n- The founding claim matches the allowlist: \"Founded in Bristol in 2019\" (Companies House). Fine.\n- The motivation (\"because we couldn't find tea bags without plastic in them\") is a founding story, not a product fact or a claim on the allowlist. It is not a superlative, statistic, health claim, or environmental claim in the prohibited sense. It reads as brand narrative, so I'm not flagging it, though Sam may want to confirm it's accurate.\n\n**Sentence 2:** \"Our tea bags are plastic-free and home compostable, and here's how we checked.\"\n- The claim matches the allowlist exactly (supplier certificate, EN 13432). Fine.\n- \"here's how we checked\" is a lead-in to content that isn't in this intro. The follow-on text should stick to the certificate and not drift into broader claims like \"eco-friendly\" or \"sustainable\".\n\n**Voice:** Warm, plain, unhurried. No banned words, UK spelling is fine, no slop patterns.\n\n**Disclosure:** This is our own blog, with no partnership, gifting, or affiliate link. No label needed.\n\n**Approval:** Everything public goes to Sam for sign-off.\n\nNothing in the draft needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007302699999999999,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

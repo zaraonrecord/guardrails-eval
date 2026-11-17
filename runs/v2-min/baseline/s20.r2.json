@@ -1,0 +1,15 @@
+{
+ "case": "s20",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a33abbb779d0c50488004cd68120bdcfb15d505c7ffa88c578cfe900d850b4cd",
+ "result": "**Review of the draft**\n\n- **Brewing advice** (mug, small sieve, four minutes for black tea, green tea shorter and cooler): this is product/brewing information, which is fine as written.\n- **Claims:** there are no stats, superlatives, guarantees, testimonials, health claims, green claims or urgency, so nothing conflicts with the allowlist.\n- **\"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\"** This is generic filler that could appear in any brand's email. It says nothing about the brewing topic, and it should be cut or replaced with something specific, such as a suggested tea to try or a link to the loose leaf range.\n- **Note:** the draft has no unsubscribe link or footer. I'm assuming your email platform adds one automatically, so I haven't flagged it. Please confirm it appears in the sent version.\n\nPublication should wait until that sentence is changed.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011817999999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

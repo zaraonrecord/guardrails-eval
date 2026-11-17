@@ -1,0 +1,15 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "e35394ee317349d83feda9883460ab628ca053485ecc41e6ec95e36240766f97",
+ "result": "**Not ready to publish.** One claim needs to come out.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | OK. New product, product-team fact. |\n| \"grassy, a little sweet\" | OK. Flavour description. |\n| \"packed with antioxidants\" | **Unsupported.** This is a health claim, and the brand policy bans health claims of any kind. It's also not on the allowlist, and no source was given. |\n| \"best brewed cooler than you think, around 70 degrees\" | OK. Brewing guidance, not a superlative claim. I'd write \"70°C\" so it's clear it's Celsius. |\n\nNo invented stats, testimonials, urgency, guarantees or environmental claims. The banned-word list and the structural checks are clear. No disclosure is needed, since this is our own email.\n\n**Suggested fix**\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and it's best brewed cooler than you think, around 70°C.\n>\n> The Pebblebrook team\n\nOptionally, add a link to the product page so the email has somewhere to send people. Sam needs to approve it before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0124645,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

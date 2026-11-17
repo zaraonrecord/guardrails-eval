@@ -1,0 +1,15 @@
+{
+ "case": "p01",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "e33e469c95a7ae3b265637f67da2b24f7898e0923f1aee77bbc673bc4432cbdb",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"The UK's best loose leaf tea\" | Unproven superlative. Policy section 3 bans \"best\". Remove. |\n| \"packed by hand in Bristol\" (twice) | On policy list: \"Every tin is packed by hand in Bristol\". Fine, but repeated. |\n| \"certified organic by the Soil Association\" | On policy list (certificate renewed 2026). Fine. |\n| \"Free UK delivery on orders over £25\" | On policy list (shipping policy). Fine. |\n\n**Regulated claims:** \"Best\" is a superlative the policy forbids. No health, money, environmental, children or pricing issues. The delivery threshold matches the shipping policy.\n\n**House style:** No banned words. The voice is plain, but the repeated \"packed by hand in Bristol\" reads as padding and the first sentence is a generic slogan opener. Score before: about 65. After the rewrite below: about 90.\n\n**Disclosure:** Our own landing page, no paid partnership, affiliate link, or gifted product. Nothing needed.\n\n**Fixed (suggested rewrite):**\n> Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nWait: that changes the organic claim. The policy says \"Certified organic by the Soil Association\", and the draft says \"our tea is certified organic\", which is a fair match. To stay safe, use this version:\n\n> Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nChanges:\n- Removed \"The UK's best\" (superlative).\n- Merged the duplicate \"packed by hand in Bristol\" lines.\n\n**Needs a decision:** None, once the superlative is out. Suggested answer: approve the rewritten version.\n\n**Approver:** Sam (marketing lead). The original draft is not approved to go out. Once Sam gives an explicit yes to the rewritten text, record it and publish. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"The UK's best loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0132615,
+ "seconds": 21.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

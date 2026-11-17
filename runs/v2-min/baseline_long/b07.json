@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "0d496d502d8bde47a8c5b84dbe37d7d8333afe7be5ffec9943c1bcaeb2843854",
+ "result": "**Review of the blog intro**\n\nGoing sentence by sentence:\n\n1. \"We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them.\" The Bristol and 2019 facts match the approved claims. The motivation for founding is a company story, not a measurable claim, and it fits with the plastic-free product. Fine.\n\n2. \"Our tea bags are plastic-free and home compostable\" is on the approved list, word for word in substance. It's specific to the tea bags and not stretched to the whole product or packaging. Fine.\n\n3. \"and here's how we checked.\" This is a promise of content to follow. In an intro, it's a lead-in to the post's body, which I can't see. The claim itself is approved, so the intro is fine, but the post that follows should actually show the checking (e.g., the certification or tests used) and shouldn't add claims beyond the approved list. This is a note for the full post, not a problem with this draft.\n\nStyle: the copy is plain, specific and in a human voice. No clichés, hype or repetition. Spelling is UK-consistent.\n\nNo health, green-overreach, pricing, urgency, testimonial or disclosure issues. Brand-owned blog, so no ad label is needed.\n\n**Decision:** Publish. Optional note: when the body is written, make sure \"how we checked\" is backed by real evidence the brand holds.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073671,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

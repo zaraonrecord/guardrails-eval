@@ -1,0 +1,15 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "03455b3622bbff46ed5de762f85cbfc76c170b82e3c3b5884076ff418f273ff5",
+ "result": "**Claims check**\n\n- \"Certified organic by the Soil Association\": allowlisted.\n- \"packed by hand in Bristol\": allowlisted (every tin is packed by hand in Bristol).\n- \"free UK delivery on orders over £25\": allowlisted.\n- \"Brewed with care. Packed with love. Delivered with a smile.\": no factual claim, but it is slop. \"Brewed with care\" is also inaccurate for a product the customer brews, and \"Delivered with a smile\" is an unverifiable claim about couriers. The three-beat parallel structure is a generic AI-tell triad, and it throws away the strongest facts by putting them second.\n\n**Slop-guard check**\n\n- Opening sentence is throat-clearing, not the most useful fact. The first sentence should carry the organic certification, hand-packing or delivery offer.\n- Triad of abstract nouns/phrases (\"care\", \"love\", \"smile\") with no concrete content.\n- No ban-list words, no exclamation points, no em-dashes.\n\n**Suggested rewrite**\n\n\"Certified organic by the Soil Association. Every tin is packed by hand in Bristol, and UK delivery is free on orders over £25.\"\n\nAlternatively, if you want to keep the warmth: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nThe facts are all supportable. The only problem is the opening filler.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097883,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,10 +1,14 @@
 {
  "case": "p01",
  "condition": "baseline",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Review of landing hero draft**\n\nProblems found:\n\n1. **\"The UK's best loose leaf tea\"** is an unprovable superlative (\"best\"). Policy section 3 bans this. It needs to go.\n\n2. **Redundancy**: \"packed by hand in Bristol\" appears twice in the first two sentences. This is an editing issue rather than a policy breach, but it reads clumsily and should be tightened.\n\nChecked and fine:\n- \"Every tin is packed by hand in Bristol\" matches the allowlist wording exactly.\n- \"certified organic by the Soil Association\" matches the allowlist (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\" matches the allowlist exactly.\n- No banned voice words, no health or green claims, no urgency, no invented numbers. UK spelling is fine.\n\n**Suggested rewrite:**\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\nSam needs to approve the final version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
- "cost_usd": 0.0087941,
- "seconds": 9.7,
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "bf31633a4d714ef4ad15c5edf05c8b316dfd19f8f9b45c54f60bfc4ed656c53f",
+ "result": "**Review of landing hero draft**\n\nProblems found:\n\n1. **\"The UK's best loose leaf tea\"** is an unprovable superlative (\"best\"), which policy section 3 prohibits. It needs to go. Something like \"Loose leaf tea, packed by hand in Bristol\" works.\n\n2. **Repetition:** \"packed by hand in Bristol\" appears twice in the first two sentences. This is clumsy copy, not a policy breach, but it should be tidied when the superlative is removed.\n\nChecked and fine:\n- \"Every tin is packed by hand in Bristol\" matches the allowlist wording exactly.\n- \"certified organic by the Soil Association\" is on the allowlist (certificate renewed 2026).\n- \"Free UK delivery on orders over £25\" matches the allowlist exactly.\n- No banned words, health claims, guarantees, urgency or invented numbers. UK spelling is fine.\n\nSuggested rewrite (needs Sam's approval before publishing, as with all public content):\n\n\"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0066894,
+ "seconds": 9.1,
  "models": [
   "claude-sonnet-5-5"
  ]

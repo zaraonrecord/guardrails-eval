@@ -1,0 +1,15 @@
+{
+ "case": "b01",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "be1c53d7ad46505dd19cf390f50b8f48e23c292cb93389b21cb4c0238d321240",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n1. \"Loose leaf tea, packed by hand in Bristol.\" Matches the approved claim \"Every tin is packed by hand in Bristol\" and product facts. Fine.\n2. \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\" Both claims are on the allowlist with exact wording (the organic claim is slightly reworded from \"Certified organic by the Soil Association\" but says the same thing). Fine.\n3. \"Free UK delivery on orders over £25.\" Exact approved wording. Fine.\n\nNo superlatives, health claims, green claims, urgency, guarantees, invented numbers or banned words. No ad or affiliate label is needed on the brand's own landing page.\n\nOne issue remains: the packed-by-hand-in-Bristol point appears twice in a row (\"packed by hand in Bristol\" in the first sentence, then \"Every tin is packed by hand in Bristol\" in the second). It's repetition, which the checklist says to fix. It's a small copy fix but the hero would read as clumsy and padded, so it should be corrected before publishing.\n\nSuggested fix: \"Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078576,
+ "seconds": 7.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

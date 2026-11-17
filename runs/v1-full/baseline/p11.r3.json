@@ -1,0 +1,15 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "245516eb30c8717f100ea11d2e52c0be6d99cc2a648e5abd6b2791b6c8c9015d",
+ "result": "Review findings:\n\n1. **\"9 out of 10 customers reorder within a month.\"** This is an invented statistic. The policy's allowlist has no reorder rate, and invented numbers or customer stats are never allowed. It must be removed (or replaced with an approved claim, such as the 4.8 out of 5 rating from over 1,200 reviews on our website, worded exactly as in the policy).\n\n2. **\"Free UK delivery on orders over £25.\"** Matches the allowlist exactly. Fine.\n\n3. **Product facts** (Builder's, Earl Grey, peppermint) are product-team facts and fine as written. \"Three teas for your desk drawer\" is plain and in voice. No banned words, UK spelling is fine, no health claims (peppermint \"for after lunch\" is a usage suggestion, not a health claim). No label is needed for a paid social ad from our own account.\n\n4. Approval: all public content needs Sam's sign-off before it goes out.\n\nOnce the stat is removed, the rest is fine to publish with Sam's approval.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0063511999999999996,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

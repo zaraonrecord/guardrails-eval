@@ -1,0 +1,15 @@
+{
+ "case": "b11",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "261a8b062283636d1afab2361fa40c5c76fdc933fe8b05eec4520683d55e31df",
+ "result": "I went through the draft sentence by sentence.\n\n- **Subject: \"A new green tea\"**: Accurate and not misleading. The email announces a green tea (sencha).\n- **\"We've added a Japanese sencha to the shop.\"** Product fact (new arrival and origin), which the policy allows as written.\n- **\"It's grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\"** Flavour and brewing guidance, also allowed product facts. No health claims, no superlatives (the \"best\" here is brewing advice, not a superiority claim), no numbers needing proof beyond the brewing temperature.\n- **Sign-off \"The Pebblebrook team\"**: Fine. The email is on a brand-owned channel, so no \"Ad\" label is needed.\n- **Style**: Short, specific, and plain in voice. No AI clichés, no filler, no repetition. \"Hi Tom\" suggests personalisation, so it's worth confirming the merge field fills correctly, but that's a send-time check and not a copy problem.\n- **Missing items**: No offers, prices, delivery claims, guarantees, urgency, reviews or green claims appear, so nothing needs conditions or evidence.\n\nNothing needs changing, so this can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070279999999999995,
+ "seconds": 7.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

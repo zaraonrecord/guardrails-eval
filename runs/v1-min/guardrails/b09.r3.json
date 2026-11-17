@@ -1,0 +1,15 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3a6ae59c94af779e57fd96a13ca9f8be4bea89871bebe040020b0ad45d713d77",
+ "result": "**Publish gate report: search ad, Pebblebrook Tea Co.**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", description about plastic-free, home compostable tea bags and the 2019 Bristol founding. UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On policy list (tea bags are plastic-free) |\n| \"plastic-free and home compostable\" | On policy list |\n| \"Founded in Bristol in 2019\" | On policy list |\n\nAll three claims match the allowlist word for word, with no added qualifiers or superlatives.\n\n**Regulated claims (environment):** \"Plastic-free\" and \"home compostable\" are specific, not broad \"eco\" or \"green\" claims, and the policy backs them. This is the lower-risk kind of environmental claim. No sign-off concern beyond the policy's standard approval.\n\n**House style:** Plain, concrete, no banned words or AI tells. Fine for the format. Score is well above 80, no rewrite needed.\n\n**Disclosure:** The ad is a paid search ad, and the platform labels it as an ad itself (the \"Ad\"/\"Sponsored\" marker). No creators, affiliates, gifted products or AI-generated imagery are involved, so nothing extra is needed in the copy.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing unresolved. One small note: the ad must not link to a page that fails to back these claims up, so the landing page should state the plastic-free and home compostable facts.\n\n**Approver:** The policy names no approver, so the user (the account holder) needs to give an explicit yes to this exact copy. I have not recorded any approval, and nothing has been published. Once you confirm, the copy is clear to go.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090847,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

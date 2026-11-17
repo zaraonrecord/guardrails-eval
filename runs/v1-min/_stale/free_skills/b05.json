@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: fine to publish as written.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower.\" | Product fact (ingredients), allowed as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" | Allowlisted. It matches the policy wording exactly, including \"on our website\" |\n\n**Other checks**\n- **Ban list and structure:** no banned words, em-dash sandwiches, exclamation points, rhetorical-question opener, fake urgency or invented proof.\n- **Regulated territory:** no health, money, legal or environmental claims.\n- **Disclosure:** it's the brand's own account and nothing is gifted, sponsored or affiliate, so nothing needs labelling. The honest-review rules don't apply because this isn't a review of someone else's product.\n- **Opening line:** \"Rainy Sunday, second pot.\" is scene-setting rather than a fact. That suits a short organic Instagram post, and it's short and specific, so I wouldn't change it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011424299999999998,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

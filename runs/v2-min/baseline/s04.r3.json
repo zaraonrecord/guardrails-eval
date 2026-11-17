@@ -1,0 +1,15 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "c86d78c9a8dc780a1a7639ed1e5da18331e873e30ff98fcb888aaa5d72277815",
+ "result": "**Review of the about page draft**\n\n- **\"founded in Bristol in 2019\"**: this matches the brand policy.\n- **\"has become Bristol's favourite tea\"**: this is an unsupported superlative. Nothing in the policy backs it up, and we have no survey or sales data showing Pebblebrook is the most popular tea in Bristol. Cut it, or replace it with something we can support, such as \"rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **\"a small team of six\"**: team size is a product fact, so it's fine as written. Please check that six is still the current headcount.\n- **\"every tin is packed by hand in Bristol\"**: this matches the brand policy.\n- **\"We buy from gardens we've visited.\"**: sourcing and origins count as product facts, so I haven't flagged it. Make sure it's true for all the gardens you buy from, not just some.\n\nThe draft shouldn't go out until the \"favourite tea\" claim is removed or replaced.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011504,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

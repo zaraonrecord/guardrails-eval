@@ -1,10 +1,14 @@
 {
  "case": "b09",
  "condition": "guardrails",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Publish gate report**\n\n**Going out:** Google-style search ad, headline \"Plastic-Free Tea Bags\", for UK tea drinkers. Timing and approver not given.\n\n**Checks**\n- **Claims:** \"plastic-free and home compostable\" is on the policy list. \"Founded in Bristol in 2019\" is on the policy list. Both pass. The headline \"Plastic-Free Tea Bags\" matches the same policy claim.\n- **Regulated claims (environment):** \"Home compostable\" and \"plastic-free\" are specific, not broad green claims like \"eco\" or \"sustainable\", and both are backed by the policy. Pass. One caution: the landing page should back them up (the ad can't claim more than the page does), so please confirm the page says the same.\n- **House style:** Plain, specific, no banned words or AI tells. Pass. Score is high, no rewrite needed.\n- **Disclosure:** A brand's own search ad is labelled \"Ad\" by the platform itself. No creators, affiliates or AI imagery involved. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Only the landing page confirmation above.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you to this exact copy before it is scheduled. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.0091993,
- "seconds": 9.4,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "3a6ae59c94af779e57fd96a13ca9f8be4bea89871bebe040020b0ad45d713d77",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline + description), UK, Pebblebrook Tea Co.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On policy list: tea bags are plastic-free |\n| \"home compostable\" | On policy list: plastic-free and home compostable |\n| \"Founded in Bristol in 2019\" | On policy list |\n\nAll claims match the allowlist word for word, with no qualifiers dropped.\n\n**Regulated claims (environment):** \"Plastic-free\" and \"home compostable\" are specific, not broad green claims like \"eco\" or \"sustainable\", and both are backed by the policy. Since the policy only says compostable at home, don't extend it to \"biodegradable\" or \"good for the planet\" later. Worth confirming that the evidence behind the compostability claim is on file if the ad is challenged.\n\n**House style:** No banned words, no AI tells, no invented superlatives. The copy is plain and specific. Score about 90.\n\n**Disclosure:** A search ad is labelled \"Ad\" by the platform itself, so no extra label is needed in the copy. No affiliate, partnership or AI-generated content involved.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact text before it goes live. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0095913,
+ "seconds": 9.6,
  "models": [
   "claude-sonnet-5-5"
  ]

@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "d5c4c8ca9978df8e57363e1781a14189e06922a49b57b76d7051b06645042abe",
+ "result": "**Not ready to publish.** Three things need changing.\n\n**1. Affiliate link isn't disclosed (blocking).**\n\"You can find it here\" is an affiliate link, and nothing in the draft says so. Our rules require a plain-words disclosure at the top of the post, before the first link, and \"Affiliate link\" next to the link itself.\n- Fix: open with something like \"This post contains an affiliate link.\" Then write \"You can find it here (Affiliate link).\"\n\n**2. \"Easiest to pause\" is a superlative comparison.**\n- Brand policy bans superlatives we can't prove. The only backed claim is that subscribers can pause or cancel any time.\n- If you really did compare pausing across four services, this is your opinion. It still needs to say what you did, for example \"I paused mine in two clicks\", and only if that's true.\n- Safe version: \"Subscribers can pause or cancel any time.\"\n\n**3. No Owned/Tried label for Pebblebrook.**\n\"The tins are lovely\" and \"easiest to pause\" are hands-on claims, and the draft doesn't say whether you own the product, tried it for a while, or only researched it.\n- Please confirm which it is, and for how long if it's \"Tried\".\n- If it's only researched, both hands-on claims have to go. Replace them with product facts, such as tin sizes and cup counts.\n- If you were gifted the product or paid, the post must start with \"Gifted\" or \"Ad\". Tell me if that applies.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"tried four tea subscriptions this year\" | Your own experience claim. I can't verify it, so please confirm it's true. |\n| \"easiest to pause\" | Unsupported superlative. |\n| \"tins are lovely\" | Opinion. Needs the Owned/Tried label. |\n| Affiliate link | Undisclosed. |\n\nNo health, green, urgency or stat problems, and no banned words.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"the tins are lovely\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.020902499999999997,
+ "seconds": 20.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

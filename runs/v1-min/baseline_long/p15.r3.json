@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7a1698723d498bb284c084b53954dab4e441a17137b97c4e2708dc1a7306d5ae",
+ "result": "I checked each sentence against the brand policy.\n\n**Sentence 1: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the approved claim exactly (4.8 out of 5, over 1,200 reviews, on our website). Fine.\n\n**Sentence 2: \"The finest organic loose leaf and eco-friendly bags, packed by hand in Bristol.\"**\n\n- \"The finest\" is a superlative. It claims superiority with no comparison and no independent evidence, and it isn't in the approved claims. Fix: drop it, e.g. \"Organic loose leaf tea...\"\n- \"organic\" is covered by the Soil Association certification. Fine.\n- \"eco-friendly bags\" is a vague green claim. The approved claim is specific: tea bags are plastic-free and home compostable. \"Eco-friendly\" is a broad term that can't stand alone. Fix: \"plastic-free, home compostable tea bags\".\n- \"packed by hand in Bristol\" is approved (every tin is packed by hand in Bristol). Fine. Note it applies to tins, so it's fine as long as the sentence isn't read as covering the bags. Optional: \"tins packed by hand in Bristol\".\n\nNo ad-label issue, since this is the brand's own landing page. Tone is clean, with no AI clichés.\n\nThe draft should be held until the superlative and the vague green term are fixed.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080326,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

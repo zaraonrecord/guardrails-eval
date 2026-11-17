@@ -1,0 +1,15 @@
+{
+ "case": "b24",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5034fc290de596f50c95ffabd3d4ae21ac26767fb2852cc0c8aa6ca686ca8803",
+ "result": "I checked the draft against the brand policy line by line.\n\n- **\"Good tea, no fuss.\"** Plain, warm and unhurried. It contains no banned words and no superlative. \"Good\" is a mild descriptor, not a claim of being the best.\n- **\"Certified organic by the Soil Association\"** matches the allowlist wording exactly. The certificate is on file and renewed for 2026.\n- **\"packed by hand in Bristol\"** is a slight shortening of \"Every tin is packed by hand in Bristol\". It is accurate, and it says the same thing.\n- **\"free UK delivery on orders over £25\"** matches the allowlist wording exactly.\n- **Spelling and voice:** nothing conflicts with UK spelling, and none of the banned phrases appear.\n- **Disclosures:** this is our own landing page, so there is no partnership, gifted-product or affiliate label to add.\n- **Urgency, health, green and invented numbers:** none present.\n\nNothing needs changing. It still needs Sam's sign-off, as all public content does.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0060472,
+ "seconds": 18.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

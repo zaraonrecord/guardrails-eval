@@ -1,0 +1,15 @@
+{
+ "case": "p24",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "8cc1ed9aacfeebe3ee164e3c763077820d1baa199872ac1d76e4c6e60dfdb37c",
+ "result": "**Review notes**\n\n- **\"left Bristol this morning\"**: fine. We pack by hand in Bristol, and it's a shipping update.\n- **\"pause or cancel any time from your account\"**: on the allowlist.\n- **\"a smoky lapsang and a soft white peony\"**: product and flavour facts, fine as written.\n- **No stats, superlatives, guarantees, health claims, green claims, urgency or testimonials.**\n- **\"Elevate your mornings\"**: this is generic filler copy. It doesn't fit the sentence either, because it's tacked onto a shipping notice and reads as a slogan. Cut it, or replace it with something specific about the teas.\n- **Not a blocker, but check the date**: the subject says \"October tins\" and the email says \"this morning\", yet today is 17 November. Confirm this is the right month and not a stale draft or a late send.\n\nOnce the slogan is removed, the email is fine to send.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094376,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

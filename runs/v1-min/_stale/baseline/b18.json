@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the policy allows as written.\n- **\"Cool and clean after a big meal.\"** This describes flavour and the occasion. It doesn't say the tea aids digestion or has any health effect, so it isn't a health claim.\n- **\"Certified organic by the Soil Association.\"** This is on the claims allowlist.\n\nThe draft has no invented stats, superlatives, guarantees, testimonials, urgency tactics, or environmental claims. It's short and reads naturally.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0088,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

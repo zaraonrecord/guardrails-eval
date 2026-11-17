@@ -1,0 +1,15 @@
+{
+ "case": "s07",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "407c1bbc700cd93b93a4d522fccc4363cba7298756b42e8fe7b5c07a56f0fc3d",
+ "result": "**Review of the product page draft**\n\nSentence by sentence:\n\n1. \"Chamomile and Lemon Balm.\" Product name, description. Fine.\n2. \"A gentle, honeyed caffeine-free blend\" Product facts (flavour, ingredients) are covered by the product team. Fine. \"Honeyed\" is a flavour descriptor; I'm assuming the product team has confirmed it. Worth a quick check that it doesn't imply honey as an ingredient if there isn't any.\n3. \"to help you wind down and sleep better.\" This is a health/wellbeing claim. \"Sleep better\" is an effect on the body and promises an outcome. The policy bans health claims of any kind. \"Wind down\" on its own would be experience language, but paired with \"sleep better\" it is a claim. Fix: describe the experience, e.g. \"A calming cup for the evening.\"\n4. \"Certified organic by the Soil Association.\" Approved claim, exact wording. Fine.\n5. \"20 plastic-free tea bags.\" Plastic-free is approved, and the count is a product fact. Fine.\n\nVoice: warm and plain, no banned words, UK spelling OK. No urgency, guarantees, superlatives, or invented stats.\n\nDecision: hold. The sleep claim must be removed or reworded before publishing, and it needs Sam's approval as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095667,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

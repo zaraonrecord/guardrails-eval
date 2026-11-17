@@ -1,0 +1,15 @@
+{
+ "case": "s18",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "2771dd8dc030dc5f88afa77debc5464fe9aa23b42bf61d7026422738bff3f6f5",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Fine as written**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" and \"100g tin\" are product facts (ingredients, size), which the brand policy allows.\n- \"Lovely with milk\" is a mild serving suggestion. It describes the experience and makes no claim about the body.\n- The style is plain and specific, with no clichés or filler.\n\n**Problem**\n- **\"Was £12, now £8.\"** This is a reference-price claim. The brand policy doesn't list it as an approved claim, and I can't see evidence that the tin was actually sold at £12 for a reasonable period before the offer. A 33% drop on a 100g tin is a big discount, so the history matters. If £12 wasn't the genuine prior price, the offer misleads readers about the saving.\n  - **Fix:** Confirm the price history and keep the line only if £12 was the real selling price for a meaningful recent period. Otherwise show just the current price (£8). If the offer is time-limited, state the real end date near the price.\n\nHold the draft until the pricing is confirmed or the struck-through price is removed.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101205,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

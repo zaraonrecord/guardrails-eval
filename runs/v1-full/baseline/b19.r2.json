@@ -1,0 +1,15 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "5632e4dad5fb5e2f20b5c1643ff1e8cbab56fb047eaa45f041b5a5ff5bab7bed",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** No superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency. The brewing guidance (four minutes for black tea, shorter and cooler for green) is product fact, so it's fine as written.\n- **Disclosures:** This is our own email, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Voice:** Warm, plain and unhurried. None of the banned words or phrases appear. Spelling is UK-neutral, with nothing to correct.\n- **Approval:** Everything public needs sign-off from Sam (marketing lead) before it goes out. That's a process step, not a change to the copy.\n\nNothing in the copy needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0051643,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

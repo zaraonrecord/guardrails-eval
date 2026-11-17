@@ -1,0 +1,15 @@
+{
+ "case": "p15",
+ "condition": "guardrails",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "eb206d56d79a10839019195c5113cf4951e1d7adc14c7c0096801bf8685bf651",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co. website.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | On the policy list (review export, Oct 2026). Exact wording, OK. |\n| \"The finest organic loose leaf\" | \"Finest\" is a banned superlative. \"Organic\" is only allowed as \"Certified organic by the Soil Association\". Remove \"finest\"; use the approved wording. |\n| \"eco-friendly bags\" | Banned general green claim. The provable version is \"plastic-free and home compostable\". |\n| \"packed by hand in Bristol\" | On the policy list. OK (policy says \"every tin\", so \"Every tin is packed by hand in Bristol\" is the exact claim; \"packed by hand\" about the tea and bags generally goes slightly beyond it). |\n\n**Regulated claims:** The environmental claim (\"eco-friendly\") is the risky line. Replace it with the certified specifics.\n\n**House style:** No banned words. The voice is a bit stiff and list-like, not very warm or unhurried. The two sentences are fine but could be plainer.\n\n**Disclosure:** Own-site copy, no partnership, affiliate or AI content. No label needed.\n\n**Fixed (suggested rewrite):**\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association, with plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\n\n**Needs a decision:**\n- Confirm the rewrite is acceptable. It drops \"finest\" and \"eco-friendly\" and uses only the policy's exact claim wording.\n- \"Loose leaf\" was removed from the organic phrase; if you want it, \"Certified organic loose leaf tea\" would need the product team to confirm that all loose leaf is covered by the certificate.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam says yes to the final text. I have not recorded any approval.\n\n**Verdict:** Do not publish the draft as written.\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107096,
+ "seconds": 13.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

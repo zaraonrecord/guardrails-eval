@@ -1,0 +1,15 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "4d6029e52fbec4efd6ec4debe42bdddc2269206bd7fc9aacce977843ac3c3c7d",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| Free UK delivery on orders over £25 | Allowlisted |\n| \"while stocks last\" | Not on the allowlist. It's a scarcity/urgency qualifier, and nothing says stock is actually limited. Unsupported. |\n| Builder's, Earl Grey, peppermint (product facts) | Fine as written |\n| \"a peppermint for after lunch\" | Suggestion of use, not a health claim. Fine. |\n\n**Slop check:** No ban-list words, no em-dash sandwiches, no exclamation marks, no rhetorical opener, no triad of abstract nouns. The list of three is concrete teas, so it's fine. Opening sentence is concrete enough.\n\n**Issue to fix:**\n- \"while stocks last\" implies limited availability. Unless you can verify that stock is genuinely limited, it reads as fake urgency. It also adds a condition to the delivery offer that isn't in the brand's claim. Cut it.\n\n**Landing page consistency:** The landing page needs to show free UK delivery over £25 too, and the three teas should be available there.\n\n**Suggested version:**\n\"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0073743,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "8ecab01fbf2931ccc047783822ea84539967d63ef1f7b4ba2f3ce7e671376c25",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline + description), Pebblebrook Tea Co., UK audience. Timing not given.\n\n### Claims check\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On policy list (plastic-free, EN 13432 certificate) |\n| \"Our tea bags are plastic-free and home compostable\" | On policy list, exact wording |\n| \"Recommended by nutritionists.\" | **Unproven.** Not on the policy list, no source given, and no named nutritionists or permission on record. It's an invented endorsement. |\n\n### Regulated claims\n\"Recommended by nutritionists\" implies a health or wellbeing endorsement. Section 3 bans health claims of any kind, so it's doubly risky. A professional endorsement in a health context also needs evidence and permission. Safer version: remove it entirely.\n\n### House style\nNo banned words and no obvious AI tells. Tone is plain. Fine as is, apart from the removed line.\n\n### Disclosure\nPaid search ad from the brand's own account. No extra label needed under section 4. Pass.\n\n### Fixed (suggested)\n- Remove \"Recommended by nutritionists.\"\n\n**Suggested replacement copy:**\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n(The delivery line is on the policy list. Swap in another approved claim if you prefer.)\n\n### Needs a decision\n- Do you have a real, documented nutritionist recommendation? If so, send the source and permission and it can be reconsidered, but a health-adjacent endorsement would still need Sam's sign-off and a policy update, since section 3 currently rules out health claims.\n\n### Approver\nSam (marketing lead). Not approved yet. I haven't recorded any approval, and the draft as written should not go out.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0117395,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

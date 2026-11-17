@@ -1,0 +1,15 @@
+{
+ "case": "p18",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "60a871d1e2615bbcf2254aec696c05045344c3453e5813f83a1000272a8e68b4",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Ana (UK tea drinker), subject \"How to brew loose leaf without a teapot\". Send time not specified.\n\n**Checks**\n\n1. **Claims:** No stats, testimonials, guarantees, superlatives or comparisons. Brewing facts (mug, sieve, four minutes for black tea, shorter and cooler for green) are product/brewing facts and are fine as written. Pass.\n2. **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n3. **House style:** \"Unlock your tea journey\" is a stock marketing/AI-tell phrase. It's vague, adds nothing, and doesn't fit a plain, practical brew tip. It also sits awkwardly next to \"You don't need any kit.\" Fails on that line. Suggested fix: cut it, and open with the useful point: \"You don't need a teapot to brew loose leaf.\"\n4. **Disclosure:** This is a brand's own email to a customer, with no sponsor, affiliate link, gifted product or AI-generated imagery. No label needed. Pass.\n\n**Fixed (suggested rewrite):**\n\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> You don't need a teapot to brew loose leaf. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n**Needs a decision:**\n- Approve the rewritten version above in place of the original. Changing it means the original text should not be sent.\n- The policy names no approver for this type of content, so the approval needs to come from you as the user. Please confirm an explicit yes to the exact revised text. Nothing has been sent, and I haven't recorded any approval.\n\n**Approver:** You (none named in the policy).\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011337300000000002,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

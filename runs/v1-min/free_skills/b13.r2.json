@@ -1,0 +1,15 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "ec130ad174f51d56fd0e63817ab8bbf71beab06cc220ecb70bba764c68b7840e",
+ "result": "**Verdict: clear to publish**, with one thing to confirm.\n\n**Disclosure:** The draft opens with \"Ad |\", so the paid relationship is declared before anything else. That is the right placement for a UK creator post.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine as written |\n| \"ten minutes away from my phone\" | Personal routine, not a product claim |\n| \"which I love\" | The creator's own opinion |\n\nThere are no numbers, superlatives, guarantees, health or green claims, fake urgency, or invented testimonials. The copy has no banned words or structures.\n\n**Product label:** \"My afternoon reset is a pot of...\" describes regular personal use, so the creator should be an owner or have really tried the tea. I can't verify that from the draft. If they haven't been drinking it, the line needs rewording. If they have, nothing needs to change.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011930699999999999,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s06",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "60ea79c88d049ffc01435d32a9bc953d2e06d7a88d6905d7b6f2b6c5943b429f",
+ "result": "**Review of the newsletter draft**\n\n- **\"This month we visited the garden in Darjeeling that grows our first flush.\"** Where a tea is grown is a product fact, so this is fine.\n- **\"The leaves are picked in March and taste bright and floral.\"** Picking time and flavour are product facts, so this is fine.\n- **\"Our customers tell us it's the only tea they drink now.\"** This is a problem. It is a customer testimonial with no source in the policy, and it's also a sweeping claim. Section 3 bans invented testimonials. Remove it, or replace it with a real, attributed review if the team has one.\n- **\"You'll find it in the shop from Monday.\"** New products arriving is a product fact, so this is fine. It's a real launch date, not a countdown or \"only X left\" pressure.\n- **Voice and spelling:** The tone is warm, plain and unhurried. It uses none of the banned words and the spelling is UK.\n\nThe draft shouldn't go out until the testimonial line is cut or replaced. Sam also needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009914099999999999,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

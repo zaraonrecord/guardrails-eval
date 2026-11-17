@@ -1,0 +1,15 @@
+{
+ "case": "p20",
+ "condition": "baseline_long",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "d7c4b418540f5538bb4007ead020642463bc828057393ec868716561a4a0db5a",
+ "result": "I checked each sentence against the brand policy.\n\n**Approved, no issue:**\n- \"founded in Bristol in 2019\" matches the policy.\n- \"every tin is packed by hand in Bristol\" matches the policy.\n- \"a small team of six\": team size is listed as a product fact that's fine as written.\n\n**Problems:**\n1. **\"Over 98% of our customers rate us five stars\"**: This is an invented statistic. The approved figure is a 4.8 out of 5 rating from over 1,200 reviews on the website. A 98% five-star share is not in the policy, and it is hard to square with a 4.8 average (it would imply an average very close to 5.0). It also says \"customers\" rather than reviewers. Fix: use \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n2. **\"we buy from gardens we've visited\"**: This is an unsupported claim about sourcing. Origins are fine as product facts, but a claim that the team has personally visited every supplier garden is a company claim with no evidence in the policy. Either confirm it with documentation (which gardens, and that the team has visited them) or remove it.\n\nNo label, health, green or urgency issues. The copy is short and plain, with no AI clichés.\n\nThe draft should be held until those two claims are fixed or substantiated.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007735899999999999,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p13",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "bc436186cbbdbf7947f4a9aec48b3e89e237217f300751401b86b6c79ae31deb",
+ "result": "**Review: gifted creator post**\n\n**Read-through:** Three sentences, all description or personal opinion. \"The rooibos chai is lovely with oat milk\" is a personal taste statement, which is fine. No stats, superlatives, health, green, guarantee or urgency claims.\n\n**Problem: missing ad disclosure.** The post says \"Pebblebrook sent me their winter sampler\", so it's gifted, and the creator is posting because of the gift. A gifted item needs a clear, upfront label such as \"Ad\" or \"Ad – gifted\" at the very start. A mention of being sent the product, buried in the body, is not enough. Worse, \"Not paid to say that, just liked it\" is potentially misleading: it leans on \"not paid\" to suggest independence, when a gifted product is still a commercial relationship that must be labelled as an ad. Cut that line, or reword it so it doesn't undercut the label.\n\n**Style:** Short and natural, no clichés. Nothing to change.\n\n**Suggested fix:**\n\"Ad | Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk.\"\n\nHold until the label is added.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Not paid to say that, just liked it.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092505,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

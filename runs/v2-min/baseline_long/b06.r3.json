@@ -1,0 +1,15 @@
+{
+ "case": "b06",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "922e1f1691e43c7bb9e0d87c0e9a55e0fb154b90c2f47bc0484db33e4539c5da",
+ "result": "**Review of newsletter draft**\n\nGoing sentence by sentence:\n\n1. \"This month we visited the garden in Darjeeling that grows our first flush.\" Description of a product origin and a team visit. The policy says product facts (origins, new arrivals) are fine as written. No claim about superiority, health or the environment.\n\n2. \"The leaves are picked in March and taste bright and floral.\" Product fact (harvest timing) and a flavour description. Both are covered as product facts. \"Bright and floral\" is sensory description, not a health or results claim.\n\n3. \"You'll find it in the shop from Monday.\" New arrival announcement. Covered by policy. It is not urgency or scarcity language, and it makes no stock claim. One practical note: the newsletter should make sure the Monday date is correct and that the product really goes live then, but that is a scheduling check, not a copy problem.\n\n**Other checks**\n- No numbers, ratings, or customer counts that need evidence.\n- No organic, plastic-free, or other certification claims that would need checking.\n- No testimonials, comparisons, superlatives, guarantees, pricing or offer terms.\n- No paid or affiliate relationship implied, so no ad label is needed on a brand-owned newsletter.\n- Style: short, specific, and plain. No AI clichés or filler. Voice sounds like a real team.\n\n**Decision:** Nothing here needs changing. It can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0074603,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "s22",
+ "condition": "baseline_long",
+ "repeat": 1,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "a1d33429963e043c1c8152cf2daf9e03d1c7fec1af4319401e3a2c9445c6b2db",
+ "result": "**Review: landing hero**\n\nGoing sentence by sentence:\n\n1. \"Loose leaf tea, packed by hand in Bristol.\" Product fact and an approved claim (every tin packed by hand in Bristol). Fine.\n\n2. \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\" Both are approved claims. However, it repeats the first sentence almost word for word. That's a repetition problem, and it makes the hero read as padded.\n\n3. \"Free UK delivery on all orders.\" The approved claim is free UK delivery on orders over £25. \"All orders\" drops the threshold, so it's a misleading service promise and a pricing error. Fix: \"Free UK delivery on orders over £25.\"\n\n**Notes**\n- Fix the delivery claim before publishing. This is the blocker.\n- Cut the duplicated packing line. Example: \"Loose leaf tea, packed by hand in Bristol and certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nHold the draft until the delivery claim is corrected.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0090905,
+ "seconds": 7.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

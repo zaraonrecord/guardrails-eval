@@ -1,0 +1,11 @@
+{
+ "case": "p08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\n- **\"Plastic-Free Tea Bags\"** (headline): Supported. The brand policy says tea bags are plastic-free.\n- **\"Our tea bags are plastic-free and home compostable.\"**: Supported. Both claims are on the allowlist.\n- **\"Best tea I've ever had\" - Emma, Leeds**: Not supported. The policy lists no customer quotes, and nothing shows that Emma is a real customer who agreed to be quoted. A named testimonial with a location presents itself as a real review, so it needs a verified source and permission before it runs. If it can't be sourced, remove it. The \"best\" wording is also a superlative, but because it is a personal opinion, the main problem is that the attribution is unverified.\n\n**Recommendation:** Do not publish as is. Either remove the quote or confirm it comes from a real, consented customer review. The rest of the copy can stay. A safe version is:\n\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011765999999999999,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

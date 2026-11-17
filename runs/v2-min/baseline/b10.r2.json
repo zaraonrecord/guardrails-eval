@@ -1,0 +1,15 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "minimal",
+ "cases_file": "cases-v2.json",
+ "hash": "1ed8d977712d8352c3d767a518588826b837a9607ad86e12538abc2738d05a22",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"20 plastic-free tea bags\"** is covered by the allowlist (plastic-free tea bags) and the pack size is a product fact.\n- **\"Caffeine-free blend\"** is an ingredient fact, which is fine as written. Chamomile and lemon balm are naturally caffeine-free.\n- **\"Gentle, honeyed\"** and **\"for the evening\"** describe flavour and serving occasion. They make no sleep, calming or other health promise.\n- The draft has no invented statistics, superlatives, guarantees, testimonials, urgency or filler language, and no required disclosure is missing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070802,
+ "seconds": 6.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

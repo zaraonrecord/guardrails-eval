@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co. website, UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\": on the policy list (Operations). Fine.\n   - \"Certified organic by the Soil Association\": on the policy list, certificate renewed 2026. The draft says \"our tea is certified organic by the Soil Association\", which matches. Fine.\n   - \"Free UK delivery on orders over £25\": exact policy wording. Fine.\n   - Nothing invented, no superlatives, guarantees, health, green or urgency claims.\n\n2. **Regulated claims:** Touches prices (free delivery threshold), which is backed by the shipping policy and has no conditions hidden. No other regulated areas. Pass.\n\n3. **House style:** No banned words. Tone is plain and warm enough. One real problem: the packing claim appears twice, back to back (\"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol…\"). That's repetition, reads like filler. Suggested rewrite, facts unchanged:\n\n   > Loose leaf tea, every tin packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n   Score roughly 70 before (repetition, flat), around 88 after.\n\n4. **Disclosure:** Own-brand landing page, no creator, affiliate or sponsored content, no AI-labelling trigger. Pass.\n\n**Fixed:** Removed the duplicated packing line (suggested rewrite above).\n\n**Needs a decision:** Nothing on claims or disclosure. Only the copy edit above needs to be accepted.\n\n**Approver:** Sam (marketing lead). I need Sam's explicit yes to the final wording (the rewrite, if used) before this goes live. No approval has been recorded, so it is not cleared to publish yet.\n\nThe only issue is the repeated line, a style fix rather than a compliance problem. I've flagged it as an issue so the copy is changed before approval.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012547500000000001,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "case": "p02",
+ "condition": "baseline_long",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "f41c560c3a8ec769a8133d1fa30d752c39d4ada2987c7a5526f5eb5565f96139",
+ "result": "**Review of search ad**\n\nSentence by sentence:\n\n1. **\"Organic Loose Leaf Tea\"**: Headline is description. \"Organic\" is supported by the Soil Association certification on file. Loose leaf is what they sell. Fine.\n\n2. **\"Loved by 50,000 tea drinkers.\"**: This is a customer count. The approved proof only supports \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" Nothing in the policy supports 50,000 customers or tea drinkers, and the policy prohibits invented numbers and customer counts. \"Loved by\" is also a sentiment claim that rests on that unsupported number. Needs to be removed or replaced with the approved review claim.\n\n3. **\"Certified organic by the Soil Association.\"**: Exact approved wording. Fine.\n\n4. **\"Free UK delivery on orders over £25.\"**: Exact approved wording. Fine.\n\nStyle: UK spelling, no banned words, no clichés. Search ads don't need an ad label from the brand's own account.\n\n**Suggested fix:** Replace the second sentence with \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\n**Decision:** Hold. The 50,000 figure is unsupported.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0074473000000000004,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

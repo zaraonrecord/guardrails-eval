@@ -1,10 +1,14 @@
 {
  "case": "b20",
  "condition": "free_skills",
+ "repeat": 1,
  "model": "sonnet",
- "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- There are no invented stats, superlatives, guarantees, testimonials, health or green claims, or urgency language.\n- There are no ban-list words, exclamation points, rhetorical openers or em-dashes.\n- The copy is concrete, and the opening is a plain statement of what's sold.\n- The headline is 19 characters and the description is 102 including spaces. You gave no character limit, so I haven't flagged length. If this is a Google RSA, the description is over the usual 90-character cap and needs trimming. The easiest cut is \"Monthly loose leaf tea.\" if the headline already covers it.\n- Before it goes live, confirm the landing page also states the pause/cancel-any-time and free-delivery-over-£25 terms, since an ad shouldn't make claims the landing page doesn't.\n\nNothing needs changing, so it's clear to publish, subject to the landing page and length checks above.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
- "cost_usd": 0.015448300000000002,
- "seconds": 15.1,
+ "policy": "minimal",
+ "cases_file": "cases.json",
+ "hash": "7bee168436f0c531442694ac58c7734424f4afddb7e69d11862c277f613859fb",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\nThe draft is clean and can go out as written.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- **Slop and structure:** There are no ban-list words, exclamation points, rhetorical openers, or fake urgency. The copy is plain and specific.\n- **Superlatives, guarantees, stats, testimonials:** None.\n- **Regulated claims:** No health, money, or green claims.\n- **Platform policy:** Nothing likely to trip ad policies.\n\n**Notes, not blockers**\n- Both claims need to appear on the landing page too. Check that the page states the pause/cancel terms and the £25 free delivery threshold.\n- You gave no character limits, so I haven't flagged length. The description is 102 characters. If this is a Google RSA description (90-character limit), it will need trimming. The headline is 19 characters, which is fine against a 30-character limit. One option is to drop \"Monthly loose leaf tea.\" and keep the two claims, which comes to 78 characters.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0151623,
+ "seconds": 23.2,
  "models": [
   "claude-sonnet-5-5"
  ]

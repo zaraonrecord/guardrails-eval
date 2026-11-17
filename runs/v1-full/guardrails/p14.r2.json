@@ -1,0 +1,15 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "repeat": 2,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases.json",
+ "hash": "127a5630528c76dbff2b2990b2a9be3f44f4cf74fec109d7c9ed64c7fe0b3ed7",
+ "result": "# Publish gate report\n\n**Going out:** a review blog post with an affiliate link, no date given, to the general public.\n\n**Fixed (in the suggested copy below):**\n- Added \"Affiliate link\" next to the link, as section 4 of the policy requires.\n- Replaced \"easiest to pause\" with the policy-backed claim that subscribers can pause or cancel any time.\n\n**Suggested copy:**\n> I've tried four tea subscriptions this year. With Pebblebrook you can pause or cancel any time, and the tins are lovely. [You can find it here](link) (Affiliate link).\n\n**Needs a decision:**\n1. **Disclosure:** the post has no label of any kind. If the blogger was paid, the post must open with \"Ad\". If they were given the product free, it must open with \"Gifted\", before anything else. Otherwise the affiliate label next to the link is the minimum. My suggestion is to confirm with the blogger which applies. If it's affiliate only, the label above is enough.\n2. **\"Easiest to pause\":** this compares Pebblebrook with three other unnamed subscriptions, and the policy has no evidence for it. The policy only backs \"subscribers can pause or cancel any time\". If the blogger wants a personal take, \"pausing was simple\" is an opinion based on their own experience and is a safer wording.\n3. **\"I've tried four tea subscriptions this year\":** I can't verify this, and nothing in the policy covers it. Please check with the blogger that it's true, since the review's credibility depends on it.\n\nOther checks:\n- **Regulated claims:** nothing touches health, money, the environment, children or prices.\n- **House style:** the copy is warm, plain and unhurried, with no banned words or AI tells.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to the final wording before it goes out. I haven't recorded an approval.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.017436899999999998,
+ "seconds": 17.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

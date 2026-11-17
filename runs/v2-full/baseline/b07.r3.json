@@ -1,0 +1,15 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "repeat": 3,
+ "model": "sonnet",
+ "policy": "full",
+ "cases_file": "cases-v2.json",
+ "hash": "5299a78a31ad33e3d594ea53bf10ef7338295aea644ed0862ec43eb707b9a85e",
+ "result": "I found nothing in this draft that needs to change.\n\n- **Founding claim:** \"started Pebblebrook in Bristol in 2019\" matches the allowed claim \"Founded in Bristol in 2019\" (Companies House).\n- **Tea bag claim:** \"Our tea bags are plastic-free and home compostable\" is the exact allowed wording, backed by the EN 13432 supplier certificate.\n- **Other claims:** There are no superlatives, guarantees, health claims, invented numbers or false urgency. No banned words appear, the spelling is UK, and no disclosure label is needed for our own blog.\n\nTwo things for Sam, neither of which blocks publication:\n- The reason for founding (\"we couldn't find tea bags without plastic in them\") isn't on the claims list. It's an origin story rather than a measurable claim, but Sam should confirm it's accurate.\n- The post promises to explain \"how we checked\". Make sure the body of the post sticks to the certificate and doesn't add new claims, such as \"100% biodegradable\" or broader eco-friendly wording.\n\nAs with all public content, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0087127,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}
