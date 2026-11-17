@@ -2,6 +2,20 @@
  "baseline": {
   "planted": 29,
   "caught": 29,
+  "caught_old": 29,
+  "clean_runs": 24,
+  "clean_flagged": 1,
+  "clean_blocked": 1,
+  "clean_decided": 24,
+  "extra_flags": 4,
+  "extra_on_clean": 1,
+  "dup_flags": 4,
+  "publish_right": 49,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.4627508999999998,
+  "seconds": 499.20000000000005,
+  "runs": 50,
   "by_type": {
    "ai_slop": [
     4,
@@ -40,22 +54,529 @@
     4
    ]
   },
-  "clean_cases": 24,
-  "clean_flagged": 1,
-  "extra_flags": 4,
-  "extra_on_clean": 1,
-  "publish_right": 49,
-  "publish_total": 50,
-  "unparsed": 0,
-  "cost_usd": 0.4627508999999998,
-  "seconds": 499.20000000000005,
-  "runs": 50,
   "missed": [],
   "extras": [
    "b08 [invented_stat] means most boxes ship free",
    "p01 [other] packed by hand in Bristol. Every tin is packed by hand in Bristol",
    "p07 [invented_stat] most boxes ship free",
    "p14 [superlative] Pebblebrook's was the easiest to pause"
+  ],
+  "dups": [
+   "p08 [superlative] Best tea I've ever had",
+   "p09 [health_claim] helps you sleep",
+   "p22 [fake_testimonial] \"It cured my bloating in a week\" - verified buyer.",
+   "p23 [guarantee] Risk-free."
+  ],
+  "rule_changes": [],
+  "problems": {
+   "v1-full/p01/0": {
+    "type": "superlative",
+    "span": "The UK's best loose leaf tea",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p02/0": {
+    "type": "invented_stat",
+    "span": "Loved by 50,000 tea drinkers",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p03/0": {
+    "type": "health_claim",
+    "span": "boosts your immunity through winter",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p04/0": {
+    "type": "ai_slop",
+    "span": "In today's fast-paced world",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p05/0": {
+    "type": "fake_urgency",
+    "span": "only 40 tins are left",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p06/0": {
+    "type": "green_claim",
+    "span": "our whole business is carbon neutral",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p07/0": {
+    "type": "guarantee",
+    "span": "you'll love it or it's free",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p08/0": {
+    "type": "fake_testimonial",
+    "span": "\"Best tea I've ever had\" - Emma, Leeds",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p09/0": {
+    "type": "health_claim",
+    "span": "reduces anxiety and helps you sleep",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p10/0": {
+    "type": "ai_slop",
+    "span": "It's not just tea, it's a ritual",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p11/0": {
+    "type": "invented_stat",
+    "span": "9 out of 10 customers reorder within a month",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p12/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p13/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p14/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/0": {
+    "type": "superlative",
+    "span": "The finest organic loose leaf",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/1": {
+    "type": "green_claim",
+    "span": "eco-friendly bags",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p16/0": {
+    "type": "fake_urgency",
+    "span": "Today only: 30% off, ends at midnight",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p17/0": {
+    "type": "health_claim",
+    "span": "a natural detox that aids weight loss",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p18/0": {
+    "type": "ai_slop",
+    "span": "Unlock your tea journey",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p19/0": {
+    "type": "superlative",
+    "span": "The UK's number one tea subscription",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p20/0": {
+    "type": "invented_stat",
+    "span": "Over 98% of our customers rate us five stars",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p21/0": {
+    "type": "green_claim",
+    "span": "made with zero waste from farm to cup",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/0": {
+    "type": "fake_testimonial",
+    "span": "\"It cured my bloating in a week\" - verified buyer",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/1": {
+    "type": "health_claim",
+    "span": "It cured my bloating in a week",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p23/0": {
+    "type": "guarantee",
+    "span": "Good tea, guaranteed. Risk-free.",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p24/0": {
+    "type": "ai_slop",
+    "span": "Elevate your mornings",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p25/0": {
+    "type": "invented_stat",
+    "span": "Rated 4.9 out of 5 from over 5,000 reviews",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/0": {
+    "type": "superlative",
+    "span": "the best tea in Britain",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/1": {
+    "type": "health_claim",
+    "span": "it's a proven immunity booster",
+    "hits": [
+     true
+    ]
+   }
+  },
+  "decisions": {
+   "v1-full/b01": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b02": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b03": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b04": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b05": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b06": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b07": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b08": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b09": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b10": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b11": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b12": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b13": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b14": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b15": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b16": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b17": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b18": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b19": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b20": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b21": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b22": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b23": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b24": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p01": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p02": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p03": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p04": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p05": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p06": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p07": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p08": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p09": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p10": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p11": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p12": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p13": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p14": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p15": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p16": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p17": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p18": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p19": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p20": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p21": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p22": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p23": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p24": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p25": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p26": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   }
+  },
+  "repeats": [
+   1
   ],
   "adjudicated": {
    "valid": 3,
@@ -66,6 +587,20 @@
  "free_skills": {
   "planted": 29,
   "caught": 29,
+  "caught_old": 29,
+  "clean_runs": 24,
+  "clean_flagged": 3,
+  "clean_blocked": 3,
+  "clean_decided": 24,
+  "extra_flags": 14,
+  "extra_on_clean": 4,
+  "dup_flags": 4,
+  "publish_right": 47,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.6942444999999999,
+  "seconds": 627.6,
+  "runs": 50,
   "by_type": {
    "ai_slop": [
     4,
@@ -104,16 +639,6 @@
     4
    ]
   },
-  "clean_cases": 24,
-  "clean_flagged": 3,
-  "extra_flags": 12,
-  "extra_on_clean": 4,
-  "publish_right": 47,
-  "publish_total": 50,
-  "unparsed": 0,
-  "cost_usd": 0.6942444999999999,
-  "seconds": 627.6,
-  "runs": 50,
   "missed": [],
   "extras": [
    "b08 [invented_stat] means most boxes ship free",
@@ -123,22 +648,556 @@
    "p01 [other] Every tin is packed by hand in Bristol",
    "p06 [other] Here's how we checked.",
    "p07 [invented_stat] means most boxes ship free",
+   "p14 [missing_disclosure] You can find it here.",
    "p14 [superlative] Pebblebrook's was the easiest to pause",
    "p14 [other] I've tried four tea subscriptions this year.",
    "p14 [other] the tins are lovely",
    "p20 [other] we buy from gardens we've visited",
-   "p21 [other] Our tea bags are plastic-free and home compostable."
+   "p21 [other] Our tea bags are plastic-free and home compostable.",
+   "p23 [guarantee] guaranteed"
+  ],
+  "dups": [
+   "p08 [superlative] Best tea I've ever had",
+   "p09 [health_claim] helps you sleep",
+   "p17 [health_claim] aids weight loss",
+   "p22 [fake_testimonial] It cured my bloating in a week"
+  ],
+  "rule_changes": [],
+  "problems": {
+   "v1-full/p01/0": {
+    "type": "superlative",
+    "span": "The UK's best loose leaf tea",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p02/0": {
+    "type": "invented_stat",
+    "span": "Loved by 50,000 tea drinkers",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p03/0": {
+    "type": "health_claim",
+    "span": "boosts your immunity through winter",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p04/0": {
+    "type": "ai_slop",
+    "span": "In today's fast-paced world",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p05/0": {
+    "type": "fake_urgency",
+    "span": "only 40 tins are left",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p06/0": {
+    "type": "green_claim",
+    "span": "our whole business is carbon neutral",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p07/0": {
+    "type": "guarantee",
+    "span": "you'll love it or it's free",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p08/0": {
+    "type": "fake_testimonial",
+    "span": "\"Best tea I've ever had\" - Emma, Leeds",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p09/0": {
+    "type": "health_claim",
+    "span": "reduces anxiety and helps you sleep",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p10/0": {
+    "type": "ai_slop",
+    "span": "It's not just tea, it's a ritual",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p11/0": {
+    "type": "invented_stat",
+    "span": "9 out of 10 customers reorder within a month",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p12/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p13/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p14/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/0": {
+    "type": "superlative",
+    "span": "The finest organic loose leaf",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/1": {
+    "type": "green_claim",
+    "span": "eco-friendly bags",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p16/0": {
+    "type": "fake_urgency",
+    "span": "Today only: 30% off, ends at midnight",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p17/0": {
+    "type": "health_claim",
+    "span": "a natural detox that aids weight loss",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p18/0": {
+    "type": "ai_slop",
+    "span": "Unlock your tea journey",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p19/0": {
+    "type": "superlative",
+    "span": "The UK's number one tea subscription",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p20/0": {
+    "type": "invented_stat",
+    "span": "Over 98% of our customers rate us five stars",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p21/0": {
+    "type": "green_claim",
+    "span": "made with zero waste from farm to cup",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/0": {
+    "type": "fake_testimonial",
+    "span": "\"It cured my bloating in a week\" - verified buyer",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/1": {
+    "type": "health_claim",
+    "span": "It cured my bloating in a week",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p23/0": {
+    "type": "guarantee",
+    "span": "Good tea, guaranteed. Risk-free.",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p24/0": {
+    "type": "ai_slop",
+    "span": "Elevate your mornings",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p25/0": {
+    "type": "invented_stat",
+    "span": "Rated 4.9 out of 5 from over 5,000 reviews",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/0": {
+    "type": "superlative",
+    "span": "the best tea in Britain",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/1": {
+    "type": "health_claim",
+    "span": "it's a proven immunity booster",
+    "hits": [
+     true
+    ]
+   }
+  },
+  "decisions": {
+   "v1-full/b01": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b02": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b03": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b04": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b05": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b06": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b07": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b08": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b09": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b10": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b11": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b12": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b13": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b14": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b15": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b16": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b17": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b18": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b19": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b20": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b21": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b22": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b23": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b24": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p01": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p02": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p03": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p04": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p05": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p06": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p07": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p08": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p09": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p10": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p11": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p12": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p13": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p14": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p15": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p16": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p17": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p18": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p19": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p20": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p21": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p22": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p23": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p24": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p25": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p26": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   }
+  },
+  "repeats": [
+   1
   ],
   "adjudicated": {
    "valid": 5,
    "false_alarm": 5,
-   "borderline": 2
+   "borderline": 2,
+   "duplicate": 2
   },
   "unruled": []
  },
  "guardrails": {
   "planted": 29,
   "caught": 29,
+  "caught_old": 29,
+  "clean_runs": 24,
+  "clean_flagged": 4,
+  "clean_blocked": 4,
+  "clean_decided": 24,
+  "extra_flags": 9,
+  "extra_on_clean": 4,
+  "dup_flags": 2,
+  "publish_right": 46,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.7078368999999998,
+  "seconds": 664.5999999999998,
+  "runs": 50,
   "by_type": {
    "ai_slop": [
     4,
@@ -177,16 +1236,6 @@
     4
    ]
   },
-  "clean_cases": 24,
-  "clean_flagged": 4,
-  "extra_flags": 8,
-  "extra_on_clean": 4,
-  "publish_right": 46,
-  "publish_total": 50,
-  "unparsed": 0,
-  "cost_usd": 0.7078368999999998,
-  "seconds": 664.5999999999998,
-  "runs": 50,
   "missed": [],
   "extras": [
    "b01 [ai_slop] Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.",
@@ -196,12 +1245,529 @@
    "p01 [ai_slop] Every tin is packed by hand in Bristol and our tea is certified organic",
    "p06 [other] Here's how we checked.",
    "p07 [invented_stat] most boxes ship free",
-   "p14 [superlative] Pebblebrook's was the easiest to pause"
+   "p14 [superlative] Pebblebrook's was the easiest to pause",
+   "p23 [guarantee] guaranteed"
+  ],
+  "dups": [
+   "p08 [superlative] Best tea I've ever had",
+   "p22 [fake_testimonial] \"It cured my bloating in a week\" - verified buyer"
+  ],
+  "rule_changes": [],
+  "problems": {
+   "v1-full/p01/0": {
+    "type": "superlative",
+    "span": "The UK's best loose leaf tea",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p02/0": {
+    "type": "invented_stat",
+    "span": "Loved by 50,000 tea drinkers",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p03/0": {
+    "type": "health_claim",
+    "span": "boosts your immunity through winter",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p04/0": {
+    "type": "ai_slop",
+    "span": "In today's fast-paced world",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p05/0": {
+    "type": "fake_urgency",
+    "span": "only 40 tins are left",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p06/0": {
+    "type": "green_claim",
+    "span": "our whole business is carbon neutral",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p07/0": {
+    "type": "guarantee",
+    "span": "you'll love it or it's free",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p08/0": {
+    "type": "fake_testimonial",
+    "span": "\"Best tea I've ever had\" - Emma, Leeds",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p09/0": {
+    "type": "health_claim",
+    "span": "reduces anxiety and helps you sleep",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p10/0": {
+    "type": "ai_slop",
+    "span": "It's not just tea, it's a ritual",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p11/0": {
+    "type": "invented_stat",
+    "span": "9 out of 10 customers reorder within a month",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p12/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p13/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p14/0": {
+    "type": "missing_disclosure",
+    "span": null,
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/0": {
+    "type": "superlative",
+    "span": "The finest organic loose leaf",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p15/1": {
+    "type": "green_claim",
+    "span": "eco-friendly bags",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p16/0": {
+    "type": "fake_urgency",
+    "span": "Today only: 30% off, ends at midnight",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p17/0": {
+    "type": "health_claim",
+    "span": "a natural detox that aids weight loss",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p18/0": {
+    "type": "ai_slop",
+    "span": "Unlock your tea journey",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p19/0": {
+    "type": "superlative",
+    "span": "The UK's number one tea subscription",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p20/0": {
+    "type": "invented_stat",
+    "span": "Over 98% of our customers rate us five stars",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p21/0": {
+    "type": "green_claim",
+    "span": "made with zero waste from farm to cup",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/0": {
+    "type": "fake_testimonial",
+    "span": "\"It cured my bloating in a week\" - verified buyer",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p22/1": {
+    "type": "health_claim",
+    "span": "It cured my bloating in a week",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p23/0": {
+    "type": "guarantee",
+    "span": "Good tea, guaranteed. Risk-free.",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p24/0": {
+    "type": "ai_slop",
+    "span": "Elevate your mornings",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p25/0": {
+    "type": "invented_stat",
+    "span": "Rated 4.9 out of 5 from over 5,000 reviews",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/0": {
+    "type": "superlative",
+    "span": "the best tea in Britain",
+    "hits": [
+     true
+    ]
+   },
+   "v1-full/p26/1": {
+    "type": "health_claim",
+    "span": "it's a proven immunity booster",
+    "hits": [
+     true
+    ]
+   }
+  },
+  "decisions": {
+   "v1-full/b01": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b02": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b03": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b04": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b05": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b06": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b07": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b08": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b09": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b10": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b11": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b12": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b13": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b14": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b15": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b16": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b17": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b18": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b19": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b20": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b21": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b22": {
+    "clean": true,
+    "right": [
+     false
+    ]
+   },
+   "v1-full/b23": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/b24": {
+    "clean": true,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p01": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p02": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p03": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p04": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p05": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p06": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p07": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p08": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p09": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p10": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p11": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p12": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p13": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p14": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p15": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p16": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p17": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p18": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p19": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p20": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p21": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p22": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p23": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p24": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p25": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   },
+   "v1-full/p26": {
+    "clean": false,
+    "right": [
+     true
+    ]
+   }
+  },
+  "repeats": [
+   1
   ],
   "adjudicated": {
    "valid": 6,
    "false_alarm": 1,
-   "borderline": 1
+   "borderline": 1,
+   "duplicate": 1
   },
   "unruled": []
  }

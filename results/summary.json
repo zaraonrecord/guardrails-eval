@@ -1,0 +1,146 @@
+{
+ "versions": [
+  "v1-full",
+  "v1-min",
+  "v2-full",
+  "v2-min"
+ ],
+ "tests": [
+  {
+   "a": "baseline",
+   "b": "free_skills",
+   "problems": [
+    102,
+    3,
+    2,
+    1.0
+   ],
+   "publish": [
+    192,
+    12,
+    2,
+    0.012939453125
+   ]
+  },
+  {
+   "a": "baseline",
+   "b": "guardrails",
+   "problems": [
+    102,
+    0,
+    3,
+    0.25
+   ],
+   "publish": [
+    192,
+    6,
+    4,
+    0.75390625
+   ]
+  },
+  {
+   "a": "free_skills",
+   "b": "guardrails",
+   "problems": [
+    102,
+    0,
+    4,
+    0.125
+   ],
+   "publish": [
+    192,
+    3,
+    11,
+    0.057373046875
+   ]
+  }
+ ],
+ "conditions": {
+  "baseline": {
+   "totals": {
+    "runs": 192,
+    "planted": 102,
+    "caught": 99,
+    "caught_old": 99,
+    "clean_runs": 96,
+    "clean_flagged": 6,
+    "clean_blocked": 6,
+    "clean_decided": 96,
+    "extra_flags": 15,
+    "dup_flags": 7,
+    "publish_right": 183,
+    "publish_total": 192,
+    "unparsed": 0,
+    "cost_usd": 1.7615676999999998,
+    "seconds": 1941.0000000000002
+   },
+   "adjudicated": {
+    "valid": 13,
+    "borderline": 1,
+    "false_alarm": 1
+   },
+   "repeats": [
+    1
+   ],
+   "rule_changes": []
+  },
+  "free_skills": {
+   "totals": {
+    "runs": 192,
+    "planted": 102,
+    "caught": 98,
+    "caught_old": 98,
+    "clean_runs": 96,
+    "clean_flagged": 15,
+    "clean_blocked": 15,
+    "clean_decided": 96,
+    "extra_flags": 44,
+    "dup_flags": 10,
+    "publish_right": 173,
+    "publish_total": 192,
+    "unparsed": 0,
+    "cost_usd": 2.4742585999999998,
+    "seconds": 2380.3
+   },
+   "adjudicated": {
+    "valid": 16,
+    "false_alarm": 16,
+    "borderline": 10,
+    "duplicate": 2
+   },
+   "repeats": [
+    1
+   ],
+   "rule_changes": []
+  },
+  "guardrails": {
+   "totals": {
+    "runs": 192,
+    "planted": 102,
+    "caught": 102,
+    "caught_old": 102,
+    "clean_runs": 96,
+    "clean_flagged": 11,
+    "clean_blocked": 11,
+    "clean_decided": 96,
+    "extra_flags": 30,
+    "dup_flags": 5,
+    "publish_right": 181,
+    "publish_total": 192,
+    "unparsed": 0,
+    "cost_usd": 2.6175146999999996,
+    "seconds": 2527.8
+   },
+   "adjudicated": {
+    "valid": 16,
+    "false_alarm": 8,
+    "borderline": 5,
+    "duplicate": 1
+   },
+   "repeats": [
+    1
+   ],
+   "rule_changes": []
+  }
+ }
+}
