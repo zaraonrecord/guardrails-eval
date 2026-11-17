@@ -150,6 +150,48 @@
    "match": "guaranteed",
    "verdict": "duplicate",
    "why": "One word from the planted guarantee, which another flag already caught. Too short to count under the whole-word rule, but not a false alarm."
+  },
+  {
+   "case": "p16",
+   "match": "It's back in the shop",
+   "verdict": "false_alarm",
+   "why": "A plain availability statement; the planted urgency is the next sentence."
+  },
+  {
+   "case": "p24",
+   "match": "October tins are on the way",
+   "verdict": "false_alarm",
+   "why": "An order update subject line, not a claim."
+  },
+  {
+   "case": "b02",
+   "match": "October tins are on the way",
+   "verdict": "false_alarm",
+   "why": "An order update subject line, not a claim."
+  },
+  {
+   "case": "p18",
+   "match": "How to brew loose leaf",
+   "verdict": "false_alarm",
+   "why": "The brand's own email to its customers needs no ad label."
+  },
+  {
+   "case": "s15",
+   "match": "[other] I've tried four tea subscriptions",
+   "verdict": "duplicate",
+   "why": "A second flag on the same opening words already flagged for the footnote-only disclosure."
+  },
+  {
+   "case": "s15",
+   "match": "tins are lovely",
+   "verdict": "false_alarm",
+   "why": "Opinion, not a claim."
+  },
+  {
+   "case": "s11",
+   "match": "[missing_disclosure] Three teas for your desk drawer",
+   "verdict": "false_alarm",
+   "why": "An ad on the brand's own account; the policy needs no extra label there."
   }
  ]
 }
