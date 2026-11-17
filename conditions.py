@@ -10,9 +10,13 @@ def _skill(root, name):
     return open(os.path.join(root, name, "SKILL.md"), encoding="utf-8").read()
 
 
-def _policy():
+def policy_name():
     # POLICY=full (default) or minimal: how much the team has written down
-    name = "brand-policy-minimal.md" if os.environ.get("POLICY") == "minimal" else "brand-policy.md"
+    return "minimal" if os.environ.get("POLICY") == "minimal" else "full"
+
+
+def _policy():
+    name = "brand-policy-minimal.md" if policy_name() == "minimal" else "brand-policy.md"
     return open(os.path.join(HERE, "data", name), encoding="utf-8").read()
 
 
