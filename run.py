@@ -19,7 +19,7 @@ since those records were made.
 
 Each run also writes runs/<version>/manifest.json (cases file, policy, model, prompt hashes), which
 score.py reads, so both always agree on which cases a run used.
-Skill files are read from paths given in conditions.py, so paid Skill text never has to live in this repo.
+Skill files are read from paths given in conditions.py (FREE_SKILLS, GUARDRAILS_SKILLS), not copied into this repo.
 """
 import concurrent.futures as cf
 import hashlib
