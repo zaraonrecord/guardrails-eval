@@ -1,5 +1,5 @@
 {
- "_about": "Hand rulings on flags that didn't match a planted problem (17 Nov 2026). 'valid' = a real problem the test set missed (my labelling error). 'false_alarm' = the draft was fine. 'borderline' = reasonable people could disagree. Matching is by case id + a phrase from the flagged quote.",
+ "_about": "Hand rulings on flags that didn't match a planted problem (17 Nov 2026). 'valid' = a real problem the test set missed (my labelling error). 'false_alarm' = the draft was fine. 'borderline' = reasonable people could disagree. Matching is by case id + a phrase from the flagged quote. 'duplicate' = the flag points at a planted problem that another flag already caught, but is too short or vague to match it under the scoring rules; it is counted with the duplicate flags, not as an extra.",
  "rulings": [
   {
    "case": "b08",
@@ -138,6 +138,18 @@
    "match": "how we checked",
    "verdict": "false_alarm",
    "why": "In the clean b07 the sentence backs an allowlisted claim (plastic-free, home compostable)."
+  },
+  {
+   "case": "p14",
+   "match": "You can find it here",
+   "verdict": "duplicate",
+   "why": "Points at where the affiliate link sits with no label, on a draft where the missing label was already caught. The missing-label rule only counts the opening words or a quote that names the disclosure, so it is ruled by hand."
+  },
+  {
+   "case": "p23",
+   "match": "guaranteed",
+   "verdict": "duplicate",
+   "why": "One word from the planted guarantee, which another flag already caught. Too short to count under the whole-word rule, but not a false alarm."
   }
  ]
 }
