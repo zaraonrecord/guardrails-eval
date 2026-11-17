@@ -45,7 +45,10 @@ CONDITIONS = {
     # The free, public guardrail Skills (CC BY 4.0).
     "free_skills": lambda: "\n\n---\n\n".join(_skill(FREE, n) for n in ("claims-guard", "slop-guard", "honest-review-rules")),
     # The Guardrails pack: the publish gate and the checks it runs.
-    "guardrails": lambda: "\n\n---\n\n".join(_skill(GUARDRAILS, n) for n in ("publish-gate", "claims-evidence-log", "regulated-claims-check", "disclosure-check", "house-style-guard")),
+    "guardrails": lambda: "\n\n---\n\n".join(
+        _skill(GUARDRAILS, n)
+        for n in ("publish-gate", "claims-evidence-log", "regulated-claims-check", "disclosure-check", "house-style-guard")
+    ),
 }
 
 
