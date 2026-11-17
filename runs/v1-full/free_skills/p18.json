@@ -1,0 +1,11 @@
+{
+ "case": "p18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: not ready to publish as written. One fix needed.**\n\n**Problem**\n- \"Unlock your tea journey.\" uses two words the brand policy bans (\"unlock\" and \"journey\"), and both are on the slop ban list too. It also adds nothing: the useful fact is in the next sentence.\n- Suggested fix: cut it and open with \"You don't need a teapot to brew loose leaf.\" That puts the useful fact first and matches the warm, plain, unhurried voice.\n\n**Claims check**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing guidance, which the product team has approved for use as written.\n- \"Green tea likes it shorter and cooler\": brewing guidance, same status.\n- No statistics, superlatives, guarantees, testimonials, health claims, environmental claims or urgency.\n- No disclosure is needed. This is our own email, with no affiliate link and no gifted or paid partnership.\n- Spelling is UK-compatible.\n\n**Approval:** Sam (marketing lead) needs to sign off on the revised version before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Unlock your tea journey.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110005,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

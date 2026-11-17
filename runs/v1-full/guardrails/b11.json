@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Email to Tom announcing a new Japanese sencha. Subject: \"A new green tea\".\n\n**Checks**\n- **Claims:** No statistics, ratings, guarantees, testimonials, or superlatives. \"Grassy and a little sweet\" and the brewing temperature (around 70 degrees) are product facts (flavour, brewing guidance), which the policy lets the product team's wording stand. \"Added a Japanese sencha to the shop\" is a new-product announcement, also a product fact. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Voice is warm, plain and unhurried. No banned words (\"elevate\", \"unlock\", \"journey\", \"indulge\" and so on). No AI tells such as stock openers, reversals or slogan closers. UK spelling is fine. Score about 92/100. The sign-off \"The Pebblebrook team\" is fine. Pass.\n- **Disclosure:** Our own brand email, no sponsor, affiliate link, gifted product or AI-labelled content. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional note: \"70 degrees\" could read \"70°C\" for clarity, but it is not required.\n\n**Approver:** Sam (marketing lead). Everything public needs Sam's explicit yes to this exact content. I haven't recorded any approval. Once Sam confirms, he can run the approve command in his own terminal, and then the send can be retried.\n\n**Evidence log rows** (nothing claim-based to log, but for the record):\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Sencha email to Tom | Grassy, a little sweet; brew around 70 degrees | Product fact | Product team |\n| 2026-11-17 | Sencha email to Tom | New Japanese sencha added to the shop | Product fact | Product team |\n\nThe draft passes all checks and is ready for Sam's approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011811499999999999,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

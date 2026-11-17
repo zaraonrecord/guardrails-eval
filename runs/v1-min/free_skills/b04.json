@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Assam Breakfast, malty, full-bodied black tea | Product/flavour fact, fine as written |\n| \"stands up to milk\" | Brewing/flavour description, fine |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin\" | Product size, fine as written |\n| \"makes around 40 cups\" | Brewing fact, fine as written. \"Around\" keeps it soft. |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener, no fake urgency. The first sentence is just the product name, which is fine for a product page.\n\n**Other checks:** No superlatives, guarantees, testimonials, health claims or green claims beyond the certified organic one, which is backed. No affiliate or sponsorship issue.\n\nOne optional note: if the \"40 cups\" figure comes from a specific brew (for example 2.5g per cup), make sure it matches the brewing instructions on the same page. It isn't a blocker.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0100883,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

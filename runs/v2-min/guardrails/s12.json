@@ -1,0 +1,11 @@
+{
+ "case": "s12",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** newsletter, Christmas blend announcement, UK subscribers. No send time was given.\n\n**Checks**\n- **Claims:** The ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" are product and new-arrival facts, so they're fine as written. \"Selling fast\" is a sales claim that isn't on the policy list and has no source in this chat. It also creates scarcity pressure. I can't verify it, so it needs to go unless you can show the sales figures.\n- **Regulated claims:** Nothing on health, money, environment, children or prices.\n- **House style:** Short, plain and specific, with no AI tells or banned phrasing. The policy lists no voice words, so I checked it for tells and clarity only.\n- **Disclosure:** No ad, sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** I haven't edited the draft yet. Here is the suggested version:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\n**Needs a decision**\n- Remove \"selling fast\", as suggested above. If you have real sales or stock data, tell me the source and I'll reconsider a wording that matches it exactly, such as \"our first batch sold out in X days\".\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on the final wording above before it's sent. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119533,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

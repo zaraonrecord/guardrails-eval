@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: Chamomile and Lemon Balm product page\n\n**Going out:** product page copy, UK, Pebblebrook Tea Co.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list |\n| Plastic-free tea bags | On the policy list |\n| 20 tea bags | Product fact, fine |\n| Caffeine-free, honeyed, gentle | Product and flavour facts, fine |\n| \"help you wind down and sleep better\" | **Unproven** |\n\n**Regulated claims check**\n\"To help you wind down and sleep better\" is a health benefit claim. It isn't on the policy list and nobody has supplied evidence for it. On UK food and drink products, health claims generally need to match an authorised claim, and \"sleep better\" for a herbal tea is the kind of line regulators and platforms challenge. Better to describe the drink and the occasion rather than promise an effect on the body.\n\n**House style:** The copy is short, specific and free of AI tells. No changes needed.\n\n**Disclosure:** This is the brand's own product page, with no sponsorship, affiliate link or AI-generated content, so no label is needed.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for your evening cup. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nI replaced the sleep claim with \"for your evening cup\", which keeps the bedtime idea without promising a result.\n\n**Needs a decision**\n1. Approve the rewrite above. If you want to keep a sleep or relaxation claim, it needs an evidence source and sign-off from someone who knows UK food claims rules. Until then I'd mark it `[PROOF NEEDED: authorised health claim or evidence for sleep benefit]`.\n2. The policy names no approver for this kind of content, so I need an explicit yes to the exact final copy from you, or from whoever you nominate.\n\n**Status:** Not cleared to publish. Once the sleep claim is removed or substantiated and a named person approves the final text, it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015473299999999999,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

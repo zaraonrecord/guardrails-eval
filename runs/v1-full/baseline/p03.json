@@ -1,0 +1,11 @@
+{
+ "case": "p03",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n**Problem: health claim.** \"boosts your immunity through winter\" is a health claim, and the policy bans those of any kind. Remove it. A plain replacement would be something like \"a malty, full-bodied black tea that stands up to milk.\"\n\n**Checked and fine:**\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate renewed 2026).\n- \"100g tin, makes around 40 cups\" is a product fact (tin size and cup count), so it's fine as written.\n- \"malty, full-bodied\" is flavour description, which is a product fact.\n- Voice: plain and short, no banned words, UK spelling is fine.\n- No disclosure needed on a product page from our own channel.\n\n**Verdict:** Don't publish as is. Once the immunity phrase is removed, it's ready for Sam's approval, as all public content needs it.\n\n```json\n{\"issues\": [{\"quote\": \"boosts your immunity through winter\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078121,
+ "seconds": 8.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

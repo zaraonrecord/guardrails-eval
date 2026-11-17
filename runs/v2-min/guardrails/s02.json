@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** hero copy on the landing page, UK audience.\n\n**Claims check**\n- \"Most subscribers stay with us for over a year\": not on the policy list and no source given in this chat. This is an invented stat. Remove it, or supply retention data and add it to the policy.\n- \"Subscribers can pause or cancel any time\": on the policy list. Fine.\n- \"free UK delivery on orders over £25\": on the policy list. Fine.\n- \"means most boxes ship free\": not on the policy list. It implies most orders exceed £25, which we have no evidence for. Remove it or replace it with the plain policy wording.\n- \"Tea that's easy to stop and start\": a soft framing of the pause/cancel policy. Acceptable.\n\n**Regulated claims:** the free delivery line touches pricing. The threshold is stated, so it is fine once the \"most boxes\" implication is removed.\n\n**House style:** the copy is short and plain. The sentence structure is a bit clumsy (the \"means\" clause), which the rewrite fixes.\n\n**Disclosure:** this is the brand's own page, so no ad or partnership label is needed.\n\n**Suggested rewrite (uses only policy claims):**\n\"Tea that's easy to stop and start. Pause or cancel your subscription any time, and get free UK delivery on orders over £25.\"\n\n**Needs a decision:** whether you have retention data to back \"over a year\". If so, share the source and we can add it to the policy and the evidence log. Otherwise, publish the rewrite above.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact final text before it goes live. Nothing has been approved yet, and the original draft should not be published.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0110393,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

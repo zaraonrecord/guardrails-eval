@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** is on the claims allowlist, so it's fine.\n- **\"free UK delivery on orders over £25\"** is also on the allowlist and is worded correctly.\n- **\"means most boxes ship free\"** is the problem. The brand policy doesn't back it up. It implies that most orders or subscription boxes exceed £25, which is a statistic we have no data for. It also reads as though delivery is free on most boxes regardless of value, which could mislead customers whose orders fall under the threshold. Either cut it or reword it to the supported claim, for example: \"Subscribers can pause or cancel any time, and delivery is free on UK orders over £25.\"\n- There are no health, green, urgency, testimonial or superlative claims, and the copy has no AI-slop issues.\n\nFix the delivery line and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010522,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

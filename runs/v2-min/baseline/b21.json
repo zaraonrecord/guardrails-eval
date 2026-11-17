@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This is on the claims allowlist.\n- **\"We're a small team of six.\"** Team size is a product fact the policy allows as written.\n- **\"Every tin is packed by hand in Bristol.\"** This is on the claims allowlist.\n- **\"We buy from gardens we've visited.\"** This is a statement about sourcing and origins, which the policy allows as written. It's a factual claim, so whoever owns it should confirm it's true. It isn't a superlative, a guarantee, or a green or health claim.\n\nThe draft has no invented statistics, superlatives, guarantees, testimonials, health or environmental claims, or false urgency. It reads as plain, specific copy, with no filler or AI-sounding padding. It's an about page, so no disclosure label is needed.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007217599999999999,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | New arrival, a product fact that's fine as written |\n| \"Deep green, gold lettering\" | Product description, fine |\n| \"the same plastic-free tea bags inside\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health claims:** none.\n- **Green claims:** both are on the allowlist with the same scope. \"Plastic-free\" and \"home compostable\" are not stretched into anything broader, such as \"eco-friendly\" or \"zero waste\".\n- **Fake urgency:** \"just landed\" describes a real arrival and doesn't pressure anyone to buy.\n- **Disclosure:** this is the brand's own account, with no affiliate links, sponsorship or gifted product.\n- **Slop:** no banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener.\n\n**Optional edit (not blocking):** \"plastic-free tea bags\" appears twice in three sentences. Under the \"keep the sharper one\" rule, you could cut the last sentence's repetition, for example:\n\n> New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\nThe draft is fine to publish as it stands.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012096200000000001,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

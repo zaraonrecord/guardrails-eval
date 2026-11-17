@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list). Send time not stated.\n\n**Checks**\n- **Claims:** No statistics, ratings, guarantees, testimonials or superlatives. The brewing guidance (\"a mug, a small sieve and four minutes... black tea. Green tea likes it shorter and cooler\") is product/brewing guidance, which the policy treats as fine to use as written.\n- **Regulated claims:** No health, money, legal, environmental, children or price content.\n- **House style:** Warm, plain, unhurried. No banned words (\"elevate\", \"unlock\", \"journey\", etc.), no AI tells. Short and clear. Score is roughly 90+.\n- **Disclosure:** Own-brand email, no sponsor, affiliate link, gifted product or AI-labelling trigger. Nothing needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One small note: \"Hi Ana\" assumes personalisation is merge-tagged correctly for each recipient; worth a quick check in the send tool.\n\n**Approver:** Sam (marketing lead), since the policy says everything public needs Sam's approval. I haven't recorded any approval. Please ask Sam for an explicit yes to this exact text before sending.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094775,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

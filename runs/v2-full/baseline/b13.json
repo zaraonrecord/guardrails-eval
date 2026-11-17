@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** it opens with \"Ad\", as required for a paid creator post.\n- **Claims:** \"packed by hand in Bristol\" matches the allowlisted claim that every tin is packed by hand in Bristol. The Assam mention is a product fact, so it's fine.\n- **Health claims:** \"afternoon reset\" and \"ten minutes away from my phone\" describe a break, not a health benefit, so I don't read them as a health claim.\n- **Other red flags:** there are no superlatives, guarantees, green claims, invented numbers or urgency.\n- **Voice:** it is warm, plain and unhurried, and uses none of the banned words. The spelling is fine.\n\nUnder the brand policy, everything public still needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0070065,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

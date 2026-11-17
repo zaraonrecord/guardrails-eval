@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). Pass.\n   - \"free UK delivery on orders over £25\": on the policy list. Pass.\n   - \"Good tea, no fuss\": a subjective tagline, not a factual claim. Pass.\n\n2. **Regulated claims:** The copy touches no health, money, legal, environmental, children or price-comparison claims. The delivery threshold is a plain, policy-backed offer with no \"was\" price, countdown or urgency. Pass.\n\n3. **House style:** The policy has no voice section, so I can't score it formally. The copy is short, plain and specific, with no banned or stock AI phrasing. One small note: the three-part list (organic, hand-packed, free delivery) is factual, not a rhetorical triplet, so I'd leave it.\n\n4. **Disclosure:** This is the brand's own page copy, not an ad, sponsorship, affiliate link or AI-realistic content. No label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. Optional: add a voice section to the brand policy so style checks can be scored.\n\n**Approver:** The policy names no approver, so please confirm with a named person (you, if none is designated) that this exact copy is approved. I haven't recorded an approval, and none has been given yet. Once you say yes to this exact text, it can go live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085424,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

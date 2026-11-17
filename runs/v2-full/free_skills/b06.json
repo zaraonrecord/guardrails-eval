@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| We visited the garden in Darjeeling that grows our first flush | Product fact (where a tea is grown), fine as written |\n| Leaves are picked in March | Product fact (when a tea is picked), fine |\n| Tastes bright and floral | Product fact (flavour), fine |\n| In the shop from Monday | Product fact (new product arriving). It's a real launch date, not a countdown or scarcity claim, so it isn't fake urgency |\n\n**Other checks**\n- **Superlatives, guarantees, health, environmental claims:** none.\n- **Invented numbers or testimonials:** none.\n- **Disclosure:** none needed. This is our own newsletter, with no paid partner, gifted product or affiliate link.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation points, no rhetorical opener. The first sentence carries the main news.\n- **UK spelling:** nothing to flag.\n\n**Before it goes out:** the policy says Sam (marketing lead) approves all public content, so get sign-off from Sam. Also confirm that \"Monday\" is the right launch date.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010660300000000001,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

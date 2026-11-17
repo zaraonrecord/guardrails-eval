@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Assam Breakfast product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Product/flavour fact, fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin\" | Product fact (size), fine |\n| \"makes around 40 cups\" | Product fact (brewing/size), hedged with \"around\", fine |\n\n**Slop check**\n- Ban-list words: none.\n- Structural problems (em-dash sandwiches, exclamation points, rhetorical openers, \"not just X, it's Y\", abstract triads, fake urgency): none.\n- Opening: it names the product and moves straight to the description, so there's no throat-clearing.\n- Adjectives: \"malty\" and \"full-bodied\" describe the tea itself rather than making a comparison, so they pass.\n\n**Other checks**\n- No superlatives, guarantees, testimonials, review counts, health claims or green claims beyond the allowlisted organic certification.\n- No affiliate or sponsorship issues, as this is the brand's own product page.\n\nNothing needs changing. One optional note: if the \"around 40 cups\" figure assumes a particular serving (for example about 2.5g per cup), the page could say so, but that's not a blocker.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009220100000000002,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

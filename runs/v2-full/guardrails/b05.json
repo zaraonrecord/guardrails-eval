@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post from Pebblebrook's own account. Timing and audience weren't given.\n\n**Checks**\n- **Claims:** Pass.\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the policy row word for word. The proof is the October 2026 review export, so it's current.\n  - \"Real bergamot oil and a little cornflower\" is an ingredient fact, which the product team has already cleared.\n  - \"Rainy Sunday, second pot\" is atmosphere, not a claim.\n- **Regulated claims:** Pass. There are no health, money, environmental, children or price/urgency claims.\n- **House style:** Pass, about 90/100. The tone is warm, plain and unhurried. It has no banned words, no AI-tell openers or closers, and uses UK spelling. No rewrite is needed.\n- **Disclosure:** Pass. It's the brand's own organic post with no paid partnership, gifted product or affiliate link. No label is needed.\n\n**Fixed:** Nothing. The copy is unchanged.\n\n**Needs a decision:** Nothing.\n\n**Approver:** Sam (marketing lead). Nothing should be published until Sam gives an explicit yes to this exact text. I haven't recorded any approval, and any edit to the copy means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010608500000000002,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

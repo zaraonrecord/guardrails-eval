@@ -1,0 +1,11 @@
+{
+ "case": "p14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** a review blog post with an affiliate link, to UK readers. No date was given.\n\n**Checks**\n- **Claims:** \"Easiest to pause\" is a comparison against three unnamed services, and nothing in the policy or this chat backs it up. The policy only supports \"subscribers can pause or cancel any time\". \"I've tried four tea subscriptions\" and \"the tins are lovely\" are the author's own experience and opinion, so they're fine if true.\n- **Regulated claims:** nothing touches health, money, the environment, children or prices.\n- **House style:** the copy is plain and personal, with no AI tells or banned words.\n- **Disclosure:** this fails. The post carries an affiliate link (\"You can find it here\") with no label anywhere. UK rules expect a clear, upfront disclosure before the reader engages, and a label near the link as well.\n\n**Fixed (suggested rewrite, not yet approved)**\n> *This post contains affiliate links. If you buy through them I may earn a commission, at no extra cost to you.*\n>\n> I've tried four tea subscriptions this year. Pebblebrook lets you pause any time, and I found it simple to do. The tins are lovely. You can find it [here](#) (affiliate link).\n\n- I added an upfront affiliate disclosure at the top.\n- I added \"(affiliate link)\" next to the link.\n- I swapped \"the easiest to pause\" for the supported \"pause any time\", with the personal experience kept.\n\n**Needs a decision**\n1. Can the author confirm they really tried four subscriptions? If they want to keep \"easiest to pause\", they need to say it's their own experience and name which services they compared it with.\n2. The policy names no approver, so I'd suggest the blog owner signs off on the final text.\n\n**Approver:** I have no approval on record, so this is not cleared. Once a named person says yes to the revised text, they can record it with the approve command. Any further edit means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0205353,
+ "seconds": 17.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

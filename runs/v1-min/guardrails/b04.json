@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, UK, Pebblebrook Tea Co.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"malty, full-bodied black tea that stands up to milk\": product/flavour description, fine as written.\n   - \"100g tin, makes around 40 cups\": product fact (size, brewing yield), fine as written, and \"around\" keeps it appropriately hedged.\n   - No invented stats, testimonials, rankings or guarantees.\n\n2. **Regulated claims:** No health, money, legal, environment, children or price claims. Pass. \"Certified organic\" is backed by the policy's certification entry.\n\n3. **House style:** No banned words or AI tells. Short, concrete, plain. Pass.\n\n4. **Disclosure:** Own product page, not an ad, sponsorship, affiliate or gifted content, and no AI-generated imagery or text requiring a label. Pass.\n\n**Fixed:** Nothing to change.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no specific approver, so the user (you) needs to give an explicit yes to this exact copy. I haven't recorded any approval. Once you confirm, the copy can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0092873,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

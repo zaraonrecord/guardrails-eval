@@ -1,0 +1,11 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Rooibos Chai product page copy**\n\n**Fine as written**\n- \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\" is an ingredient and product fact, which the product team checks.\n- \"Lovely with milk\" is plain, warm and makes no claim.\n- \"100g tin\" is a tin size, which is also a product fact.\n- There are no banned words, no health claims, no green claims, and the tone is plain and unhurried. The copy uses no US spellings.\n\n**Problem**\n- **\"Was £12, now £8.\"** This is a price-reduction claim, and nothing in the brand policy covers it. Prices and sales aren't among the checked product facts or the allowlisted claims. The policy also says there is no real offer with an end date. A \"was\" price has to be a genuine previous selling price, or it's misleading under UK pricing rules. A drop from £12 to £8 (a third off) needs confirming. Someone should check that £12 was the real price for a meaningful recent period and that the sale is actually running. If it is, Sam should approve the wording. If not, it should be removed or changed to the current price only. I've logged this as \"other\" because there is no countdown or \"today only\" wording to call urgency.\n\n**Approval:** Sam needs to sign off before anything public goes out.\n\n**Verdict:** Don't publish yet. Hold until the was/now pricing is confirmed or removed.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0131621,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

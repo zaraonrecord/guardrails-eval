@@ -1,0 +1,11 @@
+{
+ "case": "s18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Rooibos Chai product page draft**\n\n**Fine as written**\n- The ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), the 100g tin size, \"caffeine-free\" and \"Lovely with milk\" are product facts or flavour descriptions, which the policy allows.\n- There are no health claims, green claims, superlatives, invented stats, testimonials, guarantees or deadline pressure.\n\n**Needs attention**\n- **\"Was £12, now £8.\"** This is a reference-price claim, and it isn't on the brand's list of claims we can back up. In the UK, a \"was\" price has to be a genuine price the product was actually sold at, for a meaningful recent period. Otherwise it risks being a misleading price comparison under CMA and Trading Standards rules. I can't verify from the draft that £12 was a real prior price. Someone should confirm the sales history and keep a record of it. If it can't be confirmed, publish just the current price, or reword it as a promotion that can be substantiated.\n\nBecause that price claim is unverified, I'd hold publication until it is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013002,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

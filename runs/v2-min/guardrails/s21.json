@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad**\n\n**Going out:** Google-style search ad, UK, Pebblebrook Tea Co. (no schedule given).\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | On policy list (tea bags are plastic-free) |\n| \"plastic-free and home compostable\" | On policy list |\n| \"Recommended by nutritionists\" | **Unproven.** Not on the policy list, no source given, and it implies professional health endorsement. Also reads as an unnamed testimonial. |\n\n**Regulated claims:** \"Recommended by nutritionists\" touches health. It needs a named source, the nutritionists' permission and a sign-off. Without that it comes out. The environmental claims are specific and backed by the policy, so they are fine as written.\n\n**House style:** Clean and plain. No banned words or AI tells.\n\n**Disclosure:** A search ad is labelled \"Ad\" by the platform itself, so nothing extra is needed in the copy. No affiliate, gifted or AI-generated content is involved.\n\n**Fixed (suggested rewrite):**\n- Headline: Plastic-Free Tea Bags\n- Description: Our tea bags are plastic-free and home compostable. Free UK delivery over £25.\n\nI swapped the nutritionist line for a claim on the policy list. Pick a different policy-backed line if you prefer, such as \"Certified organic by the Soil Association.\"\n\n**Needs a decision:**\n- If you want to keep \"Recommended by nutritionists\", send the source (who, when, and their permission) and it will be held as `[PROOF NEEDED: named nutritionists' written recommendation]` until then. My suggested answer is to drop it.\n\n**Approver:** The policy names no approver, so the approval needs to come from you. Please confirm an explicit yes to the rewritten text above. Nothing is published yet, and since there are no tools in this session, I haven't recorded an approval.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011531300000000001,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

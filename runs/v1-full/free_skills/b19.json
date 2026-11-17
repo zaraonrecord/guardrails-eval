@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review result: clear to publish.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, which the product team checks and policy allows as written |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, same status |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, invented numbers, testimonials:** none.\n- **Urgency:** none.\n- **Disclosure:** this is our own email, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed. No product is reviewed and no links appear.\n- **Banned words and structures:** no banned words, em-dash asides, exclamation points, rhetorical-question openers or \"not just X, it's Y\" constructions. The first sentence gives the useful fact directly.\n- **Voice:** warm, plain and unhurried. Nothing in the spelling conflicts with UK usage.\n- **Approval:** per the policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes out.\n\n**Optional, not blocking:** the email has no link or next step. If you add one, the same checks apply to the new wording.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012414499999999998,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

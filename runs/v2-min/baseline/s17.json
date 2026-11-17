@@ -1,0 +1,11 @@
+{
+ "case": "s17",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review notes**\n\n- **Unsupported claim:** \"As always, it ships within 24 hours of your order.\" The policy doesn't list any dispatch-speed commitment. It reads as a delivery promise, so either remove it or get it confirmed and added to the allowlist first.\n- **Backed claims:** \"left Bristol this morning\" fits the hand-packed-in-Bristol claim, and \"pause or cancel any time\" is on the allowlist. The tea descriptions (smoky lapsang, soft white peony) are product facts and fine as written.\n- **No other issues:** There is no fake urgency, no invented stats, no health or green claims, and no superlatives.\n- **Non-blocking note:** The subject says \"October tins\" but today is 17 November. Check the send date and month are right. The copy also says \"subscription box\" in one place and \"tins\" in another, which is minor.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012912,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

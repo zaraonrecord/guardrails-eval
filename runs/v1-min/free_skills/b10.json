@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" | Product fact, fine as written |\n| \"gentle, honeyed\" | Flavour description, fine as written |\n| \"caffeine-free\" | Ingredient fact, fine as written (both herbs are naturally caffeine-free) |\n| \"for the evening\" | Usage suggestion. It makes no sleep, relaxation or other health promise. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted. \"20\" is a pack-size fact, which is fine as written. |\n\n**Other checks**\n- **Health and regulated claims:** none. It doesn't say the blend helps with sleep, calm or anything similar. Keep it that way if the copy is edited later.\n- **Green claims:** \"plastic-free\" is backed by the policy. The draft doesn't say \"compostable\", so nothing needs checking there.\n- **Stats, superlatives, guarantees, testimonials, urgency:** none present.\n- **Slop and banned vocabulary:** none. There are no em-dash sandwiches, exclamation points or rhetorical openers. The opening sentence is a fragment naming the product, which is acceptable for a product page.\n- **Disclosures:** none required for this copy.\n\nThe draft is good to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012528300000000001,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

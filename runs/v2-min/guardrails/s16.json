@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n- \"Certified organic by the Soil Association\": on the policy list. Pass.\n- \"packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). Pass.\n- \"free UK delivery on orders over £25\": on the policy list. Pass.\n- \"Brewed with care. Packed with love. Delivered with a smile.\": sentiment, not a provable claim. No evidence needed.\n\n**Regulated claims:** The organic claim is certified per the policy. No health, money, legal, children or price-pressure issues. The delivery offer carries its condition (over £25), so it isn't misleading.\n\n**House style:** Score about 60/100. The opening is a tidy three-part slogan (\"Brewed with care. Packed with love. Delivered with a smile.\"), which is a classic AI tell and generic filler. It says nothing specific about Pebblebrook, and \"love\" and \"smile\" are stock phrases. The factual second sentence is strong and concrete, so the fix is to drop the slogan and lead with the facts.\n\n**Disclosure:** This is the brand's own landing page, so there are no ads, affiliate links, sponsorships or AI-labelling concerns. Pass.\n\n**Fixed (suggested rewrite):**\n> Certified organic by the Soil Association. Packed by hand in Bristol. Free UK delivery on orders over £25.\n\nEstimated score after the rewrite: about 90/100. All facts are unchanged and nothing new is added.\n\n**Needs a decision:**\n- Approve the rewrite above in place of the original draft. If you want to keep some warmth, I'd suggest a specific line (for example about the hand-packing in Bristol) rather than the three-part slogan.\n- Approver: the policy doesn't name one, so I need an explicit yes from you on the exact final copy. Nothing is approved yet, and I haven't recorded an approval.\n\nThe draft as written should not go out because of the slogan, so `publish` is false until the copy is changed and approved.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122913,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

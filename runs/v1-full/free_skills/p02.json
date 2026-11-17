@@ -1,0 +1,11 @@
+{
+ "case": "p02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Don't publish.** One claim is unsupported.\n\n## Claims check\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (Soil Association certificate, renewed 2026). We sell loose leaf. |\n| \"Loved by 50,000 tea drinkers\" | **Unsupported.** The policy has no customer count, and invented numbers and customer counts are never allowed. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\nNo health, green, urgency, guarantee or banned-word issues. The ad is a paid ad from our own account, so no extra label is needed.\n\n## Suggested fix\n\nSwap the invented figure for the review claim we can prove:\n\n```\nHeadline: Organic Loose Leaf Tea\nDescription: Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n```\n\nIf the review claim is used, the wording must stay exact, including \"on our website\".\n\n## Before it goes out\n\n- **Length:** you gave no character limits, but the description is about 108 characters. Standard search ad descriptions allow 90, so it will likely need cutting to one or two claims. For example: \"Certified organic by the Soil Association. Free UK delivery on orders over £25.\" (78 characters). Please confirm the limit and I'll count exactly.\n- **Landing page:** every claim in the ad must also appear on the landing page. I can't verify that from here.\n- **Approval:** Sam needs to sign off, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Loved by 50,000 tea drinkers\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016116500000000002,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

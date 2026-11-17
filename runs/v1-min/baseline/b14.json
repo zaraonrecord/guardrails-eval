@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted |\", so the free product is clear before anyone reads on. That is enough for a gifted creator post in the UK. \"Not paid to say that, just liked it\" is consistent with a gift and doesn't hide the arrangement.\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims or urgency. The remark about the rooibos chai with oat milk is the creator's own opinion of flavour, which the policy allows.\n- **Testimonial:** It reads as a genuine personal view of a product the creator received, not an invented quote.\n- **Tone:** It is short and natural, with no AI-style filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.01023,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

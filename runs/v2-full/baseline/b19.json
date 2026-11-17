@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** It makes no superlatives, guarantees, health claims, environmental claims, statistics, testimonials or urgency. The brewing guidance (a mug, a small sieve, four minutes for black tea, shorter and cooler for green) counts as product guidance the product team has already checked.\n- **Disclosure:** This is our own email, so it needs no \"Ad\", \"Gifted\" or \"Affiliate link\" label.\n- **Voice:** It is warm, plain and unhurried, and it uses none of the banned words or phrases. There is nothing in it that needs UK spelling changes.\n\nUnder the brand policy, Sam (marketing lead) approves everything public, so it still needs his sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0064423,
+ "seconds": 7.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

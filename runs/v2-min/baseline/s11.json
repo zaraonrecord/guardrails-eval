@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "The draft needs one change before it goes out.\n\n**Problem**\n- **\"while stocks last\"** is unsupported urgency. Our approved claim is free UK delivery on orders over £25, with no stock limit or end date. Tying the offer to dwindling stock suggests scarcity we can't back up, and delivery isn't stock-dependent anyway. Remove the phrase, or confirm a real, documented limit first.\n\n**Checked and fine**\n- **Free UK delivery on orders over £25:** matches the allowlist exactly.\n- **The three teas (Builder's, Earl Grey, peppermint) and \"after lunch\":** product and flavour descriptions are fine as written.\n- **Disclosure:** this is the brand's own account, so no extra ad label is needed.\n- **Other claims:** there are no invented stats, superlatives, guarantees, testimonials, health or green claims, and nothing in the copy reads as filler.\n\n**Suggested fix:** \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012355999999999999,
+ "seconds": 16.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

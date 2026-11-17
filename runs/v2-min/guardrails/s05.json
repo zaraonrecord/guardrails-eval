@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: search ad\n\n**Going out:** Google-style search ad for the UK, promoting the monthly loose leaf subscription.\n\n**Checks**\n- **Claims:** One problem.\n  - \"Monthly loose leaf tea\" is a product fact, so it's fine.\n  - \"Free UK delivery on orders over £25\" is on the policy list, so it's fine.\n  - \"If your box isn't right, we'll make it right\" is an unbacked guarantee. The policy only supports \"pause or cancel any time\". It says nothing about remedies, replacements or refunds. The wording is vague, but readers will take it as a promise of a fix or refund.\n- **Regulated claims:** The ad has no health, money, environment, children or pricing issues. The £25 threshold is stated clearly, so the delivery offer isn't misleading.\n- **House style:** The copy is plain and short, with no banned words or AI tells.\n- **Disclosure:** Nothing is needed in the copy. The search platform labels the ad as sponsored, and there are no affiliate links, endorsements or AI-generated content.\n\n**Fixed:** Nothing changed yet, since the fix is a wording choice for you.\n\n**Needs a decision**\n- Remove the guarantee line, or confirm the team really has a \"we'll make it right\" policy and add it to the claims list with the exact terms. My suggested replacement uses a claim we can already back up:\n  > Headline: Tea Subscription UK | Description: Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you, or whoever signs off ads on your team, for the final wording. I haven't recorded any approval, and the ad shouldn't go live until it's given.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014223300000000001,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

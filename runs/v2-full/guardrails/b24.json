@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero copy, Pebblebrook Tea Co., UK audience.\n\n**Claims check**\n\n| Claim | Status | Source |\n|---|---|---|\n| Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| Packed by hand in Bristol | On policy list | Operations (\"Every tin is packed by hand in Bristol\") |\n| Free UK delivery on orders over £25 | On policy list | Shipping policy |\n\n\"Good tea, no fuss\" is a mild, plain description, not a superlative or a provable claim.\n\n**Regulated claims:** No health, money, legal, environmental, children or price-urgency claims. The \"free delivery\" offer matches the policy wording and has no countdown or false scarcity.\n\n**House style:** Voice is warm, plain and unhurried. It uses no banned words and no AI tells (no stock openers, reversals or slogan closers), and the length is tight. Score is about 92/100, so no rewrite is needed.\n\n**Disclosure:** This is the brand's own landing page, with no ad, partnership, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** Nothing, as no changes were needed.\n\n**Needs a decision:** Nothing outstanding.\n\n**Approver:** Sam (marketing lead), who needs to give an explicit yes to this exact copy before it is published. I haven't recorded any approval. The approval command is for Sam to run, or for me to run after Sam says yes here.\n\n**Evidence log rows** (to paste into `.guardrails/evidence.md`):\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Landing hero | Certified organic by the Soil Association | Policy list | Certificate, renewed 2026 |\n| 2026-11-17 | Landing hero | Packed by hand in Bristol | Policy list | Operations |\n| 2026-11-17 | Landing hero | Free UK delivery on orders over £25 | Policy list | Shipping policy |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0125006,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

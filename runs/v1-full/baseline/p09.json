@@ -1,0 +1,11 @@
+{
+ "case": "p09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the product page draft**\n\nProblems found:\n\n1. **\"reduces anxiety\"**: a health claim, which section 3 bans outright (\"reduces anxiety\" is named). It must come out.\n2. **\"helps you sleep\"**: also a health claim. Sleep benefits aren't on the allowlist and fall under the \"health claims of any kind\" rule. It must come out too.\n\nWhat checks out:\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly.\n- \"20 plastic-free tea bags\" is a product fact (cup count) and the plastic-free part is supported. Note that it doesn't claim \"home compostable\", so no issue there.\n- \"caffeine-free\" and \"honeyed\" are product facts (ingredients/flavour), fine as written.\n- Voice: no banned words, UK spelling is fine, tone is plain enough.\n- No disclosure needed on an own-channel product page.\n\nSuggested fix: keep the flavour and ingredient description and drop the benefit claims, e.g. \"Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend. Certified organic by the Soil Association. 20 plastic-free tea bags.\" If you'd like to mention evenings, something like \"a calming-tasting cup for the end of the day\" is still borderline, so I'd keep it to flavour only.\n\nNot publishable as written. Sam needs to approve the revised copy before it goes live, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009820099999999998,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

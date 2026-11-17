@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Assam Breakfast product page**\n\n**Going out:** Product page copy for Assam Breakfast, Pebblebrook Tea Co. website.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list (certificate on file, renewed 2026). Pass.\n   - \"A malty, full-bodied black tea that stands up to milk\": flavour and brewing description, a product fact the product team covers. Pass.\n   - \"100g tin, makes around 40 cups\": tin size and cup count, a product fact covered by the product team. Pass. \"Around\" keeps it appropriately hedged.\n\n   | Claim | Status | Source |\n   |---|---|---|\n   | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n   | Malty, full-bodied, stands up to milk | Product fact | Product team |\n   | 100g tin, around 40 cups | Product fact | Product team |\n\n2. **Regulated claims:** No health, money, legal, environmental, children or price claims. Pass.\n\n3. **House style:** Voice is plain and warm enough, UK spelling, no banned words, no AI tells (no stock openers, reversals or slogan closers). Score about 88. The fragments are short but fit a product page. Pass, no rewrite needed.\n\n4. **Disclosure:** First-party product page, no sponsorship, affiliate link, gifted product or AI-labelled imagery. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead), per the policy. Please ask Sam for an explicit yes to this exact copy. Once Sam has said yes, record it in your own terminal with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Assam Breakfast product page\"`\nThe approval lasts 15 minutes and covers one publish. I haven't recorded any approval, and I can't do so on Sam's behalf.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009939299999999998,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

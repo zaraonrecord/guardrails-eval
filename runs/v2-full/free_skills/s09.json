@@ -1,0 +1,11 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | **Unsupported.** This is a digestive health claim, and the brand policy bans health claims of any kind. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording |\n\n**Other checks**\n- **Slop and voice:** no banned words or structures, and the tone is plain and unhurried.\n- **Disclosure:** none needed. This is our own product page, not a creator post or affiliate link.\n- **Approval:** Sam needs to sign off on the revised copy before it goes live.\n\n**Suggested compliant version**\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh-tasting, lovely after a big meal. Certified organic by the Soil Association.\n\n\"Lovely after a big meal\" is a serving suggestion rather than a effect on the body. If you'd rather avoid any link to digestion, drop that phrase and end on \"Cool, clean and fresh-tasting.\"\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114145,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

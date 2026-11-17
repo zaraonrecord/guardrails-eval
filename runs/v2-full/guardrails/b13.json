@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post for Pebblebrook Tea Co. (UK). Channel and timing weren't given.\n\n**Checks**\n- **Claims:** one factual claim, \"Their tins are packed by hand in Bristol\". It matches the policy row \"Every tin is packed by hand in Bristol\" (Operations). Assam is a product fact, so it's fine as written. \"Afternoon reset\" and \"ten minutes away from my phone\" describe the creator's routine and make no health or wellbeing promise.\n- **Regulated claims:** nothing on health, money, legal outcomes, the environment, children or prices. \"Reset\" is lifestyle language, not a treatment or relaxation claim, so it passes.\n- **House style:** the voice is warm, plain and unhurried. It has no banned words and no AI tells, such as stock openers, tidy triplets, \"not X, it's Y\" or slogan closers. UK spelling isn't tested by this text, and nothing conflicts with it. Score is about 92/100, so no rewrite is needed.\n- **Disclosure:** the post opens with \"Ad\", before anything else, as policy section 4 requires. For a UK paid partnership I'd also switch on the platform's own paid-partnership label, if the channel has one.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** nothing unresolved.\n\n**Approver:** Sam (marketing lead). This exact text needs Sam's explicit yes before it goes live. My review doesn't count as approval, and I haven't recorded one.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122839,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Subscribers can pause or cancel any time.\"** Matches the allowlist wording exactly (subscription terms).\n- **\"Free UK delivery on orders over £25.\"** Matches the allowlist wording exactly (shipping policy).\n- **\"Monthly loose leaf tea.\"** This is a product fact, which is fine to use as written. We sell loose leaf tea by monthly subscription.\n- **\"Tea Subscription UK\"** is a plain keyword headline. It makes no claims, uses no banned words, and the spelling is UK.\n- **Disclosure:** This is a paid social/search ad from our own account, so there is no partnership or affiliate label to add.\n- **Voice:** It's plain and has no banned phrases. It is terse, but that's normal for a search ad.\n\nSam (marketing lead) still needs to approve it before it goes live, as with everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0056221,
+ "seconds": 7.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

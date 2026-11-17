@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Blog intro, Pebblebrook Tea Co. website. No send time given.\n\n**Checks**\n- **Claims:** Passed.\n  - \"Founded in Bristol in 2019\" is on the policy list (Companies House).\n  - \"Plastic-free and home compostable\" matches the policy wording exactly (supplier certificate, EN 13432).\n- **Regulated claims:** The environmental claim is the only one that applies, and it's the specific, approved version. There is no general \"eco-friendly\" or \"sustainable\" wording.\n- **House style:** About 92/100. The tone is warm, plain and unhurried, with no banned words and no AI tells. I changed nothing.\n- **Disclosure:** Nothing needed. It's the brand's own blog with no ad, partnership, affiliate link or gifted product.\n\n**Fixed:** Nothing.\n\n**Needs a decision (not blocking):**\n1. \"Here's how we checked\" promises an explanation, so the body must deliver it. It should point to the supplier certificate (EN 13432), not imply in-house testing, since the certificate is our only proof.\n2. The reason for starting the company (\"because we couldn't find tea bags without plastic in them\") isn't in the policy list. It's an origin story rather than a product claim, so I'd treat it as fine if Sam confirms it's true.\n3. EN 13432 is usually associated with industrial composting, while \"home compostable\" normally refers to a separate home-composting standard. The policy approves the wording, so I haven't flagged it as an issue. It may be worth asking the team to confirm the certificate covers home composting, since regulators scrutinise green claims.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Please get an explicit yes from Sam on this exact text, and on the full post if the body is written separately.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0176255,
+ "seconds": 15.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

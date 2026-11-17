@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "I checked the draft against the claims allowlist, the slop rules and the review-honesty rules.\n\n**Claims list**\n- \"visited the garden in Darjeeling that grows our first flush\": origin and sourcing fact, fine as written under the brand policy.\n- \"leaves are picked in March\": product fact (origin and harvest), fine.\n- \"taste bright and floral\": flavour description, fine.\n- \"in the shop from Monday\": new arrival, fine. It is a launch date, not fake urgency or scarcity.\n\n**Other checks**\n- No numbers, comparisons, superlatives, guarantees, testimonials, review counts or awards.\n- No health, green or regulated claims.\n- No ban-list words, em-dash sandwiches, exclamation points, rhetorical openers or \"not just X, it's Y\" constructions.\n- The opening sentence carries a concrete fact.\n- No affiliate links, sponsorship or gifted products, so no disclosure is needed. This is our own product, not a third-party review.\n\nNothing needs changing. One note for the sender: \"Monday\" is relative, so confirm it matches the send date.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0086261,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

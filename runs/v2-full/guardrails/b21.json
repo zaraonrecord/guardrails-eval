@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: About page\n\n**Going out:** About page copy, three sentences, public.\n\n**Checks**\n- **Claims:**\n  - \"founded in Bristol in 2019\" is on the policy list (Companies House).\n  - \"every tin is packed by hand in Bristol\" is on the policy list (Operations).\n  - \"a small team of six\" is a product fact the product team checks, so it's fine as written.\n  - **\"We buy from gardens we've visited\"** is not on the policy list and has no source in this chat. It's a factual claim about sourcing practice that nobody has confirmed, and it would be easy to challenge if it's only true for some of the teas.\n- **Regulated claims:** nothing on health, money, legal outcomes, environment, children or prices.\n- **House style:** warm, plain and short, with no banned words or AI tells. Nothing to change.\n- **Disclosure:** no ad, partnership, affiliate link or AI-labelling issue.\n\n**Fixed:** nothing. I haven't changed the copy, because the open question is a fact only your team can confirm.\n\n**Needs a decision**\n- \"We buy from gardens we've visited.\" Can someone confirm it's true for every tea you sell? Options:\n  - If it is true, send me the source and add it to section 2 of the policy.\n  - If it's only true for some teas, narrow it to what's true, for example \"We buy from gardens our team has visited\" (only if that's accurate).\n  - If you can't confirm it, remove it. The page works without it.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the final wording before it goes live. Any change to the sourcing line means a fresh check.\n\n**Verdict:** hold until the sourcing line is resolved.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012499199999999999,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

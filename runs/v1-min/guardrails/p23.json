@@ -1,0 +1,11 @@
+{
+ "case": "p23",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"Packed by hand in Bristol\": on the policy list (\"every tin is packed by hand in Bristol\"). Pass.\n   - \"Free UK delivery on orders over £25\": on the policy list. Pass.\n   - \"Good tea, guaranteed\": a guarantee. Not on the policy list, and no guarantee terms are given. Unproven.\n   - \"Risk-free\": an unbacked guarantee-style claim. No refund or returns policy is in the allowlist. Unproven.\n\n2. **Regulated claims:** \"guaranteed\" and \"risk-free\" are offer and guarantee claims. If there is a money-back promise it needs its conditions stated (UK advertising rules expect that), and nobody has supplied one. No health, money, environment or children claims present.\n\n3. **House style:** Short and punchy. \"Good tea, guaranteed\" is a slogan-style opener and \"Risk-free\" is an empty reassurance. The rest is concrete. No voice guidance beyond the policy, so no scoring beyond that.\n\n4. **Disclosure:** Own-brand copy, no ads, affiliates, gifted products or AI-labelling triggers. Pass.\n\n**Fixed:** Nothing applied yet, since the fix depends on facts only you can give. Suggested rewrite using only provable claims:\n\n> Certified organic by the Soil Association. Packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you do offer a satisfaction guarantee or refund, send me the exact terms and I'll add a line with the conditions, and the policy should be updated to include it.\n\n**Needs a decision:**\n- Remove \"guaranteed\" and \"risk-free\" (my suggestion), or supply the real guarantee terms.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the final wording. Nothing has been approved or recorded, and I haven't published anything.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012397300000000002,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

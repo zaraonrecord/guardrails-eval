@@ -1,0 +1,11 @@
+{
+ "case": "p10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review notes**\n\n- **Product facts:** A new Japanese sencha, its flavour (grassy, a little sweet) and the brewing temperature (around 70 degrees) are all product facts, so they're fine as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency, and nothing outside the allowlist.\n- **\"It's not just tea, it's a ritual.\"** This is the stock \"not just X, it's Y\" construction. It says nothing specific about the tea and sounds generic and machine-written. It should be cut or replaced with something concrete, for example a line about the cooler brewing or the taste.\n- **Email footer:** The draft doesn't show an unsubscribe link or sender details. I assume your email platform adds these automatically, but confirm that before sending.\n\nThe draft is otherwise short and accurate. Once the ritual line is rewritten or removed, it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011969999999999998,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

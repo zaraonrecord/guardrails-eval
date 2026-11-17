@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** Three things need to change or be confirmed.\n\n**Product label (honest-review rules)**\n- Pebblebrook is not labelled Owned, Tried or Wishlist. \"Pebblebrook's was the easiest to pause\" and \"the tins are lovely\" are hands-on claims, so they only stand if the writer owned or tried it. I need the label, and for Tried, how and for how long.\n- \"I've tried four tea subscriptions this year\" is a first-person claim I can't verify. The writer should confirm it's true.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"I've tried four tea subscriptions this year\" | Writer's own experience, needs confirming |\n| \"easiest to pause\" | Unsupported. This is a comparative superlative. The allowlist only backs \"Subscribers can pause or cancel any time\". |\n| \"the tins are lovely\" | Opinion, fine if the writer owns or has tried it |\n| \"Affiliate link\" | Present next to the link, as the brand policy requires |\n\n**Disclosure**\n- The review rules require the affiliate declaration at the top of the post, in plain words, before the first link. The draft only has \"(Affiliate link)\" after the link, so the opening needs a disclosure.\n- If the product was gifted or the post is paid, the post must start with \"Gifted\" or \"Ad\" before anything else. Please confirm which applies.\n\n**Compliant version (assuming the writer has actually used it)**\n\n> This post contains an affiliate link, so I may earn a commission if you buy through it.\n>\n> I've tried four tea subscriptions this year. Pebblebrook's let me pause whenever I wanted, and the tins are lovely. You can find it here (Affiliate link).\n\nReplace \"let me pause whenever I wanted\" with what really happened. That wording matches the allowlisted claim that subscribers can pause or cancel any time. If the writer can't back up \"easiest\" from direct comparison, it stays out.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0191666,
+ "seconds": 16.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

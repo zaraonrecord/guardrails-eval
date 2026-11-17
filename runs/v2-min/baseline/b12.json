@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Free UK delivery on orders over £25:** this is on the claims allowlist and is worded the same way, so it's fine.\n- **Product facts:** Builder's, Earl Grey and peppermint are product descriptions. \"For after lunch\" is a serving suggestion, not a health claim (it doesn't say the tea aids digestion).\n- **Superlatives, stats, guarantees, testimonials, urgency, green claims:** none appear.\n- **Disclosure:** this is a social ad on the brand's own account, so no extra label is needed.\n- **Tone:** it's short and specific, with no filler or generic AI phrasing.\n\nNothing needs changing. It's ready to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0049673,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

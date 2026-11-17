@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: no changes needed. This is clear to publish, subject to Sam's sign-off.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Descriptive, not a claim. The brand sells in the UK by subscription. |\n| \"Monthly loose leaf tea.\" | Product fact, fine as written. |\n| \"Subscribers can pause or cancel any time.\" | Allowlisted, exact wording (subscription terms). |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers:** none.\n- **Voice and slop:** no banned words, no em-dashes, no exclamation points, no rhetorical-question opener. It's plain, which fits the brand voice.\n- **Disclosure:** this is a paid ad from the brand's own account, and the platform marks it, so no extra label is needed.\n- **Landing page match:** both the pause/cancel and free-delivery claims need to appear on the landing page, so confirm that before launch.\n- **Length:** you gave no character limit. The description is 102 characters, and the headline is 19. If this goes into a Google RSA, descriptions are capped at 90 characters, so it would need trimming (for example, dropping \"Monthly loose leaf tea.\" to the headline or shortening it).\n- **Approval:** the policy requires Sam to approve all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0149625,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

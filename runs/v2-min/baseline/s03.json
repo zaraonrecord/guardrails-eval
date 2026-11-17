@@ -1,0 +1,11 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Assam Breakfast product page copy**\n\n**Problem: \"noticeably smoother than supermarket tea bags\"**\nThis is a comparative claim against competitors. It isn't on the list of claims we can back up, and nothing in the brand policy supports it. \"Noticeably\" also presents it as an objective fact rather than a matter of taste. Either remove it or replace it with a plain flavour description, such as \"smooth, malty and full-bodied\". If we want to keep a comparison, we'd need evidence such as a taste test first.\n\n**Fine as written:**\n- \"A malty, full-bodied black tea\" is a flavour description, which is a permitted product fact.\n- \"Certified organic by the Soil Association\" is on the allowlist.\n- \"100g tin, makes around 40 cups\" is a size and brewing fact, and \"around\" keeps it appropriately hedged.\n\nThere are no issues with urgency, health claims, green claims, testimonials, or invented stats. The copy should be revised and re-checked before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.01099,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

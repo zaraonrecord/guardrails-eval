@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"Packed by hand in Bristol\"** matches the allowed claim that every tin is packed by hand in Bristol.\n- **\"Free UK delivery on orders over £25\"** matches the allowlist exactly, including the threshold.\n- **\"Brewed with care. Packed with love. Delivered with a smile.\"** is a warm, generic tagline. It makes no statistic, guarantee, health, environmental or comparative claim, so it doesn't need to be stopped. It's a bit stock, but that's a style choice and not a compliance issue.\n- **Other checks:** the draft has no invented numbers, superlatives, testimonials, urgency, health or green claims, and it doesn't leave out any required disclosure. The copy is UK-appropriate.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

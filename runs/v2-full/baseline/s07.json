@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the product page draft**\n\n1. **\"to help you wind down and sleep better\"**: This is a health claim. Policy section 3 bans health claims of any kind, and a sleep benefit falls under that. It should be removed or replaced with a plain description of the tea, such as flavour or when people like to drink it, without promising an effect.\n\n2. **\"Certified organic by the Soil Association\"**: This matches the allowlist wording exactly, and the certificate is on file and renewed for 2026. Fine.\n\n3. **\"20 plastic-free tea bags\"**: The count is a product fact, and \"plastic-free\" is covered by the allowlist. Fine.\n\n4. **\"gentle, honeyed caffeine-free blend\"**: This is a flavour and ingredient description, so the product team covers it. Fine. (Worth confirming the \"honeyed\" note refers to flavour rather than added honey, but that is a product-team check, not a policy issue.)\n\n5. **Voice and spelling**: The copy is plain and has no banned words. UK spelling is fine.\n\n**Suggested rewrite:** \"Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, lovely in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\"\n\nIt needs Sam's approval before going out, as all public content does. Do not publish until the sleep claim is changed.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009382099999999999,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

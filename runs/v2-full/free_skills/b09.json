@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (supplier certificate, EN 13432) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n| \"Founded in Bristol in 2019.\" | Allowlisted (Companies House) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, urgency, invented numbers:** none.\n- **Green claims:** only the allowlisted plastic-free and home compostable wording. No \"eco-friendly\" or \"sustainable\".\n- **Voice and slop:** no banned words, no rhetorical opener, no exclamation points, no em-dashes. Plain and UK-appropriate.\n- **Character counts:** the headline is 21 characters and the description is 79. Both fit the usual search limits (30 and 90), though you didn't give me limits to check against.\n- **Disclosure:** this is our own paid search ad, so no extra label is needed.\n\n**Before it goes out**\n- Make sure the landing page also states the plastic-free and home compostable claim, since an ad shouldn't make a claim the page doesn't.\n- Sam needs to approve it, as with all public content.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0126519,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

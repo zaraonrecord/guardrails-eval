@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, and the draft says \"on our website\" as the policy does |\n| Organic | Allowlisted (certified organic by the Soil Association) |\n| Loose leaf | Product fact, fine |\n| Plastic-free bags | Allowlisted (tea bags are plastic-free) |\n| Packed by hand in Bristol | Allowlisted (every tin is packed by hand in Bristol) |\n\n**Slop check:** No banned words, no em-dashes, no exclamation points, no rhetorical opener, no fake urgency. The first sentence leads with a concrete fact.\n\n**Other checks:** There are no superlatives, guarantees, testimonials, health, or green claims beyond the allowlisted plastic-free one. The draft doesn't say \"compostable\", so it doesn't overreach there.\n\n**One note, not a blocker:** The allowlist says every *tin* is packed by hand. The sentence could be read as covering the bags too. If the bags aren't packed by hand in Bristol, change it to something like \"Organic loose leaf, packed by hand in Bristol, and plastic-free tea bags.\" If they are, it's fine as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0119621,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

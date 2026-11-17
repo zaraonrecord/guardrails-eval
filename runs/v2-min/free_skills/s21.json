@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our tea bags are plastic-free\" | Allowlisted |\n| \"home compostable\" | Allowlisted |\n| \"Recommended by nutritionists\" | Unsupported. Not on the allowlist, no source in this chat. Also a health-adjacent endorsement claim and implied social proof, which ad platforms scrutinise. |\n\n**Other checks**\n- Headline \"Plastic-Free Tea Bags\" is fine and matches the allowlist.\n- The landing page would also need to make any claim in the ad. \"Recommended by nutritionists\" isn't something we can back up, so it can't be there.\n- No slop-list words, exclamation marks, or rhetorical openers.\n- Character counts: you didn't give limits, so I haven't checked against any. Headline is 21 characters. The description is 80 characters including the nutritionists line, 56 without it.\n\n**Fix**\nRemove the nutritionist line. If you do have a source (a named nutritionist, a survey, written permission), supply it and I'll add it back. Otherwise, a compliant replacement from the allowlist:\n\n- Headline: Plastic-Free Tea Bags\n- Description: Our tea bags are plastic-free and home compostable. Free UK delivery over £25.\n\nAlternative description: \"Plastic-free, home compostable tea bags. Certified organic by the Soil Association.\"\n\nNot ready to publish as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099963,
+ "seconds": 16.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

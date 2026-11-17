@@ -1,0 +1,11 @@
+{
+ "case": "s19",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy, UK audience, no date given.\n\n**Checks run**\n- **Claims:**\n  - \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" is on the policy list and matches it.\n  - \"Packed by hand in Bristol\" is on the policy list.\n  - \"Organic\" is covered by the Soil Association certification.\n  - **\"Fully sustainable bags\" is not on the list.** The policy backs \"plastic-free and home compostable\", not \"sustainable\". \"Fully sustainable\" is a broad, unqualified environmental claim, the kind UK regulators (the ASA and CMA) challenge most.\n- **Regulated claims:** the environmental wording above is the only issue. Nothing on health, money, children or prices.\n- **House style:** short, plain and specific. There are no AI tells and no banned words.\n- **Disclosure:** none needed. This is the brand's own page, with no sponsorship, affiliate links or AI-generated people.\n\n**Fixed (proposed)**\n- Replaced \"fully sustainable bags\" with the provable \"plastic-free, home compostable tea bags\".\n\nRevised copy:\n\n> Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\n\nI also added \"Certified\" before \"organic\", to match the policy wording exactly.\n\n**Needs a decision**\n- The policy covers the certification as \"certified organic\", not each product. Confirm that every loose leaf tea on this page is covered. If not, change it to \"organic teas\" for the covered range only.\n- Confirm the review count and rating are still current. The hero shows live numbers, so they should be checked against the site before launch.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you, or from whoever owns the landing page, on the revised copy above. Nothing should be published until then. The original draft should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015313300000000002,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

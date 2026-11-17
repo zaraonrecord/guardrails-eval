@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (gifted)**\n\n**Product labels and hands-on claims**\n| Product | Label | Hands-on claim |\n|---|---|---|\n| Winter sampler (rooibos chai) | Tried/Owned (gifted, the writer drank it) | \"lovely with oat milk\" is a personal taste opinion, which is fine for a product the writer has used |\n\n**Claims check**\n- \"Gifted\" opens the post before anything else, as section 4 requires.\n- \"Pebblebrook sent me their winter sampler\" and \"rooibos chai\" are product facts and are fine to use.\n- \"Not paid to say that, just liked it\" is the writer's own statement about their opinion and doesn't conflict with the \"Gifted\" label. It's only accurate if no payment was made, so confirm that with the creator.\n- There are no numbers, superlatives, guarantees, health claims, green claims, urgency or affiliate links.\n- Voice: none of the banned words appear, and the tone is warm and plain.\n\n**Before it goes out**\n- Per section 6, Sam needs to approve it, as with all public content.\n\nNothing in the draft needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0100423,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

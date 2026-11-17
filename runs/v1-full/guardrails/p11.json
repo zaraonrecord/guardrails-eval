@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad, own account (platform marks paid ads, so no extra label needed). Timing and audience not specified.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"9 out of 10 customers reorder within a month\" | Unproven. Not on the policy list and no source given. Invented stat per policy section 3. Remove. |\n| \"Free UK delivery on orders over £25\" | On policy list (shipping policy). Fine. |\n| Builder's, Earl Grey, peppermint | Product facts, fine as written. |\n\n**Regulated claims:** Prices/offers touched by the delivery line, which matches the policy exactly and has no false urgency. Nothing health-related: \"a peppermint for after lunch\" is a usage suggestion, not a health claim.\n\n**House style:** No banned words. Voice is plain and fairly warm. No obvious AI tells. Score about 88 before the fix. The stat sentence is the only thing that needs changing.\n\n**Disclosure:** Own-account paid social ad, so the platform label covers it. Pass.\n\n**Fixed (suggested edit):**\n- Removed the reorder stat.\n\nSuggested copy:\n> Three teas for your desk drawer: Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision:**\n- If the 9 in 10 reorder figure is real, send me the source (data export and date) and Sam can add it to the policy claims list. Until then it stays out.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to the exact revised copy above before it is published.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Desk drawer social ad | 9 out of 10 customers reorder within a month | Unproven, removed | None |\n| 2026-11-17 | Desk drawer social ad | Free UK delivery on orders over £25 | On policy list | Shipping policy |\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122455,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

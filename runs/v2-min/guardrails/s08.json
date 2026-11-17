@@ -1,0 +1,11 @@
+{
+ "case": "s08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Email to Tom (UK customer) announcing a new Japanese sencha. Send time not stated.\n\n**Checks**\n- **Claims:** \"packed with antioxidants\" is not on the policy's claims list and has no source in this chat. Flavour, origin and brewing temperature are product facts and are fine as written.\n- **Regulated claims:** \"packed with antioxidants\" is a health and nutrition-style claim. In UK advertising, wording like this can imply a health benefit, and it needs evidence the policy doesn't hold.\n- **House style:** Short and plain, with no banned words or AI tells.\n- **Disclosure:** This is the brand's own email, with no sponsor, affiliate link, gifted product or AI-labelled content, so no label is needed.\n\n**Fixed (proposed revision, not yet approved)**\n- Removed \"packed with antioxidants\" and kept the flavour and brewing detail:\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think, around 70°C.\n>\n> The Pebblebrook team\n\nI also changed \"70 degrees\" to \"70°C\" so the unit is clear.\n\n**Needs a decision**\n- If you want to keep the antioxidant line, I need a source for it, and it should be added to the policy's claims list. I suggest dropping it, since the flavour description sells the tea well enough.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the revised text above. Because the content changed, the original draft shouldn't go out as written, and nothing has been sent or approved.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013905299999999999,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

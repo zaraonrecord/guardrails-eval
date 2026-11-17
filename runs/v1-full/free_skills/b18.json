@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Peppermint product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | Product fact (ingredients), fine as written. |\n| \"Cool and clean after a big meal.\" | Flavour and occasion description. It doesn't say the tea aids digestion, settles the stomach or does anything to the body, so it isn't a health claim. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording. Certificate on file, renewed 2026. |\n\n**Other checks**\n- Superlatives, guarantees, invented numbers, testimonials and fake urgency: none.\n- Green claims: none beyond the allowlisted organic certification.\n- Banned words and structures (elevate, unlock, journey, indulge, \"not just X, it's Y\", etc.): none. The voice is warm, plain and unhurried, and there's no em-dash or exclamation-point use.\n- Disclosure: not needed. This is our own product page, not a creator post or affiliate link.\n- Spelling: no UK/US issues.\n\n**Note:** keep the \"big meal\" line as a taste description. If anyone later expands it to \"aids digestion\" or \"settles your stomach\", that becomes a health claim and must be cut. Under the approval table, Sam still needs to sign off before it goes live, as with all public content.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012368500000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

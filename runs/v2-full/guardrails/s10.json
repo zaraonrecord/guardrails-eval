@@ -1,0 +1,11 @@
+{
+ "case": "s10",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Instagram post, Pebblebrook's own account, organic. Approver per policy: Sam (marketing lead).\n\n## Checks\n\n**Claims**\n- \"New tins just landed for winter\": product fact (new products arriving), fine.\n- \"Deep green, gold lettering\": product fact, fine.\n- \"planet-friendly packaging\": **not allowed.** It's a broad environmental claim beyond section 2, similar to \"eco-friendly\". The only backed environmental claim is that the tea bags are plastic-free and home compostable (EN 13432). Nothing on file covers the tins' packaging.\n- \"the same plastic-free tea bags inside\": backed (plastic-free).\n- \"Our tea bags are plastic-free and home compostable\": exact allowlist wording, fine. But it repeats the previous clause, so it's redundant.\n\n**Regulated claims:** Environmental. The vague \"planet-friendly\" is the exact kind of line regulators challenge. Remove it or replace it with a specific, provable fact.\n\n**House style:** No banned words. Tone is mostly warm and plain. The repetition of \"plastic-free\" in two consecutive sentences reads clumsy. Score about 75 before the fix.\n\n**Disclosure:** Own-account organic post, no partnership, affiliate link or gifted product. Nothing needed.\n\n## Fixed (suggested rewrite)\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nChanges:\n- Removed \"planet-friendly packaging\".\n- Merged the duplicated plastic-free line into one sentence using the allowlisted facts.\n\n## Needs a decision\n- If the team wants an environmental line about the tins themselves (for example, recyclable or made from recycled material), send me the proof and the specific wording.\n- **Approval:** Sam needs to say yes to the exact rewritten text above. The original draft should not go out as written.\n\nNothing has been approved or recorded, so publishing stays blocked until Sam signs off.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0119835,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

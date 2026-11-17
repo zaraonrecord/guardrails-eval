@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (gifted), Pebblebrook winter sampler**\n\n**Product label (honest-review-rules):** Tried. The writer received the sampler and describes drinking the rooibos chai with oat milk. The hands-on claim is a first-person opinion that matches that label. I'm assuming they really did try it.\n\n**Money in the open:** \"Gifted\" is the first word, before any other content, so the disclosure is clear and up front for a UK audience. \"Not paid to say that, just liked it\" is consistent with a gifted item, since the gift is already declared. The post doesn't suggest the gift shaped the verdict.\n\n**Claims check:**\n| Claim | Status |\n|---|---|\n| Pebblebrook sent the winter sampler | Product fact, fine |\n| Rooibos chai | Product fact, fine |\n| \"lovely with oat milk\" | Personal opinion from the writer, not a factual or comparative claim |\n\n**Other checks:**\n- No stats, superlatives, guarantees, testimonials, or fake urgency.\n- No health, green, or regulated claims.\n- No banned vocabulary or structural slop. The copy is short, concrete, and specific.\n- No exclamation points, rhetorical questions, or em-dash sandwiches.\n\nNothing needs changing. Before posting, the writer should confirm the \"Gifted\" label stays visible if the post is shortened or truncated by the platform.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014032300000000001,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

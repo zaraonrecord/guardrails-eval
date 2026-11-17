@@ -1,0 +1,11 @@
+{
+ "case": "s09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: peppermint product page copy**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool, clean\" | Flavour description, fine |\n| \"gentle on your stomach after a big meal\" | **Unsupported.** This is a digestive health benefit, which is regulated territory. It isn't on the allowlist and no source was given. In the UK, implying a tea soothes digestion can also breach health claims rules (GB Nutrition and Health Claims register). |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Slop check:** no banned words, no structural violations. The opening is short and specific.\n\n**Fix:** remove the stomach claim and keep the flavour description. Suggested version:\n\n> Peppermint. Just peppermint leaves, nothing else. Cool, clean and fresh-tasting, good after a big meal. Certified organic by the Soil Association.\n\n\"Good after a big meal\" is still a mild implication, so the safest option is to drop it and end on the flavour: \"Cool, clean and fresh-tasting.\"\n\nIf you want to keep a digestive angle, that needs a source and a compliance check first: `[PROOF NEEDED: authorised health claim or evidence for stomach/digestion benefit]`.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0118103,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

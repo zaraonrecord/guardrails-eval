@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Social ad, own account (platform labels paid ads, so no extra label is needed). Audience is UK. Timing wasn't given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" is on the policy list (shipping policy). **\"while stocks last\"** is not. It makes the delivery offer sound limited, but the shipping policy has no such limit and the policy bans urgency that isn't true. It also changes the approved claim wording.\n- **Regulated claims:** It mentions prices and offers, and \"while stocks last\" is the only risky line. There is nothing on health, the environment or children. Naming three teas and \"a peppermint for after lunch\" are product facts and make no health claim.\n- **House style:** There are no banned words, the tone is warm, plain and unhurried, and it uses UK spelling. There are no AI tells. The list of three is a literal list of products, not a rhetorical triplet. Score is about 90 once the urgency is removed.\n- **Disclosure:** Nothing needed for a paid ad from our own account (policy section 4).\n\n**Fixed (suggested edit, not yet applied to the live copy)**\n- Removed \"while stocks last\".\n\nSuggested final copy:\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision:** Only if the team wants real urgency. That would need a genuine offer with an end date added to the policy first.\n\n**Approver:** Sam (marketing lead). Please get an explicit yes on the final wording above. No approval has been recorded, so this is not cleared to publish as drafted.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014151500000000001,
+ "seconds": 15.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

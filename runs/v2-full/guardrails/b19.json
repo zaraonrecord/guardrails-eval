@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (and presumably the list), timing not stated.\n\n**Checks**\n- **Claims:** No statistics, rankings, guarantees, testimonials, or awards. \"Four minutes\" and \"green tea likes it shorter and cooler\" are brewing guidance, which the policy treats as a product fact the product team has already checked. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children, or price content. Pass.\n- **House style:** Warm, plain, unhurried. No banned words and no AI tells (no stock openers, reversals, or slogan closers). UK spelling is fine. Score is about 90. Pass. One optional note: \"Green tea likes it shorter and cooler\" is a bit vague, so adding a time and temperature would be more useful, but only if the product team supplies the figures. I haven't added any.\n- **Disclosure:** This is the brand's own email with no sponsor, affiliate link, gifted product, or AI-generated imagery. No label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead), who must approve everything public. I can't record an approval for you. Once Sam says yes to this exact text, it can go out. Any edit after approval means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007639699999999999,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

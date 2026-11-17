@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of search ad**\n\n- \"Plastic-Free Tea Bags\" (headline): fine. Matches the allowlisted claim about plastic-free bags.\n- \"Our tea bags are plastic-free and home compostable.\": exact allowlisted wording (supplier certificate, EN 13432). Fine.\n- \"Recommended by nutritionists.\": a problem. It's not on the claims allowlist, so it is an unsupported testimonial/endorsement, and it also implies a health benefit. We have no proof of any nutritionist recommending the tea. Remove it.\n\nSuggested fix: drop the last sentence. If you want a second line, use an allowlisted claim, such as \"Free UK delivery on orders over £25.\"\n\nApproval: Sam (marketing lead) needs to sign off on the revised version before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077581,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

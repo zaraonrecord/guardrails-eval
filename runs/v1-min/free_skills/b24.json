@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Good tea, no fuss\" | Soft opinion, no checkable claim. \"Good\" passes the compared-to-what test as a casual tone line, not a superlative |\n\n**Slop-guard check**\n- Ban-list words: none.\n- Structural: no em-dashes, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triad, no fake urgency.\n- Opening sentence: \"Good tea, no fuss\" is short and a little vague, but it is a brand line, not throat-clearing. Acceptable for a hero. A more concrete opener is optional, not required.\n\n**Review rules:** Not a product review, so the label and affiliate rules don't apply.\n\n**Other points**\n- The three claims are all backed by the brand policy.\n- The landing page is the channel, so the \"ad must match landing page\" rule is satisfied by definition.\n- No platform-policy flags (no health, money or personal-attribute language).\n\nNothing needs changing. The draft is publishable as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090463,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

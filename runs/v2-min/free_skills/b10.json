@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"20 plastic-free tea bags\" (plastic-free) | Allowlisted |\n| \"20 ... tea bags\" (count) | Product fact (sizes), fine as written |\n| \"caffeine-free blend\" | Product fact (ingredients). Chamomile and lemon balm are both naturally caffeine-free. |\n| \"gentle, honeyed\" | Flavour description, fine |\n| \"for the evening\" | Usage suggestion, not a sleep or relaxation promise |\n\n**Other checks**\n- **Health claims:** None. The copy doesn't say the tea helps sleep, calms, or relaxes.\n- **Green claims:** \"Plastic-free\" is on the allowlist. It doesn't overreach into \"compostable\" or \"eco-friendly\".\n- **Slop and structure:** No ban-list words, no em-dash sandwiches, no exclamation points, no rhetorical opener, and no invented stats or testimonials.\n- **Urgency, superlatives, guarantees:** None.\n- **Disclosures:** None needed for a product page.\n\nNothing needs changing. One optional point: the opening is a product name followed by description, which is fine for a product page.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103306,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

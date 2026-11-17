@@ -1,0 +1,11 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish as written. One line needs to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product), fine |\n| \"grassy, a little sweet\" | Flavour description, fine |\n| \"packed with antioxidants\" | **Unsupported.** It's a health/nutrition claim, and section 3 bans health claims of any kind. It's also not on the allowlist. |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine |\n\n**Other checks**\n- Banned words, slop and structure: no hits. No exclamation marks, em-dashes or rhetorical openers.\n- Urgency, guarantees, superlatives, stats: none.\n- Disclosure: not needed, since this is our own email and not a partnership or affiliate post.\n- Voice: warm and plain, UK spelling. Fine.\n- Approval: Sam needs to sign off, as with all public content.\n\n**Suggested fix**\n\nReplace \"packed with antioxidants\" with a flavour or origin fact from the product team, for example where the tea is grown or when it was picked. I haven't invented one, so add the real detail.\n\n> Subject: A new green tea\n>\n> Hi Tom,\n>\n> We've added a Japanese sencha to the shop. It's grassy and a little sweet, [PROOF NEEDED: origin or harvest detail from the product team], and best brewed cooler than you think, around 70°C.\n>\n> The Pebblebrook team\n\nI also changed \"70 degrees\" to \"70°C\" so the unit is clear. That's optional and not a blocker.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013894499999999999,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

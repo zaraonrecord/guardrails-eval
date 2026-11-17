@@ -1,0 +1,11 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n- **\"packed with antioxidants\"**: This is a health/nutrition claim. It isn't on the claims allowlist, and \"product facts\" cover ingredients, flavour, sizes, brewing and origins, not health benefits. Remove it or replace it with a flavour or product description, such as \"grassy, a little sweet and fresh.\"\n- **New arrival, flavour, brewing temperature and origin** (\"Japanese sencha\", \"grassy, a little sweet\", \"around 70 degrees\"): These are product facts and are fine as written.\n- **No invented stats, superlatives, guarantees, fake testimonials, green claims or fake urgency.**\n- **Tone:** The copy is short and plain, with no AI-slop phrasing.\n- **Footer:** I didn't flag the lack of an unsubscribe link or footer, since that is probably added by the email template. Check that it is there before sending, as UK marketing emails need a clear sender identity and an opt-out.\n\nFix the antioxidants line and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011996,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

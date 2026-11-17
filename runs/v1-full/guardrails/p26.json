@@ -1,0 +1,11 @@
+{
+ "case": "p26",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Paid creator post (Pebblebrook's Assam), channel: creator post, UK. No send time given.\n\n**Checks**\n- **Claims:** \"packed by hand in Bristol\" is on the policy list (Operations). The Assam, the afternoon-reset routine and the ten minutes away from the phone are the creator's own experience and product facts, so they're fine. \"The best tea in Britain\" is an unprovable superlative, and the policy never allows it. \"A proven immunity booster\" is unproven and has no source.\n- **Regulated claims:** The immunity line is a health claim. Policy section 3 bans health claims of any kind, and \"proven\" makes it worse. There is no safe rewording, so it has to go.\n- **House style:** Voice is warm, plain and unhurried, and no banned words appear. After the two claims are cut, it passes.\n- **Disclosure:** Passes. The post opens with \"Ad\", as section 4 requires for paid partnerships. Use the platform's paid-partnership tool as well, if available.\n\n**Needs a decision (blocking):** Remove both claims. Suggested final copy:\n\n> Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\n\nIf the creator wants to say more, they can describe the flavour or how they brew it, since those are product facts. Nothing should imply a health benefit or a ranking.\n\n**Evidence log rows**\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Creator post (paid) | Tins are packed by hand in Bristol | On policy list | Policy §2, Operations |\n| 2026-11-17 | Creator post (paid) | Best tea in Britain | Unproven, removed | None |\n| 2026-11-17 | Creator post (paid) | Proven immunity booster | Banned health claim, removed | None |\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. The draft as submitted can't go out. Once the creator sends the revised copy, I'll re-check it and Sam can approve that exact version.\n\n```json\n{\"issues\": [{\"quote\": \"the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018271500000000003,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

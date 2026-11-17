@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\nChecks:\n\n- **\"Monthly loose leaf tea\"**: matches what we sell (loose leaf, monthly subscription). Fine.\n- **\"Free UK delivery on orders over £25\"**: on the allowlist, worded correctly.\n- **\"Tea Subscription UK\"**: plain descriptive headline. Fine.\n- **\"If your box isn't right, we'll make it right.\"**: this is a guarantee-style promise. The policy only backs up that subscribers can pause or cancel any time. It says nothing about remedies, refunds, replacements or a satisfaction guarantee for boxes, so \"we'll make it right\" promises something we can't verify. It should be removed or replaced with the backed claim, e.g. \"Pause or cancel any time.\"\n\nNo invented stats, superlatives, health or green claims, fake urgency, or testimonials. No disclosure is needed for this format.\n\n**Verdict:** Don't publish as is. Swap the guarantee line for \"Pause or cancel any time.\" (or get the remedy policy confirmed and added to the allowlist).\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009722,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

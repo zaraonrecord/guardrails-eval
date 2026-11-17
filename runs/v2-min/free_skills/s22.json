@@ -1,0 +1,11 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea, packed by hand in Bristol | Allowlisted (every tin packed by hand in Bristol; loose leaf is a product fact) |\n| Every tin is packed by hand in Bristol | Allowlisted |\n| Certified organic by the Soil Association | Allowlisted |\n| Free UK delivery on all orders | **Unsupported.** Allowlist says free UK delivery on orders over £25 only |\n\n**Problems**\n\n1. **Delivery claim is too broad.** \"Free UK delivery on all orders\" drops the £25 threshold. This is a hard claim the brand can't back, and it would mislead customers (possible consumer-protection issue in the UK). Fix: \"Free UK delivery on orders over £25.\"\n\n2. **Repetition.** The first sentence and the second sentence both say \"packed by hand in Bristol.\" Keep one. Also, \"Every tin\" is a bit unclear since the opening line mentions loose leaf tea generally, so the second mention is the sharper one.\n\n3. **Organic claim wording.** \"Our tea is certified organic\" is slightly broader than the allowlist's \"certified organic by the Soil Association.\" If not all of the range is certified, specify which products. If all of it is, the wording is fine, but confirm.\n\n**Suggested compliant version**\n\nLoose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n\nSlop check: no ban-list words, no em-dashes, no exclamation points, no rhetorical opener. Passes once the repetition is fixed.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010996299999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

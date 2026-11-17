@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post from the brand's own account, about the new winter tins.\n\n**Checks**\n- **Claims:** \"plastic-free\" and \"plastic-free and home compostable\" match the policy row word for word (supplier certificate, EN 13432). \"New tins just landed\", the deep green colour and the gold lettering are product facts, fine as written. There are no stats, superlatives, guarantees or testimonials.\n- **Regulated claims:** No health, money or price claims. The environmental claim is the allowlisted one and goes no further than the policy.\n- **House style:** No banned words and no obvious AI tells. The tone is warm and plain. The one weakness is that the plastic-free point is made twice in three sentences, which reads as padding. This isn't blocking, and a tighter version is below.\n- **Disclosure:** Organic post on our own account, with no creator, affiliate link or gifted product. No label is needed.\n- **Urgency:** \"Just landed\" describes a real arrival, not a countdown or a scarcity claim.\n\n**Fixed:** Nothing changed in the draft. Optional tightening to drop the repetition:\n\n> New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\n**Needs a decision:** None blocking. For the team's records, EN 13432 is normally the industrial composting standard, so it's worth confirming with the supplier that the certificate covers the \"home compostable\" wording.\n\n**Approver:** Sam (marketing lead) must approve the exact final text before it is posted. I have not recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0136334,
+ "seconds": 18.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

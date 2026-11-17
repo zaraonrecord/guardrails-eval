@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"while stocks last\" | Unsupported. Implies scarcity; the policy bans urgency that isn't true, and there is no stock-limited offer in the policy. |\n| \"Three teas for your desk drawer\", \"Builder's, Earl Grey and a peppermint\" | Product facts, fine as written (assuming these are real products in the range) |\n| \"a peppermint for after lunch\" | Serving suggestion, not a health claim. Fine, as long as it isn't pitched as aiding digestion. |\n\n**Other checks**\n- Ad label: own-account paid social is marked by the platform, so no extra label is needed.\n- Banned words and slop: none found. No exclamation marks, no rhetorical opener, no em-dashes.\n- Voice: warm, plain, unhurried. UK spelling is fine.\n- Landing page: the \"free delivery over £25\" claim must also appear on the landing page (it's in the shipping policy, so check it's visible there).\n\n**Fix:** remove \"while stocks last\". Compliant version:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nSam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0094985,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

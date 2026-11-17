@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea\" | Product fact, fine |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\n**Other checks**\n- **Slop and structure:** No banned words, no exclamation points, no rhetorical opener, no fake urgency.\n- **Superlatives, stats, testimonials and guarantees:** None present.\n- **Regulated territory:** No health, money, legal or environmental claims. Nothing likely to trip ad platform policy.\n- **Landing page match:** The pause/cancel and free delivery claims must also appear on the landing page. I can't see it, so confirm before launch.\n- **Length (no limit was given):** The description is 102 characters. If this is a Google search ad, descriptions cap at 90, so it would need trimming. For example, drop \"Monthly loose leaf tea.\" or shorten it to \"Pause or cancel any time.\" The headline is 19 characters, which is fine for a 30-character limit.\n\nNothing in the copy needs changing for claims reasons.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0128483,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

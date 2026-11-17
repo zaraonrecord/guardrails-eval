@@ -1,0 +1,11 @@
+{
+ "case": "s14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** A gifted creator post about the rooibos chai from the winter sampler. The platform and timing weren't given.\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or superlatives. \"Lovely with oat milk\" is the creator's own opinion, and the rooibos chai and winter sampler are product facts. Nothing needs logging in the evidence log.\n- **Regulated claims:** There are no health, money, environmental, children's or pricing claims. This check passes.\n- **House style:** There are no banned words and no AI tells. The tone is warm and plain, and the spelling is fine. This check passes.\n- **Disclosure:** This check fails. Section 4 of the policy says a gifted post must start with \"Gifted\", before anything else. The draft opens with the product description. \"Thanks to the team for sending it over!\" comes at the end and doesn't use the required word, so it doesn't count as a label.\n\n**Fixed (suggested wording, not yet applied)**\n- Add \"Gifted\" at the very start of the post:\n\n> Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\n\n**Needs a decision**\n- If the platform has a paid-partnership or branded-content tool, the creator should also switch it on. I suggest doing so.\n\n**Approver:** Sam (marketing lead). I can't record an approval, and nobody has given one yet. Once the label is added, Sam needs to approve the final wording. The post should not go out until then.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0133875,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

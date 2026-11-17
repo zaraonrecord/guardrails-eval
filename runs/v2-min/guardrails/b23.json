@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Rooibos Chai product page copy, on the website, for UK shoppers. No go-live time was given.\n\n**Checks**\n- **Claims:** Pass. Every line is a product fact the policy allows as written: the ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), \"caffeine-free\" (rooibos is naturally caffeine-free), and the 100g tin size. \"Lovely with milk\" is a taste opinion, not a provable claim. There are no stats, rankings, guarantees, testimonials or urgency.\n- **Regulated claims:** Pass. It makes no health, money, legal, environmental, child or price claims. \"Caffeine-free\" describes the ingredients and doesn't promise any benefit. Keep it that way: don't add \"calming\", \"good for sleep\" or \"aids digestion\" later without proof.\n- **House style:** Pass. It is short and plain, with no AI tells, banned openers or padding. The policy has no voice section, so I judged it on clarity and plainness alone. Score about 90/100.\n- **Disclosure:** Pass. It is the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-label trigger.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. Optional: if the tin is sold loose leaf, you could say so, but that isn't required.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy before it publishes. Nothing is recorded as approved yet.\n\n**Evidence log rows** (paste into the team's log):\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Rooibos Chai product page | Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact | Brand policy: ingredients fine as written |\n| 2026-11-17 | Rooibos Chai product page | 100g tin | Product fact | Brand policy: sizes fine as written |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013216900000000002,
+ "seconds": 14.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

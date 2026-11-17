@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\n- **\"Tea that's easy to stop and start.\"** This is fine. The tone is warm and plain.\n- **\"Subscribers can pause or cancel any time\"** matches the allowlist (subscription terms).\n- **\"free UK delivery on orders over £25\"** matches the allowlist (shipping policy).\n- **\"means most boxes ship free\"** is a problem. The policy only backs free delivery on orders over £25. It doesn't say what share of boxes or orders meet that threshold, so \"most boxes\" is an unsupported claim about how many orders qualify. It's effectively an invented statistic. The line could also mislead subscribers if their boxes fall under £25. Cut it, or stop at the policy wording, for example: \"Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n- **Banned words, superlatives, guarantees, health or green claims, urgency, and spelling:** none found.\n- **Disclosure:** none is needed, because this is our own landing page.\n\nThis needs the one edit above and then Sam's sign-off, since Sam approves everything public.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092375,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Order-shipping email to subscriber Priya, by email, UK.\n\n**Checks**\n- **Claims:** There are no stats, rankings, testimonials or guarantees. \"Pause or cancel any time\" is on the policy allowlist. The flavours (smoky lapsang, soft white peony) are product facts, which are fine as written. \"Left Bristol this morning\" is an operational statement that fulfilment should confirm, not a marketing claim.\n- **Regulated claims:** There is nothing on health, money, legal, environment, children or prices.\n- **House style:** The tone is plain and specific, with no AI tells, banned-sounding phrases or slogan closers. Score is about 90 out of 100.\n- **Disclosure:** This is a transactional message to an existing customer, with no ad, sponsorship, affiliate link or AI-labelled content, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision (not blocking):** Today is 17 November, but the subject says \"October tins\". If this is a late or stale send, the month is wrong. Please confirm it matches the shipment, or change it to \"November\".\n\n**Approver:** The policy names no approver, so you need to give an explicit yes to this exact text before it is sent.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.029218,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

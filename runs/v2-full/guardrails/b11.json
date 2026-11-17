@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Going out:** Email to Tom announcing a new Japanese sencha, from the Pebblebrook team.\n\n**Checks**\n- **Claims:** No statistics, ratings, guarantees, testimonials or superlatives. \"Grassy and a little sweet\" and the brewing temperature (around 70 degrees) are product facts and fine as written. New products arriving is also covered as a product fact.\n- **Regulated claims:** No health, money, legal, environment, children or pricing content. Pass.\n- **House style:** Voice is warm, plain and unhurried. No banned words, no AI tells. UK spelling is not at issue. Pass.\n- **Disclosure:** Our own email about our own product. No paid partnership, gift or affiliate link. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). Publishing still needs Sam's explicit yes to this exact content. I haven't recorded any approval, and nothing should be sent until Sam gives it. The content itself is clean, so the only thing between this draft and sending is that sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006761,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

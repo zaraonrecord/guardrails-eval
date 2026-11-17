@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted\", before anything else, as section 4 requires for free product.\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or fake urgency. \"Lovely with oat milk\" is the creator's own opinion of the taste, not a brand claim. The winter sampler and rooibos chai are product facts, which the product team checks.\n- **Honesty of wording:** \"Not paid to say that, just liked it\" fits a gifted post. If this creator is also being paid, it would be wrong and the label would need to be \"Ad\".\n- **Voice:** The tone is warm, plain and unhurried, and none of the banned words appear.\n\nSam still needs to approve this before it goes out, since he signs off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071979,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

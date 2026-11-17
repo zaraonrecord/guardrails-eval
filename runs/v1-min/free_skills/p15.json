@@ -1,0 +1,11 @@
+{
+ "case": "p15",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted |\n| The finest organic loose leaf | \"Finest\" is an unsupported superlative. \"Organic\" is backed by the Soil Association certification. |\n| eco-friendly bags | Unsupported and vague. The allowlist backs \"plastic-free\" and \"home compostable\", not \"eco-friendly\". |\n| packed by hand in Bristol | Allowlisted for tins. The sentence also seems to cover the bags, which the allowlist doesn't mention. |\n\n**Fixes**\n- Cut \"finest\". Nothing on the allowlist supports a comparison, so state the certification instead.\n- Replace \"eco-friendly\" with the concrete facts: plastic-free and home compostable.\n- Make clear the hand-packing applies to the tins, or confirm it also applies to the bags.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Soil Association certified organic loose leaf in tins packed by hand in Bristol, plus plastic-free, home compostable tea bags.\"\n\n```json\n{\"issues\": [{\"quote\": \"The finest organic loose leaf\", \"type\": \"superlative\"}, {\"quote\": \"eco-friendly bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0150883,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

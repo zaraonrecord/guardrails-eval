@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Chamomile and Lemon Balm\" | Product fact (ingredients), fine |\n| \"gentle, honeyed\" | Flavour description, product fact, fine |\n| \"caffeine-free blend\" | Ingredient fact, fine. Both herbs are naturally caffeine-free. |\n| \"for the evening\" | Serving suggestion. It doesn't say the tea relaxes you or helps sleep, so it isn't a health claim. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted. The count of 20 is a product fact. |\n\n**Other checks**\n- **Superlatives, guarantees, urgency, invented numbers or testimonials:** none.\n- **Health claims:** none. There is no mention of calming, sleep, relaxation or stress.\n- **Green claims:** \"plastic-free\" stays within the section 2 wording. It makes no \"eco-friendly\" or \"sustainable\" claim.\n- **Voice:** no banned words, UK spelling, and the tone is plain and warm.\n- **Disclosure:** this is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\nOne optional point: the draft is a bit terse. If you add copy later, keep \"relaxing\" and \"helps you sleep\" out of it. Nothing needs to change for this version, though it still needs Sam's sign-off as the approver for public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0117408,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

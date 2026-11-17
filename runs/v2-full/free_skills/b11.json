@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: \"A new green tea\" (email)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"We've added a Japanese sencha to the shop\" | Product fact (new product arriving), fine as written |\n| \"grassy and a little sweet\" | Flavour description, fine as written |\n| \"best brewed cooler than you think, around 70 degrees\" | Brewing guidance, fine. \"Best\" here is a brewing instruction, not a superlative about the tea. |\n\n**Other checks**\n- No statistics, ratings, testimonials, guarantees, urgency, health claims or environmental claims.\n- No banned words or constructions from the voice list or the slop list. No em-dashes, exclamation points or rhetorical openers.\n- The first sentence carries the main fact (a new sencha), and the tone is warm, plain and unhurried.\n- UK spelling is not tested by any word here, and nothing conflicts with it.\n- This is the brand's own email, so no \"Ad\", \"Gifted\" or affiliate label applies.\n\n**Notes (not blocking)**\n- Per the policy, Sam (marketing lead) approves everything public, so this should still get his sign-off.\n- The email has no link to the new tea. This is optional, but a link would help the reader.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009694,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

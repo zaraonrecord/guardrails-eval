@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish. Two claims have no support.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel terms. OK. |\n| \"Most subscribers stay with us for over a year\" | **Unsupported.** It's a retention statistic that isn't in the policy, and nothing in this chat sources it. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"means most boxes ship free\" | **Unsupported.** It implies a statistic about order sizes that we don't have. Whether most boxes clear £25 depends on prices and basket sizes, and none of that is in the policy. |\n\n**Other checks**\n- Banned words and structures: none found. The tone is plain, and the spelling is UK.\n- Health, green and urgency claims: none.\n- Disclosure: not needed for our own landing page.\n- Approval: Sam needs to sign off, since this is public content.\n\n**Suggested compliant version**\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time. Delivery is free in the UK on orders over £25.\n\nIf the retention figure is real and you want to keep it, send the source (for example, a subscription data export with the date). I'll then add it with the exact wording and period. Until then, use `[PROOF NEEDED: subscriber retention data]` as the placeholder.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0141265,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

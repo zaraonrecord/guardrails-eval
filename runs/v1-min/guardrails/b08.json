@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero, UK audience, Pebblebrook Tea Co.\n\n**Checks**\n- **Claims:**\n  - \"Pause or cancel any time\" is on the policy list.\n  - \"Free UK delivery on orders over £25\" is on the policy list.\n  - \"Means most boxes ship free\" is **unproven**. The policy backs the £25 threshold, but nothing shows that most orders reach it. It's an implied statistic about order values.\n- **Regulated claims:** it touches prices and offers. The free-delivery condition (over £25) is stated, so it's fine. The \"most boxes ship free\" line is the only problem.\n- **House style:** reads plainly, with no banned words or AI tells. \"Easy to stop and start\" is backed by the pause/cancel claim.\n- **Disclosure:** the brand's own page, so no label is needed.\n\n**Fixed:** nothing applied yet. I'm waiting on your call on the one change below.\n\n**Needs a decision**\n- Remove \"means most boxes ship free\". Suggested copy:\n  > Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n- If you do have order data showing most boxes exceed £25, share the source and date. I can then add it to the policy and keep the line.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact final copy. I haven't recorded any approval, and nothing should publish until the revised text is confirmed.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013477300000000001,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

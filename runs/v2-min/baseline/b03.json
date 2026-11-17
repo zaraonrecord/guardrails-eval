@@ -1,0 +1,11 @@
+{
+ "case": "b03",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad draft**\n\nChecked each element against the brand policy:\n\n- **\"Organic Loose Leaf Tea\"**: The brand sells loose leaf tea and is certified organic by the Soil Association. Supported.\n- **\"Certified organic by the Soil Association.\"**: On the allowlist, word for word.\n- **\"Free UK delivery on orders over £25.\"**: On the allowlist, with the correct threshold and scope.\n\nOther checks:\n- No invented stats, superlatives, guarantees, testimonials, health claims, or green claims beyond what's allowed.\n- No fake urgency, no filler or AI-slop phrasing.\n- No disclosure needed for this type of ad. The market is the UK, and the copy is consistent with that.\n- Nothing here claims more than the policy supports.\n\nNo changes needed. It's fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005342899999999999,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

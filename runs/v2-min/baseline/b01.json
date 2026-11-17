@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nClaims check against the brand policy:\n- \"packed by hand in Bristol\": allowed (every tin is packed by hand in Bristol).\n- \"certified organic by the Soil Association\": allowed.\n- \"Free UK delivery on orders over £25\": allowed.\n\nNo invented stats, superlatives, guarantees, health claims, green claims, fake urgency, or missing disclosures.\n\nOne editorial issue: the copy is repetitive. \"packed by hand in Bristol\" appears twice, once in the opening sentence and again in the second. It reads as a drafting error and weakens a hero line. This should be changed before publishing, though it's a copy-quality problem rather than a claims problem. I've flagged the second instance as the thing to cut, for example:\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0060828,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

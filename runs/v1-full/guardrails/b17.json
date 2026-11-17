@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter to Pebblebrook subscribers, announcing the Christmas blend's return to the shop.\n\n**Checks**\n- **Claims:** There are no statistics, rankings, guarantees, testimonials or superlatives. The ingredients (black tea, orange peel, cinnamon, clove) and the product returning to the shop are product facts the policy allows as written. \"From today\" is a plain availability statement, not a countdown or \"only X left\" line, so it isn't fake urgency.\n- **Regulated claims:** There are no health, money, environmental, children's or price claims. Nothing is flagged.\n- **House style:** The tone is warm, plain and unhurried, and it uses no banned words. There are no AI tells. \"Back\" appears twice in three sentences, which is a minor repetition you could trim, but it doesn't need changing. Score is about 92/100.\n- **Disclosure:** The newsletter has no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing is unresolved. If you want to trim the repeated \"back\", you could use \"Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. You'll find it in the shop from today.\" That change would need a new check.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to this exact text before it is sent or scheduled. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0127895,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

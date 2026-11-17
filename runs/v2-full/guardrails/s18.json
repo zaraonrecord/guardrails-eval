@@ -1,0 +1,11 @@
+{
+ "case": "s18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Rooibos Chai product page**\n\n**Going out:** Product page copy for Rooibos Chai, 100g tin, on the Pebblebrook site (UK).\n\n**Checks**\n- **Claims:** The ingredients, \"caffeine-free\" (rooibos is naturally caffeine-free), and the 100g tin are product facts, so they're fine as written. \"Lovely with milk\" is a taste opinion and isn't a provable claim. **\"Was £12, now £8\" is not in the claims list and has no source in this chat.**\n- **Regulated claims (prices and offers):** A \"was\" price is only fair if the product really sold at £12 for a meaningful recent period. Nothing in the policy or this chat shows that. The policy also lists no current promotion, so this is a 33% discount with no backing. There is no countdown or \"limited stock\" wording, so it isn't fake urgency, but it is an unproven price claim.\n- **House style:** Passes. It's plain and warm, uses no banned words and has no AI tells.\n- **Disclosure:** Not needed. This is our own product page with no partnership, affiliate link or AI-labelled content.\n\n**Fixed:** Nothing changed. The only problem is a factual one that I can't fix without evidence.\n\n**Needs a decision:**\n1. Can the team show the £12 price was actually charged for a reasonable recent period, and is the £8 sale a real, approved promotion? If yes, add the evidence to the policy, then it can go out. My suggested answer is to hold the \"Was £12\" line until that's confirmed.\n2. If it can't be shown, publish with just the real current price. For example: \"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin. £8.\"\n   Please also confirm whether £8 is the correct everyday price.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval, and nothing should be published until Sam says yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016071500000000002,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

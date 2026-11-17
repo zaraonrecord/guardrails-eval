@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing that needs changing before this goes out.\n\n- **Disclosure:** The \"(Affiliate link)\" label sits right next to the link, so the affiliate relationship is flagged. Putting \"Affiliate link\" or \"#ad\" nearer the start would be slightly clearer for UK readers, but that's optional.\n- **\"Easiest to pause\":** This is the reviewer's own opinion from first-hand comparison. It fits the brand's allowed claim that subscribers can pause or cancel any time, and it doesn't promise anything beyond that.\n- **\"I've tried four tea subscriptions this year\":** This is a personal experience statement, not a statistic or a brand claim. The blogger should be sure it's true.\n- **\"The tins are lovely\":** This is subjective opinion, not a factual claim.\n- **Other checks:** There are no invented stats, superlatives, guarantees, health claims, green claims, urgency pressure, or fake testimonials, and the tone doesn't read as generic AI filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012014,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold. One claim isn't backed.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"a small team of six\" | Team size is a product-team-checked fact and fine to use as written. Confirm six is the current headcount. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported.** |\n\n**Problem:** \"We buy from gardens we've visited\" is a claim about sourcing practice. It isn't on the allowlist, and it isn't covered by the product facts category (where a tea is grown, when it's picked). It implies every garden has been personally visited, and nobody has supplied proof of that. Either remove it, or have the product team confirm it and add it to the allowlist. If it is true for only some teas, name those. For example: `[PROOF NEEDED: which gardens the team has visited, and whether that covers all suppliers]`.\n\n**Other checks:** No banned words, no superlatives, no guarantees, no health or environmental claims, no urgency. The tone is warm and plain, and the spelling is UK. It needs Sam's approval before going public, as with all public content.\n\n**Compliant version**\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122862,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

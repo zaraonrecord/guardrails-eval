@@ -1,0 +1,11 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "The draft needs one change before it goes out.\n\n**Problem: the \"Ad\" label is in the wrong place.** This is a paid creator post, and policy section 4 says it must start with \"Ad\" before anything else. The draft only has \"#ad\" at the end of a long hashtag string, which doesn't meet that rule. Fix: open the post with \"Ad\" (for example, \"Ad: My afternoon reset is…\"). The trailing #ad can stay or go.\n\n**What I checked and found fine:**\n- \"Their tins are packed by hand in Bristol\" matches the allowed claim that every tin is packed by hand in Bristol.\n- There are no superlatives, guarantees, health claims, environmental claims, invented numbers, or fake urgency.\n- \"Afternoon reset\" and \"ten minutes away from my phone\" are lifestyle description, not health claims. The #selfcare hashtag is mild and doesn't promise any benefit.\n- None of the banned words appear, and the tone is warm and plain.\n\nSince this is public content, Sam needs to approve it as well.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106261,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

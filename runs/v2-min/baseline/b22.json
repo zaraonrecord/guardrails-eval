@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Green claim:** \"Our tea bags are plastic-free and home compostable\" is on the allowlist, so it is backed up. \"The same plastic-free tea bags inside\" is also fine.\n- **New tins:** Product facts such as new arrivals, colour and design are fine as written.\n- **Urgency, stats, superlatives, guarantees, testimonials, health claims:** None are present.\n- **Disclosure:** This is the brand's own account and no paid partnership or gifting is involved, so no label is needed.\n- **Style:** The copy is short and plain. The plastic-free line is stated twice in three sentences, which is slightly repetitive, but it doesn't stop publication.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0050378,
+ "seconds": 9.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

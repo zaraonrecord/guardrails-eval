@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Certified organic by the Soil Association\"** is on the claims allowlist.\n- **\"20 plastic-free tea bags\"** matches the allowed plastic-free claim. It doesn't say \"compostable\" or make any wider environmental claim, so there is no green-claim risk.\n- **\"Caffeine-free\"** is a product fact about ingredients, which the policy allows as written.\n- **\"Gentle, honeyed\"** describes flavour. **\"For the evening\"** suggests when to drink it and makes no promise about sleep or relaxation, so I don't read it as a health claim.\n- There are no invented stats, superlatives, guarantees, testimonials, or fake urgency. The copy is short and specific, and it doesn't read as generic AI filler.\n- No disclosure or label is needed for a plain product page like this.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076182,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: newsletter**\n\n**Going out:** Newsletter announcement of the returning Christmas blend, to subscribers, from today.\n\n**Checks**\n- **Claims:** No statistics, rankings, guarantees, testimonials or awards. Ingredients (black tea, orange peel, cinnamon, clove) and \"new arrivals\" are product facts, allowed as written. \"Back in the shop from today\" is a factual availability statement. I can't verify stock, but it isn't framed as scarcity or a countdown, so it isn't fake urgency.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** Plain, short and specific. No banned-style openers, intensifiers, triplets or slogan closers. The ingredient list is a plain list, not an AI-tell grouping. Pass.\n- **Disclosure:** The newsletter is the brand's own content with no sponsor, affiliate links, gifted products or AI-generated imagery mentioned. No label needed.\n\n**Fixed:** Nothing; no changes needed.\n\n**Needs a decision:** One practical confirmation: that the blend really is live in the shop today, since the copy says so. Suggested answer: yes, confirm before sending.\n\n**Approver:** The policy names no specific approver, so the user (the account holder) must give an explicit yes to this exact text. I haven't recorded any approval, and I have no tools here to do so. Once you confirm the wording above, approve it with your name via the approve script in your own terminal, then send.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0081304,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

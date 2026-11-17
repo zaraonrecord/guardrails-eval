@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** a social ad on the brand's own account, UK audience. No send time was given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" is on the policy list and the £25 condition is stated. The three teas (Builder's, Earl Grey, peppermint) are product facts, which are fine as written. There are no stats, rankings, testimonials or guarantees.\n- **Regulated claims:** no health, green or urgency wording. The offer is conditional, and the condition is stated, so it's fine.\n- **House style:** the policy has no voice section, so I couldn't score against it. The copy is plain and specific, with no AI tells. The list of three is a literal list of products, not a rhetorical triplet.\n- **Disclosure:** this is a paid ad, and nothing in the copy marks it as one. The policy's disclosure check expects a clear \"Ad\" label upfront, not only a platform tag.\n\n**Fixed:** nothing changed yet, because I'm holding the copy for the label.\n\n**Needs a decision**\n- **Ad label:** I suggest starting the caption with \"Ad:\", giving: *\"Ad: Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"* Also turn on the platform's own paid or sponsored label if it offers one.\n- **Approver:** the policy names no approver, so I need an explicit yes from you on the final wording above. I haven't recorded any approval, and the copy is not cleared to publish until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"Three teas for your desk drawer.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014987300000000002,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

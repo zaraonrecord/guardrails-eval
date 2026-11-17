@@ -1,0 +1,11 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Newsletter, Pebblebrook Tea Co. subscribers. No send time was given.\n\n**Checks**\n- **Claims:** The garden visit, the Darjeeling first flush, the March picking, the bright and floral flavour and the arrival on Monday are product facts, which the policy says are fine as written. The line \"only 40 tins are left, so be quick\" is not on the policy list and no source for the stock number was given. The policy bans \"only X left\" urgency, and there is no real limited offer on file.\n- **Regulated claims:** Nothing on health, money, environment or children. The \"only 40 left\" line counts as a stock and urgency claim, which fails as above.\n- **House style:** No banned words and no AI tells. The tone is warm, plain and unhurried, apart from \"so be quick\", which is pushy for this brand.\n- **Disclosure:** This is the brand's own newsletter with no sponsor, affiliate link or gifted product, so no label is needed.\n\n**Fixed (suggested, not yet applied to a final version)**\n- Remove \"but only 40 tins are left, so be quick\".\n\n**Suggested final copy:**\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n**Needs a decision**\n- If the stock really is limited, give me the source. Even then, the policy has no approved \"limited stock\" wording, so Sam would need to add it to the policy before we use it.\n\n**Approver:** Sam (marketing lead). Approval has to be for the final wording above, not this draft. Nothing has been approved, so this should not be sent yet.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0134215,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

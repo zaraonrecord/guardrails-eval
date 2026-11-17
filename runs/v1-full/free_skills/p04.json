@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One thing needs changing.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact, fine as written |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | Allowlisted, exact wording (review export October 2026) |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\n**Problem**\n- \"In today's fast-paced world\" is on the brand's banned phrase list. It's also a stock AI-sounding opener, and it pushes the one useful fact (the Earl Grey ingredients) down the post. It also clashes with the \"unhurried\" voice.\n\n**Suggested fix**\n> A rainy Sunday needs a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Other checks**\n- Our own Instagram account needs no \"Ad\" or \"Gifted\" label.\n- No health, green, urgency, superlative or guarantee language.\n- Spelling is fine for UK English.\n- Sam needs to approve it before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012450500000000001,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

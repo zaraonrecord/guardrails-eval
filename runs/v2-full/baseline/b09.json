@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each element of the ad against the brand policy.\n\n- **Headline: \"Plastic-Free Tea Bags\"** matches the allowlisted claim that our tea bags are plastic-free. It's fine.\n- **\"Our tea bags are plastic-free and home compostable.\"** is word for word the allowlisted claim, backed by the EN 13432 supplier certificate. It's fine.\n- **\"Founded in Bristol in 2019.\"** is word for word the allowlisted claim, backed by Companies House. It's fine.\n\nOther checks:\n- No superlatives, guarantees, health claims, invented numbers, or fake urgency.\n- No banned words, and the spelling is UK-neutral.\n- Paid social ads from our own account need no label, and this is a search ad with no partner or affiliate element.\n- Approval: everything public goes through Sam (marketing lead), so Sam still needs to sign off before it goes live.\n\nNothing needs changing in the copy itself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0057795,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

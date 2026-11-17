@@ -1,0 +1,11 @@
+{
+ "case": "s15",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** Two things need changing, and one needs an answer from the writer.\n\n**Product label (needed from the writer)**\n- Is Pebblebrook Owned, Tried or Wishlist? The draft doesn't say, and I won't assume ownership.\n- \"I've tried four tea subscriptions this year\" and \"the tins are lovely\" are hands-on claims. They only stand if the writer actually used the subscription and the tins. If they didn't, both lines must go.\n- If the writer tried it, add how and for how long.\n- If Pebblebrook sent the product free or paid for the post, the post must open with \"Gifted\" or \"Ad\". The draft doesn't say either way, so please confirm.\n\n**Problems found**\n1. **Affiliate disclosure is in the wrong place and wrong wording.**\n   - The commission note sits in a footnote after the link. Disclosure must come at the top of the post, before the first link, in plain words.\n   - Brand policy also requires \"Affiliate link\" next to the link itself. \"You can find it here.*\" doesn't have that.\n2. **\"Pebblebrook's was the easiest to pause\" is a superlative.**\n   - It ranks Pebblebrook against three other services we have no evidence for. Brand policy bars superlatives we can't prove.\n   - The approved claim is \"Subscribers can pause or cancel any time\". Rewrite along those lines, for example: \"Pebblebrook lets subscribers pause or cancel any time.\"\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"tried four tea subscriptions this year\" | The writer's own experience, unverified. Confirm it's true. |\n| \"easiest to pause\" | Unsupported superlative. Replace with the allowlisted wording. |\n| \"the tins are lovely\" | Opinion. Fine only if the writer has used the tins. |\n| \"I may earn a small commission\" | Accurate, but misplaced and incomplete. |\n\n**Voice:** No banned words or slop patterns. It's plain, which suits the brand.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0194685,
+ "seconds": 17.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

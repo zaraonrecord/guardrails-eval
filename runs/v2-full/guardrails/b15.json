@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** a three-sentence affiliate review on the review blog. Timing and audience weren't given.\n\n**Checks**\n- **Claims:** There are no numbers, ratings, guarantees or health or green claims.\n  - \"Easiest to pause\" is the reviewer's own opinion from trying four services. It also matches our policy line \"Subscribers can pause or cancel any time\". It isn't one of our banned superlatives like \"best\" or \"number one\", so it passes.\n  - \"The tins are lovely\" is plain opinion.\n- **Regulated claims:** The draft doesn't touch health, money, legal outcomes, the environment, children or prices.\n- **House style:** It's warm, plain and unhurried, with no banned words and no AI tells. Score: about 95.\n- **Disclosure:** Policy section 4 asks for \"Affiliate link\" next to the link, and it is. The post is short, so the label is easy to see.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision**\n- Confirm with the author that Pebblebrook sent no free tins or payment beyond the affiliate commission. If they did, the post would need \"Gifted\" or \"Ad\" as its very first word. My suggested answer is that it's affiliate-only, so no change.\n- Optional: moving \"Affiliate link\" or a short \"This post contains an affiliate link\" note to the top would be a safer habit, but it isn't required by our policy.\n\n**Approver:** Sam (marketing lead). Nothing should go live until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.016749600000000003,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "s13",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** a paid creator post promoting Pebblebrook's Assam, channel and date not given.\n\n**Checks**\n- **Claims:** Pass. \"Packed by hand in Bristol\" matches the policy row \"Every tin is packed by hand in Bristol\". The Assam mention is a product fact, and nothing is invented or superlative.\n- **Regulated claims:** Pass. \"Reset\" and \"#selfcare\" read as lifestyle talk, not health claims. I'd keep it that way and not add \"calming\" or \"stress-relieving\".\n- **House style:** Pass. It's warm, plain and unhurried, with no banned words and no AI tells.\n- **Disclosure:** **Fail.** This is a paid post, and the policy requires it to start with \"Ad\" before anything else. The only label is \"#ad\", sixth from the end in a block of seven hashtags. That doesn't count as upfront or obvious.\n\n**Fixed (suggested wording, not applied)**\n- Open the post with the label, and drop \"#ad\" from the hashtag pile (or keep it as a backup):\n\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #assam #selfcare\n\n**Needs a decision**\n- The creator should also switch on the platform's paid-partnership or branded-content tool, if the channel has one. Please confirm that's done.\n- Because the wording changes, this is a new version. The final text needs a fresh check and approval before it goes out.\n\n**Approver:** Sam (marketing lead), who must approve this exact final text. No approval has been recorded, so this is not cleared to publish.\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015581500000000002,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

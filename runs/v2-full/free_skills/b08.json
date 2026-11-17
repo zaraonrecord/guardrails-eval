@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms) |\n| \"free UK delivery on orders over £25\" | Allowlisted (shipping policy) |\n| \"most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n**Problem:** \"most boxes ship free\" implies that most orders or subscription deliveries are over £25. Nothing in the policy backs that up, so it works as an invented statistic. It also says \"boxes\", while the policy describes tins and tea bags, so the wording doesn't match the product facts.\n\n**Suggested fix:** drop the inference and keep the allowlisted claim as written.\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf the team can supply the share of orders over £25 with a source, a \"most\" claim could return as `[PROOF NEEDED: share of orders over £25]`.\n\n**Other checks:** no banned words or structures, no health, green or urgency claims, no superlatives, and UK spelling is fine. The ad-to-landing-page consistency rule doesn't apply here, since this is the landing hero. As with all public content, Sam needs to approve the corrected version.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0111219,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

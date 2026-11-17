@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\nChecks:\n\n- **Claims:** \"Plastic-free and home compostable\" tea bags is on the allowlist. Fine.\n- **New arrivals / product facts:** New tins, deep green with gold lettering, are product facts and fine as written.\n- **Green claims:** The only environmental claim is the plastic-free, home compostable one, which we can back up. No vague claims such as \"eco-friendly\" or \"sustainable\".\n- **Urgency, stats, superlatives, guarantees, testimonials, health claims:** None present.\n- **Disclosure:** This is the brand's own account and there is no paid partnership or gifted content, so no label is needed.\n- **Style:** The copy is short and specific. It repeats itself slightly (\"plastic-free tea bags\" then \"tea bags are plastic-free\"), which is a minor redundancy, but it isn't an AI-slop pattern and doesn't need to block publication. You could trim the second sentence if you want tighter copy.\n\nNo changes are required.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009167999999999999,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

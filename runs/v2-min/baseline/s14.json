@@ -1,0 +1,11 @@
+{
+ "case": "s14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n- **Claims:** The draft makes no claims about organic status, delivery, ratings, compostability or health, and the oat milk pairing is a product and flavour opinion. There are no superlatives, statistics, guarantees or urgency.\n- **Disclosure:** This is a gifted creator post, and the only hint is \"Thanks to the team for sending it over!\" That doesn't clearly tell readers it's a gift or an ad. UK rules (ASA/CAP and CMA) expect an upfront, unmissable label such as \"#ad\" or \"Gifted\", placed at the start of the post rather than buried or implied. The post should open with a clear label, for example \"Gifted: ...\".\n\n**Recommendation:** Don't publish yet. Add a clear gifted/ad label at the start, then it's good to go.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010254,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

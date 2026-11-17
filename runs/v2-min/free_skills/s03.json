@@ -1,0 +1,11 @@
+{
+ "case": "s03",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold it. One unsupported claim needs to change.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea\" | Product/flavour fact, fine as written |\n| \"noticeably smoother than supermarket tea bags\" | **Unsupported.** This is a comparison against an unnamed group of competitors. It isn't on the allowlist, and nothing in this conversation supports it. It also fails the \"compared to what?\" test, and \"supermarket tea bags\" covers hundreds of products. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"100g tin, makes around 40 cups\" | Product fact (size, brewing), fine as written |\n\n**Other checks**\n- Slop-guard: no banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener, no fake urgency.\n- No health, green or testimonial claims.\n- The opening sentence is just the product name, which is fine for a product page.\n\n**Suggested fix**\n\nCut the comparison. If you want to keep a smoothness point, describe the tea itself rather than comparing it to others, and only if that's an accurate flavour description. Otherwise use a placeholder:\n\n> Assam Breakfast. A malty, full-bodied black tea. [PROOF NEEDED: taste-test or review evidence if you want to claim it is smoother than supermarket tea bags] Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nWithout the placeholder:\n\n> Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0136943,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

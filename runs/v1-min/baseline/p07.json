@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\n1. **\"you'll love it or it's free\"** is a money-back/satisfaction guarantee. The brand policy has no such guarantee, so we can't back it up. Remove it, or get the guarantee approved and its terms written down first.\n\n2. **\"means most boxes ship free\"** implies a statistic about how many orders pass the £25 threshold. We have no data for that. The free delivery offer itself is fine, so say \"free UK delivery on orders over £25\" and drop the \"most boxes\" inference.\n\n3. **\"Subscribers can pause or cancel any time\"** is on the allowlist and can stay.\n\n4. **\"Tea that's easy to stop and start\"** is fine. It's a soft restatement of the pause/cancel policy.\n\nThe draft shouldn't go out until the guarantee and the \"most boxes\" claim are removed.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0109,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

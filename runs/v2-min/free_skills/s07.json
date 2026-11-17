@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm, gentle, honeyed, caffeine-free blend | Product facts (ingredients, flavour), fine as written |\n| \"to help you wind down and sleep better\" | **Unsupported.** This is a health/sleep benefit claim, and it isn't on the allowlist or sourced in this chat |\n| Certified organic by the Soil Association | Allowlisted |\n| 20 plastic-free tea bags | Allowlisted (plastic-free) and a product fact (pack size) |\n\n**Problem:** \"to help you wind down and sleep better\" is a sleep-outcome claim. It sits in regulated health territory, and UK rules on health claims for food and drink are strict (a claim like this needs an authorised basis). Softening it to \"help\" doesn't make it safe. Nothing supplied backs it up.\n\n**Suggested replacement:**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend, easy to make part of your evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n\"Easy to make part of your evening\" describes a use occasion, not a health outcome. If you want a sleep or relaxation claim, add `[PROOF NEEDED: authorised health claim or evidence for sleep benefit]` and get it signed off first.\n\nNo ban-list words, no em-dash sandwiches, no exclamation points, no invented stats or testimonials.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0140403,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

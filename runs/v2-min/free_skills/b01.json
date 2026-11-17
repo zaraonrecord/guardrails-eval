@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: landing hero, Pebblebrook Tea Co.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Loose leaf tea\" | Product fact, fine |\n| \"packed by hand in Bristol\" (opening) | Allowlisted |\n| \"Every tin is packed by hand in Bristol\" | Allowlisted |\n| \"certified organic by the Soil Association\" | Allowlisted |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n\nNo unsupported claims, superlatives, guarantees, testimonials, health or green claims, or fake urgency. No ban-list words. No disclosure is needed for this channel.\n\n**One problem: repetition.** The first sentence and the start of the second both say the tea is packed by hand in Bristol. That breaks the rule to keep the sharper of two sentences saying the same thing. It's a small fix, but it's a visible flaw in a hero.\n\n**Suggested rewrite**\n> Loose leaf tea, certified organic by the Soil Association. Every tin is packed by hand in Bristol. Free UK delivery on orders over £25.\n\nEvery claim in the rewrite is on the allowlist.\n\n```json\n{\"issues\": [{\"quote\": \"Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013307200000000002,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

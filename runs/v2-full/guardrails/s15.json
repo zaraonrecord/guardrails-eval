@@ -1,0 +1,11 @@
+{
+ "case": "s15",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Affiliate review blog post for Pebblebrook Tea Co. (UK). No send time was given.\n\n**Checks**\n- **Claims:** No numbers, ratings, guarantees or testimonials taken from the brand. \"Easiest to pause\" is the reviewer's own comparison and is consistent with our policy line \"Subscribers can pause or cancel any time\". It can stay if the writer really did try four subscriptions. \"The tins are lovely\" is opinion.\n- **Regulated claims:** Nothing on health, money, environment, children or prices.\n- **House style:** Warm, plain and unhurried. No banned words and no AI tells.\n- **Disclosure: fails.**\n  - The only label is \"*I may earn a small commission\" at the very end, after the link. Policy requires the disclosure to be upfront and the words \"Affiliate link\" next to the link.\n  - A footnote after the call to action doesn't meet that standard.\n  - It also doesn't say whether the product was gifted. If Pebblebrook sent free tea, the post must start with \"Gifted\".\n\n**Fixed (suggested rewrite, not yet approved)**\n> *This post contains an affiliate link, so I may earn a small commission if you buy through it.*\n>\n> I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it here (affiliate link).\n\n**Needs a decision**\n1. Was the subscription or any tea gifted or paid for by Pebblebrook? If gifted, the post must open with \"Gifted\". My suggestion is to confirm with the writer before publishing.\n2. Confirm the writer actually tried four subscriptions, since the post makes that comparison.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to the final wording. I haven't recorded any approval, and nothing should be published until the label is fixed and Sam signs off.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.022219500000000003,
+ "seconds": 19.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

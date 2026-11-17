@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Rooibos Chai product page**\n\nClaims list:\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredients), allowed as written |\n| Cinnamon, cardamom, ginger, black pepper | Ingredients, allowed |\n| \"Lovely with milk\" | Serving and flavour suggestion, not a measurable claim |\n| 100g tin | Size, allowed |\n\nOther checks:\n- **Stats, testimonials, superlatives, guarantees:** none.\n- **Health or green claims:** none. \"Caffeine-free\" describes the ingredient. It makes no benefit claim such as better sleep or calming.\n- **Slop and structure:** no banned words, no exclamation points, no rhetorical opener, no filler. The opening gives the product and its key fact.\n- **Urgency or disclosure:** none. This is the brand's own product page, so affiliate and review labelling doesn't apply.\n\nNothing needs changing. It's short but accurate, and every statement is a product fact the brand can stand behind.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0103343,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

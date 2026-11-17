@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Landing hero copy for Pebblebrook Tea Co., UK.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026) |\n| packed by hand in Bristol | On the policy list (\"Every tin is packed by hand in Bristol\") |\n| free UK delivery on orders over £25 | On the policy list (shipping policy) |\n\nThere are no unproven claims.\n\n**Regulated claims:** Nothing on health, environment, prices or urgency. \"Free delivery\" carries its £25 condition, so it is fine.\n\n**Disclosure:** This is the brand's own page copy, so no label is needed.\n\n**House style (about 68/100)**\n- \"Brewed with care. Packed with love. Delivered with a smile.\" is a tidy group of three in slogan form, which is an AI tell. It doesn't sound warm, plain and unhurried, and it says nothing concrete.\n- \"Brewed with care\" is also loose, because customers brew the tea, not us.\n- No banned words appear.\n\n**Fixed (suggested rewrite, facts unchanged):**\n> Certified organic by the Soil Association. Every tin is packed by hand in Bristol, and delivery is free in the UK on orders over £25.\n\nRewritten score is about 90/100.\n\n**Needs a decision:** Do you want to use the rewrite, or supply a different opening line that says something specific about the tea? Whichever you choose, it needs a fresh check.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Sam needs to say yes to the exact final copy before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015137500000000002,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

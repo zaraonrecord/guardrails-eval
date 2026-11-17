@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review result: clear to publish, pending Sam's sign-off.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea that stands up to milk\" | Product fact (flavour and brewing guidance), fine as written |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording (certificate renewed 2026) |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine as written |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none present.\n- **Invented numbers or testimonials:** none. The only figures are the tin size and cup count, which the product team covers.\n- **Banned words and structures:** none. There are no em-dashes, exclamation points, rhetorical openers or \"not just X, it's Y\" constructions.\n- **Required disclosures:** none apply. This is our own product page, not a paid partnership, gifted post or affiliate link.\n- **Spelling and voice:** plain, warm and unhurried, and nothing conflicts with UK spelling.\n\n**Before it goes live:** the brand policy says Sam (marketing lead) approves all public content. Make sure that approval is on record.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0093183,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

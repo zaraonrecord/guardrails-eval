@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\n- **\"Tea Subscription UK\"**: Fine. It's plain and accurate, and the UK matches our market.\n- **\"Monthly loose leaf tea.\"**: Fine. It describes what we sell.\n- **\"If your box isn't right, we'll make it right.\"**: This is a problem. It's a satisfaction promise, which works as a guarantee. Our policy says we have no guarantee or \"you'll love it or it's free\" offer, and this isn't in the claims allowlist. It also doesn't say what \"make it right\" means (refund, replacement, or something else), so it promises something we haven't approved. Remove it. If you want a reassurance, the approved one is \"Subscribers can pause or cancel any time.\"\n- **\"Free UK delivery on orders over £25.\"**: Matches the allowlist wording exactly, so it's fine.\n- **Voice and spelling**: Warm and plain, with no banned words. No health, green, urgency or invented-number claims.\n- **Disclosure**: This is our own paid search ad, so no extra label is needed.\n- **Approval**: Sam needs to sign off before it goes out, as with all public content.\n\n**Suggested rewrite of the description:** \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010988099999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

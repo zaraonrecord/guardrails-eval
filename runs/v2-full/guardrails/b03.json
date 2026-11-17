@@ -1,0 +1,11 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Going out:** Search ad, headline plus description, Pebblebrook Tea Co.\n\n**Claims check**\n- \"Certified organic by the Soil Association\": on the policy list, exact wording. Certificate renewed 2026. Pass.\n- \"Free UK delivery on orders over £25\": on the policy list, exact wording. Pass.\n- \"Organic Loose Leaf Tea\": \"organic\" is backed by the Soil Association certification, and loose leaf is a product fact. Pass. The ad should link to a page that shows the certification and the delivery threshold.\n\n**Regulated claims:** The ad has no health, money, legal, children or price-offer claims. \"Free delivery\" carries its condition (orders over £25), so it isn't misleading. Pass.\n\n**House style:** Plain, factual and UK spelling, with no banned words or AI tells. It is terse because of search ad length limits. The tone is plain rather than especially warm, which is acceptable here. Pass.\n\n**Disclosure:** Our own paid search ad is marked by the platform, so no extra label is needed (policy section 4). Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** Sam (marketing lead). Please give an explicit yes to this exact copy before it goes live. I haven't recorded any approval, and I can't do so without Sam saying yes in this chat.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007636499999999999,
+ "seconds": 15.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

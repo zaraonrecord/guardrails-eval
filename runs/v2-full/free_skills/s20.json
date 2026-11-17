@@ -1,0 +1,11 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, a product fact (section 2), fine |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, fine |\n| \"there's a cup for everyone\" | Not a measurable claim, no proof needed |\n\nNo numbers beyond brewing time, superlatives, guarantees, testimonials, health or environmental claims, or false urgency. There are no banned words from the brand policy or the slop list. The email has no affiliate link or partnership, so no disclosure is needed. The opening leads with the useful fact, and the voice is warm and plain with UK spelling.\n\n**Optional trim (not blocking):** \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone\" is generic filler that tells the reader nothing new. The email works without it, or you could swap in something concrete, such as a note on which of our teas suits a mug and sieve. This is a style preference, not a policy breach.\n\nSam still needs to approve it before it goes out, as the policy requires for all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0157725,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

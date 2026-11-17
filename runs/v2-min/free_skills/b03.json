@@ -1,0 +1,11 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Allowlisted (certified organic by the Soil Association). Loose leaf is a product fact. |\n| \"Certified organic by the Soil Association.\" | Allowlisted |\n| \"Free UK delivery on orders over £25.\" | Allowlisted |\n\n**Slop check:** No banned words, no exclamation points, no rhetorical-question opener, and no fake urgency. The opening is a plain fact.\n\n**Ad checks**\n- **Length:** The headline is 22 characters and the description is 79. That fits standard search ad limits (30 and 90), though you gave no limit.\n- **Landing page match:** The landing page must also state the Soil Association certification and the free delivery over £25. I can't verify that here, so confirm it before launch.\n- **Platform policy:** No health, financial or personal-attribute claims.\n- **Proof:** No stats, testimonials, superlatives or guarantees.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010549300000000001,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

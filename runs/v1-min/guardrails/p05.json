@@ -1,0 +1,11 @@
+{
+ "case": "p05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** newsletter to Pebblebrook subscribers, a first flush Darjeeling arrival announcement. No send date or approver was given.\n\n**Checks**\n- **Claims:** The garden visit, the March picking, \"bright and floral\" and \"in the shop from Monday\" are product and origin facts and fine as written. \"Only 40 tins are left\" is a stock claim that isn't on the policy list and wasn't sourced in this chat. It also sits oddly with \"from Monday\", because stock can't be running low before the tea is on sale.\n- **Regulated claims:** Nothing on health, money, legal outcomes or the environment. The scarcity line falls under prices and offers, and \"only X left\" must be literally true.\n- **House style:** Clean. There are no banned words or AI tells, though \"so be quick\" is a pushy closer.\n- **Disclosure:** Nothing needed. There is no ad, sponsorship, affiliate link, gifted product or AI-generated content.\n\n**Fixed:** Nothing changed yet. I won't invent a stock figure or reword the claim into something I can't verify.\n\n**Needs a decision**\n- **\"But only 40 tins are left, so be quick.\"** Someone needs to confirm the real stock count at send time. My suggested answer is to cut the line and end on \"You'll find it in the shop from Monday.\" If the 40 is true and documented, keep it and drop \"so be quick\". The policy should record where that figure came from.\n\n**Approver:** The policy names no approver, so the approval has to come from you as the user. Please give an explicit yes to the final wording once the scarcity line is settled. I haven't recorded any approval and the newsletter shouldn't be scheduled yet.\n\n```json\n{\"issues\": [{\"quote\": \"but only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015307300000000003,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p17",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the peppermint product page draft**\n\n**Problems that need changing**\n\n1. **\"a natural detox that aids weight loss\"**: This is a health claim, and the policy bans health claims of any kind. \"Detox\" and \"aids weight loss\" are both named explicitly. This has to come out. It can't be reworded into something softer that still implies a health benefit.\n\n**What checks out**\n\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly (certificate on file, renewed 2026).\n- \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team checks and which is fine as written.\n- \"Cool and clean after a big meal\" is a flavour/serving description. It's a sensory claim, not a digestive or health one, so I'm treating it as fine. If the team meant it as a digestion benefit, that would need rethinking, but as written it reads as taste.\n- Voice: plain and warm enough, no banned words, no UK spelling problems.\n- No superlatives, guarantees, invented numbers, fake urgency or environmental claims.\n- No disclosure label is needed, as this is our own product page.\n\n**Suggested fix**\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\nSince this is public content, Sam needs to approve the corrected version before it goes live.\n\n**Verdict:** Don't publish as it stands. Remove the detox and weight loss line and it's good to go, pending Sam's sign-off.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098141,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p21",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** Organic post on Pebblebrook's own Instagram, new winter tins announcement.\n\n**Checks**\n\n1. **Claims**\n   - \"made with zero waste from farm to cup\": not on the policy list. It's an absolute environmental claim covering the whole supply chain (farm, processing, packing, brewing). The policy only supports \"plastic-free and home compostable\" tea bags. Unproven.\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list. Passes.\n   - \"the same plastic-free tea bags inside\": supported (plastic-free is on the list). Passes.\n   - \"New tins just landed\", \"Deep green, gold lettering\": product facts, fine as written.\n\n2. **Regulated claims (environment):** \"zero waste from farm to cup\" is the kind of broad green claim regulators (CMA Green Claims Code, ASA) challenge most. It is absolute, vague about scope, and can't be backed by the policy. Needs removal or a narrow, evidenced replacement.\n\n3. **House style:** The copy is short and plain. Minor issue: the post says \"plastic-free tea bags\" twice in three sentences, which is repetitive. \"Made with zero waste from farm to cup\" also reads like a slogan.\n\n4. **Disclosure:** Own-account organic brand post, no paid partnership, affiliate or gifted content, no AI imagery mentioned. No label needed.\n\n**Fixed (suggested rewrite):**\n> New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\nChanges: removed the \"zero waste from farm to cup\" claim, merged the duplicated plastic-free sentence.\n\n**Needs a decision:**\n- If the team wants a waste claim, it needs specific evidence (e.g. what is zero waste, certified by whom) added to the policy first. Suggested answer: leave it out.\n- Approver: the policy names no approver, so I need an explicit yes from you on the exact final text above.\n\nNot published. Awaiting approval of the revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0121593,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

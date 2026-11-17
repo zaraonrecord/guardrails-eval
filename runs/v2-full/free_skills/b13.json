@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (paid)**\n\n**Disclosure:** The draft opens with \"Ad\", before anything else, as the brand policy requires for paid partnerships. It passes.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"My afternoon reset is a pot of... and ten minutes away from my phone\" | The creator's own routine, not a product claim. \"Reset\" is figurative and makes no health or wellbeing promise. |\n| \"which I love\" | Personal opinion, no factual claim |\n\n**Other checks**\n- No superlatives, guarantees, health claims, green claims, invented numbers, testimonials or fake urgency.\n- No banned words or constructions (no \"elevate\", \"unlock\", \"journey\", \"indulge\", etc.), no em-dashes or exclamation marks, and the spelling is fine.\n- Hands-on experience: the draft implies the creator drinks this tea regularly. Since this is a paid partnership, confirm they have actually used it and are not writing from the brief alone.\n\n**Before it goes out:** Per section 6, Sam needs to approve it, since all public content goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011000900000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

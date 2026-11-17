@@ -1,0 +1,11 @@
+{
+ "case": "b03",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Organic Loose Leaf Tea\" | Supported. Loose leaf is a product fact, and \"organic\" is backed by the Soil Association certificate. |\n| \"Certified organic by the Soil Association.\" | Allowlisted, exact wording (certificate on file, renewed 2026). |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording (shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers:** none.\n- **Banned words and slop:** none. No exclamation marks, rhetorical questions or em-dashes. It opens with a fact, and the voice is plain.\n- **Disclosure:** this is paid search from the brand's own account, so no extra label is needed.\n- **Character counts:** the headline is 22 characters and the description is 79. Both fit the standard search ad limits (30 and 90). If you have different limits, tell me and I'll recheck.\n- **Landing page:** the ad makes the organic certification and free delivery claims, so the landing page must make them too. I can't see the page, so please confirm both appear there.\n- **Platform policy:** nothing here is likely to trip ad policies.\n\nNothing needs changing. It is fine to publish once the landing page is confirmed. Per the policy, Sam still approves everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011727499999999998,
+ "seconds": 13.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

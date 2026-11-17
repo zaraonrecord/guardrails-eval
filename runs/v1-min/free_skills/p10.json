@@ -1,0 +1,11 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: not ready to publish. One fix needed.**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival, a product fact, so it's fine.\n- \"Grassy and a little sweet\": flavour, a product fact, so it's fine.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, a product fact, so it's fine.\n- No numbers, superlatives, guarantees, testimonials, health or green claims, or urgency. Nothing is unsupported.\n\n**Slop check**\n- \"It's not just tea, it's a ritual.\" This is the banned \"It's not just X, it's Y\" construction. \"Ritual\" is also an abstract claim with nothing concrete behind it. Cut the sentence.\n- The opening sentence carries the key fact (a new sencha), so it works.\n- No ban-list words, exclamation points, em-dashes or rhetorical-question openers.\n\n**Suggested version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112503,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: landing hero, Pebblebrook Tea Co.**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact, fine as written |\n| Packed by hand in Bristol / \"Every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| Certified organic by the Soil Association | Allowlisted (certificate on file, renewed 2026) |\n| Free UK delivery on orders over £25 | Allowlisted (shipping policy) |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Invented stats or testimonials:** none.\n- **Disclosure:** none needed. This is our own landing page, not a creator post or an affiliate link.\n- **Banned words and structures:** none. There are no exclamation marks, em-dashes, rhetorical openers or \"not just X, it's Y\" constructions. UK spelling is correct.\n- **Voice:** plain and unhurried, which fits the brand.\n\n**Optional tidy (doesn't block publication):** \"packed by hand in Bristol\" appears twice, in the first and second sentences. Cutting the repeat would read sharper, for example: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol, in every tin. Free UK delivery on orders over £25.\" Every claim in that version is still allowlisted. Sam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0141454,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

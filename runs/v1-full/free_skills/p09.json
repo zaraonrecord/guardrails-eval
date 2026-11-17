@@ -1,0 +1,11 @@
+{
+ "case": "p09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One sentence breaks the brand policy.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"reduces anxiety\" | Unsupported. Health claims of any kind are banned (section 3). |\n| \"helps you sleep\" | Unsupported. This is also a health claim, and a sleep-benefit claim on a tea is the kind regulators and ad platforms look for. |\n| \"caffeine-free\" | Product fact, fine. |\n| \"gentle, honeyed\" | Flavour description, fine. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"20 plastic-free tea bags\" | \"Plastic-free\" is allowlisted. The count is a product fact, fine as long as the product team confirms 20 for this tea. |\n\nNo problems with banned words, urgency, superlatives, invented numbers or UK spelling.\n\n**Suggested fix**\n\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for an unhurried evening cup. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nThis drops the health claims and keeps everything else. If you want a \"compostable\" mention, use the exact allowlisted wording: \"plastic-free and home compostable\".\n\nThe corrected version still needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"reduces anxiety\", \"type\": \"health_claim\"}, {\"quote\": \"helps you sleep\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016248500000000003,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

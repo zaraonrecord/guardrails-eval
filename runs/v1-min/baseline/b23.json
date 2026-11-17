@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and the usual risk categories.\n\n- **Product facts:** Ingredients (rooibos, cinnamon, cardamom, ginger, black pepper), the flavour note (\"lovely with milk\") and the size (100g tin) are product facts, which the policy allows as written.\n- **Caffeine-free:** This is an ingredient fact. Rooibos is naturally caffeine-free, so it describes the product and isn't a health claim.\n- **Statistics, superlatives, guarantees, testimonials:** None present.\n- **Health or green claims:** None. The draft doesn't mention organic, compostable or plastic-free packaging.\n- **Urgency, disclosures, filler:** No fake urgency. Nothing here needs a disclosure. The copy is short and specific, not generic AI filler.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00872,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

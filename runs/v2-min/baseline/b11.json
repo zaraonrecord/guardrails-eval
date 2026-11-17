@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The Japanese sencha, its flavour (\"grassy and a little sweet\") and the brewing advice (around 70 degrees) are product facts and new-arrival news, which the policy allows as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency. It makes no claim that needs the allowlist.\n- **Tone:** It is short and specific, with no filler or generic AI phrasing.\n- **Disclosure:** This is the brand's own email about its own product, so no sponsorship or ad label applies.\n\nThe unsubscribe link and company details that UK marketing emails need are normally added in the email template footer, which isn't part of this draft. It's worth confirming the template includes them.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0069174,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

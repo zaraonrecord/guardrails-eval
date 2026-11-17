@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** a creator post (gifted) about Pebblebrook's winter sampler. I don't have the platform, date or creator name, so Sam will need those.\n\n**Checks**\n- **Claims:** There are no stats, rankings, guarantees or testimonials beyond the creator's own opinion. \"Lovely with oat milk\" is personal taste. The winter sampler and rooibos chai are product facts, which the policy allows as written. Pass.\n- **Regulated claims:** There are no health, environmental, price or urgency claims. Pass.\n- **House style:** It is warm, plain and unhurried. It uses no banned words and has no AI tells. Pass.\n- **Disclosure:** Policy section 4 requires a gifted post to start with \"Gifted\" before anything else, and this one does. \"Not paid to say that\" is consistent with a gifted, unpaid arrangement and doesn't hide the connection. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:**\n- Optional: if the platform has a branded-content or paid-partnership tool, switch it on as well. The disclosure guidance recommends it alongside the written label.\n- Confirm with the creator that the product was gifted with nothing else of value attached (no fee, commission or discount code). If there was, the opening label should be \"Ad\" and the \"Not paid\" line should go.\n\n**Approver:** Sam (marketing lead). Nothing goes out until Sam gives an explicit yes to this exact text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011299300000000002,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs to change before publication.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" is next to the link, so the commercial relationship is labelled. UK guidance prefers disclosure upfront, so you could move it to the start of the post, but it isn't a blocker.\n- **\"Easiest to pause\":** This is a first-person opinion based on your own comparison of four subscriptions. It is not a brand claim, and it fits the policy that subscribers can pause or cancel any time. It's fine as long as it reflects what you actually experienced.\n- **\"Tins are lovely\":** This is subjective opinion about the product, not a factual claim.\n- **Other checks:** The draft has no invented statistics, guarantees, health or green claims, false urgency, or filler phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009738,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

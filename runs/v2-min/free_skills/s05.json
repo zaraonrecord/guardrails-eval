@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Fine. It describes the product and market. |\n| \"Monthly loose leaf tea.\" | Fine. Product fact. |\n| \"If your box isn't right, we'll make it right.\" | **Unsupported.** This is a satisfaction guarantee, implying a remedy such as a replacement or refund. The brand policy has no such promise. It only says subscribers can pause or cancel any time. |\n| \"Free UK delivery on orders over £25.\" | Allowlisted. The landing page must state the same £25 threshold. |\n\n**Other notes**\n- No character limit was given. The description is about 105 characters, which exceeds the common 90-character limit for search ad descriptions. Check it against your platform's limit.\n- No fake urgency, health claims, superlatives or invented stats.\n\n**Compliant version (87 characters in the description)**\n- Headline: Tea Subscription UK\n- Description: Monthly loose leaf tea, packed by hand in Bristol. Free UK delivery on orders over £25.\n\nIf you want to promise a remedy for unsatisfactory boxes, send the actual policy (refund, replacement, time window). Then the line can go back in as `[PROOF NEEDED: returns/satisfaction policy]` until it's confirmed. \"Pause or cancel any time\" is a safe alternative if it fits the character limit.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0167363,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Our tea bags are plastic-free and home compostable.\"** The policy lists this as a claim we can back up, and it is stated plainly, without an overreaching \"100% eco\" or \"planet-saving\" line. It's fine.\n- **\"Plastic-Free Tea Bags\" (headline).** This is the same allowlisted claim, so it's fine.\n- **\"Founded in Bristol in 2019.\"** This is on the allowlist and matches exactly.\n\nThe ad also has no superlatives, invented stats, guarantees, testimonials, health claims, or false urgency. It reads as plain copy, with no filler phrasing. It's a search ad aimed at UK tea drinkers, and nothing in it needs a disclosure.\n\nNothing needs changing, so it can be published.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0052553,
+ "seconds": 8.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

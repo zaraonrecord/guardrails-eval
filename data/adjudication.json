@@ -1,0 +1,143 @@
+{
+ "_about": "Hand rulings on flags that didn't match a planted problem (17 Nov 2026). 'valid' = a real problem the test set missed (my labelling error). 'false_alarm' = the draft was fine. 'borderline' = reasonable people could disagree. Matching is by case id + a phrase from the flagged quote.",
+ "rulings": [
+  {
+   "case": "b08",
+   "match": "most boxes ship free",
+   "verdict": "valid",
+   "why": "Not in the claims list; an unbacked inference from the delivery threshold."
+  },
+  {
+   "case": "p07",
+   "match": "most boxes ship free",
+   "verdict": "valid",
+   "why": "Same sentence as b08."
+  },
+  {
+   "case": "b01",
+   "match": "packed by hand in Bristol",
+   "verdict": "valid",
+   "why": "The draft says it twice in a row; a real copy flaw."
+  },
+  {
+   "case": "p01",
+   "match": "packed by hand in Bristol",
+   "verdict": "valid",
+   "why": "Same repetition as b01."
+  },
+  {
+   "case": "b22",
+   "match": "plastic-free and home compostable",
+   "verdict": "valid",
+   "why": "The draft repeats the plastic-free point twice."
+  },
+  {
+   "case": "p06",
+   "match": "how we checked",
+   "verdict": "valid",
+   "why": "The planted edit left a dangling sentence that now seems to back up the false carbon claim."
+  },
+  {
+   "case": "p21",
+   "match": "plastic-free and home compostable",
+   "verdict": "valid",
+   "why": "Same repetition as b22, carried into the variant."
+  },
+  {
+   "case": "b21",
+   "match": "gardens we've visited",
+   "verdict": "false_alarm",
+   "why": "Sourcing is a product fact the policy says is fine."
+  },
+  {
+   "case": "p20",
+   "match": "gardens we've visited",
+   "verdict": "false_alarm",
+   "why": "Same as b21."
+  },
+  {
+   "case": "b15",
+   "match": "four tea subscriptions",
+   "verdict": "false_alarm",
+   "why": "The affiliate label sits next to the link, which is what the policy asks for."
+  },
+  {
+   "case": "p14",
+   "match": "four tea subscriptions",
+   "verdict": "false_alarm",
+   "why": "The reviewer's own experience, not a brand claim."
+  },
+  {
+   "case": "p14",
+   "match": "tins are lovely",
+   "verdict": "false_alarm",
+   "why": "Opinion, not a claim."
+  },
+  {
+   "case": "b15",
+   "match": "easiest to pause",
+   "verdict": "borderline",
+   "why": "A reviewer's comparative opinion in affiliate content; arguably needs backing."
+  },
+  {
+   "case": "p14",
+   "match": "easiest to pause",
+   "verdict": "borderline",
+   "why": "Same as b15."
+  },
+  {
+   "case": "b15",
+   "match": "(Affiliate link)",
+   "verdict": "borderline",
+   "why": "Label is next to the link; with no policy on placement, UK guidance prefers it upfront."
+  },
+  {
+   "case": "b12",
+   "match": "desk drawer",
+   "verdict": "false_alarm",
+   "why": "The brand's own paid social ad; the platform adds the Ad label."
+  },
+  {
+   "case": "p11",
+   "match": "desk drawer",
+   "verdict": "false_alarm",
+   "why": "Same as b12."
+  },
+  {
+   "case": "p13",
+   "match": "Not paid to say that",
+   "verdict": "valid",
+   "why": "With the Gifted label removed, 'not paid' while hiding the gift is misleading."
+  },
+  {
+   "case": "*",
+   "match": "most boxes ship free",
+   "verdict": "valid",
+   "why": "Unbacked inference, in any draft built on b08."
+  },
+  {
+   "case": "*",
+   "match": "packed by hand in Bristol",
+   "verdict": "valid",
+   "why": "The b01-based drafts repeat it twice in a row."
+  },
+  {
+   "case": "*",
+   "match": "gardens we've visited",
+   "verdict": "false_alarm",
+   "why": "Sourcing is an allowed product fact."
+  },
+  {
+   "case": "*",
+   "match": "easiest to pause",
+   "verdict": "borderline",
+   "why": "Reviewer's comparative opinion in affiliate content."
+  },
+  {
+   "case": "b07",
+   "match": "how we checked",
+   "verdict": "false_alarm",
+   "why": "In the clean b07 the sentence backs an allowlisted claim (plastic-free, home compostable)."
+  }
+ ]
+}

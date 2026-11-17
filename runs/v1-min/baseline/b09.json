@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Our tea bags are plastic-free and home compostable.\"** The policy lists this as a claim we can back up (\"tea bags are plastic-free and home compostable\"). It is specific and not an overreach, so it's fine.\n- **\"Plastic-Free Tea Bags\"** (headline). This matches the same allowed claim. Fine.\n- **\"Founded in Bristol in 2019.\"** This is on the allowlist. Fine.\n\nOther checks:\n- No invented stats, superlatives, guarantees, testimonials, health claims, or fake urgency.\n- No vague green claims. The environmental claim is specific and allowed.\n- The copy is short and plain, with no filler.\n- A search ad needs no disclosure label here, and no promotional offer is made that would need terms.\n- Character length looks within typical search ad limits (the headline is under 30 characters, and the description is under 90).\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008958,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

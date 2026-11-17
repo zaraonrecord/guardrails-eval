@@ -1,0 +1,11 @@
+{
+ "case": "p07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: landing hero**\n\n**Going out:** Landing page hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"you'll love it or it's free\" | **Blocked.** Policy section 3 bans this exact wording and there is no such offer. |\n| \"Subscribers can pause or cancel any time\" | On the policy list (subscription terms). |\n| \"free UK delivery on orders over £25\" | On the policy list (shipping policy). |\n| \"most boxes ship free\" | **Unproven.** We have no data on what share of orders clear £25. It is an implied statistic. |\n\n**Regulated claims:** This touches prices and offers. The \"or it's free\" line is a false money-back promise, which is the risky part. Removing it fixes this.\n\n**House style:** No banned words. The tone is fairly warm and plain. The opening \"Tea that's easy to stop and start\" is a bit awkward, and the sentence is long. I rewrote it for clarity without adding any claims.\n\n**Disclosure:** Our own site copy, so no label is needed.\n\n**Fixed (suggested rewrite)**\n- Removed the guarantee.\n- Removed \"most boxes ship free\".\n- Kept the two allowed claims, worded as in the policy.\n\n> Tea on your terms. Pause or cancel your subscription any time, and enjoy free UK delivery on orders over £25.\n\n**Needs a decision:** None, if you accept the rewrite. If the team actually wants a satisfaction guarantee, that needs a real offer with terms added to the policy first.\n\n**Approver:** Sam (marketing lead). The draft as submitted should not go out. The rewrite needs Sam's explicit yes to that exact text before publishing.\n\n```json\n{\"issues\": [{\"quote\": \"you'll love it or it's free\", \"type\": \"guarantee\"}, {\"quote\": \"most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112535,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

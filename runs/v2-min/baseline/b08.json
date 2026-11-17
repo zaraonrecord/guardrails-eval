@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the landing hero draft**\n\n- **\"Subscribers can pause or cancel any time\"** is on the claims allowlist, so it's fine.\n- **\"free UK delivery on orders over £25\"** is also on the allowlist and correct as written.\n- **\"means most boxes ship free\"** is a problem. The policy supports the £25 threshold, but it says nothing about how many orders clear it. \"Most boxes\" is an implied statistic we can't back up, and it also assumes the customer's basket size. The \"means\" also presents it as a direct consequence of the policy, which it isn't. Either cut it or stick to the verified fact, e.g. \"and enjoy free UK delivery on orders over £25.\"\n- There are no superlatives, guarantees, health or green claims, fake urgency or testimonials.\n- No disclosure is needed for this copy.\n\n**Suggested fix:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free across the UK on orders over £25.\"\n\nDon't publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.007553299999999999,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

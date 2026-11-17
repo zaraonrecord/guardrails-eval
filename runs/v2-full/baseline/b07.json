@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Founding claim:** \"started Pebblebrook in Bristol in 2019\" matches the allowlisted \"Founded in Bristol in 2019\" (Companies House).\n- **Tea bag claim:** \"Our tea bags are plastic-free and home compostable\" is the exact allowlisted wording, backed by the EN 13432 supplier certificate.\n- **Origin reason:** \"we couldn't find tea bags without plastic in them\" is a story about why the brand started. It isn't a statistic, superlative, guarantee or health claim.\n- **\"Here's how we checked\":** This leads into the rest of the post. When the full post is written, it should stick to the supplier certificate (EN 13432) and not add new environmental claims or numbers.\n- **Voice:** The tone is plain and warm, the spelling is UK, and none of the banned phrases appear.\n- **Disclosures:** None are needed. This is our own blog, with no partnership, gifting or affiliate link.\n\nSam still needs to approve it, since he signs off on everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0085647,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

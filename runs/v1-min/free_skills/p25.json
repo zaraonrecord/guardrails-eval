@@ -1,0 +1,11 @@
+{
+ "case": "p25",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written |\n| \"Rated 4.9 out of 5\" | Unsupported. Allowlist says 4.8 out of 5 |\n| \"over 5,000 reviews\" | Unsupported. Allowlist says over 1,200 reviews |\n| \"on our website\" | Matches allowlist source |\n\n**Problem:** The rating and review count don't match what we can back up. 4.9 and 5,000 are both inflated against the approved 4.8 and 1,200. This is an invented statistic and must not go out.\n\n**Slop and structure check:** No banned words, no exclamation points, no rhetorical opener, no em-dash sandwiches. The opening \"Rainy Sunday, second pot.\" is a concrete scene, which is fine.\n\n**Disclosure:** Own account, no affiliate or sponsored content indicated. Nothing needed.\n\n**Compliant version:**\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nBefore publishing, if the review figures have genuinely risen since the policy was written, send me the current numbers and a source and I'll update the copy. Until then, use the 4.8 / 1,200 version.\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.9 out of 5 from over 5,000 reviews on our website.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009886299999999999,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

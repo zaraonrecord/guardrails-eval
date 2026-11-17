@@ -1,0 +1,11 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the creator post (gifted)**\n\n- **Disclosure:** The post says Pebblebrook \"sent me\" the sampler, but it never says the product was free or gifted. It also has no label such as \"Gifted\" or \"#gifted\" up front. Under UK rules (ASA/CMA), a gifted item is a material connection and should be labelled clearly at the start of the post. \"Not paid to say that\" is probably true, but without a clear gifted label it could leave readers thinking there is no relationship with the brand. Suggested fix: open with \"Gifted:\" or \"#gifted\", or say \"Pebblebrook gifted me their winter sampler.\"\n- **Claims:** There are no statistics, superlatives, guarantees, health claims, green claims or urgency language. The oat milk pairing and the flavour comment are personal opinion about the product and are fine.\n- **Tone:** The copy reads like a real person wrote it, so I have no AI-slop concerns.\n\nThe only change needed is a clear gifted label at the start.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014934,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

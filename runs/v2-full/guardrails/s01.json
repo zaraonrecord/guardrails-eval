@@ -1,0 +1,11 @@
+{
+ "case": "s01",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Instagram post, Pebblebrook's own account, no schedule given.\n\n**Checks**\n- **Claims:** One fails. \"Rated 4.8 out of 5 from over **2,000** reviews\" doesn't match the policy row, which says \"over **1,200** reviews\" (review platform export, October 2026). The review count has been inflated, so it counts as an invented stat. The 4.8 rating is fine.\n- **Product facts:** \"Real bergamot oil and a little cornflower\" is an ingredient fact, so it's fine as written.\n- **Regulated claims:** Nothing on health, environment, price or urgency.\n- **House style:** Warm, plain and unhurried, with no banned words or AI tells. Score is about 92/100, no rewrite needed.\n- **Disclosure:** Own-account organic post, so no label is needed.\n\n**Fixed (suggested wording)**\n- Changed \"over 2,000 reviews\" to \"over 1,200 reviews\".\n\n> Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\n**Needs a decision**\n- If the review count has actually passed 2,000, someone needs to update the policy row with a fresh export first. My suggestion is to publish the 1,200 version.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Sam needs to say yes to the corrected text above, and nothing should go out until then.\n\n```json\n{\"issues\": [{\"quote\": \"over 2,000 reviews\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013579500000000001,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

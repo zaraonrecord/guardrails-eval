@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims list**\n- \"the Christmas blend is back\": product/new-arrival fact, fine as written per the brand policy.\n- \"Black tea, orange peel, cinnamon and a little clove\": ingredients, fine as written.\n- \"It's back in the shop from today\": availability/new-arrival fact, not scarcity or a countdown. Fine, provided the blend is actually on the site today.\n\n**Claims guard**\n- No statistics, superlatives, guarantees, testimonials, review counts, awards, or health/money/legal/environmental claims.\n- No unsupported claims, so no [PROOF NEEDED] markers are required.\n\n**Slop guard**\n- Ban-list words: none.\n- Structural: no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\", no abstract-noun triads, no fake urgency.\n- The opening sentence states the news (the blend is back). No throat-clearing.\n- The copy is short and specific.\n\n**Honest review rules**\n- Not a review or roundup, so product labels and affiliate disclosure don't apply.\n\n**Minor optional note (not blocking)**\n- \"Back in the shop\" and \"back\" in the line before it repeat each other. You could cut one if you want it tighter, e.g. \"The Christmas blend is back in the shop from today.\"\n\nNothing needs changing before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0094334,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

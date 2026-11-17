@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"a small team of six\" | Allowlisted (team size is a product fact that's fine as written) |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | **Unsupported** |\n\n**The problem:** \"We buy from gardens we've visited\" is a claim about sourcing practice, not a plain origin fact. It says you buy only from gardens, and that someone from the team has visited every one. Neither is on the allowlist or supplied with a source in this chat. Readers will take it as an ethical-sourcing assurance, and \"we've visited\" can be checked and disproved.\n\n**Options:**\n- Confirm it's true for every garden you buy from and give me the source, such as a list of gardens and visit dates. Then it can stay.\n- Make it specific and true: \"Our Darjeeling comes from [named garden], which [named person] visited in [year].\" `[PROOF NEEDED: which gardens, who visited, when]`\n- Cut it, or replace it with a plain origin fact such as where each tea is grown.\n\nThe rest of the draft is clean. It has no banned vocabulary, no stats, no superlatives and no guarantees.\n\n**Suggested version, pending proof:**\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. [PROOF NEEDED: which gardens we buy from and who has visited them]\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014825999999999999,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

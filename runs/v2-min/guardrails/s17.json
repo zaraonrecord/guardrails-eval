@@ -1,0 +1,11 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Order/shipping email to a subscriber (Priya), by email, UK.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific fact. Fine if true for this shipment. |\n| \"ships within 24 hours of your order\" | **Unproven.** It's not on the policy list and nobody has given a source. It's also a standing delivery promise, and a late order would break it. |\n| \"smoky lapsang and a soft white peony\" | Product facts, fine as written. |\n| \"pause or cancel any time\" | On the policy list. |\n\n**Regulated claims:** None. There's no health, money, environmental or price content.\n\n**House style:** No banned words or AI tells. The tone is plain and short. The sign-off \"The Pebblebrook team\" is fine.\n\n**Disclosure:** This is a transactional email with no ad, sponsorship, affiliate link or AI-generated content, so no label is needed.\n\n**Fixed (suggested edit):** Remove \"As always, it ships within 24 hours of your order.\" The sentence adds nothing the subscriber needs now, because the box has already shipped.\n\n**Needs a decision**\n- If the team wants to keep the 24-hour line, someone must confirm it's true for every order and have it added to the policy claims list. My suggestion is to cut it.\n- Today is 17 November, but the subject and body say \"October\" and \"this month\". Please confirm this is the right month's email and not a stale draft.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes to the final text from you or whoever owns the send. I haven't recorded any approval.\n\nBecause the draft needs a change and has no approval yet, it should not go out as written.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015559300000000002,
+ "seconds": 14.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **Founding:** \"started Pebblebrook in Bristol in 2019\" matches the allowlist (founded in Bristol in 2019).\n- **Environmental claim:** \"plastic-free and home compostable\" is an approved claim, stated plainly with no extra wording such as \"eco-friendly\" or \"saves the planet\".\n- **Origin story:** \"couldn't find tea bags without plastic in them\" is a brand-voice motivation, not a stat, superlative or guarantee.\n- **Tone:** The copy is short and specific, with no filler or invented urgency.\n\nOne note for the full post: the intro promises \"here's how we checked\", so the body needs to explain the verification, such as the compostability certification or testing. It should not add claims beyond the allowlist, such as percentages, timeframes or \"100% biodegradable\", unless they can be backed up.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0080225,
+ "seconds": 14.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

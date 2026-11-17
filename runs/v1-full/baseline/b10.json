@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims allowlist:** \"Certified organic by the Soil Association\" matches the approved wording exactly. \"Plastic-free tea bags\" is covered by the plastic-free claim, and the draft doesn't add anything beyond it.\n- **Product facts:** \"Caffeine-free\", \"honeyed\", the ingredients and the \"20\" bag count are product-team facts and fine to use as written.\n- **Health claims:** \"Gentle\" and \"for the evening\" describe taste and when to drink it. The draft says nothing about sleep, calm, relaxation or any other effect on the body.\n- **Superlatives, guarantees, stats, urgency and testimonials:** none are present.\n- **Environmental claims:** there are no general \"eco-friendly\" or \"sustainable\" claims.\n- **Voice:** it is plain, warm and short. It uses no banned words or phrases, and the spelling is UK.\n- **Disclosures:** none are needed, because this is our own product page and not a creator post or affiliate link.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0106301,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

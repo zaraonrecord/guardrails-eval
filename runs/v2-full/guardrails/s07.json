@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm, Pebblebrook Tea Co. (UK).\n\n**Checks**\n- **Claims:** \"Certified organic by the Soil Association\" and \"plastic-free\" are both on the policy list. \"Caffeine-free\", \"honeyed\" and \"20 tea bags\" are product facts, so they're fine as written. **One claim fails (below).**\n- **Regulated claims:** \"help you wind down and sleep better\" is a health claim about sleep. Section 3 bans health claims of any kind, and sleep and wellbeing claims are among the ones advertising rules treat most strictly. There is no evidence on file for it.\n- **House style:** No banned words and no AI tells. The tone is warm, plain and unhurried, so it passes.\n- **Disclosure:** This is our own product page, so no label is needed.\n\n**Needs a decision**\n- Remove the sleep claim. Suggested replacement, which keeps the evening mood without promising an effect:\n\n  > Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend for a quiet cup in the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\n  I haven't applied it to the live copy. Please confirm you want this wording.\n\n**Approver:** Sam (marketing lead). Approval needs to be an explicit yes to the final wording, so the original draft should not be approved as it stands. No approval has been recorded, and the draft shouldn't be published until Sam signs off on the revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0141875,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

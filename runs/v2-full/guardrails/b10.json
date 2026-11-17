@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Chamomile and Lemon Balm product page**\n\n**Going out:** Product page copy for Chamomile and Lemon Balm, on the website, to UK shoppers. No scheduled time was given.\n\n**Checks**\n- **Claims:** All clear.\n  - \"Certified organic by the Soil Association\" matches the policy row word for word (certificate on file, renewed 2026).\n  - \"plastic-free tea bags\" is covered by the policy row on plastic-free, home compostable bags.\n  - \"20 tea bags\", \"caffeine-free\" and \"gentle, honeyed\" are product facts and flavour description, which the product team checks and the policy allows as written.\n- **Regulated claims:**\n  - There is no health wording. \"For the evening\" suggests a time of day, not a benefit like sleep or relaxation.\n  - The only environmental claim is the allowed \"plastic-free\". It has no broad \"eco\" or \"sustainable\" wording.\n  - It has no prices, urgency or guarantees.\n- **House style:** About 95/100. It is warm, plain and unhurried, with no banned words and no AI tells. I'd leave it as it is.\n- **Disclosure:** None needed. It is the brand's own product page, with no partnership, affiliate link or AI-generated content.\n\n**Fixed:** Nothing. No changes were needed.\n\n**Needs a decision:** Nothing is unresolved. If you later add anything like \"helps you wind down\" or \"sleepy tea\", it would be a health claim and would need a new check.\n\n**Approver:** Sam (marketing lead), for everything public. Nothing has been recorded as approved. Sam needs to say yes to this exact text before it goes live. Any edit after that means a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0123638,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

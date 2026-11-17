@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** a social ad on the brand's own account, UK audience. No send time was given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy allowlist word for word. The three teas (Builder's, Earl Grey, peppermint) are product facts, which the policy allows as written. There are no stats, rankings, guarantees, testimonials or urgency lines.\n- **Regulated claims:** nothing on health, money, the environment, children or prices. \"Peppermint for after lunch\" is a serving suggestion, not a digestive-health claim. The delivery threshold is a standing offer with no countdown or \"limited\" wording.\n- **House style:** short, plain and concrete, so I'd score it well above 80. The three-tea list is the actual product range, not a decorative triplet. It has no stock openers, slogan closers or reversals, so I made no rewrites.\n- **Disclosure:** this is the brand promoting its own products on its own account, with no creator, affiliate, gifted-product or AI-imagery element. The brand is plainly the advertiser. If it runs as a paid placement, use the platform's built-in \"Sponsored\" or \"Ad\" tag so the label appears upfront. No change to the copy is needed. If the creative uses AI-generated imagery of people, add the policy's AI label.\n\n**Fixed:** nothing. The copy is unchanged.\n\n**Needs a decision:** nothing in the copy. Please confirm the creative has no AI-generated people and that the platform ad label is on.\n\n**Approver:** the policy names no approver, so please give an explicit yes to this exact text. Once you do, I can help you record the approval under your name. I haven't recorded one, and I won't do so on my own.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011896700000000001,
+ "seconds": 14.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

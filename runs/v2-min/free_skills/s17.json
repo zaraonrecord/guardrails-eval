@@ -1,0 +1,11 @@
+{
+ "case": "s17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact about this order; not a marketing claim. Fine (packed in Bristol is allowlisted). |\n| \"ships within 24 hours of your order\" | **Unsupported.** A delivery/dispatch time promise is not on the allowlist. It is also a guarantee-type claim. |\n| \"smoky lapsang and a soft white peony\" | Product facts, allowed. |\n| \"pause or cancel any time\" | Allowlisted. |\n\n**Other checks**\n- Slop-guard: no banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener. Clean.\n- Disclosure: no affiliate or sponsorship content. Nothing needed.\n- Subject says \"October tins\" but today's date is 17 November. Worth confirming the send timing and month are right, though that is a factual check for you rather than a claims violation. Also, the body says \"box\" while the subject says \"tins\"; minor inconsistency.\n\n**Fix needed**\nRemove \"As always, it ships within 24 hours of your order,\" or replace it with `[PROOF NEEDED: confirmed dispatch-time commitment]`. If you can verify a dispatch time, supply it and its source and it can stay.\n\n**Suggested compliant version**\n\nSubject: Your tins are on the way\n\nHi Priya,\n\nYour subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\nThe Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104143,
+ "seconds": 13.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

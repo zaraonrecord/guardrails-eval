@@ -1,0 +1,11 @@
+{
+ "case": "s19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims list**\n\n1. \"Rated 4.8 out of 5 from over 1,200 reviews on our website\": allowlisted (exact match).\n2. \"Organic loose leaf\": allowlisted only as \"certified organic by the Soil Association\". The bare \"organic\" is a softer, uncertified wording, but it's supported by the certification. Acceptable, though naming the certifier would be stronger. Not a blocker.\n3. \"fully sustainable bags\": unsupported. The allowlist backs \"plastic-free and home compostable\", not \"sustainable\", and \"fully\" makes it an absolute. This is a vague green claim that regulators in the UK (CMA Green Claims Code) expect to be substantiated. Replace with \"plastic-free, home compostable tea bags\".\n4. \"packed by hand in Bristol\": allowlisted.\n\n**Other checks**\n- Slop: no banned words or structures. The opening is a claim, not a rhetorical question.\n- Disclosure: not applicable (no affiliate or sponsored content).\n- The first sentence is a fragment, but that's a style choice and fine for a hero.\n\n**Suggested rewrite**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic loose leaf and plastic-free, home compostable tea bags, packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009304299999999998,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

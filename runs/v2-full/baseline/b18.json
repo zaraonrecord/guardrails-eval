@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **\"Peppermint. Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the product team checks and which is fine to use as written.\n- **\"Cool and clean after a big meal.\"** This describes flavour and an occasion for drinking it. It doesn't say the tea aids digestion or does anything for health, so it isn't a health claim. If someone later rewrites it to say the tea \"settles\" or \"soothes\" the stomach, that would become one.\n- **\"Certified organic by the Soil Association.\"** This matches the allowlisted wording exactly. The certificate is on file and was renewed in 2026.\n- **Voice and spelling.** The tone is plain and unhurried, and there are no banned words, superlatives, guarantees, invented numbers or false urgency.\n- **Disclosures.** None are needed, because this is our own product page with no creator or affiliate content.\n\nPer section 6, Sam still needs to approve it, since everything public goes through him.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.007526799999999999,
+ "seconds": 8.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

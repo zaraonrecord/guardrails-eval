@@ -1,0 +1,11 @@
+{
+ "case": "b21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the about page draft**\n\n- **\"Pebblebrook was founded in Bristol in 2019.\"** This matches the allowlist (Companies House).\n- **\"We're a small team of six\"** Team size is a product-team-checked fact, so it's fine as written.\n- **\"every tin is packed by hand in Bristol\"** This matches the allowlist exactly (Operations).\n- **\"We buy from gardens we've visited.\"** This is a factual claim about our sourcing practice. It isn't on the claims allowlist, and it isn't covered by the product facts (which cover where a tea is grown and when it's picked, not how we source it). It implies we've personally visited every garden we buy from, and I have no proof of that. Either get written confirmation from the product team or Operations that it's true for all our suppliers, or reword it to something verifiable, such as naming the specific gardens the team has visited.\n- **Voice and spelling:** No banned words, and it reads warm, plain and unhurried. Nothing needs changing here.\n- **Other checks:** There are no superlatives, guarantees, health claims, green claims, invented numbers or urgency, and no disclosure label is needed for an about page.\n\n**Recommendation:** Don't publish yet. Once the sourcing line is verified or reworded, it can go to Sam for approval, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0099598,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

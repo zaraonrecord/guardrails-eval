@@ -1,0 +1,11 @@
+{
+ "case": "s12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Christmas blend newsletter**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| Christmas blend is back | Product fact (new products arriving), OK |\n| Black tea, orange peel, cinnamon, clove | Ingredients, product team facts, OK |\n| Back in the shop from today | Availability, product team fact, OK. Confirm the launch date is actually today. |\n| \"selling fast\" | Unsupported. No sales data or real offer in the policy. It implies scarcity we can't verify. |\n\n**Other checks**\n- Banned words and structures: none found. No exclamation marks, no em-dashes, no rhetorical opener.\n- Health, green, superlative and guarantee claims: none.\n- Disclosure: none needed. This is our own newsletter, with no affiliate links or partnerships.\n- Spelling and voice: UK, warm, plain and unhurried. Fits.\n- Approval: Sam needs to sign off before it goes out.\n\n**Required change:** cut \"and selling fast\". Suggested version:\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\nBecause \"back\" now appears twice, you could tighten the last sentence to \"You can find it in the shop from today.\"\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114345,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

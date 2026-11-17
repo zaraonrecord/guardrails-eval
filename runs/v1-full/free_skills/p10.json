@@ -1,0 +1,11 @@
+{
+ "case": "p10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold it. One fix is needed, then it can go.**\n\n**Claims check**\n- \"We've added a Japanese sencha to the shop\": new product, covered as a product fact. OK.\n- \"Grassy and a little sweet\": flavour description, product fact. OK.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, not a superlative about the product. OK.\n- No numbers, ratings, testimonials, health, environmental or urgency claims. No disclosure is needed for our own email.\n\n**Problem**\n- \"It's not just tea, it's a ritual.\" This is the banned \"it's not just X, it's Y\" construction, in both the brand policy and the slop rules. It also adds nothing the next sentence doesn't say better. Cut it.\n\n**Suggested version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. Grassy and a little sweet, best brewed cooler than you think, around 70°C.\n\nThe Pebblebrook team\n\nI added \"°C\" so \"70 degrees\" can't be misread. That's optional.\n\nThis still needs Sam's approval before it goes out, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"It's not just tea, it's a ritual.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0128545,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

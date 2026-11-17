@@ -1,0 +1,11 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine |\n| \"Deep green, gold lettering\" | Product fact, fine |\n| \"planet-friendly packaging\" | **Unsupported.** It's a general environmental claim, and policy section 3 bars those beyond what's in section 2. Nothing on the allowlist covers the tins or the packaging. |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free tea bags, EN 13432 supplier certificate) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n\n**Other checks**\n- **Disclosure:** none needed. This is a post from our own account.\n- **Banned words and slop:** no hits, and the UK spelling is fine.\n- **Urgency:** \"just landed\" describes a real arrival, not a countdown or scarcity claim.\n- **Repetition:** \"plastic-free\" appears twice in three sentences. It isn't a policy breach, but the last sentence repeats the second.\n\n**Suggested fix:** Cut \"planet-friendly packaging\". Nothing in the policy says the tins themselves have an environmental benefit, so don't swap in another vague term. If the product team can supply a specific, checkable fact about the tins (for example, what they're made of), it can be added once it's on the allowlist.\n\n> New tins just landed for winter: deep green with gold lettering. Inside, the same tea bags as ever, plastic-free and home compostable.\n\nSam still needs to approve it before it goes out, since all public content goes through him.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015126500000000001,
+ "seconds": 15.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the newsletter draft**\n\n- **\"visited the garden in Darjeeling that grows our first flush\"**: This is an origin fact, which the policy allows as written.\n- **\"picked in March and taste bright and floral\"**: These are product and flavour facts, so they are fine.\n- **\"in the shop from Monday\"**: This is a new-arrival fact and is fine. Make sure \"Monday\" is unambiguous for readers, for example by giving the date.\n- **\"only 40 tins are left, so be quick\"**: This is a specific scarcity claim with a call to hurry, and nothing in the brand policy supports a stock level. The product isn't on sale until Monday, so \"left\" doesn't quite make sense yet. If the 40 tins is the real size of a limited batch, rewrite it as a fact, such as \"a limited run of 40 tins\". If the number can't be verified, remove it and the \"be quick\" pressure.\n\nNothing else in the draft makes a prohibited claim. It makes no green, health or superlative claims, and it doesn't use invented stats or testimonials.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013016,
+ "seconds": 12.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

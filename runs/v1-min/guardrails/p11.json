@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad on the brand's own account, UK audience. Timing and approver not specified.\n\n**Claims check**\n- \"9 out of 10 customers reorder within a month\": not on the policy list and no source given in this chat. This is an invented stat. Remove it, or supply the data (dates, customer base, how \"reorder\" is defined) so it can be added to the policy.\n- \"Free UK delivery on orders over £25\": on the policy list. Pass.\n- \"Three teas... Builder's, Earl Grey and a peppermint\": product facts, fine as written.\n\n**Regulated claims:** Nothing on health, money, environment, children or urgency. The \"9 out of 10\" line is the only risk, and it's a proof problem rather than a regulated-category one.\n\n**House style:** The copy is plain and reasonably on-brand. \"Three teas for your desk drawer\" is fine. Nothing reads as an AI tell.\n\n**Disclosure:** This is a paid social ad, and the opening has no \"Ad\" label. For the UK, the label should be upfront, so use the platform's own ad or paid-partnership tool and, if it's an organic-style post, start with \"Ad\". This needs fixing before it goes out.\n\n**Fixed (suggested rewrite, not yet approved):**\n> Ad: Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision**\n1. Drop the \"9 out of 10\" line (my suggestion), or provide evidence for it.\n2. Confirm the ad label wording and that the platform's ad tools are used.\n\n**Approver:** The policy names no approver, so I'd ask you for an explicit yes on the final text above. Nothing is approved yet, so it shouldn't go out.\n\n**Evidence log rows** (paste into the team log):\n| 2026-11-17 | Desk drawer social ad | 9 out of 10 customers reorder within a month | Unproven, removed | none |\n| 2026-11-17 | Desk drawer social ad | Free UK delivery on orders over £25 | On policy list | Brand policy |\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}, {\"quote\": \"Three teas for your desk drawer.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012619300000000002,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

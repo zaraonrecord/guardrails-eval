@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Landing page hero copy for Pebblebrook Tea Co. Publish time and audience weren't given.\n\n**Checks**\n- **Claims:** two claims fail.\n  - \"Most subscribers stay with us for over a year\" is a retention statistic. It isn't in the policy's claims list and no source was given. It also sits awkwardly beside \"pause or cancel any time\", because it implies a tenure we can't show.\n  - \"means most boxes ship free\" implies most orders pass £25. That's an unsourced claim about order values. The free-delivery threshold itself is fine, but the \"most boxes\" conclusion isn't backed.\n  - \"Subscribers can pause or cancel any time\" matches the policy (subscription terms).\n  - \"Free UK delivery on orders over £25\" matches the policy (shipping policy).\n- **Regulated claims:** the free delivery offer is conditional on spend, and the draft states the condition, so it's fine. There are no health, green, urgency or price-history claims.\n- **House style:** the tone is plain and warm, with no banned words and no obvious AI tells. The line \"Tea that's easy to stop and start\" is fine.\n- **Disclosure:** none needed. This is our own landing page, with no partnership or affiliate content.\n\n**Needs a decision**\n- Remove the retention claim, or provide a source such as subscription data with the date range. If no source turns up, cut it.\n- Remove \"most boxes ship free\". Say only what's true: \"Free UK delivery on orders over £25.\"\n\n**Suggested rewrite (passes all checks)**\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\n**Approver:** Sam (marketing lead), who needs to approve the exact final wording. I haven't recorded any approval, and nothing should go out until Sam says yes to the revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014593500000000002,
+ "seconds": 11.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

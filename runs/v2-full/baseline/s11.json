@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review findings:\n\n1. **\"while stocks last\"** is fake urgency. It implies limited availability, and the policy has no such offer or end date. It also muddies the allowlisted delivery claim, which has no such condition. Remove it.\n\n2. **\"Free UK delivery on orders over £25\"** matches the allowlist exactly, so that part is fine.\n\n3. **\"a peppermint for after lunch\"** is a product or usage suggestion, not a health claim (it doesn't mention digestion). Fine.\n\n4. Voice and spelling: warm, plain, UK spelling, no banned words. \"Builder's\" is fine. No disclosure is needed for a paid social ad from our own account.\n\n5. Approval: everything public needs Sam's sign-off before it goes out.\n\nSuggested fix: \"Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0077821,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Rating claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist wording exactly. The proof is the October 2026 review platform export, which is current.\n- **Ingredients:** \"real bergamot oil and a little cornflower\" is a product fact, which the product team has already checked.\n- **Prohibited claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency.\n- **Disclosure:** It is a paid social post from our own account, so the platform marks it and no extra label is needed. It is not a creator or affiliate post.\n- **Voice:** It is warm, plain and unhurried. It uses none of the banned words, and the spelling is fine for UK English.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006985099999999999,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

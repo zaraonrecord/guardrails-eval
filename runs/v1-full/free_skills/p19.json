@@ -1,0 +1,11 @@
+{
+ "case": "p19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"The UK's number one tea subscription\" | Unsupported. Superlative/ranking; policy bans \"number one\" and \"the UK's favourite\". |\n| \"Subscribers can pause or cancel any time\" | Allowlisted (subscription terms). |\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy). |\n| \"Tea Subscription UK\" (headline) | Descriptive, not a claim. Fine. |\n\n**Other checks**\n- Slop/banned words: none.\n- Disclosure: this is our own paid social/search ad; no extra label required.\n- Landing page: the ad's remaining claims (pause/cancel, free delivery) need to appear on the landing page too. Worth confirming.\n- Platform policy: nothing health, finance or personal-attribute related.\n- Character limits: none were given, so I haven't counted. Note that a headline of \"Tea Subscription UK\" is short and could use more of the available space.\n\n**Problem:** \"The UK's number one tea subscription\" can't be backed up and must come out.\n\n**Compliant version**\n\nHeadline: Organic Tea Subscription | Pebblebrook\nDescription: Certified organic by the Soil Association. Pause or cancel any time. Free UK delivery on orders over £25.\n\n(If you want to keep the original headline, \"Tea Subscription UK\" works as is. Only the description needs changing. Check both against any character limits before use.)\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0098765,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

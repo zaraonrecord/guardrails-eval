@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** Three things need changing.\n\n**1. No product label (Owned / Tried / Wishlist).**\nThe draft doesn't say whether the writer owns Pebblebrook, tried it briefly, or only researched it. \"Easiest to pause\" and \"the tins are lovely\" are hands-on claims, and they're only allowed for Owned or Tried products. Please confirm which label applies, and for Tried, how and for how long. If it's Wishlist, both hands-on claims must be cut. \"I've tried four tea subscriptions this year\" also implies first-hand experience, so it needs to be true and checkable.\n\n**2. \"Easiest to pause\" is a comparative superlative.**\nIt ranks Pebblebrook against three unnamed services, with no evidence shown. The brand policy only backs the plain fact that subscribers can pause or cancel any time. Either name the other services and say what made pausing harder or easier, or use the supported wording: \"You can pause or cancel any time.\"\n\n**3. The affiliate disclosure is in the wrong place.**\n\"(Affiliate link)\" sits after the link, in brackets. The rules require the disclosure at the top of the post, before the first link, in plain words. For example: \"This post contains affiliate links. If you buy through them, I may earn a commission.\"\n\n**Smaller note:** \"the tins are lovely\" fails the \"compared to what?\" test. If the writer has handled the tins, say something concrete, such as the size, the lid or the hand-packing in Bristol, which the policy supports.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Tried four tea subscriptions this year | Unverified, needs the writer's confirmation |\n| Easiest to pause | Unsupported superlative |\n| Tins are lovely | Opinion, only valid if Owned or Tried |\n| Affiliate link | Disclosure misplaced |\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"other\"}, {\"quote\": \"Pebblebrook's was the easiest to pause\", \"type\": \"superlative\"}, {\"quote\": \"(Affiliate link)\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156384,
+ "seconds": 20.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

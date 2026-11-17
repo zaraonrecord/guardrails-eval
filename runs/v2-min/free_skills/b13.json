@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: clear to publish.**\n\n**Disclosure:** The draft opens with \"Ad |\", which is a clear label at the very start of a paid creator post. That works for UK rules.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine as written |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"ten minutes away from my phone\" | Personal habit, not a product claim |\n| \"which I love\" | Opinion, not a factual claim |\n\n**Other checks**\n- No numbers, superlatives, guarantees, testimonials, health or environmental claims, or urgency.\n- No banned vocabulary or structures. There are no em-dash sandwiches, exclamation points, rhetorical openers or abstract triads.\n- The opening sentence leads with a concrete detail (the pot of Assam and the ten minutes).\n\n**One thing to confirm, not a blocker:** the first sentence describes the creator's own routine with the tea (\"My afternoon reset is a pot of...\"). That is a hands-on claim, so confirm the creator really does drink it and that the post is not written from specs alone. If they do, nothing needs to change.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0121267,
+ "seconds": 11.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

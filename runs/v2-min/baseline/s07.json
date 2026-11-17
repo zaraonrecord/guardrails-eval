@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\nChecked against the brand policy:\n\n- **\"Certified organic by the Soil Association\"**: on the allowlist. Fine.\n- **\"20 plastic-free tea bags\"**: plastic-free tea bags are on the allowlist, and the count is a product fact. Fine.\n- **\"Chamomile and Lemon Balm\", \"gentle, honeyed caffeine-free blend\"**: ingredients and flavour are product facts. Fine.\n- **\"to help you wind down and sleep better\"**: this is a health claim. Improved sleep is a physiological benefit, and nothing in the policy backs it up. \"Wind down\" is a softer relaxation claim, but \"sleep better\" makes an efficacy promise about a health outcome. It should be removed or reworded to something like \"a calming blend to enjoy in the evening\".\n\nNo other problems: no invented stats, superlatives, guarantees, fake urgency, or green claims beyond the permitted ones.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0093,
+ "seconds": 7.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

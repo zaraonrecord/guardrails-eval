@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: subscription dispatch email**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact about this shipment. It matches the Bristol packing in the allowlist, but the dispatch timing comes from fulfilment data. |\n| \"a smoky lapsang and a soft white peony\" | Product facts (flavour), fine as written. |\n| \"you can pause or cancel any time from your account\" | Allowlisted (\"Subscribers can pause or cancel any time\"). |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health, environmental or urgency claims:** none.\n- **Disclosure:** this is our own transactional email, not a paid partnership or affiliate post, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice and slop:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation points, no rhetorical opener. UK spelling is fine.\n\n**Before it goes out (not blocking)**\n- Today is 17 November, but the subject says \"October tins\". If this box really is the October one going out late, it's fine. If it's a stale template, change the subject and check that \"This month\" is still true.\n- Policy says everything public goes through Sam. Confirm that sign-off.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011815299999999999,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

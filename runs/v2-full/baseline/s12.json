@@ -1,0 +1,11 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the newsletter draft**\n\n- **\"Black tea, orange peel, cinnamon and a little clove.\"** This is ingredient information, which the product team checks and which is fine as written.\n- **\"the Christmas blend is back\" and \"back in the shop from today\".** This is a new-product arrival, which is also a product fact and fine to use. \"From today\" states when it's available. It isn't a countdown or a deadline.\n- **\"selling fast\".** Nothing in the policy supports this. It implies demand and scarcity to push readers to hurry, which is the kind of untrue urgency section 3 rules out. It also doesn't fit the \"unhurried\" voice. Remove it, or replace it with something plain such as \"It's back in the shop from today.\"\n- **Voice and spelling.** The tone is warm and plain, with no banned phrases, and there are no UK spelling problems.\n- **Disclosures and approval.** No disclosure is needed for our own newsletter. Sam needs to approve the final version before it goes out.\n\nSuggested fix: \"Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\"\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0103701,
+ "seconds": 9.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

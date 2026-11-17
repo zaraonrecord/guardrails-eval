@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Earl Grey uses real bergamot oil and a little cornflower | Allowed (product fact, ingredients) |\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, and the wording matches the policy, including \"on our website\" |\n| \"a rainy Sunday pot is everything\" | Mood line, not a factual claim |\n\nNo unsupported claims, invented stats, testimonials, guarantees, health claims or green claims.\n\n**Problem**\n\n- \"In today's fast-paced world\" is on the ban list. It is also throat-clearing: the opening sentence should carry the most useful or interesting fact, and this one carries nothing. Cutting it fixes both problems.\n\n**Suggested rewrite**\n\n> A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\n\nThe rewrite has no ban-list hits, em-dashes, exclamation points or rhetorical-question openers. The rating line is unchanged. Fix the opener and it can go out.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0122463,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

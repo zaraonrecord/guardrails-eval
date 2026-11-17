@@ -1,0 +1,11 @@
+{
+ "case": "s06",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found one problem in the draft.\n\n**Needs changing**\n- **\"Our customers tell us it's the only tea they drink now.\"** This is a testimonial-style claim, and the policy has no customer quotes or feedback to back it up. Brand policy section 3 bans invented testimonials. Cut it, or replace it with a real, approved customer quote.\n\n**Checked and fine**\n- **Darjeeling garden, first flush, picked in March, \"bright and floral\":** these are product facts (where a tea is grown, when it's picked, flavour), which the product team has already checked.\n- **\"You'll find it in the shop from Monday\":** new products arriving counts as a product fact. It's a launch date, not manufactured urgency, so it isn't a fake-urgency claim.\n- **Voice and spelling:** warm, plain and unhurried, with no banned words.\n- **Approval:** Sam needs to sign off on this before it goes out, as with everything public.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0097221,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

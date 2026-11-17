@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: this is on the allowlist, so it is fine.\n- **\"A malty, full-bodied black tea that stands up to milk\"**: this is flavour and product description, which the policy allows as written.\n- **\"100g tin, makes around 40 cups\"**: size and brewing facts are allowed. \"Around\" keeps it appropriately hedged.\n- No superlatives, guarantees, testimonials, health claims, green claims, urgency, or invented stats appear.\n- The copy reads naturally and has no filler phrasing.\n- No disclosure is needed, since nothing is sponsored or an affiliate link.\n\nThe draft is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008230000000000001,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

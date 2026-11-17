@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero, Pebblebrook Tea Co., UK audience.\n\n**Claims:** all pass.\n| Claim | Status |\n|---|---|\n| Loose leaf tea | Product fact |\n| Packed by hand in Bristol / every tin is packed by hand in Bristol | On the policy list (Operations) |\n| Certified organic by the Soil Association | On the policy list (certificate renewed 2026) |\n| Free UK delivery on orders over £25 | On the policy list (shipping policy) |\n\n**Regulated claims:** nothing touching health, environment, children or offers with deadlines. The delivery threshold is a standing policy, not a time-limited offer.\n\n**House style:** no banned words or AI tells, and the tone is plain. The one weakness is repetition: \"packed by hand in Bristol\" appears twice in the first two sentences. I haven't made this a blocking issue, but it reads better tightened:\n\n> Loose leaf tea, every tin packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nThe tightened version uses the policy's exact claim wording. If you prefer to publish the original, it is also compliant.\n\n**Disclosure:** this is the brand's own page, so no ad, affiliate or partnership label is needed. Nothing here calls for an AI label.\n\n**Needs a decision:** none on content.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to the exact final text, whether that's the original or the tightened version. If the copy changes after approval, it needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0134404,
+ "seconds": 13.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

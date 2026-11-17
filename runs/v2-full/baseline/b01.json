@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Loose leaf tea, packed by hand in Bristol.\" and \"Every tin is packed by hand in Bristol\" match the allowlist (Operations). The sentence repeats itself, which is a style issue and not a policy one.\n- \"certified organic by the Soil Association\" matches the allowed claim (certificate renewed 2026). The wording is slightly different (\"our tea is certified organic by the Soil Association\" vs \"Certified organic by the Soil Association\"), but the meaning is the same, so I'm treating it as fine.\n- \"Free UK delivery on orders over £25\" matches the shipping policy exactly.\n- No superlatives, guarantees, health claims, green claims, invented numbers, urgency, or banned words.\n- No disclosure is needed, since this is our own landing page.\n\nThe only thing I'd change is the redundancy in the first two sentences. \"Packed by hand in Bristol\" appears twice in a row. A tidier version: \"Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\" This is an edit for tidiness and doesn't block publication. It still needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.006767,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

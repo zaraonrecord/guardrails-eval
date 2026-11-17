@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Assam Breakfast, product page**\n\n**Going out:** Product page copy for Assam Breakfast, UK audience. Final text as drafted.\n\n**Checks**\n\n1. **Claims**\n   - \"Certified organic by the Soil Association\": on the policy list. Pass.\n   - \"malty, full-bodied black tea that stands up to milk\": product/flavour description, fine as written.\n   - \"100g tin\": product fact (size). Fine.\n   - \"makes around 40 cups\": brewing/serving fact, covered by \"product facts (brewing, sizes)\". It is hedged with \"around\". Fine.\n\n2. **Regulated claims:** No health, money, legal, environmental, children or price claims. Pass.\n\n3. **House style:** Short, concrete, no banned or AI-tell phrasing. The policy gives no specific voice list, so nothing to flag. Pass.\n\n4. **Disclosure:** Own product page, no ads, affiliates, gifted products or AI-imagery labelling needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One optional note: the policy lists the Soil Association certification as a claim but has no review date, so it is worth confirming the certificate is current before launch. That's housekeeping rather than a blocker.\n\n**Approver:** The policy names no approver, so it goes to you. Please give an explicit yes to this exact text. Once you do, I can help with the approval step (`approve.py --by \"Your Name\" --what \"Assam Breakfast product page\"`), which you can run yourself with `!`. I haven't recorded any approval, and I have no tools in this session to do so anyway.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0084371,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

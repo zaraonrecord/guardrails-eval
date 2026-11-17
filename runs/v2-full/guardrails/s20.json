@@ -1,0 +1,11 @@
+{
+ "case": "s20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Email to Ana, subject \"How to brew loose leaf without a teapot\", from the Pebblebrook team. No send time was given.\n\n**Checks**\n- **Claims:** Passed. \"A mug, a small sieve and four minutes\" for black tea, and \"green tea likes it shorter and cooler\", are brewing guidance, which the policy treats as a product fact. There are no stats, superlatives, guarantees, testimonials or urgency.\n- **Regulated claims:** Passed. There are no health, money, environment, price or children's claims.\n- **Disclosure:** Passed. It's our own email with no sponsor, affiliate link or gifted product, so no label is needed.\n- **House style:** One problem. \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is a stock \"whether you're X or Y\" line. It says nothing specific and doesn't sound warm, plain and unhurried. Everything else is in the brand voice and UK spelling, with no banned words.\n\n**Fixed (in the version below)**\n- Cut the filler sentence. The email is stronger without it.\n\n**Revised draft**\n> Subject: How to brew loose leaf without a teapot\n>\n> Hi Ana,\n>\n> You don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n**Needs a decision:** If you want a closing line, a specific one would work, such as a short note on how much cooler for green tea. I'd suggest only adding a line if the product team supplies the figure.\n\n**Approver:** Sam (marketing lead). Nothing is sent until Sam gives an explicit yes to the revised text above. Approval on the original draft doesn't carry over.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0142935,
+ "seconds": 18.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

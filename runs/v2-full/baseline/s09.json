@@ -1,0 +1,11 @@
+{
+ "case": "s09",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n**Problems**\n\n1. **\"gentle on your stomach after a big meal\"** is a health claim. It implies a digestive benefit, and the policy bans health claims of any kind. Remove it, or swap it for a description of the flavour only.\n\n**Fine as written**\n\n- \"Just peppermint leaves, nothing else\" is an ingredient statement, so the product team covers it.\n- \"Cool, clean\" describes flavour and is acceptable. I'd keep \"clean\" an eye on, but it reads as taste here, not a health or environmental claim.\n- \"Certified organic by the Soil Association\" matches the allowlist wording exactly, and the certificate is on file and renewed for 2026.\n- No banned words, no superlatives, no invented numbers, no urgency, and no disclosure is needed on a product page. Spelling is fine.\n\n**Suggested edit**\n\n\"Peppermint. Just peppermint leaves, nothing else. Cool, clean and refreshing, lovely after a big meal. Certified organic by the Soil Association.\"\n\n\"Lovely after a big meal\" is a serving suggestion, not a health claim, but Sam should confirm since this is public content and needs approval before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008758099999999998,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Instagram post on Pebblebrook Tea Co.'s own account, announcing winter tins.\n\n**Checks**\n\n- **Claims:** \"plastic-free\" and \"home compostable\" tea bags are both on the policy allowlist. \"New tins just landed for winter\" and the tin design (deep green, gold lettering) are product facts, fine as written. Note: the policy says the tea bags are plastic-free, which I'm reading as covering the bags inside the tins. Pass.\n- **Regulated claims:** The environmental wording is the closest thing to a risk. \"Plastic-free\" and \"home compostable\" are specific, not broad \"eco\" claims, and both are backed by the policy. Pass. Keep it to these exact terms and don't let it drift into \"eco-friendly\" or \"sustainable\".\n- **Disclosure:** Own-account organic post about the brand's own product. No gifted items, affiliates or creators, so no ad label needed. No AI content is mentioned. Pass.\n- **House style:** The policy has no voice section or banned list, so I scored against general AI-tell criteria. The copy is plain and short, but it says \"plastic-free tea bags\" and \"plastic-free and home compostable\" back to back, which is repetitive. It's a style nit, not a blocker. Suggested tighter version:\n\n  > New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\n\n  Same facts, no repetition.\n\n**Fixed:** Nothing changed in the draft. The tighter version above is optional.\n\n**Needs a decision:** None blocking. If you want the tighter wording, it needs a re-check before publishing, though the facts are identical.\n\n**Approver:** The policy names no approver, so the user (you) would give the explicit yes on the exact final text. I haven't recorded any approval.\n\nVerdict: nothing that must change. The only note is the repeated phrasing, which is optional. Since the draft as written is compliant, `publish` is true, pending your explicit approval of the final text.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0097232,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

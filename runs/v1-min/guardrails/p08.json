@@ -1,0 +1,11 @@
+{
+ "case": "p08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad, Pebblebrook Tea Co.**\n\n**Going out:** Google-style search ad, UK, headline \"Plastic-Free Tea Bags\" plus description.\n\n**Checks**\n\n1. **Claims**\n   - \"Our tea bags are plastic-free and home compostable.\" On the policy list, so it passes.\n   - \"Best tea I've ever had\" - Emma, Leeds. This is a testimonial and a superlative. There's no permission on record from Emma, no source in this chat, and it isn't on the policy's allowlist. Treated as unproven, so it has to come out.\n2. **Regulated claims:** \"Plastic-free\" and \"home compostable\" are environmental claims, but both are specific and backed by the policy. No health, money, children or price claims. Passes.\n3. **House style:** Short and plain. The testimonial is the only thing that fails.\n4. **Disclosure:** A search ad on the brand's own product. The channel labels it as an ad itself, and there are no partnerships, affiliate links or AI-generated content. Passes.\n\n**Fixed (suggested rewrite):**\n- Headline: Plastic-Free Tea Bags\n- Description: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nThe delivery line is optional and comes from the policy's allowlist. Without it, the description is just the first sentence.\n\n**Needs a decision:**\n- If you do want to use Emma's quote, send proof that she agreed to it and that the wording is hers. I'd still suggest dropping \"Best tea I've ever had\" from an ad, since it's a superlative.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on the exact final copy above. I haven't recorded any approval. Publish is held until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0114253,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

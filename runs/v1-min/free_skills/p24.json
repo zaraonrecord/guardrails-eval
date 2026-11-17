@@ -1,0 +1,11 @@
+{
+ "case": "p24",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"left Bristol this morning\" | Operational fact. Consistent with tins packed in Bristol. Confirm it's true for this send. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine as written. |\n| \"pause or cancel any time\" | Allowlisted. |\n| \"Elevate your mornings\" | Not a factual claim, but \"elevate\" is on the slop ban list. |\n\n**Problem to fix**\n- \"Elevate your mornings\" is banned vocabulary and generic filler. It also delays the useful information. Cut it, or replace it with something concrete.\n\nSuggested rewrite of that line: \"This month's box has a smoky lapsang and a soft white peony.\"\n\n**One thing to confirm (not blocking by itself)**\n- The subject says \"October tins\", but today is 17 November. If this email is going out now, check that the month label matches the box. If it's a correctly labelled October order, leave it.\n\nNo unsupported stats, testimonials, guarantees, green claims or fake urgency were found. Nothing here needs a disclosure.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014074300000000001,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

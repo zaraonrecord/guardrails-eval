@@ -1,0 +1,11 @@
+{
+ "case": "s09",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: Peppermint product page\n\n**Going out:** product page copy for the peppermint tea, published on the website.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else.\" | OK. Ingredients are a product fact, checked by the product team. |\n| \"Cool, clean\" | OK. This describes flavour. |\n| \"gentle on your stomach after a big meal\" | **Not OK.** This is a digestive health claim. Policy section 3 bans health claims of any kind. |\n| \"Certified organic by the Soil Association.\" | OK. It matches the policy row word for word, and the certificate was renewed in 2026. |\n\n**Regulated claims:** \"gentle on your stomach after a big meal\" suggests the tea soothes or aids digestion. That is a wellbeing claim, and we have no evidence for it. It needs to come out.\n\n**House style:** The voice is warm, plain and unhurried, with no banned words or AI tells. Score is about 90 once the health line is removed.\n\n**Disclosure:** None needed. This is our own product page, with no partnership, affiliate link or AI-labelling trigger.\n\n**Fixed:** Nothing changed yet. I'm leaving the rewrite to you so the approved text is exactly what you see.\n\n**Needs a decision:**\n- Replace the health line. My suggested final copy:\n  > Peppermint. Just peppermint leaves, nothing else. Cool, clean and refreshing in the cup. Certified organic by the Soil Association.\n- Because the copy has to change, it needs a new check and an explicit yes on the final text.\n\n**Evidence log rows (paste into the team log):**\n- 2026-11-17 | Peppermint product page | Just peppermint leaves, nothing else | Product fact | Product team\n- 2026-11-17 | Peppermint product page | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026\n- 2026-11-17 | Peppermint product page | gentle on your stomach after a big meal | Removed, health claim | None\n\n**Approver:** Sam (marketing lead). Please don't publish until Sam approves the revised copy.\n\n```json\n{\"issues\": [{\"quote\": \"gentle on your stomach after a big meal\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156875,
+ "seconds": 15.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim against the brand policy.\n\n- **\"Most subscribers stay with us for over a year.\"** This is a retention statistic. The allowlist has nothing on subscriber tenure, so it is an invented stat and needs either substantiation or removal.\n- **\"Subscribers can pause or cancel any time\"** is on the allowlist. Fine.\n- **\"free UK delivery on orders over £25\"** is on the allowlist. Fine.\n- **\"means most boxes ship free\"** is a claim about what share of orders qualify. The allowlist doesn't cover it, and it implies data we haven't been given. It should be removed or backed up. The sentence also reads oddly, since the free delivery threshold doesn't \"mean\" most boxes ship free.\n- **\"Tea that's easy to stop and start.\"** This is a loose paraphrase of the pause/cancel policy and is acceptable.\n\nBecause two unsupported figures sit in a hero, I'd hold publication until they're cut or sourced. A safe rewrite: \"Tea that's easy to stop and start. Pause or cancel any time, and enjoy free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010186,
+ "seconds": 11.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

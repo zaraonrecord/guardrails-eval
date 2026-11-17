@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft, Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where a tea is grown). Fine as written. |\n| \"leaves are picked in March\" | Product fact (when a tea is picked). Fine. |\n| \"taste bright and floral\" | Product fact (flavour). Fine. |\n| \"in the shop from Monday\" | Product fact (new product arriving). It's a launch date, not a countdown or scarcity claim, so it isn't fake urgency. |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Banned words and AI-tell structures:** none. No \"elevate\", \"unlock\", \"journey\" or \"indulge\", no em-dash sandwiches, no exclamation points, and no rhetorical opener. The first sentence states a fact.\n- **Disclosure:** this is our own newsletter, with no paid partnership, gifted product or affiliate link, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n- **Voice:** warm, plain and unhurried, in UK spelling.\n\n**Before sending:** the policy says Sam (marketing lead) approves everything public, so get their sign-off. Also confirm that \"Monday\" is the right date for the send.\n\nNo changes needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012756500000000002,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

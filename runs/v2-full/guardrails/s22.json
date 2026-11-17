@@ -1,0 +1,11 @@
+{
+ "case": "s22",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing hero copy, Pebblebrook Tea Co. website, UK audience.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Loose leaf tea, packed by hand in Bristol\" | OK. Matches \"Every tin is packed by hand in Bristol\" (Operations). Loose leaf is a product fact. |\n| \"Every tin is packed by hand in Bristol\" | OK, but it repeats the first sentence. |\n| \"certified organic by the Soil Association\" | OK. Certificate on file, renewed 2026. |\n| \"Free UK delivery on all orders\" | **Fails.** The policy only supports \"Free UK delivery on orders over £25\". \"All orders\" drops the condition, which is also a regulated \"free with conditions\" offer. |\n\n**Regulated claims:** the only exposure is the free-delivery wording above. There are no health, environmental, urgency or guarantee claims.\n\n**House style:** the voice is warm and plain, and there are no banned words or AI tells. The one weakness is the repeated \"packed by hand in Bristol\".\n\n**Disclosure:** none needed. This is our own page, with no partnership, affiliate link or AI-labelling trigger.\n\n**Fixed (suggested rewrite):**\n- Corrected the delivery claim to the policy wording.\n- Removed the duplicated packing line.\n\n> Loose leaf tea, every tin packed by hand in Bristol. Our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.\n\n**Needs a decision:** none on content, beyond accepting the rewrite.\n\n**Approver:** Sam (marketing lead). I can't record approval, and the original draft isn't approved. Sam needs to say yes to the rewritten text above. Then run `approve.py --by \"Sam\" --what \"landing hero copy\"` and retry the publish.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0176675,
+ "seconds": 18.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

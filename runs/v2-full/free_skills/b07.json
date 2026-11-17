@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: blog intro for Pebblebrook Tea Co.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"started Pebblebrook in Bristol in 2019\" | Allowlisted (Founded in Bristol in 2019, Companies House) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (supplier certificate, EN 13432), and the wording matches exactly |\n| \"because we couldn't find tea bags without plastic in them\" | Not a product claim. It's the founders' own story, so it's fine if it's true, but it isn't on the allowlist. Sam should confirm it at sign-off. |\n| \"here's how we checked\" | Not a claim, but it promises the rest of the post will explain the checking. The body must stick to the certificate (EN 13432) and add no new test results, numbers or \"eco-friendly\" or \"sustainable\" wording. |\n\n**Other checks**\n- **Banned words and structures:** none. There are no superlatives, guarantees, health claims, urgency, em-dash sandwiches or \"not just X, it's Y\" constructions.\n- **Voice:** warm, plain and unhurried, in UK spelling.\n- **Disclosure:** none needed. It's our own blog, with no paid partnership, gifted product or affiliate link.\n- **Approval:** the policy requires Sam to approve everything public, so get sign-off before it goes out.\n\nNothing in the draft needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0129651,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

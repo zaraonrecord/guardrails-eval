@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\n- **\"Plastic-Free Tea Bags\"** (headline): Supported. The policy says the tea bags are plastic-free.\n- **\"Our tea bags are plastic-free and home compostable.\"**: Supported by the allowlist, which lists \"tea bags are plastic-free and home compostable.\"\n- **\"Recommended by nutritionists.\"**: Not supported. The allowlist has no claim about nutritionist endorsement. It implies an expert endorsement we can't evidence, and it also reads as a health-related claim. It should be removed unless we have named, documented backing. Without that, it could also count as a fake testimonial or endorsement.\n\n**Recommended fix:** Cut \"Recommended by nutritionists.\" Replace it with an allowed claim, for example \"Free UK delivery on orders over £25.\" or \"Certified organic by the Soil Association.\"\n\nSuggested description: \"Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\"\n\nPublish: no, not until that line is changed.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009527999999999998,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

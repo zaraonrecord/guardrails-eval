@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I'm clearing this draft to publish.\n\n- **Affiliate disclosure:** \"(Affiliate link)\" sits right next to the link, as section 4 requires.\n- **Claims:** The draft makes no claims about certification, delivery, ratings, health, environment, guarantees or urgency. \"Easiest to pause\" is the reviewer's own opinion, and it fits our subscription terms (pause or cancel any time). \"Tins are lovely\" is also opinion.\n- **Numbers:** \"Four tea subscriptions this year\" is the reviewer's own experience, not a figure we're presenting about Pebblebrook.\n- **Voice:** There are no banned words, and nothing reads as filler.\n\nOne thing to confirm with Sam: if the reviewer was paid or given free product, the post must open with \"Ad\" or \"Gifted\". The draft doesn't say either way. If it's purely an affiliate arrangement, it's fine as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010154199999999999,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

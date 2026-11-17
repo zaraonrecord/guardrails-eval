@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: landing hero**\n\n| Claim | Status |\n|---|---|\n| \"Good tea, no fuss.\" | Tone line, not a factual claim. It isn't a superlative or comparison, so it passes. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording. |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\"). The draft doesn't say \"tin\", but it doesn't overreach either. |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording. |\n\n**Other checks**\n- No health, green, guarantee, urgency, stat or testimonial claims.\n- No banned words or structures: no \"elevate\", \"unlock\", \"indulge\", \"journey\", em-dash sandwiches, exclamation marks or rhetorical-question openers.\n- UK spelling and the warm, plain, unhurried voice both hold.\n- No disclosure is needed, since this is our own landing page and not a partnership or affiliate post.\n- The opening is a bit generic. \"Good tea, no fuss\" is fine for the voice, but if you'd rather lead with a concrete fact, \"Certified organic by the Soil Association\" could open instead. That's optional.\n\nNothing needs changing. Per the policy, Sam (marketing lead) still needs to approve before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010487600000000001,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

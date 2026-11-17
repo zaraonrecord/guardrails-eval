@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| Three teas: Builder's, Earl Grey, peppermint | Product facts, fine as written |\n| \"for after lunch\" | Usage suggestion, not a health claim (no digestive benefit stated) |\n\n**Slop-guard check**\n- Ban-list words: none.\n- Em-dash sandwiches: none.\n- Exclamation points: none.\n- Rhetorical-question opener: none.\n- \"Not just X, it's Y\": none.\n- Abstract-noun triads: none.\n- Fake urgency: none.\n- Opening sentence: \"Three teas for your desk drawer\" is concrete and leads with a fact. Fine.\n\n**Ad notes**\n- No character limit was given, so nothing to count.\n- The ad makes only the delivery claim, so the landing page needs to state the same free-delivery threshold. I can't verify that from here, so check it before launch.\n- No platform-policy triggers (no health, finance, or personal-attribute language).\n- No review labels needed: this is a brand ad for its own products, not a product review, and no hands-on claims are made.\n\n**Verdict:** Nothing needs changing. Publish, after confirming the landing page shows the £25 free-delivery threshold.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0071657000000000005,
+ "seconds": 8.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

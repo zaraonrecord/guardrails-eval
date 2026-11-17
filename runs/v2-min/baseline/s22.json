@@ -1,0 +1,11 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nChecked against the brand policy:\n\n- \"Packed by hand in Bristol\": allowed (every tin is packed by hand in Bristol).\n- \"Certified organic by the Soil Association\": allowed.\n- \"Free UK delivery on all orders\": **not supported.** The policy only allows free UK delivery on orders over £25. As written, it promises free delivery on every order, which is misleading and could create a real cost or consumer-law problem. Fix: \"Free UK delivery on orders over £25.\"\n- Style: the first two sentences repeat each other (\"packed by hand in Bristol\" appears twice). This is redundant rather than a policy problem, but it should be tightened.\n\nSuggested rewrite: \"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}, {\"quote\": \"Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009476,
+ "seconds": 9.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Pause or cancel claim:** \"you can pause or cancel any time from your account\" is on the allowlist.\n- **Bristol:** \"left Bristol this morning\" fits the founded-in-Bristol and packed-by-hand-in-Bristol facts. It's an operational statement, so make sure it's true for the send date.\n- **Product details:** the smoky lapsang and soft white peony are product facts, which are fine as written.\n- **Other risks:** there are no stats, superlatives, guarantees, testimonials, health or green claims, or fake urgency. The tone is plain and not padded.\n\nOne thing to confirm that isn't a policy issue: the subject says \"October tins\", but today is 17 November. If this is going out now, the month may be stale. If it's a delayed or scheduled send, update it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008626700000000001,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

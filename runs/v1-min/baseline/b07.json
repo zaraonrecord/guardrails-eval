@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs to change.\n\n- **\"We started Pebblebrook in Bristol in 2019\"**: this matches the allowed claim that we were founded in Bristol in 2019.\n- **\"Our tea bags are plastic-free and home compostable\"**: this is an environmental claim, but the policy backs it, and the wording matches the allowlist.\n- **\"because we couldn't find tea bags without plastic in them\"**: this is a founding-story motivation, not a product or performance claim, so it needs no substantiation.\n- **\"here's how we checked\"**: this is a lead-in to the rest of the post. When the full post is written, whatever it says about how the tea bags were checked (for example, any testing or certification) should be accurate and match what we can back up.\n\nThe draft has no invented stats, superlatives, guarantees, testimonials, health claims, false urgency or filler phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.010536,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

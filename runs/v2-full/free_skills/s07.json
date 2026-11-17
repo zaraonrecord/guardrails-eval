@@ -1,0 +1,11 @@
+{
+ "case": "s07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish as written. One line needs changing.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Chamomile and Lemon Balm | Product name, fine |\n| gentle, honeyed, caffeine-free blend | Product facts (flavour, ingredients), fine |\n| to help you wind down and sleep better | **Unsupported.** A health claim (sleep), and policy bans health claims of any kind |\n| Certified organic by the Soil Association | Allowlisted, exact wording |\n| 20 plastic-free tea bags | Cup count is a product fact, and plastic-free is allowlisted |\n\n**The problem**\n\"Help you wind down and sleep better\" promises a health benefit. Pebblebrook has no proof for it, and policy bans it outright. \"Wind down\" is softer, but it sits in the same phrase and implies the same benefit, so I'd cut the whole clause rather than keep half of it.\n\n**Compliant version**\n> Chamomile and Lemon Balm. A gentle, honeyed, caffeine-free blend. Certified organic by the Soil Association. 20 plastic-free tea bags.\n\nIf you want to say when to drink it, a plain taste-led line such as \"Soft and honeyed, and caffeine-free, so it suits an evening cup\" avoids the benefit claim. It is a light touch, so Sam should look at it.\n\n**Other checks**\n- No disclosure is needed. This is our own product page, not a creator post or an affiliate link.\n- No banned words or slop, and the spelling is UK.\n- No invented stats, urgency or superlatives.\n- Sam still needs to approve it, since all public content goes through him.\n\n```json\n{\"issues\": [{\"quote\": \"to help you wind down and sleep better\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0165065,
+ "seconds": 13.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

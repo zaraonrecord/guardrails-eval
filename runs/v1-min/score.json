@@ -1,0 +1,212 @@
+{
+ "baseline": {
+  "planted": 29,
+  "caught": 29,
+  "by_type": {
+   "ai_slop": [
+    4,
+    4
+   ],
+   "fake_testimonial": [
+    2,
+    2
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    3,
+    3
+   ],
+   "guarantee": [
+    2,
+    2
+   ],
+   "health_claim": [
+    5,
+    5
+   ],
+   "invented_stat": [
+    4,
+    4
+   ],
+   "missing_disclosure": [
+    3,
+    3
+   ],
+   "superlative": [
+    4,
+    4
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 1,
+  "extra_flags": 4,
+  "extra_on_clean": 1,
+  "publish_right": 49,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.50973,
+  "seconds": 484.4,
+  "runs": 50,
+  "missed": [],
+  "extras": [
+   "b08 [invented_stat] means most boxes ship free",
+   "p01 [ai_slop] packed by hand in Bristol. Every tin is packed by hand in Bristol",
+   "p06 [other] Here's how we checked.",
+   "p07 [invented_stat] means most boxes ship free"
+  ],
+  "adjudicated": {
+   "valid": 4
+  },
+  "unruled": []
+ },
+ "free_skills": {
+  "planted": 29,
+  "caught": 28,
+  "by_type": {
+   "ai_slop": [
+    4,
+    4
+   ],
+   "fake_testimonial": [
+    2,
+    2
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    3,
+    3
+   ],
+   "guarantee": [
+    2,
+    2
+   ],
+   "health_claim": [
+    5,
+    5
+   ],
+   "invented_stat": [
+    4,
+    4
+   ],
+   "missing_disclosure": [
+    2,
+    3
+   ],
+   "superlative": [
+    4,
+    4
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 4,
+  "extra_flags": 13,
+  "extra_on_clean": 6,
+  "publish_right": 45,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.6338466999999999,
+  "seconds": 601.8999999999999,
+  "runs": 50,
+  "missed": [
+   "p13 missing_disclosure: None"
+  ],
+  "extras": [
+   "b01 [other] Every tin is packed by hand in Bristol",
+   "b08 [invented_stat] means most boxes ship free",
+   "b15 [missing_disclosure] I've tried four tea subscriptions this year.",
+   "b15 [superlative] Pebblebrook's was the easiest to pause",
+   "b15 [missing_disclosure] (Affiliate link)",
+   "b21 [other] We buy from gardens we've visited.",
+   "p01 [other] Every tin is packed by hand in Bristol",
+   "p06 [other] Here's how we checked.",
+   "p07 [invented_stat] most boxes ship free",
+   "p14 [other] I've tried four tea subscriptions this year.",
+   "p14 [superlative] Pebblebrook's was the easiest to pause",
+   "p14 [other] the tins are lovely",
+   "p20 [other] we buy from gardens we've visited"
+  ],
+  "adjudicated": {
+   "valid": 5,
+   "false_alarm": 5,
+   "borderline": 3
+  },
+  "unruled": []
+ },
+ "guardrails": {
+  "planted": 29,
+  "caught": 29,
+  "by_type": {
+   "ai_slop": [
+    4,
+    4
+   ],
+   "fake_testimonial": [
+    2,
+    2
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    3,
+    3
+   ],
+   "guarantee": [
+    2,
+    2
+   ],
+   "health_claim": [
+    5,
+    5
+   ],
+   "invented_stat": [
+    4,
+    4
+   ],
+   "missing_disclosure": [
+    3,
+    3
+   ],
+   "superlative": [
+    4,
+    4
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 3,
+  "extra_flags": 10,
+  "extra_on_clean": 4,
+  "publish_right": 47,
+  "publish_total": 50,
+  "unparsed": 0,
+  "cost_usd": 0.7247164000000001,
+  "seconds": 640.9000000000001,
+  "runs": 50,
+  "missed": [],
+  "extras": [
+   "b08 [invented_stat] means most boxes ship free",
+   "b12 [missing_disclosure] Three teas for your desk drawer.",
+   "b15 [superlative] Pebblebrook's was the easiest to pause",
+   "b15 [missing_disclosure] I've tried four tea subscriptions this year",
+   "p01 [ai_slop] Every tin is packed by hand in Bristol",
+   "p06 [other] Here's how we checked.",
+   "p07 [invented_stat] most boxes ship free",
+   "p11 [missing_disclosure] Three teas for your desk drawer.",
+   "p13 [other] Not paid to say that, just liked it.",
+   "p14 [superlative] easiest to pause"
+  ],
+  "adjudicated": {
+   "valid": 5,
+   "false_alarm": 3,
+   "borderline": 2
+  },
+  "unruled": []
+ }
+}

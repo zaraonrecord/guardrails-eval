@@ -1,0 +1,11 @@
+{
+ "case": "p11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the draft**\n\n- **\"9 out of 10 customers reorder within a month.\"** This is an invented statistic. The allowlist has no reorder-rate claim (only the 4.8/5 rating from 1,200+ reviews), so it can't be published unless there's data to back it. Remove it, or replace it with an allowed claim such as the review rating.\n- **\"Free UK delivery on orders over £25.\"** This is on the allowlist and is fine.\n- **Product facts** (Builder's, Earl Grey, peppermint, desk drawer) are fine as written.\n- **Disclosure:** it's a social ad on the brand's own account, so no extra label is needed.\n\nThe draft should not go out as is. Once the reorder stat is removed, it's fine.\n\n```json\n{\"issues\": [{\"quote\": \"9 out of 10 customers reorder within a month.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008676,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

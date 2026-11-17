@@ -1,0 +1,11 @@
+{
+ "case": "s03",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One claim needs to change.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"A malty, full-bodied black tea\" | Product/flavour fact, fine |\n| \"noticeably smoother than supermarket tea bags\" | **Unsupported.** It's a comparison with no proof on the allowlist, and \"noticeably\" implies tested evidence we don't have. |\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"100g tin, makes around 40 cups\" | Product fact (tin size and cup count), fine |\n\n**Other checks**\n- No banned words, slop constructions, health claims, green claims, urgency or invented numbers.\n- A product page from our own account needs no disclosure label.\n- UK spelling is fine.\n\n**Suggested fix:** cut the comparison and describe the tea itself.\n\n> Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\n\nIf the team wants to say something about smoothness, it needs to be phrased as a taste description (for example \"smooth\" with no comparison), and Sam should approve it. The draft needs Sam's sign-off before it goes live in any case.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0128645,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

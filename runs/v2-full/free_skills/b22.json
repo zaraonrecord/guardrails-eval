@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: fine to publish as written.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| New tins just landed for winter | Product fact (new products arriving), fine as written |\n| Deep green, gold lettering | Product fact, fine |\n| Same plastic-free tea bags inside | Allowlisted: \"Our tea bags are plastic-free and home compostable\" (EN 13432 certificate) |\n| Our tea bags are plastic-free and home compostable | Allowlisted, exact wording |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, stats, testimonials:** none.\n- **Environmental claims:** only the allowlisted plastic-free and home compostable wording. No \"eco-friendly\" or \"sustainable\".\n- **Urgency:** \"just landed\" describes a launch and isn't a countdown or scarcity claim.\n- **Disclosure:** it's our own account, so the platform marks any paid promotion and no \"Ad\" or \"Gifted\" label is needed.\n- **Voice:** no banned words, no em-dashes, no exclamation points, no rhetorical opener. UK spelling is fine, and the tone is plain and warm.\n\n**Optional edit, not a blocker:** \"plastic-free\" appears twice in three sentences. If you want it tighter, cut the \"plastic-free\" from the first sentence: \"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nPer the policy, Sam still approves everything public.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0115584,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

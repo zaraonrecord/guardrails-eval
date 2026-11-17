@@ -1,0 +1,11 @@
+{
+ "case": "s06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish yet. One sentence needs to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown), fine |\n| \"The leaves are picked in March\" | Product fact (picking time), fine |\n| \"taste bright and floral\" | Product fact (flavour), fine |\n| \"Our customers tell us it's the only tea they drink now.\" | **Unsupported.** It's an invented testimonial and a sweeping social-proof claim. Nothing in the policy or the draft backs it up, and \"the only tea they drink\" is an absolute. |\n| \"You'll find it in the shop from Monday.\" | New product arriving, fine. It's a real launch date, not fake urgency. |\n\n**Other checks**\n- Banned words and slop: none found. The tone is warm, plain and unhurried, and the spelling is UK.\n- Health, green and guarantee claims: none.\n- Disclosure: not needed. This is our own newsletter, not a paid or gifted post, and there are no affiliate links.\n\n**Fix**\nCut the testimonial sentence. If you want social proof here, use `[PROOF NEEDED: a real customer quote with permission to use it]`, or the allowlisted claim \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". That claim is about the shop overall, so don't attach it to this tea specifically.\n\nSuggested version:\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nPer the policy, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0140265,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

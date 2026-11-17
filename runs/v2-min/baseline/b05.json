@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Review claim:** \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" matches the allowlist exactly, so it's fine.\n- **Product facts:** \"real bergamot oil and a little cornflower\" is an ingredient description, which the policy allows as written.\n- **Tone and wording:** The opening line is a natural, specific scene-setter. It has no urgency, superlatives, guarantees, health claims, green claims or testimonials.\n- **Disclosure:** This is the brand's own account, so no ad or partnership label is needed.\n\nNothing needs changing, so the draft can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.004744900000000001,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

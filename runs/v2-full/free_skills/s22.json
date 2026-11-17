@@ -1,0 +1,11 @@
+{
+ "case": "s22",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One claim goes beyond what we can back up.\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Loose leaf tea\" | Product fact, fine |\n| \"packed by hand in Bristol\" / \"Every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"certified organic by the Soil Association\" | Allowlisted (certificate renewed 2026) |\n| \"Free UK delivery on all orders\" | **Unsupported.** The policy says free UK delivery on orders **over £25**. \"All orders\" promises something the shipping policy doesn't. |\n\n**Other notes**\n- The first two sentences say the same thing (packed by hand in Bristol). This isn't a compliance problem, but the copy is tighter if you keep one.\n- No banned words, superlatives, guarantees, health or green claims, or fake urgency.\n- No disclosure label is needed, since this is our own landing page.\n\n**Suggested version**\n\n> Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\n\nSam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014512500000000001,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

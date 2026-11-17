@@ -1,0 +1,11 @@
+{
+ "case": "s18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold it. One thing needs to change.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper | Product fact (ingredients), fine |\n| Lovely with milk | Serving suggestion, fine |\n| 100g tin | Product fact (tin size), fine |\n| Was £12, now £8 | **Unsupported** |\n\n**The problem: \"Was £12, now £8.\"**\n- The brand policy doesn't list this as a sale or offer. It has no price reduction, no end date and no reference price.\n- Section 3 rules out urgency and offer framing unless a real offer is recorded in the policy, and it says there is none.\n- A \"was\" price is also a claim that the product was genuinely sold at £12 beforehand. In the UK, a reference price that wasn't really charged can be treated as misleading under consumer protection rules.\n- Product facts cover ingredients, tin sizes and brewing guidance, but not prices or discounts, so the product team's sign-off doesn't cover this line.\n\n**Fix:** Either remove the reference price and state only the current price once it is confirmed (for example \"100g tin. £8.\"), or have Sam add the offer to the policy, with proof that £12 was the genuine previous price and the dates the offer runs. If the offer is real and time-limited, say so only with a true end date.\n\n**Approval:** Everything public needs Sam's sign-off before it goes live.\n\n**Voice:** No banned words and no slop patterns. The copy is plain and warm, as the policy asks.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0167665,
+ "seconds": 17.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

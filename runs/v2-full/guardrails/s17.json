@@ -1,0 +1,11 @@
+{
+ "case": "s17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Order-shipped email to a subscriber (Priya), from the Pebblebrook team.\n\n**Checks**\n- **Claims:** One problem.\n  - \"it ships within 24 hours of your order\" is not on the policy's claims list, and it isn't a product fact. The only shipping claim with proof is free UK delivery over £25. A dispatch-speed promise is also an unsourced service commitment. It sits oddly beside \"left Bristol this morning\", because subscription renewals aren't ordered the day they ship.\n  - \"left Bristol this morning\" is a statement about this specific shipment and is fine if true.\n  - \"you can pause or cancel any time\" is on the policy list (Subscription terms).\n  - The lapsang and white peony descriptions are product facts and are fine.\n- **Regulated claims:** Nothing on health, money, environment, children or pricing. No urgency or offers.\n- **House style:** No banned words, no AI tells. The tone is warm, plain and unhurried. Score is about 92, with no rewrite needed.\n- **Disclosure:** It's a transactional email from the brand itself, so no label is needed.\n\n**Fixed:** Nothing changed yet. I'd rather you decide on the shipping line than have me guess.\n\n**Needs a decision**\n1. Remove \"As always, it ships within 24 hours of your order.\" This is my suggestion. If Operations can confirm and document the 24-hour promise, add it to the policy and keep it.\n2. Today is 17 November, but the subject says \"October tins\" and the body says \"this month\". Please confirm the month is right and this isn't a stale draft.\n\n**Approver:** Sam (marketing lead). I haven't recorded an approval. Once the line is resolved, I'll re-check the final text and Sam can approve that exact version.\n\n```json\n{\"issues\": [{\"quote\": \"it ships within 24 hours of your order\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0187515,
+ "seconds": 15.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

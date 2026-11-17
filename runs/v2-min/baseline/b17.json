@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, or green claims. Ingredients (black tea, orange peel, cinnamon, clove) are product facts and fine as written.\n- **Urgency:** \"Back in the shop from today\" is a factual statement about availability, not a pressure tactic. There is no countdown, scarcity claim, or deadline.\n- **Disclosure:** This is a plain product announcement with no sponsorship, gifting, or affiliate element, so no label is needed.\n- **Tone:** It's short and natural, with no filler or AI-style phrasing.\n\nNothing needs changing, so it can go out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.004902999999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Email, subject \"A new green tea\", to Tom (UK customer list), timing not specified.\n\n**Checks**\n- **Claims:** No statistics, rankings, testimonials, guarantees or comparisons. The sencha description (grassy, a little sweet, brewed around 70 degrees) and \"added to the shop\" are product facts and new arrivals, which the policy allows as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. \"Green tea\" is the tea type, not an environmental claim. Pass.\n- **House style:** The copy is short, plain and specific. It has no stock openers, empty intensifiers, slogan closers or other AI tells. Pass. The policy doesn't define voice words, so I judged this on clarity and absence of tells only.\n- **Disclosure:** This is the brand's own email about its own product. It has no sponsorship, affiliate links, gifted products or AI-generated imagery, so no label is needed. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. Check that the send is to people who have opted in to marketing email, which this review can't verify.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you for this exact text before it is sent or scheduled. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0091668,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

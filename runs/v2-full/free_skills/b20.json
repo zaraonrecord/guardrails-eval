@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Result: clean. Nothing needs changing for claims or wording.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Tea Subscription UK\" | Descriptive, not a claim. UK is our market. |\n| \"Monthly loose leaf tea\" | Product fact, fine as written. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted, exact wording (Subscription terms). |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording (Shipping policy). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency, invented numbers:** none.\n- **Voice:** no banned words or slop structures. No rhetorical-question opener, no exclamation points, no em-dashes. It's plain and in UK spelling.\n- **Disclosure:** none needed. This is our own paid search ad, and the platform marks it.\n- **Policy-trip risk:** nothing here touches health, money or personal attributes.\n\n**Notes (not blockers)**\n- Both claims in the ad must also appear on the landing page. Confirm the subscription page states the pause/cancel terms and the £25 free delivery threshold.\n- You gave no character limits. The description is 102 characters, and the headline is 19. Google RSA descriptions cap at 90, so if this is going into an RSA, the description will need trimming. For example, drop \"Monthly loose leaf tea.\" or split it into two description assets. I haven't edited it, since no limit was set.\n- Sam (marketing lead) needs to approve before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014244500000000002,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

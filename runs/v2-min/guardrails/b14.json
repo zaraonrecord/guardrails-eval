@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** a creator post on the gifted channel, UK audience. The post is about the Pebblebrook winter sampler.\n\n**Checks**\n- **Claims:** there are no stats, rankings, guarantees or testimonials to source. \"Winter sampler\" and \"rooibos chai\" are product facts, which the policy allows as written. \"Lovely with oat milk\" is the creator's own opinion. Pass.\n- **Regulated claims:** nothing touches health, money, the environment, children or prices. Pass.\n- **House style:** it's short and plain, with no AI tells or stock phrases. The policy lists no banned words that appear here. Pass.\n- **Disclosure:** \"Gifted\" is the first word, so the reader sees it before engaging. It is plain wording and it covers the free product. Pass.\n\n**Fixed:** nothing. I changed no wording.\n\n**Needs a decision (not a blocker):**\n- \"Not paid to say that\" is fine only if it's true. Confirm Pebblebrook gave no payment, commission or conditions beyond the gifted sampler, and no say over the post. If the brand asked for the post or approved it, UK rules would treat it as an ad, and it should open with \"Ad\" instead. My suggested answer is to keep it as written if the gift came with no strings.\n\n**Approver:** the policy names no approver for creator posts, so I need an explicit yes from you, or whoever you nominate, on this exact text before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0148671,
+ "seconds": 19.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

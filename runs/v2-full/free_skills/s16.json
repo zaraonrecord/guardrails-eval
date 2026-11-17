@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: clear to publish, once Sam signs off.**\n\n**Claims check**\n\n| Claim in draft | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted, exact wording |\n| \"packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"free UK delivery on orders over £25\" | Allowlisted, exact wording |\n| \"Brewed with care. Packed with love. Delivered with a smile.\" | Sentiment, not a checkable claim. No numbers, comparisons, guarantees, health or green claims. |\n\n**Other checks**\n- No superlatives, guarantees, invented stats, testimonials or fake urgency.\n- No health or environmental claims beyond section 2.\n- No banned brand words (elevate, unlock, journey, indulge and so on) and no slop-list vocabulary.\n- No exclamation points, rhetorical-question opener or \"not just X, it's Y\" construction.\n- No disclosure needed. This is the brand's own landing page, not a creator, gifted or affiliate post.\n- The copy is UK-appropriate and fits the warm, plain, unhurried voice.\n\n**Optional, not blocking:** the first three lines are generic warmth, and the most useful facts only arrive in the second sentence. If you want a sharper hero, lead with the organic certification or the hand-packing in Bristol. That is a style preference, not a policy failure.\n\n**Process:** the policy says everything public goes through Sam (marketing lead), so get approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0187125,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

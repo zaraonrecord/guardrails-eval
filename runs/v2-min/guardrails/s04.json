@@ -1,0 +1,11 @@
+{
+ "case": "s04",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report: About page\n\n**Going out:** About page copy, Pebblebrook Tea Co., UK audience. Approver: the policy names no approver, so the user needs to give an explicit yes to the final text.\n\n## Claims check\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On policy list. OK. |\n| \"has become Bristol's favourite tea\" | **Unproven.** Superlative with no source. Remove. |\n| \"a small team of six\" | Product facts list includes team size, so fine as written. OK. |\n| \"every tin is packed by hand in Bristol\" | On policy list. OK. |\n| \"We buy from gardens we've visited.\" | Not on the policy list and not sourced in this chat. It's a sourcing/provenance claim (and implies all gardens). Origins are listed as fine product facts, but \"gardens we've visited\" is a claim about the team's practice, so I'd confirm it. Marked `[PROOF NEEDED: confirmation the team has visited every garden it buys from]`. |\n\n## Regulated claims\nNo health, money, legal, children or price content. The only environmental-adjacent point is none. Pass.\n\n## House style\nMostly plain and specific. \"has become Bristol's favourite tea\" is a puffed-up stock line, which goes with the fix above. Score about 85 once that is removed.\n\n## Disclosure\nNothing paid, affiliate or AI-labelled here. Pass.\n\n## Fixed (suggested text)\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. [We buy from gardens we've visited. — keep only if true of every garden]\n\n- Removed \"has become Bristol's favourite tea\" (unproven superlative).\n\n## Needs a decision\n1. Is it true that you've visited every garden you buy from? If yes, keep it. If only some, say \"We buy from gardens we've visited\" → \"We've visited many of the gardens we buy from\" (only if accurate).\n2. Approval: please confirm a named person approves the final text above.\n\nNot publishing until the draft is changed and approved.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0124093,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

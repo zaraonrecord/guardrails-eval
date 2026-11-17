@@ -1,0 +1,11 @@
+{
+ "case": "s08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review findings:\n\n1. **\"packed with antioxidants\"** is a health-adjacent claim. Policy bans health claims of any kind, and this one isn't on the allowlist. Remove it. The flavour description (\"grassy, a little sweet\") is fine as a product fact.\n\n2. **Brewing guidance** (\"around 70 degrees\"): product facts like brewing guidance are fine as written. Note that \"70 degrees\" would read better as \"70°C\" for clarity, but that's optional.\n\n3. **Sign-off and tone**: \"The Pebblebrook team\" is fine. The voice is warm and plain with no banned words. Spelling is UK-consistent. The email is very short, with no link or call to action, but that isn't a policy problem.\n\n4. **Approval**: all public content needs Sam's sign-off before it goes out.\n\nSuggested fix: \"It's grassy and a little sweet, best brewed cooler than you think, around 70°C.\"\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0078901,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

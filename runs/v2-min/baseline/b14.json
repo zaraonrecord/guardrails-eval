@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Disclosure:** The post opens with \"Gifted |\" and then says the sampler was sent by Pebblebrook. That makes the relationship clear and upfront, as UK ad rules expect.\n- **\"Not paid to say that, just liked it\":** This is consistent with a gifted-only arrangement. It is only accurate if no payment was made, so the creator should confirm that.\n- **Claims:** Saying the rooibos chai is lovely with oat milk is a personal opinion and a serving suggestion, which counts as a product fact. There are no stats, superlatives, guarantees, health claims, green claims, urgency or invented testimonials.\n- **Tone:** The copy reads as a natural personal post, with no filler or generic AI phrasing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0067557,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

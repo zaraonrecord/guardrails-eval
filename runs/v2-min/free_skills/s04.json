@@ -1,0 +1,11 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is a superlative with no survey or sales data behind it. The 4.8 rating is from reviews on your own website and doesn't show Bristol-wide preference. |\n| \"small team of six\" | Fine. Team size is a product fact under the policy. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted |\n| \"We buy from gardens we've visited.\" | Not on the allowlist, but it falls under sourcing and origins, so I haven't blocked it. Confirm it is true of every garden you buy from, because \"gardens we've visited\" implies all of them. |\n\n**Fix:** Cut \"has become Bristol's favourite tea\". If you want a popularity line, use the allowlisted one: \"rated 4.8 out of 5 from over 1,200 reviews on our website\".\n\n**Suggested version:**\nPebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0158263,
+ "seconds": 17.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

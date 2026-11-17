@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: hold, one fix needed.**\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | Allowlisted |\n| \"packed by hand in Bristol\" | Allowlisted (every tin is packed by hand in Bristol) |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"Brewed with care\", \"Packed with love\", \"Delivered with a smile\" | Not claims, but see below |\n\n**Problem: the opening line is slop.**\n\"Brewed with care. Packed with love. Delivered with a smile.\" is a triad of abstract nouns (care, love, smile), which the slop rules ban. It is also throat-clearing: the first sentence should carry the most useful fact, and here the facts only arrive in the second sentence. Two further issues:\n- \"Packed with love\" repeats \"packed by hand in Bristol\" with a vaguer version.\n- \"Brewed\" is inaccurate. You sell loose leaf tea and tea bags, and customers brew them.\n\n**Suggested rewrite**\n> Certified organic by the Soil Association. Every tin is packed by hand in Bristol, and delivery is free in the UK on orders over £25.\n\nEverything in the rewrite is on the allowlist. The page doesn't need a proof placeholder.\n\n```json\n{\"issues\": [{\"quote\": \"Brewed with care. Packed with love. Delivered with a smile.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0152923,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

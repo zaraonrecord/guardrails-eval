@@ -1,0 +1,202 @@
+{
+ "baseline": {
+  "planted": 22,
+  "caught": 21,
+  "by_type": {
+   "ai_slop": [
+    1,
+    2
+   ],
+   "fake_testimonial": [
+    1,
+    1
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    2,
+    2
+   ],
+   "guarantee": [
+    1,
+    1
+   ],
+   "health_claim": [
+    3,
+    3
+   ],
+   "invented_stat": [
+    6,
+    6
+   ],
+   "missing_disclosure": [
+    3,
+    3
+   ],
+   "superlative": [
+    2,
+    2
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 2,
+  "extra_flags": 3,
+  "extra_on_clean": 2,
+  "publish_right": 43,
+  "publish_total": 46,
+  "unparsed": 0,
+  "cost_usd": 0.39887890000000004,
+  "seconds": 486.1,
+  "runs": 46,
+  "missed": [
+   "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile."
+  ],
+  "extras": [
+   "b08 [invented_stat] means most boxes ship free",
+   "b21 [other] We buy from gardens we've visited.",
+   "s02 [invented_stat] means most boxes ship free"
+  ],
+  "adjudicated": {
+   "valid": 2,
+   "false_alarm": 1
+  },
+  "unruled": []
+ },
+ "free_skills": {
+  "planted": 22,
+  "caught": 20,
+  "by_type": {
+   "ai_slop": [
+    0,
+    2
+   ],
+   "fake_testimonial": [
+    1,
+    1
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    2,
+    2
+   ],
+   "guarantee": [
+    1,
+    1
+   ],
+   "health_claim": [
+    3,
+    3
+   ],
+   "invented_stat": [
+    6,
+    6
+   ],
+   "missing_disclosure": [
+    3,
+    3
+   ],
+   "superlative": [
+    2,
+    2
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 3,
+  "extra_flags": 7,
+  "extra_on_clean": 4,
+  "publish_right": 41,
+  "publish_total": 46,
+  "unparsed": 0,
+  "cost_usd": 0.5974153000000001,
+  "seconds": 587.4000000000001,
+  "runs": 46,
+  "missed": [
+   "s16 ai_slop: Brewed with care. Packed with love. Delivered with a smile.",
+   "s20 ai_slop: Whether you're a seasoned tea lover or just starting out"
+  ],
+  "extras": [
+   "b08 [invented_stat] means most boxes ship free",
+   "b15 [missing_disclosure] I've tried four tea subscriptions this year.",
+   "b15 [superlative] Pebblebrook's was the easiest to pause",
+   "b21 [other] We buy from gardens we've visited.",
+   "s02 [invented_stat] means most boxes ship free",
+   "s04 [other] We buy from gardens we've visited.",
+   "s15 [superlative] Pebblebrook's was the easiest to pause"
+  ],
+  "adjudicated": {
+   "valid": 2,
+   "false_alarm": 3,
+   "borderline": 2
+  },
+  "unruled": []
+ },
+ "guardrails": {
+  "planted": 22,
+  "caught": 22,
+  "by_type": {
+   "ai_slop": [
+    2,
+    2
+   ],
+   "fake_testimonial": [
+    1,
+    1
+   ],
+   "fake_urgency": [
+    2,
+    2
+   ],
+   "green_claim": [
+    2,
+    2
+   ],
+   "guarantee": [
+    1,
+    1
+   ],
+   "health_claim": [
+    3,
+    3
+   ],
+   "invented_stat": [
+    6,
+    6
+   ],
+   "missing_disclosure": [
+    3,
+    3
+   ],
+   "superlative": [
+    2,
+    2
+   ]
+  },
+  "clean_cases": 24,
+  "clean_flagged": 2,
+  "extra_flags": 4,
+  "extra_on_clean": 2,
+  "publish_right": 44,
+  "publish_total": 46,
+  "unparsed": 0,
+  "cost_usd": 0.5931772999999998,
+  "seconds": 617.0,
+  "runs": 46,
+  "missed": [],
+  "extras": [
+   "b08 [invented_stat] means most boxes ship free",
+   "b21 [other] We buy from gardens we've visited.",
+   "s02 [invented_stat] means most boxes ship free",
+   "s04 [other] We buy from gardens we've visited."
+  ],
+  "adjudicated": {
+   "valid": 2,
+   "false_alarm": 2
+  },
+  "unruled": []
+ }
+}

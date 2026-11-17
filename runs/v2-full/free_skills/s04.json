@@ -1,0 +1,11 @@
+{
+ "case": "s04",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review of the about page draft: not ready to publish**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"has become Bristol's favourite tea\" | **Unsupported.** This is an unprovable superlative, a local version of the banned \"the UK's favourite\". |\n| \"a small team of six\" | Fine. Team size is a product-team-checked fact. |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"We buy from gardens we've visited.\" | **Unsupported.** Nothing in the policy backs up a sourcing or visit claim. The product facts cover where a tea is grown and when it's picked, not who has visited the gardens. It's also unclear whether it means all gardens or some. |\n\n**Fixes**\n1. Cut \"and has become Bristol's favourite tea\". Nothing replaces it. The sentence works as \"Pebblebrook was founded in Bristol in 2019.\"\n2. Remove \"We buy from gardens we've visited.\" until the team can confirm it with a source, then name which gardens or how many. For example: `[PROOF NEEDED: which gardens the team has visited, and whether that covers all of them]`. If you want a replacement now, use a product fact such as where a specific tea is grown.\n\n**Other checks:** No banned words, no health or green claims, no fake urgency, and no disclosure label is needed because this is our own page. UK spelling is fine. Sam needs to approve the final version, as with everything public.\n\n**Suggested compliant version:**\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol.\"\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}, {\"quote\": \"We buy from gardens we've visited.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0152945,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

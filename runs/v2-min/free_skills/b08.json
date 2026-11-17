@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "## Claims check\n\n| Claim | Status |\n|---|---|\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | **Unsupported** |\n| \"Tea that's easy to stop and start\" | Soft framing of the pause/cancel claim, fine |\n\n## Problem\n\n\"Most boxes ship free\" is an unsupported claim. It implies that most orders or subscription boxes are over £25, and nothing in the allowlist or this chat supports that. The allowlist only backs the £25 threshold. It says nothing about typical basket size, and it doesn't say whether subscription boxes qualify for free delivery. The line also reads as a statistic, even though it has no number in it.\n\n## Slop check\n\nNo ban-list words, em-dash sandwiches, exclamation points, rhetorical openers or fake urgency. The style is clean.\n\n## Suggested compliant version\n\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\n\nIf you want to say that most boxes ship free, send me the order data and its source, or confirm that subscription boxes qualify, and I'll add it back.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0101437,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

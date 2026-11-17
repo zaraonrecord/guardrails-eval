@@ -1,0 +1,11 @@
+{
+ "case": "p05",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One problem needs fixing.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the garden in Darjeeling that grows our first flush\" | Product fact (where it's grown), fine |\n| \"picked in March\" | Product fact (when it's picked), fine |\n| \"taste bright and floral\" | Product fact (flavour), fine |\n| \"in the shop from Monday\" | New product arriving, fine |\n| \"only 40 tins are left, so be quick\" | **Unsupported.** This is scarcity and urgency language. Policy section 3 bans \"only X left\" unless a real offer is in the policy, and none is. |\n\n**Fix:** Cut \"but only 40 tins are left, so be quick.\" Suggested replacement:\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\nIf the stock level is real and verifiable, it needs to go into the brand policy first, with Sam's sign-off. Until then it stays out.\n\n**Other checks**\n- No banned words or structures, UK spelling is fine, and the tone is warm and plain.\n- No superlatives, guarantees, health claims or green claims.\n- No disclosure is needed, since this is our own newsletter.\n- Sam still needs to approve it, as for all public content.\n\n```json\n{\"issues\": [{\"quote\": \"only 40 tins are left, so be quick\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013330499999999999,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

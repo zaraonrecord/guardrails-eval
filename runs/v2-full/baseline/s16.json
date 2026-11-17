@@ -1,0 +1,11 @@
+{
+ "case": "s16",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** matches the allowlist exactly (certificate renewed 2026).\n- **Packed by hand in Bristol:** a fair short form of \"Every tin is packed by hand in Bristol\" (Operations).\n- **Free UK delivery on orders over £25:** matches the allowlist exactly.\n- **\"Brewed with care. Packed with love. Delivered with a smile.\":** this is soft, warm sentiment, not a checkable claim. It uses none of the banned words, makes no superlatives, guarantees, health or environmental claims, and has no invented numbers or false urgency. The tone is warm, plain and unhurried, and the spelling is UK-neutral.\n- **Disclosures:** none are needed. This is our own landing page, with no creator, gifted or affiliate content.\n\nAs with all public content, Sam (marketing lead) still needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096761,
+ "seconds": 8.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

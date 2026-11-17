@@ -1,0 +1,11 @@
+{
+ "case": "p20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report: About page\n\n**Going out:** the About page copy, on the website. No date given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list (Companies House). |\n| \"a small team of six\" | Product fact (team size), fine as written. |\n| \"every tin is packed by hand in Bristol\" | On the policy list (Operations). |\n| \"Over 98% of our customers rate us five stars\" | **Unproven.** It isn't on the policy list. The only rating we can back is 4.8 out of 5 from over 1,200 reviews on our website. |\n| \"we buy from gardens we've visited\" | Not on the list. It's a sourcing claim, not just where a tea is grown. |\n\n**Regulated claims:** nothing touches health, money, legal outcomes, the environment, children or prices.\n\n**House style:** no banned words and no AI tells. The tone is warm, plain and unhurried. Score is about 90, so no rewrite is needed beyond the claim fix.\n\n**Disclosure:** nothing needed. This is the brand's own page, with no partnerships, affiliates or AI-labelled content.\n\n**Fixed (suggested edit, not yet approved)**\n- Replaced the invented 98% figure with the approved rating claim:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We're rated 4.8 out of 5 from over 1,200 reviews on our website, and we buy from gardens we've visited.\n\n**Needs a decision**\n1. **\"Gardens we've visited\":** can Sam confirm it's true for all the gardens you buy from? If not, soften it (for example \"we buy from gardens we know\") or cut it. If it's true, I'd suggest adding it to the claims table. I've left it in the suggested copy, pending that confirmation.\n2. **Review figure:** the 4.8 rating is from the October 2026 export. Please confirm it's still current before publishing.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to the final wording. Nothing is approved yet, so this stays unpublished.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0192715,
+ "seconds": 14.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

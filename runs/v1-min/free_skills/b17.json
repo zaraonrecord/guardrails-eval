@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft (Pebblebrook Tea Co.)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product/new arrival fact, fine as written |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, fine as written |\n| \"back in the shop from today\" | New arrival fact, fine. It states availability, not scarcity, so it isn't fake urgency |\n\n**Claims check:** There are no numbers, comparisons, superlatives, guarantees, social proof, or health, money, legal or environmental claims. Nothing is unsupported.\n\n**Slop check:** There are no ban-list words, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\" construction and no abstract-noun triads. The opening sentence carries the key fact (the blend is back). The draft is short and plain.\n\n**Disclosures:** This is not a review, and there are no affiliate links, sponsorships or gifted products, so no labels are needed.\n\n**Optional, not blocking:** \"back\" appears twice (\"is back\" and \"It's back in the shop\"). You could merge them, for example: \"Quick one this week: the Christmas blend is back in the shop from today. Black tea, orange peel, cinnamon and a little clove.\" Also, if you want people to act on it, add a link to the product page.\n\nNothing needs to change before publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0113263,
+ "seconds": 16.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

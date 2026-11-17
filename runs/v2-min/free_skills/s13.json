@@ -1,0 +1,11 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish yet. One fix is needed: the paid-partnership disclosure.**\n\n**Disclosure**\n- `#ad` is the fifth of seven hashtags, at the end of the post. Readers can scroll past it, and ASA/CAP rules expect the disclosure up front and obvious. Our own review rules also require sponsored content to be labelled where the product first appears, not in a tail.\n- Fix: open with \"Ad:\" or \"#ad\" (or \"Ad | Paid partnership with Pebblebrook Tea Co.\"), and keep or drop the end tag.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Pebblebrook's Assam\" | Product fact, fine |\n| \"Their tins are packed by hand in Bristol\" | Allowlisted |\n| \"which I love\" | Personal opinion, fine |\n| \"ten minutes away from my phone\" | Personal habit, not a product claim |\n\n- No invented stats, superlatives, guarantees, testimonials, health claims, green claims or urgency.\n- No slop-list words or banned structures.\n- `#selfcare` and `#slowliving` are lifestyle tags, not health claims, so they're fine.\n\n**One thing to confirm:** \"My afternoon reset is a pot of Pebblebrook's Assam\" is a hands-on claim. It's fine if the creator really drinks it. If they haven't tried it, change the line to something they can honestly say.\n\n**Suggested version**\n> Ad: My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #ad #tea #teatime #bristol #slowliving #assam #selfcare\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.018442300000000002,
+ "seconds": 17.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

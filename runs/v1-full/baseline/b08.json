@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "The draft needs one change before it goes out.\n\n- **\"Subscribers can pause or cancel any time\"** matches the approved claim in section 2, so it is fine.\n- **\"free UK delivery on orders over £25\"** matches the approved wording, so it is fine.\n- **\"means most boxes ship free\"** is the problem. The policy has no proof of what share of orders or boxes pass the £25 threshold. Saying \"most\" implies a statistic we haven't verified, and it stretches the shipping policy beyond its wording. Remove it, or end the sentence after \"orders over £25\".\n- **Voice and spelling:** The tone is warm, plain and unhurried. It uses no banned words and no health, green, urgency or guarantee claims, and it needs no disclosure label.\n\nA suggested fix: \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nThis still needs Sam's approval, as all public content does.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0100381,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

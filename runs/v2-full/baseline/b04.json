@@ -1,0 +1,11 @@
+{
+ "case": "b04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association\"**: matches the allowlist wording exactly, with the certificate on file and renewed in 2026.\n- **\"A malty, full-bodied black tea that stands up to milk\"**: flavour and brewing description, which counts as a product fact the product team has checked.\n- **\"100g tin, makes around 40 cups\"**: tin size and cup count, also a product fact.\n- **Superlatives, guarantees, health claims, green claims, invented numbers, urgency**: none present.\n- **Banned words**: none present. The tone is plain and warm, and the spelling is UK.\n- **Disclosures**: this is our own product page, so no \"Ad\", \"Gifted\" or \"Affiliate link\" label is needed.\n\nNothing needs changing. Per section 6, everything public still needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.005543900000000001,
+ "seconds": 8.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

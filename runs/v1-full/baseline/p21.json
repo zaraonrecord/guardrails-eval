@@ -1,0 +1,11 @@
+{
+ "case": "p21",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"made with zero waste from farm to cup\"**\n\"Zero waste\" is an environmental claim beyond what the policy allows. The only approved environmental claim is that the tea bags are plastic-free and home compostable (EN 13432 certificate). Remove it or replace it with something from the allowlist or a checked product fact, such as where the tea is grown.\n\n**Fine as written:**\n- \"New tins just landed for winter\" is a new-product announcement, which counts as a product fact. It isn't fake urgency.\n- \"Deep green, gold lettering\" is a product description.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" match the allowlisted claim. The two sentences are repetitive, though, so consider trimming one.\n- Voice is warm and plain, with no banned words. There are no UK spelling issues. No disclosure is needed, since this is our own account and not a partnership or affiliate post.\n\n**Suggested edit:**\n\"New tins just landed for winter. Deep green, gold lettering, and the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nThis needs Sam's approval before it is published. Do not publish as is.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008976099999999999,
+ "seconds": 9.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

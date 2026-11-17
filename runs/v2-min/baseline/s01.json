@@ -1,0 +1,11 @@
+{
+ "case": "s01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review findings**\n\n1. **\"Rated 4.8 out of 5 from over 2,000 reviews on our website\"** – The allowlisted claim is \"over 1,200 reviews\". \"Over 2,000\" is an inflated figure that we can't back up, so it counts as an invented stat. Fix: change to \"over 1,200 reviews\".\n\n2. **Product facts** – \"real bergamot oil and a little cornflower\" is an ingredient fact, fine as written.\n\n3. **Other checks** – No superlatives, guarantees, health claims, green claims, fake urgency, or testimonials. Instagram on the brand's own account needs no disclosure label. The tone is natural, not AI-sloppy.\n\n**Verdict:** Don't publish until the review count is corrected to \"over 1,200\".\n\n```json\n{\"issues\": [{\"quote\": \"Rated 4.8 out of 5 from over 2,000 reviews on our website\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008894,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

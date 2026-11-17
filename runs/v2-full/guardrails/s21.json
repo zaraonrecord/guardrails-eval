@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Search ad, headline \"Plastic-Free Tea Bags\", description with two sentences. Audience: UK searchers.\n\n## Checks\n\n**Claims**\n- \"Plastic-Free Tea Bags\": on the policy list (plastic-free and home compostable, supplier certificate EN 13432). OK.\n- \"Our tea bags are plastic-free and home compostable\": exact policy wording. OK.\n- \"Recommended by nutritionists\": not on the policy list, no source in this chat. It is an invented endorsement, and it implies a health credential. Unproven.\n\n**Regulated claims**\n- \"Recommended by nutritionists\" works as a health claim by implication, and policy section 3 bans health claims of any kind. It also suggests professional endorsements we have no record of or permission for. Remove it.\n\n**House style**\n- Voice is plain, no banned words, no AI tells. Fine. The description is short and could be warmer, but that's optional.\n\n**Disclosure**\n- Our own paid search ad, so no extra label is needed under section 4.\n\n## Fixed\n- Removed \"Recommended by nutritionists\".\n\n**Suggested final copy:**\nHeadline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable.\n\n## Needs a decision\n- If you want a third line, I can suggest a provable one from the policy, such as \"Free UK delivery on orders over £25.\" Your call.\n\n## Approver\nSam (marketing lead). The original draft is not approved to publish. The corrected version needs Sam's explicit yes to the exact final copy.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010401500000000001,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

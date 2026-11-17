@@ -1,0 +1,11 @@
+{
+ "case": "b24",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the policy.\n\n- \"Good tea, no fuss.\" Plain, warm, and not a superlative. \"Good\" is a modest word, not \"best\" or \"finest\". Fine.\n- \"Certified organic by the Soil Association\" matches the allowlist exactly. The certificate is on file and renewed 2026.\n- \"packed by hand in Bristol\" is a slight shortening of \"Every tin is packed by hand in Bristol\". It says the same thing and doesn't overreach, so it's fine.\n- \"free UK delivery on orders over £25\" matches the allowlist exactly.\n- Banned words, guarantees, health claims, green claims, invented numbers and urgency: none appear. Spelling is UK and the voice is warm, plain and unhurried.\n- No disclosure is needed. This is our own landing page, with no creator, gift or affiliate link.\n\nNothing needs changing. Sam is the approver for all public content, so it still needs Sam's sign-off before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058931999999999995,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

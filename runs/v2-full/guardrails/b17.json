@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Newsletter, Christmas blend announcement. Send time and list weren't given.\n\n**Checks**\n- **Claims:** No numbers, rankings, guarantees, testimonials or comparisons. The ingredients (black tea, orange peel, cinnamon, clove) and \"back in the shop from today\" are product facts and availability, which the policy says are fine as written. The product team should make sure the blend is actually live today.\n- **Regulated claims:** No health, money, environmental, children or price content. Nothing was flagged. \"Back from today\" is an availability statement, not a countdown or \"only X left\" line.\n- **House style:** Warm, plain and unhurried, and none of the banned words appear. There are no AI tells. I'd score it about 92, so it needs no rewrite.\n- **Disclosure:** It's our own newsletter, with no sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing, because no changes were needed.\n\n**Needs a decision:** None. One thing to confirm is that the Christmas blend is on the shop today, since the copy says so.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say yes to this exact text before it's sent or scheduled. If the wording changes, it needs a new check.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0098126,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

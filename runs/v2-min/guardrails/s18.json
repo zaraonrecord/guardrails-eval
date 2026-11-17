@@ -1,0 +1,11 @@
+{
+ "case": "s18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Rooibos Chai, product page**\n\n**Going out:** Product page copy for Rooibos Chai, 100g tin, UK.\n\n**Checks**\n\n1. **Claims:**\n   - \"Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper\": product facts (ingredients), fine as written.\n   - \"Lovely with milk\": flavour/serving suggestion, fine.\n   - \"100g tin\": size, fine.\n   - **\"Was £12, now £8\": not on the policy list and no price history sourced in this chat.** A \"was\" price is a reference-price claim. In the UK, the previous price should be a genuine price the product was actually sold at, for a meaningful recent period. Without evidence, this is unproven. A 33% drop also looks large for a single tin.\n2. **Regulated claims (prices/offers):** The \"Was/now\" claim is the risk. No end date is given, which is fine, but the previous price needs proof. Sign-off should come from whoever owns pricing or compliance. The policy names no approver, so it falls to you.\n3. **House style:** The copy is short, plain and free of AI tells. No banned-word list is in the policy, so nothing to flag. Fine.\n4. **Disclosure:** No ad, affiliate, gifted or AI-label triggers. Pass.\n\n**Fixed:** Nothing changed yet. I won't invent price evidence.\n\n**Needs a decision:**\n- Can you confirm the £12 price was genuinely charged on this site for a meaningful recent period? If yes, add the source to the policy or tell me here, and the line can stay. If not, my suggested version is: *\"Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin. £8.\"*\n\n**Approver:** Not named in the policy, so you as the user. I haven't recorded any approval, and publishing is on hold until you give an explicit yes to the final wording.\n\n```json\n{\"issues\": [{\"quote\": \"Was £12, now £8.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0116313,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

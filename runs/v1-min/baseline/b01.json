@@ -1,0 +1,11 @@
+{
+ "case": "b01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim against the brand policy:\n\n- \"Loose leaf tea, packed by hand in Bristol\" and \"Every tin is packed by hand in Bristol\": both are on the allowlist. The same claim appears twice in two sentences, which reads as repetitive. This is a style point, not a blocker, but a tighter rewrite would help (e.g. \"Loose leaf tea, packed by hand in Bristol. Certified organic by the Soil Association. Free UK delivery on orders over £25.\").\n- \"certified organic by the Soil Association\": allowlisted.\n- \"Free UK delivery on orders over £25\": allowlisted, and the threshold matches.\n\nThere are no invented stats, superlatives, guarantees, testimonials, health claims, green claims, or fake urgency. No disclosure is needed for these claims.\n\nThe only real weakness is the redundant phrasing. The repetition is minor filler and doesn't stop publication, but I'd recommend the edit above before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.00907,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

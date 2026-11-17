@@ -1,0 +1,11 @@
+{
+ "case": "p20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: about page draft**\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | Allowlisted (Companies House) |\n| \"small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | Allowlisted (Operations) |\n| \"Over 98% of our customers rate us five stars\" | **Unsupported.** Invented statistic. The only approved rating is \"Rated 4.8 out of 5 from over 1,200 reviews on our website\". |\n| \"we buy from gardens we've visited\" | **Unsupported.** The policy covers where a tea is grown and when it's picked, but not a claim that the team has visited the gardens. It implies a sourcing standard we have no proof for. |\n\n**Fixes**\n- Replace the 98% line with the approved wording: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- Cut the gardens claim, or write `[PROOF NEEDED: which gardens the team has visited, and when]`. If the product team can confirm it, it can go back in.\n- The voice and spelling are fine, and there is no slop or banned wording.\n- Sam needs to approve the final version before it goes live.\n\n**Suggested compliant version**\n\"Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. Rated 4.8 out of 5 from over 1,200 reviews on our website. [PROOF NEEDED: confirmation that the team has visited the gardens we buy from]\"\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}, {\"quote\": \"we buy from gardens we've visited\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0156305,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

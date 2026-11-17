@@ -1,0 +1,11 @@
+{
+ "case": "p20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** About page copy for Pebblebrook Tea Co., UK audience. No date was given.\n\n**Checks run**\n- **Claims:** one fails. See below.\n- **Regulated claims:** nothing touches health, money, legal outcomes, the environment, children or prices. Pass.\n- **House style:** short, plain and specific, with no AI tells or banned phrasing. Pass.\n- **Disclosure:** this is owned about-page copy, with no ads, affiliates, gifted items or AI-generated content. Pass.\n\n| Claim | Status |\n|---|---|\n| \"founded in Bristol in 2019\" | On the policy list |\n| \"small team of six\" | Product fact (team size), fine as written |\n| \"every tin is packed by hand in Bristol\" | On the policy list |\n| \"Over 98% of our customers rate us five stars\" | **Unproven.** The policy backs only \"4.8 out of 5 from over 1,200 reviews on our website\". A 98% five-star figure isn't sourced and doesn't match it. |\n| \"we buy from gardens we've visited\" | Treated as an origins/sourcing fact, so allowed, but only if it's literally true |\n\n**Fixed (suggested edit, not yet approved)**\n- Replaced the 98% line with the policy-backed rating:\n\n> Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We're rated 4.8 out of 5 from over 1,200 reviews on our website, and we buy from gardens we've visited.\n\n**Needs a decision**\n1. If the 98% figure is real, someone needs to share the source (review platform, date range, method). It should then be added to the policy before it's used. Until then I suggest the 4.8 line.\n2. Please confirm the team has actually visited the gardens they buy from. If only some of them, say \"many of the gardens\".\n\n**Approver:** the policy names no approver, so I need an explicit yes from you on the exact final wording above. I haven't recorded any approval, and nothing should be published until you give it.\n\n```json\n{\"issues\": [{\"quote\": \"Over 98% of our customers rate us five stars\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016923300000000002,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

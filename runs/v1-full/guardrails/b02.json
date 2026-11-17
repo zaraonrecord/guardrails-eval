@@ -1,0 +1,11 @@
+{
+ "case": "b02",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Going out:** a subscription dispatch email to Priya, sent by email.\n\n**Checks**\n- **Claims:** \"pause or cancel any time\" matches the policy row (subscription terms). The lapsang and white peony are product facts the product team covers. \"Left Bristol this morning\" is an operational fact about this order, so I can't verify it, and the sender should confirm it's true. There are no stats, superlatives, guarantees, testimonials or urgency lines.\n- **Regulated claims:** no health, money, environmental, price or children's content.\n- **House style:** the tone is warm, plain and unhurried, with no banned words and no AI tells. The score is about 95 and no rewrite is needed.\n- **Disclosure:** this is a transactional email with no ad, affiliate, gifted or AI-label triggers, so no label is needed.\n\n**Fixed:** nothing.\n\n**Needs a decision (not blocking):** the subject says \"October tins\" but today is 17 November, and the body says \"This month\". If this is the November box, change the subject. If it's a late October box, the copy is fine.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to this exact content before it is sent. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.014179500000000001,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

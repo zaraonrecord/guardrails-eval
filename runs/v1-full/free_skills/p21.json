@@ -1,0 +1,11 @@
+{
+ "case": "p21",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review of the Instagram draft (Pebblebrook Tea Co., own account)**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"made with zero waste from farm to cup\" | Unsupported. \"Zero waste\" is explicitly banned (policy §3), and nothing in §2 backs it. |\n| \"New tins just landed for winter\" | Product fact (new products arriving), fine. |\n| \"Deep green, gold lettering\" | Product fact, fine. |\n| \"the same plastic-free tea bags inside\" | Allowlisted (plastic-free). |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted, exact wording. |\n\n**Problems**\n1. **\"zero waste from farm to cup\"** is an environmental claim beyond section 2. It must be removed. The only environmental claims we can make are plastic-free and home compostable tea bags (EN 13432 certificate).\n2. **Repetition.** The plastic-free claim appears twice in three short sentences (\"the same plastic-free tea bags inside\" and then \"Our tea bags are plastic-free and home compostable\"). Keep the sharper one.\n3. Disclosure: this is our own account, so no \"Ad\" or affiliate label is needed. Voice and banned words: no hits. The opener is a fact, which is fine.\n\n**Suggested compliant version**\n\"New tins just landed for winter. Deep green, gold lettering, and the same tea bags inside: plastic-free and home compostable.\"\n\nClaims in the revised copy: new tins (product fact), colours (product fact), plastic-free and home compostable (allowlisted). No unsupported claims remain.\n\nDo not publish the original. It needs Sam's approval after the edit.\n\n```json\n{\"issues\": [{\"quote\": \"made with zero waste from farm to cup\", \"type\": \"green_claim\"}, {\"quote\": \"Our tea bags are plastic-free and home compostable.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011106499999999998,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

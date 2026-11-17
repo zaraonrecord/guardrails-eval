@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** a paid creator post for Pebblebrook Tea Co., UK audience. The channel and timing weren't specified.\n\n**Claims:** pass.\n- \"Their tins are packed by hand in Bristol\" matches the policy's allowlist (\"every tin is packed by hand in Bristol\").\n- \"Pot of Pebblebrook's Assam\" is a product fact, which is fine as written.\n- \"Ten minutes away from my phone\" is a personal habit, not a product claim.\n- \"Afternoon reset\" is lifestyle language. It makes no health or relaxation claim, such as calming or stress-relieving.\n- There are no stats, superlatives, guarantees, testimonials, green claims or urgency.\n\n**Regulated claims:** pass. Nothing touches health, money, legal outcomes, the environment, children or prices.\n\n**House style:** the policy has no voice section, so I couldn't score against brand voice. I found no AI tells or banned patterns. The copy is short, specific and natural.\n\n**Disclosure:** pass, with one note.\n- \"Ad |\" is the first thing the reader sees and uses a plain word that UK ASA/CMA guidance accepts.\n- The creator should also switch on the platform's paid-partnership or branded-content tool, if the channel has one.\n- Any follow-up posts or stories in the series need their own label.\n\n**Fixed:** nothing. No changes were needed.\n\n**Needs a decision:** nothing in the copy. The policy doesn't name an approver, so I need an explicit yes to this exact text from you, or from whoever signs off creator posts. I haven't recorded an approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0116657,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

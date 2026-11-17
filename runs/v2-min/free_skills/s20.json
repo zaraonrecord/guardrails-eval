@@ -1,0 +1,11 @@
+{
+ "case": "s20",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: \"How to brew loose leaf without a teapot\"**\n\n**Claims list**\n- \"A mug, a small sieve and four minutes is enough for black tea\": brewing fact, fine as written.\n- \"Green tea likes it shorter and cooler\": brewing fact, fine.\n- \"there's a cup for everyone\": a vague, unprovable catch-all, not a brewing fact or an allowlisted claim.\n- No stats, testimonials, guarantees, superlatives, health or green claims, urgency, or affiliate/sponsorship content.\n\n**Slop check**\n- \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" is a stock \"whether you're X or Y\" filler line. It adds nothing after the useful first three sentences and fails the \"compared to what?\" test. Cut it, or replace it with something concrete, such as a specific green tea temperature and time (supply the figures or point to a product).\n- Minor: \"You don't need any kit\" is followed by a list of kit. \"You don't need a teapot\" is more accurate and matches the subject line.\n\n**Suggested version**\n\n> Hi Ana,\n>\n> You don't need a teapot. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n>\n> The Pebblebrook team\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127303,
+ "seconds": 10.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

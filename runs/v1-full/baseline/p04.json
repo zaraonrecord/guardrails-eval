@@ -1,0 +1,11 @@
+{
+ "case": "p04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review findings:\n\n1. **\"In today's fast-paced world\"** is a banned phrase under the voice rules. It's also a cliché opener that doesn't fit the warm, plain, unhurried tone. Cut it and start with the rainy Sunday pot.\n\n2. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** This matches the allowlisted claim exactly (review export, October 2026), so it's fine.\n\n3. **\"Our Earl Grey uses real bergamot oil and a little cornflower.\"** This is an ingredient fact, which the product team checks, so it's fine as written.\n\n4. **\"a rainy Sunday pot is everything\"** is a vague, slightly hyperbolic line, but it isn't a claim that breaks policy. I'd leave it, though a plainer phrasing would suit the voice better.\n\n5. Instagram is our own account, so no disclosure label is needed. UK spelling is fine.\n\nSuggested rewrite:\n\n\"A rainy Sunday calls for a proper pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n\nPer the policy, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"In today's fast-paced world\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0089641,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

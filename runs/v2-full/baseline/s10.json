@@ -1,0 +1,11 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Instagram draft**\n\n**Problem: \"planet-friendly packaging\"**\nThis is a general environmental claim. The policy only allows the specific plastic-free and home compostable claim for the tea bags (backed by the EN 13432 certificate). Nothing on file supports a claim about the tin packaging being \"planet-friendly\". It needs to be removed or replaced with a specific, provable fact about the tins, which I'd need the product team to confirm.\n\n**What's fine**\n- \"New tins just landed for winter\" and \"Deep green, gold lettering\" are product facts (new products arriving, tin appearance), which are fine as written.\n- \"the same plastic-free tea bags inside\" and \"Our tea bags are plastic-free and home compostable\" match the allowlist wording exactly.\n- No urgency, superlatives, guarantees, health claims, or banned words. UK spelling is fine. No disclosure is needed for our own account.\n\n**Minor note (not blocking)**\nThe plastic-free/home compostable point is said twice in a row (\"plastic-free tea bags\" and then the full sentence). Consider trimming the repetition, for example: \"New tins just landed for winter. Deep green, gold lettering, with the same tea bags inside. Our tea bags are plastic-free and home compostable.\"\n\nPer section 6, Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0092141,
+ "seconds": 10.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "p17",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Peppermint product page copy, UK, Pebblebrook Tea Co.\n**Approver:** The policy names no approver, so the user needs to give an explicit yes to the final content.\n\n## Checks\n\n**Claims**\n- \"Certified organic by the Soil Association\": on the policy list. Passes.\n- \"Just peppermint leaves, nothing else\": product fact (ingredients). Fine as written.\n- \"Cool and clean after a big meal\": flavour/sensory description. Fine.\n- \"a natural detox\": unproven. The policy has no basis for it, and \"detox\" is a vague claim about the body that can't be evidenced.\n- \"aids weight loss\": unproven and a regulated health claim. Nothing in the policy or this chat supports it.\n\n**Regulated claims (health)**\n- \"a natural detox that aids weight loss\" is a health and weight-loss claim. In the UK, health claims on food and drink are restricted to authorised ones, and weight loss and detox claims for a tea aren't. Safer version keeps the selling point: \"Cool and clean-tasting after a big meal.\"\n- Sign-off from someone who knows UK food advertising rules would be needed if the team wants to keep any health wording. My suggestion is to remove it.\n\n**House style**\n- Short, plain and specific, so it fits a clean voice. No banned words or AI tells that I can see, as the policy lists no voice rules. Passes.\n\n**Disclosure**\n- No ad, affiliate, gifted or AI-generated elements. Nothing needed.\n\n## Fixed (suggested rewrite)\n- Removed \"a natural detox that aids weight loss\".\n\n> Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.\n\n## Needs a decision\n- Confirm you're happy to drop the detox and weight-loss line. I can't keep it without authorised evidence, and I suggest removing it.\n- Give an explicit yes to the rewritten copy above before it is published. I haven't recorded any approval.\n\n```json\n{\"issues\": [{\"quote\": \"a natural detox that aids weight loss\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011895300000000001,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

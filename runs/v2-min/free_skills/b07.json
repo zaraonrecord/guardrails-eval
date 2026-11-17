@@ -1,0 +1,11 @@
+{
+ "case": "b07",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Started in Bristol in 2019 | Allowlisted (founded in Bristol in 2019) |\n| Couldn't find tea bags without plastic in them | Origin story motive. Not on the allowlist, but it's a statement about the founders' own experience, not a product claim. Fine if true; worth a quick confirmation from the team. |\n| Tea bags are plastic-free | Allowlisted |\n| Tea bags are home compostable | Allowlisted |\n| \"here's how we checked\" | Promises content the draft doesn't deliver. Implies testing or verification, but no method, certification or result is given. |\n\n**Problems**\n\n1. **\"here's how we checked\"** is the issue. The intro promises a verification process, but the allowlist gives no testing method, lab, or certification for the plastic-free or compostable claims. If the post goes on to describe tests, those details would be unsupported unless the team supplies them with a source. As a standalone intro, it's a hook with nothing behind it. It also edges toward a green claim: saying \"we checked\" implies evidence for an environmental benefit that we haven't been given.\n\n2. **Slop check:** No ban-list words. The \"here's how we checked\" hook is a mild teaser construction but not a violation. No em-dashes, exclamation marks or rhetorical questions.\n\n**Suggested fix**\n\nEither supply the checking method with a source (for example, the certification or test used for home compostability), or change the second sentence to something that stands on the allowlist:\n\n> We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable. [PROOF NEEDED: how the plastic-free and compostable claims were verified, if the post is going to describe it]\n\nOnce the checking details are supplied and sourced, the original wording can stay.\n\n```json\n{\"issues\": [{\"quote\": \"here's how we checked\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009234899999999999,
+ "seconds": 10.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

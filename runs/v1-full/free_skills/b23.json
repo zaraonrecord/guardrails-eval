@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Rooibos Chai product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| Caffeine-free rooibos | Product fact (ingredient/composition), fine as written. It describes the tea, not a health benefit. |\n| Cinnamon, cardamom, ginger and black pepper | Product fact (ingredients) |\n| Lovely with milk | Serving suggestion and taste opinion. No number, comparison or result. |\n| 100g tin | Product fact (tin size) |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health claims:** none. \"Caffeine-free\" is a plain ingredient description, with no wellness or sleep benefit implied.\n- **Environmental claims:** none.\n- **Banned vocabulary and structures:** no banned words, no exclamation marks, no rhetorical opener, no em-dashes, no \"not just X, it's Y\".\n- **Voice:** warm, plain and unhurried. UK spelling is not tested by anything in the draft.\n- **Disclosure:** this is our own product page, so no \"Ad\", \"Gifted\" or affiliate label is needed.\n\n**Before it goes live:** as with all public content, Sam needs to approve it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012220499999999999,
+ "seconds": 11.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

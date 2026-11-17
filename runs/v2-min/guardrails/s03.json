@@ -1,0 +1,11 @@
+{
+ "case": "s03",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Assam Breakfast product page copy, on the website, to UK shoppers. No schedule was given.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"malty, full-bodied black tea\" | Product fact (flavour), fine as written |\n| \"noticeably smoother than supermarket tea bags\" | **Unproven.** It's a comparison with competitors' products and nothing in the policy or this chat backs it up. \"Noticeably\" also implies it's been tested. |\n| \"Certified organic by the Soil Association\" | On the policy list |\n| \"100g tin, makes around 40 cups\" | Product fact (size, brewing), fine, and \"around\" keeps it honest |\n\n**Regulated claims:** The product page makes no health, money, environment, children or price claims. Organic certification is on the allowlist.\n\n**House style:** The copy is short and plain, with no banned words or AI tells. The policy has no voice section, so I couldn't score it against the brand's own voice.\n\n**Disclosure:** No ad, sponsorship, affiliate link, gifted product or AI-generated content is involved, so no label is needed.\n\n**Fixed:** Nothing yet, because the fix changes the selling line and you should choose it. Two safe options:\n- **Cut the comparison:** \"Assam Breakfast. A malty, full-bodied black tea. Certified organic by the Soil Association. 100g tin, makes around 40 cups.\"\n- **Keep a comparison:** Send me a source, such as a blind taste test with dates and method. I'll log it, and the policy should get a new row. Until then it stays out.\n\n**Needs a decision:** My suggestion is to cut the comparison (option 1). The rest is ready to go.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you, or from whoever you name, on the final wording. Approval of an earlier draft doesn't carry over, and I can't record approval for you. Once the copy is updated, I'll re-check it and you can approve that exact version.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014763300000000002,
+ "seconds": 12.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

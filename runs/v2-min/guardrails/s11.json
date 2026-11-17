@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** social ad on Pebblebrook's own account, UK audience. No schedule given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" is on the policy list. The three teas and the peppermint-after-lunch line are product facts, so they're fine. **\"while stocks last\" is not on the policy list.** It adds a scarcity condition that the policy doesn't support, and nothing here shows that the offer ends when stock runs out. Free delivery is a standing offer.\n- **Regulated claims:** it touches prices and offers. The only problem is the stock-based urgency above. There is no health claim, since \"after lunch\" is a serving suggestion and doesn't promise any digestive benefit.\n- **House style:** the copy is plain, specific and short, with no banned words or AI tells. The list of three matches the three teas actually named. Score about 90, with no rewrite needed.\n- **Disclosure:** this is the brand's own account and the brand is clearly the advertiser, so no extra partnership or affiliate label is needed. Run it through the platform's normal ad or \"Sponsored\" labelling when it's set up as a paid ad. No AI-generated imagery is mentioned.\n\n**Fixed (suggested wording)**\n- Removed \"while stocks last\":\n  > Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\n**Needs a decision**\n- If the offer really does end when stock runs out, or on a set date, give me the source and I'll word it accurately (for example with the real end date). Otherwise I suggest leaving the line out.\n\n**Approver:** the policy doesn't name one, so I need an explicit yes from you to this exact revised text. I haven't recorded any approval, so this stays unpublished until you confirm.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0183333,
+ "seconds": 16.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

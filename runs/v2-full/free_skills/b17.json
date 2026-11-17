@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: newsletter draft, Christmas blend**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Product fact (new products arriving), fine as written |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Ingredients, product team checked, fine |\n| \"back in the shop from today\" | Availability or launch date, product fact. It's a real return, not a countdown, \"only X left\" or \"today only\" offer, so it isn't fake urgency |\n\n**Checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Banned words and structures:** no hits. No em-dash sandwiches, exclamation points, rhetorical openers or \"not just X, it's Y\" constructions.\n- **Voice:** warm, plain and unhurried. UK spelling is not at issue.\n- **Disclosure:** none needed. This is our own newsletter, with no paid partnership, gifted product or affiliate link.\n- **Optional polish:** \"Quick one this week:\" is mild throat-clearing. You could open with \"The Christmas blend is back.\" It's not a blocker.\n\n**Before sending:** the policy requires Sam (marketing lead) to approve all public content, so get his sign-off. Also confirm the product team has the blend live in the shop today.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009841599999999999,
+ "seconds": 15.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

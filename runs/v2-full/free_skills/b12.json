@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: social ad (own account)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Three teas\" (Builder's, Earl Grey, peppermint) | Product fact, fine to use as written |\n| \"for your desk drawer\" / \"for after lunch\" | Usage suggestion, not a claim. It doesn't imply a digestive or other health benefit. |\n| \"Free UK delivery on orders over £25\" | Allowlisted, exact wording matches the shipping policy |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Health and green claims:** none. \"A peppermint for after lunch\" stays on the right side of the line, so keep it from drifting into \"aids digestion\".\n- **Slop and voice:** no banned words, no em-dashes, no exclamation points, no rhetorical opener. It's warm, plain and unhurried, with UK spelling.\n- **Disclosure:** none needed. It's a paid ad from the brand's own account and the platform marks it.\n\n**Before it goes out**\n- Sam needs to approve it, since all public content goes through him.\n- The landing page should also state the free delivery over £25 offer, so the ad doesn't make a claim the page doesn't.\n- I wasn't given a character limit, so I haven't counted against one.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0101899,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

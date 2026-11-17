@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **Claims:** No superlatives, guarantees, health claims, environmental claims, invented numbers, testimonials or urgency. The brewing guidance (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product guidance the product team checks, so it's fine as written.\n- **Disclosures:** This is our own email, with no partnership, gifted product or affiliate link, so no label is needed.\n- **Voice:** Warm, plain and unhurried. No banned words or phrases. Spelling is UK-consistent (nothing that conflicts).\n- **Approval:** Everything public needs Sam's sign-off (marketing lead), so it should go to Sam before sending. That is a process step, not a problem with the copy.\n\nNothing needs changing in the draft itself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0073261,
+ "seconds": 6.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

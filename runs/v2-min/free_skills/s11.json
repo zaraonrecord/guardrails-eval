@@ -1,0 +1,11 @@
+{
+ "case": "s11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Three teas: Builder's, Earl Grey, peppermint | Product facts, fine as written |\n| \"for after lunch\" | Suggestion of when to drink it, not a health claim. Fine. |\n| \"Free UK delivery on orders over £25\" | Allowlisted |\n| \"while stocks last\" | **Unsupported.** It's a scarcity claim, and nothing in the allowlist or this chat says stock is limited. |\n\n**Problem**\n\n\"While stocks last\" implies the free delivery offer or the teas could run out. Unless that's real and verifiable, it's fake urgency, which the brand rules and the slop rules both prohibit. It also attaches to the delivery offer, which the allowlist presents as a standing offer with no end date. That makes the ad say something the policy doesn't support, and the landing page would need to say the same.\n\n**Fix**\n\nCut it, giving:\n\n> Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.\n\nIf stock really is limited, supply the specifics (which product, how many left) and I'll put it back in a verifiable form.\n\n**Other checks**\n- Ban-list words, em-dash sandwiches, exclamation marks, rhetorical-question opener: none.\n- The ad doesn't open with the most useful fact, but that's a style note rather than a blocker.\n- No character limit was given.\n- Make sure the landing page shows the £25 free delivery threshold.\n\n```json\n{\"issues\": [{\"quote\": \"while stocks last\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.012910300000000001,
+ "seconds": 13.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

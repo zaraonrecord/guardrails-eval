@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (gifted), Pebblebrook Tea Co.**\n\n**Disclosure:** The draft opens with \"Gifted\", before any product mention, so it's up front and not buried in a footer. \"Not paid to say that, just liked it\" is consistent with that. The tea was a gift and the verdict is the writer's own. Optional: UK ad rules tend to favour a plain \"Ad\" or \"#ad\" alongside \"Gifted\" when the brand sent the product. That's a suggestion, not a blocker.\n\n**Product label:** The winter sampler is gifted, and the writer says they tried it (\"lovely with oat milk\"). That is a hands-on claim, which is allowed for a tried product. I'm assuming they have actually had the rooibos chai, since the draft says so.\n\n**Claims list:**\n- Winter sampler sent by Pebblebrook: product fact, fine.\n- Rooibos chai is lovely with oat milk: personal opinion from use, fine.\n- Not paid, just liked it: not a brand claim, and consistent with the gifted label.\n\n**Other checks:**\n- No stats, superlatives, guarantees, health or green claims, or fake urgency.\n- No banned slop vocabulary or structures. There are no exclamation points, em-dash sandwiches or rhetorical openers.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012592100000000002,
+ "seconds": 17.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

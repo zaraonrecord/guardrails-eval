@@ -1,0 +1,11 @@
+{
+ "case": "b14",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: clear to publish, pending Sam's sign-off.**\n\n**Disclosure**\n- The post opens with \"Gifted\", which is the required wording for a free product, and it comes before anything else.\n- \"Not paid to say that, just liked it\" is consistent with a gifted product. The creator should only keep it if no fee was paid.\n\n**Products and hands-on claims**\n| Product | Label | Hands-on claim | Status |\n|---|---|---|---|\n| Winter sampler (rooibos chai) | Tried (gifted, drunk by the creator) | \"lovely with oat milk\" | Fine. It's a personal taste opinion from someone who used it. |\n\n**Claims list**\n- No numbers, ratings, review counts or comparisons.\n- No superlatives, guarantees or urgency.\n- No health, environmental or other regulated claims.\n- Product facts (\"winter sampler\", \"rooibos chai\") are the kind the product team has already checked.\n\n**Voice**\n- No banned words or phrases.\n- No slop structures.\n- The tone is warm, plain and unhurried.\n\n**Process**\n- Brand policy requires Sam (marketing lead) to approve all public content, so this still needs his approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013284500000000001,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

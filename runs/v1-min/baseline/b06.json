@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Garden visit and origin:** The Darjeeling garden and first flush are product origin facts, which the policy allows as written.\n- **Picking time and flavour:** \"Picked in March\" and \"bright and floral\" are product and flavour facts, also allowed.\n- **\"From Monday\":** This announces a new arrival with a plain date. It has no countdown, scarcity or pressure, so it isn't fake urgency.\n- **Other claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or missing disclosures.\n- **Tone:** The copy is short and specific, with no filler phrasing.\n\nOne optional note: if Monday's launch date might slip, confirm it before sending. That is a logistics check, not a policy issue.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009791999999999999,
+ "seconds": 7.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

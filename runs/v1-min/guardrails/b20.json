@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad (headline plus description) for Pebblebrook Tea Co., UK audience. No date was given.\n\n**Checks**\n- **Claims:** All three factual claims are on the policy's allowlist.\n  - \"Monthly loose leaf tea\" is a product fact.\n  - \"Subscribers can pause or cancel any time\" is on the list.\n  - \"Free UK delivery on orders over £25\" is on the list, and the £25 condition is stated.\n  - There are no invented stats, superlatives, guarantees, testimonials or urgency claims.\n- **Regulated claims:** The only touchpoint is the delivery offer. It is accurate to policy and has no fake deadline or \"was\" price, so it passes.\n- **House style:** Plain, specific and free of AI tells or banned phrasing. No changes needed.\n- **Disclosure:** This is the brand's own search ad, and the ad platform adds its own \"Ad\" or \"Sponsored\" label. There is no creator, affiliate or AI-generated element, so nothing extra is needed in the copy.\n\n**Fixed:** Nothing, no changes were needed.\n\n**Needs a decision**\n- **Description length:** The description is about 102 characters. Many search ad formats, including Google responsive search ads, cap descriptions at 90. If this is going to such a platform, drop one sentence or trim it, for example \"Monthly loose leaf tea. Pause or cancel any time. Free UK delivery over £25.\" I haven't changed it because the channel limit isn't in the policy.\n- **Landing page:** The ad can't promise anything the linked page doesn't back up. Please confirm the page shows the pause/cancel terms and the £25 free delivery threshold.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you on this exact copy. If you change the description for length, that counts as new content and gets a quick re-check. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.016295300000000002,
+ "seconds": 15.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

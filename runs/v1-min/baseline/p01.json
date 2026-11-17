@@ -1,0 +1,11 @@
+{
+ "case": "p01",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review findings:\n\n1. **\"The UK's best loose leaf tea\"** is an unsubstantiated superlative. The policy allowlist doesn't include any \"best\" claim. The 4.8/5 review rating is backable, but it doesn't support a claim to be the best in the UK. Remove it or replace it with a supported claim, such as the rating.\n\n2. **Repetition:** \"packed by hand in Bristol\" appears twice in three sentences (\"...packed by hand in Bristol. Every tin is packed by hand in Bristol...\"). It's accurate, since the claim is allowed, but it reads as sloppy copy. Cut one instance.\n\n3. **Supported claims (fine):**\n   - \"certified organic by the Soil Association\" is on the allowlist. One small point: the draft says \"our tea is certified organic,\" which is consistent with the policy.\n   - \"Free UK delivery on orders over £25\" matches the policy exactly.\n   - \"Every tin is packed by hand in Bristol\" matches the policy.\n\nSuggested rewrite: \"Loose leaf tea, certified organic by the Soil Association and packed by hand in Bristol. Free UK delivery on orders over £25.\"\n\n```json\n{\"issues\": [{\"quote\": \"The UK's best loose leaf tea\", \"type\": \"superlative\"}, {\"quote\": \"packed by hand in Bristol. Every tin is packed by hand in Bristol\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010472,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

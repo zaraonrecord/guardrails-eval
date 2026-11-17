@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: social ad (own account)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Free UK delivery on orders over £25\" | Allowlisted (shipping policy), exact wording |\n| \"Three teas\": Builder's, Earl Grey, peppermint | Product facts, fine as written |\n| \"for your desk drawer\" / \"a peppermint for after lunch\" | Occasion suggestions only. No digestive or other health benefit is implied. |\n\n**Checks**\n- **Superlatives, guarantees, invented numbers, testimonials:** none.\n- **Health claims:** none. \"After lunch\" is a serving moment, not a digestion claim.\n- **Green claims:** none.\n- **Urgency:** none.\n- **Banned words and structures:** none from the brand list or the slop list. There are no exclamation points, rhetorical-question openers or em-dash asides, and the voice is plain and warm with UK spelling.\n- **Disclosure:** a paid social ad from our own account is marked by the platform, so no extra label is needed.\n- **Landing page:** the ad makes the free delivery claim, so make sure the landing page states the same £25 threshold.\n- **Approval:** Sam (marketing lead) signs off on everything public.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0111325,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

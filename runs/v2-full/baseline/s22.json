@@ -1,0 +1,11 @@
+{
+ "case": "s22",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim against the allowlist.\n\n- **\"Loose leaf tea, packed by hand in Bristol.\" / \"Every tin is packed by hand in Bristol\"**: Allowed (operations claim). It's repeated almost word for word, which is clumsy but not a policy problem. Worth trimming for style.\n- **\"certified organic by the Soil Association\"**: Matches the allowlist, certificate renewed 2026.\n- **\"Free UK delivery on all orders.\"**: Problem. The policy only backs \"Free UK delivery on orders over £25\". Saying \"all orders\" drops the threshold and promises something we don't offer.\n\nNo banned words, superlatives, health or green claims, or false urgency. Spelling is fine.\n\nSuggested fix: \"Loose leaf tea, packed by hand in Bristol. Every tin is certified organic by the Soil Association. Free UK delivery on orders over £25.\"\n\nNote: I changed \"our tea is certified organic\" to \"every tin is...\" only for flow, but the allowlist wording is \"Certified organic by the Soil Association\", so keep it close to that. Safer: \"Certified organic by the Soil Association.\"\n\nThis needs Sam's approval before it goes live, and it shouldn't publish as written.\n\n```json\n{\"issues\": [{\"quote\": \"Free UK delivery on all orders.\", \"type\": \"other\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0088261,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

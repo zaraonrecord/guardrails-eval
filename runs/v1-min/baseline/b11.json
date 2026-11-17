@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Product facts:** The new Japanese sencha, its grassy and slightly sweet flavour, and the brewing temperature of around 70 degrees all count as product facts (flavour, origin, brewing, new arrivals), which are fine as written.\n- **Claims:** There are no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language. \"Best brewed cooler than you think\" is brewing advice, not a superiority claim.\n- **Tone:** The copy is short, specific and plain, with no filler.\n- **Sender:** \"The Pebblebrook team\" identifies the brand correctly.\n\nOne note outside the copy itself: this is a marketing email to UK recipients, so make sure your email platform adds its usual unsubscribe link and company details in the footer. The draft doesn't need a change for that.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.011906,
+ "seconds": 11.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

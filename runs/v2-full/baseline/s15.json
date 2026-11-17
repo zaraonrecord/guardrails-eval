@@ -1,0 +1,11 @@
+{
+ "case": "s15",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review: not ready to publish**\n\n**Problem: the affiliate label is missing.** Section 4 says affiliate links must say \"Affiliate link\" next to the link. The draft only has an asterisk and a footnote (\"I may earn a small commission.\"). That is a softer, different wording, and it sits apart from the link. The post needs the exact words beside the link.\n\nSuggested fix: \"You can find it here (Affiliate link).\" The commission footnote can stay as well if you like.\n\n**Checked and fine:**\n- \"I've tried four tea subscriptions this year\" is the reviewer's own experience, not a figure or claim from the brand.\n- \"Easiest to pause\" matches our subscription terms (\"Subscribers can pause or cancel any time\"). It's a personal opinion, not a \"best\" or \"number one\" claim. If Sam wants to be stricter, \"easy to pause\" would be safer.\n- \"The tins are lovely\" is an opinion and makes no product claim.\n- There are no health, environmental, guarantee, urgency or invented-number claims.\n- There are no banned words, and the tone is plain and warm.\n\nUnder section 6, Sam still needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"I've tried four tea subscriptions this year.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014920100000000002,
+ "seconds": 12.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

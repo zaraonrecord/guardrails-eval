@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or testimonials.\n- **Product facts:** The Darjeeling garden, the March picking, the \"bright and floral\" taste and the Monday arrival in the shop are all product facts the product team checks, so they are fine as written.\n- **Urgency:** \"From Monday\" announces a new product arriving. It isn't a countdown, a \"today only\" line or a scarcity claim.\n- **Voice:** The tone is warm, plain and unhurried. It uses no banned words and the spelling is UK.\n- **Disclosures:** None are needed. This is our own newsletter, with no paid partnership, gifted product or affiliate link.\n\nEverything public needs Sam's approval, so get that sign-off before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076319000000000005,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

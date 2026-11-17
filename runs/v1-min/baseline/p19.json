@@ -1,0 +1,11 @@
+{
+ "case": "p19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the search ad**\n\n- **\"The UK's number one tea subscription.\"** This is a superlative/ranking claim. The brand policy has no ranking, award or market-share evidence to support it. It needs to be removed or replaced with something we can back up (e.g. \"Certified organic by the Soil Association\" or \"Rated 4.8 out of 5 from over 1,200 reviews on our website\").\n- **\"Subscribers can pause or cancel any time.\"** Backed by policy. OK.\n- **\"Free UK delivery on orders over £25.\"** Backed by policy. OK.\n- **Headline \"Tea Subscription UK\"**: a plain descriptive keyword headline. OK.\n\nRecommendation: do not publish until the \"number one\" claim is replaced.\n\n```json\n{\"issues\": [{\"quote\": \"The UK's number one tea subscription.\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008584,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

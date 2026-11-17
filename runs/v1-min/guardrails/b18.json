@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Peppermint product page copy, UK, Pebblebrook Tea Co.\n\n**Checks**\n- **Claims:** Two claims need checking.\n  - \"Certified organic by the Soil Association\" is on the policy allowlist, so it passes.\n  - \"Just peppermint leaves, nothing else\" is an ingredient fact, which the policy allows as written.\n  - I added no evidence-log rows, because nothing was unproven.\n- **Regulated claims:** \"Cool and clean after a big meal\" describes how the tea tastes and feels. It doesn't say the tea aids digestion, relieves bloating or treats anything. It would become a health claim if someone later added \"aids digestion\" or \"settles your stomach\", so keep that wording out.\n- **House style:** There are no banned words and no AI tells. It's short, plain and specific. I'd score it about 90 and made no rewrites.\n- **Disclosure:** This is the brand's own product page. There is no ad, sponsor, affiliate link, gifted product or AI-generated content, so no label is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you on this exact copy. Once you've said yes, if the CMS hook blocks the publish, record your approval with `approve.py --by \"Your Name\"`. Any edit to the copy after your yes means I run the checks again.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0127373,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

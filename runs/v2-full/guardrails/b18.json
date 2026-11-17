@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for the peppermint tea, on the website, UK audience.\n\n**Checks run on the exact text:**\n- **Claims:** \"Certified organic by the Soil Association\" matches the policy row word for word (certificate on file, renewed 2026). \"Just peppermint leaves, nothing else\" is an ingredient fact, which the product team has already checked. \"Cool and clean after a big meal\" describes how it tastes and feels, and doesn't say it aids digestion or does anything for the body.\n- **Regulated claims:** No health, money, legal, environmental, children or price claims. \"Clean after a big meal\" is the nearest to the line. It reads as a flavour and occasion cue, so I'd leave it. If anyone rewrites it to say the tea \"settles\" or \"soothes\" the stomach, that would become a health claim and would need to come out.\n- **House style:** Warm, plain and unhurried. It has none of the banned words and no AI tells, and the fragments are short and concrete. Score about 90 out of 100, so no rewrite is needed.\n- **Disclosure:** This is our own product page, so there's no ad, affiliate, gifted or sponsorship label to add.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved.\n\n**Approver:** Sam (marketing lead). Nothing goes live until Sam gives an explicit yes to this exact text. I haven't recorded any approval, and I can't publish from this session.\n\n**Evidence log rows:**\n\n| Date | Content | Claim | Status | Source |\n|---|---|---|---|---|\n| 2026-11-17 | Peppermint product page | Certified organic by the Soil Association | On policy list | Certificate on file, renewed 2026 |\n| 2026-11-17 | Peppermint product page | Just peppermint leaves, nothing else | Product fact | Product team |\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012844200000000002,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

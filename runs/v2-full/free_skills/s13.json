@@ -1,0 +1,11 @@
+{
+ "case": "s13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish yet. One fix is needed.**\n\n**Needs changing**\n- **Disclosure is in the wrong place.** The brand policy says a paid creator post must start with \"Ad\" before anything else. This draft opens with \"My afternoon reset...\", and the only disclosure is `#ad`, buried in the middle of a hashtag string. Put \"Ad\" at the very start of the post. Keep or drop the hashtag, but it doesn't replace the opening label.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"a pot of Pebblebrook's Assam\" | Product fact, fine |\n| \"which I love\" | Creator's own opinion, fine |\n| \"afternoon reset\", \"ten minutes away from my phone\" | Lifestyle description, not a health claim |\n\n**Other checks**\n- No superlatives, guarantees, invented numbers, urgency, or environmental claims.\n- No banned brand words (elevate, unlock, journey, indulge, etc.).\n- `#selfcare` is soft and I wouldn't block it, but it sits close to wellness territory. Don't add anything that suggests the tea reduces stress or anxiety.\n- The post implies the creator has actually been drinking this tea. Please confirm that's true.\n- Sam (marketing lead) still needs to approve it, since all public content goes through them.\n\n**Suggested opening**\n\"Ad. My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.014772500000000001,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

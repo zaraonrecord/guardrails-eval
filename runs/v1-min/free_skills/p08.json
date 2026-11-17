@@ -1,0 +1,11 @@
+{
+ "case": "p08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Our tea bags are plastic-free\" | Allowlisted |\n| \"home compostable\" | Allowlisted |\n| \"Best tea I've ever had\" - Emma, Leeds | Unsupported: testimonial not on the allowlist or supplied with a source. Also reads as a superlative. |\n\n**Problems**\n\n1. **Fake testimonial.** The Emma, Leeds quote isn't on the allowlist and no source was supplied in this chat. I can't verify it's real, so it can't run. It's also a superlative (\"Best\"), which makes it doubly unsupported.\n2. **Landing page consistency.** The ad claims plastic-free and home compostable. Make sure the landing page states both too.\n3. **Headline.** \"Plastic-Free Tea Bags\" is fine and backed by the allowlist. Nothing else in the headline needs changing.\n4. **Character limits.** None were given, so I haven't counted. Tell me the limits if you want them checked.\n\n**Compliant version**\n\nHeadline: Plastic-Free Tea Bags\nDescription: Our tea bags are plastic-free and home compostable. Free UK delivery on orders over £25.\n\nAlternative, if you want social proof: \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" This is allowlisted, but check the landing page shows it too.\n\nIf Emma's quote is real, send me the source (e.g. the review's location and her permission to use it) and I can reinstate it, though \"Best tea I've ever had\" would still need to be a genuine, attributable customer quote.\n\n```json\n{\"issues\": [{\"quote\": \"\\\"Best tea I've ever had\\\" - Emma, Leeds.\", \"type\": \"fake_testimonial\"}, {\"quote\": \"Best tea I've ever had\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0106763,
+ "seconds": 10.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

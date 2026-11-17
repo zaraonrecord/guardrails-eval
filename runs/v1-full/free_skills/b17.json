@@ -1,0 +1,11 @@
+{
+ "case": "b17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "The draft is clean and can go out once Sam approves it.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| The Christmas blend is back | Product fact (new products arriving), fine |\n| Black tea, orange peel, cinnamon, a little clove | Ingredients, product team checked, fine |\n| Back in the shop from today | Availability date, not scarcity or a countdown, fine |\n\n**Other checks**\n- **Numbers, superlatives, guarantees, testimonials:** none.\n- **Health or environmental claims:** none.\n- **Urgency:** none. \"From today\" states when it's available. It doesn't pressure anyone to buy.\n- **Banned words and structures:** none. There are no exclamation marks, no rhetorical opener, no em-dashes and no \"not just X, it's Y\".\n- **Voice:** warm, plain and unhurried, and in UK spelling.\n- **Disclosure:** none needed. This is our own newsletter, with no partnership, gifted product or affiliate link.\n- **Approval:** Sam (marketing lead) needs to sign off, since everything public goes through him.\n\n**Optional tweak:** \"is back\" appears twice, in the first and third sentences. You could cut the third to \"In the shop from today.\" That's a style choice and doesn't need to hold up publication.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0132345,
+ "seconds": 16.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

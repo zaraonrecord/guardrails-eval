@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Product page copy for Rooibos Chai (100g tin), UK.\n\n**Checks**\n- **Claims:** No statistics, rankings, guarantees, testimonials or comparisons. \"Caffeine-free\" is a product fact about the ingredients, and the policy allows those as written. \"Lovely with milk\" is a serving suggestion, not a claim.\n- **Regulated claims:** Nothing on health benefits, money, the environment, children or prices. \"Caffeine-free\" describes the content and makes no wellness promise. It's worth confirming the blend really contains no caffeine-bearing ingredient (no black tea or green tea), since the copy lists only rooibos and spices.\n- **House style:** Short, plain and concrete. It has no stock openers, intensifiers, groups-of-three padding or slogan closer. No changes needed.\n- **Disclosure:** It isn't an ad, sponsorship, affiliate or gifted content, and nothing in it is AI-generated imagery or a customer-service reply. No label is needed.\n\n**Fixed:** Nothing. I made no edits.\n\n**Needs a decision:** Nothing unresolved.\n\n**Approver:** The policy names no approver, so it's you. Please give an explicit yes to this exact copy, and then it can go live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0112553,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

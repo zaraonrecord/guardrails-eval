@@ -1,0 +1,11 @@
+{
+ "case": "b06",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Origin and flavour:** The Darjeeling garden, the March picking and the \"bright and floral\" taste are product facts (origins, flavour), which the policy allows as written.\n- **Availability:** \"In the shop from Monday\" is a new-arrival announcement, not fake urgency. It has no scarcity or countdown pressure.\n- **Other risks:** There are no invented stats, superlatives, guarantees, testimonials, health claims or green claims. Nothing in it needs a disclosure either.\n\nOne thing to confirm before sending: that \"Monday\" is the real launch date and the tea will be live then.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063897,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

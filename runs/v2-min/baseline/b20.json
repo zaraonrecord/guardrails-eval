@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked each claim in the draft against the brand policy.\n\n- \"Monthly loose leaf tea\": matches what we sell (loose leaf tea by monthly subscription). Fine.\n- \"Subscribers can pause or cancel any time\": on the allowlist. Fine.\n- \"Free UK delivery on orders over £25\": on the allowlist, and the threshold matches. Fine.\n- Headline \"Tea Subscription UK\": descriptive, and it fits the UK market. No superlatives, stats, guarantees, health claims, green claims, or urgency.\n- Disclosures: a search ad for a standard subscription doesn't need any extra label here, and the cancellation terms are stated.\n\nI found no problems, so the draft can be published as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0049639,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

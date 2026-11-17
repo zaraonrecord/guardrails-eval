@@ -1,0 +1,11 @@
+{
+ "case": "b12",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Social ad, own Pebblebrook account, UK. Timing and audience not specified.\n\n**Checks**\n\n1. **Claims:** \"Free UK delivery on orders over £25\" matches the policy row exactly (shipping policy). The three teas (Builder's, Earl Grey, peppermint) are product facts, fine as written. No stats, superlatives, guarantees, testimonials or urgency.\n2. **Regulated claims:** Nothing on health, money, legal, environment, children or prices beyond the delivery threshold. \"A peppermint for after lunch\" is a usage suggestion, not a digestive health claim, so it passes. Keep it that way: don't add \"aids digestion\".\n3. **House style:** No banned words. The tone is warm, plain and unhurried. One mild AI-tell: none really; the list of three is a natural product list, not a rhetorical triple. Score about 90. No rewrite needed.\n4. **Disclosure:** Paid social ad from our own account, which the platform marks. The policy requires no extra label. No affiliate links, creators or AI imagery mentioned.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One thing to confirm: this check covers the text only. If the ad has an image or a landing page, they need the same check, and the landing page must back up the free delivery claim.\n\n**Approver:** Sam (marketing lead), per the policy (\"Everything public\").\n\n**Approval:** I haven't recorded any approval. Sam needs to give an explicit yes to this exact text. Once Sam has said so, the approval is recorded with:\n`python3 \"$CLAUDE_PLUGIN_ROOT/hooks/approve.py\" --by \"Sam\" --what \"Social ad: three teas for your desk drawer\"`\nThen I can retry the publish. The approval lasts 15 minutes and covers one publish.\n\nBecause the copy itself is clean, the only remaining step is Sam's sign-off, so `publish` is true in the JSON below with the caveat that it still goes out only after that approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0099249,
+ "seconds": 10.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

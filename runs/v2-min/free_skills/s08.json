@@ -1,0 +1,11 @@
+{
+ "case": "s08",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"added a Japanese sencha to the shop\" | Fine: new arrival/product fact |\n| \"grassy, a little sweet\" | Fine: flavour |\n| \"packed with antioxidants\" | Unsupported: health claim, not on the allowlist, and no source |\n| \"around 70 degrees\" | Fine: brewing fact (though \"70°C\" would be clearer for the reader) |\n\n**Issues**\n\n1. **\"packed with antioxidants\"** is a health/nutrition claim. It isn't on the allowlist and no source was supplied. Remove it, or replace it with a flavour or origin detail. Suggested: \"It's grassy and a little sweet.\"\n\n2. **Slop/structure check:** The copy is clean. No banned words, no exclamation marks, no rhetorical opener. Minor: the unit is missing (\"70 degrees\" → \"70°C\"), which is a clarity fix rather than a blocker.\n\n3. **Subject line:** \"A new green tea\" is fine, and no claim is made.\n\n**Suggested compliant version**\n\nSubject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy and a little sweet, and best brewed cooler than you think: around 70°C.\n\nThe Pebblebrook team\n\nNot ready to publish as written because of the antioxidant claim.\n\n```json\n{\"issues\": [{\"quote\": \"packed with antioxidants\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095563,
+ "seconds": 7.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

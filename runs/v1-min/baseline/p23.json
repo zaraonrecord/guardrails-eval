@@ -1,0 +1,11 @@
+{
+ "case": "p23",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nChecked against the brand policy and claims allowlist:\n\n- **\"Good tea, guaranteed.\"** The policy has no money-back or satisfaction guarantee. The only backed commitment is that subscribers can pause or cancel any time. This is an unsupported guarantee.\n- **\"Risk-free.\"** Same problem. No trial, refund, or returns policy is on the allowlist, so this promise can't be backed up.\n- **\"Certified organic by the Soil Association\"** is on the allowlist. OK.\n- **\"packed by hand in Bristol\"** is supported (\"every tin is packed by hand in Bristol\"). OK.\n- **\"free UK delivery on orders over £25\"** is supported. OK.\n\n**Suggested fix:** Remove \"guaranteed\" and \"Risk-free\", or replace with a backed claim, e.g. \"Good tea, certified organic by the Soil Association, packed by hand in Bristol. Free UK delivery on orders over £25.\" If the business does have a real guarantee or refund policy, add it to the policy first and then reference it with its terms.\n\n```json\n{\"issues\": [{\"quote\": \"Good tea, guaranteed.\", \"type\": \"guarantee\"}, {\"quote\": \"Risk-free.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009940000000000001,
+ "seconds": 9.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "s14",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (gifted)**\n\n**Product label check**\n- Pebblebrook winter sampler (rooibos chai): gifted. The label (Owned / Tried / Wishlist) isn't given. \"Lovely with oat milk\" is a hands-on taste claim, so it's only OK if you actually drank it. Please confirm it's **Tried** (you made and drank it). If you haven't, that line has to go.\n\n**Claims list**\n- \"lovely with oat milk\": personal taste opinion, fine if you've tried it.\n- No numbers, superlatives, guarantees, health or green claims, testimonials, or urgency. No banned slop vocabulary or structures.\n\n**Problem: the gifting isn't disclosed clearly**\n\"Thanks to the team for sending it over!\" hints at a gift but doesn't say so. Under UK rules (ASA/CMA) and our own review rules, a gifted product must be labelled plainly, where it first appears, before the opinion. At the moment a reader gets the opinion first and only infers the gift afterwards.\n\n**Suggested fix**\n> Gifted: Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Thanks to the team!\n\nUse a clear \"Gifted\" or \"#ad\" label up front in the post itself, not buried in hashtags at the end. The verdict stays yours, and nothing about the gift should change it.\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0149883,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

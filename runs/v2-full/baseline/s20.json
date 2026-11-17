@@ -1,0 +1,11 @@
+{
+ "case": "s20",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n**Fine:**\n- The brewing guidance (mug, small sieve, four minutes for black tea, green tea shorter and cooler) counts as product-team brewing facts, so it can be used as written.\n- There are no superlatives, guarantees, health claims, environmental claims, invented numbers, or false urgency.\n- It's an owned email, so no disclosure label is needed.\n- The UK spelling and the warm, plain tone are right.\n\n**Needs changing:**\n- \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\" This is generic filler built on a stock \"whether you're X or Y\" template. It says nothing specific about Pebblebrook or the brewing tip, and it works against the plain, unhurried voice. Cut it, or replace it with something concrete, such as a specific tea to try or a brewing detail.\n\nSince that sentence should change, the draft shouldn't go out as written. It needs a quick edit and Sam's approval, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107821,
+ "seconds": 12.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

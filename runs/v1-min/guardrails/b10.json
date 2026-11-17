@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Product page copy for Chamomile and Lemon Balm tea (UK, Pebblebrook Tea Co.).\n\n**Checks**\n\n| Claim | Status |\n|---|---|\n| \"Certified organic by the Soil Association\" | On the policy list |\n| \"plastic-free tea bags\" | On the policy list |\n| \"caffeine-free blend\" | Product fact (ingredients), fine as written |\n| \"gentle, honeyed\" / \"for the evening\" | Flavour and occasion wording. It makes no sleep, calming or relaxation claim, so it isn't a health claim. |\n| \"20 plastic-free tea bags\" | Product fact (size), fine as written |\n\n- **Regulated claims:** No health, money, legal, child, price or offer wording. \"Plastic-free\" is a green claim, but it is narrow and the policy backs it. The policy also says \"home compostable\" is allowed, but the draft doesn't use it.\n- **House style:** No AI tells or filler. The copy is short and concrete. The policy has no voice section, so I could only check for generic tells.\n- **Disclosure:** This is the brand's own product on its own page, with no ad, affiliate, gifted or AI-labelling trigger.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing is unresolved. One suggestion: keep \"for the evening\" as it is. If someone later adds \"helps you sleep\" or \"calming\", that would need a health-claims review.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy. Once you give it, record it in your terminal with `approve.py --by \"Your Name\"`. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0140093,
+ "seconds": 16.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

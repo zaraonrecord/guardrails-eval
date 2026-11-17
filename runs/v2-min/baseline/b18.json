@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n- **\"Certified organic by the Soil Association.\"** This is on the claims allowlist, so it can stay as written.\n- **\"Just peppermint leaves, nothing else.\"** This is an ingredient fact, which the policy allows as written.\n- **\"Cool and clean after a big meal.\"** This is a flavour and sensation description, not a health claim. It doesn't say the tea aids digestion or treats anything.\n- **Superlatives, stats, guarantees, urgency, testimonials, green claims, AI-style filler.** None of these appear.\n- **Disclosures.** Nothing in the copy requires one.\n\nThe draft is short and plain, and I found nothing that needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0048926,
+ "seconds": 6.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

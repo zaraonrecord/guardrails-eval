@@ -1,0 +1,11 @@
+{
+ "case": "s13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the creator post (paid)**\n\n**Needs changing**\n- **Disclosure is buried.** \"#ad\" is the sixth of seven hashtags at the very end. UK rules (ASA/CAP) expect a paid-partnership label to be upfront and obvious, not hidden in a hashtag string. Put \"Ad\" or \"#ad\" at the start of the post, or use the platform's paid-partnership tool, so readers see it before the content.\n\n**Checked and fine**\n- \"Packed by hand in Bristol\" is on the claims allowlist.\n- The Assam and the ten-minute break are product and lifestyle details, which are fine as written.\n- \"#selfcare\" and \"#slowliving\" are general lifestyle tags, not health claims.\n- There are no invented stats, superlatives, guarantees, fake testimonials, green claims or urgency language.\n\n**Suggested fix:** \"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #assam #selfcare\"\n\n```json\n{\"issues\": [{\"quote\": \"My afternoon reset is a pot of Pebblebrook's Assam\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013524000000000001,
+ "seconds": 10.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad, Pebblebrook Tea Co.**\n\n**Going out:** Google-style search ad, headline plus description. No schedule or audience given.\n\n**Checks**\n\n1. **Claims**\n   - \"Our tea bags are plastic-free and home compostable\": on the policy list (supplier certificate, EN 13432). Pass.\n   - \"Founded in Bristol in 2019\": on the policy list (Companies House). Pass.\n   - \"Plastic-Free Tea Bags\" (headline): consistent with the plastic-free claim above. Pass.\n   - No stats, superlatives, guarantees, testimonials or urgency.\n\n2. **Regulated claims:** The environmental angle applies. \"Plastic-free\" and \"home compostable\" are specific, not broad green claims like \"eco-friendly\", and both are backed by the certificate on file. No health, money, legal, children or price content. Pass.\n\n3. **House style:** Voice is plain and factual. No banned words, no AI tells. It's a bit flat against \"warm, unhurried\", but ad character limits make that reasonable. Score about 85. No rewrite needed.\n\n4. **Disclosure:** Paid social ads from our own account need no extra label under the policy, and search ads are marked as ads by the platform. No creators, affiliates or AI-generated imagery. Pass.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision:** Nothing unresolved. One note: the ad must not claim more than the landing page backs up, so confirm the page shows the plastic-free and compostable claim.\n\n**Approver:** Sam (marketing lead), as the policy lists him for everything public. I haven't recorded any approval. Sam needs to say an explicit yes to this exact copy before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008786899999999999,
+ "seconds": 10.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the about page draft**\n\n- **\"has become Bristol's favourite tea\"** is an unsupported superlative. Nothing in the claims allowlist backs it up, such as a poll or sales ranking. The 4.8 out of 5 review rating is the closest approved claim, and it doesn't show we are the favourite. Either cut it or replace it with the approved rating claim, for example \"rated 4.8 out of 5 from over 1,200 reviews on our website.\"\n- **\"founded in Bristol in 2019\"** is approved.\n- **\"a small team of six\"** is a team size fact, which is fine as written.\n- **\"every tin is packed by hand in Bristol\"** is approved.\n- **\"We buy from gardens we've visited.\"** is a sourcing and origins statement, which counts as a product fact and is fine as written. Make sure it is true before publishing.\n\nThe draft shouldn't go out until the \"favourite tea\" line is changed.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010627999999999999,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

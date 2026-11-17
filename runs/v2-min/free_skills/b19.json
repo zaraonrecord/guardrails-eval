@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: no changes needed**\n\n**Claims list**\n| Claim | Status |\n|---|---|\n| \"A mug, a small sieve and four minutes is enough for black tea\" | Brewing guidance, covered as a product fact. The \"four minutes\" is a brewing instruction, not a performance stat. |\n| \"Green tea likes it shorter and cooler\" | Brewing guidance, allowed. |\n| \"You don't need any kit\" | Practical advice, not a product or results claim. |\n\n**Other checks**\n- **Claims guard:** There are no invented stats, testimonials, superlatives, guarantees, or health, money, or environmental claims. No social proof is used.\n- **Slop guard:** There are no ban-list words, em-dash sandwiches, exclamation points, rhetorical-question openers, \"not just X, it's Y\" lines, abstract-noun triads, or fake urgency. The first sentence gets straight to the point, and the sentences are short and concrete.\n- **Honest review rules:** This is not a review or roundup, and it has no affiliate links, sponsorships, or hands-on product claims, so no disclosure is needed.\n- **Consistency:** The subject line promises a way to brew without a teapot, and the body delivers it.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096625,
+ "seconds": 9.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I found nothing in this draft that needs changing.\n\n- **Claims:** The email makes no claims about organic certification, delivery, reviews, compostability or subscriptions, and has no statistics, superlatives, guarantees, testimonials, health claims, green claims or urgency language.\n- **Product facts:** The brewing advice (a mug, a small sieve, about four minutes for black tea, and shorter and cooler for green) counts as brewing information, which the policy allows as written.\n- **Tone:** It's short, specific and useful, with no filler or generic AI-style phrasing.\n- **Disclosure:** It makes no offer or claim that would need a label or qualifier. Your email platform should add the usual footer, such as an unsubscribe link and company details, but that is outside this draft.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0063041,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

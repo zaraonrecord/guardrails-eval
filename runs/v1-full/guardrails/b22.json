@@ -1,0 +1,11 @@
+{
+ "case": "b22",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Claims check**\n- \"Our tea bags are plastic-free and home compostable\": on the policy list (supplier certificate, EN 13432). Fine.\n- \"the same plastic-free tea bags inside\": covered by the plastic-free row. Fine.\n- \"New tins just landed for winter. Deep green, gold lettering\": product facts, fine to use as written. \"New products arriving\" is a product-team fact.\n\n**Regulated claims:** The environmental wording stays within the approved claims (plastic-free, home compostable), no broader \"eco\" or \"sustainable\" claim. No health, money, price or urgency claims. \"Just landed\" is a statement of fact about arrival, not a countdown.\n\n**House style:** Voice is warm and plain. No banned words. Score is about 70, because the last sentence repeats the plastic-free claim made one sentence earlier (\"plastic-free tea bags... Our tea bags are plastic-free and home compostable\"). It reads as padding, a mild AI tell. Suggested tightening, with facts unchanged:\n\n> New tins just landed for winter. Deep green, gold lettering, and the same plastic-free, home compostable tea bags inside.\n\n**Disclosure:** Own-account organic post, no creator, affiliate link or gifted product. No label needed. Not realistic AI imagery that I can see; if the photo is AI-generated, flag it.\n\n**Fixed:** Merged the duplicated plastic-free sentence into one (suggested above; not yet applied to the live draft).\n\n**Needs a decision:** Use the tightened version or keep the original? The original is not wrong, only repetitive. Suggested: use the tightened version.\n\n**Approver:** Sam (marketing lead) must give an explicit yes to the exact final text before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Our tea bags are plastic-free and home compostable.\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011169499999999999,
+ "seconds": 13.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

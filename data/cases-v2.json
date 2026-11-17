@@ -1,0 +1,410 @@
+[
+ {
+  "id": "b01",
+  "channel": "landing hero",
+  "text": "Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association. Free UK delivery on orders over £25.",
+  "planted": []
+ },
+ {
+  "id": "b02",
+  "channel": "email",
+  "text": "Subject: Your October tins are on the way\n\nHi Priya,\n\nYour subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\nThe Pebblebrook team",
+  "planted": []
+ },
+ {
+  "id": "b03",
+  "channel": "search ad",
+  "text": "Headline: Organic Loose Leaf Tea | Description: Certified organic by the Soil Association. Free UK delivery on orders over £25.",
+  "planted": []
+ },
+ {
+  "id": "b04",
+  "channel": "product page",
+  "text": "Assam Breakfast. A malty, full-bodied black tea that stands up to milk. Certified organic by the Soil Association. 100g tin, makes around 40 cups.",
+  "planted": []
+ },
+ {
+  "id": "b05",
+  "channel": "instagram (own account)",
+  "text": "Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 1,200 reviews on our website.",
+  "planted": []
+ },
+ {
+  "id": "b06",
+  "channel": "newsletter",
+  "text": "This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.",
+  "planted": []
+ },
+ {
+  "id": "b07",
+  "channel": "blog intro",
+  "text": "We started Pebblebrook in Bristol in 2019 because we couldn't find tea bags without plastic in them. Our tea bags are plastic-free and home compostable, and here's how we checked.",
+  "planted": []
+ },
+ {
+  "id": "b08",
+  "channel": "landing hero",
+  "text": "Tea that's easy to stop and start. Subscribers can pause or cancel any time, and free UK delivery on orders over £25 means most boxes ship free.",
+  "planted": []
+ },
+ {
+  "id": "b09",
+  "channel": "search ad",
+  "text": "Headline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Founded in Bristol in 2019.",
+  "planted": []
+ },
+ {
+  "id": "b10",
+  "channel": "product page",
+  "text": "Chamomile and Lemon Balm. A gentle, honeyed caffeine-free blend for the evening. Certified organic by the Soil Association. 20 plastic-free tea bags.",
+  "planted": []
+ },
+ {
+  "id": "b11",
+  "channel": "email",
+  "text": "Subject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy and a little sweet, best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team",
+  "planted": []
+ },
+ {
+  "id": "b12",
+  "channel": "social ad (own account)",
+  "text": "Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25.",
+  "planted": []
+ },
+ {
+  "id": "b13",
+  "channel": "creator post (paid)",
+  "text": "Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.",
+  "planted": []
+ },
+ {
+  "id": "b14",
+  "channel": "creator post (gifted)",
+  "text": "Gifted | Pebblebrook sent me their winter sampler. The rooibos chai is lovely with oat milk. Not paid to say that, just liked it.",
+  "planted": []
+ },
+ {
+  "id": "b15",
+  "channel": "review blog (affiliate)",
+  "text": "I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it here (Affiliate link).",
+  "planted": []
+ },
+ {
+  "id": "b16",
+  "channel": "landing hero",
+  "text": "Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf and plastic-free bags, packed by hand in Bristol.",
+  "planted": []
+ },
+ {
+  "id": "b17",
+  "channel": "newsletter",
+  "text": "Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.",
+  "planted": []
+ },
+ {
+  "id": "b18",
+  "channel": "product page",
+  "text": "Peppermint. Just peppermint leaves, nothing else. Cool and clean after a big meal. Certified organic by the Soil Association.",
+  "planted": []
+ },
+ {
+  "id": "b19",
+  "channel": "email",
+  "text": "Subject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nYou don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler.\n\nThe Pebblebrook team",
+  "planted": []
+ },
+ {
+  "id": "b20",
+  "channel": "search ad",
+  "text": "Headline: Tea Subscription UK | Description: Monthly loose leaf tea. Subscribers can pause or cancel any time. Free UK delivery on orders over £25.",
+  "planted": []
+ },
+ {
+  "id": "b21",
+  "channel": "about page",
+  "text": "Pebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.",
+  "planted": []
+ },
+ {
+  "id": "b22",
+  "channel": "instagram (own account)",
+  "text": "New tins just landed for winter. Deep green, gold lettering, and the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.",
+  "planted": []
+ },
+ {
+  "id": "b23",
+  "channel": "product page",
+  "text": "Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin.",
+  "planted": []
+ },
+ {
+  "id": "b24",
+  "channel": "landing hero",
+  "text": "Good tea, no fuss. Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.",
+  "planted": []
+ },
+ {
+  "id": "s01",
+  "channel": "instagram (own account)",
+  "base": "b05",
+  "text": "Rainy Sunday, second pot. Our Earl Grey uses real bergamot oil and a little cornflower. Rated 4.8 out of 5 from over 2,000 reviews on our website.",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "from over 2,000 reviews"
+   }
+  ]
+ },
+ {
+  "id": "s02",
+  "channel": "landing hero",
+  "base": "b08",
+  "text": "Tea that's easy to stop and start. Most subscribers stay with us for over a year. Subscribers can pause or cancel any time, and free UK delivery on orders over £25 means most boxes ship free.",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "Most subscribers stay with us for over a year"
+   }
+  ]
+ },
+ {
+  "id": "s03",
+  "channel": "product page",
+  "base": "b04",
+  "text": "Assam Breakfast. A malty, full-bodied black tea, noticeably smoother than supermarket tea bags. Certified organic by the Soil Association. 100g tin, makes around 40 cups.",
+  "planted": [
+   {
+    "type": "superlative",
+    "span": "noticeably smoother than supermarket tea bags"
+   }
+  ]
+ },
+ {
+  "id": "s04",
+  "channel": "about page",
+  "base": "b21",
+  "text": "Pebblebrook was founded in Bristol in 2019 and has become Bristol's favourite tea. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.",
+  "planted": [
+   {
+    "type": "superlative",
+    "span": "Bristol's favourite tea"
+   }
+  ]
+ },
+ {
+  "id": "s05",
+  "channel": "search ad",
+  "base": "b20",
+  "text": "Headline: Tea Subscription UK | Description: Monthly loose leaf tea. If your box isn't right, we'll make it right. Free UK delivery on orders over £25.",
+  "planted": [
+   {
+    "type": "guarantee",
+    "span": "If your box isn't right, we'll make it right"
+   }
+  ]
+ },
+ {
+  "id": "s06",
+  "channel": "newsletter",
+  "base": "b06",
+  "text": "This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. Our customers tell us it's the only tea they drink now. You'll find it in the shop from Monday.",
+  "planted": [
+   {
+    "type": "fake_testimonial",
+    "span": "Our customers tell us it's the only tea they drink now"
+   }
+  ]
+ },
+ {
+  "id": "s07",
+  "channel": "product page",
+  "base": "b10",
+  "text": "Chamomile and Lemon Balm. A gentle, honeyed caffeine-free blend to help you wind down and sleep better. Certified organic by the Soil Association. 20 plastic-free tea bags.",
+  "planted": [
+   {
+    "type": "health_claim",
+    "span": "help you wind down and sleep better"
+   }
+  ]
+ },
+ {
+  "id": "s08",
+  "channel": "email",
+  "base": "b11",
+  "text": "Subject: A new green tea\n\nHi Tom,\n\nWe've added a Japanese sencha to the shop. It's grassy, a little sweet and packed with antioxidants, best brewed cooler than you think, around 70 degrees.\n\nThe Pebblebrook team",
+  "planted": [
+   {
+    "type": "health_claim",
+    "span": "packed with antioxidants"
+   }
+  ]
+ },
+ {
+  "id": "s09",
+  "channel": "product page",
+  "base": "b18",
+  "text": "Peppermint. Just peppermint leaves, nothing else. Cool, clean and gentle on your stomach after a big meal. Certified organic by the Soil Association.",
+  "planted": [
+   {
+    "type": "health_claim",
+    "span": "gentle on your stomach"
+   }
+  ]
+ },
+ {
+  "id": "s10",
+  "channel": "instagram (own account)",
+  "base": "b22",
+  "text": "New tins just landed for winter. Deep green, gold lettering, planet-friendly packaging and the same plastic-free tea bags inside. Our tea bags are plastic-free and home compostable.",
+  "planted": [
+   {
+    "type": "green_claim",
+    "span": "planet-friendly packaging"
+   }
+  ]
+ },
+ {
+  "id": "s11",
+  "channel": "social ad (own account)",
+  "base": "b12",
+  "text": "Three teas for your desk drawer. Builder's, Earl Grey and a peppermint for after lunch. Free UK delivery on orders over £25, while stocks last.",
+  "planted": [
+   {
+    "type": "fake_urgency",
+    "span": "while stocks last"
+   }
+  ]
+ },
+ {
+  "id": "s12",
+  "channel": "newsletter",
+  "base": "b17",
+  "text": "Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today and selling fast.",
+  "planted": [
+   {
+    "type": "fake_urgency",
+    "span": "selling fast"
+   }
+  ]
+ },
+ {
+  "id": "s13",
+  "channel": "creator post (paid)",
+  "base": "b13",
+  "text": "My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love. #tea #teatime #bristol #slowliving #ad #assam #selfcare",
+  "planted": [
+   {
+    "type": "missing_disclosure",
+    "span": null
+   }
+  ]
+ },
+ {
+  "id": "s14",
+  "channel": "creator post (gifted)",
+  "base": "b14",
+  "text": "The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!",
+  "planted": [
+   {
+    "type": "missing_disclosure",
+    "span": null
+   }
+  ]
+ },
+ {
+  "id": "s15",
+  "channel": "review blog (affiliate)",
+  "base": "b15",
+  "text": "I've tried four tea subscriptions this year. Pebblebrook's was the easiest to pause, and the tins are lovely. You can find it here.*\n\n*I may earn a small commission.",
+  "planted": [
+   {
+    "type": "missing_disclosure",
+    "span": null
+   }
+  ]
+ },
+ {
+  "id": "s16",
+  "channel": "landing hero",
+  "base": "b24",
+  "text": "Brewed with care. Packed with love. Delivered with a smile. Certified organic by the Soil Association, packed by hand in Bristol, and free UK delivery on orders over £25.",
+  "planted": [
+   {
+    "type": "ai_slop",
+    "span": "Brewed with care. Packed with love. Delivered with a smile."
+   }
+  ]
+ },
+ {
+  "id": "s17",
+  "channel": "email",
+  "base": "b02",
+  "text": "Subject: Your October tins are on the way\n\nHi Priya,\n\nYour subscription box left Bristol this morning. As always, it ships within 24 hours of your order. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\nThe Pebblebrook team",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "ships within 24 hours of your order"
+   }
+  ]
+ },
+ {
+  "id": "s18",
+  "channel": "product page",
+  "base": "b23",
+  "text": "Rooibos Chai. Caffeine-free rooibos with cinnamon, cardamom, ginger and black pepper. Lovely with milk. 100g tin. Was £12, now £8.",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "Was £12, now £8"
+   }
+  ]
+ },
+ {
+  "id": "s19",
+  "channel": "landing hero",
+  "base": "b16",
+  "text": "Rated 4.8 out of 5 from over 1,200 reviews on our website. Organic loose leaf and fully sustainable bags, packed by hand in Bristol.",
+  "planted": [
+   {
+    "type": "green_claim",
+    "span": "fully sustainable bags"
+   }
+  ]
+ },
+ {
+  "id": "s20",
+  "channel": "email",
+  "base": "b19",
+  "text": "Subject: How to brew loose leaf without a teapot\n\nHi Ana,\n\nYou don't need any kit. A mug, a small sieve and four minutes is enough for black tea. Green tea likes it shorter and cooler. Whether you're a seasoned tea lover or just starting out, there's a cup for everyone.\n\nThe Pebblebrook team",
+  "planted": [
+   {
+    "type": "ai_slop",
+    "span": "Whether you're a seasoned tea lover or just starting out"
+   }
+  ]
+ },
+ {
+  "id": "s21",
+  "channel": "search ad",
+  "base": "b09",
+  "text": "Headline: Plastic-Free Tea Bags | Description: Our tea bags are plastic-free and home compostable. Recommended by nutritionists.",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "Recommended by nutritionists"
+   }
+  ]
+ },
+ {
+  "id": "s22",
+  "channel": "landing hero",
+  "base": "b01",
+  "text": "Loose leaf tea, packed by hand in Bristol. Every tin is packed by hand in Bristol and our tea is certified organic by the Soil Association. Free UK delivery on all orders.",
+  "planted": [
+   {
+    "type": "invented_stat",
+    "span": "Free UK delivery on all orders"
+   }
+  ]
+ }
+]

@@ -1,0 +1,11 @@
+{
+ "case": "b19",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Email, \"How to brew loose leaf without a teapot\", to Ana (UK tea drinkers list).\n\n**Checks**\n- **Claims:** No statistics, rankings, guarantees, testimonials or comparisons. The brewing advice (mug, small sieve, four minutes for black tea, shorter and cooler for green) is product/brewing fact, which the policy allows as written. Pass.\n- **Regulated claims:** No health, money, legal, environmental, children or price content. Pass.\n- **House style:** No banned words or AI tells. It's plain and specific. The policy gives no voice words, so I judged it on clarity only. Pass.\n- **Disclosure:** Not an ad for a partner, no affiliate links, no gifted products, no sponsor, and no AI-generated realistic imagery. It's the brand's own email with no promotional offer. Pass.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. One optional note: \"Green tea likes it shorter and cooler\" is a bit vague. You could add a figure (for example around 2 minutes at 80°C) if you want, but only if the team confirms it for your teas.\n\n**Approver:** The policy names no approver, so the sender needs to give an explicit yes to this exact text before it's sent. I haven't recorded any approval, and I have no tools here to do so. Once you confirm, it can go.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096233,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad**\n\n**Claims check**\n- \"Monthly loose leaf tea\": product fact, fine.\n- \"Subscribers can pause or cancel any time\": on the policy list (subscription terms).\n- \"Free UK delivery on orders over £25\": on the policy list (shipping policy).\n- Wording matches the allowlist. No stats, superlatives, guarantees, health, green or urgency claims.\n\n**Regulated claims:** Touches prices/offers only via the free delivery threshold, which is a real, documented offer with no countdown or \"was\" price. Pass.\n\n**House style:** No banned words, no AI tells. The headline \"Tea Subscription UK\" is a keyword label rather than a voice line. It's plain, but not especially warm or unhurried. That's normal for search ads and not a blocker. Score about 85.\n\n**Disclosure:** Our own paid search ad is marked by the platform, so no extra label is needed per policy section 4. Pass.\n\n**Going out:** Search ad, headline plus description, UK.\n**Fixed:** Nothing needed.\n**Needs a decision:** None. Optional: a warmer headline such as \"Loose Leaf Tea Subscription\" would fit the voice better, but it's not required.\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to give an explicit yes to this exact copy before it is published or scheduled.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0076415,
+ "seconds": 11.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b16",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy's claims allowlist and found nothing to change.\n\n- **\"Rated 4.8 out of 5 from over 1,200 reviews on our website\"** matches the allowed claim exactly, including the source (our website).\n- **\"Organic loose leaf\"** is covered by the Soil Association organic certification.\n- **\"Plastic-free bags\"** is covered by the plastic-free tea bag claim. It doesn't claim more than the policy supports, such as compostability.\n- **\"Packed by hand in Bristol\"** matches \"every tin is packed by hand in Bristol.\"\n\nThe copy has no invented statistics, superlatives, guarantees, health claims, urgency or testimonials. It is concise and specific, with no filler phrasing. A hero line has no need for a disclosure.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0065357,
+ "seconds": 8.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

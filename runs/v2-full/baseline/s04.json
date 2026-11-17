@@ -1,0 +1,11 @@
+{
+ "case": "s04",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One line needs to change.\n\n**Problem**\n- \"has become Bristol's favourite tea\" is a superlative we can't prove. It's close to the banned \"the UK's favourite\", just at city level. There's no proof on file, so cut it. If you want something in its place, the 4.8 out of 5 from over 1,200 reviews on our website is approved, using that exact wording.\n\n**Checked and fine**\n- \"founded in Bristol in 2019\" matches the allowlist (Companies House).\n- \"a small team of six\" is a team size, which the product team checks.\n- \"every tin is packed by hand in Bristol\" matches the allowlist exactly.\n\n**For Sam to confirm**\n- \"We buy from gardens we've visited.\" isn't in the claims table. It reads as a sourcing fact, so it's probably fine, but make sure the team can back it up (that they've actually visited the gardens) before it goes live.\n\n**Suggested rewrite**\nPebblebrook was founded in Bristol in 2019. We're a small team of six, and every tin is packed by hand in Bristol. We buy from gardens we've visited.\n\nThis is public content, so Sam needs to approve it before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"has become Bristol's favourite tea\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0127541,
+ "seconds": 11.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

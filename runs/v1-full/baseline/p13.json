@@ -1,0 +1,11 @@
+{
+ "case": "p13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Not ready to publish.** One problem needs fixing.\n\n**Missing \"Gifted\" label (section 4).** This is a gifted creator post, so it has to open with \"Gifted\" before anything else. The draft opens with \"Pebblebrook sent me their winter sampler.\" Saying \"Not paid to say that\" doesn't count as the required label. Starting with \"Gifted\" fixes it, for example: \"Gifted. Pebblebrook sent me their winter sampler…\"\n\n**Everything else checks out:**\n- **Claims:** There are no superlatives, guarantees, health claims, green claims, invented numbers or fake urgency.\n- **Product facts:** The winter sampler and rooibos chai are product facts, so they're fine as written. \"Lovely with oat milk\" is the creator's own opinion and makes no brand claim.\n- **Voice:** There are no banned words, and the tone is warm, plain and unhurried.\n- **Spelling:** There are no US spellings.\n\nSam still needs to approve it, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"Pebblebrook sent me their winter sampler.\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.009708099999999999,
+ "seconds": 10.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

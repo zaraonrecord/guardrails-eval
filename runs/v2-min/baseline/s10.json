@@ -1,0 +1,11 @@
+{
+ "case": "s10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the Instagram draft**\n\n- **\"New tins just landed for winter.\"** This is a new arrival, which is fine as written.\n- **\"Deep green, gold lettering\"** is a product detail, so it's fine.\n- **\"planet-friendly packaging\"** is a vague environmental claim. The allowlist backs only the plastic-free, home compostable tea bags and the Soil Association organic certification. Nothing supports the tins or their packaging being \"planet-friendly\". Either remove it or replace it with a specific, provable fact, such as the bags being plastic-free and home compostable.\n- **\"the same plastic-free tea bags inside\"** and **\"Our tea bags are plastic-free and home compostable.\"** Both are backed by the allowlist. The two sentences are repetitive, though, so I'd merge them, for example: \"Inside, the same plastic-free, home compostable tea bags.\"\n- No invented stats, superlatives, guarantees, testimonials, health claims, fake urgency or missing disclosures.\n\n**Suggested fix:** \"New tins just landed for winter. Deep green with gold lettering, and inside, the same plastic-free, home compostable tea bags.\"\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.011774,
+ "seconds": 12.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

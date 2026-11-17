@@ -1,0 +1,11 @@
+{
+ "case": "b23",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and the claim categories.\n\n- **Product facts:** Caffeine-free rooibos, the spice list (cinnamon, cardamom, ginger, black pepper), the pairing with milk and the 100g tin size are all product facts (ingredients, flavour, sizes), which the policy allows as written.\n- **Statistics, superlatives, guarantees, testimonials:** None present.\n- **Health claims:** \"Caffeine-free\" is a factual description of the ingredient, not a health benefit claim. No wellness or medical promises are made.\n- **Green claims:** None. There's no mention of organic, compostable or plastic-free, so nothing needs backing up.\n- **Urgency:** None.\n- **Tone:** It's short and plain, with no filler or generic AI phrasing.\n- **Disclosures:** Nothing here (no sponsorship, offer or incentive) calls for one.\n\nI found nothing that needs changing, so it can go out as written.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0057915,
+ "seconds": 7.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

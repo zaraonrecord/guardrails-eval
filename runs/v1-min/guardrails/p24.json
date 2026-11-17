@@ -1,0 +1,11 @@
+{
+ "case": "p24",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Order-dispatch email to Priya (UK subscriber), subject \"Your October tins are on the way\".\n\n**Checks**\n- **Claims:** Pass. \"Left Bristol this morning\" fits the Bristol packing claim. \"Pause or cancel any time\" is on the policy list. The lapsang and white peony descriptions are product facts, which are fine as written. There are no stats, testimonials, guarantees or superlatives.\n- **Regulated claims:** Pass. The draft has no health, money, environment, children or price content.\n- **Disclosure:** Pass. It is a transactional email with no ad, sponsorship, affiliate link or AI-labelling trigger.\n- **House style:** One fail. \"Elevate your mornings:\" is a stock marketing opener. It adds nothing and reads like a chatbot. Score is roughly 72 before the fix and 92 after.\n\n**Fixed (suggested rewrite)**\n\n> Subject: Your October tins are on the way\n>\n> Hi Priya,\n>\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n>\n> The Pebblebrook team\n\n**Needs a decision**\n- **Month check:** The subject says \"October\", but today is 17 November. If this is a late dispatch or a reused template, the month may be wrong, and \"next month\" would then mean December. My suggestion is to confirm the month before sending.\n- **Approval:** I haven't recorded one. The policy names no approver, so please give an explicit yes to the rewritten version above. It is a new version, so it needs a fresh yes.\n\n**Approver:** None named in the policy, so you as the user.\n\n```json\n{\"issues\": [{\"quote\": \"Elevate your mornings:\", \"type\": \"ai_slop\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0154553,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

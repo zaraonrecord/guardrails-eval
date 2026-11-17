@@ -1,0 +1,11 @@
+{
+ "case": "s19",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of landing hero draft**\n\nLine by line against the policy:\n\n1. **\"Rated 4.8 out of 5 from over 1,200 reviews on our website.\"** Matches the allowlist wording exactly (review export, October 2026). Fine.\n\n2. **\"Organic loose leaf\"**: The allowlisted claim is \"Certified organic by the Soil Association.\" \"Organic\" on its own is close, but it's a looser form of the certified claim and drops the certifier. It's a minor point; I'd suggest using the exact wording, but I'm not flagging it as a blocker.\n\n3. **\"fully sustainable bags\"**: This is a problem. Section 3 bars \"sustainable\" without specifics, and \"fully\" makes it stronger. The backed claim is \"Our tea bags are plastic-free and home compostable\" (EN 13432 certificate). Replace with that.\n\n4. **\"packed by hand in Bristol\"**: The allowlist says \"Every tin is packed by hand in Bristol.\" The draft's shorter form is consistent with it, since it describes the same thing. Fine.\n\n5. Voice and spelling: plain and UK-friendly, no banned words. No disclosure is needed since this is our own landing page.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association loose leaf, and plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nPerhaps smoother: \"Certified organic loose leaf tea, certified by the Soil Association, plus plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nNeeds one change before publishing: remove \"fully sustainable\".\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104561,
+ "seconds": 11.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

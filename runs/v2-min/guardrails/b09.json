@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: search ad, Pebblebrook Tea Co.**\n\n**Going out:** Google-style search ad, UK audience, timing not specified.\n\n**Claims check**\n| Claim | Status |\n|---|---|\n| \"plastic-free\" tea bags | On policy list (\"tea bags are plastic-free and home compostable\") |\n| \"home compostable\" | On policy list |\n| \"Founded in Bristol in 2019\" | On policy list |\n\nAll three claims match the allowlist word for word, with no rounding up or dropped qualifiers.\n\n**Regulated claims (environment):** \"Plastic-free\" and \"home compostable\" are environmental claims, which regulators such as the CMA and ASA look at closely. Both are specific and narrow (not a broad \"eco\" or \"green\" claim) and both are on the policy list, so they pass. The policy doesn't list a certificate, so the team should keep the supporting evidence on file in case the ad is challenged. The claim should stay limited to the tea bags, not the tins or the whole product range.\n\n**House style:** The policy has no voice section, so I can't score against it. The copy is plain and specific, with no AI tells, banned words or stock openers. It's fine as written.\n\n**Disclosure:** This is the brand's own ad for its own products, with no creator, affiliate link, gifted product or AI-generated imagery. Search platforms label it as an ad themselves, so nothing more is needed.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. One suggestion is to check that the landing page also states that the bags are plastic-free and home compostable, since an ad can't claim more than the page behind it supports.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy before it goes live. Once you've confirmed, the publish can proceed. I haven't recorded any approval myself.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0090907,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

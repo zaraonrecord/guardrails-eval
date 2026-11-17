@@ -1,0 +1,11 @@
+{
+ "case": "s03",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n**Problem: \"noticeably smoother than supermarket tea bags\"**\nThis is a comparative claim against other products. It isn't in the claims allowlist and we have no proof for it. It works like an unprovable superlative, and it isn't a product fact the product team has checked (the product team covers ingredients, flavour, tin sizes, brewing, origin and similar). It should be removed or replaced with a plain description of the taste, such as \"malty, full-bodied and smooth\" if the product team confirms that flavour wording.\n\n**Fine as written**\n- \"A malty, full-bodied black tea\": flavour description, a product fact.\n- \"Certified organic by the Soil Association\": exact allowlist wording.\n- \"100g tin, makes around 40 cups\": tin size and cup count, a product fact.\n\n**Voice and spelling:** Plain and warm enough, no banned words, UK spelling is fine.\n\n**Approval:** Sam needs to approve this before it goes live, as with all public content.\n\nVerdict: don't publish until the smoother-than-supermarket comparison is removed or reworded.\n\n```json\n{\"issues\": [{\"quote\": \"noticeably smoother than supermarket tea bags\", \"type\": \"superlative\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008498099999999998,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

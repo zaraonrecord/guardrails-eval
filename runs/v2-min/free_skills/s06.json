@@ -1,0 +1,11 @@
+{
+ "case": "s06",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"visited the garden in Darjeeling that grows our first flush\" | Product origin, fine as written. The team should confirm the visit happened. |\n| \"leaves are picked in March\" | Product fact, fine |\n| \"taste bright and floral\" | Flavour description, fine |\n| \"Our customers tell us it's the only tea they drink now\" | **Unsupported.** It is social proof and a testimonial-style claim, and it isn't on the allowlist or sourced in this chat. It also implies a pattern of customer feedback we can't verify, and \"only tea they drink\" is an absolute. |\n| \"You'll find it in the shop from Monday\" | New arrival, fine. It's a real launch date, not fake urgency, as long as Monday is correct. |\n\n**Slop check:** No banned words, no em-dash sandwiches, no exclamation points, no rhetorical opener. The opening sentence is concrete.\n\n**Fix:** Cut the customer sentence, or replace it with `[PROOF NEEDED: a real, permissioned customer quote about the first flush]`. If you want something in its place, use a product fact, such as brewing guidance or the flavour notes.\n\n**Suggested version:**\n\n> This month we visited the garden in Darjeeling that grows our first flush. The leaves are picked in March and taste bright and floral. You'll find it in the shop from Monday.\n\n```json\n{\"issues\": [{\"quote\": \"Our customers tell us it's the only tea they drink now.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.013290300000000001,
+ "seconds": 14.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

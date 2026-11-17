@@ -1,0 +1,11 @@
+{
+ "case": "p26",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "Review of the creator post (paid):\n\n**Disclosure:** The post starts with \"Ad\", which is the required wording for a paid partnership. Fine.\n\n**Claims check:**\n- \"Their tins are packed by hand in Bristol\": matches the allowlist (\"Every tin is packed by hand in Bristol\"). Fine.\n- \"Pebblebrook's Assam\", \"a pot of... Assam and ten minutes away from my phone\": product mention and personal routine, fine.\n- \"Honestly the best tea in Britain\": an unprovable superlative. Not allowed.\n- \"it's a proven immunity booster\": a health claim, and \"proven\" implies evidence we don't have. Not allowed.\n\n**Voice:** The tone is warm and plain otherwise. No banned words. UK spelling is fine.\n\n**Required changes:** Remove the \"best tea in Britain\" line and the immunity claim. A safe rewrite:\n\n\"Ad | My afternoon reset is a pot of Pebblebrook's Assam and ten minutes away from my phone. Their tins are packed by hand in Bristol, which I love.\"\n\nThis needs Sam's approval before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"Honestly the best tea in Britain\", \"type\": \"superlative\"}, {\"quote\": \"it's a proven immunity booster\", \"type\": \"health_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.008932099999999998,
+ "seconds": 8.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

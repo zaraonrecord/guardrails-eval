@@ -1,0 +1,11 @@
+{
+ "case": "s12",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Not ready to publish. One change needed.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"the Christmas blend is back\" | Allowed (new arrival / product fact) |\n| \"Black tea, orange peel, cinnamon and a little clove\" | Allowed (ingredients) |\n| \"back in the shop from today\" | Allowed (new arrival) |\n| \"selling fast\" | **Unsupported.** No sales data supplied, and it works as scarcity pressure. |\n\n**Slop check:** No ban-list words, no em-dashes, no exclamation points, no rhetorical opener, and the first sentence carries the news. Nothing to change.\n\n**Fix:** Cut \"selling fast\". If stock really is low, give the real figure (for example \"under 100 tins left\") and I can add it, but I can't invent one.\n\n**Suggested version:**\n\n> Quick one this week: the Christmas blend is back. Black tea, orange peel, cinnamon and a little clove. It's back in the shop from today.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0107283,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

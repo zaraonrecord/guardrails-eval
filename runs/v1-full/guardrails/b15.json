@@ -1,0 +1,11 @@
+{
+ "case": "b15",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Review blog post (affiliate), 3 short sentences, link at the end.\n\n**Checks**\n- **Claims:** Passes. \"Easiest to pause\" is the reviewer's own comparison, and it matches the policy claim that subscribers can pause or cancel any time. It makes no guarantee and gives no number. \"The tins are lovely\" is opinion. \"Four tea subscriptions this year\" is the author's own experience, not a brand claim. No invented stats, ratings or testimonials.\n- **Regulated claims:** Nothing on health, money, environment, children or pricing.\n- **House style:** Warm, plain and unhurried, with no banned words and no AI tells.\n- **Disclosure:** Passes. \"(Affiliate link)\" sits right beside the link, which is what section 4 requires. The post is only three sentences, so the label is seen before the reader acts on it.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing blocking. Two optional points:\n- Confirm the author really did try four subscriptions. That's their claim, not ours.\n- If you want a more prominent label, \"Affiliate link\" could also open the post. The policy doesn't require it.\n\n**Approver:** Sam (marketing lead). I haven't recorded any approval. Sam needs to say an explicit yes to this exact text before it goes out.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0170695,
+ "seconds": 15.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "s14",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy.\n\n**Disclosure:** This is a gifted creator post, so it must start with \"Gifted\" before anything else. The draft opens with \"The rooibos chai...\", so the label is missing. That blocks publication.\n\n**Claims:** There are no superlatives, guarantees, health claims, environmental claims, invented numbers or false urgency. \"Lovely with oat milk\" is a personal opinion about taste, which is fine. The winter sampler and rooibos chai are product facts for the product team to confirm, and I have no reason to question them.\n\n**Voice:** It is warm, plain and unhurried. No banned words. UK spelling is fine.\n\n**Approval:** Sam (marketing lead) needs to approve everything public.\n\n**Fix:** Start the post with \"Gifted\", for example: \"Gifted: The rooibos chai from Pebblebrook's winter sampler is lovely with oat milk. Thanks to the team for sending it over!\"\n\n```json\n{\"issues\": [{\"quote\": \"The rooibos chai from Pebblebrook's winter sampler\", \"type\": \"missing_disclosure\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0080221,
+ "seconds": 9.1,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Instagram post (own account)**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Rainy Sunday, second pot.\" | Scene-setting, not a claim. |\n| \"Our Earl Grey uses real bergamot oil and a little cornflower.\" | Product fact (ingredients), cleared by the product team. |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website.\" | Allowlisted, exact wording (review platform export, October 2026). |\n\n**Other checks**\n- **Superlatives, guarantees, health, green claims, urgency:** none present.\n- **Disclosure:** none needed. It's our own account, and the platform marks paid social ads.\n- **Voice:** warm, plain and unhurried. No banned words, no em-dashes, no exclamation points, no rhetorical-question opener. UK spelling is fine.\n- **Landing page consistency:** the rating claim should also appear on the site, and it's sourced from our website reviews, so that holds.\n\n**Before it goes out:** the policy says Sam (marketing lead) approves everything public, so get sign-off. The copy itself needs no changes. The rating is from October's export, so recheck it if the number has moved.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0096855,
+ "seconds": 9.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

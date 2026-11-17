@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Search ad (headline + description) for Pebblebrook Tea Co., UK. Timing and audience weren't given.\n\n**Checks**\n- **Claims:** \"Free UK delivery on orders over £25\" matches the policy row exactly. \"Monthly loose leaf tea\" is a product fact and fine. \"If your box isn't right, we'll make it right\" is not on the claims list. It promises a remedy (a fix, replacement or refund) that the policy doesn't offer. Section 3 bans guarantees and \"love it or it's free\" style promises, and there's no returns or satisfaction policy in the claims table. I'm treating it as an unbacked guarantee.\n- **Regulated claims:** The ad has no health, money, environmental or children's claims. The only price-related line is the delivery threshold, which is sourced.\n- **House style:** The tone is warm and plain, with no banned words or AI tells. It passes.\n- **Disclosure:** This is a paid ad from the brand's own account, which the platform marks, so no extra label is needed.\n\n**Fixed:** Nothing changed yet. I haven't swapped the line, because the right replacement depends on whether a real remedy exists.\n\n**Needs a decision**\n- Remove or replace \"If your box isn't right, we'll make it right.\" Suggested replacement, using a claim on the allowlist: **\"Pause or cancel any time.\"** If you do have a real returns or satisfaction policy, add it to the claims table with its exact terms and I'll re-check.\n\nSuggested final copy:\n> Headline: Tea Subscription UK | Description: Monthly loose leaf tea. Pause or cancel any time. Free UK delivery on orders over £25.\n\n**Approver:** Sam (marketing lead). No approval is recorded, so this shouldn't go live until Sam says yes to the final wording above, or to the original if the remedy gets documented.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0134895,
+ "seconds": 11.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

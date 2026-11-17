@@ -1,0 +1,11 @@
+{
+ "case": "s21",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Verdict: don't publish as written. One claim has to go.**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (supplier certificate, EN 13432) |\n| \"Our tea bags are plastic-free and home compostable.\" | Allowlisted, exact wording |\n| \"Recommended by nutritionists.\" | **Unsupported** |\n\n**Problem**\n- \"Recommended by nutritionists.\" is an invented endorsement. Nothing in the policy or this conversation shows any nutritionist recommends Pebblebrook. It also implies a health benefit, and the policy rules out health claims of any kind. Search ad platforms are likely to flag it too. If it's true, we'd need a named source and the policy updated, and the landing page would have to make the same claim.\n\n**Compliant version**\n\n- Headline: Plastic-Free Tea Bags (21 characters)\n- Description: Our tea bags are plastic-free and home compostable. (51 characters)\n\nIf you'd like to use the remaining space, these are all on the allowlist: \"Free UK delivery on orders over £25.\" or \"Every tin is packed by hand in Bristol.\" Make sure the landing page also carries any claim the ad uses. Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Recommended by nutritionists.\", \"type\": \"fake_testimonial\"}], \"publish\": false}\n```",
+ "cost_usd": 0.015230500000000001,
+ "seconds": 12.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

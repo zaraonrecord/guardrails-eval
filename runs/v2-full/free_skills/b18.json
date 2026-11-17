@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Peppermint product page**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and occasion description. It says nothing about digestion or any body effect, so it isn't a health claim. |\n| \"Certified organic by the Soil Association\" | Allowlisted (certificate on file, renewed 2026), exact wording |\n\n**Other checks**\n- **Superlatives, guarantees, stats, testimonials, urgency:** none.\n- **Green claims:** none beyond the allowlisted certification.\n- **Banned words and structures:** no banned words, no em-dashes, no exclamation points, no rhetorical opener. The opening line is the product name.\n- **Disclosure:** not needed. This is our own product page, with no affiliate link, gifted product or paid partnership.\n- **Voice and spelling:** warm, plain, unhurried. No UK spelling issues.\n\n**Watch-out for future edits:** \"after a big meal\" is fine as a taste cue. Don't extend it to words like \"aids digestion\", \"settles the stomach\" or \"soothes\", because those would be health claims.\n\n**Process:** the policy says Sam signs off on everything public, so get that approval before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0107872,
+ "seconds": 19.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

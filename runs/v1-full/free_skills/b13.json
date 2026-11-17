@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: creator post (paid)**\n\n**Disclosure:** The post opens with \"Ad\", before anything else, as section 4 requires. Pass.\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Their tins are packed by hand in Bristol\" | Allowlisted (\"Every tin is packed by hand in Bristol\") |\n| \"Pebblebrook's Assam\" | Product fact, covered by the product team's sign-off |\n| \"afternoon reset\", \"ten minutes away from my phone\" | The creator's own routine. It makes no health, stress or wellbeing claim and promises no result. |\n| \"which I love\" | Personal opinion, not a factual claim |\n\n**Other checks**\n- **Superlatives, guarantees, health claims, green claims, urgency:** none.\n- **Invented numbers or testimonials:** none.\n- **Voice and banned words:** no banned words or constructions, and no em-dashes or exclamation marks. The tone is warm, plain and unhurried.\n- **Hands-on experience:** the post implies the creator drinks this tea. Confirm they have actually used the product (owned, or tried properly). If they haven't, the \"my afternoon reset\" framing would have to change.\n\n**Before it goes out:** Sam needs to approve it, since all public content goes through them.\n\nNo changes are needed to the copy.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.013736500000000002,
+ "seconds": 12.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

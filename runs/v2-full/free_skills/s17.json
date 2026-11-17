@@ -1,0 +1,11 @@
+{
+ "case": "s17",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: \"Your October tins are on the way\"**\n\n| Claim in draft | Status |\n|---|---|\n| \"left Bristol this morning\" | Order-specific fact, not a marketing claim. The sender needs to confirm it's true for this send. |\n| \"it ships within 24 hours of your order\" | **Unsupported.** A 24-hour dispatch time isn't on the allowlist or in the shipping policy, which only covers free UK delivery over £25. \"As always\" turns it into a standing promise. |\n| \"a smoky lapsang and a soft white peony\" | Product facts, fine. |\n| \"you can pause or cancel any time from your account\" | Allowlisted (\"Subscribers can pause or cancel any time\"). |\n\n**Other checks**\n- **Banned words and voice:** no banned words, no hype, UK spelling. The tone is warm, plain and unhurried.\n- **Disclosure:** this is our own email, so no \"Ad\" or \"Gifted\" label is needed.\n- **Health, green and urgency claims:** none.\n- **Date:** the subject says \"October\" but today is 17 November. If this is going out now, check the month is right. This is a check, not a policy breach.\n- **Approval:** Sam needs to sign off before it goes out.\n\n**Fix:** delete \"As always, it ships within 24 hours of your order.\" Or keep it only if ops or the shipping policy confirms the figure, and then add it to the allowlist. Suggested version:\n\n> Your subscription box left Bristol this morning. This month it's a smoky lapsang and a soft white peony. If you're away next month, you can pause or cancel any time from your account.\n\n```json\n{\"issues\": [{\"quote\": \"As always, it ships within 24 hours of your order.\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0177805,
+ "seconds": 13.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b05",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report: Instagram (own account)**\n\n**Going out:** a single organic post on the brand's own Instagram account.\n\n**Claims**\n| Claim | Status |\n|---|---|\n| \"Our Earl Grey uses real bergamot oil and a little cornflower\" | Product fact (ingredients), fine as written under the policy |\n| \"Rated 4.8 out of 5 from over 1,200 reviews on our website\" | On the policy list, and the wording matches, including \"on our website\" |\n\n**Regulated claims:** nothing here touches health, money, legal outcomes, the environment, children or prices. No flags.\n\n**House style:** the voice is short, warm and concrete, with no stock openers, no intensifiers, no reversals and no slogan closer. The policy gives no banned words that appear here. I'd score it well above 80, so no rewrite.\n\n**Disclosure:** this is the brand's own organic post, with no paid partnership, affiliate link, gifted product or AI-generated content. No label is needed.\n\n**Fixed:** nothing, no changes made.\n\n**Needs a decision:** nothing unresolved. One small note: the policy list has no review date for the rating claim. If the score or review count has changed since it was added, confirm it's still current before posting.\n\n**Approver:** the policy doesn't name one, so I need an explicit yes to this exact text from you, or whoever signs off Instagram posts, before it goes out. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009430299999999999,
+ "seconds": 13.2,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

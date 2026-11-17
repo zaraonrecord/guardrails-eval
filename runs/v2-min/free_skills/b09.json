@@ -1,0 +1,11 @@
+{
+ "case": "b09",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: search ad, Pebblebrook Tea Co.**\n\n**Copy checked**\n- Headline: 21 characters. Description: 79 characters. Both fit standard search ad limits (30 and 90), though you gave no limit.\n- No ban-list words, no exclamation points, no rhetorical opener, no em-dash sandwiches, no fake urgency.\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Plastic-Free Tea Bags\" | Allowlisted (tea bags are plastic-free) |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted (plastic-free and home compostable) |\n| \"Founded in Bristol in 2019\" | Allowlisted (founded in Bristol in 2019) |\n\n**Flags**\n- Green claims: \"plastic-free\" and \"home compostable\" are environmental claims, which the UK CMA Green Claims Code covers. Both are on your backed-up list, so they can stay. Make sure the landing page states the same two claims, and that your supporting evidence is on file.\n- Ad and landing page match: I can't see the landing page. Confirm it says the tea bags are plastic-free and home compostable, and mentions the 2019 Bristol founding or at least doesn't contradict it.\n\nNothing needs changing.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0122877,
+ "seconds": 12.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

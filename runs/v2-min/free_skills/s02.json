@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Most subscribers stay with us for over a year\" | Unsupported. Not on the allowlist, no source in this chat. Invented retention stat. |\n| \"Subscribers can pause or cancel any time\" | Allowlisted |\n| \"free UK delivery on orders over £25\" | Allowlisted |\n| \"most boxes ship free\" | Unsupported. The allowlist says free delivery over £25, but nothing says most orders reach that threshold. It is an implied statistic about order values. |\n\n**Other checks**\n- Opening line \"Tea that's easy to stop and start\" is a soft, abstract line but not a ban-list hit. Fine, though it could be more concrete (e.g. lead with the pause/cancel fact).\n- No em-dash sandwiches, exclamation points, rhetorical questions or fake urgency.\n- Sentence 3 stitches two claims together awkwardly (\"and free UK delivery... means most boxes ship free\"), and the \"means\" draws the unsupported inference.\n\n**Suggested rewrite**\n\"Pause or cancel your tea subscription any time. Delivery is free in the UK on orders over £25.\"\n\nIf retention proof exists, add: [PROOF NEEDED: subscriber retention figure and source].\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0095563,
+ "seconds": 11.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

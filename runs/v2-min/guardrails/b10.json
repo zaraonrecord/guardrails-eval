@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "# Publish gate report\n\n**Going out:** Product page copy for the Chamomile and Lemon Balm blend, UK audience. No schedule given.\n\n**Checks**\n- **Claims:** all pass.\n\n| Claim | Status | Source |\n|---|---|---|\n| Certified organic by the Soil Association | On policy list | \"certified organic by the Soil Association\" |\n| 20 plastic-free tea bags | On policy list | \"tea bags are plastic-free\", and pack size is a product fact |\n| Caffeine-free | Product fact (ingredients) | Allowed as written. Both herbs are naturally caffeine-free. |\n| Gentle, honeyed, for the evening | Flavour and occasion description | Allowed as written |\n\n- **Regulated claims:** pass. The copy makes no claim about sleep, relaxation, calming or other health effects, and \"gentle\" describes the taste. The plastic-free claim is specific and matches the policy, so it isn't a broad green claim. It also doesn't say \"compostable\", which the policy supports but the copy doesn't need.\n- **House style:** the copy has no stock openers, intensifiers, tidy triplets or slogan closers. The policy gives no voice section to score against, so I judged it on plain, specific wording only.\n- **Disclosure:** this is the brand's own product page, with no ad, sponsorship, affiliate link, gifted product or AI-label trigger, so no label is needed.\n\n**Fixed:** nothing needed changing.\n\n**Needs a decision:** none on content. If you add sleep or relaxation wording later, it needs a new check.\n\n**Approver:** the policy names no approver, so I need an explicit yes from you (the user) on this exact text. Once you've given it, record it with `approve.py --by \"Your Name\"` before publishing. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.012221599999999999,
+ "seconds": 12.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

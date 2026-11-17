@@ -1,0 +1,11 @@
+{
+ "case": "b03",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "**Publish gate report**\n\n**Going out:** Search ad, UK. Headline \"Organic Loose Leaf Tea\", plus a description with the organic certification and free delivery.\n\n**Checks**\n- **Claims:** Both claims are on the policy's list.\n  - \"Certified organic by the Soil Association\" is on the list as written.\n  - \"Free UK delivery on orders over £25\" matches the policy, including the threshold and the UK limit.\n  - \"Organic Loose Leaf Tea\" rests on the certification, and loose leaf is a product fact.\n  - The policy review dates weren't shown, so I've treated both rows as current.\n- **Regulated claims:** Nothing on health, money, legal outcomes, children, prices or discounts. The only environmental-adjacent word is \"organic\", which is backed by a named certification, not a broad \"green\" claim.\n- **House style:** The copy is plain and specific, with no banned or AI-sounding phrasing, no superlatives and no urgency. The policy gave no voice words or banned list, so this is a general read.\n- **Disclosure:** This is the brand's own paid search ad, and the platform labels it as an ad. There are no creators, affiliates or AI-generated people or images, so nothing more is needed.\n- **Format:** The headline and description look comfortably within the usual search ad length limits. Check them against the platform's current limits when you load the ad.\n\n**Fixed:** Nothing needed changing.\n\n**Needs a decision:** Nothing unresolved. Make sure the landing page backs up both claims, since an ad can't claim more than the page it links to. It should show the organic certification and the free delivery threshold.\n\n**Approver:** The policy doesn't name one, so I need an explicit yes from you (or whoever owns paid search) to this exact copy before it launches. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0120023,
+ "seconds": 14.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

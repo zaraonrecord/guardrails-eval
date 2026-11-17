@@ -1,0 +1,11 @@
+{
+ "case": "s10",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"New tins just landed for winter\" | Allowed (new arrivals are a product fact) |\n| \"Deep green, gold lettering\" | Allowed (product fact) |\n| \"planet-friendly packaging\" | **Unsupported.** Not on the allowlist. |\n| \"the same plastic-free tea bags inside\" | Allowlisted |\n| \"Our tea bags are plastic-free and home compostable\" | Allowlisted |\n\n**Problem: \"planet-friendly packaging\"**\nThis is a vague environmental claim. It doesn't say what about the packaging is better for the planet, or compared to what. The UK CMA Green Claims Code and ASA rules expect specific, substantiated environmental claims, and nothing on our list covers the tin. The plastic-free and home-compostable claims apply to the tea bags only, and \"packaging\" in this sentence suggests the tin has the same credentials. Cut it, or replace it with a specific claim once we have proof, for example `[PROOF NEEDED: what makes the tin planet-friendly, e.g. material and whether it's recyclable]`.\n\n**Minor (not blocking):** The draft says \"plastic-free tea bags\" and then repeats \"tea bags are plastic-free\" in the last sentence. Keep the sharper one.\n\n**Compliant version**\n> New tins just landed for winter. Deep green with gold lettering, and the same plastic-free, home compostable tea bags inside.\n\nThe draft has no affiliate or sponsorship content, so no disclosure is needed. Fix the packaging claim before it goes out.\n\n```json\n{\"issues\": [{\"quote\": \"planet-friendly packaging\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0140563,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b11",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: no changes needed.**\n\n**Claims list**\n- \"We've added a Japanese sencha to the shop\": new arrival and origin, which the brand policy allows as written.\n- \"grassy and a little sweet\": flavour description, allowed.\n- \"best brewed cooler than you think, around 70 degrees\": brewing guidance, allowed. \"Best\" here is advice on how to brew, not a superlative about the product.\n\nThe draft makes no claims about statistics, comparisons, guarantees, testimonials, health, environment or urgency, and it has no affiliate or sponsorship content that would need a disclosure.\n\n**Slop check**\n- It has no ban-list words, em-dash sandwiches, exclamation points, rhetorical openers or abstract-noun triads.\n- The first sentence gives the useful fact, which is the new tea.\n- The sentences are short and specific.\n\nIt is also not a product review, so the honest-review labels don't apply.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008227799999999999,
+ "seconds": 8.8,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

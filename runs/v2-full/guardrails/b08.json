@@ -1,0 +1,11 @@
+{
+ "case": "b08",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** landing page hero, UK audience, no scheduled time given.\n\n**Checks**\n- **Claims:**\n  - \"Subscribers can pause or cancel any time\" is on the policy list (subscription terms).\n  - \"Free UK delivery on orders over £25\" is on the policy list (shipping policy).\n  - \"means most boxes ship free\" is not on the list and isn't sourced in this chat. It implies that most orders go over £25, and we have no order data to back that up. It is an unproven claim, so it comes out.\n- **Regulated claims:** the delivery offer is a price claim, but it is stated with its condition (£25 minimum) and matches the shipping policy. Once \"most boxes ship free\" is removed, there's nothing to flag.\n- **House style:** the tone is warm, plain and unhurried. It has no banned words and no AI tells. Score is about 90 as written. Removing the unproven clause also makes it a little cleaner.\n- **Disclosure:** this is our own landing page copy, so no label is needed.\n\n**Fixed (suggested edit):**\n- Removed \"means most boxes ship free\". The delivery condition now stands on its own.\n\nSuggested final copy:\n> Tea that's easy to stop and start. Subscribers can pause or cancel any time, and UK delivery is free on orders over £25.\n\n**Needs a decision:** if the team wants to say that most orders ship free, someone needs to supply order data (for example the share of orders over £25) and add it to the policy's claims list. Otherwise leave it out.\n\n**Approver:** Sam (marketing lead). I need an explicit yes from Sam on the final copy above before it goes live. Any change after approval means a new check.\n\n```json\n{\"issues\": [{\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0118009,
+ "seconds": 13.0,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

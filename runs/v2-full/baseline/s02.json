@@ -1,0 +1,11 @@
+{
+ "case": "s02",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review of the landing hero draft**\n\nTwo claims aren't backed by the claims allowlist, so this shouldn't go out as written.\n\n1. **\"Most subscribers stay with us for over a year.\"** This is a retention statistic, and nothing in the policy supports it. Invented numbers and statistics are on the never-make list. Cut it, or replace it with something that is on the allowlist.\n\n2. **\"means most boxes ship free\"** The free delivery threshold itself is approved wording. But \"most boxes ship free\" claims that most orders are over £25, and we have no data for that. It's also a quiet statistic. Stick to the approved line: \"Free UK delivery on orders over £25.\"\n\n**What's fine:**\n- \"Subscribers can pause or cancel any time\" matches the subscription terms.\n- \"Free UK delivery on orders over £25\" matches the shipping policy.\n- \"Tea that's easy to stop and start\" is plain and warm, with no banned words, and the spelling is UK.\n\n**Suggested rewrite:** \"Tea that's easy to stop and start. Subscribers can pause or cancel any time, and delivery is free in the UK on orders over £25.\"\n\nAs with all public content, it needs Sam's approval before it goes live.\n\n```json\n{\"issues\": [{\"quote\": \"Most subscribers stay with us for over a year.\", \"type\": \"invented_stat\"}, {\"quote\": \"means most boxes ship free\", \"type\": \"invented_stat\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0112261,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

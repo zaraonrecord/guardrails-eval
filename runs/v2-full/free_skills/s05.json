@@ -1,0 +1,11 @@
+{
+ "case": "s05",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: search ad (Pebblebrook Tea Co.)**\n\n**Claims list**\n\n| Claim | Status |\n|---|---|\n| \"Tea Subscription UK\" | Product fact, fine |\n| \"Monthly loose leaf tea.\" | Product fact, fine |\n| \"If your box isn't right, we'll make it right.\" | **Unsupported.** This is an implied satisfaction guarantee (a remedy promise). Nothing in the policy backs it. The policy lists guarantees as a never-claim and says we have no \"love it or it's free\" style offer. |\n| \"Free UK delivery on orders over £25.\" | Allowlisted, exact wording |\n\n**Problem to fix**\n- The \"make it right\" line promises a remedy we haven't documented. It reads as a guarantee, so it has to go unless Sam can supply the actual returns or refund terms. If a real policy exists, it should be added to the allowlist with its exact wording and be stated on the landing page too.\n\n**Other notes**\n- No character limit was given. If this is a Google RSA, the description is about 106 characters against a 90 limit, so it would be rejected as written. The headline is 19 characters, which is fine.\n- Check that the landing page makes the same claims, in particular the free delivery threshold.\n- Under section 6, Sam needs to approve it before it goes live.\n\n**Compliant version (description)**\n\"Monthly loose leaf tea, packed by hand in Bristol. Pause or cancel any time. Free UK delivery over £25.\"\n\nThat is 100 characters, so for a 90-character limit trim it to: \"Loose leaf tea, packed by hand in Bristol. Pause or cancel any time. Free UK delivery over £25.\" and recount against your actual limit before upload. Note that \"over £25\" shortens the allowlisted wording, so use the full \"on orders over £25\" if space allows.\n\n```json\n{\"issues\": [{\"quote\": \"If your box isn't right, we'll make it right.\", \"type\": \"guarantee\"}], \"publish\": false}\n```",
+ "cost_usd": 0.016956500000000003,
+ "seconds": 14.5,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

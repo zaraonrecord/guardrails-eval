@@ -1,0 +1,11 @@
+{
+ "case": "b10",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Certified organic by the Soil Association:** this matches the allowlist wording exactly, and the certificate is on file and renewed for 2026.\n- **20 plastic-free tea bags:** \"plastic-free tea bags\" is in line with what we sell and with the supplier certificate. The count of 20 is a product fact, which the product team checks.\n- **Caffeine-free blend:** this is an ingredient fact, so it's fine as written.\n- **Gentle, honeyed, for the evening:** these describe flavour and occasion. The draft makes no sleep, calming or relaxation claim, so it doesn't count as a health claim.\n- **Superlatives, guarantees, stats, urgency:** there are none.\n- **Voice:** it is warm, plain and unhurried, uses UK spelling, and has none of the banned words.\n- **Disclosure:** none is needed for our own product page.\n\nAs with all public content, Sam needs to approve it before it goes live.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.008412399999999999,
+ "seconds": 18.6,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

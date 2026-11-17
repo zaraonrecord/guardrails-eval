@@ -1,0 +1,11 @@
+{
+ "case": "b18",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Review: Peppermint product page copy**\n\n**Claims check**\n\n| Claim | Status |\n|---|---|\n| \"Just peppermint leaves, nothing else\" | Product fact (ingredients), fine as written |\n| \"Cool and clean after a big meal\" | Flavour and sensation description, fine. It says nothing about digestion or any health effect. |\n| \"Certified organic by the Soil Association\" | Allowlisted |\n\n**Other checks**\n- **Superlatives, stats, guarantees, testimonials:** none.\n- **Urgency or scarcity:** none.\n- **Health or green claims:** none beyond the allowlisted organic certification. Keep \"after a big meal\" as a taste cue. Don't expand it into \"aids digestion\" or \"settles your stomach\", which would be a health claim.\n- **Slop and structure:** no banned vocabulary, no em-dash sandwiches, no exclamation points, no rhetorical-question opener, no \"not just X, it's Y\".\n- **Disclosures:** not applicable. This is the brand's own product page, not a review or affiliate piece.\n\nNothing needs changing, so it is fine to publish.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.009621,
+ "seconds": 9.4,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

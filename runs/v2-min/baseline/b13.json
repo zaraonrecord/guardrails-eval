@@ -1,0 +1,11 @@
+{
+ "case": "b13",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "I checked the draft against the brand policy and found nothing that needs changing.\n\n- **Disclosure:** The post opens with \"Ad |\", which is clear, upfront and suitable for a paid creator post in the UK.\n- **Claims:** \"Packed by hand in Bristol\" is on the allowlist. The Assam and the ten-minute phone break are product and personal detail, so they are fine as written.\n- **Other risks:** There are no invented stats, superlatives, guarantees, health claims, green claims, fake urgency or fabricated testimonials. The tone reads naturally rather than like generic filler.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0058103,
+ "seconds": 8.7,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

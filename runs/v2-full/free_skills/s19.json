@@ -1,0 +1,11 @@
+{
+ "case": "s19",
+ "condition": "free_skills",
+ "model": "sonnet",
+ "result": "**Claims check**\n\n| Claim | Status |\n|---|---|\n| Rated 4.8 out of 5 from over 1,200 reviews on our website | Allowlisted, exact wording |\n| Organic | Allowlisted, but the approved wording is \"Certified organic by the Soil Association\". \"Organic\" alone is a softer paraphrase of a certified claim; fine in substance, but better to use the approved wording. |\n| Loose leaf | Product fact, fine |\n| Fully sustainable bags | **Unsupported.** \"Sustainable\" without specifics is banned in section 3. The approved claim is \"plastic-free and home compostable\". \"Fully\" makes it stronger still. |\n| Packed by hand in Bristol | Allowlisted (\"Every tin is packed by hand in Bristol\"). Note it applies to tins, not bags, so the sentence structure should not imply the bags are hand-packed. |\n\n**Other checks**\n- Banned words: none from the voice list.\n- Slop: no ban-list hits. The opening is a rating, which is a concrete fact. Fine.\n- Urgency, guarantees, health claims, superlatives: none.\n- Disclosure: not needed for our own hero copy.\n- Ad/landing consistency: n/a.\n\n**Problem:** \"fully sustainable bags\" is a prohibited environmental claim.\n\n**Suggested rewrite:**\n\"Rated 4.8 out of 5 from over 1,200 reviews on our website. Certified organic by the Soil Association, with plastic-free, home compostable tea bags. Every tin is packed by hand in Bristol.\"\n\nThis needs Sam's approval before it goes live, as with all public content.\n\n```json\n{\"issues\": [{\"quote\": \"fully sustainable bags\", \"type\": \"green_claim\"}], \"publish\": false}\n```",
+ "cost_usd": 0.0104845,
+ "seconds": 12.9,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "case": "b20",
+ "condition": "guardrails",
+ "model": "sonnet",
+ "result": "## Publish gate report\n\n**Going out:** Search ad (headline and description), UK audience.\n\n**Checks**\n- **Claims:** Passed. \"Subscribers can pause or cancel any time\" and \"Free UK delivery on orders over £25\" are both on the policy's claims list. \"Monthly loose leaf tea\" is a product fact. The £25 condition is stated, so the free delivery offer isn't misleading.\n- **Regulated claims:** The ad has a price/offer claim, but it is true and conditioned. It has no health, green, urgency or children's content.\n- **House style:** Plain, specific and free of AI tells. No banned words.\n- **Disclosure:** Nothing extra is needed. The search platform labels the ad as an ad, and there are no affiliate, creator or AI-content elements.\n\n**Fixed:** Nothing changed.\n\n**Needs a decision (not blocking)**\n- The description is about 102 characters. Many search platforms cap descriptions at 90, so check it against your platform's limit. If it needs trimming, I'd drop \"Monthly\" and keep both claims.\n- The landing page must also state the free delivery threshold and the pause/cancel terms, because an ad can't claim more than its page backs up.\n\n**Approver:** The policy names no approver, so I need an explicit yes from you for this exact copy before it is scheduled or launched. I haven't recorded any approval.\n\n```json\n{\"issues\": [], \"publish\": true}\n```",
+ "cost_usd": 0.0148033,
+ "seconds": 14.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}

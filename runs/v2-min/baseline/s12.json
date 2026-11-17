@@ -1,0 +1,11 @@
+{
+ "case": "s12",
+ "condition": "baseline",
+ "model": "sonnet",
+ "result": "**Review**\n\n- \"the Christmas blend is back\": fine. This is a new-arrival or product fact.\n- \"Black tea, orange peel, cinnamon and a little clove\": fine. These are ingredients, which the policy allows as written.\n- \"It's back in the shop from today\": fine, assuming the launch date is accurate.\n- \"selling fast\": not backed up. Nothing in the allowlist supports a claim about sales pace, and it implies scarcity to push readers into buying. Remove it, or replace it with something verifiable, such as the actual stock position if you have it.\n\nThere are no health, green, statistical, testimonial or guarantee issues, and no missing disclosures. The copy is short and doesn't read as filler.\n\nOnce \"selling fast\" is cut, the draft is fine to publish.\n\n```json\n{\"issues\": [{\"quote\": \"selling fast\", \"type\": \"fake_urgency\"}], \"publish\": false}\n```",
+ "cost_usd": 0.010206,
+ "seconds": 9.3,
+ "models": [
+  "claude-sonnet-5-5"
+ ]
+}
