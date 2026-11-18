@@ -1,6 +1,6 @@
 # Do marketing guardrail Skills actually catch anything Claude wouldn't?
 
-An eval of three ways to check marketing copy with Claude before it's published: plain Claude, a set of free guardrail Skills, and the Guardrails for Marketing Teams pack. Built and run in November 2026 on Claude Sonnet 5.5.
+An eval of four ways to check marketing copy with Claude before it's published: plain Claude, plain Claude with a generic checklist, a set of free guardrail Skills, and the Guardrails for Marketing Teams pack. Built and run in November 2026 on Claude Sonnet 5.5.
 
 Every draft ran three times per setup, and there's a fourth setup that gives plain Claude a generic checklist as long as the Guardrails text, to test whether length alone does the work.
 
