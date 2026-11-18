@@ -110,6 +110,8 @@ python3 score.py summary                                      # all runs in one 
 
 Needs the Claude CLI signed in. Download the Guardrails pack from marketingprompthub.com/guardrails/ and set `GUARDRAILS_SKILLS` to its unzipped skills folder (`PAID_SKILLS` still works as the old name). The free Skills are at github.com/zaraonrecord/claude-marketing-skills.
 
+`runs/*/_stale/` holds the first round 1 runs, kept for the record. They were made before the runner stored prompt hashes, so the rerun couldn't prove they used the same prompt and ran round 1 again instead. They aren't counted anywhere.
+
 Each result stores a hash of the prompt, model and policy, and is reused only when that matches, so changing a Skill or the policy can't quietly mix old and new results. Each run also writes `runs/<version>/manifest.json`, which `score.py` reads to know which cases it used.
 
 Tests: `uvx ruff check . && uv run --no-project --with pytest python -m pytest -q`
