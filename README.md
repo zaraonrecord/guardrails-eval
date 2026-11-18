@@ -113,3 +113,7 @@ Needs the Claude CLI signed in. Download the Guardrails pack from marketingpromp
 Each result stores a hash of the prompt, model and policy, and is reused only when that matches, so changing a Skill or the policy can't quietly mix old and new results. Each run also writes `runs/<version>/manifest.json`, which `score.py` reads to know which cases it used.
 
 Tests: `uvx ruff check . && uv run --no-project --with pytest python -m pytest -q`
+
+## Licence
+
+Code is MIT. The drafts, brand policy, rulings and results are CC BY 4.0. See `LICENSE`.
